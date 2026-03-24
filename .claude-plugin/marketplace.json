@@ -1,12 +1,11 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "nic-plugins",
+  "version": "1.0.0",
+  "description": "Private plugin marketplace for Nic's business tools",
   "owner": {
     "name": "Nicasio Co III",
     "email": "nicasioiii@gmail.com"
-  },
-  "metadata": {
-    "description": "Private plugin marketplace for Nic's business tools",
-    "version": "1.0.0"
   },
   "plugins": [
     {

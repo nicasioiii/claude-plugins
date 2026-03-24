@@ -34,7 +34,7 @@ Unit economics determine campaign viability. They are the hidden foundation of s
 | 12% | 8.33x | Nearly impossible -- fix margins first |
 
 ### Real Example: Why Margins Kill Campaigns
-Client with $40.2K revenue, $3.3K ad spend, but only 12% gross margin:
+Client with $40.2K revenue, $3.3K ad spend, but only 12% profit margin:
 - Contribution margin: just 4% ($1.7K euros)
 - Average gross profit per order: $2.87
 - Break-even ROAS needed: 7.58x (758%)

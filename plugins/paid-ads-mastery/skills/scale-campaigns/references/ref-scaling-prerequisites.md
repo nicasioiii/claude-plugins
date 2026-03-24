@@ -57,7 +57,7 @@ Your product/service by itself is NOT an irresistible offer -- you must package 
 - CAC must be lower than CLV.
 
 ### Real Warning Example (PPC Hub)
-Client with 40.2K revenue, 3.3K ad spend, but only 12% gross margin = contribution margin of 4% (1.7K euros). Break-even ROAS needed: 7.58x (758%). Completely unscalable -- no amount of Google Ads optimization fixes this.
+Client with 40.2K revenue, 3.3K ad spend, but only 12% profit margin = contribution margin of 4% (1.7K euros). Break-even ROAS needed: 7.58x (758%). Completely unscalable -- no amount of Google Ads optimization fixes this.
 
 ### Lead Gen Unit Economics
 - **Average Deal Value** = Revenue / Closed Deals.
@@ -118,7 +118,7 @@ If lowering budget = good ROAS and increasing budget = bad ROAS, the problem is 
 | **Poor conversion rate** | CTR good but CVR bad | Fix website/landing page (CRO, not ad strategy) |
 | **Too much competition** | High CPMs/CPCs, saturated market | Differentiate offer or find less competitive markets |
 | **Product-market limitations** | TAM ceiling reached, frequency climbing | Accept ceiling or expand product line |
-| **Poor unit economics** | Gross margin <20%, break-even ROAS >5x | Fix pricing, COGS, or business model |
+| **Poor unit economics** | Profit margin <20%, break-even ROAS >5x | Fix pricing, COGS, or business model |
 | **Sales team failure (lead gen)** | Good leads, low close rate | Sales training, follow-up automation |
 
 ### The Bottleneck Analysis System (PPC Hub)

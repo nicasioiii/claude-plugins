@@ -41,7 +41,7 @@ description: >
 
 **1. Unit Economics: Are You Actually Profitable?**
 - Calculate break-even ROAS: 1 / Profit Margin.
-- If gross margin is 12%, break-even ROAS is 8.3x -- nearly impossible to scale.
+- If profit margin is 12%, break-even ROAS is 8.3x -- nearly impossible to scale.
 - If contribution margin after ad spend is <5%, scaling will amplify losses.
 -> If unit economics are broken, see ref-scaling-prerequisites.md.
 

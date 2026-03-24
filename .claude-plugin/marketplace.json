@@ -1,0 +1,20 @@
+{
+  "name": "nic-plugins",
+  "owner": {
+    "name": "Nicasio Co III",
+    "email": "nicasioiii@gmail.com"
+  },
+  "metadata": {
+    "description": "Private plugin marketplace for Nic's business tools",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "cfo-finance-mastery",
+      "source": "./plugins/cfo-finance-mastery",
+      "description": "Comprehensive CFO-level financial analysis, modeling, forecasting, dashboards, profit optimization, and strategic advisory.",
+      "version": "1.2.0",
+      "keywords": ["finance", "cfo", "forecasting", "modeling", "dashboards", "profit"]
+    }
+  ]
+}

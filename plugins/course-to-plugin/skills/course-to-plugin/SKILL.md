@@ -124,12 +124,16 @@ Package modified plugins as `.plugin` files alongside the main deliverable.
 
 Read `references/build-process.md` Phase 6 for the detailed audit checklist.
 
-This is a recursive audit loop that catches errors build agents commonly introduce. Each cycle runs the FULL checklist — content accuracy, structural quality, and cross-references.
+This is a recursive audit loop with TWO audit dimensions that run together in each cycle:
+1. **Structural & Accuracy Audit** — formatting, frontmatter, formulas, cross-references (checks 1-23)
+2. **Content Completeness Audit** — verifying extraction knowledge actually survived into the built plugin (checks 24-30)
+
+Both dimensions run in EVERY cycle. Content completeness is not optional — it's the difference between a plugin that passes format checks and one that actually captures the course knowledge.
 
 ```
 cycle = 1
 while cycle <= 10:
-    spawn audit agent with FULL checklist
+    spawn audit agent with FULL checklist (structural + content completeness)
     if audit finds 0 issues:
         log "CLEAN — audit passed on cycle {cycle}"
         break
@@ -139,12 +143,12 @@ while cycle <= 10:
         cycle += 1
 ```
 
-The audit agent must check EVERY file and produce a structured report. From past builds (CFO Finance Mastery), we needed 3 cycles to catch everything:
-- Cycle 1: Found inverted formula, missing retained earnings bridge, circular frontmatter, genericized benchmarks, missing CLAUDE.md routing entries
-- Cycle 2: Found thin reference files (<300 lines), missing WHO learner type, vague routing
-- Cycle 3: Confirmed production-ready
+The audit agent must check EVERY file and produce a structured report. From past builds, we typically need 3 cycles:
+- Cycle 1: Structural issues (broken refs, thin files, missing frontmatter, genericized numbers)
+- Cycle 2: Content completeness gaps (missed frameworks, watered-down tactics, lost benchmarks)
+- Cycle 3: Verify all fixes, confirm production-ready
 
-Do NOT skip this phase. Do NOT stop after 1 cycle unless the audit is genuinely clean.
+Do NOT skip this phase. Do NOT stop after 1 cycle unless the audit is genuinely clean on BOTH dimensions.
 
 ## Phase 7: Packaging & Delivery
 
@@ -172,10 +176,11 @@ The marketplace repo is at `/Users/Nic/Documents/GitHub/claude-plugins/`.
 
 ## Key Principles
 
-- **Zero knowledge loss**: After the plugin is built, the user should never need to re-watch any course
+- **Zero knowledge loss**: After the plugin is built, the user should never need to re-watch any course. Every framework, formula, benchmark, template, and contrarian insight from the source material must survive into the final plugin. The Content Completeness Audit (checks 24-30) enforces this.
 - **Depth over breadth**: 8 incredible skills beats 20 shallow ones
 - **Opinionated**: State best practices as rules, not suggestions. Hedge only when experts genuinely disagree.
 - **Practical**: Include actual structures, configurations, templates, and checklists — not vague guidance
 - **Synthesized**: Organize by workflow stage, not by source course. When experts disagree, present both perspectives with context.
+- **Audit both structure AND content**: A plugin that passes formatting checks but lost half the tactical detail is a failure. The recursive audit must verify BOTH structural quality AND content completeness on every cycle.
 - **Autonomous**: Don't ask unnecessary questions. Make decisions and document reasoning.
 - **Dual-compatible**: Every plugin works in both Cowork (CLAUDE.md + skills) and Claude Code (agents/ + settings.json)

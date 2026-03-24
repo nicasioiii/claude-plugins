@@ -467,22 +467,48 @@ CROSS-REFERENCE CHECKS:
 22. Commands reference real, existing skill names (not typos or old names)
 23. All file references in SKILL.md "When to read references" sections point to real files
 
+CONTENT COMPLETENESS CHECKS (read extraction files side-by-side with built plugin):
+24. TOPIC CLUSTER COVERAGE: For each extraction file, verify every major topic cluster (## heading) has representation in at least one skill or reference file. List any extraction topics that were dropped or have no home.
+25. FRAMEWORK/FORMULA SURVIVAL: Extract all named frameworks, formulas, and methodologies from extraction files (e.g., "PMS Formula", "Rule of One", "Bell Theory"). Verify each appears in the built plugin with full tactical detail — not just mentioned by name but actually explained with steps/components.
+26. BENCHMARK/DATA POINT SURVIVAL: Extract all specific numbers, percentages, dollar amounts, and benchmarks from extraction files. Verify each appears somewhere in the plugin. Flag any that were genericized (e.g., "47%" became "about 50%") or dropped entirely.
+27. CONTRARIAN INSIGHT SURVIVAL: All insights tagged [CONTRARIAN] or [NON-OBVIOUS] in extraction files must appear in the built plugin. These are the highest-value differentiators — losing them defeats the purpose of the plugin.
+28. TACTICAL DEPTH RATIO: For each major topic, compare the extraction content depth to the reference file depth. If the extraction has 50+ lines on a topic but the reference file has <15 lines on that same topic, the content was over-summarized. Flag topics where >50% of tactical detail was lost in translation.
+29. TEMPLATE/CHECKLIST COMPLETENESS: All step-by-step templates, checklists, decision trees, and fill-in-the-blank frameworks from extractions must be in reference files with full structure intact — not condensed into a single sentence in the SKILL.md.
+30. CROSS-INSTRUCTOR SYNTHESIS: Where multiple instructors covered the same topic, verify the plugin synthesizes their perspectives (not just picks one). Where instructors disagree, verify the disagreement is documented with both positions and when each applies.
+
 OUTPUT: Structured report with:
-- PASS/FAIL for each numbered check
+- PASS/FAIL for each numbered check (1-30)
 - For each FAIL: file path, specific issue, recommended fix
-- Content gap list (extraction topics missing from plugin)
-- Issue count summary
+- Content completeness score: X/7 completeness checks passed
+- List of specific extraction content that didn't make it into the plugin
+- Issue count summary (structural vs content completeness breakdown)
 - Overall verdict: CLEAN / NEEDS FIXES
 ```
 
 ### Handling Audit Fixes
 
-After each cycle:
-1. Fix ALL structural failures immediately (missing frontmatter, bad plugin.json, etc.)
-2. Fix content accuracy issues (wrong formulas, genericized numbers)
-3. For reference files under 300 lines — expand with more detail from extractions
-4. For missing CLAUDE.md routing entries — add them
-5. Re-run the full audit (not just the failed checks)
+After each cycle, fix in this priority order:
+
+**Priority 1 — Structural failures (checks 8-19):**
+1. Fix missing frontmatter, bad plugin.json, broken file references
+2. Fix thin reference files — expand with more detail from extractions
+3. Fix missing CLAUDE.md routing entries, WHO clauses, TRIGGERS
+
+**Priority 2 — Content accuracy failures (checks 1-7):**
+4. Fix wrong/inverted formulas
+5. Fix genericized numbers (restore exact values from extractions)
+6. Fix terminology inconsistencies across skills
+
+**Priority 3 — Content completeness failures (checks 24-30):**
+7. For dropped topic clusters (check 24): add content to the appropriate skill's reference files, sourced from the extraction files
+8. For lost frameworks/formulas (check 25): add the full framework with all steps/components to the relevant reference file
+9. For dropped benchmarks (check 26): add the specific numbers to the relevant reference file or skill
+10. For lost contrarian insights (check 27): add them to the relevant skill or reference file with [CONTRARIAN] tag
+11. For over-summarized topics (check 28): expand the reference file with the tactical detail from the extraction
+12. For incomplete templates (check 29): add the full template structure to the reference file
+13. For missing synthesis (check 30): add the second instructor's perspective with a "When experts disagree" section
+
+**Then:** Re-run the FULL audit (all 30 checks, not just the failed ones)
 
 ### Phase 6 (Update Mode)
 - Full recursive audit of the ENTIRE updated plugin (not just new files)

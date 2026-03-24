@@ -146,3 +146,15 @@ After extraction, verify:
 - [ ] Templates and frameworks retain their exact structure
 - [ ] Anti-patterns and warnings are captured
 - [ ] Contrarian insights are flagged
+
+## Content Completeness Tagging (for downstream audit)
+
+To make the Content Completeness Audit (Phase 6, checks 24-30) effective, extraction agents should tag content for easy cross-referencing:
+
+1. **Use clear ## headings for topic clusters** — the audit will check every ## heading has a home in the built plugin
+2. **Tag contrarian insights with [CONTRARIAN]** — audit will verify all tagged items survived into the plugin
+3. **Tag named frameworks with [FRAMEWORK: Name]** — audit will verify each named framework is fully explained (not just mentioned) in the plugin
+4. **Preserve exact numbers inline** — audit will grep for specific numbers and verify they appear in the built plugin
+5. **Tag templates/checklists with [TEMPLATE]** or [CHECKLIST]** — audit will verify the full structure made it into reference files
+
+The extraction is the single source of truth for the Content Completeness Audit. If something isn't captured here, it can't be audited downstream. When in doubt, extract MORE — the audit will catch over-extraction but can never catch under-extraction.

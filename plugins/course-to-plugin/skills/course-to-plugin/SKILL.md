@@ -100,6 +100,7 @@ Also create:
 - `CLAUDE.md` at plugin root with routing logic, ambiguous-request decision tree, cross-references, and product marketing context check
 - `.claude-plugin/plugin.json` with **ONLY** name, version, description (no extra fields — extra fields break plugin detection)
 - All slash commands as `commands/*.md` files (each with proper YAML frontmatter)
+- **`README.md`** at plugin root — MANDATORY. Must list every skill, every command, source material, workflow layers, and audit status. See `references/build-process.md` Phase 7 for the exact template. Generate from the ACTUAL built files, not from the architecture doc.
 
 **Dual-compatibility (Claude Code support):**
 

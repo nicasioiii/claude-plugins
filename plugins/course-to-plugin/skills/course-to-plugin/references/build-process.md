@@ -467,6 +467,14 @@ CROSS-REFERENCE CHECKS:
 22. Commands reference real, existing skill names (not typos or old names)
 23. All file references in SKILL.md "When to read references" sections point to real files
 
+README CHECKS:
+24a. README.md exists at plugin root
+24b. README lists the CORRECT number of skills (count actual skill directories, not what was planned)
+24c. README lists the CORRECT number of commands (count actual command files)
+24d. README version matches plugin.json version
+24e. README includes source material list, workflow description, and audit status
+24f. If this is a rebuild/update: README includes "What's New" section
+
 CONTENT COMPLETENESS CHECKS (read extraction files side-by-side with built plugin):
 24. TOPIC CLUSTER COVERAGE: For each extraction file, verify every major topic cluster (## heading) has representation in at least one skill or reference file. List any extraction topics that were dropped or have no home.
 25. FRAMEWORK/FORMULA SURVIVAL: Extract all named frameworks, formulas, and methodologies from extraction files (e.g., "PMS Formula", "Rule of One", "Bell Theory"). Verify each appears in the built plugin with full tactical detail — not just mentioned by name but actually explained with steps/components.
@@ -553,11 +561,47 @@ After each cycle, fix in this priority order:
    - Areas where additional courses would strengthen the plugin
    - Any content that didn't fit cleanly into the skill structure
 
-6. **README** — Inside the plugin at `plugin/README.md`
-   - What the plugin covers
-   - List of all skills with brief descriptions
-   - List of all commands with usage
-   - Installation instructions
+6. **README.md** — Inside the plugin at `plugin/README.md` (MANDATORY — must be created or updated on EVERY build/rebuild)
+
+   The README is the public-facing documentation. It MUST accurately reflect the current state of the plugin. Generate it from the actual built files, not from memory.
+
+   **Required sections:**
+   ```markdown
+   # [Plugin Name] v[version]
+
+   [1-2 paragraph description of what this plugin covers and who it's for]
+
+   ## Source Material
+   - [List every course/source with instructor name]
+   - Total: [X] courses, [Y] files, [Z] lines of source material
+
+   ## Skills ([count])
+
+   | Skill | Description | Reference Files |
+   |-------|-------------|-----------------|
+   | [skill-name] | [human-readable name] — [1-line description] | [count] |
+   [... one row per skill ...]
+
+   ## Commands ([count])
+
+   | Command | Description |
+   |---------|-------------|
+   | `/[command]` | [What it does] |
+   [... one row per command ...]
+
+   ## Workflow
+   [Describe the layer/stage organization: Setup → Research → Strategy → Create → Test → Optimize → Scale, or whatever the plugin's workflow is]
+
+   ## What's New in v[version]
+   [If this is a rebuild: list new skills, expanded skills, removed/merged skills, key improvements vs previous version]
+
+   ## Audit Status
+   - Structural audit (checks 1-23): PASS
+   - Content completeness audit (checks 24-30): PASS
+   - Total audit cycles: [N]
+   ```
+
+   **CRITICAL:** The README must be regenerated from the ACTUAL built plugin files — count the real skills, list the real commands, use the real version number. Do NOT copy-paste from a previous version or from the architecture doc (which may have changed during build).
 
 ### Presenting to user
 
@@ -567,6 +611,12 @@ Use `present_files` tool to present `.plugin` files — this gives the user a cl
 - Bump version in plugin.json:
   - **Patch** (1.0.0 -> 1.0.1) for content additions to existing skills
   - **Minor** (1.0.0 -> 1.1.0) for new skills added
+- **REGENERATE README.md** — Do NOT skip this. The README must reflect the current plugin state:
+  - Update skill count and table
+  - Update command count and table
+  - Update source material list if new courses were added
+  - Add "What's New in v[version]" section documenting changes
+  - Update audit status
 - Update marketplace.json entry description if scope changed
 
 ---

@@ -47,6 +47,11 @@
       "name": "seo-mastery",
       "source": "./plugins/seo-mastery",
       "description": "Keyword research, content strategy, technical SEO, link building, local/ecommerce SEO at scale, and analytics."
+    },
+    {
+      "name": "course-to-plugin",
+      "source": "./plugins/course-to-plugin",
+      "description": "Transform course transcripts into production-ready plugins. Supports new builds and updating existing plugins with recursive deep audits."
     }
   ]
 }

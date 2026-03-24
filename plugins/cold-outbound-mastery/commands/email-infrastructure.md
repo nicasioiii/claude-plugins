@@ -1,4 +1,5 @@
 ---
+name: Email Infrastructure
 description: Set up or audit email sending infrastructure and deliverability
 argument-hint: "<setup or audit>"
 ---

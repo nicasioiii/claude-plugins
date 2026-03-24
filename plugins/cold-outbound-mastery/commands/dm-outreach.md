@@ -1,4 +1,5 @@
 ---
+name: DM Outreach
 description: Create DM outreach sequences for Instagram, Facebook, or Twitter/X
 argument-hint: "<platform and ICP>"
 ---

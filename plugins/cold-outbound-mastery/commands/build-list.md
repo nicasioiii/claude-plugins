@@ -1,4 +1,5 @@
 ---
+name: Build List
 description: Build a targeted prospect list for outbound campaigns
 argument-hint: "<ICP or target market>"
 ---

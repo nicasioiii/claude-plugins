@@ -1,4 +1,5 @@
 ---
+name: LinkedIn Outreach
 description: Create a LinkedIn outreach campaign or optimize your LinkedIn presence
 argument-hint: "<ICP or campaign goal>"
 ---

@@ -1,4 +1,5 @@
 ---
+name: First Line
 description: Generate personalized opening lines for cold outreach
 argument-hint: "<prospect name, company, or LinkedIn URL>"
 ---

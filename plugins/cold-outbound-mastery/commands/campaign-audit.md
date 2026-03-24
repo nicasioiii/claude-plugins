@@ -1,4 +1,5 @@
 ---
+name: Campaign Audit
 description: Diagnose and optimize an underperforming outbound campaign
 argument-hint: "<channel and current metrics>"
 ---

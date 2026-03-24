@@ -1,4 +1,5 @@
 ---
+name: Cold Email
 description: Write a cold email, sequence, or follow-up cadence
 argument-hint: "<prospect, offer, or ICP>"
 ---

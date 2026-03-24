@@ -1,4 +1,5 @@
 ---
+name: Cold Call
 description: Generate cold calling scripts or optimize phone outreach
 argument-hint: "<offer or target role>"
 ---

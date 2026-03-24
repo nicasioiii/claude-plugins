@@ -1,396 +1,126 @@
 ---
 name: Write Ad
-description: Ad creative generator that asks platform, product, audience, awareness level, and format. Enforces character limits and generates ad copy/hooks. References create-meta-ads-traditional or create-google-ads skills.
+description: Generate ad copy, video scripts, AI ad scripts, or Google assets. Asks platform, product, audience, awareness level, and format, then produces ready-to-use creative using the appropriate skill.
 ---
 
-# Ad Copy & Creative Generator
+# /write-ad -- Ad Copy & Creative Generator
 
-## Step 1: Platform Selection
+## INTAKE QUESTIONS (Ask All Before Writing)
 
-**What platform are you writing for?**
-- A) **Meta Ads** (Facebook/Instagram) → Go to Step 2a
-- B) **Google Shopping** (Product titles/descriptions) → Go to Step 2b
-- C) **Google Search** (Ad headlines/descriptions) → Go to Step 2b
+### Question 1: Platform & Format
+**What platform and format do you need?**
 
----
+| Choice | Skill Activated |
+|--------|----------------|
+| A) Meta/Facebook/Instagram -- **static ad copy** | `create-ad-copy` |
+| B) Meta/Facebook/Instagram -- **video script** | `create-video-ads` |
+| C) Meta/Facebook/Instagram -- **AI-generated video** | `create-ai-ads` |
+| D) Google -- **RSA headlines/descriptions** | `create-google-assets` |
+| E) Google -- **Shopping product titles** | `create-google-assets` |
+| F) Google -- **YouTube ad script** | `create-google-assets` |
+| G) Google -- **PMax asset group** | `create-google-assets` |
+| H) TikTok -- **video ad** | `create-video-ads` + `strategy-tiktok-ads` |
 
-## Step 2a: Meta Ads Creative Type
+### Question 2: Product/Service
+**Describe your product/service in 2-3 sentences. Include:**
+- What it does
+- Price point (or range)
+- Key differentiator vs. competitors
 
-**What type of creative do you need?**
+### Question 3: Target Audience
+**Who is this ad targeting?**
+- Age range, gender (if relevant)
+- Primary pain point or desire
+- What they've tried before that didn't work
 
-### Option 1: Video Ad Copy
-**Go to:** Meta Hook & Copy Framework
-**What's needed:** Hook (first 2-5 sec), USPs (3-5), Social proof, Objections, CTA
-**Output:** Full video script with timings
+### Question 4: Awareness Level
+**Where is your audience on the awareness spectrum?**
+- **Unaware:** Don't know they have a problem
+- **Problem-aware:** Know the problem, not the solution
+- **Solution-aware:** Know solutions exist, haven't chosen one
+- **Product-aware:** Know your product, haven't decided
+- **Most-aware:** Ready to buy, need a push
 
-### Option 2: Static Image Ad
-**Go to:** Static Ad Copy Framework
-**What's needed:** Headline, Body copy, CTA, Emoji usage
-**Output:** Ad copy optimized for feed placement
-
-### Option 3: Carousel Ad
-**Go to:** Carousel Copy Framework
-**What's needed:** Multiple headlines (3-5), Body, Individual CTA per card
-**Output:** Complete carousel sequence
-
----
-
-## Step 2b: Google Ads Format
-
-**What are you optimizing?**
-
-### Option 1: Shopping Product Title
-**Go to:** Google Product Title Optimization
-**What's needed:** Main keyword, variants, brand positioning
-**Output:** SEO-optimized title (60-70 characters)
-
-### Option 2: Product Description
-**Go to:** Google Product Description Framework
-**What's needed:** Product overview, key features, benefits, emotional appeal
-**Output:** 150-300 word optimized description
-
-### Option 3: Search Ad Headlines
-**Go to:** Google Search Ad Copy Framework
-**What's needed:** Main benefit, offer, CTA, 30-character limit per headline
-**Output:** 3 high-converting headlines
-
-### Option 4: Search Ad Descriptions
-**Go to:** Google Search Ad Copy Framework
-**What's needed:** Secondary benefit, proof element, final CTA
-**Output:** 2 descriptions (90 characters max each)
+### Question 5: Creative Context
+**Any additional context?**
+- Existing winning ads to reference?
+- Specific angles to test?
+- Seasonal/promotional element?
+- Tone preference? (humor, serious, educational, aspirational)
 
 ---
 
-# META ADS: COMPLETE GENERATION FRAMEWORK
+## GENERATION PROCESS
 
-## Step 3a: Product & Audience Information
+### For Static Ad Copy (Choice A)
+1. Load `create-ad-copy` SKILL.md
+2. Select copy template based on awareness level:
+   - Unaware/Problem-aware: Long-form or bullet template
+   - Solution-aware/Product-aware: Bullet or short-form template
+   - Most-aware: Short-form template
+3. Apply emotional sandwich framework (emotional > logical > emotional)
+4. Select 1-2 persuasion principles from ref-copy-psychology
+5. Write hook text using condensing technique
+6. Generate: Primary text + Headline + Description
+7. Include 3 headline variations for testing
 
-**Provide these details:**
+### For Video Scripts (Choice B)
+1. Load `create-video-ads` SKILL.md
+2. Select video framework based on product/audience:
+   - Older audience + complex product: Mini VSL
+   - Standard DR: Single-Creator UGC
+   - Social proof heavy: UGC Mashup
+   - Visual product: Non-Narrated UGC
+3. Select script framework based on awareness level
+4. Write full script with visual directions and timing
+5. Include 3 hook variations
+6. Add demographic-appropriate pacing notes
 
-1. **Product Name:** [What are you selling?]
-2. **Primary Problem It Solves:** [What pain point does it address?]
-3. **Unique Selling Point:** [What makes it different?]
-4. **Price Point:** $___
-5. **Target Audience Age:** ___-___
-6. **Target Audience Interests:** [E.g., fitness enthusiasts, busy parents]
+### For AI Video Ads (Choice C)
+1. Load `create-ai-ads` SKILL.md
+2. Write script using appropriate template (clone, UGC-style, or seasonal)
+3. Break into 8-second segments for Google Flow
+4. Include Whisk scene descriptions for each segment
+5. Add visual direction notes for each scene
+6. Include editing notes for CapCut assembly
 
-**Awareness Level** (Customer's starting point):
-- Problem-Aware: "I know I have this problem"
-- Solution-Aware: "I know solutions exist but not sure which"
-- Product-Aware: "I know about your product already"
-- Most-Aware: "I've seen your ads before"
+### For Google RSA (Choice D)
+1. Load `create-google-assets` SKILL.md
+2. Extract 6 message angles from product info
+3. Write 6-8 headlines using the 7 types framework
+4. Write 2-3 descriptions (80-90 chars each)
+5. All headlines 25-30 characters
+6. Include DKI for relevance anchor headline
 
----
+### For Shopping Titles (Choice E)
+1. Load `create-google-assets` ref-google-shopping-titles
+2. Identify search terms and rank by volume
+3. Apply left-to-right importance rule
+4. Generate title (70-100 chars sweet spot)
+5. Write original product description (100-200 words)
 
-## Step 4a: Hook Generation (Video)
+### For YouTube Scripts (Choice F)
+1. Load `create-google-assets` ref-google-youtube-scripts
+2. Apply 7 must-have elements framework
+3. Write 1.5-3 minute script with all elements
+4. Include The One Thing golden thread throughout
+5. Hook in first 5 seconds (before skip button)
 
-**Your Product:** [Product Name]
-**Problem:** [Primary Problem]
-**Awareness:** [Level]
-
-### Hook Options (Choose 1-2 to develop):
-
-**Option 1: Pattern Interrupt Hook**
-- Unexpected visual (something shocking/unusual)
-- Example: Person doing something strange with your product
-- Best for: All products, highest engagement
-- Output: "Open with [visual], holds viewer's curiosity"
-
-**Option 2: Benefit-Forward Hook**
-- Lead with transformation/result
-- Example: "Get [benefit] in [timeframe]"
-- Best for: Benefit-driven products (courses, supplements)
-- Output: "Most people [problem], but [your solution]..."
-
-**Option 3: Question Hook**
-- Open with compelling question
-- Example: "What if you could [dream outcome]?"
-- Best for: Solution-aware audiences
-- Output: "Have you ever [relatable scenario]?"
-
-**Option 4: Social Proof Hook**
-- Start with testimonial or result
-- Example: "10,000+ people already [result]"
-- Best for: Competitive markets, trust-building
-- Output: "Here's what [customer type] achieved..."
-
-**Option 5: How-To Hook**
-- Educational angle, show value immediately
-- Example: "Here's the easiest way to [result]"
-- Best for: Niche/technical products
-- Output: "Step 1: [simple action]..."
-
-### Generated Hook:
-```
-[Your selected hook type]
-
-Hook Copy:
-[Generated 30-second hook focusing on pattern interrupt and curiosity]
-
-Target Duration: 2-5 seconds
-Hold Rate Target: 35%+
-Platform: Reels / Feed Video
-```
+### For PMax Assets (Choice G)
+1. Load `create-google-assets` ref-google-pmax-assets
+2. Generate: 5 headlines + 5 long headlines + 5 descriptions
+3. Include image direction notes
+4. Include video concept brief
+5. Ensure assets work across all PMax placements
 
 ---
 
-## Step 5a: Copy Generation (Full Ad)
-
-**Select Copy Template:**
-
-### Template 1: Problem-Agitation-Solution-Benefit (PASB)
-```
-PROBLEM: "Most [target audience] struggle with [problem]"
-AGITATION: "[Consequence] This means [emotional impact]"
-SOLUTION: "That's why [product name] was created"
-BENEFIT: "[Specific result] in just [timeframe]"
-CTA: "See how → [Link]"
-
-Character count: ___/200
-Emojis: 2-3 strategic placements
-Vibe: Conversational, relatable
-```
-
-### Template 2: Short-Form / Punchy
-```
-HEADLINE: "Stop [pain point]. Start [desired state]."
-SUBHEADER: "Here's how [your product] does it:"
-BULLETS:
-  ✓ [Benefit 1]
-  ✓ [Benefit 2]
-  ✓ [Benefit 3]
-CTA: "Get yours now"
-
-Character count: ___/120
-Emojis: 1 per benefit
-Vibe: Direct, no-nonsense
-```
-
-### Template 3: Testimonial-Based
-```
-SETUP: "Before using [product], [target] was [pain point]"
-TRANSFORMATION: "Then they tried [product]..."
-RESULT: "Now [specific quantified result]"
-SOCIAL PROOF: "[Quote from actual customer]"
-CTA: "See their full story"
-
-Character count: ___/150
-Emojis: 1-2 (confidence builders)
-Vibe: Authentic, relatable
-```
-
-### Template 4: Comparison
-```
-COMMON MISTAKE: "Most people try [wrong approach]"
-THE PROBLEM: "But that leads to [bad outcome]"
-THE DIFFERENCE: "[Your product] does [specific thing differently]"
-PROOF: "[Social proof / result]"
-CTA: "Learn the better way"
-
-Character count: ___/140
-Emojis: 2 (before/after visual)
-Vibe: Educational, authority
-```
-
----
-
-## Step 6a: CTA & Emoji Optimization
-
-### CTA Options (Choose 1):
-- "Shop Now" (Direct, high intent)
-- "Learn More" (Exploratory, lower commitment)
-- "Get [Product]" (Personalized)
-- "See How" (Educational angle)
-- "Discover [Result]" (Aspirational)
-- "Join [Community]" (Community-focused)
-
-### Emoji Placement:
-- ✅ Use 1-3 emojis strategically (not scattered)
-- ✅ Emojis that match product category
-- ✅ Examples: 💪 (strength), 🎯 (goal), ⏱️ (speed), ❤️ (care)
-- ❌ Avoid: Random emoji, >3 total, conflicting emotions
-
----
-
-## Step 7a: Final Meta Ad Copy
-
-```
-[HEADLINE]
-[BODY COPY with emoji]
-
-[SOCIAL PROOF ELEMENT if applicable]
-
-[CTA BUTTON TEXT]
-
----
-
-FORMAT: [9x16 Video / 1x1 Square / 4x5 Portrait / Carousel]
-COPY WORD COUNT: [Count]
-CHARACTER LIMIT: [Status: ✅ Within Limits / ❌ Too Long]
-EMOJI COUNT: [Count]/3 optimal
-VIBE CHECK: [Conversational / Punchy / Authoritative / Relatable]
-AWARENESS MATCH: [Matches selected audience awareness level]
-```
-
----
-
-# GOOGLE ADS: COMPLETE GENERATION FRAMEWORK
-
-## Step 3b: Product & Keyword Information
-
-**Provide these details:**
-
-1. **Product Name:** [What are you selling?]
-2. **Product Price:** $___
-3. **Key Benefit:** [Main selling point]
-4. **Target Keyword:** [What are people searching?]
-5. **Competitive Advantage:** [How is yours different?]
-6. **Call-to-Action:** [Shop / Learn / Buy / Get]
-
----
-
-## Step 4b: Google Shopping Product Title
-
-**Formula:** [Main Keyword] [Variants] [Brand Positioning]
-
-### Your Title:
-
-```
-[Product Type] for [Primary Use] | [Brand Name] [Qualifier]
-
-Example:
-Colorblind Corrective Glasses for Color Blindness | Premium Testing Eyewear
-
-Character Limit: 70 characters
-Keyword Check: ✅ Primary keyword in first 3 words
-SEO Score: 45% title impact on ranking
-```
-
-**Rules:**
-- ✅ Primary keyword LEFT-TO-RIGHT reading
-- ✅ Read naturally in English
-- ✅ Include variant keywords (not stuffed)
-- ❌ No keyword repetition
-- ❌ No character limits exceeded
-
----
-
-## Step 5b: Google Product Description
-
-**Framework:** [Problem] → [Solution] → [Proof] → [CTA]
-
-```
-[PROBLEM STATEMENT - 1 sentence]
-"[Target audience] often struggle with [pain point]"
-
-[SOLUTION - 2-3 sentences]
-"[Product name] solves this by [specific mechanism].
-Unlike [competitors], it [unique feature].
-This means [customer benefit in real terms]."
-
-[SOCIAL PROOF - 1-2 sentences]
-"Join [#] satisfied customers who [specific result].
-[Specific testimonial or stat]."
-
-[CALL TO ACTION - 1 sentence]
-"Experience [benefit] today with [confidence statement]."
-
----
-
-Word Count: ___/300 (optimal: 150-250)
-Keyword Density: [Primary keyword appears 2-3x naturally]
-Read-Aloud Test: [Does it sound natural when read aloud?]
-Mobile Friendly: ✅ [No excessive length]
-```
-
----
-
-## Step 6b: Google Search Ad Headlines
-
-**Character Limit Per Headline: 30 characters**
-
-### Your 3 Headlines:
-
-**Headline 1** (Main Offer):
-```
-[Action Verb] [Unique Benefit]
-Example: "Get Color Blind Glasses Today"
-
-Character Count: ___/30 ✅
-Includes: Keyword / Benefit / CTA
-```
-
-**Headline 2** (Social Proof / Alternative Angle):
-```
-[Social Proof Element] OR [Alternative Benefit]
-Example: "10k+ Customers Trusted | Premium Quality"
-
-Character Count: ___/30 ✅
-```
-
-**Headline 3** (Urgency / Qualifier):
-```
-[Urgency / Scarcity] OR [Price / Quality Qualifier]
-Example: "Shop Premium Glasses | Free Shipping"
-
-Character Count: ___/30 ✅
-Includes: Differentiation
-```
-
----
-
-## Step 7b: Google Search Ad Descriptions
-
-**Character Limit Per Description: 90 characters**
-
-### Your 2 Descriptions:
-
-**Description 1** (Secondary Benefit):
-```
-[Secondary Benefit] + [Proof Element]
-Example: "Scientifically tested to enhance color perception. See your world in color."
-
-Character Count: ___/90 ✅
-Tone: Benefit-forward, specific
-```
-
-**Description 2** (Objection Handling / CTA):
-```
-[Common Objection Handler] + [Final CTA]
-Example: "100% satisfaction guaranteed. Shop premium color blindness correction glasses."
-
-Character Count: ___/90 ✅
-Tone: Confidence-building, CTA-focused
-```
-
----
-
-## Final Checklist
-
-### Meta Ads ✅
-- [ ] Hook is pattern interrupt (not product explanation)
-- [ ] Copy addresses target audience pain point
-- [ ] CTA is clear and action-oriented
-- [ ] Emoji usage is strategic (1-3 max)
-- [ ] Awareness level matches audience knowledge
-- [ ] Character count under platform limit
-- [ ] No spelling/grammar errors
-
-### Google Ads ✅
-- [ ] Titles: Keywords left-to-right, natural reading
-- [ ] Descriptions: Problem → Solution → Proof → CTA flow
-- [ ] Headlines: Each adds unique benefit/proof/urgency
-- [ ] All character limits respected
-- [ ] No competitor brand names (where restricted)
-- [ ] Mobile-friendly (short enough to read on phone)
-- [ ] Keywords naturally integrated (not stuffed)
-
----
-
-## Next Steps
-
-**For Full Creative Production:**
-- Meta traditional production needed? → `/create-meta-traditional` skill
-- AI-powered ads? → `/create-meta-ai` skill
-- Multiple ad variants needed? → `/test-plan` command
-- Complete campaign setup? → `/build-campaign` command
+## OUTPUT FORMAT
+
+Every output must include:
+
+1. **The creative itself** (copy, script, or assets)
+2. **3 variations** of the hook/headline for testing
+3. **Awareness level label** (confirms the audience match)
+4. **Recommended testing approach** (from test-creative skill)
+5. **Cross-reference note** if research-creative should be run first

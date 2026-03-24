@@ -1,142 +1,155 @@
-# Paid Ads Mastery Plugin - Routing & Operations
+# Paid Ads Mastery v2.0 -- Routing & Operations
 
 ## Plugin Overview
 
-This is a complete paid advertising knowledge engine for Meta and Google Ads, built from 616 expert-level training transcriptions across 6 comprehensive courses. It provides end-to-end guidance from account setup through advanced scaling, covering pixel/conversion infrastructure, creative research and development, strategic account architecture, ad production workflows, and campaign optimization methodologies.
+Complete paid advertising knowledge engine for Meta, Google, and TikTok Ads. Built from 9 extraction files covering 610+ expert-level training transcriptions across 9 courses. Provides end-to-end guidance from account setup through advanced scaling, covering tracking infrastructure, creative research, campaign strategy, ad production, testing methodology, optimization, and scaling playbooks.
 
 ---
 
-## Skill Routing Logic
+## Ambiguous Request Decision Tree
 
-Route user requests to the appropriate skill based on workflow stage and question type:
+When a user's request could match multiple skills, use this decision tree:
 
-### SETUP STAGE
-**When user asks about:** Account setup, pixel/conversion infrastructure, feed management, tracking implementation
+```
+Is the user asking about SETUP/TRACKING?
+  YES -> Is it Meta? -> setup-meta-tracking
+       -> Is it Google? -> setup-google-ads
+  NO -> Continue
 
-| User Intent | Skill | Notes |
-|---|---|---|
-| Google Ads account setup, Google Merchant Center, product feed creation, conversion tracking, Tag Manager | **setup-google-ads** | Start here for any Google Ads infrastructure |
-| Meta Pixel setup, Conversions API, pixel training, account quality, value events | **setup-meta-pixel** | Start here for Meta/Facebook infrastructure |
+Is the user asking about RESEARCH before creating ads?
+  YES -> research-creative
+  NO -> Continue
 
-### RESEARCH STAGE
-**When user asks about:** Creative direction, audience insights, messaging strategy, creative frameworks
+Is the user asking about CAMPAIGN STRUCTURE or BIDDING?
+  YES -> Which platform?
+       -> Meta/Facebook/Instagram -> strategy-meta-ads
+       -> Google (Search/Shopping/PMax/YouTube) -> strategy-google-ads
+       -> TikTok -> strategy-tiktok-ads
+       -> Multiple platforms / "which platform" -> strategy-cross-channel
+  NO -> Continue
 
-| User Intent | Skill | Notes |
-|---|---|---|
-| Creative research process, code banks, persona development, awareness level mapping, ICE scoring, creative briefs | **research-creative** | Always precedes creative development — captures the 4-step research methodology |
+Is the user asking about CREATING ads?
+  YES -> What type?
+       -> Ad copy, headlines, static images -> create-ad-copy
+       -> Video scripts, UGC, VSL -> create-video-ads
+       -> AI-generated ads (Google Flow, HeyGen, etc.) -> create-ai-ads
+       -> Google RSA, PMax assets, YouTube scripts -> create-google-assets
+       -> Carousel ads or thumbnails -> create-carousel-ads
+  NO -> Continue
 
-### STRATEGY STAGE
-**When user asks about:** Campaign structure, bidding strategy, account architecture, scaling approaches
+Is the user asking about TESTING creative?
+  YES -> test-creative
+  NO -> Continue
 
-| User Intent | Skill | Notes |
-|---|---|---|
-| Meta/Facebook campaign structure, budget rules, CBO vs ABO, ASC, cost cap optimization, scaling logic, Simple/Crazy/MOB/Blender methods | **strategy-meta-ads** | Meta-specific strategic decisions |
-| Google campaign structure, Shopping/Search/PMax/YouTube strategy, 30-30 rule, Quality Score optimization, GTC scaling | **strategy-google-ads** | Google-specific strategic decisions |
+Is the user asking about OPTIMIZING or DIAGNOSING campaigns?
+  YES -> Which platform?
+       -> Meta -> optimize-meta
+       -> Google -> optimize-google
+  NO -> Continue
 
-### CREATE STAGE
-**When user asks about:** Ad production, copy writing, video scripts, asset creation
+Is the user asking about SCALING?
+  YES -> scale-campaigns
+  NO -> Continue
 
-| User Intent | Skill | Notes |
-|---|---|---|
-| Meta ad hooks, video scripts, copy templates, UGC integration, VSL/mini-VSL workflows, iteration methods | **create-meta-ads-traditional** | Traditional creative production for Meta |
-| AI-powered Meta creative: Midjourney prompts, Flux images, Arcads, ElevenLabs voiceovers, Kling videos, CapCut workflows | **create-meta-ads-ai** | AI tools and automation for Meta creative |
-| Google product titles/descriptions, RSA copy optimization, YouTube scripts, PMax asset groups | **create-google-ads** | Google-specific ad production |
-
-### OPTIMIZE STAGE
-**When user asks about:** Campaign monitoring, testing, scaling decisions, performance diagnostics
-
-| User Intent | Skill | Notes |
-|---|---|---|
-| Campaign monitoring, testing methodologies (A/B, holdout, sequential, ACOS, budget scaling, etc.), kill/scale decisions, performance benchmarks, diagnostics, retargeting, naming conventions | **optimize-campaigns** | Always revisit after launch or when troubleshooting |
-
----
-
-## Command Routing
-
-Commands provide interactive, structured workflows. Route based on user intent:
-
-| Command | When to Use | Calls Which Skills |
-|---|---|---|
-| `/build-campaign` | User wants to design a campaign from scratch | strategy-meta-ads, strategy-google-ads, research-creative |
-| `/audit-campaign` | User wants diagnostic analysis of existing campaign | optimize-campaigns |
-| `/write-ad` | User wants to generate ad copy/creative | create-meta-ads-traditional, create-meta-ads-ai, create-google-ads |
-| `/test-plan` | User wants to plan creative or strategy tests | optimize-campaigns, research-creative |
-| `/scale-plan` | User wants a scaling roadmap | strategy-meta-ads, strategy-google-ads, optimize-campaigns |
-| `/brief-media-buyer` | User wants an SOP for team execution | All relevant skills (builds comprehensive brief) |
-| `/research-brief` | User wants a creative research framework | research-creative |
+Is the user asking about BRAND STRATEGY or MULTI-PLATFORM decisions?
+  YES -> strategy-cross-channel
+  NO -> Ask clarifying questions
+```
 
 ---
 
-## Cross-Skill Workflow Chains
+## Skill Routing Table (All 16 Skills)
 
-These skills frequently chain together in real workflows:
+### Layer 1: SETUP
+| Skill | Display Name | Use When |
+|---|---|---|
+| `setup-meta-tracking` | Meta Pixel, CAPI & Account Setup | Meta pixel installation, CAPI, server-side tracking, account health, payment hygiene |
+| `setup-google-ads` | Google Ads, Merchant Center & Conversion Tracking | Google conversion code, Merchant Center approval, product feed, product research |
 
-**Complete Campaign Launch Chain:**
-1. research-creative (develop creative direction & code bank)
-2. strategy-meta-ads OR strategy-google-ads (define account structure)
-3. create-meta-ads-traditional/ai OR create-google-ads (produce assets)
-4. optimize-campaigns (launch, monitor, test)
+### Layer 2: RESEARCH
+| Skill | Display Name | Use When |
+|---|---|---|
+| `research-creative` | Creative Research & Audience Intelligence | 4-step research process, code banks, personas, awareness levels, ICE scoring, competition research |
 
-**Setup → Strategy Chain:**
-1. setup-google-ads or setup-meta-pixel (establish infrastructure)
-2. strategy-meta-ads or strategy-google-ads (configure account/campaigns)
+### Layer 3: STRATEGY
+| Skill | Display Name | Use When |
+|---|---|---|
+| `strategy-meta-ads` | Meta/Facebook Ads Campaign Strategy | CBO/ABO/ASC, Crazy Method, hot pockets, budget rules, targeting progression, retargeting |
+| `strategy-google-ads` | Google Ads Campaign Strategy | Search/Shopping/PMax/YouTube structure, bidding progression, Quality Score, full-funnel |
+| `strategy-tiktok-ads` | TikTok Ads Strategy & Creative | TikTok-specific strategy, creative principles, benchmarks, iteration loop |
+| `strategy-cross-channel` | Cross-Channel & Funnel Strategy | Multi-platform allocation, push vs pull, brand strategy, funnel mapping |
 
-**Creative Iteration Chain:**
-1. optimize-campaigns (identify underperforming creative)
-2. research-creative (analyze why & develop new direction)
-3. create-meta-ads-traditional/ai or create-google-ads (produce new assets)
-4. optimize-campaigns (test & measure)
+### Layer 4: CREATE
+| Skill | Display Name | Use When |
+|---|---|---|
+| `create-ad-copy` | Ad Copy, Headlines & Static Creative | Meta copy, headlines, static design, copy templates, psychology |
+| `create-video-ads` | Video Ad Scripting & Production | Video frameworks, hooks, retention, scripting, UGC, storytelling |
+| `create-ai-ads` | AI-Powered Ad Creation | Google Flow/Veo, HeyGen, ElevenLabs, CapCut, AI clones |
+| `create-google-assets` | Google Ads Creative & Asset Production | RSA headlines, Shopping titles, PMax assets, YouTube 7 elements |
+| `create-carousel-ads` | Carousel & Thumbnail Design | Carousel types, slide structure, thumbnail AHQ framework |
 
-**Scaling Chain:**
-1. strategy-meta-ads or strategy-google-ads (review current structure)
-2. optimize-campaigns (run scaling tests)
-3. strategy-meta-ads or strategy-google-ads (adjust budget rules/structure)
-4. optimize-campaigns (monitor scaled performance)
+### Layer 5: TEST
+| Skill | Display Name | Use When |
+|---|---|---|
+| `test-creative` | Creative Testing Methodology | 6 testing approaches, kill criteria, statistical significance, volume guidelines |
 
----
+### Layer 6: OPTIMIZE
+| Skill | Display Name | Use When |
+|---|---|---|
+| `optimize-meta` | Meta Campaign Optimization & Diagnostics | CBO loop, diagnostics, creative fatigue, attribution, daily management |
+| `optimize-google` | Google Campaign Optimization & Diagnostics | Shopping/Search/PMax optimization, Quality Score, POAS, bottleneck analysis |
 
-## Product Marketing Context
-
-Before invoking any skill, check for `product-marketing-context.md` from the marketing-skills plugin (if available). If it exists, load it and reference:
-
-- Brand voice & messaging guidelines
-- Target audience definitions & segments
-- Product/service positioning
-- Value proposition & key differentiators
-- Competitive landscape context
-- Campaign goals & KPIs
-
-This ensures all creative and strategic recommendations align with the user's brand identity and marketing objectives.
-
----
-
-## Plugin Overlap & Priority
-
-**This plugin FULLY REPLACES any paid ads functionality in other installed plugins**, specifically:
-- `marketing-skills/paid-ads`
-- `marketing-skills/ad-creative`
-
-If those skills remain installed alongside paid-ads-mastery, **paid-ads-mastery takes priority**. Do not invoke the older skills; route all paid advertising requests to this plugin's 9 skills instead.
+### Layer 7: SCALE
+| Skill | Display Name | Use When |
+|---|---|---|
+| `scale-campaigns` | Scaling Playbook (Cross-Platform) | Bell Theory, Daily Loop, budget scaling, multi-country, offer prerequisites |
 
 ---
 
-## Reference Files Pattern
+## Cross-Reference Map with Trigger Conditions
 
-Each skill may contain a `references/` subfolder with deep-dive content, templates, frameworks, and case studies. When a user needs tactical details beyond the SKILL.md summary:
+| Source Skill | References | Trigger Condition |
+|---|---|---|
+| `strategy-meta-ads` | `setup-meta-tracking` | Pixel maturity unknown or account is new |
+| `strategy-meta-ads` | `scale-campaigns` | User asks about scaling budgets or breaking daily loops |
+| `strategy-google-ads` | `setup-google-ads` | Merchant Center or conversion tracking issues |
+| `strategy-google-ads` | `scale-campaigns` | User asks about scaling Shopping or PMax |
+| `create-ad-copy` | `research-creative` | Always -- research should precede copy writing |
+| `create-video-ads` | `research-creative` | Always -- code banks and personas feed scripting |
+| `create-ai-ads` | `create-video-ads` | AI ad needs traditional scripting foundations |
+| `create-google-assets` | `strategy-google-ads` | Asset creation needs campaign context |
+| `test-creative` | `create-ad-copy` / `create-video-ads` | Test plan requires actual creative production |
+| `test-creative` | `optimize-meta` / `optimize-google` | Test results need interpretation |
+| `optimize-meta` | `strategy-meta-ads` | Optimization reveals structural problems |
+| `optimize-meta` | `test-creative` | Creative fatigue detected |
+| `optimize-google` | `strategy-google-ads` | Quality Score or structure issues found |
+| `scale-campaigns` | `optimize-meta` / `optimize-google` | Scaling diagnostics needed |
+| `scale-campaigns` | `test-creative` | Scaling requires new creative angles |
+| `strategy-tiktok-ads` | `create-video-ads` | TikTok creative needs video scripting fundamentals |
+| `strategy-cross-channel` | All strategy skills | Multi-platform allocation advice needed |
+| `create-carousel-ads` | `create-ad-copy` | Carousel needs copy/messaging foundations |
 
-1. Check if the skill's references/ folder exists
-2. Load relevant reference files (e.g., `references/hooks.md`, `references/bidding-strategies.md`)
-3. Use reference content to provide specific, actionable guidance
-4. Cite the reference file in responses for traceability
+---
 
-Example: If user asks for "a list of proven Meta ad hooks," load `create-meta-ads-traditional/references/hooks.md`.
+## Slash Command Table
+
+| Command | Description | Skills Activated |
+|---|---|---|
+| `/build-campaign` | Design complete campaign from scratch | strategy-meta-ads OR strategy-google-ads, research-creative, strategy-cross-channel |
+| `/write-ad` | Generate ad copy, video scripts, or assets | create-ad-copy, create-video-ads, create-ai-ads, OR create-google-assets |
+| `/research-brief` | Run 4-step research methodology | research-creative |
+| `/audit-campaign` | Diagnose existing campaign with frameworks | optimize-meta OR optimize-google, scale-campaigns |
+| `/test-plan` | Design creative or campaign testing plan | test-creative, research-creative |
+| `/scale-plan` | Create scaling roadmap from current performance | scale-campaigns, strategy-meta-ads OR strategy-google-ads |
+| `/brief-media-buyer` | Generate comprehensive SOP for team handoff | strategy-meta-ads OR strategy-google-ads, optimize-meta OR optimize-google, test-creative, scale-campaigns (selected based on platform) |
+| `/creative-iterate` | Produce iteration variations of winning ads | test-creative, create-ad-copy OR create-video-ads |
 
 ---
 
 ## Implementation Notes
 
-- **Decision Tree First**: Use the routing tables above to determine which skill(s) to invoke.
-- **Cross-Reference When Needed**: Acknowledge when multiple skills contribute (e.g., "This combines strategy and creative; let me pull from both").
-- **Skill SKILL.md First, Then References**: Always start with the skill's SKILL.md for high-level guidance, then deep-dive into references/ for specifics.
-- **User Stage Awareness**: Ask clarifying questions if unclear (e.g., "Are you setting up a new campaign or optimizing an existing one?").
-- **Tool Availability**: Some skills may recommend external tools (Midjourney, ElevenLabs, etc.). Guide users on setup but don't simulate tool outputs.
+- **Decision Tree First:** Use routing tables above to determine which skill(s) to invoke.
+- **Cross-Reference When Needed:** Acknowledge when multiple skills contribute.
+- **SKILL.md First, Then References:** Start with SKILL.md for high-level guidance, then reference files for deep specifics.
+- **Ask Clarifying Questions:** If user stage is unclear (setup vs. optimize vs. scale), ask before routing.
+- **Product Marketing Context:** If `product-marketing-context.md` exists, load and reference brand voice, audience definitions, positioning, and KPIs.

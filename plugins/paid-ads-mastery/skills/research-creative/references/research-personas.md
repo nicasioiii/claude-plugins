@@ -1,351 +1,257 @@
-# Detailed Persona Development Framework
+---
+name: "Persona Development"
+description: "Persona building with tangible/intangible desires and pain points, post-purchase survey questions, demographic-specific insights, avatar building methodology."
+---
+
+# Persona Development Framework
+
+## Core Principle
+
+Build avatars so detailed they feel like a real person. Give them a name, age, specific struggles. The ad practically makes itself once you deeply understand the customer.
+
+**Rule:** Spend 80% of time on customer understanding, 20% on actual ad creation. Most brands flip this ratio -- and wonder why ads fail.
 
 ---
 
-## WHY PERSONAS MATTER
+## Persona Template
 
-Personas prevent generic ad targeting. A "women 25-45" audience includes startup founders, stay-at-home parents, and CEOs—completely different messaging. Personas ensure creative speaks directly to one specific person.
+For each persona, document:
 
-**Rule:** Create minimum 2 personas (different demographics), maximum 5 (diminishing returns). Focus creative on PRIMARY persona first.
+### Demographics
+- Name (give them an actual name)
+- Age range
+- Gender
+- Country / region
+- Occupation
+- Income level
+- Family situation
 
----
+### Tangible Desires (Physical/Measurable)
+Things you can see, measure, or prove:
+- "Lose 20 pounds by summer"
+- "Partner to be pain-free during periods"
+- "Clear skin without prescription medication"
+- "Dog to stop chewing furniture"
 
-## PERSONA TEMPLATE: COMPLETE PROFILE
+### Intangible Desires (Emotional/Invisible)
+The emotional byproducts of getting what they want:
+- "Feel confident at the beach"
+- "Feel appreciated by partner for finding the best gift"
+- "Stop feeling embarrassed in social situations"
+- "Feel like a responsible pet owner"
 
-### Basic Demographics
+### Tangible Pain Points (Specific Problems)
+- "Chronic back pain from desk job"
+- "Acne breakouts every month"
+- "Dog destroys shoes when left alone"
+- "Cannot sleep more than 4 hours straight"
 
-**Name:** [Create a realistic name]
-**Age:** [Specific range: 28-35, not 25-45]
-**Gender:** [If product is gender-specific]
-**Location:** [City/urban/suburban/rural]
-**Income:** [$X-$X annually]
-**Education:** [High school/college/advanced degree]
-**Marital status:** [Single/married/divorced relevant?]
-**Children:** [Yes/no; ages if yes]
-**Occupation:** [Specific job title, not "professional"]
+### Intangible Pain Points (Emotional Consequences)
+- "Feels old and broken at 35"
+- "Avoids mirrors and cancels social plans"
+- "Feels guilty leaving dog home alone"
+- "Snaps at family because of exhaustion"
 
-### Psychographics (The Real Stuff)
+### Past Purchases & Why They Failed
+- "Tried Brand X -- too expensive and did not work"
+- "Tried the cheap Amazon version -- broke after 2 weeks"
+- "Went to a specialist -- told me surgery was the only option"
+- "Used prescription cream -- side effects were worse than the problem"
 
-**Primary Pain Point (The Thing That Keeps Them Awake):**
-[What specific problem do they have? Not abstract—be specific]
-
-**Example depth:**
-- Surface pain: "Need to lose weight"
-- Deeper pain: "Can't fit into clothes from 2 years ago"
-- Deepest pain: "Lost confidence, avoiding social situations"
-
-**Current Situation:**
-[What is their life like RIGHT NOW?]
-- What workaround are they using?
-- What's costing them (time/money/emotional energy)?
-- What have they already tried?
-- Why didn't those work?
-
-**Aspiration/Desired Future State:**
-[Who do they WANT to become?]
-- What's the fantasy outcome?
-- How would their daily life change?
-- What would they be able to do?
-- How would they FEEL?
-
-**Example:**
-- Current: "Spending 90 minutes daily on morning routine, stressed, rushing"
-- Aspiration: "Leisurely mornings with coffee, meditation, getting to work relaxed"
-
-### Values & Beliefs
-
-**What matters most to this person?**
-- Health/wellness
-- Family/relationships
-- Status/achievement
-- Authenticity/integrity
-- Efficiency/time freedom
-- Security/stability
-- Community/belonging
-- Personal growth
-
-**Example:** Persona values "being a good parent" above status, so benefits around "quality time with family" resonate more than "premium positioning."
-
-### Behaviors & Habits
-
-**Media Consumption:**
-- Primary platform: [TikTok/Instagram/YouTube/Reddit/Facebook/Pinterest]
-- Time spent daily: [30 min / 1 hour / 2+ hours]
-- Content type consumed: [Educational/entertaining/inspirational]
-- Influencers followed: [Specific names if applicable]
-
-**Shopping Behavior:**
-- Price sensitivity: [Budget-conscious/willing to invest/not price-sensitive]
-- Decision speed: [Impulse/quick/long consideration]
-- Research approach: [Reviews-heavy/asks friends/trusts brands]
-- Purchase frequency: [Once-off/recurring/seasonal]
-
-**Trust Builders:**
-What convinces THIS persona to buy?
-- Testimonials from similar people
-- Expert endorsement
-- Data/statistics
-- Money-back guarantee
-- Celebrity/influencer
-- Brand reputation/longevity
-- Peer recommendations
-
-**Example:**
-- Persona A trusts expert/professional endorsement
-- Persona B trusts peer testimonials
-- Persona C trusts guarantees (removes risk)
-
-### Objections & Hesitations
-
-**What's stopping them from buying?**
-
-**Price objection:**
-- "Can't afford it"
-- "Too expensive compared to [alternative]"
-- "Seems overpriced for the value"
-
-**Performance objection:**
-- "Does it actually work?"
-- "Will it work for MY specific situation?"
-- "How long until I see results?"
-
-**Authenticity objection:**
-- "Is this real or knockoff?"
-- "Is this just marketing hype?"
-- "Do real people like this?"
-
-**Fit objection:**
-- "Will it fit me?"
-- "Is it designed for my [age/body type/skill level]?"
-- "Can someone like me actually use this?"
-
-**Commitment objection:**
-- "Will I actually stick with this?"
-- "Is this too complicated?"
-- "How much work is this?"
-
-**Risk objection:**
-- "What if I don't like it?"
-- "What if it doesn't work?"
-- "Can I return it?"
+### Key Question
+**"Who does my customer BECOME when they use my product?"**
+This transformation is what you sell -- not the product itself.
 
 ---
 
-## COMPLETE PERSONA EXAMPLES
+## Sources for Persona Data
 
-### Persona 1: Coffee Enthusiast Carla
+### From Code Bank (Primary)
+- Review language reveals personas naturally
+- Group reviews by buyer type (young mother, older man, athlete, etc.)
+- The persona emerges from patterns in the reviews
 
-**DEMOGRAPHICS**
-- Name: Carla Martinez
-- Age: 28-35
-- Gender: Female
-- Location: Urban (Austin, Seattle, Denver, LA)
-- Income: $65,000-85,000
-- Education: College + some grad work
-- Marital: Married with no kids yet
-- Occupation: Marketing manager at mid-size company
+### From Facebook Ads Manager (Secondary)
+- Age/gender breakdown of purchasers (last 90 days)
+- **Caution:** This data is biased by who appears in your ads. If your ads show 24-year-old models, Facebook shows to 24-year-olds -- even if your actual buyers are 55+.
 
-**PSYCHOGRAPHICS**
-- Primary pain: Morning routine feels rushed, no time for self-care despite wanting to
-- Current situation: Wakes up at 6:45am, shower + outfit = 25 minutes, grabs office coffee, arrives at work frazzled
-- Aspiration: Leisurely 30-minute morning with quality coffee, light breakfast, feel centered before work
-- Values: Quality of life, wellness, aesthetic home, self-care
-- Media: Instagram (wellness/lifestyle), YouTube (reviews/tutorials), Pinterest (home design)
+### From Post-Purchase Surveys (High Value)
+- Direct customer feedback on motivations and objections
+- Reveals information no other source provides
 
-**BEHAVIORS**
-- Coffee spending: $200+/month on café visits
-- Decision style: Research-heavy (reads reviews, asks friends)
-- Trust: Values recommendations from similar people, credible reviews
-- Willing to invest in quality products that improve daily life
-
-**OBJECTIONS**
-- "Expensive for something I use daily—need cost-per-use calculation"
-- "Won't I be too rushed anyway?"
-- "Is a coffee setup really worth the space/investment?"
-
-**MESSAGING ANGLE FOR CARLA:**
-Focus on QUALITY MORNINGS and SELF-CARE angle. Show calm, aesthetic morning routine. Use language: "Leisurely", "deserves", "ritual", "self-care". Feature professional women in ads. Speak to time-value not just product features.
+### From Competition Research
+- Competitor ad comments reveal audience segments
+- Competitor targeting choices (visible in Ad Library metadata)
 
 ---
 
-### Persona 2: Budget-Conscious Baby Parent Brian
+## Demographic-Specific Creative Insights
 
-**DEMOGRAPHICS**
-- Name: Brian Thompson
-- Age: 32-38
-- Gender: Male
-- Location: Suburban
-- Income: $55,000-70,000
-- Education: High school + trade training
-- Marital: Married with 2-3 kids (ages 3-8)
-- Occupation: Construction supervisor
+### Younger Audiences (18-35)
+- Faster pacing in video (change every 1-2 seconds)
+- UGC-style creative outperforms polished production
+- Trend-aware hooks and formats
+- Instagram Reels and TikTok as primary platforms
+- Shorter videos (15-30 seconds sweet spot)
+- Skeptical of hard sells -- prefer organic-feeling content
 
-**PSYCHOGRAPHICS**
-- Primary pain: Trying to provide for family while costs keep rising; feels like paycheck-to-paycheck
-- Current situation: Works long hours, spends heavily on kids' needs, wife stays home part-time
-- Aspiration: Earn more / spend smarter to get ahead financially; own home in good school district
-- Values: Family security, providing for kids, being a good provider, hard work
-- Media: Facebook (family/dad groups), YouTube (how-to/DIY), TikTok occasionally
+### Older Audiences (45+)
+- Slower pacing (let information breathe)
+- More educational content before product introduction
+- Authority figures and expert endorsements carry more weight
+- Facebook Feed as primary platform
+- Longer videos perform well (60-120 seconds)
+- Mini VSLs outperform short UGC for this demographic
+- More responsive to detailed feature explanations
+- Trust indicators (guarantees, certifications) matter more
 
-**BEHAVIORS**
-- Price-sensitive: Always comparing costs
-- Decision style: Asks friends, checks reviews, calculates long-term value
-- Trust: Understands honest recommendations, skeptical of marketing
-- Willing to invest if ROI is clear (cost savings, durability, value)
-
-**OBJECTIONS**
-- "Can't afford another expense right now"
-- "How do I know this is actually worth it vs cheap alternative?"
-- "Will this actually last or will I waste money?"
-
-**MESSAGING ANGLE FOR BRIAN:**
-Focus on VALUE and DURABILITY. Show cost comparison: "Lasts 3x longer = actually cheaper per month". Use language: "Smart choice", "no-nonsense", "saves you money". Feature real families. Show specific dollar savings. Emphasize guarantee (risk removal).
+### Mixed-Age Products
+- Create SEPARATE creatives for each age segment
+- Same product, different personas, different creative approach
+- Do not try to make one ad speak to everyone
 
 ---
 
-### Persona 3: Professional Amy (Professional Woman, Career-Focused)
+## Avatar Building Exercise
 
-**DEMOGRAPHICS**
-- Name: Amy Chen
-- Age: 35-45
-- Gender: Female
-- Location: Major city (NYC, SF, Chicago)
-- Income: $120,000-180,000
-- Education: MBA/advanced degree
-- Marital: Married or single
-- Occupation: Executive, director level
+### The "Day in the Life" Method
+Write a paragraph describing your persona's typical day, focusing on the moments where your product would matter:
 
-**PSYCHOGRAPHICS**
-- Primary pain: Balancing career advancement with personal wellness; burnout setting in
-- Current situation: Long work hours, limited free time, wants to maintain health/appearance but no time
-- Aspiration: Stay competitive professionally while actually enjoying life; look good, feel healthy
-- Values: Achievement, efficiency, health, status, personal growth
-- Media: LinkedIn, podcasts, Instagram, Apple News
+**Example (Pain Relief Product):**
+"Sarah is 52, a middle school teacher in Ohio. She wakes up at 5:30 AM and her first thought is whether her knees will cooperate today. She stretches carefully before getting out of bed -- some mornings are okay, some she has to grip the nightstand. By 3rd period she is already counting down to lunch so she can sit. She used to coach the girls' volleyball team but gave it up two years ago. Her students do not know it is because she physically cannot demonstrate the moves anymore. At night she lies awake thinking about whether this is just what getting older feels like, or if she should see another doctor -- the last one just told her to lose weight and take ibuprofen."
 
-**BEHAVIORS**
-- Price-insensitive: Willing to pay for quality and time-savings
-- Decision style: Quick decision if product is clearly valuable; trusts expert/authority endorsement
-- Trust: Values professional recommendations, published research, brand reputation
-- Willing to invest heavily if solves time/efficiency problem
-
-**OBJECTIONS**
-- "How much time is this actually?"
-- "Is this worth my time?"
-- "Does this work for busy/high-stress lifestyle?"
-
-**MESSAGING ANGLE FOR AMY:**
-Focus on EFFICIENCY and RESULTS. Show time-savings: "45 min daily back in your schedule". Use language: "designed for busy professionals", "proven system", "works even when you're swamped". Feature high-achieving women. Emphasize scientific backing. Show before/after from busy people.
+This paragraph contains: tangible pain points, intangible pain points, past failed solutions, emotional consequences, specific daily triggers, and the transformation she desires.
 
 ---
 
-## MULTI-PERSONA STRATEGY
+## Persona Validation
 
-**When you have 2-3 personas:**
-- Create PRIMARY persona (biggest market, easiest to reach)
-- Create SECONDARY persona (different psychographic, same product interest)
-- Adjust message per persona, keep product/offer same
+### Signals That Your Persona Is Accurate
+- Code bank reviews match the persona's language and concerns
+- Post-purchase survey responses align with persona's motivations
+- Ads written for this persona outperform generic ads
+- Comments on ads reflect the persona's concerns
 
-**Example Campaign Structure:**
-
-**Campaign A: "Carla" angle** (self-care/leisure)
-- Landing page: Lifestyle-focused, aesthetic
-- Copy: Quality, ritual, deserves
-- Images: Calming morning routines, beautiful moments
-- Audience: Women 25-40, wellness interests, urban
-
-**Campaign B: "Brian" angle** (value/durability)
-- Landing page: Comparison, ROI-focused
-- Copy: Smart choice, saves money, built-to-last
-- Images: Real families, honest testimonials, before/after value
-- Audience: Men 30-45, parent interests, budget-focused
-
-**Campaign C: "Amy" angle** (efficiency/results)
-- Landing page: Time-saving, professional results
-- Copy: For busy people, proven system, get results fast
-- Images: Professionals, results, confidence
-- Audience: Women 35-50, professional interests, willing to invest
-
-**Same product, three different emotional entry points.**
+### Signals That Your Persona Is Wrong
+- Ads targeting this persona consistently underperform
+- Comments reveal a different audience than expected
+- Conversion data shows a different demographic than the persona
+- **Action:** Revisit code bank and surveys, rebuild the persona from data
 
 ---
 
-## PERSONA RESEARCH SOURCES
+## Post-Purchase Survey Questions (Recommended Set)
 
-**Where to find persona insights:**
+These questions reveal information no other source provides. Keep to 5 max to avoid survey fatigue.
 
-1. **Customer interviews (primary source)**
-   - Call 5-10 best customers
-   - Ask: "Walk me through why you bought this"
-   - Ask: "What problem were you solving?"
-   - Ask: "How has this changed your life?"
-   - Record exact language
+### Core Questions
+1. **"How would you describe us to a friend?"** -- Reveals exact customer language for ad copy
+2. **"What was going on in your life that made you buy?"** -- Reveals trigger moments for hooks
+3. **"What almost kept you from buying?"** -- Reveals objections for retargeting scripts
+4. **"How long did you know about the brand before purchasing?"** -- Reveals consideration window length
+5. **"If our product wasn't available tomorrow, how would your routine change?"** -- Reveals product importance and dependency
 
-2. **Customer surveys**
-   - "What do you do for work?"
-   - "What was your biggest frustration before this?"
-   - "What almost stopped you from buying?"
-   - "How do you spend your free time?"
+### Optional Questions (Pick 1-2 if Relevant)
+6. "What style/flavor/size do you want most that's out of stock?" -- Product development signal
+7. "Why did you buy from us instead of a competitor?" -- Reveals USPs from customer perspective
+8. "Paint a picture of how you use the product" -- Visual ad creative inspiration
+9. "What were you shopping for when you purchased?" -- Reveals entry point and search behavior
 
-3. **Support/testimonial analysis**
-   - Review support emails (learn frustrations/objections)
-   - Review testimonials (learn transformations/outcomes)
-   - Note demographic patterns (who buys, who doesn't)
-
-4. **Facebook Ads Library/audience insights**
-   - What pages/interests do competitors target?
-   - What audience demographics convert best?
-   - What messaging resonates?
-
-5. **Reddit/community analysis**
-   - Which subreddits discuss your category?
-   - What are the sub-conversations (age, job, location clues)?
-   - What problems do people mention?
-   - What solutions do they debate?
-
-6. **Analytics review**
-   - Google Analytics: Demographics, interests, behaviors
-   - Email list analysis: Which segments open/click most?
-   - Customer lifetime value: Which customer type is most profitable?
+### Survey Tools
+- NoCommerce, Hayflow, Fairing (post-purchase survey specialists)
+- Push clients to set up surveys immediately upon starting work
+- Data accumulates over time -- the sooner you start, the better
 
 ---
 
-## USING PERSONAS IN CREATIVE BRIEFS
+## Avatar Template (Complete)
 
-**Brief template incorporating persona:**
-
+### Template Fields
 ```
-Product: [Name]
-Target Persona: [Persona name - Carla]
+PERSONA NAME: [Real first name]
+AGE: [Specific range, e.g., 48-55]
+GENDER: [If relevant to product]
+LOCATION: [Country/region/city type]
+OCCUPATION: [Specific job or life role]
+INCOME: [Range or indicator]
+FAMILY: [Relevant family context]
 
-Pain Point: [Specific to Carla] Morning routine rushed, no self-care time
-Aspiration: [Specific to Carla] Leisurely mornings, centered feeling
-Key Value: Quality of life improvement, self-care, morning ritual
+TANGIBLE DESIRES (what they want to see/measure):
+1. [Specific, measurable outcome]
+2. [Specific, measurable outcome]
+3. [Specific, measurable outcome]
 
-Messaging Angle: Focus on LEISURE and SELF-CARE, not speed
-Hook Approach: Show aspirational morning routine
-Copy Style: Warm, self-care language ("you deserve", "ritual", "take time for yourself")
-Visual Direction: Calm, aesthetic, natural light, quality moments
-Social Proof: Testimonials from similar professional women
+INTANGIBLE DESIRES (how they want to feel):
+1. [Emotional state they want]
+2. [Emotional state they want]
+3. [Emotional state they want]
 
-Success Metrics: CTR 2%+, Conversion rate 2%+, ROAS 2.5+
+TANGIBLE PAIN POINTS (specific problems):
+1. [Observable, describable problem]
+2. [Observable, describable problem]
+3. [Observable, describable problem]
+
+INTANGIBLE PAIN POINTS (emotional consequences):
+1. [How the problem makes them feel]
+2. [How the problem makes them feel]
+3. [How the problem makes them feel]
+
+PAST PURCHASES & FAILURES:
+1. [What they tried + why it failed]
+2. [What they tried + why it failed]
+
+DISCOVERY PATH: [How they typically find solutions]
+AWARENESS LEVEL: [Unaware / Problem / Solution / Product / Most Aware]
+TRANSFORMATION: [Who they become after using product]
 ```
 
-**When creative team has persona context, they create 10x better-targeted creative.**
+### Multiple Persona Strategy
+- Create 3-5 personas per product (most products serve multiple audiences)
+- Prioritize personas by revenue potential and audience size
+- Create SEPARATE ad creative for each persona (never try to speak to all at once)
+- Test persona-specific ads against generic ads to validate which personas convert best
+- Example: Same pain relief product = "Active Mom Sarah (42)" + "Retired Teacher Jim (67)" + "Weekend Athlete Mike (35)"
 
 ---
 
-## PERSONA EVOLUTION
+## Demographic-Specific Creative Guidelines (Expanded)
 
-**Update personas when:**
-- Launching new product category
-- Entering new market/geography
-- Seasonal shift (summer persona vs winter)
-- After major marketing campaign (learn new audience segment)
-- When performance drops (audience may have shifted)
+### Age 18-24: The Digital Natives
+- Platform: TikTok primary, Instagram Reels secondary
+- Pacing: Change every 1-2 seconds, fast transitions
+- Style: UGC, raw footage, trend-format, behind-the-scenes
+- Tone: Casual, humorous, self-aware, slightly irreverent
+- Trust signals: Peer recommendations, influencer endorsements, comment sections
+- Avoid: Corporate language, stock photography, hard sells
 
-**Don't overthink personas:**
-- 2-3 detailed personas > 10 surface-level personas
-- Specific demographics > vague segments
-- Real language from research > made-up language
-- Actionable insights > theoretical profiles
+### Age 25-35: The Informed Buyers
+- Platform: Instagram Feed/Reels, Facebook Feed, TikTok
+- Pacing: Moderate (2-3 second cuts)
+- Style: Polished UGC, lifestyle content, comparison content
+- Tone: Confident, benefit-driven, efficiency-focused
+- Trust signals: Reviews, before/after, data-backed claims
+- Avoid: Being too trendy or too corporate
 
+### Age 35-45: The Value Seekers
+- Platform: Facebook Feed primary, Instagram Feed secondary
+- Pacing: Moderate to slow (3-5 second cuts)
+- Style: Mix of UGC and polished, educational content, demos
+- Tone: Practical, solution-focused, time-saving emphasis
+- Trust signals: Expert endorsements, specific results, guarantees
+- Avoid: Overly youthful language, trend-dependent content
+
+### Age 45-55: The Research-Driven Buyers
+- Platform: Facebook Feed primary
+- Pacing: Slower (let information breathe)
+- Style: Educational, demonstration-heavy, testimonial-driven
+- Tone: Authoritative, trustworthy, detailed
+- Trust signals: Certifications, expert opinions, detailed specs, guarantees
+- Avoid: Fast-paced edits, trend references, slang
+
+### Age 55+: The Trust-First Buyers
+- Platform: Facebook Feed (almost exclusively)
+- Pacing: Slow and deliberate (5+ second scenes)
+- Style: Mini VSLs, talking head with authority, detailed demonstrations
+- Tone: Warm, educational, reassuring, no pressure
+- Trust signals: Doctor/expert endorsements, money-back guarantees, phone number visible
+- Avoid: Rapid editing, TikTok-style content, aggressive urgency tactics

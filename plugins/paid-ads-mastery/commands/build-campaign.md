@@ -1,308 +1,184 @@
 ---
 name: Build Campaign
-description: Interactive campaign builder that asks platform, business type, objective, budget, and pixel maturity. Outputs a complete campaign blueprint with structure, targeting, creative strategy, and scaling plan based on the strategy skills.
+description: Design a complete campaign from scratch. Asks about platform, product, budget, goals, and pixel maturity. Outputs campaign architecture, targeting plan, budget allocation, and creative brief. Activates strategy-meta-ads OR strategy-google-ads, research-creative, and strategy-cross-channel.
 ---
 
 # Build Campaign Wizard
 
-## Step 1: Platform Selection
+## Step 1: Gather Essential Information
 
-**Question:** Which platform are you building on?
+Ask the user these questions before proceeding. Do not skip any.
 
-**Options:**
-- A) **Meta Ads** (Facebook/Instagram) → Go to Step 2a
-- B) **Google Ads** (Shopping/Search/PMax) → Go to Step 2b
-- C) **Unsure** → Recommendation: Start with Meta for brand new products, Google for validated products with existing traffic demand
-
----
-
-## Step 2a: Meta Ads - Business Type
-
-**Question:** What type of business are you running?
-
-**Options:**
-1. **E-commerce / Dropshipping** (Physical products)
-   - Budget allocation strategy: 70% cold, 30% retargeting
-   - Expected ROAS target: 2.0-2.5x
-   - Go to Step 3a
-
-2. **Niche/Fashion/Beauty** (Lifestyle products)
-   - Budget allocation strategy: 60% cold, 40% retargeting
-   - Expected ROAS target: 1.8-2.2x
-   - Go to Step 3a
-
-3. **Information Products / Courses** (Digital)
-   - Budget allocation strategy: 80% cold, 20% retargeting
-   - Expected ROAS target: 2.5-4.0x
-   - Go to Step 3a
-
-4. **SAAS / Recurring Revenue** (Subscription)
-   - Budget allocation strategy: 75% cold, 25% retargeting
-   - Expected ROAS target: 3.0-5.0x
-   - Go to Step 3a
+### Required Inputs
+1. **Platform:** Meta (Facebook/Instagram), Google Ads, TikTok, or multi-platform?
+2. **Business type:** E-commerce, lead generation, SaaS, info products, local business?
+3. **Product/service:** What are you selling? Price point? Margins?
+4. **Monthly budget:** How much are you prepared to spend on ads?
+5. **Goal:** Sales/revenue target, lead volume, ROAS target, or CPA target?
+6. **Pixel/tracking maturity:** New account, established (some data), or seasoned (months of conversion data)?
+7. **Creative assets available:** What do you have ready? (video, static images, UGC, nothing yet)
+8. **Geographic target:** Which countries/regions?
 
 ---
 
-## Step 2b: Google Ads - Business Type
+## Step 2: Calculate Unit Economics
 
-**Question:** Do you have validated product demand?
+Before designing any campaign, validate the business can support paid advertising.
 
-**Option A: High Search Volume Product** (25,000+ monthly searches)
-- Recommendation: Start with Shopping Campaign
-- Go to Step 3b
+**For e-commerce:**
+- Profit Margin = (AOV - All Costs) / AOV
+- Break-Even ROAS = 1 / Profit Margin
+- If break-even ROAS > 4x, warn user that scaling will be extremely difficult
 
-**Option B: New / Unvalidated Product**
-- Recommendation: Start with Search Ads or Performance Max
-- Go to Step 3b
+**For lead gen:**
+- Break-Even CPL = Profit per Deal x Lead-to-Sale Rate
+- If break-even CPL < $20, warn user that most ad platforms cannot deliver profitably
 
-**Option C: Multiple Products / Brand**
-- Recommendation: Performance Max for reach + Shopping for demand capture
-- Go to Step 3b
+**For SaaS:**
+- LTV:CAC ratio must be 3:1 minimum
+- Max CAC = LTV / 3
 
----
-
-## Step 3a: Meta Campaign Structure Selection
-
-**Question:** How long have you had a pixel active on your site?
-
-**Option A: New Pixel** (<2 weeks of data)
-- Recommended methodology: **Blender Method** (lookalike + interest hybrid)
-- Campaign structure: 1 CBO campaign, 3-4 ad sets (3 different audience types)
-- Budget: Start $300-500/day, let algorithm learn for 7 days
-- Expected timeline: Learning phase 7-10 days, then scale
-- Go to Step 4a
-
-**Option B: Established Pixel** (2-8 weeks of data)
-- Recommended methodology: **Simple Method** (catalog-based, open targeting)
-- Campaign structure: 1-2 CBO campaigns with dynamic product ads
-- Budget: Start at ($target_CPA × 50 sales) / 7 days, scale 10% daily post-learning
-- Expected timeline: Exit learning phase by day 7-14, then scale aggressively
-- Go to Step 4a
-
-**Option C: Mature Pixel** (8+ weeks of data, proven conversions)
-- Recommended methodology: **Crazy Method** (interest duplication) OR **Simple Method** at scale
-- Campaign structure: Multiple ABO campaigns with different audience layers
-- Budget: $500+ daily, allocate 20% to testing, 80% to proven audiences
-- Expected timeline: Skip learning phase, immediate scale
-- Go to Step 4a
+Reference: `optimize-google` skill > ref-google-unit-economics.md for detailed formulas.
 
 ---
 
-## Step 3b: Google Campaign Structure Selection
+## Step 3: Platform-Specific Campaign Architecture
 
-**Question:** What's your product price point and margin?
+### Meta Ads Campaign Blueprint
 
-**Option A: Low Ticket** (<$50, <40% margin)
-- Recommended: **Shopping Campaign with Maximize Clicks**
-- Start with 20-25 products minimum
-- Budget: $300-500/day
-- Scaling: Conservative (10% increases)
-- Go to Step 4b
+**Load skill:** `strategy-meta-ads` for method selection.
 
-**Option B: Mid Ticket** ($50-200, 40-60% margin)
-- Recommended: **Shopping Campaign OR Performance Max**
-- Shopping: High Bid + Low Bid testing setup
-- PMax: 1-3 asset groups, phase-based strategy
-- Budget: $500-1,000/day
-- Go to Step 4b
+| Pixel Maturity | Recommended Method | Campaign Type | Starting Budget |
+|---|---|---|---|
+| New pixel (<100 purchases) | Stacked LLA or Blender Method | CBO, 3-5 ad sets | Budget/CPP = # of ad sets |
+| Established (100-500 purchases) | Interest testing progressing to broader | CBO or ASC | Budget/CPP = # of ad sets |
+| Seasoned (500+ purchases) | Broad + Crazy Method + ASC | Multiple CBO + ASC | Scale aggressively |
 
-**Option C: High Ticket** (>$200, >60% margin)
-- Recommended: **Performance Max with Search Ads supplement**
-- PMax: Multiple asset groups (3-5), focus on social proof
-- Search: Branded + competitor keywords with high bids
-- Budget: $1,000-2,000/day
-- Go to Step 4b
+**Campaign structure rules:**
+- Daily budget / Average CPP = number of ad sets
+- Max 3-5 ads per ad set
+- Never mix creative types in same campaign (video separate from static separate from catalog)
+- Always use Advantage+ placements
+- Launch at midnight or 6 AM target market time
+- Optimize for Purchase event (never add-to-cart)
 
----
+**Budget allocation:**
+- Cold traffic: 70-80%
+- Retargeting: 10-20%
+- Testing: 10-20% (minimum 20% of total)
 
-## Step 4a: Meta Creative Strategy
+### Google Ads Campaign Blueprint
 
-**Question:** What's your creative production capacity?
+**Load skill:** `strategy-google-ads` for structure selection.
 
-**Option A: Traditional Production** (in-house or agencies)
-- Use: **Hook frameworks + VSL/UGC templates** from create-meta-ads-traditional skill
-- Production timeline: 1 week per creative set
-- Testing methodology: Standard ABO (4-6 creatives simultaneously)
-- Scaling: Test 20% of budget, scale 80% on winners
-- Budget allocation: Start $50-100/creative
-- Go to Step 5a
+**The Four Pillars (build at least 3):**
+1. **Search** -- brand + non-brand campaigns
+2. **Shopping / PMax** -- workhorse for e-commerce (60%+ of spend)
+3. **Remarketing** -- YouTube + Display for the 95-99% who visit but do not purchase
+4. **Top of Funnel** -- YouTube for demand generation (when ready to scale)
 
-**Option B: AI-Powered Production** (Midjourney, Runway, ElevenLabs)
-- Use: **AI creative workflow** from create-meta-ads-ai skill
-- Production timeline: 1-2 days per creative set
-- Testing methodology: Shotgun method (10-20 variations quickly)
-- Scaling: Test 30-50% of budget, scale 50-70% on winners
-- Budget allocation: Start $30-50/creative (AI cost lower)
-- Go to Step 5a
+| Product Type | Primary Campaign | Secondary | Starting Budget |
+|---|---|---|---|
+| High search volume (25K+ monthly) | Standard Shopping (High Bid + Low Bid) | Brand Search | $50-100/day minimum |
+| Low search volume | PMax or Search Ads | Display remarketing | $100+/day for PMax |
+| Large catalog (100+ SKUs) | PMax primary + Shopping secondary | Brand Search | $200+/day total |
+| Lead generation | Search (brand + non-brand) | PMax (Fire & Ice) | CPA x 50 / 30 = daily budget |
 
-**Option C: User-Generated Content (UGC)** (Upwork, creator marketplaces)
-- Use: **UGC frameworks** from create-meta-ads-traditional skill
-- Production timeline: 2-4 weeks (outsourced)
-- Testing methodology: Standard ABO, batch testing
-- Scaling: Test 25% of budget, scale 75% on winners
-- Budget allocation: Allocate creator fees outside ad budget
-- Go to Step 5a
+**Bidding progression:**
+1. Start: Enhanced CPC or Maximize Conversions
+2. After 30 conversions in 30 days: switch to Target CPA or Target ROAS
+3. Set initial target at current performance, then adjust 10% per week
 
----
+### TikTok Ads Campaign Blueprint
 
-## Step 4b: Google Product/Keyword Strategy
+**Load skill:** `strategy-tiktok-ads` for platform-specific guidance.
 
-**Question:** How many products do you have ready to advertise?
-
-**Option A: <25 Products** (Limited inventory)
-- Strategy: **Shopping campaign with HIGH BID testing first**
-- Focus: Maximize Clicks bidding strategy
-- Daily budget: $25-50/day
-- Optimization frequency: Every 14 days
-- Scaling trigger: ROAS >3.0 for 7+ days
-- Go to Step 5b
-
-**Option B: 25-100 Products** (Standard catalog)
-- Strategy: **Dual Shopping campaigns (High Bid + Low Bid test setup)**
-- Add Performance Max as secondary
-- Daily budget: $50-200/day per campaign type
-- Optimization frequency: Every 7-10 days
-- Scaling trigger: Identify top 10 products, scale bids
-- Go to Step 5b
-
-**Option C: 100+ Products** (Full catalog)
-- Strategy: **Performance Max primary + Shopping secondary**
-- Shopping: Separate campaigns per collection
-- PMax: Multiple asset groups for different product categories
-- Daily budget: $200-500/day across all
-- Optimization frequency: Every 5-7 days (more data flow)
-- Scaling trigger: ROAS 3.0+ across portfolio
-- Go to Step 5b
+- Minimum 5-7 unique creatives per campaign
+- Sweet spot ad length: 20-35 seconds
+- Budget: minimum $50 per ad set per day
+- Creative refresh: when CPA rises 20% above week-one average
 
 ---
 
-## Step 5a: Meta Campaign Naming & Launch
+## Step 4: Creative Brief
 
-**Your Campaign Blueprint:**
+Based on platform and business type, generate a creative brief:
+
+**Load skill:** `research-creative` for audience and messaging foundations.
+
+### Creative Brief Template
 
 ```
-Campaign Name: [BRAND]_[FUNNEL]_[TYPE]_[VARIABLE]_[OPTIMIZATION]_[DATE]
+CAMPAIGN CREATIVE BRIEF
 
-Example:
-  MYSTORE_COLD_VID_HOOK_ABO_03_2026
+Product: [from user input]
+Target Audience: [from research-creative persona work]
+Primary Benefit: [single core transformation]
+Awareness Level: [unaware / problem-aware / solution-aware / product-aware / most-aware]
+Recommended Formats: [video / static / carousel / UGC -- based on platform]
+Recommended Angles: [3-5 angles from the 10 types: promotion, education, social proof, etc.]
 
-Structure:
-  - Campaign Type: [Catalog / Conversions / Advantage Shopping]
-  - Budget: [Daily budget from steps above]
-  - Objective: Sales
-  - Attribution: [1-day click or 7-day if available]
+Hook Direction: [based on awareness level]
+- Unaware: Pattern interrupt, curiosity, stories
+- Problem Aware: Validate experience, educate on problem
+- Solution Aware: Differentiate approach, unique mechanism
+- Product Aware: Address objections, social proof, demos
+- Most Aware: Urgency, scarcity, promotions
 
-Ad Sets (Name Format):
-  - MYSTORE_COLD_VID_HOOK_ABO_03_2026_Audience1_18-35
-  - MYSTORE_COLD_VID_HOOK_ABO_03_2026_Audience2_35-55
-  - MYSTORE_COLD_VID_HOOK_ABO_03_2026_Audience3_AllAges
-
-Ads (Name Format):
-  - MYSTORE_COLD_VID_HOOK_ABO_03_2026_Audience1_Creative001_Hook1_9x16
-  - MYSTORE_COLD_VID_HOOK_ABO_03_2026_Audience1_Creative002_Hook2_1x1
+Creative Volume Needed: [from test-creative volume guidelines]
+Testing Method: [Standard ABO recommended for most]
 ```
-
-**Launch Checklist:**
-- [ ] Pixel is active and firing test purchases
-- [ ] Creatives reviewed for brand compliance
-- [ ] All ad sets have proper audience setup (no overlap >30%)
-- [ ] Budget pacing set to standard (not accelerated)
-- [ ] Set frequency cap: 3x per 7 days for cold traffic
-- [ ] Set 24-hour reporting attribution window
-- [ ] Schedule launch for midnight (fresh auction environment)
-- [ ] Set calendar reminder: Monitor learning phase exit (day 7)
-
-**Recommended Daily Monitoring:**
-- Check spend vs. budget: Should be ~1/7 of weekly budget
-- Check ROAS: Volatile in learning phase, don't overreact
-- Check pixel: Ensure events firing
-- Kill if: ROAS <breakeven after $100+ spend with <1 conversion
 
 ---
 
-## Step 5b: Google Campaign Naming & Launch
+## Step 5: Launch Checklist
 
-**Your Campaign Blueprint:**
+### Meta Launch Checklist
+- [ ] Pixel active and firing purchase events
+- [ ] Seed ads created, Post IDs ready
+- [ ] Naming convention applied to all creatives
+- [ ] Budget calculated: budget/CPP = ad sets
+- [ ] Advantage+ placements enabled
+- [ ] Purchase optimization event selected
+- [ ] Launch scheduled for midnight or 6 AM
+- [ ] Kill criteria defined (1x CPA spend, no sale = kill)
+- [ ] Testing tracker set up
 
-```
-Shopping Campaign: [PRODUCT]_[BIDSTRATEGY]_[GEO]_[PHASE]_[DATE]
-
-Example:
-  MyProduct_MaximizeClicks_US_Testing_03_2026
-
-Setup:
-  - Campaign Type: Standard Shopping
-  - Bidding: Maximize Clicks (for new accounts)
-  - Daily Budget: [From Step 4b]
-  - Merchant Center: Select account with products
-  - Geographic: United States
-  - Networks: Search Network ONLY (uncheck Display)
-
-Product-Level Optimization:
-  - Minimum bid: $0.30-0.50
-  - Max bid: Auto-increased as data flows
-  - Attribution window: 1-day click (standard)
-```
-
-**For Performance Max (if applicable):**
-
-```
-Campaign: [BRAND]_[TARGETING]_[PHASE]_AssetGroup1_[DATE]
-
-Example:
-  MYSTORE_Prospecting_Testing_AssetGroup1_03_2026
-
-Asset Group Setup:
-  - Headlines: 3-5 variations
-  - Descriptions: 3-5 variations
-  - Images: 4-6 high-quality
-  - Videos: 1-2 optional
-  - Logo: 1 required
-```
-
-**Launch Checklist:**
-- [ ] All products have original descriptions (50-200 words)
-- [ ] All products have 3-5 high-quality lifestyle images
-- [ ] Titles optimized with primary keywords left-to-right
-- [ ] Product feed verified in Merchant Center (0 errors)
-- [ ] Landing page matches product offers
-- [ ] Conversion tracking live (5+ daily conversions expected)
-- [ ] Campaign launched with Maximize Clicks bidding (not Target ROAS)
-- [ ] Daily budget is $25+ minimum (anything lower = underfunded)
-
-**Recommended Daily Monitoring:**
-- Check conversion tracking: Should have 3-5+ daily conversions
-- Check budget: Should hit 90-110% of daily budget target
-- Check impression share: Target 70%+
-- Check quality score: Monitor keywords, target 7+
+### Google Launch Checklist
+- [ ] Google Ads conversion code installed (NOT GA4 only)
+- [ ] Enhanced conversions enabled
+- [ ] Product feed approved in Merchant Center (0 errors)
+- [ ] Titles SEO-optimized (keywords left-to-right)
+- [ ] Negative keyword seed list prepared
+- [ ] Bidding strategy set (Enhanced CPC or Max Conversions for start)
+- [ ] Campaign-level daily budget set ($25+ minimum for Shopping)
+- [ ] Conversion window set (30-day click recommended)
 
 ---
 
-## Next Steps After Launch
+## Step 6: Post-Launch Monitoring Plan
 
-**After 7 Days (Meta):**
-→ Check if campaign exited Learning Phase
-→ Evaluate performance: ROAS vs. target?
-→ If ROAS >target: SCALE 10%
-→ If ROAS <target: TEST new creative variant
+**Week 1:** Do NOT touch campaigns. Monitor only. Let the algorithm learn.
+- Meta: expect 24-48 hour boost, then possible dip. This is normal.
+- Google: may not see impressions for first few days with PMax. Normal.
 
-**After 7 Days (Google):**
-→ Check conversion data: 50+ conversions?
-→ Check quality scores: <5 keywords?
-→ Review top 5 products by spend
-→ Pause 0-conversion products
-→ Increase bids on 3+ sale products
+**Week 2:** First optimization cycle.
+- Meta: evaluate 7-day rolling averages. Kill underperformers at 1x CPA spend.
+- Google Shopping: first 7-14 day optimization (product-level, keyword-level).
 
-**After 14 Days (Meta + Google):**
-→ Review: activate /optimize skill for ongoing monitoring
-→ Plan: creative refresh (20% new + 80% optimization of winners)
+**Week 3-4:** Scale or iterate.
+- Scale winners by 10-20% budget increase per week.
+- Load `test-creative` skill for iteration planning.
+- Load `optimize-meta` or `optimize-google` for ongoing diagnostics.
 
 ---
 
-## Quick Reference: What To Do Next
+## Next Steps
 
-**Choose a skill to dive deeper:**
-- 👉 **Creative production?** → `/create-meta-traditional` or `/create-meta-ai` or `/create-google`
-- 👉 **Need winning audience research first?** → `/research-creative`
-- 👉 **Campaign is live, need to monitor?** → `/optimize-campaigns`
-- 👉 **Deciding scale vs. kill?** → `/scale-plan` or use `/optimize` for decision trees
+| Need | Command / Skill |
+|---|---|
+| Write actual ad copy or scripts | `/write-ad` command or `create-ad-copy` / `create-video-ads` |
+| Deep creative research first | `/research-brief` command or `research-creative` skill |
+| Diagnose a launched campaign | `/audit-campaign` command |
+| Plan creative tests | `/test-plan` command |
+| Scale a working campaign | `/scale-plan` command |

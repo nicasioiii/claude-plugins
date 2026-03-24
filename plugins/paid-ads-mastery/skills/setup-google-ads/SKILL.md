@@ -1,337 +1,177 @@
 ---
-name: Google Ads Account Setup
-description: Complete Google Ads account setup including Merchant Center configuration, product validation criteria, product feed optimization, conversion tracking with enhanced conversions, and Google Tag Manager implementation. Use when starting Google Ads from scratch, auditing setup, or fixing conversion tracking issues.
+name: "Google Ads, Merchant Center & Conversion Tracking"
+description: |
+  MANDATORY TRIGGERS: google ads setup, merchant center, google merchant center, product feed,
+  conversion tracking google, google tag manager, GTM, enhanced conversions google,
+  google ads conversion code, product research google, shopping feed, feed optimization,
+  google ads account setup, product titles, product descriptions google, GA4 vs google ads
+
+  FOR: Anyone setting up Google Ads conversion tracking, getting Merchant Center approved,
+  creating/optimizing product feeds, or doing product research for Shopping campaigns.
+
+  Do NOT use for:
+  - Campaign structure or bidding decisions -> use strategy-google-ads
+  - Meta Pixel or CAPI -> use setup-meta-tracking
+  - Google Shopping campaign optimization -> use optimize-google
+  - Google RSA or PMax asset creation -> use create-google-assets
 ---
 
-# Google Ads Account Setup
+# Google Ads, Merchant Center & Conversion Tracking
 
-## CRITICAL FOUNDATION: Conversion Tracking First
-
-**RULE:** Conversion tracking is oxygen for Google Ads. Without it, you cannot:
-- Run smart bidding
-- Optimize campaigns
-- See ROI
-- Scale profitably
-
-You are flying blind without conversion tracking. Set this up BEFORE running any campaigns.
-
----
-
-## PART 1: MERCHANT CENTER SETUP & PRODUCT APPROVAL
-
-### Pre-Approval Strategy: The Bootstrap Approach
-
-Google has no problem with dropshipping—it has a problem with scammers. Your approval strategy:
-
-**Initial Submission (Products for Approval)**
-1. Use 5-15 non-branded products from your own home (photograph with your phone)
-2. Write ORIGINAL 50-200 word descriptions (not copied from AliExpress/eBay)
-3. Take multiple images per product (3-5 minimum for realism)
-4. Price each differently—NO uniform 50% markups across catalog
-5. Avoid "compare at" prices initially (suspicious to Google)
-6. Build professional website with complete policy pages (Privacy, Terms, Shipping, Returns) BEFORE submission
-7. Only after approval: Replace with actual dropshipping products
-
-**Product Categories to AVOID for Approval:**
-- TVs and electronics
-- Books
-- Digital products
-- Health supplements and beauty creams
-- Anything with inhalants
-- Anything requiring government licensing
-
-**Collections Must Match Products:**
-- Home & Garden products go in Home & Garden collection (not random)
-- Google audits collection accuracy as part of approval
-
-### Product Validation Checklist (BEFORE Adding to Feed)
-
-Every product must pass these thresholds. Non-negotiable:
-
-| Criterion | Requirement | Why |
-|-----------|------------|-----|
-| Monthly searches | 25,000+ minimum | Demand must exist |
-| Per-keyword searches | 800+ minimum per keyword | Avoid tail keywords |
-| Keyword count | 4+ keywords meeting 800+ threshold | Sufficient search variety |
-| Profit margin | $25+ minimum | Economics must work |
-| Competitor count | 4-7 dropshippers per keyword | Not too hot, not dead |
-| Pricing validation | Competitors selling $20+ | Eliminates scams |
-| Seasonal demand | Viable across all 12 months | Year-round viability |
-
-**Tools for Validation:**
-- Google Keyword Planner: Verify search volume
-- Google Shopping: Check competitor pricing and count
-- Search product name: Confirm competitor selling price points
-
-**Red Flag:** All competitors selling suspiciously low prices = likely scam market. Skip it.
-
-### Shopping Campaign Structure
-
-**Campaign Setup:**
-- Type: Standard Shopping Campaign (NOT Smart Shopping initially)
-- Geographic Target: United States ONLY (one location per campaign)
-- Minimum products: 20-25 before launching
-- Campaign naming: "[Category - HIGH BID]" and "[Category - LOW BID]"
-
-**Bidding Strategy for New Accounts:**
-1. START with Maximize Clicks (not Target ROAS)
-2. WHY: Needs $500-$1,000+ historical data before ROAS works properly
-3. Manual CPC alternative: $0.30-$0.50 starting bid per product
-4. As conversion data builds: Decrease bids for products with ROAS 1.0-2.0
-5. A/B testing: Try $0.30 vs $0.50 on similar products to find sweet spot
-
-**Maximize Clicks advantages:**
-- Algorithm learns audience faster
-- Automatically optimizes bids
-- CPC naturally decreases as conversion data builds
-- No manual bid adjustment needed
+You are a Google Ads infrastructure specialist. Guide users through conversion tracking installation, Merchant Center approval, product feed creation, and product research validation. Be specific with exact numbers and thresholds.
 
 ---
 
-## PART 2: PRODUCT FEED ESSENTIALS
+## Critical Rule: Conversion Tracking is Non-Negotiable
 
-### Product Title (SEO Title) - The 50/45/5 Rule
+Without conversion tracking, nothing works. Smart bidding fails, campaign optimization fails. Conversion tracking is the oxygen of your campaigns.
 
-50% of visibility = Title
-45% of visibility = Images
-5% of visibility = Everything else
-
-**Title Structure (Left-to-Right Keyword Priority):**
-1. Highest search volume keyword (LEFTMOST)
-2. Variants of high-volume keywords
-3. Brand positioning/unique angle
-4. Example: "Colorblind Corrective Glasses for Color Blindness | Premium Testing Eyewear"
-
-**Title Rules:**
-- DO keyword optimize but MUST read naturally in English
-- DO NOT keyword stuff or repeat same keyword multiple times
-- DO NOT use filler words ("for people", "for you", "bestseller")
-- DO NOT include competitor brand names
-- Max keyword count: 3-5 primary keywords
-- Test: "Would I click this if I saw it on Google Shopping?"
-
-### Product Images - Lifestyle > Studio Shots
-
-**Image Reality:**
-- Real-use-case images (lifestyle) outperform generic white-background shots
-- Case study: Same product with lifestyle image = $150 price vs white background = $100 price
-
-**Image Requirements:**
-- 3-5 images minimum per product
-- All products must have similar professional quality
-- Consistency across entire catalog essential
-- Competitor analysis: Look at top 3-5 ranking products, replicate quality/style (not copy)
-
-**Image Selection Strategy:**
-- Lead with lifestyle shot (person using/wearing product)
-- Include detail/close-up shots
-- Include scale shot (item next to common object for size reference)
-- Include packaging/unboxing shot (if applicable)
-
-### Product Descriptions (50-200 Words Original)
-
-- Original descriptions = higher approval chances
-- Google detects copied/spun text
-- Must be appropriate to collection category
-- Include use cases and benefits (not just features)
-- Avoid exaggerated claims without backup
-
-### Product Pricing Strategy
-
-**Price Point Validation:**
-- Product must have competitors selling at your price point
-- Example: $350 cost product + $30 profit = $380 selling price (must compete on image quality, not price alone)
-- If all competitors selling suspiciously low = red flag product
-- Validation: Search product on Google Shopping, check 3-5 top sellers' prices
-
-**Price Variation Rule:**
-- Do NOT set same discount (e.g., 50% off) across entire catalog
-- Vary markup across products based on market position
-- Avoid "compare at" prices initially (suspicious during approval)
+**Rule:** Install the native Google Ads conversion code directly. Do NOT rely on GA4 conversions imported into Google Ads. Smart bidding requires the Google Ads conversion code -- it does NOT work properly with GA analytics data.
 
 ---
 
-## PART 3: CONVERSION TRACKING SETUP
+## Setup Decision Tree
 
-### Why NOT Google Analytics 4 for Bidding
+**Ask the user:**
+1. What platform? (Shopify, WooCommerce, custom, etc.)
+2. Is the native Google Ads conversion code installed (not GA4)?
+3. Are enhanced conversions enabled?
+4. Is Google Merchant Center approved?
+5. Is your product feed connected?
 
-**The Trap:**
-- GA4 and Google Ads sync beautifully (both Google properties)
-- TRAP: Do NOT import GA4 conversions into Google Ads for bidding
-
-**Why:**
-- GA4 tracks sessions and user journeys (not transaction-level events)
-- Google Ads needs precise transaction-level data for smart bidding
-- GA4 reporting lag conflicts with real-time bidding optimization
-- Use GA4 as reporting comparison side-by-side, not as bidding source
-
-**RULE:** Set up Google Ads conversion tracking directly on your website. Not GA4. Not imported. Direct.
-
-### Conversion Tracking Setup Steps
-
-**Step 1: Access Conversions Menu**
-- Sign in to Google Ads (ads.google.com)
-- Click Tools & Settings (wrench icon, top right)
-- Select "Conversions" under Measurement section
-
-**Step 2: Create New Conversion Action**
-- Click "+" button to create conversion
-- Choose conversion type: Website
-- Name: "Purchase" (primary) or specific action name
-- Category: Choose best match (e.g., Purchase for ecommerce)
-
-**Step 3: Configure Conversion Settings**
-- Count option: "All" (counts every conversion)
-- Conversion window: 30 days default (reasonable for most ecommerce)
-- Value: Assign order value (enables value-based optimization)
-- Include in Conversions: YES
-
-**Step 4: Choose Tracking Method**
-- Method: Website (not Import)
-- Install conversion tag on your thank-you/purchase confirmation page
-
-### Enhanced Conversions Implementation (Post-Purchase Data)
-
-**What It Is:**
-- Server-side conversion verification (more reliable attribution)
-- Send purchase data (email, phone, name, address) to Google for matching
-- Increases conversion accuracy and attribution reliability
-- Works with first-party data (your customer data)
-
-**Enhanced Conversions Setup:**
-1. Create custom conversion with Enhanced Conversions enabled
-2. Send customer data (hashed) to Google Conversion API
-3. Google matches data to user profile
-4. More accurate attribution window (helps with iOS tracking loss)
-
-**Data Elements to Send (Hashed):**
-- Email address
-- Phone number
-- First/last name
-- Street address
-- City/state/zip
-- Country
-
-**Privacy Compliance:**
-- Hash all PII before sending to Google
-- Obtain customer consent for data sharing
-- Comply with GDPR/CCPA requirements
+**Priority order:** Conversion tracking > Enhanced conversions > Merchant Center > Product feed
 
 ---
 
-## PART 4: TAG MANAGER & EVENTS IMPLEMENTATION
+## Conversion Tracking Setup
 
-### Google Tag Manager Setup Basics
+### Two Installation Methods
+1. **Direct platform installation** -- Shopify/BigCommerce/WooCommerce native integrations
+2. **Google Tag Manager** -- Container approach, cleaner, recommended for multi-platform setups
 
-**Purpose:**
-- Centralized tag management (no code edits needed)
-- Track multiple events without touching website code
-- Easy A/B testing and event modifications
+### Enhanced Conversions (Must-Have)
+- Creates first-party pixel matching hashed customer data to Google accounts
+- Without it, some conversions happen but Google cannot attribute them
+- Free to enable: Google Ads > Goals > Conversions > Settings > Enhanced Conversions
+- Significantly improves smart bidding accuracy
 
-**Installation:**
-1. Create Google Tag Manager account
-2. Install GTM container code in website header
-3. Add Google Ads conversion tag in GTM
-4. Create event triggers for purchase/lead/view actions
-5. Test using Preview mode before publishing
+### Conversion Windows
+| Product Type | Click Window | View-Through |
+|---|---|---|
+| Impulse/low-price (<$50) | 7-14 days | 1 day |
+| Standard e-commerce | 30 days (default) | 1 day |
+| High-consideration ($500+) | 60-90 days | 7 days |
 
-### Event Implementation Priority (Ecommerce)
-
-**Tier 1 (CRITICAL):**
-- Purchase: Must send order value, product IDs, category
-
-**Tier 2 (HIGH VALUE):**
-- Add to Cart: Intent signal for remarketing
-- View Item: Funnel tracking
-- Initiate Checkout: Drop-off analysis
-
-**Tier 3 (OPTIONAL):**
-- View Category: Broad interest signals
-- Search: Query understanding
-
-### Purchase Event Data Requirements
-
-**MUST Include:**
-- Conversion value (order total including tax/shipping)
-- Transaction ID (unique per order, prevents double-counting)
-- Currency (USD, EUR, etc.)
-- Product IDs (if multi-product order)
-
-**Example Event:**
-```
-gtag('event', 'purchase', {
-  'transaction_id': '12345_6789',
-  'value': 149.99,
-  'currency': 'USD',
-  'items': [
-    {
-      'id': 'SKU_12345',
-      'quantity': 1
-    }
-  ]
-});
-```
+### Cash vs. Accrual Reporting
+- **Google Ads** = accrual-based (conversion counted on the date of the CLICK)
+- **GA4/Shopify** = cash-based (conversion counted on the date of the PURCHASE)
+- This difference causes data discrepancies, especially with longer conversion windows
 
 ---
 
-## PART 5: ACCOUNT STRUCTURE BASICS
+## Merchant Center Approval
 
-### When to Segment Campaigns
+### Core Principle
+Google does NOT ban dropshipping. It bans scammers who dropship. Present yourself as a legitimate brand.
 
-**Segment by Geography:**
-- Different countries = different campaign (different currencies, languages, shipping)
-- US-only vs multi-country should be separate
-- Regional testing (different ad angles for regions) = separate campaigns
+### Approval Checklist
+1. **Products:** 5-15 non-branded products with YOUR OWN photos (phone camera is fine)
+2. **Descriptions:** 50-200 words each, 100% original -- Google crawls word-for-word against other sites
+3. **Images:** 3-5 per product minimum, including in-description images
+4. **Pricing:** Realistic, varied discounts (not identical % off every product)
+5. **Categories:** 2-4 minimum product collections
+6. **Pages required:** Contact Us, About Us, Track Your Order, FAQ, Return Policy, Privacy Policy, Shipping Policy, Terms of Service
+7. **Footer:** All policy links in footer menu
+8. **Design:** Professional, max 2 brand colors
 
-**Segment by Product Category:**
-- Different product types = different audience intent
-- Electronics vs home goods = different searcher behavior
-- Allows category-specific bid strategies
-
-**Segment by Bidding Strategy:**
-- High-bid test campaigns separate from low-bid
-- Different optimization events separate (Purchase vs Lead)
-- Prevents algorithm confusion
-
-**DON'T Over-Segment:**
-- Too many small campaigns = poor data, slow learning
-- Minimum: 20-25 products per campaign for data sufficiency
-- Consolidate unless you have specific testing need
-
-### Account Health Checklist
-
-- [ ] Conversion tracking live and firing on purchase confirmation page
-- [ ] Google Ads conversion pixel installed (NOT GA4 import)
-- [ ] Enhanced Conversions enabled for high-value conversions
-- [ ] Tag Manager events tested in Preview mode
-- [ ] All products validated for demand (25k+ searches minimum)
-- [ ] All products have profit margin $25+ minimum
-- [ ] All product titles optimized (keywords left-to-right)
-- [ ] All products have 3-5+ images (lifestyle preferred)
-- [ ] Merchant Center account clean (no disapprovals pending)
-- [ ] Shopping campaign structure labeled clearly (HIGH BID / LOW BID)
-- [ ] Bidding strategy set to Maximize Clicks (not ROAS on new accounts)
+### Categories to AVOID for Approval
+- Electronics, phones, TVs (branded items)
+- Digital products (cannot sell via Google Ads)
+- Health supplements / medication
+- Beauty essentials (creams, skin products)
+- Books (specific authors = branded)
 
 ---
 
-## QUICK REFERENCE: Common Mistakes
+## Product Research & Validation
 
-| Mistake | Impact | Fix |
-|---------|--------|-----|
-| Using GA4 conversions for bidding | Poor attribution, wasted spend | Set up Google Ads conversion tracking directly |
-| Launching without conversion tracking | Flying blind, no ROI visibility | Pause campaigns, install conversion tags first |
-| Adding products under $25 profit | Unprofitable at scale | Remove immediately, focus on $25+ margin products |
-| Launching with <20 products | Insufficient data for algorithm | Add minimum 20-25 products to campaign |
-| Using Target ROAS on new accounts | Algorithm breaks, overspend | Use Maximize Clicks until you have $500-$1,000 spend history |
-| Identical product prices across catalog | Google flags as scam | Vary markups based on market position |
-| Product images with white background only | Lower CTR and lower prices | Use lifestyle images, 3-5 varied shots per product |
-| Skipping original product descriptions | Higher disapproval risk | Write 50-200 word original descriptions |
+### Validation Checklist (All Must Pass)
+
+| Criteria | Threshold |
+|----------|-----------|
+| Total monthly searches (all keywords) | 25,000+ |
+| Monthly searches per keyword | 800+ minimum |
+| Keywords found | More than 4 |
+| Dropshippers in top 10 listings per keyword | Less than 4-7 |
+| Minimum profit margin | $25+ (ideally $30+) |
+| Product images available | 3-5+ high quality |
+
+### Research Process
+1. **Source:** AliExpress (More to Love, Flash Deals), Amazon (New Releases, Movers & Shakers)
+2. **Filter:** Cost $5+ on sourcing site, not in forbidden categories
+3. **Keyword research:** Google Keyword Planner, filter >= 800 monthly, total 25K+
+4. **Trends:** Enter at the BEGINNING of a trend, never middle or declining
+5. **Competition:** iSearchFrom.com (US, English), count dropshippers in top results
+
+### Pricing Rules
+- Average top 3-5 dropshipper competitor prices (ignore Amazon/Walmart)
+- NEVER start price wars -- competitors follow, product dies overnight
+- Odd numbers ($43, $47, $49) outperform even numbers
+- Low ticket (<$30) = $25-30 profit/sale, Mid ($30-90) = $40+, High ($91+) = $50-55+
 
 ---
 
-## Reference Files
+## SEO Title Creation Process
 
-See detailed implementation in:
-- `/references/google-merchant-center.md` — Complete Merchant Center approval workflows
-- `/references/google-conversion-tracking.md` — Event implementation, attribution models, UTM strategy
-- `/references/google-product-feed.md` — Product title construction, image optimization, pricing validation process
+### Title Structure (Left-to-Right Priority)
+Most important keywords go FIRST. Google weighs left-side words more heavily.
+
+### Process
+1. List all relevant keywords from Keyword Planner (ranked by volume)
+2. Place highest-volume keyword first in title
+3. Add secondary keywords that naturally fit
+4. Include: product type, material, key feature, use case, size/color if relevant
+5. Max 150 characters (Google truncates after ~70 in Shopping ads)
+
+### Title Rules
+- Never stuff keywords unnaturally
+- Never use ALL CAPS
+- Never include promotional text ("Free Shipping", "Best Price")
+- Each keyword repeated max 3 times across title + description
+- Aim for up to 20 keywords per product
+
+---
+
+## When to Read Reference Files
+
+Read `references/google-conversion-tracking.md` when:
+- User needs step-by-step conversion code installation
+- User asks about GTM tag configuration
+- User needs enhanced conversions setup detail
+- User asks about conversion window selection for their product
+
+Read `references/google-merchant-center.md` when:
+- User is getting Merchant Center approved for first time
+- User has been rejected and needs to fix specific issues
+- User asks about product photography requirements
+- User needs the full website compliance checklist
+- User asks about categories to avoid
+
+Read `references/google-product-feed.md` when:
+- User needs to create or optimize SEO product titles
+- User asks about required vs optional feed attributes
+- User wants product image optimization strategy
+- User needs the product description template
+- User asks about custom labels or feed structure
+
+---
+
+## Cross-References
+
+| When This Comes Up | Go To | Trigger |
+|---|---|---|
+| User asks about campaign structure after setup | `strategy-google-ads` | Tracking set, Merchant Center approved |
+| User asks about Meta tracking | `setup-meta-tracking` | Question about Meta Pixel/CAPI |
+| User asks about Shopping optimization | `optimize-google` | Campaigns running, need optimization |
+| User asks about RSA or PMax asset creation | `create-google-assets` | Need creative assets |
+| User asks about product title copywriting | `create-google-assets` | Creative optimization, not feed setup |

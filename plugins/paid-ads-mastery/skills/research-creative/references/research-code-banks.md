@@ -1,379 +1,209 @@
-# Code Bank Building: Customer Language Mining
+---
+name: "Code Bank Construction"
+description: "Code bank building from reviews, connecting threads, customer language extraction, categorization by personas/outcomes/benefits/pain points."
+---
 
-Code banks are repositories of authentic customer language extracted directly from reviews, support tickets, and social discussion. They're the foundation of converting copy.
+# Code Bank Construction
+
+## What Is a Code Bank
+
+A code bank is a categorized repository of authentic customer language extracted from reviews, support tickets, comments, and social discussions. It is the foundation of all converting copy.
+
+**Rule:** No better spokesperson exists than actual customers who have experienced the benefits. Their words convert better than your words.
 
 ---
 
-## WHY CODE BANKS MATTER
+## Source Priority for Code Bank Material
 
-Marketing-speak ("revolutionary", "transforms", "game-changing") converts worse than authentic customer language ("finally something that works", "I was desperate, this saved me", "cheaper than I expected").
-
-Using customer's own words in ads creates:
-- Higher perceived credibility (sounds like testimony, not ad copy)
-- Better emotional resonance (speaks to specific pain, not generic benefit)
-- Lower ad rejection (feels like peer recommendation, not sales pitch)
-- Higher conversion rates (testing shows 20-40% lift over generic copy)
-
----
-
-## CODE BANK TEMPLATE STRUCTURE
-
-Create this spreadsheet/document for EVERY product category you advertise:
-
-### Category 1: Pain Points & Objections
-
-**Source: 1-star reviews, support tickets, Reddit complaints**
-
-| Pain Point | Frequency | Exact Language | Context |
-|------------|-----------|-----------------|---------|
-| Durability | 23% of reviews | "fell apart after 3 weeks", "seams split" | Users expecting 6+ months |
-| Fit issues | 18% of reviews | "too tight on my neck", "doesn't stay in place" | During exercise/sleep |
-| Cost concerns | 14% of reviews | "way more expensive than [competitor]", "not worth the price" | Budget-conscious shoppers |
-
-**Extraction process:**
-1. Read 1-star reviews (start here—highest pain concentration)
-2. Copy exact phrases customer uses (don't paraphrase)
-3. Note context (when/where problem happens, what they were trying to do)
-4. Count frequency (shows which pain point affects most)
-5. Group by theme (durability, fit, value, etc.)
-
-**Output usage in copy:**
-
-Instead of: "Built to last"
-Use: "Finally found something that doesn't fall apart after 3 weeks"
-
-Instead of: "Premium quality"
-Use: "Seams don't split like cheap knockoffs"
-
-### Category 2: Benefits & Wins
-
-**Source: 5-star reviews, customer testimonials, success stories**
-
-| Benefit | Frequency | Exact Language | Transformation |
-|---------|-----------|-----------------|-----------------|
-| Time savings | 31% | "saves me 45 minutes daily", "no more lengthy process" | Job flexibility, family time |
-| Pain relief | 27% | "can work full days without flare-ups", "finally pain-free" | Quality of life, confidence |
-| Peace of mind | 19% | "no more anxiety about running out", "one less thing to worry" | Stress reduction, stability |
-
-**Extraction process:**
-1. Read 5-star reviews and testimonials
-2. Identify specific transformation (not just satisfaction)
-3. Extract exact words customer used
-4. Capture the emotional shift (before → after feeling)
-5. Note secondary benefits (some buy for durability, get peace of mind)
-
-**Output usage in copy:**
-
-Instead of: "Efficient solution"
-Use: "Saves me 45 minutes every single morning"
-
-Instead of: "Reliable product"
-Use: "Finally can work a full day without worrying about pain"
-
-### Category 3: Objections & How They Overcome
-
-**Source: Support emails, "still on fence" comments, competitor comparison**
-
-| Objection | Frequency | Customer Question | How They Resolved |
-|-----------|-----------|------------------|-------------------|
-| Price concern | 40% | "Is this worth the cost?" | Calculated monthly cost (cheaper than alternatives) |
-| Skepticism | 28% | "Does it really work?" | Tried due to 30-day guarantee |
-| Risk aversion | 22% | "What if it doesn't fit?" | Free returns policy removed risk |
-| Performance doubt | 18% | "How is this different?" | Saw specific feature comparisons |
-
-**Extraction process:**
-1. Review support emails with subject: "price concern", "comparison", "hesitation"
-2. Read Reddit threads: "[product name] worth it?"
-3. Look for objection + resolution pattern
-4. Note what convinced them (guarantee, comparison, testimonial)
-5. Extract exact objection language
-
-**Output usage in copy (addressing objections pre-emptively):**
-
-Instead of: "Competitive pricing"
-Use: "At $X/month, you're spending less than one specialty coffee per day"
-
-Instead of: "Quality guaranteed"
-Use: "Try it risk-free for 30 days. If you hate it, full refund, no questions"
-
-### Category 4: Customer Language & Phrasing
-
-**Source: All reviews, testimonials, social media, customer interviews**
-
-**High-converting phrases (use these verbatim):**
-```
-"Finally found something that actually works"
-"Wish I'd found this years ago"
-"Exceeded my expectations"
-"Worth every penny"
-"Best decision I've made"
-"Can't imagine going back"
-"Game-changer for my daily routine"
-"This changed everything"
-"I was desperate, this saved me"
-"Recommend to everyone I know"
-```
-
-**Pain-focused phrases:**
-```
-"Tried everything else first"
-"Nothing else worked"
-"I was at my wit's end"
-"This was my last hope"
-"After years of struggling"
-"Finally gave up on alternatives"
-"Spent a fortune on competitors"
-```
-
-**Benefit-focused phrases:**
-```
-"Gives me my life back"
-"I feel like myself again"
-"Confidence is through the roof"
-"Can finally [specific activity] without worrying"
-"Saves me [specific time] daily"
-```
-
-**Authority/proof phrases:**
-```
-"[X]% of customers recommend"
-"[X]K+ people have tried this"
-"Used by [type of professionals]"
-"Trusted by [specific demographic]"
-"[X] year track record"
-```
+1. **Product reviews on your site** (highest value -- your actual customers)
+2. **Amazon reviews** (high volume, detailed, honest)
+3. **Trustpilot / third-party review sites**
+4. **Social media comments on ads** (especially on top performers)
+5. **Reddit threads** (anonymous honesty, rich detail)
+6. **Post-purchase survey responses**
+7. **Support tickets and customer emails**
 
 ---
 
-## CODE BANK BY PRODUCT CATEGORY
+## Extraction Process
 
-### Supplement/Health Category
+### Step 1: Collect All Reviews
+- Export or manually collect ALL reviews for the product/brand
+- Include: 5-star, 4-star, 3-star, 2-star, 1-star (all are useful)
+- Target: minimum 50 reviews (more is always better)
 
-**Pain points:**
-- "Tried 5+ brands, none worked"
-- "Waste money on expensive alternatives"
-- "Results take forever or don't happen"
-- "Awful side effects"
-- "Can't tell if it's actually working"
+### Step 2: Categorize by Type
+Create separate columns/sections for:
 
-**Benefits:**
-- "Noticeable changes in first week"
-- "Natural ingredients I can pronounce"
-- "Professional athletes use this"
-- "Feel like myself again"
-- "Energy levels are insane"
+**Personas** -- Who is buying?
+- Age indicators, gender, occupation, life situation
+- "As a 55-year-old with arthritis..."
+- "I bought this for my daughter who..."
 
-**Objections overcome:**
-- "Skeptical it would work, but tried due to guarantee"
-- "Expensive, but calculated cost vs health = worth it"
-- "Wasn't sure quality was real, but third-party tested"
+**Outcomes** -- What results did they get?
+- "My joint pain disappeared after 2 weeks"
+- "I can finally sleep through the night"
+- "My skin looks 10 years younger"
 
----
+**Benefits** -- What do they love about the product?
+- "It absorbs quickly without feeling greasy"
+- "The taste is actually pleasant unlike other supplements"
+- "So easy to use -- just pop it in the microwave"
 
-### Fashion/Apparel Category
+**Pain Points** -- What problems drove them to buy?
+- "I tried everything and nothing worked"
+- "My doctor said I needed surgery"
+- "I was embarrassed to wear short sleeves"
 
-**Pain points:**
-- "Falls apart after a few washes"
-- "Doesn't fit as advertised"
-- "Color fades immediately"
-- "Material is cheap feeling"
-- "Nothing in my size ever fits"
+### Step 3: Identify Specific Language
 
-**Benefits:**
-- "Holds shape after 50+ washes"
-- "Looks like $200 item"
-- "Finally found something that fits my body"
-- "Compliments constantly"
-- "Lasts for years, not seasons"
+**Critical:** Capture the EXACT words customers use, not your marketing interpretation.
 
-**Objections overcome:**
-- "Expensive initially, but lasts forever so cost-per-wear is cheap"
-- "Unsure about fit, but free returns made it safe"
-- "Thought it'd shrink, but washing instructions were perfect"
+| Marketing Language | Customer Language | Use In Ads |
+|---|---|---|
+| "Revolutionary skincare formula" | "My skin feels fresher" | "fresher" |
+| "Clinically proven joint support" | "I can play with my grandkids again" | "play with grandkids" |
+| "Premium quality materials" | "It doesn't feel cheap like other ones" | "doesn't feel cheap" |
 
----
+The customer language column is what goes into your scripts.
 
-### Skincare/Beauty Category
+### Step 4: Find Connecting Threads
 
-**Pain points:**
-- "Gave me breakouts"
-- "Didn't work on my skin type"
-- "Greasy/sticky feeling"
-- "Results are invisible"
-- "Same ingredients as products that failed"
+Connecting threads = how customers discovered the product and the journey they took.
 
-**Benefits:**
-- "Clear skin in 2 weeks"
-- "No more self-consciousness"
-- "Finally understand my skin"
-- "Natural glow without makeup"
-- "Texture is smooth, not oily"
+Look for patterns:
+- "My friend recommended this after she saw results..."
+- "I saw this on TikTok and was skeptical but..."
+- "My physical therapist told me about this..."
+- "I found this after searching for hours on Amazon..."
 
-**Objections overcome:**
-- "Sensitive skin, but dermatologist recommended"
-- "Skeptical at price, but one jar lasts 3 months"
-- "Tried everything, but this actually listens to my skin"
+These connecting threads become natural product introductions in video ads.
 
 ---
 
-### Software/Tool Category
+## Using Code Banks for Script Writing
 
-**Pain points:**
-- "Confusing user interface"
-- "Customer support is non-existent"
-- "Expensive for what you get"
-- "Doesn't integrate with other tools"
-- "Slow/buggy"
+### Process
+1. Open your framework template (e.g., Problem > Educate > Agitate > Intro > Benefits > CTA)
+2. Go to code bank and find reviews matching each section
+3. Pull customer language directly from reviews
+4. Use multiple reviews -- pick the best sentences for each script section
+5. Categorized outcomes make finding the right content fast
 
-**Benefits:**
-- "Set it and forget it"
-- "Literally saved me hours per week"
-- "Support responds in minutes"
-- "Worth 10x the price"
-- "Simple enough my mom can use it"
+### Example: Script for Pain Relief Product
 
-**Objections overcome:**
-- "Learning curve is steep, but tutorial is fantastic"
-- "Expensive, but ROI is 300% in first month"
-- "Competitors offer more features, but this does what I need perfectly"
+**Framework:** Problem > Agitation > Solution > Benefits > Outcome > CTA
 
----
+**Problem section:** Pull from pain points column
+- "I tried everything -- creams, pills, physical therapy -- nothing worked"
 
-## MINING CODE BANKS: STEP-BY-STEP
+**Agitation section:** Pull from pain point consequences
+- "I could not even pick up my grandchildren without wincing"
 
-### Amazon Review Mining Workflow
+**Solution section:** Pull from connecting threads
+- "My physical therapist mentioned this and I thought, why not try one more thing"
 
-1. **Go to product page on Amazon**
-   - Navigate to Reviews section
-   - Filter by: Star rating (1-star FIRST)
+**Benefits section:** Pull from benefits column
+- "It absorbs in seconds and the relief starts within 15 minutes"
 
-2. **Read minimum 50 1-star reviews**
-   - Copy exact phrases into spreadsheet
-   - Note what product failed to do
-   - Note emotional language (angry, frustrated, disappointed)
-   - Note what they tried instead
-
-3. **Read minimum 50 5-star reviews**
-   - Copy exact benefit statements
-   - Note transformation (before/after feeling)
-   - Note specific outcomes (time saved, pain reduced, confidence increased)
-   - Note comparisons ("better than X", "not like Y")
-
-4. **Compile patterns**
-   - Which objections appear in 30%+ of 1-star? (highest priority)
-   - Which benefits appear in 40%+ of 5-star? (strongest selling point)
-   - Which customers describe themselves as "finally" or "at last"? (pain-desperation focus)
-
-### Reddit Mining Workflow
-
-1. **Search site:reddit.com + keyword**
-   - Example: "site:reddit.com what supplements actually work"
-   - Finds relevant discussions in all subreddits
-
-2. **Open top 20 threads (sort by Most Comments)**
-   - Read all comments in thread
-   - Copy exact customer language about problems/solutions
-   - Note which solutions customers debate (competitive intelligence)
-   - Note emotional language (rants show true pain)
-
-3. **Look for AMAs (Ask Me Anything)**
-   - Find expert or customer AMA in category
-   - Read all questions (shows customer doubts)
-   - Read answers (shows what convinced them)
-
-### Internal Feedback Mining Workflow
-
-1. **Export support emails from last 3 months**
-   - Search for keywords: "price", "expensive", "comparison", "alternative", "versus"
-   - Read entire conversation (not just subject)
-   - Copy exact customer phrases and questions
-
-2. **Review customer surveys**
-   - Question: "What almost stopped you from buying?"
-   - Question: "What surprised you about this product?"
-   - Question: "How is this different from [competitor]?"
-   - Copy verbatim responses (don't clean up grammar)
-
-3. **Conduct 5-10 customer interviews**
-   - Ask: "Walk me through why you bought this"
-   - Ask: "What problem were you solving?"
-   - Ask: "What made you pick us over competitors?"
-   - Ask: "What almost made you say no?"
-   - Record conversations, transcribe exact language
+**Outcome section:** Pull from outcomes column
+- "For the first time in 3 years, I played on the floor with my grandson"
 
 ---
 
-## USING CODE BANKS IN AD COPY
+## Code Bank for Static Ads
 
-### Copy Formula 1: Problem Agitation (Using Code Bank)
+### Review-Based Headers
+Extract the strongest one-line statements from reviews for static ad headlines:
+- "This is the only thing that actually works" (social proof angle)
+- "I threw away my other products" (comparison angle)
+- "My husband noticed the difference in ONE week" (speed + third-party validation)
 
-**Framework:**
-[Customer pain point phrase] + [emotional consequence] + [solution bridge]
-
-**Example using code bank:**
-"Falls apart after 3 weeks (pain) means wasted money and frustration (emotion). Here's what lasts 2+ years (solution)."
-
-### Copy Formula 2: Benefit-Driven (Using Code Bank)
-
-**Framework:**
-[Exact benefit customer stated] + [specific outcome] + [proof/permission]
-
-**Example using code bank:**
-"Saves me 45 minutes daily—giving me back time with family. 47,000+ customers report the same."
-
-### Copy Formula 3: Objection Pre-Emption (Using Code Bank)
-
-**Framework:**
-[Customer's exact objection] + [your answer] + [risk removal]
-
-**Example using code bank:**
-"Yes, it's more expensive than alternatives. But customers report it lasts 3x longer, making it cheaper per month. Plus 30-day guarantee means zero risk."
-
-### Copy Formula 4: Social Proof (Using Code Bank)
-
-**Framework:**
-[Exact customer phrase] + [transformation] + [call to join]
-
-**Example using code bank:**
-"'Finally found something that actually works' — that's what 15,000+ customers say. Join them."
+### Organizing Headers by Angle
+| Angle | Review-Based Header Example |
+|---|---|
+| Speed/Results | "Results in just 3 days -- I was shocked" |
+| Social proof | "Everyone asks what my secret is" |
+| Comparison | "Better than the $200 cream my dermatologist recommended" |
+| Skeptic-to-believer | "I was the biggest doubter -- now I tell everyone" |
+| Transformation | "I went from hiding my arms to wearing tank tops" |
 
 ---
 
-## STORING & UPDATING CODE BANKS
+## Maintenance
 
-**Recommended storage:**
-- Google Sheet (easy to search, share, update)
-- Notion database (better organization, can tag by campaign)
-- Spreadsheet with tabs (one tab per product category)
-
-**Update schedule:**
-- Review monthly (add new customer feedback)
-- When launching new product (build fresh code bank)
-- Quarterly deep-dive (Amazon + Reddit full refresh)
-- When copy performance drops (new market fatigue = refresh language)
-
-**Structure example:**
-
-```
-Sheet: Product Name (e.g., "Neck Pillow Elite")
-Columns: Category | Phrase | Frequency | Sentiment | Used In (Ad Name) | Performance
-Rows: All extracted phrases with metadata
-Filter/Sort: By Frequency (what's most common = most powerful)
-```
+- Update code bank monthly with new reviews
+- Flag reviews that are being used in current ads (avoid repetition fatigue)
+- Track which code bank entries led to winning ads (mark them as proven)
+- When launching in new markets, build separate code banks (language and culture differ)
 
 ---
 
-## CODE BANK QUALITY CHECKLIST
+## Extended Categorization Framework
 
-✓ Minimum 30 pain point phrases (from reviews, not marketing speak)
-✓ Minimum 30 benefit phrases (specific outcomes, not generic)
-✓ Minimum 20 objection phrases (customer doubts, exact language)
-✓ Minimum 50 authentic language samples (for copy variation)
-✓ All phrases extracted from primary sources (reviews, testimonials, social)
-✓ Phrases include specific metrics when available (time, money, percentage)
-✓ Organized by product category/audience segment
-✓ Updated every 30 days with new feedback
-✓ Notes on frequency (which phrases appear most = strongest)
+### Primary Categories (Required)
+1. **Personas** -- Who is buying (age, gender, occupation, life situation)
+2. **Outcomes** -- What results they achieved (measurable, specific)
+3. **Benefits** -- What they love about the product (features experienced)
+4. **Pain Points** -- What problems drove them to buy (before state)
 
-**Without a robust code bank, you're writing ads from assumptions, not customer reality.**
+### Secondary Categories (Advanced)
+5. **Objections Overcome** -- What almost stopped them from buying
+   - "I was skeptical because..." / "I almost didn't buy because..."
+   - These feed directly into retargeting ad scripts and objection-handling sequences
+6. **Connecting Threads** -- How they discovered the product
+   - "My friend recommended..." / "I saw this on TikTok..." / "My doctor told me..."
+   - These become natural product introductions in video ads
+7. **Emotional Language** -- Words describing feelings (not features)
+   - "I finally feel confident" / "I can actually enjoy..." / "For the first time in years..."
+   - These are the most powerful words for hooks and headlines
+8. **Comparison Language** -- How they compare to alternatives
+   - "Unlike Brand X..." / "Better than the expensive version..." / "I threw away my old..."
+   - These feed competitive positioning and comparison ad angles
 
+### Review Mining Sources (Expanded)
+
+**Tier 1: Highest Value**
+| Source | Why | What to Extract |
+|---|---|---|
+| Your own product reviews | Exact customer, exact product | Everything -- primary source |
+| Amazon reviews (same/similar product) | High volume, detailed, honest | Pain points, outcomes, language |
+| Post-purchase survey responses | Direct customer voice, high intent | Motivations, objections, discovery path |
+
+**Tier 2: High Value**
+| Source | Why | What to Extract |
+|---|---|---|
+| Reddit threads (problem-related) | Anonymous honesty, raw language | Problem descriptions, failed solutions |
+| Facebook group discussions | Community context, real conversations | Emotional language, social proof needs |
+| Competitor ad comments | Reveals audience objections live | Objections, desires, competitor weaknesses |
+
+**Tier 3: Supporting**
+| Source | Why | What to Extract |
+|---|---|---|
+| Trustpilot / G2 / third-party sites | Independent perspective | Trust signals, comparison data |
+| TikTok comments on product reviews | Trend language, younger demo voice | Casual language, trend hooks |
+| Customer support tickets | Reveals friction points | Post-purchase pain points, FAQ content |
+| Quora answers | Long-form problem descriptions | Awareness level indicators, search intent |
+
+---
+
+## Code Bank to Script: Detailed Mapping
+
+### Which Code Bank Section Feeds Which Script Section
+
+| Script Section | Code Bank Source | Example Pull |
+|---|---|---|
+| Hook / Opening | Pain Points + Emotional Language | "I was embarrassed to leave the house" |
+| Problem Statement | Pain Points + Objections Overcome | "I tried 6 different products and nothing worked" |
+| Agitation | Pain Point Consequences | "It got so bad I canceled plans with friends" |
+| Product Introduction | Connecting Threads | "My physical therapist mentioned this" |
+| Benefits Section | Benefits + Outcomes | "It absorbs in seconds and relief starts in 15 minutes" |
+| Social Proof | Outcomes + Emotional Language | "For the first time in 3 years, I could play with my grandkids" |
+| Objection Handling | Objections Overcome | "I was skeptical because I'd tried everything" |
+| CTA Reinforcement | Comparison Language | "This is the only thing that actually worked" |
+
+### Quantity Targets
+- Minimum 50 reviews processed per code bank (100+ preferred)
+- At least 10 entries per primary category
+- At least 5 entries per secondary category
+- Update monthly or whenever 20+ new reviews accumulate

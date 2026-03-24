@@ -1,425 +1,157 @@
 ---
 name: Audit Campaign
-description: Campaign audit tool that accepts pasted metrics (spend, ROAS, CPA, CTR, etc.) and runs diagnostic decision trees from the optimize-campaigns skill. Outputs ranked issues with specific fixes.
+description: Diagnose an existing campaign using diagnostic frameworks. Identifies bottlenecks and prescribes fixes. Activates optimize-meta OR optimize-google, plus scale-campaigns when scaling diagnostics are needed.
 ---
 
-# Campaign Audit Tool
+# Campaign Audit Wizard
 
-## Step 1: Paste Campaign Data
+## Step 1: Identify Platform and Gather Data
 
-**Provide the following metrics (copy/paste from Ads Manager):**
+Ask the user:
 
-```
-REQUIRED FIELDS:
-- Platform: Meta / Google / Other?
-- Campaign Name:
-- Days Running:
-- Total Spend: $___
-- Total Conversions: ___
-- Total Revenue: $___
-- Average ROAS: ___x
-- Average CPA: $___
+1. **Platform:** Meta/Facebook, Google Ads, or both?
+2. **Campaign type:** What campaigns are running? (CBO, ASC, Shopping, PMax, Search, etc.)
+3. **Time period:** How long has the campaign been running?
+4. **Current performance:** Ask for these metrics:
 
-RECOMMENDED FIELDS (For deeper diagnosis):
-- CTR: _%
-- CPM: $___
-- Conversion Rate: _%
-- Frequency (Meta): __x
-- Hold Rate / Video (Meta): _%
-- Quality Score (Google): __/10
-- Impression Share (Google): _%
-- Hook Rate (Meta): _%
+### Meta Metrics Needed
+- ROAS (7-day and 14-day rolling average)
+- CPA (cost per acquisition)
+- CTR (all) and CTR (link)
+- CPM
+- CPC
+- Frequency
+- Hook rate (for video ads)
+- Conversion rate (website)
+- Daily spend vs. budget
+- AOV
 
-TREND DATA (Last 3-7 days):
-- 7-day ROAS: ___x
-- 7-day CPA: $___
-- Yesterday ROAS: ___x
-- 30-day average ROAS: ___x
-- Is CPA trending up or down?: Up / Down / Flat
-- Is ROAS trending up or down?: Up / Down / Flat
-```
+### Google Metrics Needed
+- ROAS or CPA
+- CTR
+- CPC
+- Conversion rate
+- Quality Score (for Search)
+- Campaign CTR (for Shopping -- target 1%+)
+- Impression Share and IS Lost (Budget) / IS Lost (Rank)
+- Search terms report highlights
+- Asset performance ratings (for PMax)
 
 ---
 
-## Step 2: Platform-Specific Diagnostic
+## Step 2: Run Platform-Specific Diagnostic
 
-### FOR META ADS CAMPAIGNS
+### Meta Campaign Diagnostic
 
-**Decision Tree 1: Pixel & Tracking**
+**Load skill:** `optimize-meta` > ref-meta-diagnostics.md
 
-```
-Is pixel actively firing?
-├─ Unknown → TEST: Add to cart + purchase, check Events Manager
-├─ YES ✅ → Continue to Decision Tree 2
-└─ NO ❌ → ISSUE #1 [CRITICAL]
-    Problem: Tracking not working
-    Impact: Cannot optimize campaigns accurately
-    Fix: 1) Verify pixel code installed
-         2) Check for ad blockers in test browser
-         3) Implement Conversions API (more reliable)
-    Timeline: 24-48 hours
-    Priority: 🔴 CRITICAL - Fix before optimizing
-```
+**Diagnostic Matrix:**
 
-**Decision Tree 2: Days Running vs. Learning Phase**
+| Check | What to Look At | Red Flag |
+|---|---|---|
+| **CPM + CTR combo** | High CPM + Low CTR = creative problem. Low CPM + Low CTR = targeting mismatch. | Any combo with low CTR |
+| **CPC + CPM combo** | High CPC + Low CPM = creative not compelling. High CPC + High CPM = competitive market. | High CPC regardless of CPM |
+| **Frequency** | Above 2.0 on prospecting with declining performance = fatigue | Above 3.0 = urgent |
+| **Hook rate** | Below 15% = hook is failing | Below 15% |
+| **CVR** | Below 2% = landing page problem | Below 2% |
+| **CTR high + CVR low** | Landing page problem, NOT ad problem | Misalignment between ad and LP |
+| **Checkout-to-purchase ratio** | If checkouts exist but purchases lag, delayed reporting likely | Wait 48-72 hours |
+| **Comments** | Negative comments driving engagement = wasted spend | Visible negative comments |
 
-```
-Days Running: [INSERT NUMBER]
-├─ <7 days → ANALYSIS: Learning Phase
-│            Decision: Too early to optimize
-│            Action: Wait 7 days, collect baseline data
-│
-├─ 7-14 days → ANALYSIS: Exiting Learning Phase
-│             Decision: Early performance signals
-│             Actions:
-│             - If ROAS >1.5x breakeven: SCALE 10%
-│             - If ROAS <1.0x: TEST new creative
-│             - If ROAS 1.0-1.5x: HOLD, monitor 3 more days
-│
-└─ >14 days → ANALYSIS: Established Campaign
-              Decision: Full optimization possible
-              Continue to Decision Tree 3
-```
+### Google Campaign Diagnostic
 
-**Decision Tree 3: ROAS Performance**
+**Load skill:** `optimize-google` > ref-google-unit-economics.md (for bottleneck analysis)
+
+**Bottleneck Analysis:**
 
 ```
-ROAS: [INSERT NUMBER]x
-├─ >2.0x Breakeven ✅
-│  ├─ Trend: Up? → SCALE 15% (momentum!)
-│  ├─ Trend: Flat? → SCALE 10% (steady growth)
-│  └─ Trend: Down? → HOLD, test new hook (fatigue warning)
-│
-├─ 1.5-2.0x Breakeven ⚠️ (Marginal)
-│  ├─ Days <21? → HOLD, let data mature
-│  ├─ Days 21-30? → HOLD, test new creative
-│  └─ Days >30? → Plan refresh (creative fatigue)
-│
-└─ <1.5x Breakeven ❌ (Problem)
-   ├─ Days <7? → HOLD (learning phase, normal)
-   ├─ Days 7-14? → TEST new hook immediately
-   └─ Days >14? → PAUSE 48h, investigate + refresh, OR KILL if no recovery
+Impressions --> Clicks --> Conversions --> Revenue --> Profit
+     |              |           |              |          |
+    CTR           CVR      Close Rate    Deal Value   Margins
 ```
 
-**Decision Tree 4: CPA Inflation**
+Identify which link is broken:
+
+| Bottleneck | Symptom | Solution |
+|---|---|---|
+| Impressions | Low impression share | Increase budget or bids |
+| CTR | Impressions but few clicks | Improve ad copy, extensions, headlines |
+| CVR | Clicks but few conversions | Fix landing page or offer |
+| Profitability | Conversions but losing money | Fix unit economics or bidding strategy |
+
+**Shopping-Specific Checks:**
+- Campaign CTR below 1%? Product images and titles need optimization.
+- Products spending with zero sales? Exclude at 1.5-3x profit margin with no conversions.
+- Zero-click products with 500+ impressions? Exclude immediately.
+
+**Search-Specific Checks:**
+- Quality Score below 5? Follow 3-phase QS playbook (Ad Relevance > Expected CTR > LP Experience).
+- Irrelevant search terms consuming budget? Add negatives.
+- Has campaign hit 30/30 threshold for Target CPA/ROAS switch?
+
+**PMax-Specific Checks:**
+- Brand traffic mixed in? Exclude brand queries -- they inflate ROAS.
+- Any Silent Killers? (High impression share + low conversion rate = remove first)
+- Campaign live less than 2 weeks? May still be in learning phase.
+
+---
+
+## Step 3: Identify Root Cause Category
+
+| Category | Symptoms | Prescription |
+|---|---|---|
+| **A: Creative Problem** | Low CTR, low hook rate, high CPM + low engagement, fatigue | Load `test-creative`. Produce new variations. |
+| **B: Landing Page / Offer** | High CTR + low CVR, high bounce, cart abandonment | Out of scope (CRO). Advise LP optimization. |
+| **C: Targeting / Structure** | High frequency, auction overlap, budget on wrong audiences | Load `strategy-meta-ads` or `strategy-google-ads`. |
+| **D: Tracking / Attribution** | Ads Manager vs. revenue discrepancy, missing conversions | Load `optimize-meta` > ref-meta-attribution.md or `setup-google-ads`. |
+| **E: Unit Economics** | Cannot scale profitably, break-even ROAS too high | Load `optimize-google` > ref-google-unit-economics.md. Business problem. |
+| **F: Scaling Ceiling** | More budget = worse ROAS. Daily loop detected. | Load `scale-campaigns`. New angles, countries, or offer needed. |
+
+---
+
+## Step 4: Generate Action Plan
 
 ```
-Current 7-day CPA vs. 30-day Average CPA: [INSERT %]
-├─ +0 to +10% (Stable) ✅
-│  Decision: Normal variance
-│  Action: Continue monitoring
-│
-├─ +10 to +20% ⚠️ (Inflation)
-│  Decision: Creative fatigue emerging
-│  Actions: 1) Reduce frequency cap (2x/week instead of 3x)
-│           2) Pause for 48 hours
-│           3) Relaunch with new hook variant
-│           4) Continue monitoring CPA closely
-│
-└─ >+20% ❌ (Critical Inflation)
-   Decision: Audience saturation or creative fatigue
-   Actions: 1) PAUSE immediately (48-72 hours)
-            2) Refresh entire creative set
-            3) Relaunch at 50% original budget
-            4) Expand targeting (remove interest exclusions)
-```
+CAMPAIGN AUDIT RESULTS
+======================
 
-**Decision Tree 5: Frequency & Fatigue**
+Platform: [Meta / Google / Both]
+Audit Period: [dates]
+Current Performance: [ROAS / CPA summary]
 
-```
-Average Frequency: [INSERT #]x
-├─ <2.0x ✅
-│  Decision: Healthy frequency
-│  Action: No changes needed
-│
-├─ 2.0-3.5x ⚠️
-│  Decision: Monitor closely for fatigue
-│  Actions: 1) Set frequency cap to 2x/week
-│           2) If ROAS drops >10% in next 3 days, prepare refresh
-│           3) Continue scaling if ROAS remains stable
-│
-└─ >3.5x ❌ (High Fatigue Risk)
-   Decision: Audience seeing ad too many times
-   Actions: 1) SET frequency cap to 1.5-2x/week
-            2) PAUSE if conversions declining >15%
-            3) Expand targeting (new interests/lookalikes)
-            4) OR reduce budget to manage frequency
-```
+ROOT CAUSE: [Category A-F with explanation]
 
-**Decision Tree 6: Account Quality**
+IMMEDIATE ACTIONS (This Week):
+1. [Highest priority fix with specific instructions]
+2. [Second priority fix]
+3. [Third priority fix]
 
-```
-Account Quality Score: [INSERT: Good / Fair / Poor]
-├─ Good ✅
-│  Decision: No issues
-│  Action: Safe to scale
-│
-├─ Fair ⚠️
-│  Decision: Potential issue
-│  Investigate: 1) Payment method valid?
-│              2) Account age >3 months?
-│              3) Any recent account restrictions?
-│  Action: Resolve issues, then continue
-│
-└─ Poor ❌
-   Decision: Serious issue blocking scale
-   Actions: 1) STOP scaling immediately
-            2) Audit payment & account history
-            3) Contact Meta support if needed
-            4) Resume scaling only after "Good" rating
-```
+SHORT-TERM ACTIONS (Next 2-4 Weeks):
+1. [Structural or strategic change]
+2. [Creative production needed]
+3. [Testing plan]
 
-**Decision Tree 7: Creative Fatigue Pattern**
+METRICS TO MONITOR:
+- [Primary KPI to track improvement]
+- [Secondary KPI]
+- [Leading indicator]
 
-```
-30-day ROAS Trend: [Plot mentally: Stable / Declining / Volatile]
-├─ Stable ±0.2x ✅
-│  Decision: No creative fatigue
-│  Action: Continue standard optimization
-│
-├─ Declining 0.05-0.1x per week ⚠️
-│  Decision: Gradual creative fatigue
-│  Timeline: 3-4 weeks until burnout
-│  Actions: 1) Increase testing budget to 30%
-│           2) Plan creative refresh in 2 weeks
-│           3) Test 3-5 hook variations
-│           4) Prepare duplicate campaign
-│
-├─ Declining >0.1x per week ❌
-│  Decision: Rapid creative fatigue
-│  Actions: 1) PAUSE for 7 days
-│           2) Redesign all creatives
-│           3) Relaunch at 50% budget
-│           4) Increase daily testing allocation to 40%
-│
-└─ Volatile ±0.3-0.5x (Erratic)
-   Decision: Data quality issue OR external factor
-   Investigate: 1) Algorithm update?
-               2) Seasonal event impact?
-               3) External news affecting category?
-   Actions: 1) Check if volatility is category-wide
-            2) If just you: Test new audience
-            3) If industry-wide: Hold spend, wait 7 days
+EXPECTED TIMELINE:
+- [When to expect improvement]
+- [When to reassess if no improvement]
+
+SKILLS TO LOAD FOR EXECUTION:
+- [Relevant skills for the prescribed actions]
 ```
 
 ---
 
-### FOR GOOGLE ADS CAMPAIGNS
+## Step 5: Follow-Up Recommendations
 
-**Decision Tree 1: Conversion Tracking**
-
-```
-Conversions in last 7 days: [INSERT NUMBER]
-├─ 50+ ✅
-│  Decision: Solid data flow
-│  Action: Continue to Decision Tree 2
-│
-├─ 10-50 ⚠️
-│  Decision: Moderate data
-│  Actions: 1) Campaign needs more volume to optimize
-│           2) Increase budget or expand keywords
-│           3) Wait for 50+ before major bid changes
-│
-└─ <10 ❌
-   Decision: Insufficient data
-   Actions: 1) Check conversion tag implementation
-            2) Verify correct conversion selected
-            3) Wait 48+ hours for data to flow
-            4) Increase daily budget temporarily to accelerate learning
-```
-
-**Decision Tree 2: Quality Score Health**
-
-```
-% of keywords with Quality Score 6+: [INSERT %]
-├─ >70% ✅
-│  Decision: Quality score is healthy
-│  Action: Continue to Decision Tree 3
-│
-├─ 50-70% ⚠️
-│  Decision: Some quality score issues
-│  Actions: 1) Identify keywords with QS <5
-│           2) Improve ad copy relevance
-│           3) Increase max CPC bids by 10% on QS 5-6 keywords
-│           4) Audit landing page experience
-│
-└─ <50% ❌
-   Decision: Systemic quality score problem
-   Actions: 1) PAUSE all QS <4 keywords
-            2) Rewrite ad copy for higher relevance
-            3) Check landing page loading speed
-            4) Audit: Do ads match keyword intent?
-            5) Expect 3-7 days for QS to improve
-```
-
-**Decision Tree 3: Budget Limitations**
-
-```
-Is budget limiting impressions? [Check Diagnostics tab]
-├─ No ✅
-│  Decision: Budget is adequate
-│  Action: Continue to Decision Tree 4
-│
-├─ Yes, "Lost to Budget" >20% ⚠️
-   Decision: Bid too low for current budget
-   Actions: 1) Increase daily budget 15-20%
-            2) Monitor: Do more impressions = more conversions?
-            3) If conversions increase proportionally: Budget was issue
-            4) Continue scaling budget incrementally
-│
-└─ Yes, "Lost to Rank" >20%
-   Decision: Bids too low for keyword competition
-   Actions: 1) Increase max CPC by 15%
-            2) Monitor if impressions increase
-            3) If ROAS remains stable: Continue increasing bids
-            4) If ROAS declines: Reduce bids or pause keywords
-```
-
-**Decision Tree 4: ROAS & Bid Strategy**
-
-```
-ROAS: [INSERT NUMBER]x | Bid Strategy: [INSERT: Maximize Clicks / Target ROAS / Manual CPC]
-├─ ROAS >3.0x
-│  ├─ Strategy: Maximize Clicks? → PERFECT for new accounts
-│  ├─ Strategy: Target ROAS? → Conservative ROAS target (3.5+?)
-│  └─ Strategy: Manual CPC? → INCREASE bids 10-15%
-│
-├─ ROAS 2.5-3.0x (Healthy)
-│  ├─ Strategy: Maximize Clicks? → HOLD, collecting more data
-│  ├─ Strategy: Target ROAS? → Good, continue
-│  └─ Strategy: Manual CPC? → INCREASE bids 5-10%
-│
-├─ ROAS 1.5-2.5x (Marginal)
-│  ├─ Conversions >30/week? → HOLD, monitor for improvement
-│  ├─ Conversions <30/week? → Test new keywords or ad copy
-│  └─ Days running <21? → Normal for new campaigns, let mature
-│
-└─ ROAS <1.5x (Losing)
-   ├─ Days <14? → HOLD (learning phase), OK for new
-   ├─ Days 14-30? → TEST new keywords or improve landing page
-   └─ Days >30? → KILL keywords, reallocate budget OR refresh
-```
-
-**Decision Tree 5: Product Feed Quality (Shopping)**
-
-```
-Merchant Center Diagnostic Errors: [INSERT % or "Unknown"]
-├─ 0-2% ✅
-│  Decision: Feed is healthy
-│  Action: Monitor for compliance
-│
-├─ 2-5% ⚠️
-│  Decision: Feed issues emerging
-│  Actions: 1) Identify products with errors
-│           2) Fix: Missing images? Pricing issues? Descriptions?
-│           3) Resubmit products
-│           4) Expect 24-48 hours propagation
-│
-└─ >5% ❌
-   Decision: Significant feed issues
-   Actions: 1) Audit all products for:
-              - Missing images (needs 3+ images)
-              - Missing descriptions
-              - Pricing discrepancies
-              - Category misclassification
-            2) Fix critical issues first
-            3) Resubmit in batches
-            4) Expect 5-10% ROAS improvement post-fix
-```
-
-**Decision Tree 6: Impression Share & Competition**
-
-```
-Impression Share: [INSERT %]
-├─ >70% ✅
-│  Decision: Capturing majority of available impressions
-│  Action: Continue optimization
-│
-├─ 50-70% ⚠️
-│  Decision: Missing 30%+ of impressions
-│  Diagnose: Lost to Budget? OR Lost to Rank?
-│  ├─ Lost to Budget >15%? → INCREASE daily budget 20%
-│  └─ Lost to Rank >15%? → INCREASE max CPC by 15%
-│
-└─ <50% ❌
-   Decision: Significant impression loss
-   Actions: 1) INCREASE budget 25%
-            2) INCREASE bids 20%
-            3) EXPAND keyword list (add similar keywords)
-            4) Monitor next 7 days for improvement
-            5) If no improvement: Keywords too competitive for margin
-```
-
-**Decision Tree 7: Profitability Status**
-
-```
-Calculate: ROAS × Profit Margin × (1 - Platform Fee)
-Example: 3.0 ROAS × 0.40 margin × 0.97 = 1.164 (net 16.4% profit)
-
-├─ Result >1.20 (>20% net profit) ✅
-│  Decision: Highly profitable
-│  Action: SCALE aggressively (increase budget 15-20% daily)
-│
-├─ Result 1.10-1.20 (10-20% profit) ✅
-│  Decision: Profitable
-│  Action: Scale 5-10% every 5 days
-│
-├─ Result 1.05-1.10 (5-10% profit) ⚠️
-│  Decision: Marginal profitability
-│  Actions: 1) Test new keywords
-│           2) Optimize landing page
-│           3) Monitor closely for margin compression
-│           4) Limited scaling potential
-│
-└─ Result <1.05 (<5% profit) ❌
-   Decision: Unsustainable
-   Actions: 1) If new campaign: HOLD 14 more days
-            2) If mature: KILL and reallocate to winners
-            3) OR use as loss leader (limited budget)
-```
-
----
-
-## Step 3: Summarized Audit Report
-
-Based on your metrics, here's the prioritized issues:
-
-### ISSUE PRIORITY RANKING
-
-**🔴 CRITICAL Issues (Fix in next 48 hours)**
-- [List any tracking, account, or red flag issues]
-- Recommended action: [Specific fix]
-- Expected impact: [Timeline and ROAS improvement estimate]
-
-**🟠 HIGH Issues (Fix in next 3-7 days)**
-- [List performance, creative fatigue, bid issues]
-- Recommended action: [Specific fix]
-- Expected impact: [Estimate]
-
-**🟡 MEDIUM Issues (Fix next week)**
-- [List optimization opportunities]
-- Recommended action: [Specific fix]
-- Expected impact: [Estimate]
-
-**🟢 GREEN LIGHTS (Safe to continue)**
-- [List what's working well]
-- Recommended action: [Scale or maintain]
-
----
-
-## Step 4: Next Steps
-
-**Immediate Actions (Today):**
-1. [Action based on issues]
-2. [Action based on issues]
-
-**This Week:**
-1. [Action]
-2. [Action]
-
-**Deep Dive:**
-- Need creative audit? → `/write-ad` or `/create-meta-traditional`
-- Need testing plan? → `/test-plan`
-- Need scaling roadmap? → `/scale-plan`
-- Need daily monitoring SOP? → `/brief-media-buyer`
-- Need creative research? → `/research-brief`
+| Situation | Next Action |
+|---|---|
+| Need new creatives | `/write-ad` or `create-ad-copy` / `create-video-ads` |
+| Need a testing plan | `/test-plan` |
+| Need to restructure campaigns | `/build-campaign` with revised parameters |
+| Ready to scale after fixes | `/scale-plan` |
+| Need creative research for new angles | `/research-brief` |

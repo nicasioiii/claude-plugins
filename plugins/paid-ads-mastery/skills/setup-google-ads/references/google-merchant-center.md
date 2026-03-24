@@ -1,345 +1,227 @@
-# Google Merchant Center Complete Guide
+---
+name: "Google Merchant Center Approval"
+description: "Merchant Center approval process, product photography, original descriptions, website requirements, categories to avoid, product research and validation checklist."
+---
 
-## Account Setup & Approval
+# Google Merchant Center Approval Guide
 
-### Account Types
+## Core Principle
 
-**New Account from Scratch:**
-1. Create Google Merchant Center account (merchantcenter.google.com)
-2. Connect to Google Ads account
-3. Set primary country (USA for dropshipping)
-4. Add website URL
-5. Upload product feed (CSV, XML, or Google Sheets)
-
-**Existing Business Account:**
-1. Verify website ownership (meta tag or DNS)
-2. Set up shipping and return policies
-3. Input tax information (if applicable)
-4. Connect Ads account
-5. Upload product feed
-
-### Merchant Center Data Requirements
-
-**Required Fields for Every Product:**
-- `id` — Unique product identifier (SKU or internal ID)
-- `title` — Product name (keyword optimized, max 150 characters)
-- `description` — Full product description (50-200 words original)
-- `availability` — in stock, out of stock, preorder
-- `price` — Selling price with currency
-- `image_link` — URL to primary product image
-- `link` — URL to product page on your website
-- `brand` — Brand name (or your store name for non-branded)
-- `condition` — new, refurbished, used
-- `product_type` — Category path (Home & Garden > Furniture > Chairs)
-
-**Highly Recommended Fields:**
-- `additional_image_link` — URLs to 2-4 additional images
-- `color` — Color variant if applicable
-- `size` — Size variant if applicable
-- `material` — Material composition
-- `pattern` — Pattern (floral, striped, etc.)
-- `shipping` — Shipping cost and time to delivery
-- `shipping_label` — Shipping class (standard, oversized, etc.)
-- `tax` — Tax rate if applicable
-- `mpn` — Manufacturer part number (increases trust)
-- `gtin` — UPC/EAN barcode (if available)
-
-### Product Submission Strategy for Approval
-
-**Phase 1: Bootstrap Approval (5-15 Products)**
-
-**Why This Phase:**
-- Google audits new accounts heavily for scam indicators
-- Real photos + original descriptions = trust signals
-- Approval from real products gives account credibility
-- After approval, you replace entire catalog with dropshipping products
-
-**Product Selection Rules:**
-1. Use products from your own home/property
-2. Photograph with your phone (real images, not pro studio)
-3. Select variety: furniture, décor, kitchen items, etc.
-4. Avoid restricted categories (electronics, supplements, etc.)
-5. Price variation: $20-$200+ range (mix of high/low)
-6. Collections match product category (don't mix home goods with fashion)
-
-**Description Writing Process:**
-1. Write 50-200 words about each product
-2. Include actual use case (where it goes, how it's used)
-3. Describe materials and dimensions
-4. Be honest about condition (new, vintage, etc.)
-5. Do NOT copy from anywhere (AliExpress, eBay, competitors)
-6. Use natural English, not keyword-stuffed
-
-**Image Checklist:**
-- 3-5 images per product minimum
-- Mix of angles: front, side, detail, lifestyle use
-- Include scale reference (item next to common object)
-- If furniture: show it in room context
-- No watermarks or stock photo indicators
-- Consistent lighting across all images
-- All images must be original (not from internet)
-
-**Website Quality Before Submission:**
-- Professional header/footer with logo
-- Complete About page (who are you, why do you sell this)
-- Visible contact information (email, phone if possible)
-- Privacy Policy page (required)
-- Terms of Service page (required)
-- Shipping Policy page (required)
-- Return/Refund Policy page (required)
-- Product pages well-formatted with descriptions
-- Mobile-responsive design
-- 20-25 products live before campaign launch
-
-**Submission Checklist:**
-- [ ] Website looks professional and complete
-- [ ] All policy pages written and live
-- [ ] 5-15 products with original photos
-- [ ] Product descriptions written in your own words
-- [ ] Pricing varied (not uniform markups)
-- [ ] Collections assigned correctly
-- [ ] Feed uploaded to Merchant Center
-- [ ] Google review starts (1-3 business days typical)
-
-**What Google Looks For During Approval:**
-- Do images look real? (Not stock photos)
-- Does description match image quality? (Professional = trustworthy)
-- Is pricing reasonable? (Not suspiciously low)
-- Do policies exist and are complete? (Trust signal)
-- Is account history clean? (No prior violations)
-- Do products match collections? (Attention to detail)
-
-### Phase 2: Full Catalog Deployment (After Approval)
-
-**Timeline:**
-- Get approval notification from Google (email + Merchant Center alert)
-- Usually 1-3 business days from submission
-- Can happen instantly if account is clean and products look good
-
-**Post-Approval Actions:**
-1. Delete or unpublish initial bootstrap products
-2. Upload full dropshipping product catalog (via feed)
-3. Monitor for disapprovals (usually none if first batch approved)
-4. Start shopping campaigns with Merchant Center account
-
-**Catalog Upload Methods:**
-
-**CSV Upload (Recommended for startups):**
-- Create spreadsheet with all required fields
-- Export as CSV
-- Upload to Merchant Center
-- Google validates and processes
-- Typically 24 hours for full processing
-
-**Feed URL (Recommended for scale):**
-- Create XML or CSV feed that updates automatically
-- Host on your server or feed management service
-- Provide feed URL to Merchant Center
-- Google fetches feed every 24 hours
-- Automatic updates to inventory, pricing, etc.
-
-**Spreadsheet Link (Limited):**
-- Create Google Sheet with products
-- Link to Merchant Center
-- Limited to 5,000 products
-- Good for testing before CSV/XML
-
-### Troubleshooting Disapprovals
-
-**Common Disapproval Reasons:**
-
-| Reason | Cause | Fix |
-|--------|-------|-----|
-| "Unacceptable Business Practice" | Price too low compared to image quality | Increase price or improve product quality |
-| "Prohibited Item" | Product in restricted category | Remove product, choose from allowed categories |
-| "Misrepresentation" | Image doesn't match description | Update image or description to match |
-| "Suspicious Activity" | Account flagged as test/scam | Provide business verification, wait 30 days |
-| "Policy Violation" | Violates Google/legal policy | Review product against Google's merchant policies |
-
-**Recovery Process:**
-1. Identify disapproved products (Merchant Center > Status > Issues)
-2. Read specific violation (usually detailed)
-3. Fix product (image, description, pricing, or removal)
-4. Resubmit for review
-5. Monitor for approval (24-48 hours)
-6. If denied again: appeal with explanation or remove product
-
-**Appeal Process:**
-- Click "Appeal" on disapproved product
-- Provide detailed explanation of why product is compliant
-- Include evidence (receipt, supplier documentation, etc.)
-- Google reviews within 2-5 business days
-- Usually approved if evidence supports your case
+Google does NOT ban dropshipping. It bans scammers who dropship. Your job is to present yourself as a legitimate, trustworthy brand. Every element of your store must reinforce credibility.
 
 ---
 
-## Feed Management & Optimization
+## Product Strategy for Approval
 
-### Feed Quality Signals
+### Step 1: Create Original Product Content
+1. Take photos of 5-15 products in your OWN home using your phone camera
+2. Each product needs 3-5 images minimum (different angles, in-use, detail shots)
+3. Write 100% original descriptions (50-200 words each)
+4. Google's algorithm crawls word-for-word against every other website
+5. If your content matches other dropshipping/scam sites = instant flag
 
-**Google Prioritizes Products With:**
-- Accurate, detailed descriptions (50+ words)
-- 3+ high-quality images
-- Matching collection category
-- Original product photos (not generic stock)
-- Reasonable pricing with competitor validation
-- In-stock status (not "preorder" or "out of stock")
-- Complete data (no missing fields)
-- Fast shipping time (< 5 days to delivery)
+### Step 2: Choose Safe Product Categories
+**Green (Best for Approval):**
+- Home & Garden, Kitchen accessories, Pet supplies
+- Sports equipment, Arts & Crafts, Storage/Organization
+- Outdoor/Camping, Automotive accessories (non-electronic)
 
-**Products That Underperform:**
-- Generic one-line descriptions
-- Single blurry image
-- Wrong collection (home goods in fashion)
-- Suspiciously low prices (75% off everything)
-- Preorder or "coming soon" status
-- Missing shipping information
-- Incomplete product data
+**Yellow (Proceed with Caution):**
+- Home improvement (some items flagged)
+- Jewelry (ensure non-branded)
+- Toys (safety compliance needed)
 
-### Feed Update Frequency
+**Red (Avoid for Initial Approval):**
+- Women's/Men's Fashion (keywords too broad/vague)
+- Phones & Telecommunications (damage in transit, returns)
+- Consumer Electronics (branded items, high return rates)
+- Computer/Office/Security (fragile electronics)
+- TVs, Books (branded: specific authors/manufacturers)
+- Digital products (cannot sell via Google Ads)
+- Health supplements / medication
+- Beauty essentials (creams, skin/hair products)
 
-**Daily Updates Recommended For:**
-- Inventory status (in stock vs out of stock)
-- Price changes (competitor pricing adjustments)
-- High-velocity items (seasonal products, trending)
-- Sales/discounts (limited-time offers)
-
-**Weekly Updates Acceptable For:**
-- Product descriptions (content rarely changes)
-- Images (unless rotating new photos)
-- Shipping information (usually static)
-- Collections/categories (organizational rarely changes)
-
-**Update Method:**
-- Automated feed URL: Google fetches daily, auto-updates
-- Manual CSV upload: Upload new file to override previous
-- Google Sheets: Link persists, updates as you edit
-- E-commerce platform (Shopify/WooCommerce): Auto-syncs if connected
-
-### Feed Optimization Rules
-
-**Titles (Max 150 characters):**
-- Left-to-right keyword priority
-- Highest search volume keyword first
-- Natural English (read it aloud test)
-- No duplicate keywords
-- Include color/size if variants exist in same listing
-- Example: "Vintage Oak Dining Chair | Mid-Century Modern Seating"
-
-**Descriptions (50-200 words):**
-- First sentence: What is it? What does it do?
-- Middle: Materials, dimensions, use cases
-- End: Benefits or unique features
-- Use natural paragraphs (not walls of text)
-- Include care instructions if relevant
-- Avoid price in description (price field separate)
-
-**Images (3-5 minimum):**
-- Image 1: Primary product shot (clean background ok)
-- Image 2: Alternative angle or lifestyle use
-- Image 3: Detail shot (fabric texture, stitching, etc.)
-- Image 4: Scale reference (with hand or common object)
-- Image 5: Packaging or unboxing (if applicable)
-- All images must be original to your store
-- All images minimum 800×800 pixels
-- Use JPG format (faster loading)
-
-**Pricing Strategy in Feed:**
-- Include actual selling price (what customer pays)
-- Include cost (for Google's competitive analysis)
-- If discount: Include original price in "compare at" field
-- All prices in same currency
-- Update prices within 24 hours of any change
-- Competitive pricing: Check 5 competitors before setting price
-
-**Availability Status Values:**
-- `in stock` — Ready to ship (default)
-- `out of stock` — Temporarily unavailable
-- `preorder` — Available for advance purchase
-- `backorder` — Restocking, will ship later
-- Google prioritizes "in stock" products in results
-
-**Product Collections (Critical for Approval):**
-- Match collection to actual product
-- Example collections:
-  - Home & Garden > Furniture > Chairs
-  - Home & Garden > Kitchen & Dining > Cookware
-  - Fashion > Women's > Clothing > Tops
-- Mismatched collection = potential disapproval
-- Check product against category rules before assignment
+### Step 3: Set Realistic Pricing
+- Do NOT set identical discounts across all products (e.g., all "50% off")
+- Do NOT use compare-at price initially
+- Varied pricing across products looks like a real store
+- Use odd-number pricing ($43, $47, $49)
 
 ---
 
-## Merchant Center Account Management
+## Website Requirements Checklist
 
-### Store Info Configuration
+### Mandatory Pages
+- [ ] Contact Us (with email, phone number, or contact form)
+- [ ] About Us (brand story, not template text)
+- [ ] Track Your Order (with tracking functionality)
+- [ ] FAQ section (minimum 8-10 questions)
+- [ ] Return Policy (specific timeframes, conditions)
+- [ ] Privacy Policy (GDPR/CCPA compliant)
+- [ ] Shipping Policy (delivery timeframes, carriers)
+- [ ] Terms of Service
 
-**Required Information:**
-- Store name (your business name)
-- Contact email (monitored daily)
-- Phone number (Google may call for verification)
-- Store URL (must match Ads account domain)
-- Country of operation (primary market)
+### Design Requirements
+- [ ] Professional design (max 2 brand colors)
+- [ ] No template brackets or placeholder text remaining
+- [ ] Footer menu with ALL policy page links
+- [ ] 2-4 product categories minimum in navigation
+- [ ] Functional search bar
+- [ ] Mobile-responsive design
+- [ ] SSL certificate (https://)
 
-**Shipping Configuration:**
-- Shipping methods (Standard, Express, Overnight)
-- Shipping cost calculation (flat, percentage, by weight)
-- Delivery timeframe (1-3 business days, 4-7 days, etc.)
-- Regions (US only vs international)
-- Free shipping threshold (if applicable)
-
-**Tax Configuration (if required):**
-- Tax rate by region (state level for US)
-- Tax-exempt categories (if applicable)
-- Applied to shipping (yes/no)
-- Sales tax nexus requirements
-
-**Returns/Refund Policy:**
-- Return window (30 days, 60 days, etc.)
-- Who pays return shipping (you or customer)
-- Refund timeline (immediate, 5-10 days post-receipt)
-- Non-returnable categories (final sale items)
-
-### Data Quality Dashboard
-
-Monitor these metrics in Merchant Center:
-
-| Metric | Target | Action if Below |
-|--------|--------|-----------------|
-| Feed quality score | 95%+ | Fix disapproved products |
-| Product approval rate | 100% | Investigate disapprovals |
-| Crawlability score | 95%+ | Fix website issues |
-| Mobile-friendliness | 95%+ | Responsive design update |
-| Click-through rate | 2%+ | Improve product images/titles |
-| Conversion rate | 1%+ | Improve product descriptions/pricing |
-
-### Performance Monitoring
-
-**Key Metrics to Track:**
-- Impressions (how many times products shown)
-- Clicks (how many times clicked)
-- CTR (click-through rate = clicks ÷ impressions)
-- Conversions (purchases)
-- Conversion rate (conversions ÷ clicks)
-- Average order value (revenue ÷ orders)
-- ROAS (revenue ÷ ad spend)
-
-**Product Performance:**
-- Rank products by impressions (which sell best)
-- Analyze low-impression products (title/image issue?)
-- Monitor conversion rate by product (high vs low performers)
-- Identify seasonal trends (higher volume certain months)
-- Test price adjustments on underperforming products
+### Product Page Requirements
+- [ ] Original product descriptions (50-200 words)
+- [ ] Multiple product images (3-5 minimum)
+- [ ] Clear pricing with currency
+- [ ] Add to cart functionality working
+- [ ] Product reviews section (even if empty initially)
 
 ---
 
-## Common Best Practices
+## Common Rejection Reasons & Fixes
 
-1. **Original Content Always:** Never copy descriptions from competitors
-2. **Consistent Image Quality:** All products should look professionally photographed
-3. **Price Validation:** Always check 3-5 competitors before setting final price
-4. **Regular Feed Updates:** Keep inventory and pricing current (at least weekly)
-5. **Policy Pages:** Complete, clear, customer-friendly policies reduce returns
-6. **Category Precision:** Match products to exact categories (not "other")
-7. **Monitor Disapprovals:** Fix issues immediately (don't ignore alerts)
-8. **Test Before Scale:** Approve 5-15 products before submitting 100+ product catalog
+| Rejection Reason | Root Cause | Fix |
+|---|---|---|
+| Misrepresentation | Copied descriptions from other sites | Rewrite ALL descriptions from scratch |
+| Misrepresentation | Identical images to other stores | Take your own photos |
+| Shopping experience | Missing policy pages | Add all required pages |
+| Shopping experience | Broken links or 404 errors | Test every link on site |
+| Suspended account | Multiple violations | Fix ALL issues, wait 7 days, appeal |
+| Product data issue | Missing required attributes | Update feed with all required fields |
+| Policy violation | Selling restricted products | Remove restricted products |
+
+### Appeal Process
+1. Fix ALL identified issues (not just the one mentioned)
+2. Wait minimum 7 days after fixing
+3. Submit appeal through Merchant Center
+4. Include specific details of what you changed
+5. If rejected again: fix additional issues, wait another 7 days
+6. Typically takes 2-3 appeals for first-time approval
+
+---
+
+## Product Photography Guide
+
+### Equipment Needed
+- Smartphone camera (iPhone or modern Android)
+- Natural lighting (near a window, daylight hours)
+- Clean, simple background (white surface, wooden table, kitchen counter)
+
+### Photo Types to Capture
+1. **Main image:** Product on clean background, full product visible
+2. **Scale image:** Product next to common object for size reference
+3. **In-use image:** Product being used in natural setting
+4. **Detail image:** Close-up of key feature or texture
+5. **Lifestyle image:** Product in its intended environment
+
+### Photo Rules
+- Minimum 1000x1000 pixels
+- Square format preferred (1:1 ratio)
+- No watermarks, logos, or promotional text on images
+- No collages or multi-product images for main photo
+- Product must occupy at least 75% of image frame
+- Clean, well-lit, in focus
+
+---
+
+## Post-Approval Transition
+
+### When Approved with Safe Products
+1. Keep original safe products live (they anchor your store credibility)
+2. Gradually add your actual selling products (5-10 per batch)
+3. Wait 48-72 hours between batches for Google to crawl
+4. Monitor Merchant Center diagnostics for any new flags
+5. Once all products approved: begin campaign setup (-> `strategy-google-ads`)
+
+### Maintaining Approval
+- Never remove ALL safe products at once (looks like bait-and-switch)
+- Keep policy pages updated and accurate
+- Respond to any Merchant Center notifications within 48 hours
+- Monitor the "Diagnostics" tab weekly for feed issues
+- Keep your product data accurate (prices, availability, shipping times)
+
+---
+
+## Approval Troubleshooting Decision Tree
+
+### Step 1: Identify the Rejection Type
+- **Misrepresentation** = content issue (descriptions, images, pricing)
+- **Shopping experience** = website issue (missing pages, broken links, design)
+- **Policy violation** = product issue (restricted category, prohibited content)
+- **Product data issue** = feed issue (missing attributes, incorrect formats)
+- **Suspended account** = multiple violations accumulated
+
+### Step 2: Common Misrepresentation Fixes
+1. Run every product description through a plagiarism checker (Copyscape, Grammarly)
+2. If ANY match found, rewrite from scratch -- do not paraphrase, fully rewrite
+3. Check if product images appear on other dropshipping stores (Google reverse image search)
+4. If images match, take new photos or order product samples for photography
+5. Ensure pricing is not identical across all products (vary discounts realistically)
+
+### Step 3: Shopping Experience Fixes
+1. Test every link on your site (use Screaming Frog or manual check)
+2. Ensure all 8 required pages exist AND contain substantive content (not placeholder text)
+3. Remove any template brackets: [Your Company], [Phone Number], etc.
+4. Verify SSL certificate is active (https:// on all pages)
+5. Test checkout flow end-to-end (does Add to Cart work? Does payment process?)
+6. Verify mobile responsiveness (Google crawls mobile-first)
+
+### Step 4: After Fixing
+1. Document every change you made (screenshot before/after)
+2. Wait minimum 7 full days (Google needs time to re-crawl)
+3. Submit appeal through Merchant Center with specific details of changes
+4. If rejected again: assume there are additional issues beyond what was flagged
+5. Typical approval timeline: 2-3 appeals for first-time approval
+
+---
+
+## Compliance Checklist (Pre-Submission)
+
+### Website Compliance
+- [ ] SSL certificate active (https://)
+- [ ] Mobile responsive design
+- [ ] Page load time under 3 seconds
+- [ ] No broken links (404 errors)
+- [ ] No template placeholder text remaining
+- [ ] Professional design with consistent branding (max 2 brand colors)
+- [ ] Working search functionality
+- [ ] Clear navigation with product categories
+
+### Required Pages Compliance
+- [ ] Contact Us -- includes email AND at least one other method (phone, form, chat)
+- [ ] About Us -- brand story, not generic template text
+- [ ] Track Your Order -- functional tracking page with carrier integration
+- [ ] FAQ -- minimum 8-10 questions with substantive answers
+- [ ] Return Policy -- specific timeframes (e.g., "30-day returns"), conditions, process
+- [ ] Privacy Policy -- GDPR/CCPA compliant, mentions data collection practices
+- [ ] Shipping Policy -- delivery timeframes by region, carrier names, cost structure
+- [ ] Terms of Service -- legal terms governing purchases
+
+### Product Compliance
+- [ ] All descriptions are 100% original (50-200 words each)
+- [ ] All products have 3-5 images minimum
+- [ ] No products in restricted categories
+- [ ] Pricing is realistic and varied
+- [ ] No promotional text in product images ("Free Shipping", "Sale", "Best Price")
+- [ ] Product titles include relevant keywords (not stuffed)
+- [ ] Currency and availability are accurate
+
+### Footer Compliance
+- [ ] All policy pages linked in footer
+- [ ] Footer is visible on every page
+- [ ] Payment method icons displayed
+- [ ] Copyright year is current
+
+---
+
+## Category Risk Reference (Expanded)
+
+### Green Categories (Safest for Initial Approval)
+Home & Garden, Kitchen Accessories, Pet Supplies, Sports Equipment, Arts & Crafts, Storage & Organization, Outdoor & Camping, Automotive Accessories (non-electronic), Office Supplies (non-electronic), Garden Tools
+
+### Yellow Categories (Use After Initial Approval)
+Jewelry (non-branded), Toys (ensure safety compliance), Home Improvement, Baby Products (non-consumable), Furniture, Bedding & Bath, Party Supplies
+
+### Red Categories (Avoid Until Established)
+Women's/Men's Fashion (too broad), Phones & Telecommunications, Consumer Electronics, Computers & Peripherals, TVs & Monitors, Books (branded authors), Digital Products, Health Supplements, Beauty/Skincare (creams, serums), Medication/Medical Devices, Weapons & Ammunition, Adult Products

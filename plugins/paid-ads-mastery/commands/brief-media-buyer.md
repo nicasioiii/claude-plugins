@@ -1,530 +1,196 @@
 ---
 name: Brief Media Buyer
-description: Media buyer brief generator that asks campaign type, platform, budget, team structure. Outputs naming conventions, daily checklist, reporting template, escalation criteria.
+description: Generate a comprehensive SOP document for handing off ad campaigns to a media buyer or team member. Covers account structure, naming conventions, optimization SOPs, creative guidelines, testing protocols, and KPI targets.
 ---
 
-# Media Buyer Brief & SOP Generator
+# /brief-media-buyer -- Media Buyer Handoff SOP
 
-## Step 1: Campaign Overview
+## OVERVIEW
 
-**Campaign Name:** [_____________]
-**Brand:** [_____________]
-**Platform:** [Meta / Google / Both]
-**Campaign Type:** [Cold / Warm / Hot / Testing / Scale]
-**Daily Budget:** $[_____________]
-**Start Date:** [Date]
-**Target ROAS:** [__]x
-**Target CPA:** $[__]
+This command generates a complete operational document for handing off campaigns to a media buyer, freelancer, or team member. The brief ensures they can execute day-to-day management without constant supervision.
+
+**Skills activated:** All relevant skills based on the platforms and scope specified.
 
 ---
 
-## Step 2: Team Structure
+## INTAKE QUESTIONS
 
-**Who is this brief for?**
+### Question 1: Scope
+- Which platform(s)? (Meta, Google, TikTok, multi-platform)
+- What campaign types are running? (Prospecting, retargeting, scaling)
+- Monthly ad spend level?
+- Number of active campaigns/ad sets?
 
-A) **Solo Media Buyer** (You managing alone)
-   → Simplified daily SOP, focus on critical metrics
-   → Reporting: Weekly email to self/stakeholders
+### Question 2: Brand Context
+- Brand name and product(s)
+- Target audience summary
+- Current winning creative angles
+- Link to creative assets library (if available)
 
-B) **Freelance Media Buyer** (External contractor)
-   → Detailed SOP, clear escalation criteria
-   → Reporting: Daily check-in + weekly deep dive
+### Question 3: Handoff Level
+- **Full handoff:** Media buyer manages everything independently
+- **Partial handoff:** Media buyer executes, strategist reviews weekly
+- **Team expansion:** Adding a team member to existing workflow
 
-C) **In-House Team** (2-3 people)
-   → Role clarity, handoff procedures
-   → Reporting: Daily standup + weekly analysis
-
-D) **Agency Team** (4+ people, specialized roles)
-   → Granular workflows, approval chains
-   → Reporting: Real-time dashboard + client reporting
-
-→ Go to Step 3[Selected]
-
----
-
-## Step 3a: Solo Media Buyer Brief
-
-### Daily Routine (20 minutes)
-
-**Morning (8am):**
-1. Open Ads Manager / Google Ads Dashboard
-2. Check spend vs. budget: Is today 1/7 of weekly budget?
-3. Check ROAS: Compare yesterday to 7-day average (alert if ±0.3)
-4. Check CPA: Alert if >target by 20%+
-5. Pixel health check: Any tracking errors?
-6. Top 5 creatives: Which are above account average?
-7. Any campaigns showing red flags?
-8. Logged: 5 minutes
-
-**During Day (No actions needed)**
-- Platform continues running
-- Budget depleting normally
-
-**Evening (5pm):**
-1. Final spend check: Did we hit daily budget target?
-2. Final ROAS check: Any surprises?
-3. Prepare next day notes
-4. Document any alerts in tracking sheet
-5. Logged: 5 minutes
-
-**Weekly (Friday):**
-1. 30-minute deep review
-2. Plot 4-week ROAS trend
-3. Identify top 3 winning creatives
-4. Identify 2-3 underperformers (kill candidates)
-5. Plan next week's testing
-6. Update stakeholder report
-
-### Kill/Scale Decision Thresholds (Your Rules):
-
-```
-SCALE NOW: ROAS >1.5x target for 3+ days
-  → Increase budget 10%
-  → Repeat every 3-5 days if conditions met
-
-PAUSE 48H: ROAS <1.3x breakeven for 2 days
-  → Investigate issue
-  → Refresh creative or audience
-  → Relaunch at 50% budget
-
-KILL: ROAS <breakeven for 3+ consecutive days
-  → Stop campaign immediately
-  → Reallocate budget to winners
-  → Post-mortem: What failed?
-
-CRITICAL: CPA >2x target OR Account Quality "Poor"
-  → Pause all scaling immediately
-  → Investigate before resuming
-```
-
-### Naming Convention (Campaign Level):
-
-```
-[BRAND]_[FUNNEL]_[TYPE]_[VARIABLE]_[OPTIMIZATION]_[DATE]
-
-Example:
-  BLS_COLD_VID_HOOK_ABO_03_2026
-
-Rules:
-- ALL CAPS
-- Use underscores only
-- Concise but specific
-- Easy to scan in long lists
-```
-
-### Reporting Template (Weekly Email):
-
-```
-SUBJECT: Weekly Ad Report [Campaign Name] - [Week]
-
-THIS WEEK'S RESULTS:
-Spend: $[X] (Budget: $[Y] - On track? ✅/❌)
-Revenue: $[X]
-ROAS: [X]x (Target: [Y]x - Hit? ✅/❌)
-Conversions: [X]
-Average CPA: $[X] (Target: $[Y] - On track? ✅/❌)
-
-TOP 3 CREATIVES:
-1. [Creative ID] - ROAS [X]x, Spend $[X]
-2. [Creative ID] - ROAS [X]x, Spend $[X]
-3. [Creative ID] - ROAS [X]x, Spend $[X]
-
-ACTION THIS WEEK:
-✅ [Action taken]
-✅ [Action taken]
-❌ [Issue encountered]
-
-NEXT WEEK PLAN:
-→ [Test new creative]
-→ [Scale campaign X by 10%]
-→ [Monitor campaign Y for fatigue]
-```
+### Question 4: Current Performance
+- Current ROAS/CPA targets
+- Best-performing campaigns and their structure
+- Known issues or problem areas
+- Any active tests in progress
 
 ---
 
-## Step 3b: Freelance Media Buyer Brief
+## SOP DOCUMENT STRUCTURE
 
-### Responsibility Matrix
+The output brief should contain ALL of the following sections:
 
-**Your Role:**
-- Daily monitoring (15-20 min/day)
-- Creative optimization decisions
-- Audience expansion decisions
-- Escalation of red flags to manager
+### Section 1: Account Overview
+- Brand summary (1 paragraph)
+- Product catalog overview
+- Target audience profiles (from research-creative)
+- Key metrics and benchmarks
+- Monthly spend allocation by campaign type
+- Login credentials location (never include actual credentials)
 
-**Manager/Client Role:**
-- Final approval on major scaling (>20% daily increase)
-- Final approval on budget allocation
-- Creative brief and design
-- Conversion tracking setup
+### Section 2: Account Structure Map
+**For Meta accounts:**
+- Campaign naming convention: [Brand]_[Objective]_[Method]_[Date]
+- Ad set naming: [Targeting]_[Audience-Size]_[Budget]
+- Ad naming: [Creative-Type]_[Angle]_[Hook-ID]_[Version]
+- Campaign hierarchy: Testing > Scaling > Retargeting
+- Describe each active campaign and its purpose
 
-### Daily Monitoring SOP
+**For Google accounts:**
+- Campaign naming convention: [Brand]_[Type]_[Target]_[Match]
+- Ad group naming: [Theme]_[Intent-Level]
+- List active campaigns with purpose, budget, and bidding strategy
+- Feed management schedule (for Shopping)
 
-**Required: 7am, 1pm, 5pm Check-ins**
+### Section 3: Daily Management SOP
 
-**7am Standup:**
-```
-MESSAGE: "[Campaign] - spend $X (on pace), ROAS X.Xx vs target Y.Xx"
+**Meta Daily Checklist:**
+1. Check campaign-level spend vs. target (by 10am)
+2. Review ad set performance (ROAS/CPA) at campaign level first
+3. Check for creative fatigue signals (frequency > 1.5 + declining metrics)
+4. Hide negative comments on top-performing ads
+5. Note any anomalies for weekly review
+6. Do NOT touch working campaigns (golden rule: don't fix what isn't broken)
 
-Format: 1 message per campaign
-Include: Status emoji (🟢 OK / 🟡 Warning / 🔴 Alert)
-Action items: Any decisions needed today?
-```
+**Google Daily Checklist:**
+1. Review search term reports for new campaigns (daily)
+2. Add negative keywords for irrelevant terms
+3. Check budget pacing (over/under spending)
+4. Review PMax insights tab for new signals
+5. Check Shopping product disapprovals
 
-**1pm Mid-Day:**
-```
-Quick check if any campaigns underperforming
-Alert if: ROAS dropped >0.2, CPA spiked >20%
-```
+**Key timing rules:**
+- Never judge performance from a single day -- minimum 3-5 day trend
+- Allow 24-48 hour boost period for new ads before evaluating
+- Delayed reporting: US = 72 hours, EU = 24-48 hours
+- Work with 7-14 day rolling averages, not daily snapshots
 
-**5pm Close-Out:**
-```
-Full metrics update
-Document: Spend, ROAS, CPA, Top 3 creatives
-Decisions made: Any pauses, scales, kills?
-Tomorrow plan: Any changes scheduled?
-```
+### Section 4: Testing Protocol
 
-### Escalation Criteria
+**Creative Testing Rules:**
+- Test all creatives the SAME way (same audience, same copy, same LP, same setup)
+- Only change ONE variable at a time
+- Kill at 1x CPA spend with no sale (standard kill criteria)
+- Use Seed Ads / Existing Post ID system (stack engagement across duplicates)
+- Launch new creatives at MIDNIGHT (auction resets at midnight on account timezone)
+- Always use purchase/conversion objective -- never other objectives
 
-**INFORM (via message, no action needed):**
-- ROAS within ±0.2 of target
-- CPA within ±10% of target
-- Frequency stable <3.0x
-- "Everything nominal"
+**Testing Cadence:**
+| Monthly Spend | New Concepts/Month | Variations Each |
+|--------------|-------------------|----------------|
+| $0-$1K | 1-2 | 3-5 hook variations |
+| $10K-$25K | 3-4 | 3-5 variations each |
+| $25K-$50K | 5-6 | 3-5 variations each |
+| $50K-$100K | 8-20 | 3-5 variations each |
 
-**DISCUSS (requires conversation):**
-- ROAS 0.2-0.3 below target for 2 days
-- CPA inflating 10-20%
-- Frequency 3.0-3.5x with stable ROAS
-- Creative fatigue detected
-- Need approval to test new audience
+**Testing Budget Allocation:**
+- Minimum 20% of ad spend on creative testing
+- When performance is DOWN: reduce to 20%, focus on iterations
+- When performance is UP: increase to 50%, push new concepts + iterations
 
-**ESCALATE IMMEDIATELY (decision needed ASAP):**
-- ROAS >0.3 below target for 2+ days
-- CPA >target by 30%+
-- Campaign approaching/in Learning Phase unexpectedly
-- Frequency >3.5x with declining conversions
-- Account quality score dropped
-- Pixel tracking failures
-- Disapproved ads (Google)
+### Section 5: Scaling Rules
 
-### Weekly Reporting to Client/Manager
+**Meta Scaling:**
+- Vertical scaling: 20% budget increase every 48 hours (safe) or 70% every 24 hours (aggressive)
+- Budget increase up to 70% does NOT reset learning phase
+- Only scale after 3-5 consecutive days of above-average ROAS
+- Never scale based on a single good day
 
-```
-WEEKLY PERFORMANCE SUMMARY
+**Google Scaling:**
+- Budget increases: 10-20% increments, every 7-14 days
+- Bidding changes: 10% increments on Target ROAS/CPA
+- Check 14-day / 30-day / 7-day ROAS before scaling decisions
+- Shopping optimization only every 7-14 days (not daily)
 
-📊 Results:
-- Spend: $[X] (Budget: $[Y]) — [On pace / Behind / Ahead]
-- Revenue: $[X]
-- ROAS: [X]x (Target: [Y]x) — [Hit / Missed by X%]
-- CPA: $[X] (Target: $[Y]) — [On target / X% above]
-- Conversions: [X]
+### Section 6: Kill Criteria & Downscaling
 
-🎯 Top Performers:
-1. [Campaign]: ROAS [X]x, Status: Scaling
-2. [Campaign]: ROAS [X]x, Status: Holding
-3. [Creative]: Hook rate [X]%, Status: Winner
+**When to kill an ad/ad set:**
+- Spent 1x CPA with no purchase
+- Spent 2x CPA with no checkout
+- ROAS below 50% of target for 5+ consecutive days
+- Frequency above 3 on prospecting campaigns
 
-⚠️ Areas of Concern:
-1. [Campaign]: ROAS [X]x (below target) - Plan: [Action]
-2. [Audience]: Frequency [X]x (monitoring) - Plan: [Action]
+**Downscaling protocol (Meta):**
+- When killing an ad set in CBO: reduce CBO budget by the amount that ad set was spending
+- When account underperforms: test LESS, not more -- consolidate what works
 
-✅ Actions Completed This Week:
-→ [Action and result]
-→ [Action and result]
-→ [Action and result]
+### Section 7: Creative Guidelines
 
-📅 Next Week:
-→ [Test new creative / audience]
-→ [Scale campaign from $X to $Y]
-→ [Monitor fatigue on campaign X]
-→ [Need approval for: ...]
-```
+**What to brief creative team:**
+- Current winning angles and why they work
+- Awareness levels being targeted
+- Video framework preferences by audience
+- Static iteration priorities (headline > body > color > CTA)
+- Demographic-specific pacing rules (younger = faster, older = slower)
+- Link to creative strategy document and code bank
 
-### Communication Preferences
+**Creative requests format:**
+- Hypothesis (what we're testing and why)
+- Framework (which script structure)
+- Audience (persona and awareness level)
+- Format (video type, length, aspect ratio)
+- References (links to similar winning ads)
 
-**Response Time Expectations:**
-- Red flags: Response within 2 hours
-- Decisions: Response within 24 hours
-- Non-urgent updates: Weekly review
+### Section 8: Reporting & Communication
 
-**Communication Channel:**
-- Urgent: [Slack / SMS / Phone call]
-- Updates: [Daily message]
-- Analysis: [Weekly email + Slack]
+**Weekly report (Monday delivery):**
+- Campaign-level performance summary (ROAS, CPA, spend)
+- Creative winners identified (30-50% above account average)
+- Creative fatigue signals
+- Tests launched and preliminary results
+- Recommended actions for the coming week
 
----
+**Escalation triggers (notify immediately):**
+- Account spending 50%+ over daily budget
+- ROAS drops below break-even for 3+ days
+- Account restricted or ad disapproved
+- Any campaign spending $0 unexpectedly
 
-## Step 3c: In-House Team Brief (2-3 People)
+### Section 9: Tools & Access
 
-### Role Division
+**Recommended tools:**
+- Ads Manager (Meta) / Google Ads platform
+- Motion App or Atria for creative analytics
+- Triple Whale or Hyros for cross-platform attribution
+- ClickUp or Asana for creative project management
+- Google Sheets for creative testing tracker
+- Slack/Teams for daily communication
 
-**Media Buyer #1: Daily Operations**
-- Morning monitoring (30 min)
-- Creative kill/scale decisions
-- Audience optimization
-- Real-time troubleshooting
-- Daily reporting (10 min)
-
-**Media Buyer #2: Strategy & Analysis**
-- Weekly deep dives (1 hour)
-- Testing plan execution
-- Creative strategy
-- Scaling roadmap
-- Client/stakeholder reporting
-
-**Manager: Oversight**
-- Weekly strategy review (30 min)
-- Escalation approvals
-- Budget allocation
-- Team performance review
-
-### Handoff Procedures
-
-**Daily Handoff (Operations → Strategy):**
-
-```
-TIME: 4pm Friday
-FORMAT: Slack message + spreadsheet
-
-CONTENT:
-- This week's results (spend, ROAS, CPA)
-- Top 3 winning creatives (IDs + performance)
-- Bottom 3 underperformers (kill candidates?)
-- Red flags encountered (and resolution)
-- Recommendations for next week
-
-Next person: Reviews Friday evening, prepares Monday plan
-```
-
-**Weekly Strategy Meeting (Monday 10am):**
-
-```
-ATTENDEES: Both media buyers + manager
-DURATION: 60 minutes
-
-AGENDA:
-1. Review: This week's performance vs. targets
-2. Deep dive: ROAS trends, CPA inflation signals
-3. Creative: Top performers, refresh plan
-4. Testing: What to test this week
-5. Scaling: Budget adjustments, new campaigns
-6. Blockers: Any issues preventing optimization?
-7. Next week: Clear action items assigned
-
-OUTPUT: Shared document with assignments
-```
-
-### Naming Convention
-
-**Campaign Level:**
-```
-[BRAND]_[FUNNEL]_[TYPE]_[VARIABLE]_[OPTIMIZATION]_[QUARTER]_[INITIALS]
-
-Example: BLS_COLD_VID_HOOK_ABO_Q1_JK
-```
-
-**Ad Set Level:**
-```
-[CAMPAIGN]_[AUDIENCE]_[DEMOGRAPHIC]_[VARIATION]
-
-Example: BLS_COLD_VID_HOOK_ABO_Q1_JK_Lookalike1%_25-34_V1
-```
-
-### Daily Check-in Template
-
-**Operations Person Posts at 5pm:**
-```
-DAILY OPERATIONS REPORT [Date]
-
-✅ Spend: $[X] (pace [Y]%) | ROAS: [X]x | CPA: $[X]
-🔴 Red flags: [None / List]
-👍 Winners: [Creative IDs]
-💀 Kill candidates: [Creative IDs or campaigns]
-📅 Tomorrow: [Any scheduled actions?]
-```
-
-### Weekly Reporting (To Stakeholders)
-
-```
-WEEKLY PERFORMANCE DASHBOARD [Week]
-
-KPI SUMMARY:
-| Metric | This Week | Target | Status |
-|--------|-----------|--------|--------|
-| Spend | $X | $Y | ✅/❌ |
-| ROAS | X.Xx | Y.Yx | ✅/❌ |
-| CPA | $X | $Y | ✅/❌ |
-| ACOS | X% | Y% | ✅/❌ |
-
-TOP 3 PERFORMERS:
-1. [Campaign] - ROAS [X]x - [Action: Continue scaling]
-2. [Campaign] - ROAS [X]x - [Action: Monitor fatigue]
-3. [Campaign] - ROAS [X]x - [Action: Test variations]
-
-ISSUES & RESOLUTIONS:
-[Issue] - Status: [Resolved / In Progress]
-[Issue] - Status: [Resolved / In Progress]
-
-PLAN NEXT WEEK:
-→ Test [X new creatives]
-→ Scale [Campaign] from $X to $Y
-→ Monitor [Campaign] for fatigue
-→ Launch [New campaign type]
-```
+**Reporting cadence:**
+- Daily: Slack updates on anomalies
+- Monday: Full weekly report
+- Monthly: Comprehensive performance review with strategic recommendations
 
 ---
 
-## Step 3d: Agency Team Brief (4+ People)
+## OUTPUT FORMAT
 
-### Full Role Structure
-
-**Account Manager:**
-- Client relationship & reporting
-- Budget approval & allocation decisions
-- Strategic direction
-
-**Lead Media Buyer:**
-- Daily operations oversight
-- Team supervision
-- Major optimization decisions
-
-**Media Buyers (2-3):**
-- Campaign management (assign 2-3 per person)
-- Daily monitoring & optimizations
-- Creative testing
-
-**Creative/Strategist:**
-- Creative brief development
-- Testing strategy
-- Trend analysis
-
-### Workflow & Approvals
-
-```
-CAMPAIGN SETUP FLOW:
-Creative Strategist → Brief Media Buyer → Account Manager → Launch
-(Approval at each step)
-
-OPTIMIZATION FLOW (Daily):
-Media Buyer → Lead Media Buyer (if >10% budget change) → execute
-
-SCALING APPROVAL FLOW:
-Media Buyer → Lead Media Buyer → Account Manager (if >20% daily increase)
-```
-
-### Team Daily Standup (9:30am)
-
-```
-DURATION: 15 minutes
-ATTENDEES: All media buyers + Lead + Account Manager
-
-FORMAT: Each person covers their campaigns:
-"Campaign X: $[Y] spend (on pace), ROAS [Z]x, status [OK / WARNING / ALERT]"
-
-Lead highlights: Top performers, red flags, escalations needed
-Account Manager: Any client-side decisions blocking optimization?
-
-OUTPUT: Shared document updated for client visibility
-```
-
-### Campaign Assignment Template
-
-```
-CAMPAIGN: [Campaign Name]
-ASSIGNED TO: [Media Buyer Name]
-DAILY BUDGET: $[X]
-REPORTING: [Weekly to Lead + Client]
-
-OWNER RESPONSIBILITIES:
-✓ Daily 7am, 1pm, 5pm monitoring
-✓ Kill/scale decisions within authority
-✓ Escalate red flags to Lead
-✓ Weekly performance summary
-✓ Creative testing recommendations
-
-AUTHORITY LIMITS:
-✓ Can increase budget up to 10%/day without approval
-✗ >10% increase requires Lead approval
-✗ Pausing campaign requires Lead + Account Manager approval
-✓ Test approval under $X/day goes to Lead only
-```
-
-### Client Reporting Dashboard (Weekly/Daily)
-
-```
-REAL-TIME DASHBOARD (Updated daily at 6pm):
-- Campaign performance (ROAS, CPA, spend)
-- Top 3 creatives this week
-- Red flags with status
-- Projected month-end performance
-
-WEEKLY FORMAL REPORT (Monday morning):
-- Executive summary (1 paragraph)
-- Performance vs. targets (table)
-- Top performers (with insights why)
-- Underperformers (with action plan)
-- Testing results & recommendations
-- Next week plan & any approvals needed
-```
-
----
-
-## Universal Escalation Criteria (All Team Sizes)
-
-### Immediate Escalation (Stop, investigate, decide before action):
-
-- **Pixel/Tracking Issue:** Campaign data unreliable
-- **Account Quality:** Dropped to "Fair" or "Poor"
-- **Disapproved Ads:** Ad policy violation blocking spend
-- **ROAS <Breakeven:** Losing money consistently
-- **CPA >2x Target:** Cost inflation critical
-- **Frequency >4.0x:** Audience fatigue severe
-- **Learning Phase Re-entry:** Unexpected campaign reset
-
-### Weekly Escalation (Monitor, plan response, implement):
-
-- **ROAS 0.2-0.3 Below Target:** Creative fatigue emerging
-- **CPA +10-20% Above Target:** Cost inflation trending
-- **Frequency Trending Up:** Audience getting saturated
-- **New Test Underperforming:** May need refresh
-- **Budget Pacing Off:** Ahead/behind pace significantly
-
-### Monthly Escalation (Strategic review, not immediate action):
-
-- **Creative Set Stale:** Running >30 days, need refresh
-- **Audience Fatigue Signs:** Visible after 4+ weeks
-- **Market Changes:** Seasonal impact, competition shifts
-- **Budget Reallocation:** Move budget between campaigns
-- **Platform Changes:** New features, policy updates
-
----
-
-## Final Sign-Off
-
-**Media Buyer [Name] Acknowledges:**
-- [ ] I understand the daily monitoring requirements
-- [ ] I understand the kill/scale decision thresholds
-- [ ] I understand the escalation criteria
-- [ ] I will follow the naming conventions
-- [ ] I will submit weekly reporting on schedule
-
-**Signed:** _________________ **Date:** _____________
-
-**Manager/Client Acknowledges:**
-- [ ] I understand the reporting schedule
-- [ ] I understand my approval authority boundaries
-- [ ] I am available for escalation decisions
-- [ ] I have provided conversion tracking setup
-
-**Signed:** _________________ **Date:** _____________
-
----
-
-## Next Steps
-
-- **Need testing guidance?** → `/test-plan` command
-- **Need scaling roadmap?** → `/scale-plan` command
-- **Need campaign audit?** → `/audit-campaign` command
-- **Need daily optimization guidance?** → `/optimize-campaigns` skill
+Generate the complete SOP as a structured document that can be exported to Google Docs or Notion. Include:
+1. Table of contents
+2. All 9 sections above, customized to the specific brand/account
+3. Appendix with benchmark targets and formula reference
+4. Checklist versions of daily/weekly SOPs for quick reference

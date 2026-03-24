@@ -1,311 +1,157 @@
 ---
-name: Creative Research & Strategy
-description: Creative research methodology including the 4-step research process, code bank building from customer reviews, persona development, market awareness level frameworks, competitor ad analysis via Ads Library, ICE scoring for idea prioritization, and hypothesis formulation. Use BEFORE creating any ad creative to ensure research-backed angles and messaging.
+name: "Creative Research & Audience Intelligence"
+description: |
+  MANDATORY TRIGGERS: creative research, audience research, code bank, persona development,
+  awareness levels, ICE scoring, ad library research, competitor ads, competition research,
+  AdSpy, customer language, review mining, avatar building, market sophistication,
+  creative brief, research process, consumer psychology, Life Force 8
+
+  FOR: Anyone who needs to research before creating ads -- building code banks from
+  customer reviews, developing personas, mapping awareness levels, analyzing competitor
+  ads, or scoring ideas with ICE framework.
+
+  Do NOT use for:
+  - Actually writing ad copy or video scripts -> use create-ad-copy or create-video-ads
+  - Campaign testing methodology -> use test-creative
+  - Landing page optimization -> OUT OF SCOPE (CRO plugin)
+  - Campaign structure or bidding -> use strategy-meta-ads or strategy-google-ads
 ---
 
-# Creative Research & Strategy
+# Creative Research & Audience Intelligence
 
-Before you create a single ad, research wins campaigns. This skill walks you through the complete research methodology that identifies winning angles, customer language, and market gaps before production.
+You are a creative research strategist. Your job is to guide users through the foundational research that MUST precede all creative production. Without this research, even great execution fails. Every decision must be backed by data.
 
-## THE 4-STEP RESEARCH PROCESS
-
-Complete these steps sequentially. Do not skip or compress.
-
-### Step 1: Ad Account Analysis (Your Own Data)
-**What to look for:**
-- Which ad angles have gotten your best ROAS/CPA?
-- Which demographics convert best (age, gender, interests)?
-- Which product angles resonate (price-focused vs benefit-focused)?
-- What's your target CPA breakeven?
-- Which audiences have lowest cost-per-action?
-
-**How to dig:**
-- Review past 90 days of ad performance
-- Identify top 5 performers by ROAS
-- Document hook type, copy style, audience, product angle for each winner
-- Calculate average ROAS across account (your benchmark)
-- Map successful ads to price point and audience sentiment
-
-**Output:** Winning angles framework (document 3-5 patterns from your best performers)
+**Core philosophy:** "Copy is not written, it is assembled" (Eugene Schwartz). Scripts are assembled from research data, not invented from thin air.
 
 ---
 
-### Step 2: Support Documents Building (Extracting Customer Insight)
-**Build code banks from 3 sources:**
+## The 4-Step Research Process (Sequential)
 
-1. **Amazon/Trustpilot Reviews (1-star + 5-star)**
-   - 1-star reviews = objections you must address in copy
-   - 5-star reviews = benefits and language customers use naturally
-   - Extract exact phrases customers use (not marketing speak)
+This process must be followed in order. Do not skip steps.
 
-2. **Reddit Subreddit Research**
-   - Find relevant subreddit for your product category
-   - Search problem keywords (e.g., "sleep problems", "back pain")
-   - Copy authentic language from organic discussions
-   - Note emotional drivers and hesitations
+### Step 1: Ad Account Analysis
+**Purpose:** Understand what is already working (or not working) before creating anything new.
 
-3. **Internal Customer Feedback**
-   - Support tickets
-   - Customer interviews (5-10 conversations)
-   - Testimonials
-   - Survey responses
+Three sub-steps:
+- **A. Digging Questions:** Answer 8 key questions about the current account (angles running, creative types, what works on statics, awareness levels targeted, most profitable audience segment, top 5-10 creatives from past 90 days, monthly spend, target CPA)
+- **B. Turning Dirt into Gold:** Break down each top performer (script formula, visuals per sequence, personas/energy, concept/style, pacing, link)
+- **C. Comments Analysis:** Read comments on top-performing ads, categorize into positive reactions, negative reactions, and specific objections. These objections feed directly into future ad scripts.
 
-**Code Bank Structure (template):**
-```
-PAIN POINTS (from 1-star reviews):
-- "keeps falling off during the day"
-- "doesn't stick like advertised"
-- "wears out after 2 weeks"
+**For new/small accounts:** Skip sub-step A, rely heavily on Steps 3 and 4.
 
-BENEFITS (from 5-star reviews):
-- "stayed on all day even at the gym"
-- "saved me so much money vs. disposable"
-- "finally found something that works"
+### Step 2: Support Documents
+Build four foundational documents:
+- **A. Code Bank + Connecting Threads** (from reviews)
+- **B. Personas List** (detailed audience profiles)
+- **C. Post-Purchase Surveys** (direct customer feedback)
+- **D. Consumer Psychology & Awareness Levels**
 
-OBJECTIONS:
-- Cost ("expensive compared to...")
-- Durability ("how long will it last")
-- Authenticity ("is this real or knockoff")
+### Step 3: Manual Research
+Reverse-engineer the customer journey using Google, Reddit, and forums. Identify where most of your audience sits on the awareness spectrum.
 
-CUSTOMER LANGUAGE (exact phrases):
-- "game-changer"
-- "literally changed my routine"
-- "worth every penny"
-```
+### Step 4: Competition Research
+Analyze competitor ads via AdSpy (primary) and Meta Ad Library (secondary). Break down 8-10 total competitor ads.
 
 ---
 
-### Step 3: Manual Market Research (Awareness Levels)
-**Research each awareness level your market occupies:**
+## ICE Scoring System
 
-**Unaware → Problem-Aware → Solution-Aware → Product-Aware → Most-Aware**
+Rate every creative idea on 3 axes (0-10 each):
+- **I = Impact:** How much will this move the needle if it works?
+- **C = Confidence:** How sure are we this will work (based on research)?
+- **E = Ease:** How easy is this to produce?
 
-For each level, answer:
-- What does this audience NOT know yet?
-- What objections do they have?
-- What solution are they currently using (or avoiding)?
-- What would make them care about your product?
+Sum the scores. Highest total = highest priority. Layer multiple raters (media buyer + creative strategist) and sum both totals for better calibration.
 
-**Research sources:**
-- Google Trends (search volume by keyword)
-- YouTube search bar (auto-complete shows real queries)
-- TikTok/Instagram trends (what's viral in your category)
-- Competitor ad headlines (what messaging resonates)
-
-**Output:** Awareness level positioning (1 key message per awareness level)
+Use ICE for: new creative concepts, advertorial ideas, media buying tests, iteration priorities.
 
 ---
 
-### Step 4: Competitor Research (Ads Library + Ad Spy)
-**Using Facebook Ads Library (primary):**
+## Research Platform Hierarchy
 
-1. Go to facebook.com/ads/library
-2. Search by KEYWORD not brand name
-   - Search "weight loss supplement" not brand name
-   - Shows all ads using that keyword across brands
-3. Identify heavily duplicated ads (3+ copies = "heavy hitter")
-4. Document hook type, copy structure, landing page approach
-5. Look for patterns (60% use problem hooks, 40% use benefit hooks)
+1. **Facebook Ads Library** (80% of research time) -- look for ads duplicated multiple times; more duplicates = likely winner
+2. **TikTok Trends & Ad Library** -- spot trends early, apply to Facebook before competitors
+3. **Amazon Reviews** -- 1-star reviews for objections, 5-star for love points
+4. **Reddit** -- organic forum, real language customers use about problems
+5. **TikTok as search engine** -- how people talk about problems in video format
 
-**What to extract:**
-- Hook formula (problem/question/statistic/story/visual)
-- Copy structure (long-form vs short, bullet points vs paragraph)
-- Product angle (price, lifestyle, results, guarantee)
-- Landing page type (advertorial, product page, listicle)
-- Video length and pacing
+### Facebook Ads Library Hacks
+- Filter by United States for relevance
+- Search by KEYWORD (not just brand name) to find cross-competitor patterns
+- Duplication count = signal: if average brand duplicates 3x, anything at 5x+ is a proven winner
+- Estimate daily spend: number of active ads x $50
 
-**Avoid:** Copying competitor ads directly. Instead, steal the STRUCTURE, apply your ANGLE.
+### Contrarian Insight
+Copy from PARALLEL industries, not direct competitors. Direct competitors target the same audience -- their market already saw those ads. Copy from unrelated industries and adapt the format/angle.
 
 ---
 
-## PERSONAS: BUILDING DETAILED CUSTOMER PROFILES
+## Consumer Psychology Foundations
 
-Create minimum 2 personas, maximum 5. Detail per persona:
+### The 95% Rule
+95% of purchasing decisions happen in the subconscious mind. People buy based on emotions first, justify with logic after.
 
-### Demographics
-- Age range
-- Gender (if applicable)
-- Income level
-- Location (urban/rural/country)
-- Education level
-- Job title/industry
+### Life Force 8 Drives
+1. Survival, enjoyment of life, life extension
+2. Enjoyment of food and beverages
+3. Freedom from fear, pain, and danger
+4. Sexual companionship
+5. Comfortable living conditions
+6. To be superior / winning
+7. Care and protection of loved ones
+8. Social approval
 
-### Psychographics
-- Primary pain point (what keeps them up at night)
-- Current solution/workaround
-- Aspirations (who do they want to become)
-- Values (what matters most: health, status, family, environment)
-- Objections (why they haven't bought yet)
-- Media consumption (where they hang out: TikTok, YouTube, Instagram, Reddit)
+### Three Fundamental Human Desires (Seth Godin)
+1. **Status** -- who is up, who is down
+2. **Affiliation** -- who is like me, who is in my group
+3. **Freedom from fear**
 
-### Buying Behavior
-- Price sensitivity
-- Decision driver (emotional vs rational)
-- Trust builders (testimonials, guarantees, data, authority)
-- Timeline (quick decision vs long consideration)
-
-### Example Persona:
-```
-Name: Coffee Enthusiast Carla
-Age: 28-35, female, $60K+ annual income
-Pain: Morning routine feels rushed, wants quality time
-Current solution: Settling for office coffee
-Aspiration: Leisurely mornings, aesthetic home coffee setup
-Values: Quality, efficiency, wellness
-Objection: "Isn't it too expensive for my budget?"
-           "Will I actually use this daily?"
-Media: Instagram (lifestyle), YouTube (reviews), TikTok (trends)
-```
+### Persuasion Principles for Creative
+Pick 2-3 per campaign (more overwhelms the audience):
+Reciprocity, Commitment, Social Proof, Authority, Liking, Scarcity, Unity, Loss Aversion, Anchoring, Pratfall Effect
 
 ---
 
-## MARKET AWARENESS LEVELS (Critical Framework)
+## Quick Performance Analysis Process (For Existing Accounts)
 
-**Level 1: UNAWARE**
-- Doesn't know product or problem exists
-- Messaging strategy: Educate on PROBLEM first (70% education, 30% sales)
-- Hook type: Problem demonstration, shocking statistic
-- Example: "Did you know 73% of coffee makers are dumping grounds in landfills?"
-- Landing page: Educational (advertorial, blog post)
-
-**Level 2: PROBLEM-AWARE**
-- Knows problem exists, doesn't know solutions
-- Messaging strategy: Problem agitation + solution introduction (50/50)
-- Hook type: Problem-solution sequence
-- Example: "Your old coffee maker is stealing 20 minutes from your morning. Here's the fix."
-- Landing page: Solution comparison (listicle: "3 Ways to Save Morning Time")
-
-**Level 3: SOLUTION-AWARE**
-- Knows solutions exist, doesn't know you exist
-- Messaging strategy: Differentiation (30% awareness, 70% sales)
-- Hook type: Comparison, unique benefit
-- Example: "Most coffee makers take 10 minutes. This one takes 90 seconds."
-- Landing page: Comparison (you vs alternatives), feature-focused
-
-**Level 4: PRODUCT-AWARE**
-- Knows your product, is skeptical
-- Messaging strategy: Social proof + objection removal (10% awareness, 90% sales)
-- Hook type: Testimonial, results proof, guarantee
-- Example: "See what 50,000 customers said after using this..."
-- Landing page: Testimonials, guarantee, FAQ, urgency
-
-**Level 5: MOST-AWARE (Ready to Buy)**
-- Customer is 95% ready, needs final push
-- Messaging strategy: Remove friction, add urgency (100% sales)
-- Hook type: Scarcity, time-sensitive offer, final objection handling
-- Example: "Only 12 left in stock. Free shipping ends tonight."
-- Landing page: Product page, checkout, thank you page
-
-**Action:** Determine which awareness level your MAIN audience occupies. Build ONE winning angle for that level first, then expand to adjacent levels.
+1. **Identify the Unicorn Ad:** The single ad taking disproportionate spend, working across campaigns
+2. **Recent Performance Snapshot (30 days):** Which formats, creatives, angles perform best?
+3. **Stability Check (7 vs 30 days):** Are 30-day winners still performing in 7-day window?
+4. **Hook Analysis:** Hook Rate = (3-second views / impressions) x 100. First Frame Retention should be above 90%.
 
 ---
 
-## ICE SCORING: PRIORITIZING IDEAS
+## When to Read Reference Files
 
-When you have 10+ creative ideas, use ICE to prioritize which to produce first.
+Read `references/research-4-step-process.md` when:
+- User needs the full 4-step process with detailed sub-steps
+- User is starting research for a new brand or product
+- User needs the digging questions or creative breakdown template
 
-**ICE = Impact × Confidence × Ease**
+Read `references/research-code-banks.md` when:
+- User needs to build a code bank from reviews
+- User asks about extracting customer language
+- User wants the connecting threads methodology
 
-Score each idea 0-10 on:
+Read `references/research-personas.md` when:
+- User needs to build detailed audience personas
+- User asks about tangible vs intangible desires/pain points
+- User needs post-purchase survey questions
 
-1. **Impact:** How much will this move the needle?
-   - 10 = Could increase ROAS by 30%+
-   - 5 = Could increase ROAS by 10-15%
-   - 0 = Probably won't affect ROAS
-
-2. **Confidence:** How confident are you this works based on research?
-   - 10 = Multiple competitors use this, customer reviews validate it
-   - 5 = One competitor uses it, some customer interest
-   - 0 = You're guessing, no evidence
-
-3. **Ease:** How easy/fast is this to produce?
-   - 10 = 1-2 hours (static ad, simple script)
-   - 5 = 1-2 days (basic video, moderate design)
-   - 0 = 2+ weeks (complex production, custom shoot)
-
-**Example Scoring:**
-
-| Idea | Impact | Confidence | Ease | Score | Priority |
-|------|--------|------------|------|-------|----------|
-| Before/After video | 9 | 8 | 6 | 432 | 1st |
-| Problem hook variant | 7 | 9 | 9 | 567 | 2nd |
-| Testimonial carousel | 8 | 6 | 7 | 336 | 3rd |
-| Lifestyle 9x16 video | 6 | 5 | 4 | 120 | 4th |
-
-**Action:** Calculate total ICE score, rank all ideas, produce top 3-5 first.
+Read `references/research-awareness-levels.md` when:
+- User needs to identify their audience's awareness level
+- User asks about Eugene Schwartz's 5 levels applied to ads
+- User needs framework selection by awareness level
+- User asks about market sophistication
 
 ---
 
-## KEYWORD RESEARCH: FINDING CUSTOMER LANGUAGE
+## Cross-References
 
-Use customer language, not marketing speak.
-
-**Tool approach:**
-1. Google Search: Type keyword, review auto-complete suggestions
-   - Shows real questions people ask
-   - Use exact phrasing in copy
-2. YouTube Search: Same approach, shows video-search language
-3. Amazon Q&A: Search category, read actual customer questions
-4. Reddit Search: Use site:reddit.com + keyword to find discussions
-
-**Example mining:**
-- Product: "Neck pillow"
-- Google auto-complete shows:
-  - "neck pillow for sleeping"
-  - "neck pillow that actually works"
-  - "neck pillow for side sleepers"
-  - "best neck pillow for travel"
-- **Use these exact phrases in headlines and copy**
-
----
-
-## HYPOTHESIS FORMULATION
-
-After research, state your winning hypothesis CLEARLY:
-
-**Template:**
-"We believe [AUDIENCE] with [AWARENESS LEVEL] will respond to [HOOK TYPE] + [ANGLE] because [EVIDENCE FROM RESEARCH]."
-
-**Example 1:**
-"We believe women 28-40 with problem-awareness (know they have sleep issues) will respond to a testimonial-style video showing real before/after sleep improvement because 89% of 5-star reviews mention 'best sleep in years.'"
-
-**Example 2:**
-"We believe budget-conscious parents with solution-awareness (know other lunch containers exist) will respond to a cost-comparison angle because 47% of 1-star Amazon reviews mention competitive products."
-
-**Action:** Write 1 winning hypothesis. This becomes your PRIMARY creative brief.
-
----
-
-## CHECKLIST: BEFORE YOU BRIEF CREATIVE
-
-- [ ] Completed all 4 research steps (don't skip Step 1 or 2)
-- [ ] Built code banks with exact customer language
-- [ ] Created minimum 2 customer personas
-- [ ] Identified which awareness level is primary audience
-- [ ] Ran Ads Library search for competitor patterns
-- [ ] Scored ideas using ICE framework
-- [ ] Documented 3-5 winning angles from your account data
-- [ ] Written final hypothesis statement
-- [ ] Extracted 5+ exact customer phrases for copy
-- [ ] Confirmed primary hook type based on awareness level
-
----
-
-## KEY BENCHMARKS
-
-- **Hook rate target:** 35%+ (below 15% is weak)
-- **Creative win rate:** Expert teams hit 30-40% success rate on new creatives
-- **Account average ROAS:** Calculate this—it's your benchmark (winners beat this, losers underperform)
-- **Testing conversion rate:** First round wins typically achieve 60% of winners in 2nd round testing
-- **Research time investment:** 2-5 days upfront saves 2-3 weeks in production and testing iteration
-
----
-
-## SOURCES & DISAGREEMENTS
-
-- **Salif Sibane:** 4-step process, code banks, personas, awareness levels (primary source)
-- **Deividas Tokaris:** ICE scoring, brief components, research tools (corroborates Salif)
-- **EcomTalent:** Market awareness framework alignment with Salif (no contradiction)
-
-**All sources aligned on:** Research before creative production, customer language mining, persona development.
-
+| When This Comes Up | Go To | Trigger |
+|---|---|---|
+| User wants to write actual ad copy | `create-ad-copy` | Research is done, time to write |
+| User wants to script a video ad | `create-video-ads` | Research is done, time to script |
+| User asks about testing their creative | `test-creative` | Research and creation done, time to test |
+| User asks about campaign structure | `strategy-meta-ads` or `strategy-google-ads` | Research complete, need campaign architecture |
+| User asks about carousel frameworks | `create-carousel-ads` | Need carousel-specific creative |

@@ -1,498 +1,340 @@
 ---
-name: "SEO Analytics & Reporting"
-description: "Set up GA4, Google Search Console, track SEO KPIs, measure ROI, and create monthly reports. Attribution models, Looker Studio dashboards, AI visibility monitoring, rank tracking, and organic ROI calculation. Triggers: SEO analytics, GA4, Google Search Console, SEO report, rankings, KPIs, attribution, dashboard, organic traffic, AI visibility. Covers: GA4 setup, KPI tracking, attribution models, dashboard creation, ROI measurement. Does NOT cover: paid ads analytics, customer data platforms."
-Triggers:
-  - SEO analytics
-  - GA4
-  - Google Search Console
-  - SEO reporting
-  - KPIs
-  - attribution
-  - dashboard
-  - organic ROI
-  - AI visibility
+name: "SEO Analytics, GA4 & Reporting"
+description: >
+  MANDATORY TRIGGERS: GA4, Google Analytics, GTM, Google Tag Manager, SEO reporting, SEO KPIs,
+  Looker Studio, Search Console, GSC, SEO dashboard, conversion tracking, UTM parameters,
+  consent mode, BigQuery, SEO metrics, monthly SEO report, organic ROI, e-commerce tracking,
+  key events.
+  FOR: SEO practitioners setting up or auditing analytics infrastructure. Marketing managers
+  building SEO performance dashboards. Teams implementing GA4 from scratch or migrating from
+  Universal Analytics. Anyone needing to prove SEO ROI to stakeholders.
+  Do NOT use for: AI search optimization strategy (use geo-ai-search-optimization), keyword
+  research and competitive analysis (use keyword-research-intent), technical SEO fixes / crawl /
+  indexation (use technical-seo-audit), content creation or optimization (use content-production
+  or on-page-optimization).
 ---
 
-# SKILL 9: SEO Analytics & Reporting
+# SEO Analytics, GA4 & Reporting
 
-**Workflow Stage:** Optimize / Measure
-**Complexity:** High
-**Lines:** ~450
-
----
+Analytics is where SEO becomes accountable. Without proper measurement, every other SEO activity is guesswork. This skill covers the complete measurement stack from tag deployment through executive dashboards.
 
 ## Core Philosophy
 
-This skill bridges the gap between SEO execution and business results.
+Track BOTH macro and micro conversions from the start. Most companies focus exclusively on macro conversions (purchases, leads), but micro conversions (video views, add-to-cart, newsletter signups) provide insights into user behavior and help optimize the full customer journey.
 
-Too many SEO teams operate blind: They build content, get backlinks, optimize pages—but can't prove ROI.
+GA4 renamed "conversions" to **key events** in the interface. All metrics (page views, sessions) are derived from events and users -- the event-based model is the foundation of everything.
 
-This skill teaches:
-1. **Setup:** GA4 + GSC + tracking infrastructure
-2. **Measurement:** Define what matters (KPIs that prove SEO value)
-3. **Attribution:** Credit SEO for actual revenue
-4. **Reporting:** Monthly dashboards that get stakeholder buy-in
-5. **Analysis:** Find optimization opportunities from data
+## When to Read Reference Files
 
----
+Before setting up or auditing analytics:
+- Read **ref-ga4-setup-configuration.md** for the complete GA4 architecture, event types, consent mode v2, data privacy checklist, and e-commerce tracking
+- Read **ref-gtm-seo-reporting.md** for GTM configuration, reporting architecture (Looker Studio, BigQuery), SEO KPI definitions, metric tracking phases, and the Reddit-informed measurement loop
 
-## When to Use This Skill
+## GA4 Architecture Overview
 
-**User Asks:**
-- "How do I set up GA4 for SEO tracking?"
-- "How do I prove SEO is driving revenue?"
-- "What KPIs should I track?"
-- "How do I create an SEO report for my boss?"
-- "What's our organic traffic worth?"
-- "Why are we ranking well but not converting?"
-- "How do I track AI search visibility?"
-- "What attribution model should I use for SEO?"
+### Account > Property > Data Stream
 
-**Routing Logic:**
-- If user needs GA4 setup → See references: `ga4-setup-and-configuration.md`
-- If user needs GSC mastery → See references: `google-search-console-mastery.md`
-- If user needs dashboard → See references: `looker-studio-dashboard-templates.md`
-- If user needs KPIs → See references: `seo-kpi-definitions.md`
-- If user needs monthly checklist → See references: `monthly-seo-review-checklist.md`
-- If user is measuring AI visibility → See references: `ai-visibility-monitoring.md`
+- **Account** -- top-level organizational unit (max 100 per Google account)
+- **Property** -- the data repository (max 2,000 per account); collects from one or more data streams
+- **Data stream** -- tells GA4 where data comes from (Web, Android, iOS); each has a unique **measurement ID**
 
----
+**Key decision:** For multiple subdomains or top-level domains, use ONE data stream with the same measurement ID on all sites to enable coherent user tracking. Max 20 data streams per property, but keep as few as possible (multiple streams hurt report generation performance).
 
-## Part 1: Analytics Foundation
+### Events Are the Foundation
 
-### Three Pillars of SEO Measurement
+GA4 is entirely event-based. Every user action is an event. The most important linking parameter is the **user** (unique identifier).
 
-**Pillar 1: Visibility**
-- Keyword rankings
-- Search impression share
-- AI visibility (ChatGPT, Perplexity, Google AI)
-- SERP feature performance (featured snippets, etc.)
+**Four types of events:**
+1. **Automatically recorded** -- collected without configuration (page_view, session_start, first_visit)
+2. **Enhanced measurement** -- toggled on in data stream settings (scroll, outbound clicks, site search, video engagement, file downloads)
+3. **Recommended events** -- Google-suggested names for specific industries (add_to_cart, purchase, sign_up)
+4. **Custom events** -- any event you define for unique tracking needs
 
-**Pillar 2: Traffic**
-- Organic sessions
-- Organic users
-- Session duration (engagement)
-- Click-through rate from SERP
-- Traffic by keyword, page, topic
+### Three Setup Methods
 
-**Pillar 3: Conversion**
-- Revenue from organic
-- Leads from organic
-- Cost per acquisition (CPA)
-- Return on ad spend (ROAS) for organic
-- Lifetime value (LTV) of organic customers
+1. **CMS/Store plugin** -- WordPress Site Kit, Shopify native; enter measurement ID; verify consent handling
+2. **Google tag (gtag) directly** -- JavaScript snippet in `<head>` of every page
+3. **Google Tag Manager** -- GTM loads the Google tag; more complex initial setup but superior management for multiple tracking codes
 
-### Measurement Stack (Tools)
+> **Cross-reference:** For technical implementation of tracking code deployment, see `technical-seo-audit`. For content performance measurement of Reddit-optimized pages, see `ai-seo-content-automation`.
 
-**Tier 1: Required**
-- Google Analytics 4 (GA4) - Free
-- Google Search Console (GSC) - Free
-- Google Tag Manager (GTM) - Free
+## Consent Mode v2 (Mandatory)
 
-**Tier 2: Recommended**
-- Looker Studio - Free
-- Rank tracking tool (Ahrefs, SEMrush, Moz)
+The EU's Digital Markets Act (2024) made consent mode v2 mandatory for Google tags. This is not optional.
 
----
+**How it works:**
+- Consent mode transmits the user's selected consent status with each measurement call
+- Without consent, GA4 uses **modeling** to extrapolate "missing" data from measured users
+- You need a **consent management platform (CMP)** like Usercentrics or OneTrust
+- The CMP alone is not enough -- actual tracking prevention must be implemented in GTM or code
+- **Server-side tagging** is the future: your own tracking server accepts data and forwards to marketing services
 
-## Part 2: GA4 Setup for SEO
+## Data Privacy Configuration Checklist
 
-### Account Architecture
+1. Obtain consent via CMP before firing tracking tags
+2. Enable user objection (opt-out) in consent box
+3. Update privacy policy to list all analytics services
+4. IP addresses are automatically anonymized in GA4 (city-level only)
+5. Set data retention period: 14 months is fine (no regulation mandates 2 months)
+6. Enable "Reset user data on new activity" to extend retention with each return visit
+7. Conclude data processing agreement (accepted during account creation)
+8. Appoint primary contact and data protection officer in account settings
+9. Delete non-compliant data if collected before proper setup
 
-```
-Google Account
-└── GA4 Property (Main website)
-    ├── Data Stream 1: Web (main domain)
-    ├── Data Stream 2: Web (staging/testing)
-    └── Settings: Internal traffic filter, referrer exclusion, consent mode
-```
+## Account Data Sharing -- Recommended Defaults
 
-### Critical GA4 Configurations
+Turn OFF all four options for best data privacy:
+- Google products & services -- OFF (separate from Google Ads linking)
+- Benchmarking -- OFF (data too general to be useful)
+- Technical support -- optional (activate only when filing support request)
+- Account manager -- OFF (allows Google sales staff to access your data)
 
-1. **Enable Enhanced Measurement** (automatic events)
-   - Page views ✅
-   - Scroll tracking ✅
-   - Outbound click tracking ✅
-   - Site search tracking ✅
-   - File download tracking ✅
+No noticeable restrictions from deactivating all four. Better for data privacy audits.
 
-2. **Create Custom Events** (SEO-specific)
-   - form_submission (key event)
-   - contact_form (key event)
-   - guide_download (key event)
-   - pricing_page_view
-   - product_view
-   - organic_conversion
+## SEO Metric Tracking Phases
 
-3. **Create Custom Dimensions** (segmentation)
-   - keyword (captured from Google via parameter)
-   - content_type (blog, product, service page)
-   - traffic_source (organic, paid, direct)
+SEO results follow a predictable timeline. Set stakeholder expectations accordingly:
 
-4. **Mark Key Events** (conversion points)
-   - contact_form_submitted
-   - purchase
-   - newsletter_signup
-   - guide_downloaded
+| Phase | Timeline | Metrics to Report | Reality Check |
+|-------|----------|-------------------|---------------|
+| **Foundation** | Months 1-2 | Rankings only | Organic traffic change unlikely; focus on indexation and ranking movement |
+| **Traction** | Months 2-4 | Rankings + traffic | Early traffic gains from quick wins; most keywords still climbing |
+| **Performance** | Months 4+ | Rankings + traffic + revenue | Full measurement stack active; ROI calculable |
 
-### UTM Parameter Strategy
+**Important:** Do not promise revenue impact before month 4. Report on leading indicators (rankings, impressions) during the foundation phase.
 
-For organic, use:
-```
-utm_source=google
-utm_medium=organic
-utm_campaign=[campaign_name]
-utm_content=[page_type]
-utm_term=[keyword_target]
-```
+## SEO KPI Definitions
 
-**Note:** GA4 captures these automatically from Google Search, but manual UTMs help with other sources (social, email driving to SEO content).
+### Primary KPIs (report every month)
 
----
+| KPI | Definition | Source | Target Direction |
+|-----|-----------|--------|-----------------|
+| Organic sessions | Visits from organic search | GA4 | Up |
+| Organic revenue / leads | Revenue or lead count from organic | GA4 key events | Up |
+| Keywords in top 10 | Count of keywords ranking positions 1-10 | Rank tracker | Up |
+| Organic CTR | Clicks / impressions for organic search | GSC | Up |
+| Indexed pages | Pages eligible to appear in search | GSC | Stable or up |
 
-## Part 3: Google Search Console Mastery
+### Secondary KPIs (report monthly or quarterly)
 
-### GSC Data You Need
-
-**Performance Report:**
-- Keyword (query) rankings and positions
-- Click-through rate (CTR) by query
-- Impressions (how many times your page showed in SERP)
-- Ranking position (average position for keyword)
-- Top pages (which pages get most impressions)
-
-**Coverage Report:**
-- Pages indexed vs. excluded
-- Crawl errors
-- Indexation rate (how much of your site is indexed)
-- Issues preventing indexation
-
-**Experience Report:**
-- Core Web Vitals (LCP, FID, CLS)
-- Mobile usability issues
-- HTTPS coverage
-- Mobile vs. desktop performance
-
-### Critical GSC Workflows
-
-**Workflow 1: Find Top-Traffic Queries**
-1. GSC → Performance
-2. Sort by Impressions (descending)
-3. Identify keywords with high impressions but low CTR (optimization opportunity)
-4. Find keywords where you rank #2-5 (push to #1)
-
-**Workflow 2: Find Indexation Issues**
-1. GSC → Coverage
-2. Filter for "Excluded" pages
-3. Identify pages that should be indexed but aren't
-4. Fix issues (robots.txt, noindex tags, redirect chains)
-
-**Workflow 3: Monitor Page Experience**
-1. GSC → Page Experience
-2. Filter for "Poor" experiences
-3. Prioritize fixing Core Web Vitals
-4. Re-test after fixes
-
----
-
-## Part 4: SEO KPIs (What Actually Matters)
-
-### Top-Level KPIs (Board-level metrics)
-
-| KPI | Calculation | Target |
+| KPI | Definition | Source |
 |-----|-----------|--------|
-| **Organic Revenue** | Total revenue from organic sessions | Grows 20-30% YoY |
-| **Organic ROAS** | Organic revenue / SEO spend | >300% |
-| **Organic Cost per Conversion** | SEO budget / conversions | Lower month-over-month |
-| **Organic Traffic** | Total organic sessions | Grows 10-15% QoQ |
+| Average position | Mean ranking across tracked keywords | GSC / rank tracker |
+| Organic engagement rate | Engaged sessions / total sessions for organic | GA4 |
+| Pages per session (organic) | Average pages viewed per organic visit | GA4 |
+| Referring domains | Count of unique domains linking to site | Ahrefs / SEMrush |
+| Core Web Vitals pass rate | % of URLs passing CWV assessment | GSC / PageSpeed Insights |
+| AI search visibility | Brand mentions in LLM responses | Manual monitoring / tools |
 
-### Mid-Level KPIs (Team-level metrics)
+### Content-Specific KPIs
 
-| KPI | Calculation | Target |
-|-----|-----------|--------|
-| **Keyword Rankings** | Keywords in top 3 positions | Grow #1 keywords 10% monthly |
-| **Organic Traffic by Goal** | Sessions → Conversion events | 2-5% conversion rate (industry dependent) |
-| **Average Ranking Position** | Mean position across top keywords | Improve from 15→8 |
-| **Click-through Rate (SERP)** | Clicks / Impressions | Improve 10-15% via title/desc optimization |
+| KPI | What It Measures |
+|-----|-----------------|
+| Page-level engagement rate | Which pages hold attention (Reddit-optimized vs generic) |
+| Key event conversion rate | Pages with comparison tables, FAQs, "What to Know" sections |
+| Organic impressions + CTR for long-tail keywords | Reddit-derived keyword performance |
+| Supporting cluster page contribution | Internal link click-through to main service page |
+| AI Overview appearances | Which content gets featured in AIOs |
 
-### Operational KPIs (Tactical metrics)
+> **Cross-reference:** For AI visibility monitoring across LLM platforms, see `geo-ai-search-optimization`.
 
-| KPI | Calculation | Target |
-|-----|-----------|--------|
-| **Content Published** | New articles / pages per month | 8-16 high-quality pages |
-| **Backlink Velocity** | New referring domains / month | 5-10 new domains monthly |
-| **Pages Ranking (#1-3)** | # of pages in top 3 SERP positions | Grow by 5-10 per month |
-| **Indexation Rate** | Indexed pages / Published pages | 90%+ |
+## GA4 as Central Database
 
----
+GA4 connects to the Google ecosystem:
+- **Google Ads** -- import key events as conversions for campaign optimization
+- **Google Search Console** -- enriches GA4 with organic search data (queries, impressions, CTR)
+- **Google Display & Video 360** -- programmatic campaign data
+- **Looker Studio** -- external dashboarding connected to GA4 data
 
-## Part 5: Attribution Models
+Data collected once in GA4 feeds all these tools without additional tags.
 
-### GA4 Attribution Models
+## UTM Parameter System
 
-**Last Click (Default)**
-- Gives 100% credit to last touchpoint
-- **Problem:** Undervalues organic (users often click organic after research)
-- **Use:** Quick estimate, not true value
+Use UTM parameters to identify traffic sources beyond default attribution:
 
-**First Click**
-- Gives 100% credit to first touchpoint
-- **Problem:** Ignores middle content journey
-- **Use:** Understanding acquisition source
+| Parameter | Purpose | Example |
+|-----------|---------|---------|
+| utm_source | The referrer | newsletter, facebook, linkedin |
+| utm_medium | Marketing medium | email, cpc, social |
+| utm_campaign | Specific campaign name | spring-sale-2026 |
+| utm_term | Paid search keyword (optional) | best-crm-software |
+| utm_content | Ad variation (optional) | banner-v2 |
 
-**Linear**
-- Distributes equal credit to all touchpoints
-- **Better for:** Multi-touch journeys
-- **Use:** E-commerce with research → comparison → purchase
+GA4 uses source/medium/campaign to classify traffic into channels. Consistent UTM discipline is critical for accurate attribution.
 
-**Time Decay**
-- Gives more credit to recent touchpoints
-- **Better for:** Understanding final decision-maker
-- **Use:** SaaS with long sales cycles
+## E-Commerce Tracking in GA4
 
-**Position-Based (Data-Driven)**
-- GA4's AI model: weights position + content contribution
-- **Best for:** Enterprises with sufficient data (10K+ conversions)
-- **Use:** Most accurate for mature accounts
+### Standard E-Commerce Events
 
-### SEO Attribution Strategy
+| Event | When It Fires |
+|-------|--------------|
+| view_item | User views a product page |
+| add_to_cart | User adds item to cart |
+| begin_checkout | User starts checkout process |
+| purchase | Transaction completes |
 
-**Recommendation:** Use **Linear + Data-Driven** for true SEO value:
+### Item-Level Parameters
 
-1. **Set up GA4 with Data-Driven attribution** (requires 10K+ conversions)
-2. **Create organic-specific audiences** (organic traffic only)
-3. **Compare conversion rates** (organic vs. other channels)
-4. **Calculate organic-attributed revenue** = organic sessions × conversion rate × avg order value
-
-**Example:**
-```
-Organic sessions: 10,000
-Conversion rate: 3%
-Average order value: $150
-Organic revenue: 10,000 × 0.03 × $150 = $45,000
-```
-
----
-
-## Part 6: Monthly SEO Report Components
-
-### Executive Summary (1 page)
-
-- **Headline metric:** Total organic revenue YTD
-- **Key wins:** Top 3 ranking improvements + new keywords
-- **Challenges:** Top 3 underperforming areas
-- **Forecast:** Projected revenue next 3 months
-
-### Performance Summary (1-2 pages)
-
-**Traffic metrics table:**
-```
-| Metric | This Month | Last Month | Change | Trend |
-|--------|-----------|-----------|--------|-------|
-| Organic sessions | 45,000 | 42,000 | +7% | ↑ |
-| Organic conversions | 1,350 | 1,260 | +7% | ↑ |
-| Avg ranking position | 12.5 | 14.2 | +1.7 | ↑ |
-| CTR from SERP | 2.3% | 2.1% | +0.2% | ↑ |
-```
-
-**Key metrics dashboard** (visual):
-- Organic traffic trend (line chart, 12 months)
-- Top keywords by traffic (bar chart, top 10)
-- Revenue by page type (pie chart)
-
-### Content Performance (1 page)
-
-**Top performing pages:**
-- Page title
-- Organic traffic
-- Conversions
-- Conversion rate
-
-**Top ranking improvements:**
-- Keyword
-- Previous position
-- Current position
-- Traffic gained
-
-### Technical & SEO Health (1 page)
-
-- **Indexation rate:** % of site indexed
-- **Core Web Vitals:** LCP, FID, CLS status
-- **Backlink profile:** New referring domains + lost domains
-- **Issues:** Any crawl errors, indexation issues, security issues
-
-### Recommendations (1 page)
-
-- **Quick wins:** 3-5 optimization opportunities (high impact, low effort)
-- **Medium-term:** 3-5 strategic initiatives (3-6 month projects)
-- **Long-term:** 2-3 strategic direction changes (12+ month vision)
-
----
-
-## Part 7: Organic ROI Calculation
-
-### The Formula
-
-```
-Organic Revenue = Organic Sessions × Conversion Rate × Average Order Value
-
-Organic Profit = Organic Revenue - SEO Budget
-
-Organic ROAS = Organic Revenue / SEO Budget
-
-Organic CPA = SEO Budget / Conversions
-```
-
-### Real Example
-
-**SaaS company:**
-```
-Organic sessions/month: 10,000
-Conversion rate: 2% (visitors → free trial signup)
-Customer value: $5,000 (annual contract value)
-
-Monthly organic revenue value: 10,000 × 0.02 × $5,000 = $1,000,000 annualized
-
-Monthly SEO spend: $15,000 (3 FTE + tools)
-Annual SEO spend: $180,000
-
-Organic ROAS: $1,000,000 / $180,000 = 5.5x (or 550% ROI)
-```
-
-### Payback Period
-
-```
-Months to break even = SEO budget / Monthly organic profit
-
-Example:
-SEO setup cost: $20,000 (content, technical audit, setup)
-Monthly organic profit: ($1M/12 months) - $15K = $68,333
-Payback period: $20,000 / $68,333 = 0.29 months (= 1 week)
-```
-
----
-
-## Part 8: AI Visibility Measurement
-
-New metric for 2026+: **AI Search Visibility**
+Each event carries: item_id, item_name, item_category, price, quantity. Custom dimensions can extend default tracking. Data import feature allows uploading product catalog data for enrichment.
 
 ### What to Track
 
-1. **AI Citations** - How many times your content appears in AI responses
-   - Tools: Promptwatch, Profound
-   - Metric: Monthly citations across models
+- Shopping cart additions and abandonments
+- Wish list additions
+- Each checkout step
+- Purchase completion with revenue
+- Voucher/coupon usage
+- Registration/login events
+- Repeat buyer identification
+- User lifetime value
 
-2. **AI Search Rankings** - Position in AI-generated answers
-   - Models: ChatGPT, Perplexity, Google AI Overviews, Claude
-   - Metric: # of queries where you rank in top 3 citations
+## Reporting Architecture
 
-3. **AI Visibility Score** - Overall presence across AI models
-   - Weighted by model popularity
-   - Weighted by position (top cite > bottom cite)
+### Four Reporting Layers
 
-### Measurement Workflow
+1. **Standard reports** -- pre-built GA4 dashboards (Home, Reports, Explore, Advertising)
+2. **Explorations** -- custom analyses with segments, funnels, path analysis
+3. **Looker Studio** -- external dashboarding connected to GA4; acts as frontend for BigQuery
+4. **BigQuery** -- raw GA4 data export for SQL analysis; enables queries impossible in the GA4 UI
 
-**Monthly:**
-1. Use Promptwatch/Profound to monitor AI citations
-2. Count citations across 5+ major AI models
-3. Compare trend month-over-month
-4. Identify keywords gaining/losing AI visibility
+### Search Console Integration
 
-**Quarterly:**
-1. Audit top 50 queries for AI visibility
-2. If missing citations, create content specifically for AI
-3. Optimize for AI ranking signals (data, statistics, unique insights)
+Link GSC to GA4 to enrich reports with organic search data. This surfaces:
+- Which queries drive traffic
+- Impression and click trends by keyword
+- Average position changes over time
+- Pages performing above/below expectation
 
----
+## AI Capabilities in GA4
 
-## Part 9: Dashboards & Visualization
+1. **Anomaly detection** -- compares actual data against AI-generated forecasts; configurable sensitivity
+2. **Predictive audiences** -- segments based on predicted purchase/churn probability
+3. **Traffic and conversion modeling** -- reconstructs data lost from users who declined tracking
+4. **ChatGPT analysis** -- export GA4 data as CSV, upload to ChatGPT for ad-hoc analysis (deactivate training data usage to protect privacy)
 
-### Looker Studio Dashboard Structure
+## Error Analysis and QA
 
-**Page 1: Executive Summary**
-- KPI cards (organic traffic, revenue, ROAS)
-- Traffic trend line chart
-- Top 10 keywords bar chart
+### Five QA Methods
 
-**Page 2: Keyword Performance**
-- Table: Keywords | Position | Traffic | CTR | Conversions
-- Sortable/filterable
+1. **Tag presence check** -- inspect page source or GTM tag coverage report
+2. **Browser developer tools** -- inspect "collect" calls in Network tab; use Adswerve dataLayer Inspector+
+3. **Tag Assistant** -- start debugging for a domain; use Tag Assistant Companion plugin
+4. **GA4 DebugView** -- enable debug mode to track events in real-time
+5. **Data quality dashboards** -- customized Looker Studio monitors + GA4 Insights for automated alerts
 
-**Page 3: Page Performance**
-- Table: Page | Organic Traffic | Conversions | Conversion Rate | Revenue
-- Filter by page type
+### Common Issues
 
-**Page 4: Technical Health**
-- Core Web Vitals status
-- Indexation rate
-- Crawl errors
+- No data in reports (tag not firing)
+- Too little data (consent blocking)
+- Missing pages (tag not on all pages)
+- "(not set)" entries (missing parameters)
+- "(other)" entries (cardinality limits)
+- Missing campaigns (broken UTM parameters)
 
-**Page 5: Traffic Attribution**
-- Organic traffic by source (organic search vs. organic referral)
-- Organic traffic by landing page
-- Conversion flow
+## GTM Operational Model
 
----
+Google Tag Manager controls what pages tags appear on and when they fire. All tag management happens inside GTM without code deploys.
 
-## Part 10: Avoiding Common Mistakes
+### Key Concepts
 
-### Mistake 1: Tracking vanity metrics
-❌ "We got 100K impressions!"
-✅ "We converted 500 impressions into 15 customers at $5K ACV = $75K revenue"
+| Concept | What It Does |
+|---------|-------------|
+| **Tags** | Code snippets that fire (GA4 tag, Facebook pixel, etc.) |
+| **Triggers** | Conditions that tell GTM when to fire a tag |
+| **Variables** | Dynamic values used in tags and triggers |
+| **Data layer** | JavaScript object passing structured data from website to GTM |
+| **Container** | GTM workspace holding all tags, triggers, and variables for a site |
 
-### Mistake 2: Using last-click attribution
-❌ "Paid search gets credit for all conversions"
-✅ "Organic content initiates, paid search converts. Both deserve credit."
+### Three Tag Categories
 
-### Mistake 3: Not tracking revenue
-❌ "Traffic up 20%"
-✅ "Traffic up 20%, revenue up 45% due to higher-intent keywords"
+1. **Google tags** -- built-in templates for GA4, Google Ads, Floodlight, Conversion Linker
+2. **Third-party templates** -- pre-built for Microsoft Ads, LinkedIn, Pinterest, Hotjar, etc.
+3. **Custom tags** -- Custom HTML (most common) or Custom Image for pixels
 
-### Mistake 4: Not segmenting by traffic source
-❌ "Organic traffic averaged 3% conversion rate"
-✅ "Blog traffic: 1% CR | Product pages: 8% CR | Category pages: 5% CR"
+**Best practice:** Create a demo container in GTM to test tags without impacting live data collection.
 
----
+## The Closed-Loop Measurement System
 
-## Navigation & Handoffs
+The Reddit Sniper method creates a measurement loop that compounds:
 
-**User needs GA4 implementation guidance?**
-→ Use `ga4-setup-and-configuration.md` reference
+1. **Reddit data informs content** -- real user language, pain points, competitor intelligence feed content creation
+2. **GA4 measures content performance** -- which Reddit-optimized pages outperform generic content
+3. **Insights feed back** -- refine the next round of Reddit-based content creation
+4. **AI Overview optimization** -- both GA4 (measuring featured content) and Reddit data (natural language patterns) serve the goal of ranking in AI Overviews
 
-**User needs KPI definitions?**
-→ Use `seo-kpi-definitions.md` reference
+### Key Metrics for Reddit-Informed Content
 
-**User needs dashboard templates?**
-→ Use `looker-studio-dashboard-templates.md` reference
+- Page-level engagement rate: Reddit-data-optimized pages vs generic content
+- Key event conversion rate on pages with comparison tables, FAQ sections, "What to Know" sections
+- Organic search impressions and CTR for long-tail keywords derived from Reddit threads
+- Supporting cluster page contribution to main service page rankings
+- AI Overview feature appearances via Search Console performance report
 
-**User needs monthly workflow?**
-→ Use `monthly-seo-review-checklist.md` reference
+> **Cross-reference:** For the full Reddit Sniper extraction method, see `ai-seo-content-automation`. For AI visibility monitoring, see `geo-ai-search-optimization`.
 
-**User needs rank tracking guidance?**
-→ Use `rank-tracking-and-serp-analysis.md` reference
+## Cookie and Browser Privacy Impact
 
-**User has questions about organic ROI?**
-→ Use `organic-roi-calculation.md` reference
+All major browsers now restrict data collection:
+- Apple's ITP massively restricts cookies in Safari
+- Chrome and Firefox have increasing privacy functions
+- Predictions: cookies less widespread, more anonymized/aggregated data, less individual conversion measurement
 
----
+GA4's response: consent mode modeling + server-side tagging.
 
-## Key Takeaways
+## Monthly SEO Reporting Template
 
-1. **Analytics setup** matters as much as SEO tactics
-2. **KPIs should be business-aligned** (revenue, not just traffic)
-3. **Attribution models** need sophistication (not last-click)
-4. **Monthly reporting** drives stakeholder buy-in and budget
-5. **AI visibility** is new measurement frontier (2026+)
-6. **Organic ROI** is now measurable and impressive (5-10x typical)
+### Executive Summary (1 page)
 
----
+- Organic revenue/leads: [amount] ([% change] MoM)
+- Organic sessions: [amount] ([% change] MoM)
+- Keywords in top 10: [count] ([+/- change] MoM)
+- Top win: [keyword/page achievement]
+- Top risk: [issue requiring attention]
 
-## Tools & Resources
+### Performance Metrics Section
 
-- GA4 (Google Analytics 4) - Free
-- Google Search Console - Free
-- Google Tag Manager - Free
-- Looker Studio - Free
-- Rank tracking: Ahrefs, SEMrush, Moz
-- AI visibility: Promptwatch, Profound
-- Attribution: GA4 native, Littledata, Ruler Analytics
+| Metric | This Month | Last Month | Change | YoY |
+|--------|-----------|------------|--------|-----|
+| Organic sessions | | | | |
+| Organic revenue | | | | |
+| Organic CTR | | | | |
+| Keywords top 10 | | | | |
+| Indexed pages | | | | |
+| Referring domains | | | | |
+
+### Keyword Analysis Section
+
+Top 20 keywords by traffic, including: position, change, impressions, clicks, CTR, landing page.
+
+### Technical Health Section
+
+Core Web Vitals status, crawl errors, indexation changes, page speed metrics.
+
+### AI Visibility Snapshot
+
+Brand mention tracking across ChatGPT, Perplexity, Google AI Mode (manual or tool-based).
+
+### Recommendations (3 actions)
+
+1. Quick win (implement this week)
+2. Strategic initiative (this month)
+3. Long-term project (this quarter)
+
+## Relaunch / Migration Analytics Checklist
+
+- Decision: create new GA4 property or keep existing?
+- New URLs require updating all tracking configurations
+- New design/templates may break tag placements
+- New forms need new event tracking
+- Always set up a test property before going live
+- Benchmark Core Web Vitals BEFORE migration with screenshots
+
+> **Cross-reference:** For migration technical SEO requirements, see `technical-seo-audit`.
+
+## What This Skill Does NOT Cover
+
+- AI search optimization strategy (GEO tactics) -> use `geo-ai-search-optimization`
+- Keyword research and competition analysis -> use `keyword-research-intent`
+- Technical SEO fixes (crawl errors, indexation) -> use `technical-seo-audit`
+- Content creation or on-page optimization -> use `content-production` or `on-page-optimization`
+- Link building measurement -> use `link-authority-building` for strategy, this skill for metrics

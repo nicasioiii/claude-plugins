@@ -1,272 +1,99 @@
 ---
 name: Research Keywords
-description: "Interactive keyword research workflow that guides you through seed generation, expansion, SERP analysis, and content planning"
+description: "Full keyword research workflow from brainstorm to prioritized list. Activates keyword-research-intent and competitive-landscape-analysis skills."
 ---
 
-# Research Keywords Command
+# /research-keywords -- Keyword Research Workflow
 
-Interactive workflow for discovering, validating, and prioritizing keywords for your SEO strategy.
+## INTAKE QUESTIONS (Ask All Before Researching)
 
-## Pre-Research Questions
+### Question 1: Business Context
+**Describe your business in 2-3 sentences:**
+- What you sell or do
+- Who your target customer is
+- Your geographic focus (local, national, global)
 
-Before starting, answer these questions:
+### Question 2: Current State
+**Where are you in your SEO journey?**
 
-**Question 1: What business problem are you solving?**
-(e.g., "I sell dog food online and want to rank for relevant keywords")
+| Choice | Implication |
+|--------|------------|
+| A) Brand new site, no content | Start with low-KD keywords, build from scratch |
+| B) Existing site, some content, want more traffic | Mine GSC for secondary keywords + find gaps |
+| C) Established site, want to dominate a new topic | Competitor reverse engineering + cluster planning |
+| D) E-commerce store, need product/collection keywords | Collections-first strategy, sub-collection multiplier |
+| E) Directory or programmatic SEO project | 7-filter framework, "near me" keywords |
 
-**Question 2: Who is your target customer?**
-(e.g., "Dog owners with picky/allergic dogs")
+### Question 3: Known Competitors
+**List 2-5 competitors (URLs) you know about.** If unknown, say "none" and we will find them.
 
-**Question 3: What's your budget for tools?**
-(e.g., "$0 (free only)" or "$100-200/month (Ahrefs)")
-
-**Question 4: How much time can you dedicate?**
-(e.g., "2-3 hours/week for research")
-
-**Question 5: What's your domain age and authority?**
-(e.g., "New site (DA 5)" or "Established site (DA 35)")
-
----
-
-## Phase 1: Seed Keyword Generation
-
-**Task:** Extract 50-100 foundation keywords from your business offering
-
-**Output:** Spreadsheet with seeds organized into 3-5 clusters
-
-**Process:**
-1. List all products/services you offer
-2. For each, write how customers describe their problem
-3. Write how you describe the solution
-4. Compare the two—note the language gap
-5. Extract keywords from both lists
-6. Organize into logical clusters
-
-**Reference:** Read **keyword-research-methodology.md** → "Phase 1: Seed Keyword Generation"
-
-**Time:** 2-3 hours
-
-**Deliverable:** "seeds_[date].csv" with columns:
-- Business Problem
-- Customer Search Term
-- Keyword Variant
-- Estimated Volume (guess)
-- Cluster
+### Question 4: Tools Available
+**Which tools do you have access to?**
+- [ ] Ahrefs
+- [ ] SEMrush
+- [ ] DataForSEO
+- [ ] Answer Socrates
+- [ ] Clicks.so
+- [ ] Google Search Console (existing site)
+- [ ] None (will use free methods only)
 
 ---
 
-## Phase 2: Keyword Expansion & Filtering
+## WORKFLOW (After Intake)
 
-**Task:** Use tools to expand seeds to 200-400 keywords, then filter to 80-120 priority targets
+### Phase 1: Seed Keyword Generation
+**Skill activated:** `keyword-research-intent`
 
-**Output:** Filtered keyword list with volume, difficulty, intent classification
+1. Generate 30-50 seed keywords using:
+   - AI brainstorm (Layer 1 of three-layer system)
+   - Business context analysis
+   - Customer problem/solution mapping
+2. Classify each seed by intent: informational, commercial, transactional
 
-**Process:**
+### Phase 2: Competitor Keyword Mining
+**Skill activated:** `competitive-landscape-analysis`
 
-**Step 1:** Choose your tool
-- Free: Google Suggest, AnswerThePublic
-- Budget: Ubersuggest ($15/month)
-- Standard: Ahrefs ($99/month) or SEMrush ($120/month)
+1. Identify 3-5 competitors from SERP analysis
+2. Extract competitor keyword data (Ahrefs or DataForSEO)
+3. Filter: Position 3+, Volume 500+, KD under 40
+4. Add promising keywords to master list
+5. Check "also rank for" for subtopic expansion
 
-**Step 2:** For each seed, expand to 50-100 variants
-- Tool generates suggestions
-- Export to CSV
-- Note: Volume, Keyword Difficulty, Intent
+### Phase 3: Validation & Expansion
+**Skill activated:** `keyword-research-intent`
 
-**Step 3:** Consolidate all expansions
-- Combine all CSVs
-- Remove duplicates
-- Final list: 200-400 keywords
+1. Validate all keywords with volume + KD data (DataForSEO or Ahrefs)
+2. Run allintitle check on top candidates
+3. Check meta title gaps in SERPs
+4. Expand with CONCATENATE method if applicable
+5. Run through Answer Socrates for deep clustering (if available)
 
-**Step 4:** Classify by intent
-- Commercial (C): "best," "review," "vs," "price," "buy"
-- Informational (I): "how to," "what is," "guide"
-- Navigational (N): brand name, "[brand] review"
+### Phase 4: Prioritization
+**Skills activated:** `keyword-research-intent` + `competitive-landscape-analysis`
 
-**Step 5:** Score each keyword
-- Volume Score (0-3)
-- Difficulty Score (0-3, inverted)
-- Intent Score (0-4)
-- Total (0-10)
-
-**Step 6:** Filter to opportunities
-- Keep keywords scoring 6+ out of 10
-- Target: 80-120 keywords
-
-**Reference:** Read **keyword-research-methodology.md** → "Phase 2: Keyword Expansion"
-
-**Time:** 4-6 hours
-
-**Deliverable:** "keywords_expansion_[date].csv" with columns:
-- Keyword
-- Volume
-- Difficulty
-- Intent (C/I/N)
-- Volume Score
-- Difficulty Score
-- Intent Score
-- Total Score
-- Action (RANK NOW / SECONDARY / SKIP)
+1. Score each keyword: Volume x (1/KD) x CPC = Opportunity Score
+2. Classify by intent and content type needed
+3. Group into clusters (potential pillar-cluster relationships)
+4. Select top 50 target keywords
+5. Flag long-term targets (high volume, high KD)
 
 ---
 
-## Phase 3: SERP Analysis & Validation
+## OUTPUT DELIVERABLE
 
-**Task:** Manually validate top 50-80 keywords by examining SERP composition
+A structured keyword spreadsheet with:
 
-**Output:** Go/No-Go decision for each keyword + content gap identification
+| Column | Data |
+|--------|------|
+| Keyword | Target phrase |
+| Volume | Monthly search volume |
+| KD | Keyword difficulty (0-100) |
+| CPC | Cost per click (commercial value indicator) |
+| Intent | Informational / Commercial / Transactional |
+| allintitle | Competition count |
+| Content Type | Blog post / Pillar page / Product page / Collection |
+| Priority | High / Medium / Low / Long-term |
+| Cluster | Which topic cluster this belongs to |
+| Notes | SERP observations, meta title gaps, competitor weaknesses |
 
-**Process:**
-
-**Step 1:** Select top 50-80 keywords (Score 6+)
-
-**Step 2:** For each keyword, perform SERP analysis:
-- Google the keyword (incognito)
-- Record top 3 domains + DA
-- Count: How many small sites (DA <40) in top 10?
-- Check: Is authority spread or concentrated?
-- Note: SERP features (featured snippet, ads, local pack)
-
-**Step 3:** Identify content gaps
-- What do top 3 articles cover?
-- What's missing from all 3?
-- Can you write something better?
-
-**Step 4:** Classify each keyword:
-- **RANK NOW:** Top 3 average DA <50, multiple small sites ranking, clear content gap
-- **SECONDARY:** Top 3 average DA 50-65, 1-2 small sites ranking
-- **SKIP:** All top 10 are huge brands (DA >70), no differentiation possible
-
-**Reference:** Read **serp-analysis-workflow.md** → "SERP Data Collection & Analysis"
-
-**Time:** 5-8 hours (for 50 keywords)
-
-**Deliverable:** "serp_analysis_[date].csv" with columns:
-- Keyword
-- Top 3 Avg DA
-- Small Sites in Top 10 (count)
-- Content Gap (yes/no)
-- Verdict (RANK NOW / SECONDARY / SKIP)
-- Competitive Advantage (1-2 sentence summary)
-
----
-
-## Phase 4: Content Roadmap & Publishing Plan
-
-**Task:** Organize keywords into clusters and create publishing roadmap
-
-**Output:** Content cluster plan with pillar + satellites, prioritized by opportunity
-
-**Process:**
-
-**Step 1:** Group "RANK NOW" keywords into clusters
-- Look for thematic relationships
-- 1 pillar (broad keyword) + 4-6 satellites (specific long-tail)
-- Example cluster: "Dog Food" pillar + satellites for allergies, costs, types
-
-**Step 2:** Prioritize clusters
-- Cluster 1 (Week 1-2): Easiest to rank (lowest KD, clearest gap)
-- Cluster 2 (Week 3-4): Medium difficulty
-- Cluster 3+ (Week 5+): Longer timeline
-
-**Step 3:** Define pillar + satellite keywords
-- Pillar: Broad keyword (highest volume in cluster)
-- Satellites: Long-tail variants (100-300 monthly searches each)
-
-**Step 4:** Identify content advantage
-- What gap do all competitors miss?
-- What unique element will you include?
-- How will you make content better?
-
-**Step 5:** Create publishing timeline
-- Week 1-2: Cluster 1 (pillar + 2-3 satellites)
-- Week 3-4: Cluster 2
-- Week 5-6: Cluster 3
-- Adjust based on your writing capacity
-
-**Reference:** Read **content-cluster-strategy.md** → "Cluster Design & Publishing"
-
-**Time:** 3-4 hours
-
-**Deliverable:** "content_roadmap_[date].csv" with columns:
-- Cluster Name
-- Pillar Keyword
-- Satellite 1-6 Keywords
-- Target Week
-- Competitive Advantage
-- Estimated Traffic/Cluster
-- Content Gap Summary
-
----
-
-## Implementation Checklist
-
-Before starting content production:
-
-- [ ] Seed keywords extracted (50+)
-- [ ] Keywords expanded (200+ via tool)
-- [ ] Intent classified (100% keywords tagged)
-- [ ] Opportunity scored (top 80-120 selected)
-- [ ] SERP analysis complete (top 50 analyzed)
-- [ ] Clusters organized (3-5 clusters defined)
-- [ ] Pillars selected (one per cluster)
-- [ ] Content advantages identified (for each cluster)
-- [ ] Publishing timeline created
-- [ ] Team agrees on keyword priorities
-
----
-
-## Common Outcomes by Site Authority
-
-### New Site (DA 5-15)
-- Target: Long-tail keywords (KD <30)
-- Expected: 20-30 keywords ranking in first 6 months
-- Timeline: 8-16 weeks per keyword
-- Strategy: Batch long-tail, skip competitive keywords
-
-### Growing Site (DA 15-30)
-- Target: Mix of long-tail (KD <40) + medium keywords (KD 30-45)
-- Expected: 40-60 keywords ranking in first 6 months
-- Timeline: 6-12 weeks per keyword
-- Strategy: Balanced approach, some competitive keywords viable
-
-### Established Site (DA 30+)
-- Target: Mix across all difficulties (KD <60)
-- Expected: 80-120+ keywords ranking in first 6 months
-- Timeline: 4-8 weeks per keyword
-- Strategy: Can tackle competitive keywords, lots of opportunities
-
----
-
-## Next Steps After Keyword Research
-
-Once you complete keyword research:
-
-1. **Use skill:** `content-cluster-strategy`
-   - Design your content cluster architecture
-   - Plan pillar + satellite structure
-   - Map interlinking strategy
-
-2. **Use skill:** `competitive-landscape-analysis`
-   - Analyze top competitors for each keyword
-   - Identify content gaps you can fill
-   - Discover link sources for outreach
-
-3. **Start content production**
-   - Write articles following your content roadmap
-   - Implement internal linking strategy
-   - Monitor rankings weekly
-
----
-
-## Timeline Summary
-
-- **Phase 1 (Seed generation):** 2-3 hours → 50-100 seeds
-- **Phase 2 (Expansion & filtering):** 4-6 hours → 80-120 priority keywords
-- **Phase 3 (SERP analysis):** 5-8 hours → Go/No-Go decisions + content gaps
-- **Phase 4 (Content roadmap):** 3-4 hours → Prioritized clusters + publishing plan
-
-**Total research time:** 14-21 hours (2-3 weeks part-time)
-
-**Payoff:** Clear direction for 3-6 months of content production
-
+**Next step suggestion:** "Your keyword research is complete. Run `/content-plan` to turn this into a content architecture with clusters, internal linking, and a publishing calendar."

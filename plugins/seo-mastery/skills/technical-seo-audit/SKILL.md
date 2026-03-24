@@ -1,274 +1,253 @@
 ---
-name: "Technical SEO Audit"
-description: "Diagnose and fix crawlability, indexation, Core Web Vitals, structured data, and site architecture issues. Comprehensive audit framework, site speed optimization, JavaScript SEO, mobile-first, XML sitemaps, and schema validation. Triggers: technical SEO, site audit, crawl errors, Core Web Vitals, page speed, indexation, schema markup, JavaScript SEO, mobile SEO. Covers: audit workflows, crawlability diagnosis, indexation troubleshooting, Core Web Vitals optimization. Does NOT cover: coding implementation, hosting changes."
-Triggers:
-  - technical SEO
-  - site audit
-  - crawl errors
-  - Core Web Vitals
-  - page speed
-  - indexation
-  - schema markup
-  - JavaScript SEO
-  - mobile SEO
+name: "Technical SEO Audit & Crawlability"
+description: |
+  MANDATORY TRIGGERS: technical SEO, crawlability, indexation, indexing issues,
+  Core Web Vitals, site speed, robots.txt, canonical URL, 301 redirect, pagination,
+  site migration, mobile-first indexing, crawl budget, noindex, JavaScript SEO,
+  edge SEO, CDN SEO, Screaming Frog, Google Search Console coverage, orphan pages,
+  crawled currently not indexed, 130-day rule, duplicate content
+
+  FOR: Anyone diagnosing and fixing technical SEO issues that prevent crawling,
+  indexing, or rendering. Covers audit workflows, crawlability diagnostics,
+  indexation troubleshooting, Core Web Vitals, site migrations, and JS rendering issues.
+
+  Do NOT use for:
+  - On-page content optimization (title tags, headers, keywords) -> use on-page-optimization
+  - Schema markup strategy and implementation -> use schema-entity-optimization
+  - GA4/GTM setup and configuration -> use seo-analytics-reporting
+  - E-commerce category/product technical issues -> use ecommerce-seo
 ---
 
-# Technical SEO Audit & Optimization Mastery
+# Technical SEO Audit & Crawlability
 
-## Core Purpose
-Diagnose and fix the technical foundations that prevent sites from ranking. Technical SEO isn't about tricks—it's about removing barriers to crawlability, indexation, and Core Web Vitals performance. A site with perfect content and mediocre technical health will never dominate search.
-
-## Your Goal as a Technical SEO Auditor
-You're answering: **"Why isn't this site ranking despite good content and links?"** The answer usually lives in crawlability, indexation, mobile-first readiness, JavaScript rendering issues, or Core Web Vitals bottlenecks.
-
----
-
-## The Technical SEO Hierarchy (Priority Order)
-
-### Tier 1: Crawlability & Indexation (CRITICAL)
-- If Google can't crawl your site → indexation fails → no rankings possible
-- **Key metrics**: robots.txt blocks, redirect chains, sitemaps, internal link structure
-- **Tools**: Google Search Console Coverage tab, Site Explorer (Ahrefs), GTmetrics
-
-### Tier 2: Mobile-First Indexing (CRITICAL)
-- Google crawls mobile version first; if mobile content differs from desktop → ranking issues
-- **Key metrics**: Viewport meta tag, responsive design, mobile rendering
-- **Tools**: Mobile-Friendly Test, Google PageSpeed Insights, GTmetrics device simulation
-
-### Tier 3: Core Web Vitals (HIGH)
-- Largest Contentful Paint (LCP), First Input Delay (FID), Cumulative Layout Shift (CLS)
-- Poor CWV = ranking penalty; good CWV = ranking boost
-- **Key metrics**: Real-world CrUX data, lab testing with GTmetrics/PageSpeed
-- **Tools**: Google PageSpeed Insights, GTmetrics, Core Web Vitals report (GSC)
-
-### Tier 4: Security & HTTPS (CRITICAL)
-- Non-HTTPS sites get ranking penalty; SSL certificate is table stakes
-- **Key metrics**: HTTPS redirect, mixed content warnings
-- **Tools**: Browser console inspection
-
-### Tier 5: Structured Data Validation (MEDIUM)
-- Schema markup helps Google understand content type (article, product, FAQ, etc.)
-- Rich snippets increase CTR; broken schema gets ignored
-- **Key metrics**: Schema syntax, Google Rich Results validation
-- **Tools**: Google Rich Results Test, Schema.org validator
-
-### Tier 6: JavaScript SEO (MEDIUM)
-- Client-side JavaScript-rendered content may not be indexed
-- **Key metrics**: JavaScript execution, content visibility in rendered HTML
-- **Tools**: Google's URL Inspection tool (fetch as Google), Screaming Frog JS rendering
+You are a technical SEO diagnostician. Help users identify and fix issues preventing their pages from being crawled, indexed, and rendered by search engines. Be specific with exact thresholds, timelines, and priority order. Always diagnose before prescribing.
 
 ---
 
-## Audit Workflow: 5-Step Process
+## Core Philosophy
 
-### Step 1: Crawlability Audit (30 min)
-1. Check robots.txt (`site.com/robots.txt`) for blocking patterns
-2. Review GSC Coverage report for crawl errors
-3. Audit internal link structure (broken internal links?)
-4. Check robots meta tags on key pages
-5. Identify redirect chains (should be max 1)
+**"Good, not perfect" for most sites.** For 99% of e-commerce brands, technical SEO is the least important of the three buckets (technical, on-page, off-page). Set it up once at 70-80% and move on. On-page and off-page make vastly more money. The exception: sites with tens of thousands to millions of pages where crawl budget matters (Cromwell).
 
-**Deliverable**: Crawlability audit checklist with findings + fixes ranked by priority
-
-### Step 2: Indexation Diagnosis (30 min)
-1. Run `site:domain.com` search; compare to GSC indexed pages
-2. Check for canonical tag conflicts (self-referencing canonicals?)
-3. Review noindex tags (accidentally blocking pages?)
-4. Audit URL parameters causing duplicate indexation
-5. Check Search Console coverage report for "not indexed" pages
-
-**Deliverable**: Indexation audit with fix recommendations
-
-### Step 3: Mobile-First Health Check (20 min)
-1. Use Mobile-Friendly Test on 3-5 key pages
-2. Check viewport meta tag presence
-3. Test responsive design on iPhone/Android devices
-4. Check for mobile blocking (app redirects, excessive overlays)
-5. Compare mobile vs. desktop content (should be identical)
-
-**Deliverable**: Mobile-first checklist + priority fixes
-
-### Step 4: Core Web Vitals Analysis (30 min)
-1. Run Google PageSpeed Insights (mobile + desktop)
-2. Check CrUX real-world data in GSC
-3. Document LCP, FID/INP, CLS scores
-4. Identify top bottlenecks (images, JavaScript, rendering)
-5. Check GTmetrics for waterfall analysis
-
-**Deliverable**: CWV optimization roadmap (quick wins first)
-
-### Step 5: Schema & Security Validation (20 min)
-1. Validate all schema markup with Google Rich Results Test
-2. Check HTTPS coverage (non-HTTPS pages?)
-3. Review mixed content warnings
-4. Audit JavaScript rendering (is critical content client-side?)
-5. Test nofollow/sponsored link attributes
-
-**Deliverable**: Schema fixes + security audit results
+**BUT: AI crawlers change the calculus.** Server response times under 300ms, static HTML pages, and no JavaScript dependencies matter significantly for AI search visibility. Technical SEO that was "nice to have" for traditional rankings is becoming mandatory for AI citation (brightonSEO).
 
 ---
 
-## Common Technical SEO Issues & Solutions
+## When to Read Reference Files
 
-### Issue 1: Crawl Budget Waste
-**Symptom**: GSC shows "Crawled - not indexed" or "Crawl errors" spike
-**Root causes**:
-- Paginated URL parameters (?page=1, ?sort=price)
-- Session IDs in URLs (changing on each visit)
-- Infinite crawl traps (auto-paginating archives)
-- Excessive internal linking to non-essential pages
+Read **ref-crawlability-indexation.md** when:
+- Pages are not appearing in Google despite being published
+- Google Search Console shows "crawled currently not indexed" or "discovered currently not indexed"
+- Investigating why pages were de-indexed after previously ranking
+- Working on canonical URL configuration
+- Troubleshooting robots.txt issues
+- Cross-reference: seo-analytics-reporting for GSC integration and tracking
 
-**Fix Priority**:
-1. Use URL parameters in GSC Settings to control crawl
-2. Add `rel="next" rel="prev"` for pagination
-3. Robots.txt block low-value parameter combinations
-4. Clean up internal linking (remove links to filters, sorts)
-
-### Issue 2: Mobile Content Mismatch
-**Symptom**: Mobile version shows different content than desktop
-**Root causes**:
-- JavaScript not rendering on mobile
-- Mobile viewport blocking essential content
-- Lazy loading breaking mobile crawl
-
-**Fix**: Ensure GSC "Fetch as Mobile" shows same content as desktop fetch
-
-### Issue 3: Core Web Vitals Failure
-**Symptom**: PageSpeed score <50 on mobile; CrUX data shows poor LCP/CLS
-**Root causes** (in order of prevalence):
-1. Unoptimized images (largest single factor)
-2. Render-blocking CSS/JavaScript
-3. Slow third-party scripts (ads, analytics, chat)
-4. Poor hosting performance
-5. Cumulative Layout Shift from ads/embeds
-
-**Fix Roadmap**:
-1. Image optimization (WebP format, lazy loading, sizing)
-2. Remove unused CSS/JS
-3. Defer third-party scripts
-4. Optimize server response time (TTFB)
-
-### Issue 4: Indexation Drops
-**Symptom**: Sudden drop in indexed pages; no obvious deletions
-**Root causes**:
-- Accidental noindex tag on important pages
-- Robots meta tag changes
-- Canonical chain issues
-- Duplicate content from new features/templates
-
-**Debug**: Check GSC Coverage → "Excluded" → "Noindexed by user"
-
-### Issue 5: Schema Markup Not Triggering Rich Results
-**Symptom**: Schema validates but no rich snippets appear in SERP
-**Root causes**:
-- Schema syntax valid but Google doesn't recognize content type
-- Missing required fields (Google requires more than schema.org spec)
-- Content doesn't meet Google's eligibility (e.g., Product needs image + price)
-- Wrong schema type for content
-
-**Fix**: Test with Google Rich Results Test; check eligibility guidelines per type
+Read **ref-technical-checklist.md** when:
+- Running a full technical SEO audit
+- Fixing 404s, redirects, or pagination issues
+- Planning or executing a site migration
+- Evaluating Core Web Vitals or site speed
+- Implementing edge SEO via CDN
+- Debugging JavaScript rendering issues
+- Cross-reference: on-page-optimization for meta tag and header fixes found during audit
 
 ---
 
-## Tools You'll Use
+## Google's Three-Tier Exclusion Engine (Adam Gent, brightonSEO)
 
-### Free Tools (Start Here)
-- **Google Search Console**: Crawl errors, indexation, mobile usability, Core Web Vitals
-- **Google PageSpeed Insights**: CWV analysis, optimization suggestions
-- **Mobile-Friendly Test**: Quick mobile check
-- **Google Rich Results Test**: Schema validation + rich snippet preview
-- **Screaming Frog (free tier)**: Crawl audit (up to 500 URLs)
+Google excludes pages from the index through three tiers. Understanding which tier is blocking you determines the fix.
 
-### Paid Tools (ROI Tools)
-- **Ahrefs Site Audit**: Site-wide technical analysis, crawl errors, backlink health
-- **GTmetrics**: Waterfall analysis, performance metrics, device simulation
-- **Semrush Technical SEO Audit**: Covers crawlability, mobile, Core Web Vitals
+### Tier 1: Technical Errors
+- noindex directives, 404 errors, robots.txt blocking
+- **Fix:** Remove the technical blocker. Straightforward.
 
-### Chrome DevTools & Manual Testing
-- Network tab (identify render-blocking resources)
-- Lighthouse (accessibility + performance audit)
-- Console (JavaScript errors)
-- Performance tab (identify slow operations)
+### Tier 2: Duplicate/Similar Content
+- Canonical conflicts, near-duplicate pages, thin content overlap
+- **Fix:** Set canonical URLs correctly, consolidate duplicate pages, differentiate thin content
 
----
+### Tier 3: Page Quality (the biggest reason by far)
+- Content quality, link signals, user engagement -- Google's quality judgment
+- Quality signals from DOJ trial documents: **content** (vector embeddings mapped to topic), **links** (PageRank, nearest seed page rank), **clicks** (user engagement/satisfaction)
+- Google measures outcomes not outputs -- they don't understand documents but measure user engagement
 
-## Reference Files to Use
-- **crawlability-audit-workflow.md** — Step-by-step crawlability diagnosis with GSC navigation
-- **indexation-troubleshooting.md** — Fixing noindex, canonicals, duplicate content
-- **mobile-first-implementation.md** — Mobile-friendly checklist + responsive design audit
-- **core-web-vitals-optimization.md** — LCP/CLS/INP fixes with priority order
-- **site-speed-optimization.md** — Image optimization, caching, third-party script deferral
-- **schema-validation-checklist.md** — Schema types, validation tools, common failures
-- **javascript-seo-guide.md** — Client-side rendering, fetch-as-Google testing
-- **xml-sitemap-generation.md** — Sitemap structure, best practices, submission
+### Three Patterns of Actively De-Indexed Pages
+1. **Historic engagement** -- was popular 2-3 years ago, no longer
+2. **Low quality engagement** -- some SERP appearances but no clicks
+3. **No engagement** -- nobody visits, links to, or cares about these pages
+
+**Key insight:** Google actively removes previously indexed pages. Pages go from "submitted and indexed" to "crawled currently not indexed" within days. This is not a crawl issue -- it is a quality judgment.
 
 ---
 
-## Quick Diagnosis Questions
+## The 130-Day Indexing Rule (Adam Gent)
 
-Answer these before diving into audit:
+If a page has not been recrawled within 130 days, it has a **99% chance of not being indexed.**
 
-1. **Is the site crawlable?**
-   - Run `site:domain.com`; does Google see any pages?
-   - Check robots.txt for blocking
+### Crawl Management Timeline
+| Days Since Last Crawl | Status |
+|---|---|
+| 1-130 days | Indexed (healthy) |
+| 131-189 days | Crawled, currently not indexed |
+| 190+ days | Discovered, currently not indexed |
+| 450+ days (up to 2 years) | URLs unknown to Google |
 
-2. **Is mobile blocking content?**
-   - Test on Mobile-Friendly Test
-   - Compare GSC "Fetch as Mobile" vs. "Fetch as Desktop"
-
-3. **Are Core Web Vitals passing?**
-   - Check Google PageSpeed Insights
-   - Mobile or desktop failing? (Usually mobile)
-
-4. **Is the issue indexation or ranking?**
-   - Use GSC Coverage report
-   - If not indexed → fix crawlability/indexation first
-   - If indexed but not ranking → add content/links or schema
-
-5. **Is there a penalty history?**
-   - Check GSC Manual Actions report
-   - Any unresolved manual actions = fix first
+### Hard/Soft Quality Thresholds
+Google uses a hard limit/soft limit/quality threshold system (from "Managing URLs" patent):
+- When too many pages enter the pipeline, the quality threshold goes UP -- borderline pages get dropped
+- When disk space frees up, threshold goes DOWN -- more pages get indexed
+- This creates daily fluctuations in indexation status
+- Your pages might be "quality borderline" -- some days indexed, some days not
 
 ---
 
-## Actionable Deliverables
+## Technical SEO Audit Checklist
 
-Each audit produces:
-1. **Technical Audit Report** (7-page max)
-   - Executive summary (top 5 issues)
-   - Crawlability findings + fixes
-   - Indexation status + recommendations
-   - Mobile-first assessment + checklist
-   - Core Web Vitals analysis + prioritized fixes
-   - Schema validation results
+### Priority 1: Fix These First (Cromwell + brightonSEO)
 
-2. **Fix Implementation Roadmap**
-   - Quick wins (can implement in <1 day)
-   - Medium-term fixes (1-2 weeks)
-   - Long-term optimization (1-3 months)
-   - Estimated traffic impact per fix
+| Issue | Why It Matters | Fix |
+|-------|---------------|-----|
+| 404s / broken links | Always bad. Lost link equity | 301 redirect to most relevant active page (similar product > parent collection > homepage) |
+| robots.txt blocking content | Can silently break entire sections | Check "internal blocked by robots.txt" in Screaming Frog. One blocked API key directory broke 33% of content rendering for a 900-hotel chain |
+| Canonical URL conflicts | Duplicate indexing wastes crawl budget | Self-referencing canonicals on primary pages. Shopify fix: remove `within: collection` Liquid filter |
+| Pagination noindex | Duplicate pages dilute authority | noindex `?page=2`, `?page=3` etc. Only top-level page should be indexed |
+| Duplicate/thin content | Quality threshold exclusion | noindex tagged collection pages, paginated URLs, pages with no substantive content |
 
-3. **Monitoring Dashboard Setup**
-   - Core Web Vitals tracking
-   - Crawl health metrics
-   - Indexation trend monitoring
+### Priority 2: Implement Next
+
+| Issue | Fix |
+|-------|-----|
+| Schema markup | Product, FAQ, video schema for SERP visibility. See schema-entity-optimization |
+| SSL / HTTPS | Mandatory. Use Cloudflare for free SSL + CDN |
+| XML sitemap | Include only indexable pages. Remove orphans (case study: 10K live pages + 40K orphaned in sitemap) |
+| Mobile rendering | Check every page on mobile. Google uses mobile-first indexing |
+| Site speed | Server response under 300ms for AI crawlers. Under 4 seconds for traditional |
+
+### Priority 3: Ongoing Maintenance
+
+| Issue | Frequency |
+|-------|-----------|
+| Redirect chain cleanup | Quarterly |
+| Orphan page audit | Quarterly |
+| Crawl error monitoring | Weekly via GSC |
+| Core Web Vitals | Monthly check |
 
 ---
 
-## When to Hand Off to Other Skills
+## Crawl Audit Best Practices (Charles Meaden, brightonSEO)
 
-- **Content gaps discovered?** → Hand off to content-cluster-strategy
-- **On-page optimization needed (meta tags, headers)?** → Hand off to on-page-optimization
-- **Link profile weak?** → Hand off to link-authority-building
-- **Need structured data strategy for competitive advantage?** → Combine with on-page-optimization
+### First-Pass Crawl (2-3 minutes)
+Always run a quick first-pass crawl before full crawl to catch:
+- Query strings inflating crawl
+- Tracking URLs creating duplicates
+- Print-friendly pages adding noise
+
+### Source HTML vs JavaScript-Rendered Comparison
+- Regularly compare source HTML vs JS-rendered crawl output
+- Case study: hotel chain navigation only appeared on hover via JavaScript -- invisible to crawlers
+- If content only renders via JS, Google may not see it
+
+### Combine Crawl Data with Business Data
+- Merge crawl data with stock levels, GA sessions, revenue per page
+- A "perhaps too large" 500KB image on a high-traffic page matters more than a 3MB image on a low-traffic page
+- Create prioritized action scores weighted by business impact
 
 ---
 
-## Key Principles to Remember
+## Site Migration Checklist (Daphne Monro, brightonSEO)
 
-1. **Crawlability > Indexation > Rankings**: Fix the foundation first
-2. **Mobile-first isn't optional**: Google indexes mobile version; desktop is secondary
-3. **Core Web Vitals matter**: Poor CWV = ranking penalty, no exceptions
-4. **Schema helps Google understand, not rank**: Valid schema ≠ automatic rankings
-5. **Iteration > Perfection**: Start with GSC + PageSpeed; refine based on data
-6. **Test with data, not intuition**: Browser caching makes sites feel faster than they are
+### Six Migration Considerations
+1. **Keyword portfolio** -- map every keyword you rank for
+2. **GSC data** -- export everything before migration
+3. **Branded keywords** -- plan brand transition strategy
+4. **Site architecture** -- consolidate during migration (best time to restructure)
+5. **Technical performance** -- benchmark Core Web Vitals with screenshots BEFORE migration (cannot retroactively run Lighthouse on old site)
+6. **Future opportunities** -- plan new content architecture
+
+### Content Consolidation During Migration
+- Thousands of low-converting pages consolidated to a single portfolio landing page
+- Do not launch with content that does not convert
+- Each migrated page MUST have its own standalone primary keyword
+- If you cannot find a primary keyword for a page, consolidate it during migration
+- Find keywords: in GSC, filter by PAGE (not query), enter URL, see what users engage with
+
+### Brand Transition Strategy
+- HTML banner explaining the change
+- Old brand mentioned in footer and about page
+- Full brand story available (helps LLM citations too)
+- Pre-migration 302 redirect can generate community buzz and early links
+
+### Post-Migration Monitoring
+- Continue monitoring old GSC property indefinitely
+- Case study: still receiving hundreds of clicks daily on old property months after migration
+
+---
+
+## Edge SEO via CDN (Eben Aguilar, brightonSEO)
+
+### What It Is
+Edge SEO uses CDN layer (Cloudflare, Akamai) to implement SEO changes WITHOUT touching the origin server or CMS.
+
+### What You Can Implement at the Edge
+- Redirects
+- Canonical tags
+- Hreflang
+- Meta robots
+- Schema injection
+- Header modifications
+- Content injection
+
+### When to Use
+- CMS limitations prevent implementation
+- Dev queue bottleneck (months-long sprint cycles)
+- Code freezes (especially pre-Black Friday for e-commerce)
+- Test-and-learn: deploy at edge, measure, then decide whether to implement in codebase
+
+---
+
+## Core Web Vitals & Page Speed
+
+### The Pragmatic Position
+- Under 3 seconds is fine for most sites
+- Under 4 seconds is acceptable for e-commerce
+- Only fix if load time exceeds 5-6+ seconds
+- Page speed improvements move the needle ~0.5% vs keyword research + content + links at 90% (Cromwell)
+
+### AI Crawler Requirements (brightonSEO)
+- Server response time under 300ms
+- No JavaScript runtime required (AI crawlers do not interact with JS)
+- Static HTML pages preferred
+- Duplicate key data as HTML tables alongside JS visualizations
+
+### Mobile-First Indexing
+- Google indexes the mobile version of your site
+- Over 50% of internet traffic is mobile
+- If mobile version looks or functions poorly, nothing else in SEO matters
+
+---
+
+## JavaScript SEO Issues
+
+### The Problem
+- AI crawlers and some search bots do not execute JavaScript
+- Content rendered only via JS may be invisible to crawlers
+- robots.txt can accidentally block directories containing API keys needed for JS rendering
+
+### Diagnostic Process
+1. Crawl with Screaming Frog in both "source HTML" and "rendered" modes
+2. Compare output -- any content only in rendered mode is at risk
+3. Check "internal blocked by robots.txt" report
+4. Test with Google's URL Inspection Tool (shows rendered version)
+
+### Fix
+- Server-side render critical content
+- Provide HTML fallbacks for JS-dependent content
+- Ensure robots.txt does not block directories needed for rendering
+- Duplicate JS visualizations as static HTML tables
+
+---
+
+## Instructor Disagreements
+
+**Page speed importance:** Cromwell says nearly irrelevant (<4s fine). brightonSEO says server response <300ms for AI crawlers. Authority Hacker says do not obsess. Resolution: matters more for AI crawlers than traditional rankings.
+
+**Technical SEO priority:** Cromwell says least important bucket (set and forget). brightonSEO data shows technical issues (especially JS rendering) can silently break large percentages of content. Resolution: run a thorough initial audit, then maintain quarterly unless you have 10K+ pages.

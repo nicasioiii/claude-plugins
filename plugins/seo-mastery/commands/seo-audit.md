@@ -1,346 +1,217 @@
 ---
-name: SEO Audit
-description: "Generate a complete technical SEO audit for any website with priority-ranked issues and actionable fixes."
+name: "SEO Audit"
+description: |
+  Full technical + on-page SEO audit for any website. Activates technical-seo-audit,
+  on-page-optimization, and schema-entity-optimization skills. Outputs priority-ranked
+  issue list with fix instructions.
 ---
 
-# /seo-audit — Comprehensive Technical SEO Audit Workflow
+# /seo-audit -- Comprehensive SEO Audit Workflow
 
-## Command Purpose
-Generate a complete technical SEO audit for any website. Outputs priority-ranked issues with actionable fixes.
+## Skills Activated
+- **technical-seo-audit** (primary) -- crawlability, indexation, Core Web Vitals, JS SEO
+- **on-page-optimization** (secondary) -- meta tags, headers, keyword placement
+- **schema-entity-optimization** (tertiary) -- structured data assessment
 
 ## Invocation
 ```
 /seo-audit [domain.com]
 ```
 
-## What You Get
-1. **5-Page Audit Report** with executive summary
-2. **Crawlability Score** (0-100)
-3. **Indexation Status** breakdown
-4. **Mobile-First Assessment** with fixes
-5. **Core Web Vitals Analysis** (LCP, CLS, INP)
-6. **Prioritized Fix Roadmap** (quick wins → long-term)
-7. **Tool Recommendations** (free + paid)
+## Required Input
+Ask the user for:
+1. **Domain** -- the website to audit
+2. **Business type** -- e-commerce, content site, local service, SaaS, directory
+3. **Primary goal** -- more traffic, fix indexing issues, prepare for AI search, site migration
+4. **Available tools** -- Google Search Console access, Ahrefs/SEMrush, Screaming Frog
+5. **Page count** -- approximate number of pages on the site
 
 ---
 
-## Audit Sections
+## Audit Section 1: Crawlability Assessment
 
-### 1. Executive Summary (1 page)
-- Overall health score: X/100
-- Top 3 critical issues
-- Estimated traffic loss from each issue
-- Recommended quick wins (can implement in <1 day)
+### Check These First
+1. **robots.txt review** -- is anything critical blocked? Check for wildcards blocking API/JS resources
+2. **XML sitemap** -- does it exist? Does it include only indexable pages? Any orphans?
+3. **Google Search Console coverage** -- what is the indexed vs submitted ratio?
+4. **Internal link structure** -- are there orphan pages with zero internal links?
+5. **Redirect chains** -- any chains (A > B > C) that need collapsing?
 
-### 2. Crawlability Audit (1 page)
-- robots.txt analysis
-- Google Search Console coverage report summary
-- Internal link structure health
-- Broken internal links count
-- Redirect chain issues
-- Verdict: "Crawlable ✓" or "Issues Found ✗"
+### Diagnostic Questions
+- Are pages appearing as "crawled currently not indexed" in GSC? (likely quality issue -- Tier 3)
+- Are pages "discovered currently not indexed"? (likely not being crawled at all -- check internal links)
+- Has any page not been crawled in 130+ days? (99% chance of not being indexed)
+- Is robots.txt blocking CSS/JS files needed for rendering?
 
-### 3. Indexation Diagnosis (½ page)
-- Total indexed pages (from GSC)
-- Coverage status breakdown (valid, warning, excluded)
-- Any noindex issues
-- Duplicate content signals
-- Action items
-
-### 4. Mobile-First Health (½ page)
-- Mobile-Friendly Test result
-- Viewport meta tag present? ✓/✗
-- Responsive design: ✓/✗
-- Content parity (mobile vs desktop): Match/Mismatch
-- Mobile performance score
-
-### 5. Core Web Vitals Analysis (1 page)
-- PageSpeed mobile score
-- LCP, CLS, INP breakdown
-- Real-world CrUX data (if available)
-- Bottleneck identification
-- Optimization roadmap (by impact)
-
-### 6. Schema & Technical Validation (½ page)
-- Schema types found on key pages
-- Validation errors count
-- Missing schemas on important pages
-- Security (HTTPS) check
-
-### 7. Fix Roadmap (1 page)
-
-**Quick Wins (Day 1)**:
-- Issue 1: What to do → Expected impact
-- Issue 2: What to do → Expected impact
-- Issue 3: What to do → Expected impact
-
-**Medium-Term (1-2 weeks)**:
-- Issue A: Effort required → Impact
-
-**Long-Term (1-3 months)**:
-- Issue X: Effort required → Impact
-
----
-
-## How the Audit Works
-
-### Step 1: Crawlability Check (10 min)
-- robots.txt inspection
-- GSC Coverage report analysis
-- URL Inspection fetch tests (5 key pages)
-- Internal link structure crawl
-
-### Step 2: Indexation Analysis (10 min)
-- GSC indexation status
-- noindex tag audit
-- Duplicate content detection
-- Soft 404 identification
-
-### Step 3: Mobile Assessment (5 min)
-- Mobile-Friendly Test
-- Viewport tag check
-- Responsive design verification
-- Content parity comparison
-
-### Step 4: Performance Analysis (10 min)
-- PageSpeed Insights (mobile + desktop)
-- GTmetrics waterfall analysis
-- Core Web Vitals real-world data (CrUX)
-- Bottleneck identification
-
-### Step 5: Technical Validation (5 min)
-- Schema.org validation
-- HTTPS/security check
-- JavaScript rendering test
-- XML sitemap verification
-
-### Step 6: Compile Recommendations (10 min)
-- Consolidate findings
-- Rank by impact
-- Estimate effort per fix
-- Create prioritized roadmap
-
-**Total Time**: ~50 minutes per audit
-
----
-
-## Output Format
-
-### Report Template
-
+### Output Format
 ```
-TECHNICAL SEO AUDIT REPORT
-Domain: [domain.com]
-Date: [Date]
-Auditor: [Your Name]
+CRAWLABILITY SCORE: X/100
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Critical Issues:
+- [Issue]: [Pages affected] | [Fix instruction]
 
-EXECUTIVE SUMMARY
+Warnings:
+- [Issue]: [Pages affected] | [Fix instruction]
 
-Overall Health Score: 72/100
-Status: Good (but improvements available)
-
-Top 3 Critical Issues:
-1. Core Web Vitals failing on mobile (LCP 4.2s, target <2.5s)
-   → Estimated traffic loss: 15-20% from mobile users
-   → Fix: Image optimization + defer JavaScript
-
-2. Mobile content showing different text than desktop (lazy loading)
-   → Estimated impact: Indexation issues on 10-20 pages
-   → Fix: Ensure images load before JavaScript
-
-3. 5 noindex tags on active service pages
-   → Estimated traffic loss: 5-10% from organic
-   → Fix: Remove noindex tags; request indexing in GSC
-
-Quick Wins (Implement First):
-✓ Convert images to WebP (30-40% page speed boost)
-✓ Defer JavaScript (20-30% boost)
-✓ Remove noindex from service pages (5-10% traffic recovery)
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-1. CRAWLABILITY AUDIT
-
-Robots.txt Status: ✓ CLEAN
-- No over-blocking patterns
-- Search functionality not blocked
-- Sitemap declared correctly
-
-GSC Coverage: ⚠ WARNINGS
-- 95% indexed (Good)
-- 5 pages with redirect errors (Action: Fix redirects)
-- 0 pages blocked by robots.txt (Good)
-
-Internal Links: ✓ HEALTHY
-- 3 broken internal links (Low: <5 acceptable)
-- All key pages reachable within 3 clicks
-- Breadcrumb navigation present
-
-Verdict: CRAWLABLE ✓
-Action: Fix 3 broken internal links
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-2. INDEXATION STATUS
-
-Total Indexed Pages: 245 (from GSC)
-Coverage Breakdown:
-- Valid: 240 (98%)
-- Excluded (Noindex): 8 (includes 5 service pages with accidental noindex)
-- Excluded (Duplicate): 3
-- Errors: 2
-
-Issues Found:
-⚠ 5 service pages have noindex tag (REMOVE IMMEDIATELY)
-⚠ 2 pages with redirect chains (consolidate)
-
-Verdict: NEEDS ATTENTION ✗
-Priority Fix: Remove 5 noindex tags from service pages
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-3. MOBILE-FIRST HEALTH
-
-Mobile-Friendly Test: ✓ PASS
-Viewport Tag: ✓ Present & correct
-Responsive Design: ✓ Working
-Content Parity: ✗ MISMATCH FOUND
-- Desktop: Shows full article text
-- Mobile: Shows only headline (lazy loading issue)
-- Action: Ensure images load before JavaScript executes
-
-Mobile Performance Score: 45/100 (POOR)
-- LCP: 4.2s (Target <2.5s) ✗
-- CLS: 0.08 (Target <0.1) ✓
-- INP: 120ms (Target <200ms) ✓
-
-Verdict: NEEDS FIXING ✗
-Priority: Fix lazy loading + Core Web Vitals
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-4. CORE WEB VITALS ANALYSIS
-
-Real-World Data (CrUX):
-- 40% of mobile traffic: LCP >2.5s (Poor)
-- 10% of mobile traffic: CLS >0.1 (Poor)
-- Desktop: Mostly good (LCP <2.5s)
-
-Root Causes (Priority Order):
-1. Unoptimized images (48KB average, should be <30KB)
-   → Impact: 1-1.5s LCP improvement possible
-
-2. Render-blocking CSS (critical.css not inlined)
-   → Impact: 0.5-1s improvement
-
-3. JavaScript execution slow on mobile
-   → Impact: 0.3-0.5s improvement
-
-Optimization Roadmap:
-Week 1: Convert images to WebP + compress with TinyPNG
-Week 2: Inline critical CSS + defer non-critical JS
-Week 3: Monitor impact; adjust as needed
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-5. SCHEMA & SECURITY
-
-Schema Validation:
-✓ Article schema on blog posts (correct)
-✓ Organization schema on homepage (correct)
-✗ Product schema missing on 12 product pages (MEDIUM PRIORITY)
-
-Security:
-✓ HTTPS enabled (all pages)
-✓ No mixed content warnings
-
-Sitemap:
-✓ sitemap.xml present and valid
-✓ Declared in robots.txt
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-6. PRIORITIZED FIX ROADMAP
-
-QUICK WINS (Day 1 - 2 hours):
-□ Remove noindex from 5 service pages
-□ Fix 3 broken internal links
-□ Request indexing in GSC for re-indexed pages
-
-Expected Impact: +5-10% organic traffic
-
-MEDIUM-TERM (Week 1-2 - 10 hours):
-□ Convert images to WebP
-□ Compress with TinyPNG
-□ Implement lazy loading
-□ Inline critical CSS
-
-Expected Impact: 30-40% PageSpeed improvement
-
-LONG-TERM (Week 3-4 - 20 hours):
-□ Defer JavaScript
-□ Implement CDN
-□ Remove unused CSS
-□ Consider hosting upgrade (TTFB currently 1.2s)
-
-Expected Impact: 50%+ PageSpeed improvement
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-TOOLS NEEDED
-
-Free:
-- Google PageSpeed Insights
-- Google Search Console
-- Screaming Frog (free tier)
-- GTmetrics
-- Google Mobile-Friendly Test
-
-Paid (Recommended):
-- Ahrefs ($99/month) - Site audit
-- WP Rocket ($39/month) - Caching if WordPress
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-NEXT STEPS
-
-1. Implement quick wins immediately
-2. Track metrics weekly (PageSpeed, GSC coverage)
-3. Implement medium-term fixes over next 2 weeks
-4. Monitor rankings for improvement signals
-5. Re-run full audit in 30 days
-
-Contact: [Your contact info]
+Healthy:
+- [What is working correctly]
 ```
 
 ---
 
-## When to Use This Command
+## Audit Section 2: Indexation Diagnosis
 
-✓ **New client onboarding** — Baseline assessment
-✓ **Rankings dropping unexpectedly** — Diagnose technical issues
-✓ **Before launching major redesign** — Audit current state first
-✓ **Quarterly health check** — Stay on top of technical SEO
-✓ **After core update** — Check for technical issues
+### Apply the Three-Tier Exclusion Framework
+For each non-indexed page, diagnose which tier is causing exclusion:
+
+**Tier 1 (Technical):** noindex tag, 404 error, robots.txt block, redirect loop
+- Fix: remove the technical blocker
+
+**Tier 2 (Duplicate/Similar):** canonical conflicts, near-duplicate content, thin overlap
+- Fix: set canonicals, consolidate, differentiate
+
+**Tier 3 (Quality):** insufficient content, no links, no engagement
+- Fix: improve content quality, add internal links, earn backlinks
+
+### Output Format
+```
+INDEXATION STATUS:
+- Total pages submitted: [X]
+- Total pages indexed: [Y]
+- Index ratio: [Y/X]%
+
+Non-Indexed Pages by Tier:
+- Tier 1 (Technical): [count] pages -- [top issues]
+- Tier 2 (Duplicate): [count] pages -- [top issues]
+- Tier 3 (Quality): [count] pages -- [recommendations]
+```
 
 ---
 
-## Limitations & Notes
+## Audit Section 3: On-Page Optimization Assessment
 
-- Assumes site is publicly accessible
-- Requires access to Google Search Console
-- May take 50+ minutes for comprehensive audit
-- Best for sites <10,000 pages (crawl limitations)
-- Does not guarantee ranking improvement (assumes content + links are solid)
+### Sample 5-10 Key Pages
+For the site's most important pages (homepage, top service/product pages, top blog posts):
+
+| Page | Meta Title | H1 | Keywords in Intro | Internal Links | Schema |
+|------|-----------|-----|-------------------|----------------|--------|
+| [URL] | [OK/Fix] | [OK/Fix] | [OK/Fix] | [Count] | [Type or Missing] |
+
+### Common Issues to Flag
+- Meta titles not front-loading keywords
+- H1 not matching meta title (Google rewrite risk)
+- Missing keywords in first/last 100 words
+- No internal links or poor anchor text
+- Missing schema markup
+- Images without alt text
 
 ---
 
-## Integration with Other Skills
+## Audit Section 4: Technical Health
 
-**After audit, hand off to**:
-- **technical-seo-audit skill** — For detailed reference docs on fixes
-- **on-page-optimization** — If schema/metadata issues found
-- **content-cluster-strategy** — If content gaps discovered
-- **link-authority-building** — If authority signals weak
+### Core Web Vitals
+| Metric | Current | Target | Status |
+|--------|---------|--------|--------|
+| LCP | [X]s | <2.5s | [Pass/Fail] |
+| CLS | [X] | <0.1 | [Pass/Fail] |
+| INP | [X]ms | <200ms | [Pass/Fail] |
+| Server Response (TTFB) | [X]ms | <300ms (for AI crawlers) | [Pass/Fail] |
+
+### Mobile-First Check
+- Does the site render correctly on mobile?
+- Are tap targets adequate?
+- Is text readable without zoom?
+
+### JavaScript Rendering
+- Is critical content rendered only via JavaScript?
+- Are any JS/CSS resources blocked by robots.txt?
+- Compare source HTML vs rendered version for key pages
+
+### SSL/HTTPS
+- Is HTTPS enforced?
+- Any mixed content warnings?
+
+---
+
+## Audit Section 5: Schema Assessment
+
+### Current Schema
+- What schema types are currently implemented?
+- Are they valid (schema.org validator)?
+- Do they pass Google Rich Results Test?
+
+### Missing Schema Opportunities
+| Page Type | Recommended Schema | Priority |
+|-----------|-------------------|----------|
+| Homepage | Organization + LocalBusiness | High |
+| Service pages | Service or specific type | High |
+| Blog posts | Article with author | Medium |
+| FAQ sections | FAQPage | Medium |
+| Products | Product with offers | High (e-commerce) |
+
+---
+
+## Audit Section 6: AI Search Readiness
+
+### Technical Requirements for AI Crawlers
+- [ ] Server response under 300ms
+- [ ] Critical content in static HTML (not JS-dependent)
+- [ ] Schema markup implemented (orchestrator layer reads schema)
+- [ ] Semantic URLs (5-7 word natural-language slugs)
+- [ ] Meta descriptions spoil content (answer in description)
+
+### Content Requirements for AI Citation
+- [ ] Fact-dense pages (self-contained claim statements)
+- [ ] FAQ sections mirroring key facts
+- [ ] Question-style H2s with 40-60 word answer blocks
+- [ ] Real author bios (not AI personas)
+- [ ] Year in titles/H1s for recency signal
+
+---
+
+## Priority Fix Roadmap
+
+### Tier 1: Critical (Fix This Week)
+Issues that actively prevent crawling, indexing, or rendering.
+```
+1. [Issue] -- [X pages affected] -- [Fix instruction] -- [Time estimate]
+2. [Issue] -- [X pages affected] -- [Fix instruction] -- [Time estimate]
+```
+
+### Tier 2: Important (Fix This Month)
+Issues that reduce ranking potential but are not blocking.
+```
+1. [Issue] -- [Impact estimate] -- [Fix instruction] -- [Time estimate]
+```
+
+### Tier 3: Optimization (Ongoing)
+Improvements that enhance performance but are not urgent.
+```
+1. [Issue] -- [Impact estimate] -- [Fix instruction] -- [Time estimate]
+```
+
+---
+
+## Tool Recommendations
+
+### Free Tools
+- Google Search Console (indexation, performance, coverage)
+- Google Rich Results Test (schema validation)
+- PageSpeed Insights (Core Web Vitals)
+- Screaming Frog (free up to 500 URLs)
+- schema.org validator
+
+### Paid Tools
+- Ahrefs or SEMrush (backlink analysis, keyword tracking, site audit)
+- Screaming Frog (paid for unlimited URLs)
+- Sitebulb (visual crawl analysis)
+- ContentKing (real-time SEO monitoring)
+
+---
+
+## Post-Audit Monitoring
+- Re-check GSC coverage weekly for first month after fixes
+- Track keyword rankings for affected pages
+- Monitor Core Web Vitals monthly
+- Re-audit quarterly for ongoing maintenance
+- For 10K+ page sites, consider continuous monitoring tools

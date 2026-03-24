@@ -1,283 +1,173 @@
-# SEO Mastery Plugin: Complete Knowledge Base
-
-**Version:** 1.0
-**Date:** March 11, 2026
-**Target User:** Serial entrepreneurs & in-house marketing teams running B2B ecommerce & service businesses
-**Knowledge Base:** 42,787 lines of extracted SEO expertise
-**Replacement:** Replaces 6 fragmented marketing-skills SEO plugins
-
----
+# SEO Mastery v2.0 -- Routing & Operations
 
 ## Plugin Overview
 
-The **seo-mastery** plugin consolidates end-to-end SEO knowledge from 42,000+ lines of course transcriptions into **9 deep, opinionated skills** organized by workflow stage.
-
-**Core principle:** Deep expertise (9 incredible skills) beats shallow coverage (20 thin ones).
-
-Each skill is a complete, standalone workflow with clear entry points, handoff logic, and actionable frameworks.
+Complete SEO knowledge engine built from 10 extraction files covering 25+ hours of expert training across Authority Hacker (TASS 3.0), Koray Tugberk Gubur (Topical Authority), Casey Keith (Treasure Map), Charles Floate, Greg Morrison, Derek Pierce, Nicolas Gorrono, Danny Postma, Kristina Azarenko, Nat Eliason, Maddy Osman, Vahe Arabian, Frey Chu, Jacky Chou, Mayank Kulkarni, brightonSEO 2025 speakers, and more. Provides end-to-end guidance from keyword research through AI search optimization, covering research, strategy, technical, content, links, scale, and measurement.
 
 ---
 
-## The 9 Core Skills
+## Ambiguous Request Decision Tree
 
-| # | Skill | Stage | When to Use | Deliverable |
-|---|-------|-------|------------|------------|
-| 1 | keyword-research-intent | Research | "What keywords should I target?" | Keyword lists, intent mapping, vertical playbooks |
-| 2 | competitive-landscape-analysis | Research | "Who's ranking? What are they doing?" | Gap analysis, opportunity matrix, competitive SERP analysis |
-| 3 | content-cluster-strategy | Plan | "How do I organize content for authority?" | Cluster diagrams, internal linking plans, pillar-satellite architecture |
-| 4 | on-page-optimization | Build | "What makes a page rank?" | Meta formulas, header strategy, schema checklists |
-| 5 | content-production | Build | "How do I create content at scale?" | AI workflows, QA checklists, E-E-A-T frameworks |
-| 6 | technical-seo-audit | Build | "Why isn't my site crawlable?" | Audit checklist, priority fixes, CWV optimization |
-| 7 | link-authority-building | Optimize | "How do I earn backlinks?" | Outreach templates, HARO workflow, PBN strategies |
-| 8 | local-seo-ecommerce-scale | Scale | "How do I scale with multiple locations/products?" | GBP optimization, location pages, programmatic SEO playbooks |
-| 9 | seo-analytics-reporting | Measure | "How do I prove SEO ROI?" | GA4 setup, KPI definitions, dashboard templates, attribution models |
-
----
-
-## Skill Routing Table (User Intent → Skill)
-
-### RESEARCH PHASE
-
-| User Intent | Skill | Key Files |
-|---|---|---|
-| "I need keywords for my new site" | keyword-research-intent | keyword-research-methodology.md, vertical-keyword-playbooks.md |
-| "I want to understand my market" | competitive-landscape-analysis | serp-analysis-workflow.md, market-saturation-checklist.md |
-| "Who's my biggest competitor?" | competitive-landscape-analysis | backlink-analysis-framework.md, domain-authority-deep-dive.md |
-| "Are there gaps in this market?" | competitive-landscape-analysis | content-gap-identification.md |
-
-### PLANNING PHASE
-
-| User Intent | Skill | Key Files |
-|---|---|---|
-| "How should I organize my content?" | content-cluster-strategy | content-cluster-templates.md, pillar-page-architecture.md |
-| "I have 50 keywords—how do I structure?" | content-cluster-strategy | topical-authority-frameworks.md, publishing-cadence-optimization.md |
-| "What's my internal linking strategy?" | content-cluster-strategy | internal-linking-playbook.md |
-
-### BUILDING PHASE (Content & Technical)
-
-| User Intent | Skill | Key Files |
-|---|---|---|
-| "What should my title tag say?" | on-page-optimization | meta-tag-optimization-guide.md, heading-structure-best-practices.md |
-| "Do I need schema markup?" | on-page-optimization | schema-implementation-guide.md |
-| "How do I write content?" | content-production | ai-content-workflow-step-by-step.md, content-type-frameworks.md |
-| "Should I use AI to write?" | content-production | quality-signals-e-eat.md, fact-checking-original-research.md |
-| "Why isn't my site ranking?" | technical-seo-audit | crawlability-audit-workflow.md, indexation-troubleshooting.md |
-| "What are Core Web Vitals?" | technical-seo-audit | core-web-vitals-optimization.md |
-| "My site is slow" | technical-seo-audit | site-speed-optimization.md |
-| "How do I implement schema?" | technical-seo-audit | schema-validation-checklist.md |
-
-### OPTIMIZE PHASE (Links & Authority)
-
-| User Intent | Skill | Key Files |
-|---|---|---|
-| "How do I get backlinks?" | link-authority-building | haro-mastery-workflow.md, guest-posting-outreach.md |
-| "Should I use PBNs?" | link-authority-building | pbn-strategy-and-risks.md |
-| "How do I do outreach?" | link-authority-building | outreach-email-templates.md, skyscraper-outreach-campaign.md |
-| "What makes a good link?" | link-authority-building | link-quality-assessment.md |
-
-### SCALE PHASE (Local, Ecommerce, Programmatic)
-
-| User Intent | Skill | Key Files |
-|---|---|---|
-| "How do I rank for my city?" | local-seo-ecommerce-scale | google-business-profile-mastery.md, location-page-templates.md |
-| "What's the GBP strategy?" | local-seo-ecommerce-scale | google-business-profile-mastery.md |
-| "Should I build location pages?" | local-seo-ecommerce-scale | location-page-templates.md |
-| "How do I optimize product pages?" | local-seo-ecommerce-scale | ecommerce-product-schema.md, category-page-strategy.md |
-| "Can I automate content?" | local-seo-ecommerce-scale | programmatic-seo-playbook.md, ai-content-generation-at-scale.md |
-| "What are citation directories?" | local-seo-ecommerce-scale | citation-directory-strategy.md |
-| "Can I rank on Google properties?" | local-seo-ecommerce-scale | parasite-seo-google-properties.md |
-
-### MEASURE PHASE (Analytics & ROI)
-
-| User Intent | Skill | Key Files |
-|---|---|---|
-| "How do I set up GA4?" | seo-analytics-reporting | ga4-setup-and-configuration.md |
-| "How do I prove SEO ROI?" | seo-analytics-reporting | organic-roi-calculation.md |
-| "What are my KPIs?" | seo-analytics-reporting | seo-kpi-definitions.md |
-| "How do I create a monthly report?" | seo-analytics-reporting | monthly-seo-review-checklist.md, looker-studio-dashboard-templates.md |
-| "What's my organic revenue?" | seo-analytics-reporting | attribution-model-selection.md, organic-roi-calculation.md |
-| "How do I track rankings?" | seo-analytics-reporting | rank-tracking-and-serp-analysis.md |
-| "How visible am I in AI search?" | seo-analytics-reporting | ai-visibility-monitoring.md |
-
----
-
-## Ambiguous Request Routing
-
-If user says "help with SEO" or request is unclear, ask:
-- Are you trying to rank for new keywords? → **keyword-research-intent**
-- Want to understand your competition? → **competitive-landscape-analysis**
-- Need to fix technical issues? → **technical-seo-audit**
-- Want to create/improve content? → **content-production**
-- Need more backlinks? → **link-authority-building**
-- Want to track/measure results? → **seo-analytics-reporting**
-
-**If user says "I need more traffic":**
-1. Do you have content published? No → **content-production**
-2. Is your site technically healthy? Unknown → **technical-seo-audit**
-3. Do you have backlinks? No → **link-authority-building**
-4. Is your on-page optimized? No → **on-page-optimization**
-
----
-
-## Execution Priority (when multiple skills apply)
-
-1. **Technical health** (can't rank if not crawlable) → technical-seo-audit
-2. **Keywords & competition** (know what to build) → keyword-research-intent + competitive-landscape-analysis
-3. **Content architecture** (plan the build) → content-cluster-strategy
-4. **Content production** (build it) → content-production
-5. **On-page optimization** (optimize it) → on-page-optimization
-6. **Link building** (amplify it) → link-authority-building
-7. **Analytics** (measure it) → seo-analytics-reporting
-
----
-
-## Local/Ecommerce Routing
-
-For **local-seo-ecommerce-scale**, route by business type:
-
-- **Single-location service business** → GBP optimization section
-- **Multi-location (2-50)** → GBP + location pages
-- **National with 50+ locations** → Programmatic SEO approach
-- **Ecommerce product catalog** → Product schema + category pages
-- **Directory/aggregator site** → Programmatic SEO playbook
-
----
-
-## Cross-Skill References
-
-**Skills depend on each other. Flow:**
+When a user's request could match multiple skills:
 
 ```
-keyword-research-intent
-    ↓
-competitive-landscape-analysis
-    ↓
-content-cluster-strategy
-    ↓
-┌─────────────────────────────────────┐
-│ Build Phase (Choose Your Path):     │
-│ - on-page-optimization              │
-│ - content-production                │
-│ - technical-seo-audit               │
-└─────────────────────────────────────┘
-    ↓
-link-authority-building
-    ↓
-local-seo-ecommerce-scale (if scaling)
-    ↓
-seo-analytics-reporting (ongoing)
+Is the user asking about KEYWORD RESEARCH or SEARCH INTENT?
+  YES -> keyword-research-intent
+  NO -> Continue
+
+Is the user asking about COMPETITORS, SERP ANALYSIS, or NICHE VIABILITY?
+  YES -> competitive-landscape-analysis
+  NO -> Continue
+
+Is the user asking about TOPICAL AUTHORITY, SEMANTIC SEO, or ENTITY STRATEGY?
+  YES -> Is it about schema/markup implementation? -> schema-entity-optimization
+       -> Is it about topical maps, Koray, Casey, EAV? -> topical-authority-semantic
+  NO -> Continue
+
+Is the user asking about CONTENT ARCHITECTURE, CLUSTERS, or INTERNAL LINKING?
+  YES -> content-cluster-strategy
+  NO -> Continue
+
+Is the user asking about ON-PAGE elements (title tags, meta, headers, images)?
+  YES -> on-page-optimization
+  NO -> Continue
+
+Is the user asking about TECHNICAL SEO (crawling, indexing, Core Web Vitals)?
+  YES -> technical-seo-audit
+  NO -> Continue
+
+Is the user asking about SCHEMA MARKUP or STRUCTURED DATA?
+  YES -> schema-entity-optimization
+  NO -> Continue
+
+Is the user asking about WRITING CONTENT or CONTENT BRIEFS?
+  YES -> Is it about AI automation / tools / Make.com? -> ai-seo-content-automation
+       -> Is it about manual writing / copywriting? -> content-production
+  NO -> Continue
+
+Is the user asking about LINK BUILDING?
+  YES -> Is it about PBNs, parasite SEO, search stacks? -> pbn-advanced-link-strategy
+       -> Is it about white-hat/gray-hat links? -> link-authority-building
+  NO -> Continue
+
+Is the user asking about LOCAL SEO or GOOGLE BUSINESS PROFILE?
+  YES -> local-seo
+  NO -> Continue
+
+Is the user asking about E-COMMERCE SEO?
+  YES -> ecommerce-seo
+  NO -> Continue
+
+Is the user asking about DIRECTORIES or PROGRAMMATIC SEO?
+  YES -> directory-programmatic-seo
+  NO -> Continue
+
+Is the user asking about AI SEARCH, AI OVERVIEWS, or CHATGPT RANKINGS?
+  YES -> geo-ai-search-optimization
+  NO -> Continue
+
+Is the user asking about GA4, GTM, ANALYTICS, or REPORTING?
+  YES -> seo-analytics-reporting
+  NO -> Ask clarifying questions
 ```
 
-**Example workflows:**
+---
 
-1. **Startup launching blog:**
-   keyword-research → content-cluster → content-production → on-page → technical-audit → analytics
+## Skill Routing Table (All 16 Skills)
 
-2. **Established site scaling:**
-   competitive-analysis → link-building → local-seo-scale → analytics
+### Layer 1: RESEARCH
+| Skill | Display Name | Use When |
+|---|---|---|
+| `keyword-research-intent` | Keyword Research & Search Intent | Keyword ideas, search volume, KD, intent classification, CONCATENATE method, allintitle, DataForSEO keywords, demand validation |
+| `competitive-landscape-analysis` | Competitive Landscape & SERP Analysis | Competitor analysis, SERP evaluation, content gaps, backlink profiles, niche qualification, market saturation |
 
-3. **Ecommerce optimizing:**
-   on-page → technical-audit → local-seo-scale (for product schema) → analytics
+### Layer 2: STRATEGY
+| Skill | Display Name | Use When |
+|---|---|---|
+| `topical-authority-semantic` | Topical Authority & Semantic SEO | Topical maps, Koray framework, cost-of-retrieval, entity optimization, EAV model, contextual vectors, Casey Keith methods, E-E-A-T strategy |
+| `content-cluster-strategy` | Content Cluster & Site Architecture | Pillar-cluster models, soft silos, internal linking architecture, anchor text ratios, content calendar, content decay, publishing cadence |
+
+### Layer 3: TECHNICAL
+| Skill | Display Name | Use When |
+|---|---|---|
+| `on-page-optimization` | On-Page SEO Optimization | Title tags, meta descriptions, headers, URL optimization, image SEO, body content, 20 placement spots, CSS class optimization |
+| `technical-seo-audit` | Technical SEO Audit & Crawlability | Crawl issues, indexation, Core Web Vitals, robots.txt, canonicals, 301 redirects, JS rendering, site migration, edge SEO |
+| `schema-entity-optimization` | Schema Markup & Entity Optimization | Schema JSON-LD, product schema, FAQ schema, E-E-A-T schema properties, ClaimReview, knowledge graphs, Google Stacking, AI search orchestrator |
+
+### Layer 4: CONTENT
+| Skill | Display Name | Use When |
+|---|---|---|
+| `content-production` | Content Production & SEO Copywriting | Writing process, content briefs, info/commercial templates, storytelling, fact-checking, brand style, content promotion |
+| `ai-seo-content-automation` | AI SEO & Content Automation | GPT Projects, Claude MCP, Machined AI, Custom Blog Writer, Make.com automations, Reddit Sniper, interactive HTML tools |
+
+### Layer 5: LINKS
+| Skill | Display Name | Use When |
+|---|---|---|
+| `link-authority-building` | Link Building & Authority Acquisition | HARO, guest posting, skyscraper, niche edits, entity stacks, anchor text ratios, link velocity, foundational links, outreach |
+| `pbn-advanced-link-strategy` | PBN & Advanced Link Strategies | PBN construction, domain acquisition, anti-footprint, parasite SEO, search stacks, 301 redirects, social media parasites |
+
+### Layer 6: SCALE
+| Skill | Display Name | Use When |
+|---|---|---|
+| `local-seo` | Local SEO & Google Business Profile | GBP optimization, posting strategy, citations, NAP, reviews, rank and rent, syndication tiers, local ranking factors |
+| `ecommerce-seo` | E-Commerce SEO | Category pages, faceted navigation, product schema, seasonal pages, product grids, sub-collection multiplier |
+| `directory-programmatic-seo` | Directory SEO & Programmatic SEO | Directory business model, 7-filter framework, pSEO playbook, badge strategy, TattoosAI case study, authority site model |
+
+### Layer 7: MEASURE
+| Skill | Display Name | Use When |
+|---|---|---|
+| `geo-ai-search-optimization` | GEO & AI Search Optimization | AI Overviews, ChatGPT rankings, LLM citations, crawler analytics, facts as signals, mentions as backlinks, brand as ranking factor |
+| `seo-analytics-reporting` | SEO Analytics, GA4 & Reporting | GA4 architecture, GTM, consent mode v2, e-commerce tracking, UTM parameters, KPI definitions, Looker Studio, BigQuery |
 
 ---
 
-## Slash Commands Available
+## Cross-Reference Map
 
-| Command | Purpose | Time |
-|---------|---------|------|
-| /seo-report | Generate monthly performance report | 30-60 min |
-
-(Future commands can expand to cover other workflows)
-
----
-
-## Product Marketing Context
-
-**Relevant when marketing SEO products/services:**
-
-- Agency selling "local SEO" → Use local-seo-ecommerce-scale skill
-- Tool selling "keyword research" → Use keyword-research-intent skill
-- Platform selling "content automation" → Use content-production + programmatic-seo-playbook
-- Dashboard selling "SEO analytics" → Use seo-analytics-reporting skill
-
-**This plugin makes you:** A credible resource for explaining SEO to prospects.
-
----
-
-## Scope Boundaries
-
-### IN SCOPE (Covered Here)
-
-✅ Organic search strategy (Google, Bing)
-✅ On-page optimization
-✅ Technical SEO
-✅ Content strategy & AI workflows
-✅ Link building & outreach
-✅ Local SEO & GMB
-✅ Ecommerce SEO
-✅ Programmatic SEO
-✅ Analytics & attribution
-✅ AI search visibility (ChatGPT, Perplexity, Google AI)
-✅ Parasite SEO (leverage high-authority domains)
-
-### OUT OF SCOPE (Refer Elsewhere)
-
-❌ Paid search (Google Ads) → Refer to PPC specialist
-❌ Social media marketing → Refer to social-media plugin
-❌ Email marketing → Refer to email-marketing plugin
-❌ CRO (conversion optimization) → Refer to conversion-rate-optimization plugin
-❌ Content marketing strategy (non-SEO) → Refer to content-marketing plugin
-❌ Brand building → Refer to brand-strategy plugin
-❌ PR & media relations → Refer to public-relations plugin
+| When user asks about... | Primary skill | Cross-reference to... |
+|---|---|---|
+| "topical map" or "topical authority" | topical-authority-semantic | content-cluster-strategy (for implementation) |
+| "entity optimization" or "knowledge graph" | topical-authority-semantic | schema-entity-optimization (for schema implementation) |
+| "internal linking" | content-cluster-strategy | on-page-optimization (for anchor text details) |
+| "schema markup" | schema-entity-optimization | technical-seo-audit (for validation/implementation issues) |
+| "AI content" or "content automation" | ai-seo-content-automation | content-production (quality guardrails) |
+| "PBN" or "parasite SEO" | pbn-advanced-link-strategy | link-authority-building (foundational links first) |
+| "Google Business Profile" | local-seo | link-authority-building (citation/backlink strategy) |
+| "product pages" or "category pages" | ecommerce-seo | on-page-optimization (meta tag/header optimization) |
+| "faceted navigation" | ecommerce-seo | technical-seo-audit (canonical/indexation issues) |
+| "AI Overviews" or "ChatGPT ranking" | geo-ai-search-optimization | schema-entity-optimization (orchestrator uses schema) |
+| "directory" or "niche site" | directory-programmatic-seo | keyword-research-intent (niche validation) |
+| "GA4" or "GTM" | seo-analytics-reporting | technical-seo-audit (tracking code issues) |
+| "brand mentions" or "brand authority" | geo-ai-search-optimization | link-authority-building (unlinked mentions) |
+| "content decay" or "content refresh" | content-cluster-strategy | seo-analytics-reporting (measuring what needs refresh) |
+| "site migration" | technical-seo-audit | seo-analytics-reporting (pre/post metrics) |
 
 ---
 
-## How to Use This Plugin
+## Slash Commands
 
-### For SEO Practitioners
-
-- **During execution:** Reference skill SKILL.md files for frameworks
-- **During review:** Use reference files for detailed implementation
-- **During reporting:** Use analytics references for KPIs & dashboards
-
-### For Managers/Stakeholders
-
-- **Understand SEO value:** Read seo-analytics-reporting → organic-roi-calculation.md
-- **Report to executives:** Use looker-studio-dashboard-templates.md
-- **Set priorities:** Use skill routing table to understand what to optimize first
-
-### For Product Teams
-
-- **Marketing your product:** Find relevant skill based on problem you solve
-- **Understanding buyer:** Use skill references to learn what your customer needs
-- **Building better product:** Reference files show real workflows/pain points
+| Command | Skills Activated | Output |
+|---|---|---|
+| `/research-keywords` | keyword-research-intent, competitive-landscape-analysis | Prioritized keyword list with volume, difficulty, intent, opportunity |
+| `/content-plan` | content-cluster-strategy, topical-authority-semantic | Content cluster map, internal linking plan, publishing calendar |
+| `/optimize-on-page` | on-page-optimization, schema-entity-optimization | Optimized meta tags, headers, schema JSON-LD, image alt text |
+| `/write-content` | content-production, ai-seo-content-automation | Complete article with SEO optimization and schema recommendations |
+| `/link-outreach` | link-authority-building | Prospect list, outreach templates, tracking spreadsheet |
+| `/seo-audit` | technical-seo-audit, on-page-optimization, schema-entity-optimization | Priority-ranked issue list with fix instructions |
+| `/seo-report` | seo-analytics-reporting, geo-ai-search-optimization | Dashboard template, KPI summary, AI search visibility snapshot |
+| `/geo-optimize` | geo-ai-search-optimization, schema-entity-optimization, on-page-optimization | Fact-optimized content, FAQ mirroring, schema enhancements |
+| `/local-seo-audit` | local-seo | GBP audit, citation check, competitive positioning, action plan |
 
 ---
 
-## Key Principles in This Plugin
+## Key Instructor Disagreements
 
-1. **Opinionated:** Not neutral—recommends specific approaches (linear attribution, 5+ GBP posts weekly, etc.)
-2. **Practical:** Every reference file has templates, checklists, step-by-step workflows
-3. **Synthesized:** Content aggregated from 16 domains (not single-author bias)
-4. **Current:** Reflects 2026 SEO reality (AI search, Core Web Vitals, GA4)
-5. **Scaled:** Frameworks work for solo practitioners through enterprises
+These are the most impactful disagreements across instructors. Each skill documents relevant disagreements in its SKILL.md.
 
----
-
-## Version & Updates
-
-**Current version:** 1.0 (March 2026)
-**Last updated:** March 11, 2026
-**Next update:** Quarterly (to reflect algorithm changes, new platforms)
-
----
-
-## Questions / Feedback
-
-This plugin is designed to be:
-- **Self-contained:** Don't need external sources to execute
-- **Actionable:** Every section has clear next steps
-- **Measurable:** KPIs and tracking recommendations included
-- **Maintainable:** Update quarterly as SEO landscape evolves
-
-If you find gaps or outdated info, file an issue for next quarterly update.
+| Topic | Position A | Position B | Resolution |
+|---|---|---|---|
+| Start hard or easy keywords | Koray: hardest YMYL first (forces authority classification) | AH/Eliason/Frey: low-KD first | Context-dependent: Koray for authority play, low-KD for new sites |
+| Schema emphasis | Koray: content structure IS schema | Casey/Gorrono: schema markup non-negotiable | Implement both |
+| Page speed importance | Cromwell: nearly irrelevant | brightonSEO: server response <300ms for AI crawlers | Matters more for AI crawlers |
+| Purchasing backlinks | Authority Hacker: never paid | Gorrono/Floate: standard practice | Both work; risk spectrum documented |
+| Link velocity vs anchor text | Floate: velocity MORE important | Morrison: keyword anchors critical | Both matter; velocity mistakes harder to recover |
+| GEO for e-commerce | Lockwood: "nothing burger" now | Leliukh: 22% customer acquisition from LLMs | Product grid optimization > GEO for e-commerce today |

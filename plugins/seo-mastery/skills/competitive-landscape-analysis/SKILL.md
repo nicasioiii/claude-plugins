@@ -1,241 +1,202 @@
 ---
-name: "Competitive Landscape Analysis"
-description: "Analyze competitor SERP positions, domain authority, content gaps, and backlink strategies to identify ranking opportunities. Triggers: competitor analysis, SERP analysis, ranking gaps, market saturation, backlink research. Covers: SERP composition, competitive benchmarking, content gap identification, link source discovery. Does NOT cover: On-page optimization, content writing, or full SEO audits."
-Triggers:
-  - competitor analysis
-  - SERP analysis
-  - ranking gaps
-  - market saturation
-  - backlink research
+name: Competitive Landscape & SERP Analysis
+description: >
+  MANDATORY TRIGGERS: competitor analysis, SERP analysis, competitive research,
+  content gap, backlink analysis, domain authority, DR, DA, market saturation,
+  niche qualification, competitor keywords, competitor reverse engineering,
+  DataForSEO competitor, backlink profile, niche viability, competition assessment,
+  who ranks for, top competitors, SERP features, competitive intelligence,
+  niche archetypes, Google Ads data for SEO, directory competitive research.
+  FOR: Analyzing the competitive SEO landscape before committing resources.
+  Covers SERP competitor evaluation (what to look for in top 10), domain authority
+  benchmarking, backlink profile comparison, content gap identification, market
+  saturation assessment, niche qualification criteria (6 factors), Authority Hacker's
+  4 niche archetypes, DataForSEO bulk competitive analysis, and directory competitive
+  research (Ahrefs Site Explorer process).
+  Do NOT use for: Keyword list building (use keyword-research-intent), link building
+  strategy (use link-authority-building), content planning (use content-cluster-strategy),
+  topical authority strategy (use topical-authority-semantic).
 ---
 
-# Competitive Landscape Analysis
+# Competitive Landscape & SERP Analysis
 
-Understand the competitive battlefield before investing content effort. This skill transforms raw SERP data into actionable opportunities.
+## Quick Navigation
+- **SERP competitor evaluation, content format detection** -> ref-serp-analysis-workflow.md
+- **Competitor reverse engineering, backlink profiles, niche qualification** -> ref-competitive-intelligence.md
 
-## Core Philosophy
-
-Most SEO professionals skip detailed competitive analysis and jump straight to writing. This is backwards. You cannot outrank a competitor you don't understand. Competitive analysis answers:
-
-1. **Can I rank for this keyword?** (Do I have enough authority?)
-2. **How long will it take?** (What's the ranking timeline?)
-3. **What content do I need?** (What's missing from top results?)
-4. **Where can I get backlinks?** (Who links to competitors?)
-5. **Is this keyword worth my time?** (What's the opportunity value?)
-
-Without these answers, you're writing blindly.
+---
 
 ## When to Read Reference Files
 
-Before analyzing any competitive landscape:
-- Read **serp-analysis-workflow.md** for the systematic SERP audit process
-- Read **domain-authority-deep-dive.md** to understand authority metrics and how they affect ranking
-- Read **content-gap-identification.md** for identifying what competitors miss
-- Read **backlink-analysis-framework.md** to discover link sources and opportunities
-- Read **market-saturation-checklist.md** to evaluate niche viability
-
-## The Four-Layer Analysis Framework
-
-### Layer 1: SERP Composition (What Ranks?)
-
-Examine top 10 results for your target keyword:
-
-**Data to collect:**
-
-| Position | Domain | DA | RDs | URL Type | Content Format |
-|---|---|---|---|---|---|
-| 1 | competitor.com | 68 | 1,200 | Subpage | Buying guide |
-| 2 | smallblog.com | 28 | 45 | Root | Comparison |
-| 3 | brandname.com | 82 | 5,000 | Homepage | Commercial |
-
-**Key insights:**
-- **Domain authority range:** If top 3 have DA 25-35, you can compete (if your DA >20)
-- **Small site presence:** How many non-brand sites rank? (More = more opportunity)
-- **URL structure:** Do competitors use root domain or subpages? (Reveals priority)
-- **Content format:** What format dominates? (Table, list, article, video?)
-
-**Decision gate:** If all top 10 are DA >70 brands, this keyword is likely too competitive for a new site.
-
-### Layer 2: Content Gap Analysis (What's Missing?)
-
-Deep-dive on top 3 results. What do they cover? What's absent?
-
-**Common gaps:**
-- Missing comparison table (or weak table)
-- No step-by-step instructions
-- No expert quotes or interviews
-- No cost/pricing breakdown
-- Outdated information or statistics
-- Weak visual design or images
-- No real-world testing or examples
-
-**Your advantage:** If you identify a gap all competitors miss, you can outrank them with better content.
-
-**Example:**
-- All top 3 "best dog food" articles lack: transition guide (how to switch foods without upset)
-- Your content includes: detailed transition timeline + success metrics
-- Result: Higher user value = higher rankings
-
-### Layer 3: Backlink Source Discovery (Where Do Links Come From?)
-
-Use Ahrefs to analyze top competitors' backlinks:
-
-**Questions to answer:**
-- What types of sites link to competitors? (Blogs, news, directories, etc.)
-- Do any patterns exist? (Specific publications, industry directories)
-- Are linking sites in your niche or unrelated?
-- Can you get links from same sources?
-
-**Strategic insight:** If top-ranked competitor gets links from X source, you can likely get links from the same source.
-
-**Example:** Top competitor gets links from dog health blogs. You can:
-1. Reach out to same blogs
-2. Offer better content for them to link to
-3. Build relationships systematically
-
-### Layer 4: Authority Benchmarking (What's the Competitive Threshold?)
-
-Synthesize layers 1-3 into authority requirements:
-
-**Formula:**
-- Average DA of top 3 results = minimum required DA
-- Average RDs of top 3 results = suggested RD count
-- Smallest RD in top 10 = realistic minimum
-
-**Example:**
-- Top 3 average DA: 45
-- Top 3 average RDs: 320
-- Smallest in top 10 RDs: 80
-
-**Your situation:**
-- If your DA is 35, RDs are 150: You're below threshold but can compete with exceptional content
-- Timeline: 12-16 weeks instead of 8-12 weeks
-- Strategy: Need links + exceptional content, not just content
-
-## SERP Analysis Workflow (Quick Reference)
-
-**Phase 1: Collection (15-20 minutes)**
-1. Google the keyword (incognito mode)
-2. Record top 10 domains
-3. Check each domain's DA using Ahrefs extension
-4. Record: Domain, DA, URL structure, content format
-
-**Phase 2: Deep Analysis (30-45 minutes)**
-1. Open each top 3 result
-2. Record: Word count, structure, unique elements
-3. Identify: What do they cover? What's missing?
-4. Note: Quality signals (images, tables, expert quotes)
-
-**Phase 3: Backlink Analysis (20-30 minutes)**
-1. Use Ahrefs on top 2 results
-2. Export referring domain list
-3. Scan for patterns: What types of sites link?
-4. Identify: Can you get links from similar sources?
-
-**Phase 4: Decision (10 minutes)**
-1. Compare your DA to average top 3
-2. Estimate ranking timeline
-3. Decide: Worth pursuing? Timeline acceptable?
-4. Plan: What content advantage do you need?
-
-**Total time:** 75-120 minutes per keyword (or batch 5-10 keywords to speed up)
-
-## Opportunity Scoring for Competitive Keywords
-
-Once you analyze SERP, score the opportunity:
-
-**Scoring factors:**
-
-1. **Rankability Score (0-3 points)**
-   - Your DA significantly above top 10 small sites: 3 points
-   - Your DA within 10 points of top 10 average: 2 points
-   - Your DA 15+ points below top 10 average: 1 point
-
-2. **Content Gap Score (0-3 points)**
-   - Major gap all competitors miss (worth 500+ words of unique content): 3 points
-   - Moderate gap (worth 200-500 words of unique content): 2 points
-   - Minor gap (worth <200 words of unique content): 1 point
-
-3. **Timeline Acceptability (0-2 points)**
-   - Can rank in 4-8 weeks: 2 points
-   - Can rank in 8-16 weeks: 1 point
-   - Will take 16+ weeks: 0 points
-
-4. **Link Availability (0-2 points)**
-   - Clear link sources available (20+ potential): 2 points
-   - Some link sources available (5-10 potential): 1 point
-   - Few or no link sources available: 0 points
-
-**Total score: 0-10**
-
-- 8-10: High priority (rank fast, worth effort)
-- 6-7: Secondary (good opportunity, longer timeline)
-- 4-5: Tertiary (possible but requires patience)
-- 0-3: Skip (too competitive or no clear advantage)
-
-## Red Flags in Competitive Landscape
-
-**Flag 1: All Top 10 Are Massive Brands**
-- Example: "Best laptop" = Amazon, Best Buy, CNET, Wired
-- Implication: You cannot outrank these with normal effort
-- Action: Skip unless you have DA >50 or unique angle
-
-**Flag 2: Top Result is Pinterest/YouTube/Amazon**
-- Implication: SERP intent likely homepage or aggregator
-- Action: Analyze if organic text results have opportunity (often they do)
-
-**Flag 3: Featured Snippet Blocks All Clicks**
-- Example: "What is X" returns graph/snippet, no organic clicks
-- Implication: Ranking position 2-10 is worthless
-- Action: Optimize to win the snippet instead of outrank position 1
-
-**Flag 4: SERP Dominated by One Domain**
-- Example: Top 5 results = same domain (different subpages)
-- Implication: Domain has high authority for this topic
-- Action: You'll need 12-24 weeks and multiple articles to compete
-
-**Flag 5: No Small Sites in Top 10**
-- Implication: Market dominated by big players only
-- Action: Skip unless unique angle or brand authority
-
-**Flag 6: Content Gap is Massive**
-- Example: All top 10 articles are thin (500-1000 words), low quality
-- Implication: You can rank with basic content quality
-- This is actually GOOD (easier ranking)
-
-## Cross-Skill References
-
-This skill feeds into:
-- **keyword-research-intent:** Use competitive analysis to validate keyword viability
-- **content-cluster-strategy:** Competitive analysis informs pillar/satellite structure
-- **content-production:** Identify content gaps that your articles must fill
-- **on-page-optimization:** SERP analysis shows optimal title, URL, meta structure
-
-## Expert Disagreements Noted
-
-**Keyword Difficulty vs. Manual SERP Analysis:**
-- Some argue: "KD score is sufficient; don't waste time on manual analysis"
-- Others argue: "Tools mislead; always do manual SERP check"
-- **Synthesis:** Use tools as starting filter; always validate with manual SERP analysis for final decision
-
-**Competitor Advantage vs. Differentiation:**
-- Some argue: "Copy what competitors do but do it better"
-- Others argue: "Find a gap competitors miss and own it"
-- **Synthesis:** Do both—match their best practices AND add unique element
-
-**Authority Requirements:**
-- Some argue: "Content quality overcomes authority differences"
-- Others argue: "Authority difference is insurmountable"
-- **Synthesis:** Exceptional content can bridge 10-15 DA points, but not 30+ points
-
-## Tools Required
-
-- **Ahrefs Site Explorer:** Primary tool for DA, RDs, backlink analysis
-- **Ahrefs Chrome Extension:** Quick DA lookup on any domain
-- **Google Search (Incognito):** For unbiased SERP viewing
-- **Google Search Console:** For real ranking data on your site
-- **SEMrush:** Alternative to Ahrefs for backlink analysis
+| User Question Pattern | Load This Reference |
+|---|---|
+| How to analyze SERP results, what to look for in top 10 | ref-serp-analysis-workflow.md |
+| Content format detection, meta title gap analysis | ref-serp-analysis-workflow.md |
+| Authority score checking, competitor content structure | ref-serp-analysis-workflow.md |
+| Google Ads data for SEO prioritization | ref-serp-analysis-workflow.md |
+| Competitor reverse engineering with Ahrefs or DataForSEO | ref-competitive-intelligence.md |
+| Backlink profile comparison, domain authority reality check | ref-competitive-intelligence.md |
+| Content gap identification, market saturation signals | ref-competitive-intelligence.md |
+| Niche viability, niche qualification, 4 archetypes, YMYL risk | ref-competitive-intelligence.md |
+| Directory competitive research, Yelp outranking, mom-and-pop analysis | ref-competitive-intelligence.md |
 
 ---
 
-*Last updated: March 2026 | Based on: Nicolas Gorrono (SERP Analysis), Koray Tugberk Gubur (Competitive Context), AuthorityHacker (Authority Benchmarking)*
+## Cross-References
+
+| When the conversation turns to... | Route to this skill | Trigger |
+|---|---|---|
+| "Now I need to find keywords for this niche" | keyword-research-intent | Competition analyzed, need keyword list |
+| "How do I build links like these competitors?" | link-authority-building | Backlink analysis complete, need strategy |
+| "How should I structure my content to compete?" | content-cluster-strategy | Gaps identified, need architecture plan |
+| "Is this niche worth building a directory in?" | directory-programmatic-seo | Niche qualification question |
+| "What topical authority do competitors have?" | topical-authority-semantic | Need entity/topical analysis |
+
+---
+
+## SERP COMPETITOR EVALUATION FRAMEWORK
+
+### What to Look For in the Top 10 Results
+
+For every target keyword, analyze the first page of Google:
+
+1. **Content type distribution:** How many are blog posts vs product pages vs tools vs videos?
+2. **Domain authority range:** What DR/DA do top results have? (Ahrefs toolbar)
+3. **Content depth:** Word count, number of images, embedded videos, tables
+4. **Content freshness:** When was each piece last updated?
+5. **Schema/rich results:** Star ratings, FAQs, product carousels, featured snippets
+6. **Meta title optimization:** Does competitor have the exact keyword in title? Front-loaded?
+7. **Internal linking:** How many internal links point to this page? (Ahrefs)
+8. **Backlink count:** How many referring domains point to this specific URL?
+
+### Meta Title Gap Analysis (Cromwell)
+If top-ranking pages do NOT have your target keyword in their meta title, the keyword is wide open. This is the single fastest competition check you can do.
+
+### Google Ads Data for SEO Prioritization (Cromwell / Gorrono)
+- High CPC keywords = high commercial value = worth SEO investment
+- DataForSEO SERP parser shows paid result positions above organic
+- More paid ads = harder to rank organically but more valuable when you do
+- Use CPC data to prioritize which keywords to target first
+
+---
+
+## NICHE QUALIFICATION CRITERIA (Authority Hacker)
+
+Six factors to evaluate before entering a niche:
+
+| Factor | Question | Green Flag | Red Flag |
+|---|---|---|---|
+| **Competition** | Are there low-competition keywords? | KD under 10 available | All keywords KD 40+ |
+| **Monetization** | Affiliate programs paying 3%+? Beyond Amazon? | Multiple high-paying programs | Amazon-only at 1-3% |
+| **SEO** | Can small sites rank? Achievable traffic? | Small sites in top 10 | Only big media in results |
+| **Community** | Active Facebook groups, subreddits? | Passionate, engaged audience | Dead communities |
+| **Evergreen** | Will niche exist in 3+ years? | Stable, long-term demand | Trend-dependent (fidget spinners) |
+| **YMYL Risk** | Are small/new sites blocked from ranking? | Small sites appear in SERPs | Only hospitals, gov sites rank |
+
+### The 4 Niche Archetypes (Authority Hacker)
+
+| Archetype | Example | Ceiling | Link Needs | Best For |
+|---|---|---|---|---|
+| **Broad/General** | verywellfit.com | 7 figures/month | Massive (big media dominates) | Full-time single-site focus |
+| **Community-Based** | authorityhacker.com | High (sticky audience) | Moderate (word-of-mouth) | Face-of-brand operators |
+| **Product-Based** | dronerush.com | Moderate | Moderate | Hands-off portfolio approach |
+| **Problem-Based** | peststrategies.com | High conversion rates | Moderate | Portfolio approach, pure SEO |
+
+**Key insight:** Broader niche = more links needed to domain (inverse correlation). Sites sell for 30-40x monthly revenue.
+
+---
+
+## COMPETITOR REVERSE ENGINEERING (Nat Eliason / Gorrono)
+
+### Ahrefs Method (Nat Eliason)
+1. Plug competitor URL into Ahrefs Site Explorer
+2. Go to Organic Keywords tab
+3. Filter: Position 3+, Volume 500+, Difficulty below 40-60
+4. Export all promising keywords
+5. Click into competitor pages -> check "also rank for" for subtopic keywords
+6. Repeat for 2-5 competitors
+
+### DataForSEO Bulk Method (Gorrono)
+1. Use DataForSEO SERP Parser: enter keyword + location + language
+2. Returns top 10 organic with absolute vs organic position
+3. For each competitor (4-5), collect:
+   - Estimated monthly traffic (DataForSEO organic traffic estimation -- bulk, up to 10,000 domains)
+   - Total referring domains (DataForSEO bulk referring domains)
+   - All ranked keywords + positions (set to 400 max per domain)
+4. Feed all data into GPT Projects for gap analysis
+
+### GPT Projects Gap Analysis Output (Gorrono)
+Feed competitor data into a GPT Project. Example output:
+"None of your competitors rank for 'financial advisor Mesa AZ' or 'retirement planning Mesa.' Your home turf. Action: Build dedicated Mesa landing pages and cluster content for nearby suburbs."
+
+---
+
+## DIRECTORY COMPETITIVE RESEARCH (Frey Chu)
+
+### Ahrefs Site Explorer Process
+1. Google target keyword + city
+2. Find other directories (skip Reddit, Yelp, major platforms)
+3. Paste competitor URL into Ahrefs Site Explorer
+4. Check: monthly visitors, backlinks count, referring domains, traffic chart
+
+### Yelp Outranking Strategy
+- Yelp is NEVER a reason to abandon a niche
+- You can outrank Yelp through topical authority: 100% of your site = your niche vs Yelp's millions of unrelated pages
+- Even 100,000 low-quality backlinks should not intimidate -- quality over quantity
+
+### Mom-and-Pop Competitor Identification
+- Look for simple-design, one-person directory operations -- these are beatable
+- Use Ahrefs "Top organic competitors" section to discover more directory competitors
+- What WOULD be intimidating: DR 90+ backlinks, hundreds of monthly visitors on linking pages
+
+---
+
+## MARKET SATURATION ASSESSMENT
+
+### Signals of Saturation
+- All top 10 results from high-DR domains (60+)
+- No small/independent sites ranking on page 1
+- Multiple well-funded competitors with deep content coverage
+- High keyword difficulty (KD 40+) across most keywords in niche
+- Niche dominated by YMYL restrictions (medical, financial, legal)
+
+### Signals of Opportunity
+- Mixed DR in top 10 (some under 30)
+- Thin or outdated content ranking
+- Meta title gaps (competitors missing keyword in title)
+- Low allintitle counts (under 1,000)
+- No dedicated niche sites (only general sites covering topic tangentially)
+- Fragmented Google Maps categories (Frey Chu's directory signal)
+
+---
+
+## BACKLINK PROFILE COMPARISON
+
+### What to Compare Across Competitors
+1. **Total referring domains** (not total backlinks -- one domain with 1,000 links = still 1 referring domain)
+2. **DR distribution** of linking domains
+3. **Link freshness** -- are they still actively building? Or coasting on old links?
+4. **Deep links vs homepage links** -- competitors with mostly homepage links may be weak on individual pages
+5. **Anchor text diversity** -- over-optimized anchor profiles are vulnerable
+
+### Domain Authority Reality Check
+- Third-party DR/DA scores (Ahrefs, Moz, SEMrush) are approximations, NOT Google's actual authority metric
+- Google uses internal signals not available to third-party tools
+- DR is useful for relative comparison, not absolute judgment
+- A DR 30 site can outrank DR 60 sites with better topical authority and on-page optimization
+
+---
+
+## SPECIFIC NUMBERS AND THRESHOLDS
+
+| Metric | Value | Source |
+|---|---|---|
+| Niche qualification factors | 6 (competition, monetization, SEO, community, evergreen, YMYL) | Authority Hacker |
+| Min affiliate commission worth targeting | 3%+ | Authority Hacker |
+| Site sale multiplier | 30-40x monthly revenue | Authority Hacker |
+| Max KD indicating opportunity for new sites | Under 10 | Authority Hacker |
+| Competitors to reverse engineer | 2-5 minimum | Nat Eliason |
+| DataForSEO max ranked keywords per domain | 400 | Gorrono |
+| DataForSEO bulk traffic estimation capacity | 10,000 domains | Gorrono |
+| Authority score threshold for "winnable" | Under 30 in top results | Cromwell |
+| allintitle under 10 | Extremely low competition | Morrison/Hockman |

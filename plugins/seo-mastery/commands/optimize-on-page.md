@@ -1,203 +1,146 @@
 ---
-name: Optimize On-Page
-description: "Generate on-page SEO elements for an existing article. Input article URL or content, output meta tags, schema markup, internal link suggestions, and optimization checklist."
+name: "Optimize On-Page"
+description: |
+  Audit and optimize a single page for its target keyword. Activates on-page-optimization
+  and schema-entity-optimization skills. Outputs optimized meta tags, headers, schema JSON-LD,
+  image alt text, and internal link suggestions.
 ---
 
-# Optimize On-Page Command
+# /optimize-on-page -- On-Page SEO Optimization Workflow
 
-Generates on-page SEO optimization elements for any existing article.
+## Skills Activated
+- **on-page-optimization** (primary) -- 20-spot placement framework, meta tags, headers, image SEO
+- **schema-entity-optimization** (secondary) -- schema JSON-LD generation and validation
 
-## Usage
-
+## Invocation
 ```
-/optimize-on-page [article-url-or-content]
-```
-
-## Parameters
-
-- `article` (required): Either URL of live article OR paste article content
-- `target-keyword` (optional): Primary keyword to optimize for (auto-detected if not provided)
-- `include-schema` (optional): true/false - generate schema markup (default: true)
-- `include-links` (optional): true/false - suggest internal links (default: true)
-
-## What It Does
-
-1. **Analyzes Existing Content**
-   - Reads article structure and content
-   - Identifies current optimization level
-   - Finds improvement opportunities
-
-2. **Generates Optimization Elements**
-   - Meta title (50-60 characters)
-   - Meta description (160 characters)
-   - H1 tag optimization
-   - Header structure review
-   - Keyword density analysis
-   - Internal link suggestions (3-5)
-   - External link audit
-
-3. **Creates Schema Markup**
-   - Article schema (JSON-LD format)
-   - Organization schema
-   - Author schema with credentials
-   - FAQ schema (if applicable)
-
-4. **Provides Checklist**
-   - What's already optimized
-   - What needs improvement
-   - Priority fixes (quick wins)
-   - Implementation guide
-
-## Example Usage
-
-**Option 1 - Provide URL**:
-```
-/optimize-on-page https://example.com/blog/best-sunscreen-sensitive-skin/
+/optimize-on-page [article URL or pasted content]
 ```
 
-**Option 2 - Paste Content**:
+## Required Input
+Ask the user for:
+1. **Article URL or content** -- the page to optimize
+2. **Target keyword** -- primary keyword (auto-detect if not provided)
+3. **Secondary keywords** -- 2-3 additional keywords (optional)
+4. **Business type** -- e-commerce, content site, local service, SaaS (affects recommendations)
+
+---
+
+## Step 1: Audit Current State (5 minutes)
+
+Analyze the page against the 11 priority optimization spots:
+
+| Spot | Current State | Recommendation |
+|------|--------------|----------------|
+| Meta title | [Extract current] | [Rewrite with keyword front-loaded, <60 chars] |
+| Meta description | [Extract current] | [Rewrite with keyword, <160 chars, answer-spoiling for AI] |
+| URL slug | [Extract current] | [Clean slug with exact-match keyword, 5-7 words] |
+| H1 tag | [Extract current] | [Match meta title closely, front-load keyword] |
+| H2 tags (first/last) | [Check keyword presence] | [Add keyword to first and last H2] |
+| Introduction | [Check first 100 words for keywords] | [All keywords in first 100 words] |
+| Main content | [Check keyword frequency and spread] | [Optimal placement recommendations] |
+| Summary | [Check last 100 words] | [All keywords in last 100 words] |
+| Image alt text | [Check all images] | [One keyword per image, descriptive] |
+| Image file names | [Check naming convention] | [Keyword-hyphens.jpg format] |
+| Internal links | [Count and assess anchor text] | [Anchor text ratio recommendations] |
+
+---
+
+## Step 2: Generate Optimized Meta Tags (5 minutes)
+
+### Meta Title (3 options)
+Provide three options using different headline formulas:
+1. **Direct keyword** -- front-loaded, benefit-driven
+2. **Curiosity gap** -- creates information gap
+3. **Brackets hack** -- keyword + [Updated 2026] or [Template] or [Checklist]
+
+Rules: under 60 characters, keyword front-loaded, matches H1.
+
+### Meta Description (2 options)
+1. **Standard** -- keyword front-loaded, benefit statement, under 160 characters
+2. **Answer-spoiling** -- put the answer directly in the meta description for AI citation boost
+
+---
+
+## Step 3: Optimize Header Structure (5 minutes)
+
+Provide recommended header hierarchy:
 ```
-/optimize-on-page
-[Paste full article text]
-```
-
-## Output
-
-Returns complete optimization package:
-
-```
-1. METADATA OPTIMIZATION
-   Meta Title: [50-60 chars] | [Keyword] | [Benefit]
-   Meta Description: [160 chars] | [Benefit] | [CTA]
-   H1 Tag: [Recommendation]
-
-2. HEADER STRUCTURE
-   Current: [Analysis of H1-H3 hierarchy]
-   Recommended: [Improved structure]
-   Changes needed: [Specific edits]
-
-3. KEYWORD ANALYSIS
-   Primary keyword: [keyword]
-   Frequency: [X times per article]
-   Recommendation: [Optimal frequency]
-   Secondary keywords: [List and placement]
-
-4. INTERNAL LINKS
-   Current links: [Count]
-   Suggested additions:
-   - [Article title] → [Anchor text]
-   - [Article title] → [Anchor text]
-   - [Article title] → [Anchor text]
-
-5. SCHEMA MARKUP
-   Recommended: Article, Organization, FAQ (if applicable)
-   [Full JSON-LD code ready to copy-paste]
-
-6. QUICK WINS (Priority Fixes)
-   [ ] Update meta title
-   [ ] Rewrite meta description
-   [ ] Fix H1 tag
-   [ ] Add internal links
-   [ ] Add schema markup
-
-7. FULL CHECKLIST
-   [Comprehensive optimization checklist]
-```
-
-## Use Cases
-
-**Scenario 1: New Article Not Ranking**
-```
-/optimize-on-page [your-new-article-url]
-→ Get complete optimization audit
-→ Implement all recommendations
-→ Article starts ranking within 4 weeks
-```
-
-**Scenario 2: Article Ranking 11-30**
-```
-/optimize-on-page [underperforming-article-url]
-→ Get targeted improvements
-→ Focus on on-page signals
-→ Move to top 3-5 positions
+H1: [Primary keyword + compelling modifier]
+  H2: [Primary keyword - first section]
+  H2: [Secondary keyword 1]
+    H3: [Variation/synonym]
+    H3: [Variation/synonym]
+  H2: [Secondary keyword 2]
+  H2: [Question-style for AI extraction (40-60 word answer block)]
+  H2: [Primary keyword - summary section (last H2)]
 ```
 
-**Scenario 3: High-Traffic Article, Low CTR**
-```
-/optimize-on-page [high-traffic-url]
-→ Get meta tag rewrites
-→ Improve click-through rate
-→ 10-30% CTR improvement typical
-```
+Flag any headers that are missing keywords or misordered.
 
-## Implementation Guide
+---
 
-### Step 1: Copy Meta Tags (5 min)
-1. Copy generated meta title
-2. Paste into CMS meta title field
-3. Copy meta description
-4. Paste into CMS meta description field
-5. Verify in search results preview
+## Step 4: Image SEO Recommendations (5 minutes)
 
-### Step 2: Fix Headers (10 min)
-1. Review recommended H1 tag
-2. Update H1 if needed
-3. Review H2/H3 structure
-4. Reorder if recommended
-5. Verify page still makes sense
+For each image on the page:
+| Image | Current Alt | Recommended Alt | File Name |
+|-------|------------|----------------|-----------|
+| Hero | [current] | [keyword, descriptive, <125 chars] | [keyword-hyphens.jpg] |
+| Image 2 | [current] | [secondary keyword variation] | [variation-hyphens.jpg] |
 
-### Step 3: Add Internal Links (10 min)
-1. Copy suggested links
-2. Find relevant context in article
-3. Add links naturally (don't force)
-4. Use suggested anchor text
-5. Verify links open in new tab
+Additional: recommend featured image strategy (unique image, text overlay, brand mark).
 
-### Step 4: Add Schema (10 min)
-1. Copy JSON-LD schema code
-2. Paste into CMS header area
-3. Test with Google Rich Results Validator
-4. Verify no errors
-5. Publish and wait 24-48 hours for indexing
+---
 
-### Step 5: Verify (5 min)
-1. Check article on live site
-2. Verify all links work
-3. Check mobile formatting
-4. Run plagiarism check if modified significantly
+## Step 5: Internal Link Suggestions (5 minutes)
 
-**Total Time: 40 minutes**
+Suggest 3-5 internal links to add:
+| Source Location in Article | Link To | Anchor Text | Type |
+|---------------------------|---------|-------------|------|
+| [Section/paragraph] | [Target page] | [Exact match or filler] | Exact / Partial |
 
-## Tips for Success
+Follow anchor text ratio: ~30% exact, ~60% exact+filler, ~10% partial.
 
-1. **Start with High-Traffic Articles**: Biggest ROI from optimizing pages getting 500+ monthly visitors
-2. **Don't Over-Optimize**: Add keywords naturally, not forced
-3. **Verify All Links**: Test every internal/external link before publishing
-4. **Use Priority Fixes First**: Start with quick wins, then comprehensive changes
-5. **Monitor Results**: Track rankings and CTR changes in Search Console
+---
+
+## Step 6: Schema Markup (5 minutes)
+
+Generate JSON-LD schema appropriate for the page type:
+- **Blog post** -- Article schema with author, datePublished, dateModified
+- **Product page** -- Product schema with price, availability, reviews
+- **Service page** -- Service or LocalBusiness schema
+- **FAQ content** -- FAQPage schema
+
+Provide ready-to-paste JSON-LD code. Include validation instruction: test at schema.org validator + Google Rich Results Test.
+
+---
+
+## Step 7: Priority Fix Checklist
+
+Output a prioritized action list:
+
+### Quick Wins (implement in 30 minutes)
+- [ ] Update meta title to: [recommendation]
+- [ ] Update meta description to: [recommendation]
+- [ ] Fix H1 to: [recommendation]
+- [ ] Add missing image alt text
+
+### Medium Priority (implement this week)
+- [ ] Restructure headers per recommended hierarchy
+- [ ] Add 3-5 internal links with optimized anchor text
+- [ ] Add/update schema markup
+- [ ] Optimize URL slug (if feasible -- 301 redirect needed)
+
+### Ongoing Monitoring
+- [ ] Track rankings in Search Console for 2-3 weeks
+- [ ] If not on page 1, add one additional optimization spot per week
+- [ ] Do NOT over-optimize beyond competitor level
+
+---
 
 ## Expected Results
-
-- **Ranking Improvement**: 1-3 positions average
-- **CTR Improvement**: 10-30% for meta tag updates
-- **Rich Snippet Eligibility**: If schema added correctly
-- **Time to Results**: 1-4 weeks for ranking changes
-- **ROI**: Typically 5-10x return vs. time invested
-
-## Advanced Options
-
-### For Competitive Keywords
-- Request competitor analysis alongside optimization
-- Get custom keyword strategy recommendations
-- Priority on internal linking to money pages
-
-### For YMYL Content
-- Enhanced E-E-A-T optimization
-- Author credentials emphasis
-- Source citation improvement
-- Trust signals optimization
-
-### For Multiple Articles
-- Batch optimization for content cluster
-- Cross-linking strategy for internal authority
-- Topical authority recommendations
+- Ranking improvement: 1-5 positions typical for pages ranking 5-30
+- CTR improvement: 10-30% from meta tag updates
+- Rich snippet eligibility from schema implementation
+- Time to results: 2-4 weeks for ranking changes
+- Total implementation time: 40-60 minutes

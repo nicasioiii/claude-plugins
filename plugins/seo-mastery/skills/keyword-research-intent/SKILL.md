@@ -1,209 +1,220 @@
 ---
-name: "Keyword Research & Intent Alignment"
-description: "Master keyword research aligned with buyer intent and search semantics. Triggers: keyword research, intent alignment, long-tail keywords, keyword difficulty, search volume analysis. Covers: intent classification, search funnel positioning, keyword clusters, competitive keyword analysis. Does NOT cover: link building, on-page optimization, or technical implementation."
-Triggers:
-  - keyword research
-  - intent alignment
-  - long-tail keywords
-  - keyword difficulty
-  - search volume analysis
+name: Keyword Research & Search Intent
+description: >
+  MANDATORY TRIGGERS: keyword research, keyword ideas, keyword list, search volume,
+  keyword difficulty, KD, search intent, informational intent, commercial intent,
+  transactional intent, navigational intent, allintitle, CONCATENATE method,
+  keyword validation, keyword clustering, Answer Socrates, DataForSEO keywords,
+  long-tail keywords, search funnel, keyword opportunities, keyword generator,
+  demand validation, keyword expansion, "near me" keywords, keyword brainstorm.
+  FOR: Complete keyword research workflows from brainstorm through validation.
+  Covers the three-layer keyword research system (AI ideas, DataForSEO validation,
+  Answer Socrates clustering), intent classification (informational/commercial/
+  transactional/navigational), competitor keyword mining, allintitle competition
+  assessment, Google Search Console secondary keyword mining, CONCATENATE formulaic
+  keyword generation, demand-driven product validation, and directory niche
+  keyword selection (7-filter framework).
+  Do NOT use for: Content architecture or clustering decisions (use content-cluster-strategy),
+  competitive backlink analysis (use competitive-landscape-analysis), topical map
+  construction (use topical-authority-semantic), content writing (use content-production).
 ---
 
-# Keyword Research & Intent Alignment
+# Keyword Research & Search Intent
 
-The bridge between what your business offers and how people actually search for it—without this alignment, all other SEO efforts fail.
+## Quick Navigation
+- **Three-layer research system** -> ref-keyword-research-methodology.md
+- **Intent classification & mapping** -> ref-search-intent-classification.md
 
-## Core Philosophy
-
-**The Intent-Volume Paradox:**
-Most SEO practitioners optimize for keywords with the highest search volume. This is backwards. High-volume keywords often have diffuse intent (multiple use cases) and face entrenched competition from massive brands. Success comes from finding keywords where:
-1. Search volume is substantial enough to matter (50+ monthly searches minimum)
-2. Buyer intent matches your business model
-3. Top 10 SERP results show rankable competitors (not just Amazon/Wikipedia/Forbes)
-
-**The Language Gap Problem:**
-Business terminology never matches how people search. A dog food brand talks about "digestive health optimization." Real searches: "best dog food for sensitive stomach," "soft stools dog food," "dog itching dry skin." Your job is translation.
+---
 
 ## When to Read Reference Files
 
-Before beginning any keyword research project:
-- Read **keyword-research-methodology.md** for the complete research workflow and validation framework
-- Read **intent-classification-framework.md** to understand how to map search intent to content strategy
-- Read **long-tail-mining-techniques.md** if targeting lower-volume, high-intent keywords or building keyword clusters
-- Read **vertical-keyword-playbooks.md** for industry-specific keyword patterns and monetization strategies
-- Read **keyword-difficulty-analysis.md** when evaluating competitive landscape and ranking feasibility
-
-## The Research Workflow (Quick Reference)
-
-**Phase 1: Seed Generation (Days 1-2)**
-- Extract 50-100 seed keywords from your business offering
-- Bridge business terminology to search terminology
-- Identify 3-4 main keyword clusters
-- Validate that competitors exist in your niche
-
-**Phase 2: Expansion & Filtering (Days 3-5)**
-- Use keyword tools to expand each seed to 30-50 variations
-- Apply intent filters: commercial, informational, navigational
-- Score keywords by opportunity (volume × intent match × ranking difficulty)
-- Identify quick wins: <KD 30, 100+ monthly searches, high commercial intent
-
-**Phase 3: Competitive Analysis (Days 6-7)**
-- Examine top 10 results for 15-20 target keywords
-- Identify content gaps competitors miss
-- Look for monetization patterns
-- Validate SERP composition (are brands dominating or small sites ranking?)
-
-**Phase 4: Content Roadmap (Week 2)**
-- Organize keywords into content clusters
-- Prioritize quick wins before difficult keywords
-- Plan internal linking structure
-- Create master keyword database
-
-## Intent Classification Framework (Quick Reference)
-
-**Commercial Intent Keywords (80% of your content strategy)**
-- User is ready to make a decision or buy
-- Keywords: "best X for Y," "X review," "X vs Y," "how to choose X," "top X"
-- Monetization: Direct affiliate, product sales
-- Ranking urgency: CRITICAL—these drive revenue
-- Example: "best dog food for sensitive stomach" = high commercial intent
-
-**Informational Intent Keywords (15% of your content)**
-- User is learning or researching
-- Keywords: "how to X," "what is X," "guide to X," "why X"
-- Monetization: Link building asset, topical authority signal
-- Ranking urgency: Lower—supports link acquisition
-- Example: "how to identify dog food allergies" = informational, supports building authority
-
-**Navigational Intent Keywords (5% of your content)**
-- User seeks a specific brand or resource
-- Keywords: "brand name," "brand + review," "[service] near me"
-- Monetization: Generally not (low ROI)
-- Ranking urgency: Skip unless defending brand
-
-**Long-Tail Commercial Intent (Your Competitive Advantage)**
-- 3-5 word phrases with 20-100 monthly searches
-- HIGHER buyer intent than broad terms
-- LOWER competition than single-word keywords
-- Example: "best dog food for itchy skin allergies" beats "dog food" every time
-- Rule: Target 50+ long-tail keywords for every head term
-
-## Search Funnel Positioning
-
-Keywords exist on a spectrum from awareness to purchase decision:
-
-**Awareness Stage** (Top of Funnel)
-- What: High-volume, broad educational keywords
-- Audience: Doesn't know you exist yet
-- Keywords: "dog nutrition basics," "protein dog food"
-- Content: Comprehensive guides, educational content
-- Monetization: Low direct, high authority building
-- Ranking difficulty: High (broad competition)
-
-**Consideration Stage** (Middle of Funnel)
-- What: Comparative keywords, problem-solving
-- Audience: Knows the problem, evaluating solutions
-- Keywords: "best dog food for allergies vs sensitivity," "grain-free dog food benefits"
-- Content: Comparisons, pros/cons, specific recommendations
-- Monetization: Medium (review affiliate links)
-- Ranking difficulty: Medium
-
-**Decision Stage** (Bottom of Funnel)
-- What: Specific product/brand + modifiers
-- Audience: Ready to buy, validating choice
-- Keywords: "Orijen dog food review," "is Royal Canin worth the price"
-- Content: Reviews, pricing, where-to-buy
-- Monetization: High (direct affiliate/sales)
-- Ranking difficulty: Lower (specific = less competition)
-
-**Rule:** Balanced portfolio targets 20% awareness, 50% consideration, 30% decision-stage keywords.
-
-## Keyword Clustering Strategy
-
-Don't target isolated keywords. Cluster 8-15 related keywords into content that covers the full intent spectrum.
-
-**Cluster Template:**
-- **Core keyword (pillar):** "Best dog food for allergies" (100 monthly searches, KD 45)
-  - **Modifier variations:** "Beef dog food allergies," "Limited ingredient dog food"
-  - **Problem variants:** "Best dog food for skin allergies," "Dog food for ear allergies"
-  - **Comparison keywords:** "Hydrolyzed vs limited ingredient dog food"
-  - **Supplement topics:** "Foods to avoid for allergic dogs," "Dog allergy testing"
-
-**Interlinking rule:** One pillar page targets the main keyword; 3-5 satellite pages target modifiers, linking back to pillar.
-
-## Keyword Opportunity Scoring (Quantitative Framework)
-
-Rate keywords on a 1-10 scale combining three factors:
-
-**Search Volume Score (0-3 points)**
-- 0-50/month: 0 points (too small)
-- 50-200/month: 1 point (small)
-- 200-1000/month: 2 points (good)
-- 1000+/month: 3 points (excellent)
-
-**Keyword Difficulty Score (0-3 points, inverted)**
-- KD 0-20: 3 points (low competition, rank fast)
-- KD 21-40: 2 points (medium, 3-6 month timeline)
-- KD 41-60: 1 point (high, 6-12 months)
-- KD 61+: 0 points (very high, skip unless brand)
-
-**Intent Alignment Score (0-4 points)**
-- Does NOT match your business: 0 points
-- Weak match (peripheral): 1 point
-- Moderate match (adjacent): 2 points
-- Strong match (direct competitor): 3 points
-- Perfect match (exactly what you sell): 4 points
-
-**Formula:** Volume Score + Difficulty Score + Intent Score = Opportunity Score (out of 10)
-
-**Action Thresholds:**
-- 8-10: PRIORITY—start immediately
-- 6-7: SECONDARY—queue after priorities
-- 4-5: BACKLOG—long-term play
-- 0-3: SKIP—low ROI
-
-## Red Flags (Keywords to Avoid)
-
-**Avoid keywords where:**
-- All top 10 results are: Amazon, Wikipedia, YouTube, major news sites, or established brands (DR >70)
-- → You cannot compete with their domain authority
-- Search results show zero commercial results (all educational/resource pages)
-- → Market shows no monetization opportunity
-- Keyword search volume is < 50/month consistently
-- → Not worth content effort
-- Top results are paid ads only (no organic traffic visible)
-- → Market signals weak organic opportunity
-- Your business cannot legitimately satisfy the search intent
-- → Ranking doesn't matter if you don't solve the problem
-
-## Cross-Skill References
-
-This skill feeds into:
-- **competitive-landscape-analysis:** Once you identify target keywords, use that skill to assess SERP difficulty
-- **content-cluster-strategy:** Use keyword clusters from this skill to design internal linking architecture
-- **on-page-optimization:** Keyword selection determines meta tags, headers, and content structure
-- **content-production:** Keyword research guides content outline and depth
-
-## Expert Disagreements Noted
-
-**Volume vs. Intent Trade-off:**
-- Gorrono (Modules 00-07) emphasizes "find keywords where you can rank," prioritizing low KD
-- AuthorityHacker prioritizes intent alignment and monetization potential first
-- **Synthesis:** Do both—target keywords with KD <40 AND high intent alignment (Score 7+)
-
-**Long-Tail Specificity:**
-- Some practitioners argue broader keywords (1-2 words) scale faster
-- Others argue that long-tail (4-5 word) keywords show higher intent and faster ranking
-- **Synthesis:** Start with long-tail (easier wins), expand to broader terms as domain authority builds
-
-## Tools Required
-
-- **Ahrefs, SEMrush, or Moz:** For volume, keyword difficulty, SERP analysis
-- **Google Search Console:** For query data and click-through rates
-- **Google Trends:** For seasonal patterns and intent shifts
-- **Google Search:** For SERP composition analysis (how many brands vs. small sites)
-- **Spreadsheet (Google Sheets, Excel):** For keyword tracking and scoring
+| User Question Pattern | Load This Reference |
+|---|---|
+| How to find keywords, keyword research process, where to start, keyword tools | ref-keyword-research-methodology.md |
+| Keyword validation, allintitle, competition assessment, keyword difficulty | ref-keyword-research-methodology.md |
+| CONCATENATE method, formulaic keyword generation, keyword expansion | ref-keyword-research-methodology.md |
+| DataForSEO setup, Answer Socrates, clustering keywords | ref-keyword-research-methodology.md |
+| Demand validation, niche validation, directory keywords, 7-filter framework | ref-keyword-research-methodology.md |
+| Search intent types, informational vs commercial, SERP-based intent detection | ref-search-intent-classification.md |
+| Intent-content format mapping, e-commerce intent, "best/top" modifier rules | ref-search-intent-classification.md |
+| Sub-collection strategy, search funnel positioning | ref-search-intent-classification.md |
 
 ---
 
-*Last updated: March 2026 | Based on: Nicolas Gorrono AI Ranking Course, AuthorityHacker TASS 3.0, Koray Tugberk Gubur Semantic SEO*
+## Cross-References
+
+| When the conversation turns to... | Route to this skill | Trigger |
+|---|---|---|
+| "How do I organize these keywords into clusters?" | content-cluster-strategy | Keyword list exists, need architecture |
+| "Who else ranks for these keywords?" | competitive-landscape-analysis | Need SERP/competitor analysis |
+| "How do I build topical authority around these?" | topical-authority-semantic | Need entity/topical map strategy |
+| "What backlinks do competitors have?" | competitive-landscape-analysis | Need link profile analysis |
+| "Should I build a directory for this niche?" | directory-programmatic-seo | Niche validation question |
+
+---
+
+## THE THREE-LAYER KEYWORD RESEARCH SYSTEM (Gorrono)
+
+The most comprehensive keyword research workflow. Use all three layers for thorough research; Layer 1 alone is sufficient for quick brainstorms.
+
+### Layer 1: AI-Generated Keyword Ideas
+1. Use a Role-Context-Output prompt in ChatGPT with business details, services, and website URL
+2. GPT generates keyword ideas organized by: main keyword, sub-keywords, search intent (informational, investigational/commercial, transactional)
+3. Copy into a Google Sheet for validation in Layer 2
+
+### Layer 2: DataForSEO Validation
+1. Paste keywords into DataForSEO Google Sheets template
+2. Pull search volume (cost: $0.075 per 1,000 keywords)
+3. Pull keyword difficulty (use KD metric, NOT competition index -- KD aligns better with Ahrefs/SEMrush)
+4. Pull CPC data
+5. Set date range to 12 months prior for accurate volume data
+
+### Layer 3: Answer Socrates Deep Clustering
+1. Paste each main keyword into Answer Socrates ($29/month, one month usually sufficient)
+2. Generates 1,000+ questions/long-tail keywords per main keyword
+3. Clusters using AI (DeepSeek R1) into topic groups with aggregate volume, CPC, competition
+4. Export clustered CSV and import as new sheets in master keyword research spreadsheet
+5. Link each cluster back to the main keyword sheet for navigation
+
+**Content hierarchy that emerges:**
+- Main keyword = service page / pillar page
+- Sub-keywords = content pillars
+- Cluster keywords = supporting blog posts linking to pillar content
+
+---
+
+## COMPETITOR KEYWORD MINING (Nat Eliason / Authority Hacker)
+
+### Process
+1. Identify top 2-5 competitors (search your topics, note who ranks)
+2. Ahrefs Site Explorer -> plug in each competitor URL
+3. Filter organic keywords: Position 3+, Volume 500+, Difficulty below 40-60
+4. Add promising keywords to master list
+5. Go deeper: check "also rank for" to find related keywords their ranking pages capture
+6. Repeat for 2-5 competitors
+7. **Aim for 100-150 keywords before filtering**
+
+### Selecting Top 50 Opportunities (Nat Eliason)
+- Filter for max difficulty ~20-40, min volume ~500
+- If list too small, increase difficulty to 30-40
+- Mark high-difficulty keywords for long-term targeting
+- Note emerging "themes" (e.g., "[tea type] caffeine") -- these become content series
+- Validate every keyword in Google: ensure it is not a product name, song, or brand you cannot compete against
+
+---
+
+## KEYWORD GENERATOR METHOD -- CONCATENATE (Nat Eliason)
+
+For niches with repeating patterns (tea types, dog breeds, city names):
+
+1. Column A = root terms (e.g., "poodle," "german shepherd")
+2. Row 1 = modifiers (e.g., "benefits," "how to train a")
+3. Use CONCATENATE to auto-generate: "poodle benefits," "how to train a german shepherd"
+4. Plug generated keywords into Ahrefs for volume and difficulty
+5. This method generated 100+ keywords in under 1 hour for Cup & Leaf tea site
+
+---
+
+## ALLINTITLE COMPETITION ASSESSMENT (Hockman / Morrison)
+
+Use `allintitle:[keyword]` in Google to count pages with exact keyword in title:
+
+| allintitle Count | Competition Level | Strategy |
+|---|---|---|
+| Under 10 | Extremely low | On-page alone gets page 1 |
+| 10-100 | Very low | On-page + internal links |
+| 100-1,000 | Moderate | On-page + some backlinks |
+| 1,000-10,000 | High | Excellent on-page + significant link building |
+| 12,000+ | Very high | Authority site required |
+
+**E-commerce verification process (Cromwell):**
+1. Search keyword, check competitor authority scores (Ahrefs/SEMrush Chrome plugin)
+2. If top results have authority scores under 30, keyword is winnable for new site
+3. Check meta titles: if top results do NOT have your keyword in title, it is wide open
+
+---
+
+## DEMAND-DRIVEN PRODUCT DEVELOPMENT (Postma)
+
+Never build a product first. Always validate demand via SEO research.
+
+**Validation checklist:**
+1. **Low KD check** -- keyword difficulty must be low enough to compete
+2. **User intent match** -- can you build what people are searching for?
+3. **Monetization signal** -- does CPC exist? (people bidding = money in niche)
+4. **Global volume check** -- not just US; check if 50%+ from Western countries
+5. **Manual SERP review** -- visit google.us, search keyword, assess top 3: can you build better?
+6. **Keyword expansion** -- use Ahrefs "keyword ideas" and "also ranks for" for full keyword universe
+
+---
+
+## DIRECTORY NICHE KEYWORD SELECTION (Frey Chu)
+
+### The 7-Filter Framework (Filters 1 and 4 are keyword-focused)
+
+**Filter 1: KD + Search Volume**
+- Target KD under 20 (Ahrefs scale). Under 5 is ideal
+- Check location sub-keywords: consistent 90-150 monthly searches per city at KD 0-2 = massive green flag
+- Ahrefs zero-volume caveat: keywords showing 0-10 often have real traffic
+
+**Filter 4: Search Intent Clarity**
+- Broad keywords are traps -- seductive volume but foggy intent
+- Go deeper: filter to KD 0-5 and discover sub-niches with crystal-clear intent
+- Location-based keywords usually have inherently clear intent
+
+### "Near Me" Keyword Research
+- Search "[niche] near me" to gauge local demand
+- Check Google Maps for category accuracy -- mismatched categories = fragmented results = opportunity
+- Validate on Reddit (location questions) and TikTok (viral videos with "where is this?" comments)
+
+---
+
+## GOOGLE SEARCH CONSOLE SECONDARY KEYWORD MINING (Hockman)
+
+After publishing and indexing content:
+1. Open Google Search Console -> Performance -> Pages
+2. Click on any page -> see all queries driving impressions
+3. Identify secondary keywords the page ranks for that you did not explicitly target
+4. Optimize the page for high-impression secondary keywords (add to H2s, body content)
+5. Create new content targeting secondary keywords that deserve their own page
+
+---
+
+## CONTENT PLAN SPREADSHEET STRUCTURE (Nat Eliason)
+
+Six sheets for organizing research output:
+1. **High Level Topics** -- 3-10 broad authority topics
+2. **Related Keywords** -- From Ahrefs "also rank for" data
+3. **Competitor Keywords** -- Position 4-100, volume 250+, difficulty below 60
+4. **All KWs** -- Combined master list with keyword, volume, difficulty, target Y/N
+5. **Target Keywords** -- Filtered top 50 with validation
+6. **Content Plan** -- Keyword, Week (1-13), Outline link
+
+---
+
+## TOOL STACK FOR KEYWORD RESEARCH
+
+| Tool | Cost | Best For |
+|---|---|---|
+| DataForSEO | $50 min top-up, lasts ~1 year | Volume, KD, CPC, competitor keywords, SERP parsing |
+| Ahrefs Lite | $99/month (use 2 months then cancel) | Competitor reverse engineering, "also rank for" |
+| Answer Socrates | $29/month (1 month sufficient) | Deep clustering, 1,000+ long-tail per keyword |
+| Clicks.so | $25/month | E-commerce keyword research, quick big-idea search |
+| Google Search Console | Free | Secondary keyword mining from existing rankings |
+| ChatGPT / Claude | Subscription | AI-generated keyword brainstorms (Layer 1) |
+
+---
+
+## SPECIFIC NUMBERS AND THRESHOLDS
+
+| Metric | Target | Source |
+|---|---|---|
+| Keywords before filtering | 100-150 minimum | Nat Eliason |
+| Target keywords to select | Top 50 | Nat Eliason |
+| Max KD for new sites | Under 10 | Authority Hacker |
+| Max KD for directories | Under 20, ideally under 5 | Frey Chu |
+| Min search volume worth targeting | 500 (content sites), 90/city (directories) | Eliason / Frey Chu |
+| DataForSEO cost per 1K keywords | $0.075 | Gorrono |
+| Answer Socrates keywords per main term | 1,000+ | Gorrono |
+| Articles from 50 keywords | ~1 year of content | Nat Eliason |

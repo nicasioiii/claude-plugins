@@ -14,7 +14,7 @@ Private plugin marketplace — 9 plugins synthesized from expert courses.
 | marketing-skills | 1.4.0 | 18 | 0 |
 | paid-ads-mastery | 2.0.0 | 16 | 8 |
 | sales-negotiation-mastery | 1.0.0 | 7 | 7 |
-| seo-mastery | 1.0.0 | 9 | 7 |
+| seo-mastery | 2.0.0 | 16 | 9 |
 
 ## Setup
 

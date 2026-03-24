@@ -1,256 +1,267 @@
 ---
-name: "Content Production & AI Workflows"
-description: "Build a high-output content system that produces SEO-ranking articles using AI workflows, copywriting frameworks, and quality assurance protocols. Triggers: content production, AI writing, content strategy, E-E-A-T, quality assurance, fact-checking, content updates. Covers: content strategy, AI prompting, writing frameworks, editing checklists, E-E-A-T signals, fact-checking, and content updating strategies. Does NOT cover: keyword research, topic selection."
-Triggers:
-  - content production
-  - AI writing
-  - content strategy
-  - E-E-A-T signals
-  - quality assurance
-  - fact-checking
-  - content updates
+name: "Content Production & SEO Copywriting"
+description: |
+  MANDATORY TRIGGERS: content writing, SEO copywriting, blog writing, content brief,
+  article writing, writing process, content template, commercial content, review writing,
+  roundup post, comparison article, info content, how-to article, listicle, content editing,
+  self-editing, fact-checking, E-E-A-T, content promotion, content KPIs, brand style guide,
+  storytelling SEO, ClearScope, content quality, feature to benefit
+
+  FOR: Anyone creating SEO content from brief to published article -- writing info posts,
+  commercial posts (reviews, roundups, vs, alternatives), creating content briefs,
+  following the 4-stage writing process, self-editing, fact-checking, and promoting content.
+
+  Do NOT use for:
+  - AI-powered content automation at scale -> use ai-seo-content-automation
+  - Content architecture/clustering decisions -> use content-cluster-strategy
+  - On-page optimization mechanics (meta tags, headers) -> use on-page-optimization
+  - Topical authority strategy -> use topical-authority-semantic
 ---
 
-# Content Production Skill
+# Content Production & SEO Copywriting
 
-## What This Skill Covers
+You are an SEO content production specialist. Guide users through the complete writing process from brief to published article. Cover content briefs, research, outlining, drafting, self-editing, commercial content templates, fact-checking, and promotion. Be specific with templates, checklists, and step counts.
 
-Content production is the systematic creation of high-quality articles that rank in Google and convert readers into customers. This skill covers the complete workflow from planning to publication.
+---
 
-**Core Elements**:
-1. **AI Content Workflow** - Structured prompts for article generation
-2. **Content Type Frameworks** - Templates for different article formats
-3. **Writing for SEO** - Keyword integration, readability, structure
-4. **Commercial vs Informational Content** - Different writing approaches
-5. **E-E-A-T Quality Signals** - Building authority and trust
-6. **Fact-Checking & Original Research** - Validation and credibility
-7. **Content Updates** - Refreshing old content for continued rankings
+## Core Philosophy
 
-## Why Content Production Matters
+**The Pyramid of Focus (Nat Eliason):**
+Priority order for content marketing (most important to least):
+1. **Planning** -- choosing the right keywords and targets. Wrong targets = everything wasted
+2. **Writing** -- creating a genuinely great article on the right topic
+3. **Optimizing** -- technical on-page SEO settings
+4. **Promoting** -- driving initial traffic signals
 
-**Ranking Factor**: Content quality is the #1 ranking factor (Google's 2024 algorithm update emphasis)
+Most people over-invest in promotion and optimization while under-investing in planning and writing quality. An amazing article on the wrong topic will not rank.
 
-**Authority Building**: Volume + quality = topical authority that boosts entire site
+**Pre-selling is the key skill.** For commercial content, you are not writing reviews -- you are translating features into benefits and helping readers make decisions. Honest reviews outperform fake positive ones.
 
-**Revenue Driver**: 80% of content should drive revenue (affiliate, leads, products)
+**SEO is an investment.** Expect 6-12 months before meaningful returns, especially for newer sites. Articles can rank for years bringing free daily traffic. If you need revenue faster than 6 months, SEO content is the wrong strategy.
 
-**Scalability**: AI-assisted production means 1-2 people can produce 20+ articles/month
+---
 
-## Core Principle: Quality Over Quantity
+## When to Read Reference Files
 
-**Wrong Approach**: 100 thin articles per month (penalized)
-**Right Approach**: 4-5 high-quality articles per month (ranks)
+Read **ref-content-writing-process.md** when:
+- Creating a content brief for a writer or yourself
+- Starting any new article from scratch
+- Doing research and outlining for an article
+- Editing content before publication
+- Working on introduction or conclusion structure
+- Cross-reference: on-page-optimization for keyword placement rules during writing
 
-**Metrics**:
-- 4-5 articles/month × 12 months = 48-60 articles/year
-- Average ranking time: 3-6 months to top 10
-- By month 9-12: First articles in top 3-5 positions
-- Sustained: High-authority site generating 10,000+ monthly organic visitors
+Read **ref-commercial-content.md** when:
+- Writing product reviews (single or roundup)
+- Creating comparison (vs) or alternatives articles
+- Working on affiliate content
+- Translating product features into reader benefits
+- Cross-reference: ai-seo-content-automation for scaling commercial content with AI
 
-## The Production Hierarchy
+Read **ref-content-promotion.md** when:
+- Publishing new content and planning distribution
+- Setting up automated promotion workflows
+- Republishing on Medium, LinkedIn, or external sites
+- Planning Reddit promotion strategy
+- Cross-reference: content-cluster-strategy for publishing cadence and content lifecycle
 
-### Tier 1: Money Pages (Commercial Intent)
-- Purpose: Rank for commercial keywords, drive revenue
-- Importance: Highest (directly generate income)
-- Volume: 60-80% of total content
-- Examples: Product reviews, buying guides, comparison articles, category pages
-- Monetization: Affiliate links, lead forms, product sales
+---
 
-### Tier 2: Topical Authority Content (Informational Intent)
-- Purpose: Establish expertise, earn backlinks, support money pages
-- Importance: Medium (indirect revenue via links to Tier 1)
-- Volume: 20-40% of total content
-- Examples: Comprehensive guides, how-to articles, educational content
-- Monetization: Low-direct, high-indirect (backlinks boost Tier 1 rankings)
+## The 4-Stage Writing Process (Maddy Osman)
 
-### Example Distribution (Per Month)
-```
-5 Articles Total
-├─ 4 Money Pages (Commercial: reviews, buying guides, roundups)
-└─ 1 Topical Authority (Informational: deep guides, how-to, research)
-```
+### Stage 1: Content Brief
+Never start without clear direction. Brief includes:
+- Content goal and CTA
+- Topic focus and specific angle
+- Keyword data (primary, secondary, semantic, questions)
+- Research material and competitor content to beat
+- Buyer's journey stage (TOFU, MOFU, BOFU)
+- Target word count and format
+- **Unique angle** -- "this is the most important factor"
 
-## Content Production System
+### Stage 2: Research & Outlining
+- Add subheading labels for major topics
+- Add bullet points with specifics
+- Complete most research during outline stage
+- Seek statistics, expert insights, supportive material
+- Goal: create an outline you can draft from without research distraction
 
-### Step 1: Gather Keywords & Topics
-- Input: Pre-researched keyword list (from keyword research skill)
-- Select 4-5 keywords to target this month
-- Organize by type (money vs authority)
-- Assign to writers/batch process
+### Stage 3: Drafting
+- Knock it out quickly without overthinking
+- Turn bullet ideas into sentences and paragraphs
+- Transform placeholder subheadings into compelling titles
+- Editing is for the next stage, not now
 
-### Step 2: Create Content Outline
-- Use Perplexity AI to generate data-driven outline
-- Get target word count, header structure, keyword placement
-- Review competitor content
-- Draft skeleton
+### Stage 4: Self-Editing (6 Passes)
+1. Flesh out unfinished sections, refine word choice, complete research
+2. Edit for spelling, grammar, formatting
+3. Read content out loud -- catch agreement issues and awkward phrasing
+4. Validate resonance with target audience
+5. Check for unintentional plagiarism (use Copyscape)
+6. SEO pass: keyword implementation, internal/external links, on-page tasks
 
-### Step 3: Write Full Article
-- Use Claude with outline to generate full article
-- Feed in voice/tone examples (brand voice)
-- Match outline structure exactly
-- Aim for 2,000-2,500 words for competitive keywords
+---
 
-### Step 4: Edit & Quality Check
-- Plagiarism check (Copyscape)
-- Readability review (Hemingway Editor)
-- Keyword verification (in title, headers, body)
-- Link audit (internal + external)
-- E-E-A-T verification (author, credentials, sources)
+## Content Brief Template (Complete)
 
-### Step 5: Optimize On-Page
-- Add schema markup (Article type)
-- Verify meta title (50-60 chars)
-- Write meta description (160 chars)
-- Add alt text to all images
-- Set up internal links
+### Administrative
+- Draft due date, PM task link, assigned writer, priority level
 
-### Step 6: Publish & Monitor
-- Publish to website
-- Verify indexation (Search Console)
-- Monitor for first month (engagement signals)
-- Set reminder to update at 6-12 months
+### Client/Brand Guidelines
+- Client name, style guide URL, voice/tone definition
+- Tone axes: funny vs serious, formal vs casual, respectful vs irreverent, enthusiastic vs matter-of-fact
+- Image guidelines, past article examples
 
-## Reference Files in This Skill
+### Audience
+- Target persona, problem to solve, buyer's journey stage
 
-1. **ai-content-workflow-step-by-step.md** - Exact Perplexity → Claude → publish pipeline with copy-paste prompts
-2. **content-type-frameworks.md** - Templates for blog posts, reviews, guides, comparisons, how-tos
-3. **writing-for-seo-checklist.md** - Keyword integration, header optimization, readability, internal links
-4. **commercial-vs-informational-content.md** - Different writing approaches, examples, monetization differences
-5. **quality-signals-e-eat.md** - Author credentials, source citations, review schema, trustworthiness signals
-6. **fact-checking-original-research.md** - Verification tools, handling statistics, original data claims
-7. **content-updating-strategy.md** - Refresh schedule, identifying low-performers, updating timelines
+### Competition
+- Content to beat (URLs), pros/cons of top-ranking content
 
-## Quick Start Checklist for New Article
+### Brief Details
+- Goal, CTA, topic, angle, client-supplied details
+- List of major points, anticipated questions
 
-- [ ] Research target keyword (search volume, difficulty, intent)
-- [ ] Use Perplexity to get outline & word count target
-- [ ] Research competitor top 3 articles
-- [ ] Use Claude with outline to draft article
-- [ ] Run plagiarism check (Copyscape)
-- [ ] Edit for readability + keyword integration
-- [ ] Verify internal/external links (3-5 each)
-- [ ] Add schema markup (Article type)
-- [ ] Set meta title (50-60 chars, keyword first)
-- [ ] Set meta description (160 chars, benefit statement)
-- [ ] Add alt text to all images
-- [ ] Add author bio with credentials/link
-- [ ] Fact-check statistics and claims
-- [ ] Test links (all working, open in new tab)
-- [ ] Publish and verify indexation
-- [ ] Monitor CTR/impressions in Search Console
+### Content Scope
+- Inclusions/exclusions, what to avoid
+- Content type (new, rewrite, guest post, landing page)
+- Format (how-to, listicle, news), target word count
 
-## Content Principles
+### On-Page SEO Tasks
+- Keywords (primary, secondary, semantic, questions, heading vs body keywords)
+- Internal link suggestions
+- Sources with names/relevance/social links
 
-### Principle 1: User-First (Not Search-First)
+---
 
-Write for humans first, search engines second.
+## Subtopic Research Process (Nat Eliason)
 
-**Wrong**: "natural sunscreen reef-safe organic sunscreen best sunscreen for sensitive skin reef safe sunscreen"
+Three-step process before outlining:
 
-**Right**: Write compelling content that answers reader's question completely, then optimize for search
+1. **Ahrefs "Also Rank For"** -- plug target keyword into Keyword Explorer. Check what related terms ranking pages also rank for. Add all relevant subtopics to outline
 
-### Principle 2: Unique Angle Required
+2. **SERP Analysis** -- Google target keyword. Open top 3-5 results. Read for subtopics you missed. Do NOT copy article structure wholesale -- many pad with off-topic content
 
-Every article must have a unique angle or perspective that competitors don't offer.
+3. **ClearScope (Optional)** -- run a report to identify terms associated with top results. Validates completeness. After writing, paste article in -- aim for grade A before publishing
 
-**Weak**: Another "best sunscreen" list like 50 others
-**Strong**: "I tested 20 sunscreens on my own sensitive skin for 90 days - here's what actually works"
+---
 
-### Principle 3: Depth Beats Brevity
+## Outlining From Subtopics
 
-Comprehensive > Short for competitive keywords. 2,000-2,500 words typical for rankable content.
+1. Take full list of subtopics from research
+2. Group related subtopics into logical sections
+3. Order from most universally relevant to least
+4. Top-level items = H2s, second-level = H3s
+5. Delete duplicates as you cluster
 
-### Principle 4: Original Data Matters
+---
 
-Include:
-- Original research/testing
-- Case studies from your business
-- Original data/statistics
-- Unique frameworks/methodologies
-- Personal experience/credentials
+## Introduction Structure (Maddy Osman)
 
-### Principle 5: Authority Building
+Three parts:
+1. **Problem** -- the pain point that brought the reader
+2. **Solution** -- the approach or framework
+3. **Reveal** -- a hint at how the problem can be solved (hooks reader to continue)
 
-Every article should:
-- Include author name + credentials
-- Link to author profile/social
-- Cite high-authority sources (academic, government, well-known brands)
-- Show expertise through specific details
+---
 
-## Common Content Production Mistakes
+## Conclusion Structure
 
-**Mistake 1: AI-Only, No Editing**
-- AI generates content
-- Publish as-is
-- Result: Flat, generic, penalized by quality update
+- Reflects the introduction without being an exact copy
+- Restates the problem and key points
+- Ends with a CTA based on the content goal
 
-**Correct**: AI generates draft, human edits for voice, expertise, unique angle
+---
 
-**Mistake 2: Keyword Stuffing**
-- Insert keyword every paragraph
-- Unnatural reading
-- Result: Penalized as spam
+## Content Formatting Rules
 
-**Correct**: Keyword appears 2-3 times per 1,000 words naturally
+- **Subheading density:** 1 subheading per ~300 words
+- **Per 500 words (Maddy Osman):** 2+ internal links, 2+ external links to high-quality sources, primary keyword 2+ times, secondary keywords 1+ each, at least 1 optimized image
+- **Only one H1 per page** (the title)
+- **Headers:** H2s for main sections, H3s for subsections. Incorporate keywords naturally in some headers -- not all
 
-**Mistake 3: No Original Research**
-- Copy competitor structure
-- Rewrite their content
-- Result: Thin, interchangeable, outranked by original content
+---
 
-**Correct**: Include original testing, research, case studies
+## Storytelling in SEO Content (Maddy Osman)
 
-**Mistake 4: No Author Credentials**
-- Generic byline
-- No author background
-- Result: Low E-E-A-T signals
+Four core elements:
+1. **Characters** -- real or fictional people illustrating relatable examples. Define a hero (customer) and villain (the problem)
+2. **Setting** -- clarify specific circumstances where the brand helps
+3. **Conflict** -- introduce at the beginning. Address problems that brought the reader. Compel urgent action
+4. **Plot** -- every detail needs purpose. Think multiple bell curves -- each section has its own "climax" when readers reach a new realization
 
-**Correct**: Author name, photo, credentials, link to profile
+The resolution is revealed throughout the piece, not just at the end.
 
-**Mistake 5: Ignoring Search Console Data**
-- Publish articles
-- Never check impressions/CTR
-- Don't update poor performers
+**Rule:** If you cannot make a complex topic relatable to the average reader, you have lost your opportunity to connect.
 
-**Correct**: Monitor CTR, update low-performing titles, refresh old articles
+---
 
-## Tools You'll Need
+## Fact-Checking Framework (Maddy Osman)
 
-**AI Writing**:
-- Perplexity AI (research, outlining)
-- Claude (full article generation)
-- ChatGPT (alternative, more limited)
+1. **Verify statistics and sources** -- do not quote stats without original sources. Watch for chains of misinformation. Source material older than 1 year may be outdated
+2. **Find the truth** -- having a source does not mean it is a good source. Check domain authority. Assess journalist credibility. Contact brands directly if needed
+3. **Avoid bias** -- ask: "Is my title clickbait? Will it influence interpretation?" If source material makes you emotional, that may affect judgment
+4. **Confirm details** -- verify stats, proper nouns, company names, times, dates, locations. **If you cannot prove a claim, remove it**
 
-**Research**:
-- Google Scholar (academic sources)
-- GOV databases (government statistics)
-- Ahrefs/SEMrush (competitor content analysis)
+---
 
-**Quality Control**:
-- Copyscape (plagiarism check)
-- Hemingway Editor (readability)
-- Google Search Console (monitoring)
-- Yoast / Rank Math (on-page optimization)
+## E-E-A-T in Content Production
 
-**Editing**:
-- Grammarly (spelling/grammar)
-- ProWritingAid (style, tone)
-- Microsoft Word/Google Docs (collaborative editing)
+- E-E-A-T = Experience, Expertise, Authoritativeness, Trust
+- With AI content concerns growing, real author experience is critical
+- Use real author bios pointing to real people (not AI personas)
+- Bring genuine experience into content -- your data, your case studies, your perspective
+- Link to original authoritative sources (Wikipedia acceptable for non-YMYL; academic/gov preferred for YMYL)
+- Never link to other blogs as sources for YMYL content
 
-## Expected Outcomes
+---
 
-- **Output**: 4-5 articles/month (20,000+ words/month per writer)
-- **Ranking Time**: 3-6 months to top 10
-- **Quality**: 85%+ pass plagiarism, readability, E-E-A-T checks
-- **Traffic**: By month 12: 5,000-20,000 monthly visitors from organic search
-- **Authority**: Google recognizes topical authority (boosting entire site)
-- **Revenue**: 10-40% of articles become revenue-generating (affiliate, leads)
+## AI in Content Creation (Current Guidelines)
 
-## Next Steps After Mastering This Skill
+### Appropriate Uses (Maddy Osman)
+1. **Writer's block** -- AI helps step 1 to step 2, not step 1 to step 10
+2. **Word/phrase refinement** -- Wordtune for stuck phrases
+3. **Content optimization** -- ClearScope, Frase for gap analysis
+4. **Style enforcement** -- custom GPTs based on style guide
 
-1. **Set Up Content Scheduling** - Plan 3-6 months in advance
-2. **Build Content Calendar** - Assign keywords, writers, deadlines
-3. **Create Brand Voice Guide** - Consistent tone across all content
-4. **Implement Content Cluster Strategy** - Link money pages with supporting blogs
-5. **Monitor & Update** - Set 6-month refresh schedule for old content
-6. **Scale Production** - Hire writers, build templates, create editorial workflow
+### Risks
+- **Homogenization** -- everyone using AI gets identical outputs
+- **Legal risk** -- AI can produce plagiarized phrases
+- **Confidently incorrect** -- AI is wrong confidently; human editors over-relying on AI become less effective
+- **Google's stance** -- says AI is fine but emphasizes originality. Statistical probability models are not original
+
+### Guideline
+AI writes 80-90% of the content. You add your experience, your two cents. This is not set-and-forget. For full AI automation workflows, see ai-seo-content-automation.
+
+---
+
+## Brand Style Guide Requirements (Maddy Osman)
+
+### Essential Sections
+- Technical requirements (word count, punctuation)
+- Audience information and perspective (1st/2nd/3rd person)
+- Correct spellings of branded terms
+- Voice/tone definition
+- Text formatting specifics
+- Mission statements and content goals
+- Image guidelines (minimum width, brand style)
+- Submission/attribution guidelines
+
+### Maintenance
+- Style guides are living documents -- first attempt is rough draft
+- Update every 1-2 years
+- Reference: Mailchimp (vendor onboarding), Orbit Media (guest contributor), BuzzFeed (extreme detail), Microsoft (chatbot guidance), Atlassian (inclusive language)
+
+---
+
+## Content KPIs (Maddy Osman)
+
+Track these for every piece of content:
+- Organic traffic
+- Keyword rankings
+- Click-through rate (CTR via Search Console)
+- Bounce rate
+- Time on page
+- Backlinks earned
+- Conversions attributed to content
+- Page authority / domain authority growth

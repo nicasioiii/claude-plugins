@@ -5,16 +5,65 @@
     "email": "nicasioiii@gmail.com"
   },
   "metadata": {
-    "description": "Private plugin marketplace for Nic's business tools",
+    "description": "Private plugin marketplace for Nic's business tools — synthesized from expert courses across finance, sales, marketing, SEO, design, and operations.",
     "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "cfo-finance-mastery",
       "source": "./plugins/cfo-finance-mastery",
-      "description": "Comprehensive CFO-level financial analysis, modeling, forecasting, dashboards, profit optimization, and strategic advisory.",
+      "description": "CFO-level financial analysis, modeling, forecasting, dashboards, profit optimization, and strategic advisory.",
       "version": "1.2.0",
       "keywords": ["finance", "cfo", "forecasting", "modeling", "dashboards", "profit"]
+    },
+    {
+      "name": "cold-outbound-mastery",
+      "source": "./plugins/cold-outbound-mastery",
+      "description": "Cold email, LinkedIn outreach, cold calling, DM outreach, email infrastructure, and campaign operations.",
+      "version": "1.1.0",
+      "keywords": ["outbound", "cold-email", "linkedin", "cold-calling", "prospecting"]
+    },
+    {
+      "name": "cro-copywriting-mastery",
+      "source": "./plugins/cro-copywriting-mastery",
+      "description": "CRO and copywriting: customer research, positioning, page structure, headlines, copy flow, storytelling, email sequences, objection psychology.",
+      "version": "1.0.0",
+      "keywords": ["copywriting", "cro", "conversion", "landing-pages", "sales-pages"]
+    },
+    {
+      "name": "design-mastery",
+      "source": "./plugins/design-mastery",
+      "description": "Web design, UI components, Figma workflows, Webflow, Shopify themes, logo design, and brand identity systems.",
+      "version": "1.0.0",
+      "keywords": ["design", "ui", "figma", "webflow", "shopify", "branding"]
+    },
+    {
+      "name": "marketing-skills",
+      "source": "./plugins/marketing-skills",
+      "description": "18 marketing skills: CRO, email sequences, pricing, launch strategy, churn prevention, referral programs, marketing psychology.",
+      "version": "1.4.0",
+      "keywords": ["marketing", "cro", "pricing", "launch", "churn", "referral"]
+    },
+    {
+      "name": "paid-ads-mastery",
+      "source": "./plugins/paid-ads-mastery",
+      "description": "Google Ads and Meta Ads: account setup, campaign strategy, creative production (traditional + AI), optimization, scaling.",
+      "version": "1.0.0",
+      "keywords": ["ads", "google-ads", "meta-ads", "facebook-ads", "ppc"]
+    },
+    {
+      "name": "sales-negotiation-mastery",
+      "source": "./plugins/sales-negotiation-mastery",
+      "description": "Discovery, demos, objection handling, negotiation, closing, and pipeline management. From Chris Voss, Cole Gordon, Luke Alexander, Ryan Serhant.",
+      "version": "1.0.0",
+      "keywords": ["sales", "negotiation", "closing", "objections", "discovery"]
+    },
+    {
+      "name": "seo-mastery",
+      "source": "./plugins/seo-mastery",
+      "description": "Keyword research, content strategy, technical SEO, link building, local/ecommerce SEO at scale, and analytics.",
+      "version": "1.0.0",
+      "keywords": ["seo", "keywords", "content", "link-building", "technical-seo"]
     }
   ]
 }

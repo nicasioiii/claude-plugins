@@ -1,70 +1,33 @@
-# Nic's Claude Code Plugins
+# Nic's Claude Plugins
 
-Private plugin marketplace for custom Claude Code plugins.
+Private plugin marketplace — 8 plugins synthesized from expert courses.
 
-## Setup (One-Time)
+## Plugins
 
-### 1. Push this folder to a private GitHub repo
+| Plugin | Version | Skills | Commands |
+|--------|---------|--------|----------|
+| cfo-finance-mastery | 1.2.0 | 7 | 8 |
+| cold-outbound-mastery | 1.1.0 | 7 | 8 |
+| cro-copywriting-mastery | 1.0.0 | 11 | 8 |
+| design-mastery | 1.0.0 | 11 | 8 |
+| marketing-skills | 1.4.0 | 18 | 0 |
+| paid-ads-mastery | 1.0.0 | 10 | 7 |
+| sales-negotiation-mastery | 1.0.0 | 7 | 7 |
+| seo-mastery | 1.0.0 | 9 | 7 |
 
-```bash
-cd claude-plugins
-git init
-git add .
-git commit -m "Initial marketplace with cfo-finance-mastery v1.2.0"
-git remote add origin git@github.com:YOUR_USERNAME/claude-plugins.git
-git push -u origin main
-```
+## Setup
 
-### 2. Add the marketplace in Claude Code
+### Claude Code Desktop
+1. Settings > Plugins > Add marketplace
+2. Enter: `YOUR_USERNAME/claude-plugins`
+3. Install plugins: `/plugin install plugin-name@nic-plugins`
 
-Open Claude Code desktop, go to Settings > Plugins > Add marketplace, and enter:
-
-```
-YOUR_USERNAME/claude-plugins
-```
-
-Or via CLI:
-```bash
-/plugin marketplace add YOUR_USERNAME/claude-plugins
-```
-
-### 3. Install the plugin
-
-```bash
-/plugin install cfo-finance-mastery@nic-plugins
-```
+### Cowork
+Upload individual .plugin files, or sync from this repo.
 
 ## Updating Plugins
 
-When you update a plugin:
-
-1. Make your changes in `plugins/cfo-finance-mastery/`
-2. Bump the version in both:
-   - `plugins/cfo-finance-mastery/.claude-plugin/plugin.json`
-   - `.claude-plugin/marketplace.json`
-3. Push to GitHub
-4. In Claude Code, run: `/plugin marketplace update`
-
-## Adding New Plugins
-
-1. Create a new folder in `plugins/your-new-plugin/`
-2. Add `.claude-plugin/plugin.json` with name, version, description
-3. Add your skills/, commands/, agents/ as needed
-4. Add an entry to `.claude-plugin/marketplace.json` in the `plugins` array
-5. Push and sync
-
-## Current Plugins
-
-| Plugin | Version | Description |
-|--------|---------|-------------|
-| cfo-finance-mastery | 1.2.0 | CFO-level financial analysis, modeling, forecasting, dashboards, profit optimization |
-
-## Private Repo Auth
-
-For background auto-updates to work, set your GitHub token:
-
-```bash
-export GITHUB_TOKEN=ghp_your_token_here
-```
-
-For manual installs/updates, Claude Code uses your existing git credentials (gh auth, SSH keys, etc).
+1. Edit files locally
+2. Bump version in both `plugins/PLUGIN_NAME/.claude-plugin/plugin.json` AND `.claude-plugin/marketplace.json`
+3. Commit and push
+4. In Claude Code: `/plugin marketplace update`

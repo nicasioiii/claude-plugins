@@ -658,7 +658,19 @@ The marketplace repo is always at `/Users/Nic/Documents/GitHub/claude-plugins/`.
    cd /Users/Nic/Documents/GitHub/claude-plugins && npx @anthropic-ai/claude-code plugin validate .
    ```
 
-5. Ask the user: "Want me to commit and push to the marketplace repo?"
+5. **Update the root repo README.md** (`/Users/Nic/Documents/GitHub/claude-plugins/README.md`):
+   - This README contains a summary table of ALL plugins with version, skill count, and command count
+   - After every plugin build/rebuild/update, regenerate the table row for the affected plugin with ACTUAL counts from the filesystem:
+     ```bash
+     # Get actual counts for a plugin:
+     version=$(python3 -c "import json; print(json.load(open('plugins/[name]/.claude-plugin/plugin.json'))['version'])")
+     skills=$(ls -d plugins/[name]/skills/*/ | wc -l)
+     commands=$(ls plugins/[name]/commands/*.md | wc -l)
+     ```
+   - Also update the total plugin count in the description line if a new plugin was added
+   - **Do NOT skip this** — stale root README data is visible on GitHub and misleads users
+
+6. Ask the user: "Want me to commit and push to the marketplace repo?"
    - If yes: `git add . && git commit -m 'Add/update [plugin-name] v[version]' && git push`
    - If no: leave changes staged for manual review
 

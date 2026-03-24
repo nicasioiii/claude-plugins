@@ -1,6 +1,6 @@
 # Nic's Claude Plugins
 
-Private plugin marketplace — 8 plugins synthesized from expert courses.
+Private plugin marketplace — 9 plugins synthesized from expert courses.
 
 ## Plugins
 
@@ -8,10 +8,11 @@ Private plugin marketplace — 8 plugins synthesized from expert courses.
 |--------|---------|--------|----------|
 | cfo-finance-mastery | 1.2.0 | 7 | 8 |
 | cold-outbound-mastery | 1.1.0 | 7 | 8 |
-| cro-copywriting-mastery | 1.0.0 | 11 | 8 |
+| course-to-plugin | 2.1.0 | 1 | 2 |
+| cro-copywriting-mastery | 2.0.0 | 14 | 12 |
 | design-mastery | 1.0.0 | 11 | 8 |
 | marketing-skills | 1.4.0 | 18 | 0 |
-| paid-ads-mastery | 1.0.0 | 10 | 7 |
+| paid-ads-mastery | 2.0.0 | 16 | 8 |
 | sales-negotiation-mastery | 1.0.0 | 7 | 7 |
 | seo-mastery | 1.0.0 | 9 | 7 |
 

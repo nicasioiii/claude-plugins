@@ -1,187 +1,276 @@
 ---
-name: campaign-ops
-description: Manage, measure, and optimize cold outbound campaigns across all channels. Use when the user needs to track metrics, diagnose underperforming campaigns, build prospect lists, scale outbound operations, or orchestrate multi-channel outbound sequences. Covers KPIs, diagnostics, lead generation, list building, and campaign scaling. MANDATORY TRIGGERS: campaign metrics, reply rate, open rate, conversion rate, campaign performance, lead generation, list building, prospect list, outbound metrics, campaign optimization, scale outbound, multi-channel, campaign management, outbound KPIs, campaign diagnostics, deliverability, bounce rate, contact rate, DM conversion.
+name: Campaign Operations & Optimization
+description: >
+  MANDATORY TRIGGERS: campaign metrics, campaign benchmarks, diagnose campaign,
+  campaign audit, A/B testing, 10/10/80 method, scaling outbound, outbound volume,
+  send timing, tool stack, CRM setup, multichannel orchestration, campaign plan,
+  low open rate, low reply rate, low meeting rate, high bounce rate, spam rate,
+  domain rotation, send volume, scaling cold email, scaling cold calls, SDR hiring,
+  performance benchmarks, campaign diagnostics, what tools for outbound, when to
+  send emails, how many emails per day, campaign not working.
+  FOR: Running, measuring, and optimizing cold outbound campaigns end-to-end.
+  Covers campaign metrics and benchmarks by channel, A/B testing methodology
+  (10/10/80 method), diagnostic frameworks for underperforming campaigns,
+  scaling plans, tool stack selection, CRM setup, send timing optimization,
+  multichannel campaign orchestration, SDR hiring, and performance management.
+  This is the command center skill that ties all other skills together.
+  Do NOT use for: Writing outreach messages (use channel-specific skills),
+  infrastructure/DNS setup (use email-infrastructure), detailed list building
+  (use list-building), prospect research methodology (use prospect-research).
 ---
 
 # Campaign Operations & Optimization
 
-## Quick Start: Channel Benchmarks & KPI Targets
-
-### Email Campaigns
-- **Open Rate Target:** 80%
-- **Reply Rate Target:** 15%
-- **Meeting Book Rate:** 4-8% (per 100 emails)
-- **Bounce Rate:** <8%
-- **Volume per domain:** 50-100 emails/day (start conservative, scale gradually)
-
-### Cold Calling / Phone Outreach
-- **Contact Rate:** 46.5% (207 contacts from 445 calls)
-- **Contact-to-Appointment Rate:** 22.2% (46 appointments from 207 contacts)
-- **Overall Call-to-Meeting Rate:** ~10%
-- **Calling hours:** 8 AM - 9 PM (Monday-Saturday only, not Sunday/holidays)
-- **Target:** 3 qualified calls per day minimum
-
-### Direct Messages (DMs)
-- **Daily New Conversations:** 20-50
-- **Daily Follow-ups:** 100+
-- **Qualified Calls Target:** 3 per day
-- **Cold DM Conversion to Calls:** 2-5%
-- **Warm DM Conversion to Calls:** 10-20%
-- **Platform recommendations:** Primary (Facebook/Instagram), Secondary (LinkedIn/Twitter)
+## Quick Navigation
+- **Benchmarks & diagnostic trees** -> references/benchmarks-and-diagnostics.md
+- **A/B testing & scaling plans** -> references/ab-testing-and-scaling.md
+- **Tool stack reference** -> references/tool-stack-reference.md
 
 ---
 
-## Campaign Diagnostics: Decision Trees
+## When to Read Reference Files
 
-### Low Email Open Rates (Below 70%)
-**Step 1: Identify the root cause**
-- Low opens = deliverability issue OR subject line issue
-- **Test:** Send to new test email accounts on Gmail, Yahoo, Outlook, iCloud, Zoho
-- If emails land in SPAM/PROMO folders → Deliverability problem
-- If emails land in Primary Inbox → Subject line problem
-
-**Step 2: If deliverability issue**
-- Domain authentication: Check SPF, DKIM, DMARC records
-- Domain age/warmup: New domains need warmup (low volume first 30 days)
-- Volume check: Sending too many emails/domain? Scale back to 50-100/day max
-- List quality: High bounce rate = bad list quality. Validate with NeverBounce
-- Frequency: Are you sending too often to same list? Space out by 3+ days
-
-**Step 3: If subject line issue**
-- A/B test subject lines weekly
-- Benchmark: 80% open rate targets high-quality, personalized first lines
-- Common failures: Generic subject, too salesy, too long (>50 chars)
-
-### Low Reply Rates (Below 15%)
-**Step 1: Identify the root cause**
-- 80% of performance = email copy quality (not subject line, not opens)
-- Low replies despite good opens = your offer/copy is weak
-- No opens + no replies = deliverability + copy issues combined
-
-**Step 2: Review email copy**
-- **First line:** Is it a custom, personalized compliment? (NOT generic flattery)
-  - Good: "Saw you speaking at SaaS Conf 2024 about product-market fit"
-  - Bad: "Hi, your company looks great"
-- **Case study:** One-sentence proof of results for similar prospect
-  - Example: "Helped 12 ecommerce brands increase ROAS by 34% through [specific tactic]"
-- **Call to Action:** Yes/no question requesting meeting
-  - Good: "Quick question - are you open to exploring if we could add a similar result?"
-  - Bad: "Would you like to schedule a call?" (too much ask for cold)
-
-**Step 3: A/B test framework**
-- Test 1 variable per week (first line OR case study OR CTA)
-- Track replies per 100 emails sent
-- Winning variation gets rolled into next campaign
-- Never copy-paste winning emails; use as pattern reference only
-
-### Low Conversion Rate (Below 4-8% meetings booked)
-**Step 1: Are meetings happening?**
-- If people reply but don't book → Follow-up issue
-- If no one replies → Copy issue (see Low Reply Rates above)
-
-**Step 2: Follow-up sequences**
-- 70% of conversions happen in follow-ups, not initial email
-- Recommended sequence: Day 0 (initial) → Day 3 (follow-up 1) → Day 5 (follow-up 2) → Day 8 (follow-up 3)
-- Each follow-up should reference previous message, add new value, or shift angle
-- Example: "Were you able to see the case study I sent?" (reference) OR provide different angle/proof
-
-**Step 3: Meeting booking friction**
-- Is calendar link obvious? Add direct calendar booking link in first follow-up
-- Is timing objection blocking? ("Too busy now, maybe later") → Offer 2-3 specific dates
-- Is price objection blocking? (See Cold Email Wizard objection handling in references)
+| User Question Pattern | Load This Reference |
+|---|---|
+| Campaign benchmarks, target metrics, low opens/replies/meetings, diagnostic tree, what is a good open rate, why is my campaign not working, spam rate, bounce rate | references/benchmarks-and-diagnostics.md |
+| A/B testing, 10/10/80 method, what to test, scaling volume, send timing, domain rotation rules, how many emails per day, scaling plan | references/ab-testing-and-scaling.md |
+| Tool recommendations, which tools for cold email/calling/LinkedIn, CRM selection, sending tools, warmup tools, enrichment tools, what does X tool cost | references/tool-stack-reference.md |
 
 ---
 
-## Core Frameworks
+## THE CAMPAIGN OPERATIONS FRAMEWORK
 
-### The 3C Email Structure (Alex Berman)
-1. **Compliment** - Personalized opening line (researched, specific to them)
-2. **Case Study** - One-sentence proof of results for similar buyer
-3. **Call to Action** - Yes/no question (no links, no CTA buttons)
+Campaign ops sits at the top of the outbound pyramid. It does not create the outreach -- it orchestrates, measures, diagnoses, and scales all the other skills.
 
-### Product Marketing Context Check
-BEFORE running any outbound campaign: Confirm you understand the product's positioning
-- What problem does your product solve?
-- Who is the ideal customer profile (ICP)?
-- What specific metric/outcome do you deliver?
-- What's the price point / what deal size are we targeting?
-- Are we selling a new service or expanding existing relationships?
-
-If you can't clearly articulate these, the campaign will underperform regardless of execution.
-
-### A/B Testing Methodology
-- **Test Cadence:** Weekly (every 50-100 emails sent)
-- **One Variable:** Change only subject line, first line, case study, OR CTA (not multiple)
-- **Sample Size:** Minimum 100 emails per variation to achieve statistical significance
-- **Metric:** Track reply rate (replies / emails sent)
-- **Winning Variation:** Gets 50%+ of next batch; losing variation retired
-- **Pattern, Not Template:** Use winning framework to inform next test, don't copy-paste
-
-### List Segmentation Rules (Chris Orzechowski)
-Segmentation is how you maintain good deliverability and high engagement:
-- **Segment by engagement:** Cold prospects (never interacted) vs. warm (engaged before)
-- **Segment by source:** Different lists get different warmup timelines
-- **Segment by job title/industry:** Tailor copy to each segment
-- **Frequency:** Cold lists = lower frequency (2x/week max); warm lists = higher frequency
-- **Test results:** Never send the same email to a list that previously rejected it
+### The Campaign Lifecycle
+1. **Plan:** Define channels, volume, personas, sequences, tools, timelines
+2. **Launch:** Start sequences at conservative volume with proper warmup
+3. **Measure:** Track benchmarks daily/weekly by channel
+4. **Diagnose:** When metrics are below benchmarks, identify the bottleneck
+5. **Optimize:** Fix the bottleneck using the appropriate skill
+6. **Scale:** Increase volume once metrics are healthy
 
 ---
 
-## Campaign Scaling Checklist
+## BENCHMARK QUICK REFERENCE
 
-### Phase 1: Foundation (Weeks 1-2)
-- [ ] Define ICP clearly (company size, industry, role, pain point)
-- [ ] Build initial list of 100-200 leads manually (use Apollo.io or Seamless.ai)
-- [ ] Write 3-5 variations of first lines (test different angles)
-- [ ] Validate domain authentication (SPF, DKIM, DMARC records configured)
-- [ ] Warm domain: Send 10-20 emails/day for first 3 days
-- [ ] Track: opens, replies, meetings booked in simple spreadsheet or CRM
+### Cold Email Benchmarks
+| Metric | Target | Danger Zone |
+|---|---|---|
+| Open rate | >50% (Berman); >30% (30MPC minimum) | <30% |
+| Reply rate | >5% (Berman); >2% (30MPC minimum) | <2% |
+| Bounce rate | <2% optimal; <5% acceptable | >5% |
+| Spam rate | <0.3% (Google/Yahoo requirement) | >0.3% |
+| Positive reply rate | >1% | <0.5% |
 
-### Phase 2: Optimization (Weeks 3-4)
-- [ ] A/B test subject lines and first lines (sample size: 100+ each)
-- [ ] Identify winning first line angle
-- [ ] Review follow-up sequences (expecting 70% of replies in follow-ups)
-- [ ] Scale volume to 50-100 emails/day if opens > 70% and bounce < 8%
-- [ ] Segment list: cold vs. warm; A/B test separately
+### Cold Calling Benchmarks (The Golden 3)
+| Metric | Average Rep (50th %ile) | Top Rep (75th %ile) |
+|---|---|---|
+| Connect rate | 5.5% | 13.3% |
+| Set rate | 4.6% | 16.7% |
+| Show rate | Varies | Target 80%+ |
 
-### Phase 3: Scale (Weeks 5+)
-- [ ] Add second domain (repeat Phase 1 warmup)
-- [ ] Expand list: Apollo.io, Seamless.ai, UpLead, or manual LinkedIn research
-- [ ] Implement multi-channel: Email → LinkedIn (day 3) → Phone (day 5)
-- [ ] Hire SDR: For follow-ups, phone calls, and objection handling
-- [ ] Track KPIs: Meetings booked per 1000 emails, cost per meeting, show-up rate
+On 800 dials/month: Average rep books 2 meetings. Top rep books ~18 meetings. Same dials, 13x the results.
 
-### Adding Domains for Scale
-- First domain: 50-100 emails/day (sustainable long-term)
-- Second domain: New domain = repeat warmup process (low volume first 14 days)
-- Each domain adds 50-100 email capacity
-- To scale to 500+ emails/day: Need 5-10 domains
+### LinkedIn Benchmarks
+| Metric | Target |
+|---|---|
+| Connection acceptance rate | 40-50%+ |
+| Call book rate (Level 1 neutral) | 5-10% |
+| Call book rate (profile viewers) | 10-20% |
+| Call book rate (content engagers) | 15-25% |
+| Weekly activity | 200 connection requests, 80-100+ accepted |
 
-### Hiring First SDR
-- **First SDR focus:** Follow-ups and objection handling (phone/email)
-- **KPI:** 3 qualified calls per day minimum
-- **Training:** Provide 5-10 successful email threads as pattern reference
-- **System:** Use shared CRM; SDR works from CRM, not email
-- **Measurement:** Show-up rate to scheduled calls (target: 80%+)
+### DM Benchmarks (Facebook/Instagram)
+| Metric | Target |
+|---|---|
+| Daily new conversations | 100 new / 50-100 follow-ups (Instagram) |
+| Conversation to call rate | Varies by pain level discovered |
+| Show-up rate | Target 80%+ with reminder sequences |
 
 ---
 
-## Quick Reference: When to Use This Skill
+## THE DIAGNOSTIC FRAMEWORK
 
-✓ Campaign is underperforming (low open rate, reply rate, meetings)
-✓ Want to scale from 100 to 1000+ emails/day
-✓ Need to add new channels (LinkedIn, phone, DMs) to email
-✓ Building prospect list and need tool recommendations
-✓ List quality issues (bounces, low engagement)
-✓ Setting up KPI tracking and analytics
-✓ Hiring SDR team for outbound
-✓ Infrastructure setup (domains, email, CRM)
-✓ Creating A/B testing plan for campaign
-✓ Objection handling during follow-ups
+When a campaign underperforms, do NOT change everything at once. Diagnose the specific bottleneck:
 
-See the references directory for:
-- **metrics-benchmarks.md** - All metrics by channel
-- **diagnostics.md** - Detailed troubleshooting trees
-- **list-building.md** - Lead gen tools and processes
-- **multi-channel.md** - Email + LinkedIn + Phone + DMs sequencing
-- **scaling.md** - How to scale operations and hire
+### Email Diagnostic Tree
+
+```
+LOW OPEN RATE (<30%)
+  -> Check subject lines (boring? too long? gimmicky?)
+  -> Check deliverability (spam folder? blacklisted?)
+  -> Check lead quality (right ICP? valid emails?)
+  -> Check send timing (sending at midnight?)
+  -> Action: Fix subject lines first, then deliverability
+
+LOW REPLY RATE (>30% opens but <2% replies)
+  -> Check email copy (too long? too generic? no problem language?)
+  -> Check case study/social proof (missing? irrelevant?)
+  -> Check CTA (asking for time? too aggressive?)
+  -> Check personalization (template-obvious? stale data?)
+  -> Action: Fix copy and CTA first, test new angles
+
+LOW MEETING RATE (replies but no meetings)
+  -> Check follow-up speed (responding within minutes?)
+  -> Check follow-up sequence (only one follow-up?)
+  -> Check CTA in replies (still not asking clearly?)
+  -> Check calendar friction (too many steps to book?)
+  -> Action: Fix follow-up and booking mechanics
+
+HIGH BOUNCE RATE (>5%)
+  -> Check list quality (verified emails? recent data?)
+  -> Check targeting (job changers? stale list?)
+  -> Action: Verify emails with NeverBounce before sending
+
+HIGH SPAM RATE (>0.3%)
+  -> Check content (spam words? HTML? images? links?)
+  -> Check authentication (SPF/DKIM/DMARC configured?)
+  -> Check warmup (did you skip warmup? volume too high?)
+  -> Check domain reputation (blacklisted? new domain?)
+  -> Action: Pause campaign, fix infrastructure first
+```
+
+### Cold Call Diagnostic Tree
+
+```
+LOW CONNECT RATE (<5%)
+  -> Calling mobile or direct lines? (gatekeepers kill connect rate)
+  -> Data quality? (bad numbers, wrong contacts)
+  -> Calling at right times? (8-10 AM or 4-5 PM best)
+  -> Phone number spam-tagged? (check at freecallerregistry.com)
+
+LOW SET RATE (connecting but <5% meetings)
+  -> Opener working? (using canned "bad time?" opener?)
+  -> Problem proposition specific enough? (Hairy Lollipop Test)
+  -> Handling objections or arguing? (use Miyagi method)
+  -> Calling right persona? (too junior = no authority)
+  -> Calling right timing? (A-tier triggers vs C-tier?)
+
+LOW SHOW RATE (<70%)
+  -> Sending day-before confirmation?
+  -> Sending day-of text?
+  -> Using no-show protocol? (2-min, 5-min, 8-min escalation)
+  -> Booking too far out? (>5 days = show rate drops)
+```
+
+---
+
+## SEND TIMING OPTIMIZATION
+
+### Cold Email
+| Day | Rating | Notes |
+|---|---|---|
+| Tuesday | Best | Most data supports Tuesday sends |
+| Wednesday | Strong | Second-best day across sources |
+| Thursday | Good | Consistent performer |
+| Monday | Acceptable | People catching up; emails buried |
+| Friday | Weak | Winding down, lower engagement |
+| Saturday/Sunday | Avoid | Very low open/reply rates |
+
+**Best times:** 8-10 AM in the prospect's timezone. Some data supports 6-7 AM for early inbox placement.
+
+### Cold Calls
+- **Best days:** Wednesday and Thursday
+- **Best times:** 8-10 AM and 4-5 PM
+- **Block these windows** in your calendar and protect them for calling only
+
+### LinkedIn DMs
+- **Send connection requests:** 8 AM - 11 AM prospect's timezone, Mon-Thu
+- **Send DMs:** Business hours in prospect's timezone
+- **Separate searches by geography** to send during appropriate time zones
+
+---
+
+## MULTICHANNEL ORCHESTRATION
+
+### The K.I.S.S. Weekly Touch Pattern (30MPC)
+
+**Week 1:**
+- Day 1 (Tuesday): Triple tap -- Call + voicemail + email + social touch
+- Day 3 (Thursday): Double tap -- Call + email
+
+**Week 2:**
+- Day 1 (Tuesday): Triple tap with new problem angle, new email subject
+- Day 3 (Thursday): Double tap
+
+**Week 3-4:**
+- "Get the truth" / breakup emails
+- Phase out calls, keep email + LinkedIn
+
+### Key Sequencing Stats
+- 70% of replies come from emails sent AFTER the first email
+- One-off emails have <1% chance of reply
+- Adding phone calls nearly doubles reply rate
+- Phone + voicemail = 3.24x increase in reply rate
+- Triple taps = 3.1x increase in contact rates
+
+### Two Tiers of Sequences
+
+**High Effort (A/B-tier accounts):**
+- Manual phone calls
+- Personalized emails
+- LinkedIn touches
+- Full triple/double tap pattern
+- Two deeply personalized long emails per sequence
+
+**Low Effort (C-tier accounts):**
+- Automated/templated emails OR automated + call people who open
+- Pervasive problems instead of personalized triggers
+- Same structure but templated
+- "Not sure if you're running into this, but..." language
+
+---
+
+## SDR HIRING AND MANAGEMENT
+
+### Hiring Criteria
+- Experienced only: $5K-10K+ earned on Upwork, 90-95%+ job success
+- Native to target country (timezone, language, accent match)
+- Filter question in job post: "First words of cover letter should be: umbrella-avocado"
+- Problem-solving question: "What would you do if you called a prospect and it was the wrong number?"
+- 1-2 week trial basis, renew based on performance
+
+### SDR Commission Structure (Tiered)
+| Appointments/Month | Commission |
+|---|---|
+| 1-25 | 15% |
+| 25-50 | 20% |
+| 50-75 | 25% |
+| 75-100 | 30% |
+| 100+ | 40% |
+
+### SDR Management
+- Provide: value prop, case studies, offer, CTA, decks/slides
+- Set KPIs: expected calls per hour/day, expected appointments per hour/day
+- End-of-day reports: calls made, calls booked, follow-up notes
+- Training: review 3-5 random recorded calls per week; provide feedback
+
+---
+
+## CROSS-REFERENCES
+
+| Situation | Go To |
+|---|---|
+| Deliverability issues diagnosed | `email-infrastructure` skill |
+| Copy/subject lines need improvement | `cold-email-copy` skill |
+| First lines are too generic | `first-lines` skill |
+| List quality is the bottleneck | `list-building` skill |
+| Call framework needs work | `cold-calling` skill |
+| LinkedIn DMs underperforming | `linkedin-outreach` skill |
+| DM conversations not converting | `dm-outreach` skill |
+| Follow-up cadence problems | `follow-up-sequences` skill |
+| Research angles are weak | `prospect-research` skill |
+| Team morale/fear issues | `outbound-psychology` skill |
+
+---
+
+## KEY DATA POINTS
+
+- 80% of B2B buyers prefer email contact (Ring Group)
+- 58% of meetings buyers take with reps are a complete waste of time
+- Only 3% of your market is in active buying mode at any time
+- 80% of successful cold email sales happen after 5+ follow-ups
+- Only 8-10% of people have a proper structure of 5+ emails
+- 8 seconds is the time a prospect spends reading an email after opening
+- Voicemails have 90%+ open rate (prospect at least sees transcription)

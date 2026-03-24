@@ -1,369 +1,184 @@
 ---
-name: cold-calling
-description: Build and execute cold calling campaigns. Use when the user wants cold calling scripts, objection handling frameworks, gatekeeper strategies, voicemail templates, or help setting up phone-based prospecting operations. Also covers hiring and managing SDRs. MANDATORY TRIGGERS: cold call, cold calling, phone prospecting, objection handling, gatekeeper, voicemail, SDR, sales development rep, phone script, calling script, dialer, appointment setting, phone outreach.
+name: Cold Calling
+description: >
+  Phone-based outbound: call structure, openers, problem propositions, objection handling, gatekeeper
+  bypass, voicemails, tone mastery, call metrics, SDR hiring, and appointment setting. Synthesizes
+  the 30MPC framework (Context-First Openers + Problem Proposition + Mr. Miyagi objections) with
+  Sean Longden's 7-step framework and AREQ objection handling.
+  MANDATORY TRIGGERS: cold calling, cold call, phone outreach, call script, call opener, objection
+  handling phone, gatekeeper, voicemail, SDR, appointment setting, cold call framework, dial,
+  connect rate, set rate, problem proposition.
+  FOR: SDRs, BDRs, agency owners, founders doing outbound phone prospecting, sales teams building
+  cold call playbooks, appointment setters calling on behalf of clients.
+  Do NOT use for: Writing cold emails (use `cold-email-copy`), DM conversation scripts (use
+  `dm-outreach`), sales call closing / negotiation (use sales-negotiation-mastery plugin),
+  post-meeting follow-up (use `follow-up-sequences`).
 ---
 
-# Cold Calling Mastery: The Complete Framework
+# Cold Calling
 
-## Executive Summary
+## Source Synthesis
 
-This skill covers the complete cold calling framework built on 5,000+ personal cold calls. The methodology focuses on **appointment-setting and closing** with proven success metrics: 46.5% call-to-contact rate and 22.2% contact-to-appointment conversion.
+This skill synthesizes two primary sources:
+- **30MPC (Armand Farrokh & Nick Cegelski)** -- Data-backed cold calling framework using Gong analysis of 300M+ cold calls. Three-step system: Context-First Openers + Problem Proposition + Mr. Miyagi objection handling. Enterprise/mid-market focused.
+- **Sean Longden -- Conquer Cold Calling** -- Practical cold calling for agencies and service businesses. 7-step structure, AREQ objection handling, gatekeeper scripts, SDR hiring, appointment setting for clients.
 
-**Key Benchmarks:**
-- Call-to-contact success rate: 46.5% (207 contacts from 445 calls)
-- Contact-to-appointment success rate: 22.2% (46 appointments from 207 contacts)
-- Best calling days: Wednesday-Thursday
-- Best calling times: 8-10 AM and 4-5 PM
-- Voicemail length: 20-25 seconds maximum
-- First impression window: 5 seconds
-
----
-
-## 1. The Core 7-Step Call Structure
-
-This is the foundation of everything. Structure is more important than scripts—it keeps you in control when prospects throw curveballs.
-
-### Step 1: Opening Statement / Intro
-**Purpose:** Identify yourself, where you're from, make a good first impression
-
-- Be direct and to the point
-- NO small talk ("How are you?" wastes everyone's time)
-- Use confident tonality to position yourself as an expert
-- Example: "Hi John, it's Sean from Company"
-
-### Step 2: Why You Reached Out
-**Purpose:** Explain why you called them specifically; position yourself using your value proposition
-
-- Use your value proposition (not "I'm calling to see if you need...")
-- Include case studies and social proof if available
-- Build credibility
-- Example: "I reached out because we specifically help marketing agencies get on the phone with ideal clients every month using personalized email, LinkedIn, and cold call outreach. We recently helped XYZ company [results], and I thought we might be able to do something similar for you."
-
-### Step 3: Identify a Need
-**Purpose:** Determine if they have a problem/opportunity you can solve
-
-- Ask a question that's hard to say no to
-- Example: "Is generating new leads and increasing revenue a priority for you?"
-- If they say yes, you've identified a buyer
-- If they say no, they're likely lying (almost everyone wants growth)
-
-### Step 4: Qualify Them
-**Purpose:** Make sure they meet your ideal buyer criteria before proceeding
-
-- Ask qualifying questions (revenue, company size, case studies, deal size, industry, employees, etc.)
-- They've already shown interest—now confirm they qualify
-- If they don't qualify, be honest: "Let's leave it there. I don't think this would be a good fit for our service."
-
-### Step 5: What You Can Do For Them
-**Purpose:** Outline exactly what you'd do to solve their identified problem (step-by-step)
-
-- Spell out your exact process step-by-step
-- Highlight what makes you different from competitors
-- Include ROI expectations based on their situation
-- Example: "John, here's what we'd do: [Step 1], [Step 2], [Step 3]... This is different because [your USP]. Based on your deal size and customer lifetime value, you could expect [ROI]."
-
-### Step 6: Close / Call to Action (CTA)
-**Purpose:** Ask them to commit to your CTA (second call, appointment, demo, etc.)
-
-- Be direct: "Could we arrange a time...?"
-- Your CTA depends on your business model
-- Get their mobile number and email
-- **Critical:** Ask about decision-makers: "Let's say you love what we come up with—who makes that decision?" Get all decision-makers on the call.
-
-### Step 7: Handle Objections
-**Purpose:** Address any hesitations and bring them back to the CTA
-
-- Use the ACE principle: Acknowledge → Repeat → Empathize → Question
-- Relate the objection to your value proposition
-- Return to Step 6 (the close) after handling
-- See objection-handling.md for complete scripts
+**Where sources disagree:**
+- **Scripts vs. structure:** Longden provides detailed scripts; 30MPC explicitly says structure > scripts. **Resolution:** Teach the framework/structure first. Provide scripts as examples to study, not to read verbatim. When you memorize scripts, you lose track when curveballs come. When you internalize structure, you adapt.
+- **Opening approach:** Longden goes straight to value prop after introduction. 30MPC leads with prospect-relevant context before introducing self. **Resolution:** Both agree on no "how are you?" 30MPC's context-first approach has higher success rates (11% vs 2-7% per Gong data). Use context-first when you have research; Longden's direct approach as fallback.
+- **Objection method:** 30MPC uses Mr. Miyagi (agree/incentivize/test drive). Longden uses AREQ (acknowledge/repeat/empathize/question). **Resolution:** Both are effective. Mr. Miyagi is more nuanced and data-backed. AREQ is simpler and faster to learn. Start with AREQ, graduate to Mr. Miyagi as you gain experience.
 
 ---
 
-## 2. Critical Framework Rules
+## When to Read Reference Files
 
-### Rule 1: First Call ≠ Closing Call
-Your initial goal is NOT to close. You're arranging an appointment or second call where you can dedicate focused time to closing. Exception: If they're highly interested and the opportunity to close presents itself.
-
-### Rule 2: Overcoming Fear of Calling (6 Steps)
-1. **Understand what you fear** (rejection, sounding stupid, embarrassment)
-2. **Remember your why** (clients, money, goals)
-3. **Do your research** (understand the industry—reduces anxiety)
-4. **Know your worth** (you're a problem solver, not a pushy salesperson)
-5. **Practice constantly** (record calls, analyze, improve)
-6. **Embrace rejection** (rejection = non-buyer; focus on buyers instead)
-
-### Rule 3: Listening > Talking
-- Prospects want to be heard, not sold to
-- Show verbal cues: "Mm-hmm," "I see," "Right"
-- Pause before responding (shows you've thought about what they said)
-- Repeat things back to them to show understanding
-- Control the call through questions, not statements
-
-### Rule 4: Personalization (After Interest)
-- Only use personal information AFTER you've built interest
-- Research their LinkedIn, Twitter, blogs, podcasts, press releases
-- Reference it naturally in conversation
-- Example: "I listened to the podcast you did with X. I thought it was fantastic."
-
-### Rule 5: Value Proposition is Non-Negotiable
-Every cold call should include your value prop:
-- "We help [target audience] [achieve this outcome] using [your method]"
-- Position it so they can't say no
-- Example: "We help marketing agencies get on the phone with ideal clients every month using personalized email, LinkedIn, and cold call outreach."
+| Situation | Reference File |
+|-----------|---------------|
+| Building call frameworks, openers, problem propositions | `references/cold-call-frameworks.md` |
+| Handling specific objections (budget, competitor, send info, etc.) | `references/objection-handling-phone.md` |
+| Gatekeeper bypass, voicemails, call metrics, SDR management | `references/gatekeeper-voicemail-metrics.md` |
 
 ---
 
-## 3. Best Days & Times to Call
+## The 30MPC Three-Step Framework
 
-**Best Days:** Wednesday and Thursday
-- Monday: Catching up from weekend (distracted)
-- Tuesday: Good but not as good as Wed/Thu
-- Wednesday-Thursday: In work mode, focused
-- Friday: Getting ready for weekend
+The entire cold call consists of three components in sequence:
 
-**Best Times:** 8-10 AM and 4-5 PM
-- Block these on your calendar
-- Dedicate these times purely to cold calling
+### 1. Context-First Opener
+Break the telemarketer perception in the first 5 seconds. Lead with something about THEM so the call cannot possibly be canned.
 
----
+### 2. Problem Proposition
+Describe the problem so specifically it triggers a memory and creates a visual. Then explain your solution in ONE sentence.
 
-## 4. Legal Compliance (US & UK)
+### 3. Mr. Miyagi Objection Handling
+Redirect the objection's momentum instead of blocking head-on. Agree, incentivize conversation, sell the test drive (not the car).
 
-### United States
-- **Hours:** 8 AM - 9 PM only (no early/late calls)
-- **Days:** Monday-Saturday only (NO Sunday/holidays)
-- **Do Not Call Registry:** Calling registered companies = $40,000 fines
-- **Recording:** Disclose at start: "This call is being recorded for quality and training purposes"
-- **Check registry:** https://telemarketing.donotcall.gov
-
-### United Kingdom
-- **Hours:** 8 AM - 9 PM only
-- **Days:** Monday-Saturday only (NO Sundays/bank holidays)
-- **TPS (Telephone Preference Service):** Similar to Do Not Call
-- **GDPR:** If prospect asks you to remove info, do so immediately
-- **Recording:** Inform immediately at start of call
-- **Check TPS:** https://www.tpsonline.org.uk
+**Core principle:** Get the prospect to forget it is a cold call. Reveal the human behind the phone, demonstrate authority, and show you can listen.
 
 ---
 
-## 5. Warming Prospects Before Calling
+## Opener Success Rate Data (Gong, 300M Cold Calls)
 
-Cold calls have lower acceptance. Warm them first:
+| Opener | Success Rate |
+|--------|-------------|
+| "Did I catch you at a bad time?" | 2.15% |
+| "How's your day going?" | 7.25% |
+| Tailored Permission Opener | 11.18% |
+| Heard the Name Tossed Around | 11.25% |
 
-### Three-Part Warming Sequence
-1. **Send an email** (value-driven, no immediate pitch)
-2. **Connect on LinkedIn** (request, engage with content)
-3. **Engage with their content** (like, comment, share thoughtfully)
+Context-first openers deliver 2-3x the success of canned openers.
 
-### When to Call Warmed Prospects
-- **Immediately after they reply:** Call right away (warmth degrades quickly)
-- **If they opened email + accepted LinkedIn:** Call them (they've shown interest)
-- **After multiple touchpoints:** They're familiar with you and more likely to accept
-
----
-
-## 6. Anti-Patterns (What NOT to Do)
-
-1. **Small talk** - Don't ask "How are you?" on cold calls
-2. **Over-selling tonality** - Don't sound like every other salesperson
-3. **Over-explaining price** - After stating price, go silent. Don't justify.
-4. **Skipping qualification** - Qualify properly; don't waste time on poor fits
-5. **Lying to gatekeepers** - Don't say they're expecting you if they're not
-6. **Befriending gatekeepers** - Use confidence and assurance instead
-7. **Not recording calls** - You can't improve without analyzing calls
+### Banned Openers
+1. "Did I catch you at a bad time?" -- Subservient, inferior position.
+2. "How's your day going?" -- You don't care, they know it, every telemarketer uses it.
+3. "Is this [Name]?" -- Makes it obvious you don't know them.
 
 ---
 
-## 7. Gatekeeper Strategy (Quick Reference)
+## Problem Proposition
 
-**DO:**
-- Act like you're an equal or higher in hierarchy
-- Speak with urgency and assurance (not rudeness)
-- Use silence to throw them off
-- Give minimal information
-- Position yourself as someone worth putting through
+### Why Problems Beat Value Props (Gong Data)
+- Buzzwords/value language: 5.5% success
+- Problem language: 16% success
+- Problem language is 3x more effective
 
-**DON'T:**
-- Lie
-- Sound like a salesperson
-- Treat them as an enemy
-- Be rude
-- Over-explain
+### Structure
+1. **Triggering problem** -- Describe so specifically it creates a visual of a crappy situation
+2. **One-sentence solution** -- "We do X so that the problem goes away"
+3. **Interest-based CTA** -- Validate interest only. Don't ask for a meeting.
 
-See gatekeeper-scripts.md for complete word-for-word script.
+### The Hairy Lollipop Test
+Imagine dropping a lollipop on a shag rug. That level of visceral specificity is what your problem needs to create. If you cannot literally see the problem, it is not specific enough.
 
----
-
-## 8. Voicemail Strategy (3 Tactics)
-
-### Tactic 1: Don't Leave (First/Second Call)
-**For local businesses** operating on mobile phones where missed calls might make them wonder who you are and call back.
-- Don't leave voicemail on call 1-2
-- They may call back out of curiosity
-- After call 3 with no response, move to tactics 2 or 3
-
-### Tactic 2: Be Vague
-"Hi John, it's Sean. Can you give me a call on [number]? Again, that's [number]. Thanks!"
-- Sounds familiar, makes them curious
-- Likely to call back wondering who you are
-
-### Tactic 3: Value Prop Voicemail
-"Hi [name], it's [your name] from [company]. Is generating new leads and increasing revenue a priority for you? We have just helped [client] generate [results]. Could you give me a call please on [number] - again that's [number]. Thank you!"
-
-**Critical:** Leave your number TWICE (they might miss it the first time).
+### Chunk Up for Senior Personas
+- Below the line (managers/directors): Speak to the day-to-day process problem
+- Above the line (VP/C-suite): Attach a business problem to the process problem
 
 ---
 
-## Scope Note
+## Interest-Based CTAs (Never Ask for Time)
 
-**Scope Note:** This skill covers cold calling for appointment setting only. For closing calls, objection handling during sales conversations, and negotiation frameworks, use the `sales-negotiation-mastery` plugin.
+**Bad CTAs (too heavy):**
+- "Are you free at 10 or 2 Eastern?"
+- "Would you like to meet with a specialist?"
 
----
+**Good CTAs (validate interest only):**
+- "I know I totally cold called you out of the blue, but would you be open to learning more sometime?"
+- "Did any of that even sound moderately interesting?"
 
-## 10. Managing SDRs (Sales Development Reps)
-
-### Hiring
-- Only hire experienced SDRs (5,000-10,000+ calls minimum)
-- Use pyramid commission structure (15-40% based on volume)
-- Hire someone native to the country you're contacting
-- Use trial period (1-2 weeks) before committing
-
-### Managing
-- Provide everything: scripts, case studies, offers, marketing materials, Go High Level setup, calendar access
-- Set clear KPIs: calls per day, appointments per day, etc.
-- Request daily reports: calls made, appointments booked, follow-up notes
-- Train continuously: record calls, review 3-5 per week, provide feedback
-- Incentivize: pyramid commission motivates growth
+Two parts: (1) Acknowledge the cold call, (2) Ask if they're open. One decision at a time.
 
 ---
 
-## 11. KPIs and Performance Tracking
+## The Golden 3 Metrics
 
-### Key Metrics
-- **Total calls made:** Your volume
-- **Total contacts made:** Conversations with decision makers
-- **Appointments set:** Successful CTAs
-- **Calls → Contacts rate:** (Contacts ÷ Calls) = 46.5% benchmark
-- **Contacts → Appointments rate:** (Appointments ÷ Contacts) = 22.2% benchmark
+| Metric | Average Rep (50th %ile) | Top Rep (75th %ile) |
+|--------|------------------------|---------------------|
+| Connect Rate | 5.5% | 13.3% |
+| Conversations (from 800 dials) | 43 | 106 |
+| Set Rate | 4.6% | 16.7% |
+| Meetings Booked | 2 | ~18 |
 
-### Real Benchmark Data
-- 445 calls → 207 contacts → 46 appointments
-- Weekly goals: 100 calls, 50 contacts, 5 appointments
-
-Track daily by day of week to identify patterns. Success rates fluctuate week to week—consistency comes from continuous improvement, not just volume.
+Same dials, 13x the results. The #1 rep is never #1 on the activity board -- they accomplish in 200 dials what most accomplish in 400.
 
 ---
 
-## 12. Tools & Software Stack
+## Longden's 7-Step Framework
 
-### Core Calling Setup
-- **Go High Level:** CRM, smart lists, power dialer, call recording, automation
-- **Twilio:** Local numbers based on prospect location (dramatically increases answer rates)
-- **Apollo.io:** Lead scraping, phone number sourcing ($99/month, includes 50 mobile numbers)
-- **Seamless.ai:** Alternative lead enrichment ($147/month)
+1. **Opening Statement** -- Identify yourself, be direct, no small talk. "Hi John, it's Sean from Company."
+2. **Why You Reached Out** -- Value proposition + case study.
+3. **Identify a Need** -- Ask a question tied to value prop that's hard to say no to.
+4. **Qualify** -- Revenue, size, decision-making authority.
+5. **What You Can Do** -- Step-by-step outline, expected ROI, minimize their effort.
+6. **CTA / Close** -- "Could we arrange a time for a demo?"
+7. **Handle Objections** -- Address using value prop, loop back to CTA.
 
-### Supporting Tools
-- **LinkedIn:** Research, warming, engagement
-- **Google Sheets/CRM:** Tracking KPIs and performance
-- **Recording Tool:** Record calls through Go High Level to analyze
-
----
+**Primary objective of first call:** NOT to close. Goal is to set an appointment. Exception: if opportunity clearly presents itself.
 
 ---
 
-## 14. First Impression Rules
+## Tone Mastery (5 Universal Tips)
 
-**5-Second Window:** The prospect decides if you're worth listening to in first 5 seconds.
-
-**Five Tips:**
-1. **Be direct yet appreciative** - Don't do small talk; get straight to the point with confidence
-2. **Speak with confidence** - Sounds like you know what you're talking about
-3. **Stand up** - Physical presence affects your tonality (prospect hears it)
-4. **Be different** - "Can I have 20 seconds to tell you why I'm calling?"
-5. **Record and improve** - Practice on non-leads, analyze, perfect delivery
+1. **Slow down** -- The higher up the chain, the slower people talk. Talk uncomfortably slowly.
+2. **Laugh** -- Counter tough reactions with humor. Shows comfort and confidence.
+3. **Kill uptones** -- Rising inflection makes you sound junior. End with downtones. Chin down.
+4. **Speak like a human** -- Record calls, compare to how you sound with friends. Kill the telemarketer voice.
+5. **Move your body** -- Sit back, relax, feet up. Physical relaxation = confident tone.
 
 ---
 
-## 15. Decision-Making Authority
+## Legal Compliance
 
-**Before you finish ANY first call, ask:**
-"Let's say you love what we come up with and want to work with us—who makes that decision?"
-
-If someone else is involved: "Can we get [that person] on the call too?"
-
-Get all decision-makers on the call. This is critical for closing.
-
----
-
-## 16. Two Critical Questions BEFORE Calling
-
-### 1. Do You Understand the Product/Service You're Selling?
-- Know the benefits inside and out
-- Know your unique selling proposition
-- Know the ROI you can deliver
-- Know the value proposition
-
-### 2. Check Product Marketing Context
-Before calling prospects, ensure:
-- Your offering aligns with market demand
-- Your value prop is clear and compelling
-- You can articulate why they need this NOW
-- You have social proof/case studies ready
-- You understand their industry and pain points
-
-If you can't answer these, you'll struggle on calls. Use this as a checklist before launching any campaign.
+- **US/UK calling hours:** 8 AM to 9 PM, Monday through Saturday
+- No calls on Sundays or public holidays
+- **US:** National Do Not Call Registry -- fine up to $40,000 per violation
+- **UK:** Telephone Preference Service (TPS)
+- **Recording:** Must notify at beginning of call (one/two party consent)
+- **GDPR:** If prospect asks to remove info, you must comply
 
 ---
 
-## 17. Contrarian Insights
+## Optimal Call Timing
 
-1. **Structure > Scripts** - Structures keep you in control; scripts are rigid
-2. **Listening > Talking** - Prospects want to be heard; use questions to control
-3. **First call shouldn't close** - Close on the second call after identifying needs
-4. **Rejection is good** - Rejection = non-buyer; focus on actual buyers
-5. **Personalization (after interest) stands out** - No one does this on cold calls
-6. **Speed of response matters** - Call immediately when they reply
-7. **Decision-makers are critical** - Don't settle for influencers
-8. **Commission structures incentivize growth** - Pyramid commission = more appointments
-9. **Warming prospects improves results** - Warm calls have much higher acceptance
-10. **Local numbers game-changer** - Twilio local numbers dramatically increase answer rates
+- **Best days:** Wednesday and Thursday
+- **Best times:** 8-10 AM and 4-5 PM
+- Block these windows in your calendar, dedicate purely to cold calling
 
 ---
 
-## 18. The Warming Sequence (Summary)
+## The 200-Dial Challenge
 
-**Email → LinkedIn → Engagement → Call**
-
-1. Send value-driven email (no pitch)
-2. Connect on LinkedIn (personalized request)
-3. Engage with their content (like, comment, share)
-4. Call when they've opened email or accepted LinkedIn
-5. Reference previous touchpoints to show familiarity
+Commit to 200 cold calls every week for 4 weeks straight. This builds the habit permanently. Practice openers while walking (10,000+ reps over a career). Connect rates are usually under 5% -- do NOT practice in the game. Get 30 reps in 30 minutes off the phones.
 
 ---
 
-## Quick Reference: Seven-Step Call Structure
+## Cross-References
 
-| Step | Purpose | Key Action |
-|------|---------|-----------|
-| 1 | Opening | Name, company, confident tonality |
-| 2 | Why reached out | Value prop + social proof |
-| 3 | Identify need | Hard-to-say-no question |
-| 4 | Qualify | Meet your criteria? |
-| 5 | What you can do | Step-by-step solution + ROI |
-| 6 | Close/CTA | Ask for commitment |
-| 7 | Handle objections | ACE principle → back to Step 6 |
-
----
-
-## Resources
-
-- **Scripts & Openers:** See scripts-library.md
-- **Objection Handling:** See objection-handling.md
-- **Gatekeeper Scripts:** See gatekeeper-scripts.md
-- **SDR Hiring & Management:** See sdr-management.md
-
----
-
-**Last Updated:** Based on Sean Longden - Conquer Cold Calling (5,000+ calls experience)
+| Trigger | Skill to Load |
+|---------|--------------|
+| Need pre-call research / personalization for call context | Load `first-lines` and `prospect-research` for research hierarchy and trigger identification |
+| Voicemail + email integration (Double Tap method) | Load `follow-up-sequences` for multichannel sequence design |
+| Diagnosing poor call metrics | Load `campaign-ops` for diagnostic frameworks and benchmarks |
+| User expresses fear of cold calling | Load `outbound-psychology` for Longden's 6-step fear framework |
+| Need to find phone numbers / source prospects | Load `list-building` for Apollo, Seamless.ai, and phone sourcing |
+| Building a messaging matrix for call scripts | Load `prospect-research` for persona mapping and problem identification |

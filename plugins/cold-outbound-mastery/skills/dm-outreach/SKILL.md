@@ -1,274 +1,180 @@
 ---
-name: dm-outreach
-description: Build and execute DM outreach campaigns on Instagram, Facebook, Twitter/X, and other platforms. Use when the user wants to prospect via direct messages, create DM conversation flows, or set up systematic DM outreach operations. Covers openers, conversation frameworks, objection handling, and closing in DMs. For LinkedIn-specific outreach, use the linkedin skill instead. MANDATORY TRIGGERS: DM outreach, direct message, Instagram DM, Facebook DM, Twitter DM, social selling, DM prospecting, DM sequence, message outreach, social outreach.
+name: DM & Social Outreach
+description: >
+  Direct message outreach on Facebook, Instagram, Twitter/X, and other social platforms (excluding
+  LinkedIn). Covers Facebook DM openers (warm and cold), Instagram cold DM strategy (Inflact
+  sourcing, 500-4K follower targeting), the 4-step consulting conversation framework, 3 levels of
+  pain discovery, market assumption questions, Facebook group onboarding, and daily DM SOPs.
+  MANDATORY TRIGGERS: DM outreach, Facebook DM, Instagram DM, Twitter DM, social media outreach,
+  DM appointment setting, DM scripts, DM strategy, Facebook group, Instagram outreach, cold DM,
+  social selling, DM follow-up, appointment setter.
+  FOR: Coaches, consultants, agency owners, course creators, and appointment setters using social
+  platforms (not LinkedIn) for outbound prospecting.
+  Do NOT use for: LinkedIn DMs (use `linkedin-outreach`), cold email writing (use `cold-email-copy`),
+  social media content marketing strategy (out of scope), paid social ads (use paid-ads-mastery plugin).
 ---
 
-# Multi-Platform DM Outreach
+# DM & Social Outreach
 
-## Core Principle: Content + Connection = Revenue
+## Source Synthesis
 
-The entire DM outreach system is built on the principle that **businesses scale through warm outreach over cold email**. Success depends on following specific conversation frameworks, CRM tagging systems, and daily operational discipline.
+This skill is primarily built from one source:
+- **Jason C Fox -- The Ultimate DM Course** -- Complete DM appointment setting system across Facebook and Instagram. Covers conversation stages, pain discovery, platform-specific scripts, daily SOPs, show-up rate optimization, and pricing models.
 
-**Platform Scope:** Instagram, Facebook, Twitter/X, TikTok (NOT LinkedIn—use the linkedin skill for LinkedIn DMs)
-
----
-
-## THE THREE CONVERSATION PHASES
-
-All DM outreach follows a 3-phase conversation model. Success requires moving people through each phase systematically.
-
-### Phase 1: Cold/Rapport Building (1-3 messages)
-- **Goal:** Make genuine connections and build trust
-- **Mindset:** Person first, business second
-- **Focus:** Connection as a human, not as a seller
-- **Key Action:** Respond authentically to what they share; find genuine reasons to reach out
-- **Example Opener:** "Hey! I noticed you've been posting about fitness coaching. How long have you been doing that?"
-
-### Phase 2: Warm/Situational Awareness (2-5 messages)
-- **Goal:** Understand where they are and if you can help them
-- **Core Question:** "Is there a pain point that matches our solution?"
-- **Key Tool:** Market Assumption Framework (see references)
-
-**THREE LEVELS OF PAIN TO UNCOVER:**
-1. **Level 1 (Surface Problem):** General goals they mention (e.g., "I want 10k/month")
-2. **Level 2 (Specific Problem):** Concrete obstacle holding them back (e.g., "I need better DM selling skills")
-3. **Level 3 (Personal Pain):** Deep emotional/personal impact (e.g., "I want financial freedom to see my family")
-
-**CRITICAL PRINCIPLE:** "No Pain, No Next Step" - If they don't have a Level 2+ pain point, they won't convert. Continue phase 2 until you uncover specific pain.
-
-### Phase 3: Hot/Invitation & Booking (1-4 messages)
-- **Goal:** Get them on a call (position as "strategy session" or "game plan call", not sales)
-- **Frame:** "This is not a sales call, it's a triage to see if we can help"
-- **Method:** Soft invitation with clear value proposition
-- **Conversion Point:** Calendar link (use Calendly)
-- **Follow-up:** Maximum 3-4 follow-up messages on offer before moving on
-- **Success Rate:** ~15-20% of conversations should convert to calls if phases 1-2 are executed well
+Supplementary psychology and DM principles from:
+- **LinkedIn Client Lab (Ty Frankel)** -- Shared DM psychology: friendly helper mindset, frame control, restrained compliments, multi-threading. These principles apply across ALL DM platforms.
 
 ---
 
-## MARKET ASSUMPTION FRAMEWORK
+## When to Read Reference Files
 
-Market Assumptions are statements that acknowledge what's commonly true in their industry, used to take control of conversations without being pushy.
-
-**Structure of a Market Assumption:**
-1. Observation of their current situation (something they said/posted)
-2. Industry-specific assumption (what you expect based on their situation)
-3. Soft question to confirm or deny the assumption
-
-**Examples by Industry:**
-- **Coaches:** "I noticed you have a strong Instagram following. Usually when people get consistent there, they attract clients. Is that your experience?"
-- **Real Estate Agents:** "I saw you listed 5 properties last month. Facebook seems to be your main platform—are you getting consistent leads there?"
-- **Fitness Professionals:** "You must be crushing it with your training based on your posts. How have your results been for clients?"
-- **Course Creators:** "I noticed you started a group. Have you been able to generate many leads from there?"
-
-**Critical Tips:**
-- Take multiple assumptions before hitting the pain point (expect 3-5 attempts)
-- Pivot based on their response—if they say "yes," probe for more depth; if "not yet," dig into why
-- Stay contextual to the conversation—don't jump topics abruptly
-- Record questions that work well for future use
+| Situation | Reference File |
+|-----------|---------------|
+| Need Facebook DM scripts (warm or cold leads) | `references/facebook-dm-scripts.md` |
+| Building Instagram cold DM strategy or optimizing profile | `references/instagram-dm-strategy.md` |
+| Structuring conversations, discovering pain, booking calls | `references/dm-conversation-framework.md` |
 
 ---
 
-## KEY OPERATIONAL SYSTEMS
+## Core Philosophy: Compounding Growth
 
-### KPI Targets (Daily)
-- **20-50 new conversations** (initiated by you)
-- **100+ follow-ups** (minimum; more is better)
-- **3 qualified calls per day** (benchmark for $50k+/month)
+Every DM action should pay dividends in the future, not just today. Every conversation should lead to capturing name, email, phone number via opt-in funnels/lead magnets -- enabling marketing through additional channels (email, SMS).
 
-### Revenue Model
-- **Baseline Target:** $50k/month recurring revenue ($2-3k/day consistency)
-- **Pricing Range:** $499/month membership to $7,200+ programs
-- **Monthly Recurring Focus:** More sustainable than spiky one-time sales
-
-### The 16 Common DM Mistakes to Avoid
-1. **Over-Automation** – Using CRM automations for all messaging (biggest mistake)
-2. **Complex CRM with Too Many Tags** – 15+ tags = confusion, not clarity
-3. **Tagging Based on Opener Source** – Tag by conversation progress, not where they came from
-4. **Not Asking Questions** – One-way communication kills engagement
-5. **Jumping to Pitch Too Early** – Pitch before discovering pain = low response
-6. **Forgetting Follow-Up** – Most sales happen on follow-up #3-5
-7. **Not Personalizing at Scale** – Generic scripts = low response, personalize 20-30%
-8. **Poor Show-Up Rate** – Below 70% is waste; send 24-hour + morning reminders
-9. **No CRM Tracking** – Operating blind without tags = wrong prioritization
-10. **Wrong Audience/Niche** – Message wrong people = high rejection
-11. **Not Discovering Level 2 Pain** – Surface-level goals don't drive conversions
-12. **Weak Call Invitations** – Sounding too salesy or desperate kills deals
-13. **Ignoring Data (No KPI Tracking)** – Operating without metrics means no optimization
-14. **Account Bans from Bad Practices** – Mass messaging too fast, messaging non-friends cold
-15. **Not Building Your Own Audience** – Cold-only approach takes longer to scale
-16. **Ignoring Objections** – Freezing when they say "no" instead of using prepared scripts
+**Action posts** = content pieces that prompt engagement (comments) which become excuses to start DM conversations. Each commenter gets messaged AND funneled into an opt-in.
 
 ---
 
-## THE GROUPTRACK CRM 12-TAG SYSTEM
+## The 4-Step Consulting Conversation Framework
 
-The CRM is NOT automation—it's a **prioritization system**. Know who you're talking to and where they're at in the connection stage.
+Every DM conversation progresses through 4 stages:
 
-**The 8-12 Core Tags (Simplicity Over Features):**
-- **OPEN_ASCENT** – Initial outreach sent, waiting for response
-- **COLD** – Early stage, just connected, building rapport
-- **WARM** – Engaged, showing interest, pain discovered
-- **HOT** – High intent, ready for call invitation, moving to booking
-- **CALL_PROPOSED** – Offer made, waiting for their decision
-- **CALL_BOOKED** – Call is scheduled on calendar
-- **CALL_ATTENDED** – Call completed, waiting for next steps
-- **WARM_AUDIENCE** – Content follower, organic connection
-- **QUALIFIED_LEAD** – Meets your niche/budget requirements
-- **NOT_NOW** – Interested but timing wrong, follow up later
-- **NOT_FIT** – Doesn't match your ideal customer
-- **CLOSED_DEAL** – Became a client
+### Stage 1: Awareness
+- Get them connected (friends list / following you)
+- They can put their hand up to talk further
+- No selling. Just visibility.
 
-**CRM Workflow (GroupTrack or equivalent):**
-1. Check unread messages only filter first—respond to all unread (Rule: Read = must respond)
-2. Filter by WARM tag—move to hot if pain discovered
-3. Filter by HOT tag—these are priority for invitations
-4. Filter by CALL_PROPOSED—follow up on offers
-5. Filter by read but didn't respond—send 1-2 follow-up attempts then move on
-6. End of day: Update tags based on conversation progress
+### Stage 2: Cold Phase
+- Build genuine connection and trust
+- They may not be ready to buy or aware of their problem
+- **Goals:** Make genuine connections, keep conversation going, get them to open up
 
-**Recommended CRM:** GroupTrack ($59+/month) – https://www.grouptrackcrm.com
+### Stage 3: Warm Phase
+- Understanding where they are, uncovering if/how you can help
+- You may need to help them realize they have a problem
+- **Goals:** Find a problem matching your solution, get their desired outcome, get what's keeping them from it
+
+### Stage 4: Hot Phase
+- Get them on a call
+- **Goals:** Book a meeting, overcome possible resistance
+- Frame: "This is not a sales call. I'm not going to pitch you, so you can leave your credit card at home."
 
 ---
 
-## DAILY OPERATIONS SOP (8-10 hours)
+## Three Levels of Pain
 
-**KPI Goal:** 20-50 conversations, 100+ follow-ups, 3 calls booked
+| Level | Description | Business Example | Health Example |
+|-------|-------------|-----------------|----------------|
+| Surface/Level 1 | General problem/goal they're aware of | Want to go from $5K to $10K/month | Want to lose weight |
+| Level 2 | Specific problem preventing Level 1 | Need better DM selling to close more deals | Don't know what foods to eat |
+| Level 3 | Personal/emotional pain | Can't grow and provide for family | Won't be able to play with kids |
 
-### Morning Startup (30-45 minutes)
-- Review calendar for today's calls
-- Prepare call materials for booked calls
-- Check CRM: any urgent messages overnight?
-- Create/schedule 1 social post (batch 1x/week minimum)
-- Review yesterday's conversations for follow-ups
-- Set daily intention (how many calls to book today?)
+**Critical rule:** No Pain, No Next Step. Only book a call when you've identified at least Level 2 pain. Level 3 is explored on the actual sales call.
 
-### Core DM Work (5-6 hours)
-
-**Inbox Management (20 min):** Clear unread messages first. Respond to everyone worth responding to ASAP. Use CRM filter: "Only show messages you haven't read"
-
-**Warm Outreach (1.5-2 hours):**
-- Follow-up past calendar events (calls from past week/month)
-- Follow-up calls proposed yesterday
-- Add/message new Facebook group members
-- Respond to story poll voters
-- Respond to action post commenters
-- Engage with recent post engagers
-
-**Cold Outreach (30 min-1 hour, if space):**
-- Message old group members
-- Message older friends
-- Message content engagers
-- Message story viewers
-
-**Follow-Up Phase (2-3 hours):**
-- 24-hour follow-up (scroll back 24hrs, message everyone who didn't move forward)
-- HOT tag follow-ups (filter HOT in CRM)
-- Scroll back follow-ups (3-7-30-60 day sequences)
-- Group welcome post follow-ups
-
-**Follow-Up Rule:** 1 follow-up = 1 new question or value add, not reminder. Hot leads first, then warm, then cold.
-
-### End of Day (30 minutes)
-- Clear inbox (all messages responded to or tagged)
-- Fill KPI tracker (conversations, follow-ups, calls booked)
-- Update CRM tags (new conversations get initial tag)
-- Review: Did we hit daily goals?
+Most setters stop at Level 1 or jump the gun at the first sign of a lead. Dig to Level 2 before proposing a call.
 
 ---
 
-## CRITICAL SUCCESS FACTORS
+## Platform Selection Guide
 
-**Follow-Up is 70% of Conversions**
-- Most sales happen on follow-up #3-5
-- Build daily follow-up into your SOP—this is non-negotiable
-- Psychology: People forget, get distracted, need reminders
-
-**Show-Up Rate Obsession**
-- Problem: 40-50% show-up rate is standard (people flake)
-- Solution: Send reminders 24 hours before + morning of call
-- Result: 70-80% show-up rate = 20-40% more actual conversations
-- ROI: 15 minutes of reminder effort per call = huge impact
-
-**Market Assumptions > Direct Questions**
-- Wrong approach: "What do you need help with?"
-- Better approach: "Usually when people do X, they struggle with Y. Is that you?"
-- Reason: Less aggressive, more conversational, takes control of conversation
-
-**Story Engagement > Post Engagement**
-- Stories show higher intent (you watched the whole thing)
-- Prioritize story viewers/engagers over post likers
-- Result: Better response rates from story-based outreach
-
-**Quality Over Quantity**
-- 50 high-quality conversations > 200 generic ones
-- Spend 2 minutes per message for first 10, then templates
-- Personalize 20-30%, use templates 70%
+| Platform | Strength | Weakness | Best Use |
+|----------|----------|----------|----------|
+| Facebook | Easiest targeting, most control, groups | Less viral | Primary DM platform |
+| Instagram | Reach via reels, shoutouts, follow/unfollow | More competitive | Secondary + cold outreach |
+| TikTok | Largest virality | Shortest attention span, hard to DM | Content distribution, redirect to other platforms |
 
 ---
 
-## PLATFORM-SPECIFIC STRATEGIES
+## Daily KPIs
 
-### Facebook
-- **Lead Sources:** Group members, action post commenters, story voters, content engagers, older friends
-- **Warmest Source:** Group survey responses (already qualified intent)
-- **Best Opener Hierarchy:** Group members → Story voters → Content engagers → Old friends
-- **Timing:** Monday-Friday 8am-9pm (avoid early morning, weekends, late nights)
-- **Tool:** GroupTrack Chrome extension integrates directly into Facebook Messenger
-
-### Instagram
-- **Lead Sources:** New followers, content engagers, story viewers, cold scrape via Inflect.com
-- **Scrape Method:** Inflect.com → Filter by bio keywords, follower count (1-10k sweet spot), country, category
-- **Sweet Spot:** 2-10k followers (high engagement, owner-operator)
-- **Best Opener:** "Completely off base but saw you're a [profession]—how long have you been doing that?"
-- **Follow-up Sequence:** Rapport (personal) → Situational awareness (business) → Pain discovery → Invitation
-
-### Twitter/X
-- **Lead Sources:** Engagers on your tweets, followers, tweet/reply conversations
-- **Best Use:** Shorter conversation starters, link to DM for continuation
-- **Warm Opener:** "Hey! Saw your reply on [topic], interesting take. Want to chat more about that?"
+| Metric | Target |
+|--------|--------|
+| New conversations/day | 20-50 |
+| Follow-ups/day | At least 100 |
+| Qualified calls/day | 3 |
+| Calls proposed/day (IG cold) | At least 5 |
+| Calls booked/day (IG cold) | 1-3 |
 
 ---
 
-## ADDITIONAL RESOURCES
+## Market Assumption Questions
 
-For complete templates, conversation flows, CRM setup, and platform-specific strategies, see:
-- **platform-strategies.md** – Platform-specific tactics and best practices
-- **conversation-frameworks.md** – Complete 4.0 script structure with flows
-- **templates-library.md** – All openers, follow-ups, invitation scripts, objection responses
-- **crm-setup.md** – GroupTrack detailed setup, daily workflow, and analytics
+Questions based on common industry pain points that let you lead the conversation toward booking a call.
 
----
+**Structure:** [Understanding of their situation] + [Question/assumption about a common problem]
 
-## CRITICAL INSTRUCTION: Check for Product Marketing Context
+Regardless of yes/no answer, you win:
+- If they're crushing it: "Awesome, so you have a full calendar of great calls consistently?" (assumption they don't)
+- If they're not: You've found the pain point
 
-**Before running DM outreach campaigns, always check:**
-1. Does the user want general DM training/skill-building?
-2. Or are they promoting a specific product/service?
-3. Are they outreaching to their ideal customer profile, or testing broad markets?
-
-**If promoting a specific product:** Help customize templates, conversation flows, and pain discovery questions to match their exact offer and positioning. Verify that their pain discovery questions align with what their product actually solves.
-
-**If building general DM skills:** Provide frameworks, templates, and systems they can adapt to any niche.
+Keep a record of questions that work. Multiple assumption lines may be needed before hitting a pain point. Once you connect, still dig to Level 2 pain.
 
 ---
 
-## Success Metrics
+## Facebook Group Onboarding for Quick Call Booking
 
-Track these daily and weekly to measure system health:
-- **Conversation quality:** Are people engaging in 2+ message exchanges?
-- **Pain discovery rate:** % of conversations where Level 2+ pain is found
-- **Invitation acceptance rate:** % who say yes when offered a call
-- **Show-up rate:** % of booked calls where people actually attend (target: 70%+)
-- **Booking rate:** Calls booked per 100 conversations (target: 15-20%)
-- **Revenue:** MRR added monthly from new conversations
+### 3 Membership Questions
+1. "Where are you currently at in your business?" (current situation)
+2. "Where do you want to be in the next 12 months?" (desired situation)
+3. "Would you like me [name] to reach out to see how we can help?" (permission to pitch)
+
+**If YES to Q3 + clear goal:**
+"I saw you wanted me to reach out to see how I could help you with that. Are you keen to connect on a quick call this week?" -- Works 9/10 times.
+
+**If no goal provided:**
+"Hey, just accepted you into the group! Love that [topic] goal. How's that going?" -> dig for pain.
+
+**If no response:**
+"Thank you for joining! Would you be against it if I sent over my [framework/training]?"
 
 ---
 
-## Next Step
+## Show-Up Rate Optimization
 
-**Next Step:** Once a call is booked through this channel, see the `sales-negotiation-mastery` plugin for call preparation and sales conversation frameworks.
+How prospects FEEL about you and your offer is far more important than what they see. Create a sales EXPERIENCE, not a process.
+
+### Reminder Sequence (3-4 touches before any call)
+1. Confirmation email immediately (include training video, ensure Zoom downloaded)
+2. 48-hour / 24-hour reminder email
+3. 30-minute reminder email
+4. Text message reminder(s)
+5. DM reminder on booking platform
+
+### Pre-Call Funnel (Must-Haves)
+1. Overview of what you do
+2. Training on your "vehicle" (method that takes client from A to Z)
+3. Testimonials categorized by client type
+4. Option to binge content
+
+### Post-Booking Sequence
+1. Confirm date/time in DM
+2. Send pre-call training link
+3. Tag them in an offer post (social proof)
+4. Triage questions (casual, not interrogation)
+5. Tag in relevant client testimonial
+6. Confirm pricing alignment
+7. 24-hour reminder
+8. Morning-of confirmation
+9. 15 min before: send Zoom link
 
 ---
 
-*Source: The Ultimate DM Course by Jason C Fox. Last Updated: 2026-03-06*
+## Cross-References
+
+| Trigger | Skill to Load |
+|---------|--------------|
+| LinkedIn DMs specifically | Load `linkedin-outreach` -- separate skill with distinct frameworks |
+| Need personalized opening lines | Load `first-lines` for research hierarchy and God-Level formulas |
+| Building multichannel sequences spanning DM + email + phone | Load `follow-up-sequences` for cadence design |
+| Diagnosing why DM outreach isn't converting | Load `campaign-ops` for diagnostic trees |
+| User expresses fear of rejection or DM anxiety | Load `outbound-psychology` for mindset frameworks |
+| Shared DM psychology (friendly helper, frame control, etc.) | Load `linkedin-outreach` refs -- same principles apply across platforms |

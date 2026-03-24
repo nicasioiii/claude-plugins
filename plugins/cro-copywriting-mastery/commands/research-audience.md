@@ -1,83 +1,75 @@
 ---
-name: Research Audience
-description: Deep customer avatar and benefit discovery analysis
+name: Audience Research Worksheet
+description: "Guided worksheet for audience research. Asks 5 questions about your target customer and produces a structured research brief with avatar summary, research priorities, and next steps. TRIGGERS: audience research, customer research, avatar, voice of customer, who is my customer"
 ---
 
-# Research Audience
+# Audience Research Worksheet
 
-This command builds a detailed customer avatar and discovers your top benefits through structured research. You'll get a comprehensive audience profile and ranked benefit grid.
+This command walks you through a structured audience research process. It produces a One-Page Avatar Summary and a prioritized research plan.
 
-## What You'll Get
+## Process
 
-- Detailed customer avatar (demographics, psychographics, goals, fears)
-- Before-and-after transformation grid
-- Top 10 benefits ranked by impact and believability
-- Objections and how to position against them
-- Messaging angles that resonate with this audience
-- Competitive positioning insights
+Ask the user these 5 questions using AskUserQuestion, one at a time. Wait for each answer before proceeding.
 
-## Questions I'll Ask
+### Question 1: Product and Problem
+"What product or service are you writing copy for, and what is the primary problem it solves? Be as specific as possible about both the product and the problem."
 
-1. **What's your product or service?**
-   - Name, category, price point, main feature
+### Question 2: Current Customer Knowledge
+"How much do you already know about your target customer? Choose one:
+A) I have paying customers I can survey and interview
+B) I have trial users or leads but few paying customers
+C) I have website visitors but no customers yet
+D) I am pre-launch with no customers or visitors"
 
-2. **Who are your current customers (or who do you want)?**
-   - Job title, industry, company size, experience level
+### Question 3: Customer Description
+"Describe your ideal customer in 2-3 sentences. Include: who they are (role/identity), what frustrates them most, and what outcome they want. If you are unsure, describe who you THINK they are."
 
-3. **What industry or market are you in?**
-   - Helps identify competitive context and audience expectations
+### Question 4: Competitive Landscape
+"Name 2-3 competitors or alternatives your customer might consider instead of you. What do those alternatives get wrong or leave unaddressed?"
 
-4. **What's your price point?**
-   - Affects positioning, objection types, and messaging
+### Question 5: Existing Research
+"What research have you already done? Check all that apply:
+A) Customer interviews
+B) Customer surveys
+C) Review mining (Amazon, Reddit, forums)
+D) On-site polls or exit-intent surveys
+E) Support ticket or chat transcript analysis
+F) None yet"
 
-## My Process
+## Output
 
-I'll reference these skills to research deeply:
-- **customer-avatar-research** — Build detailed audience profile
-- **benefit-discovery** — Uncover and rank all meaningful benefits
+After collecting all 5 answers, produce the following structured output:
 
-## Output Format
+### Section 1: One-Page Avatar Summary
+Using the customer-research skill, generate a complete One-Page Avatar Summary with:
+- Avatar Name (assign one based on their description)
+- One-sentence summary
+- Top 3 Pains (inferred from their answers)
+- Top 3 Desires (inferred from their answers)
+- Top 3 Likely Objections (inferred from competitive landscape)
+- Probable Buying Trigger
+- Core Emotional State (fear-based or hope-based)
+- Suggested Language to Use (based on their product/problem description)
 
-Your research deliverable will include:
+### Section 2: Research Priority Matrix
+Based on their answer to Question 2, recommend the highest-priority research method:
+- A (paying customers): Start with 7 customer interviews using the interview-guide.md protocol
+- B (trial users): Start with a trial user survey using Question Set B from survey-templates.md
+- C (visitors only): Start with exit-intent polls + review mining from review-mining-process.md
+- D (pre-launch): Start with review mining + competitor content audit + AYTM survey
 
-### 1. Customer Avatar
+### Section 3: Top 5 Research Questions
+Generate 5 custom research questions tailored to their specific product and market, using the question bank from the customer-research skill.
 
-```
-DEMOGRAPHICS:
-- Age range, job title, company size
-- Years of experience, education
-- Geographic location (if relevant)
+### Section 4: Before-After Grid Starter
+Pre-fill as much of the Before-After Grid as possible from their answers:
+- Have (before/after)
+- Feel (before/after)
+- Average Day (before/after)
+- Status (before/after)
+- Good vs. Evil (before/after)
 
-PSYCHOGRAPHICS:
-- Core goals and aspirations
-- Primary pain points
-- How they currently solve this
-- What matters most in a solution
-- Budget authority and constraints
-```
+Mark any cells that need research to complete.
 
-### 2. Before-and-After Grid
-
-```
-Current situation → Desired situation
-─────────────────────────────────────
-[Specific before state] → [Specific after state]
-[Specific before state] → [Specific after state]
-(5-7 rows)
-```
-
-### 3. Benefits Ranked
-
-```
-1. [Benefit] — Why it matters, believability score 8/10
-2. [Benefit] — Why it matters, believability score 8/10
-(Top 10)
-```
-
-### 4. Objections & Positioning
-- Top 3 objections with counter-positioning
-
-### 5. Messaging Angles
-- 3-5 ways to position your offering to this audience
-
-Let's research your audience. What's your product?
+### Section 5: Next Steps
+Provide 3 specific, actionable next steps prioritized by impact and feasibility.

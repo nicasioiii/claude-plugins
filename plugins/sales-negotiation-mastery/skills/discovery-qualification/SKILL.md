@@ -1,347 +1,272 @@
 ---
-name: discovery-qualification
-description: "Master discovery calls, needs analysis, and prospect qualification. Use this skill whenever someone asks about discovery calls, qualifying prospects, asking better questions, understanding buyer needs, running needs analysis, or structuring the diagnostic phase of a sales conversation. MANDATORY TRIGGERS: discovery call, qualification, needs analysis, qualifying questions, discovery questions, buyer needs, diagnostic selling, prospect qualification, pre-pitch conversation."
+name: Discovery & Qualification
+description: "Run discovery calls, qualify prospects, build the emotional gap, and elicit pain and desire. Use for needs analysis, qualifying questions, discovery frameworks, pain amplification, and buying readiness assessment. FOR: Preparing discovery call question sequences, qualifying or disqualifying prospects mid-call, building the emotional gap between current and desired state, identifying and amplifying prospect pain, running the Belief Ladder to check buying readiness, choosing between Problems First and Goals First syntax, pre-handling objections during discovery (Mental Block technique), financial and support/partner qualification. MANDATORY TRIGGERS: discovery call, qualification, needs analysis, qualifying questions, discovery questions, buyer needs, diagnostic selling, prospect qualification, pain amplification, gap building, belief ladder, funnel technique, pre-pitch conversation, disqualification. Do NOT use for: Presenting the offer or structuring a pitch (use pitch-presentation), handling objections after the pitch (use objection-handling), appointment setting or booking calls (use appointment-setting), mirroring/labeling/accusation audits (use tactical-empathy, but cross-reference here), cold outreach or prospecting (use cold-outbound-mastery plugin)."
 ---
 
-# Discovery & Qualification Mastery
+# Discovery & Qualification
 
-## What Discovery & Qualification Really Is
+## The Core Principle
 
-Discovery is **not** a sales pitch disguised as conversation. It's the diagnostic phase where you:
-1. Understand the prospect's current situation, pain points, and goals
-2. Determine if they're actually a good fit for your solution
-3. Identify their limiting beliefs and objections before they become resistance
-4. Gather emotional and logical anchors for the pitch
+Discovery is the diagnostic phase where you understand if and how you can help the prospect, then eliminate objections before the close. It is NOT a pitch disguised as conversation. It is NOT chummy rapport. It is a doctor diagnosing before prescribing.
 
-Qualification is the **go/no-go decision** based on:
-- Do they have the problem your solution solves?
-- Do they have the budget to invest?
-- Are they ready to move NOW (not "someday")?
-- Are they the decision-maker or do others influence the deal?
+All four instructors agree: discovery consumes roughly 80% of call time. The pitch itself just confirms what was already sold during discovery. But the offer's quality is 75% of whether the deal succeeds (Gordon). These are not contradictory -- discovery is 80% of TIME allocation; offer quality is 75% of OUTCOME determination. Both matter enormously.
 
-**Why it matters**: 80% of your close happens in discovery and the pre-pitch transition. The pitch itself just confirms what's already been sold.
+**Cross-reference:** Throughout discovery, weave in tactical-empathy techniques (mirroring, labeling, calibrated questions). See `tactical-empathy` for the full toolkit. Discovery provides the CONTEXT; tactical empathy provides the TOOLS for information extraction.
 
 ---
 
-## Core Discovery Architecture
+## The Belief Ladder: Seven Beliefs Before You Pitch
 
-All four sales masters agree on this foundation: **Ask → Listen → Diagnose → Disqualify or Position**
+Every objection traces back to an unmet belief. Build all seven BEFORE transitioning to pitch for an objectionless close (Gordon).
 
-### The Question Hierarchy
+| # | Belief | What to Establish | What It Prevents |
+|---|--------|-------------------|------------------|
+| 1 | **Pain** | They have a problem keeping them from what they want | "I don't have a problem" |
+| 2 | **Doubt** | They cannot fix this alone or it wastes resources to try | DIY / ego objection |
+| 3 | **Cost** | Doing nothing is far more painful than the investment | "I want to think about it" |
+| 4 | **Desire** | Solving the problem yields a better future than staying put | Low motivation |
+| 5 | **Money** | They have resources AND willingness to invest | Financial objections |
+| 6 | **Support** | People around them will support the decision | Spouse/partner objections |
+| 7 | **Trust** | Your solution is different, unique, and superior to past attempts | "I've been burned before" |
 
-From Cole Gordon, Luke Alexander, and Black Swan principles, questions follow this structure:
+**Critical operating rule:** Build beliefs 1-4 through deep discovery questioning. Leave Money (#5) to the END -- do not dig into finances prematurely or prospects self-disqualify before you pitch. Exception: extreme red flags (Gordon). Front-load Support (#6) early with a casual check: "If you want to be part of something like this, is there anyone you'd need to run it by?" (Alexander).
 
-**Level 1: Current Situation (Baseline)**
-- "What do you do for work/business right now?"
-- "How are you currently handling [their challenge]?"
-- "Walk me through your process"
-
-**Level 2: Problem Identification (Where the pain lives)**
-- "What's been the biggest challenge with [situation]?"
-- "How long have you been dealing with this?"
-- "What have you tried so far?"
-- "Why didn't that work?"
-
-**Level 3: Impact & Cost (Emotional activation)**
-- "How does that show up in your [business/life/relationships]?"
-- "If nothing changes, what happens in 12 months?"
-- "What's this costing you in revenue/time/stress/opportunity?"
-
-**Level 4: Goals & Vision (The destination)**
-- "What would the ideal outcome look like?"
-- "Where do you want to be in 6 months?"
-- "What would change if you solved this?"
-
-**Level 5: Consequence Realization (Why now matters)**
-- "Why is NOW the right time for you?"
-- "How long have you been wanting to change this?"
-- "What happens if you keep doing what you're doing?"
+**The Buying Pocket (Gordon):** Prospects sit on a belief spectrum. Left side = does not believe transformation is possible (use stories, proof to move them right). Right side = believes they can do it alone (use questioning to create doubt, move them left). The buying pocket is the middle: believes transformation is possible, but ONLY with your help.
 
 ---
 
-## The Doctor Frame (Core Operating Model)
+## Two Discovery Syntaxes
 
-**Principle**: Position yourself as a diagnostician, not a salesman.
+Choose your syntax BEFORE the call based on the prospect's situation (Gordon).
 
-**Execution**:
-1. Ask about current situation (understand their world)
-2. Ask about problems/pain points (identify the gaps)
-3. Ask about goals/desires (clarify the destination)
-4. Ask about consequences of inaction (create urgency)
-5. ONLY THEN offer your solution
+### Problems First (DEFAULT)
 
-**Why it works**: Prospects trust you because diagnosis comes before prescription. You're solving THEIR stated problem, not pitching a canned solution.
+**When to use:** Existing business with diagnosable problems. B2B, agencies, coaches at $5K+/mo, health/fitness/dating. Any situation where the prospect can identify what is broken.
 
----
+**Flow:**
+1. Isolate the problem -- "What's the biggest challenge right now?"
+2. Probe deeper -- "Tell me more... When you say ___, what do you mean exactly?"
+3. Widen the gap -- chunk down on pain, surface emotional impact
+4. Duration -- "How long has this been going on?"
+5. Doubt questions -- "What's been the biggest thing keeping you from fixing this yourself?"
+6. Solution questions -- "Have you reached out to anyone else for help?"
+7. Cost / Why Now -- "What made you draw the line in the sand?"
+8. Financial qualifier (if pertinent, but late)
+9. Support check -- "Are you married? What would your spouse think?"
+10. Desired situation -- "Ultimately, what's the goal? Why that number?"
+11. Non-monetary goals -- "What personal goals do you want your business to enable?"
 
-## Discovery Frameworks by Situation
+### Goals First
 
-### The 4 States Discovery (Cole Gordon)
+**When to use:** New opportunity (biz-op), prospect cannot diagnose their problem, they are confused or going in circles, they are using a wrong method that does not align with your solution.
 
-Cole identifies four emotional states to address in discovery:
+**Flow:**
+1. "Ultimately, what's the goal?"
+2. Probe on goal + assign numbers
+3. Monetary goal + "Why that number?"
+4. Long-term vision + non-monetary goals
+5. Current situation -- "What do you do now?"
+6. "After all that time, what was the final straw?"
+7. Doubt questions
+8. Solution questions
+9. Cost / Why Now
+10. Support questions
 
-1. **Belief in the problem** - Do they acknowledge they have a real problem?
-2. **Belief in the solution** - Do they believe solutions like yours actually work?
-3. **Belief it will work for them** - Do they think it will work FOR THEM specifically (not "other people")?
-4. **Belief they can do it** - Do they have the self-belief/commitment to actually follow through?
-
-**Application**: During discovery, listen for hesitation on any of these four. That's your limiting belief to address in the pre-pitch transition.
-
-### The Belief Ladder (Cole Gordon)
-
-Pain points form a ladder from symptoms to root causes. The best closers ask down the ladder:
-
-- **Symptom**: "I need more leads"
-- **Why level 1**: "Why do you need more leads?"
-- **Why level 2**: "What would more leads give you?"
-- **Why level 3**: "And why is that important?"
-- **Root belief**: (Usually reveals identity-level desire: freedom, security, significance)
-
-Keep asking "why" until you hit emotion, not logic.
-
----
-
-## The Disqualify-Early Principle (Luke Alexander)
-
-**Contrarian insight**: Not all prospects should be closed. Some should be disqualified.
-
-**Red flags that signal "not a good fit NOW"**:
-- They can't decide between multiple options (signals indecision/lack of clarity)
-- They've been "wanting to" change for 2+ years but haven't taken action
-- They're confused about what they actually want
-- Their timeline is too vague ("maybe sometime next year")
-- They just want to "explore" without urgency
-
-**Best practice**: Use the "Not Ready Yet" framework (see references)
-
-When you sense they're not ready:
-- "This probably isn't something that makes sense for you right now"
-- "Let's book a call when it does make sense"
-- "I'll send you value content so you can keep this top of mind"
-- "When you're ready to pull the trigger, let's reconnect"
-
-**Why this works**: Removing pressure paradoxically increases follow-up engagement. They'll come back to you when they're truly ready.
+**Rule:** Always start with Problems First and switch to Goals First only when needed.
 
 ---
 
-## Critical Qualification Criteria
+## The Discovery Call Architecture
 
-**Must-Have Criteria** (All four must be present):
+### Phase 1: Rapport and Frame (2-3 minutes)
 
-| Criteria | What to Qualify | How to Test |
-|----------|-----------------|-------------|
-| **Pain Clarity** | Do they acknowledge the specific problem? | Ask pain questions, listen for specific dollar/time impacts |
-| **Budget/Resources** | Can they invest? | Direct question: "What access do you have to invest in solving this?" |
-| **Timeline** | Are they ready NOW? | Get specific: "Why is right now the time?" not "are you interested?" |
-| **Decision Authority** | Are THEY the decision-maker? | "Besides yourself, who else would need to be involved?" |
+Keep it SHORT. True trust is built through deep understanding, not chummy small talk (Gordon, Alexander).
 
-**Green Lights** (High probability to close):
-- Specific income/pain numbers (not vague "more money")
-- Already quit job / made life change around this issue
-- Tried multiple things in the past (shows action-taking DNA)
-- Mentions having a coach/mentor (shows coachability)
+**Opening moves:**
+- "What are you up to?" (pattern interrupt vs. "How's it going?")
+- "Got a clean sheet of paper?" (qualifies buying readiness)
+- Front-load time: "The call should take 30-45 minutes. If it runs to minute 46, is there anywhere you need to jump to?" (Alexander)
+- Optional partner front-load: "If you want to be part of something like this, is there anyone you'd need to run it by?" (Alexander)
 
-**Yellow Lights** (May need more nurture):
-- 1-2 year timeline (not urgent yet, but interested)
-- Financially tight but willing to stretch
-- Still exploring ("trying to see which is best")
+**Frame script (standard markets -- Gordon):** Set the call up as diagnostic: "What I've found works best is first diving deeper into the specifics of your situation... if we can help, I'm more than happy to walk you through what that looks like. And if not, we can figure out whatever else is best. Sound cool?"
 
-**Red Lights** (Disqualify):
-- No specific pain numbers (can't quantify the problem)
-- Zero prior action attempts in 2+ years
-- Undecided between multiple conflicting goals
-- "Need to think about it" + vague when you dig deeper
+**Frame script (sophisticated markets -- Gordon):** "Everything we do is customized. So instead of going through a long laundry list, what's probably more appropriate is if you could first help me get some context. Based on that, I can share only the aspects most relevant to you specifically."
 
----
+**The Opposing Agenda Principle (Gordon):** The prospect wants information without deciding. You want a transformation (a decision). The more information you disclose early, the less leverage and leadership you have. Frame the call to control information flow.
 
-## The Complete Discovery Call Flow (Template)
+### Phase 2: Discovery -- The North Star (15-25 minutes)
 
-**Opening (2-3 min)**
-- Confirm they have time
-- Quick rapport builder
-- Transition to discovery
+This is 80% of the call. One purpose: build the GAP between where they are and where they want to be (Alexander).
 
-**Discovery Phase 1: Situation (5-10 min)**
-- Current situation questions
-- What they're doing now
-- What's working/not working
+See `references/question-frameworks.md` for the complete question bank organized by level, syntax, and offer type.
 
-**Discovery Phase 2: Problems (5-10 min)**
-- Pain point questions
-- Specificity drills ("What do you mean specifically?")
-- Time-stretching ("How long has this been going on?")
+**Key probing questions (use throughout):**
+- "Tell me more about that"
+- "When you say ___, what do you mean exactly?"
+- "What's the worst part about that?"
+- "Take me back to the day you drew the line in the sand -- what happened?"
+- "How long has this been going on?"
+- "What impact has that had on [other area of life]?"
 
-**Discovery Phase 3: Impact (5-10 min)**
-- Secondary impact questions
-- Cost questions (dollars, time, relationships)
-- Consequence questions
+**Widening the Gap:** Always elicit how getting what they want would impact ONE other area of life beyond the obvious. This amplifies emotional investment (Gordon).
 
-**Discovery Phase 4: Goals (5-10 min)**
-- Ideal outcome questions
-- Vision questions
-- Goal specificity ("How much exactly?")
+### Phase 3: Pain Amplification (Alexander)
 
-**Discovery Phase 5: Urgency (3-5 min)**
-- "Why NOW?" question
-- Attempt archaeology (what they've tried)
-- Commitment signals
+Surface-level pain is not enough. Use the three-layer technique:
 
-**Qualify or Disqualify (3-5 min)**
-- Financial qualification
-- Authority check
-- Decision: Close, Nurture, or Disqualify
+1. **Surface:** Find the current problem (stated pain)
+2. **Layer:** Ask WHY they have not fixed it (dig one layer down)
+3. **Source:** Find the ROOT of the problem (the real reason -- got scammed, never invested in self, fear)
 
-**Total Time**: 30-45 minutes for complex B2B, 45-60 minutes for high-ticket offers
+Use the source as the motivation for change. The fine line: go too far too soon and the prospect shuts down; not far enough and there is no emotional weight behind the decision. Rule: ask questions that make THEM realize they need to change. Never TELL them they need to change.
 
----
+### Phase 4: The Mental Block Technique (Alexander)
 
-## Question Frameworks: The Masters' Approaches
+The same reason they did not buy yesterday is the same reason they will not buy today. Find this mental block during discovery, not during objection handling.
 
-### Cole Gordon's Question Syntax
+**Process:**
+- "In the past X years of wanting [outcome], what have you tried?"
+- If "nothing": "Why haven't you done anything?"
+- Keep asking the most obvious question until you find it: "I didn't want to put money into something that wouldn't work out"
+- Pre-handle it: "It's like that little voice in the back of your head. At least we're aware of it now. There's two paths: keep giving into it, or push past it."
 
-Cole teaches selecting between **Problems First** and **Goals First** syntax:
+**Cross-reference:** This pre-handles objections that would otherwise surface in `objection-handling`. The mental block technique is the ultimate pre-handle.
 
-**Problems First**: Lead with pain, then paint the vision
-- Best for: Obvious pain situations
-- Flow: "Tell me about the pain" → "What would be different?" → Vision
+### Phase 5: Future Pacing and Identity Frame (Alexander)
 
-**Goals First**: Lead with desire, then identify obstacles
-- Best for: Aspiration-based selling
-- Flow: "What's your ideal outcome?" → "What's stopping you?" → Root pain
+- "If we taught you [skill] and got you to [amount], what would that allow you to do?"
+- If vague: "Everyone wants 10K/mo. Besides getting there, why else are you doing this?"
+- Anti-question (if not enough pain): "What DON'T you want your life to look like?"
+- Identity frame: "How do you think that future version of yourself operates differently? What characteristics does he have?"
 
-### Luke Alexander's 8 Types of Discovery Questions
+**Why identity matters:** Their answers (disciplined, consistent, pushes through fear) become ammunition for objection handling later: "Remember the person we talked about -- would he let this happen again?"
 
-1. **Current situation** - What's their baseline?
-2. **Problems/pain** - Where are the gaps?
-3. **Goals/desire** - What do they want?
-4. **Consequence** - What happens if they don't change?
-5. **Attempt archaeology** - What have they tried?
-6. **Why they failed** - Where did past attempts break?
-7. **Support seeking** - Do they need guidance?
-8. **Timeline/urgency** - When do they want to change?
+### Phase 6: Urgency and Consequence
 
-### Black Swan's Calibrated Questions
+- "What specifically makes this important NOW rather than waiting?"
+- If no urgency, CREATE it: "What happens if you decide not to change for another 6 months?"
+- Compounding frame: "If you're thirsty today and don't drink water, you're even more thirsty tomorrow."
+- "Whose responsibility is it to decide whether you get to [goal] or stay where you're at?"
 
-Calibrated questions put the prospect in control while you control direction:
+### The Checkpoint (Alexander)
 
-- "How would you want me to help?"
-- "What would make this work for you?"
-- "What prevents you from...?"
-- "How does that affect...?"
-- "Why is that important?"
+Do NOT move forward until the prospect has said these things OUT LOUD:
+1. "I need to do this"
+2. "I need to do this NOW"
+3. "This is WHY I need to do this"
+4. "I BELIEVE this is what I need"
 
-**Key principle**: Avoid questions that can be answered "yes/no." Ask "how" and "what" questions that force specificity.
-
-### Serhant's Funnel Technique (Know the Star Players)
-
-When qualifying a deal, understand each decision-maker's motivations:
-
-**Top of Funnel**: "What are you looking for?"
-- Identify stated wants
-
-**Middle of Funnel**: "Where would you like to be?"
-- Identify desired outcome
-
-**Bottom of Funnel**: "What would make you comfortable?"
-- Identify objections/fears
-
-This maps wants → vision → comfort level for each stakeholder.
+If you get those four verbal commitments, you will close.
 
 ---
 
-## Transition to Pitch: The Pre-Pitch Framework
+## The Funnel Technique (Serhant)
 
-Discovery ends when you have enough material to build a case. The transition bridges the gap:
+Three-step questioning borrowed from forensic interviewing. Useful for multi-stakeholder deals.
 
-**Pre-Pitch Components** (in order):
-1. **Permission** - "Are you open to some feedback on where you're at?"
-2. **Credibility** - Stack proof before making claims
-3. **Root Problem** - Reframe symptom → root cause
-4. **Reason Why** - Educate on why it's a real problem
-5. **Cost** - "My fear for you is..."
-6. **Chunk Up/Down** - Show achievability (simplify the path)
-7. **Tie Down** - "Does that make sense? Do you agree?"
-8. **Insight/Proof** - "Here's what I'd do..."
-9. **Future Pace** - Paint the picture of working together
-10. **Pass Control** - Get them to ask for your offer
+**Step 1 -- Top of Funnel (Open-ended):** Who/what/where/why questions. Client does 80% of talking. Fill the funnel with information.
 
-**Timing**: 5-10 minutes. Keep it tight. You've already built the emotional connection in discovery.
+**Step 2 -- Mid Funnel (Guided):** More targeted questions that test theories and show you care about their life. Guide them to answer for themselves why they want what you know they actually want.
+
+**Step 3 -- Bottom of Funnel (Specific yes/no):** Get the nitty-gritty. Reveals hidden players and deal-breakers that would otherwise surface months later.
+
+**Cross-reference:** Combine with calibrated questions from `tactical-empathy` (what/how questions that give prospect the feeling of control while you direct the conversation).
 
 ---
 
-## Common Anti-Patterns (What NOT to Do)
+## Qualification Criteria
 
-**Discovery Mistakes**:
-- ❌ Asking what they want instead of why they want it
-- ❌ Softening their pain ("That must be so frustrating")
-- ❌ Not asking about previous attempts
-- ❌ Leading questions ("So that's probably affecting your business, right?")
-- ❌ Missing the specificity drill
-- ❌ Moving to pitch before you have emotional pain AND logical consequence
+See `references/qualification-criteria.md` for detailed rubrics. Summary:
 
-**Qualification Mistakes**:
-- ❌ Qualifying only on budget, ignoring readiness
-- ❌ Assuming the person you're talking to is the decision-maker
-- ❌ Closing prospects who are "just exploring"
-- ❌ Trying to overcome vagueness instead of disqualifying
-- ❌ Asking permission questions ("Would you like to invest?") instead of testing commitment
+### Four Must-Haves
 
-**Tonality Mistakes**:
-- ❌ Being overly enthusiastic (looks desperate)
-- ❌ Seeking approval ("Does this sound good?")
-- ❌ Speaking with uncertainty
-- ❌ Matching their low energy with high energy (looks needy)
-- ❌ Losing emotional connection between discovery and pitch
+| Criteria | What to Test | How to Test |
+|----------|-------------|-------------|
+| **Pain Clarity** | Specific problem with numbers and emotion | Listen for dollar/time impacts, emotional language |
+| **Budget/Resources** | Can they invest? | Late-stage question: "What access do you have to invest in solving this?" |
+| **Timeline** | Ready NOW, not someday | "Why is right now the time?" -- must answer with specificity |
+| **Decision Authority** | Are they the decision-maker? | "Besides yourself, who else would need to be involved?" |
+
+### Financial Qualification Timing
+
+Leave money to the END (Gordon, Alexander). Do not dig into finances prematurely. Exception: extreme red flags. Alexander's setter approach: "If this program was exactly what you needed, do you have $5-6K available to invest?" -- but only after desire is established.
+
+### Support/Partner Front-Load
+
+Gordon recommends front-loading the partner question early: "Are you married? What would your spouse think about something like this?" This surfaces the spouse objection before it becomes a close-killer. Alexander agrees: "If you want to be part of something like this, is there anyone you'd need to run it by?"
 
 ---
 
-## Decision Logic: When to Close, Nurture, or Disqualify
+## The Disqualify-Early Principle
 
-**CLOSE If**:
-- All 4 qualification criteria met (pain clarity, budget, timeline, authority)
-- They've shown specific commitment signals
-- They understand the offer clearly
-- They express emotional readiness
+Not all prospects should be closed. Some should be disqualified (Alexander).
 
-**NURTURE If**:
-- Interest shown but low urgency
-- Timeline is 6+ months away but they're serious
-- They want to "think about it" or "explore more"
-- Financial constraint exists but commitment is high
-- **Process**: Send value content, follow up in 2-4 weeks, re-engage
+**Red flags signaling "not a good fit NOW":**
+- Cannot decide between multiple conflicting goals
+- Wanted to change for 2+ years but zero action taken
+- Confused about what they actually want
+- Timeline too vague ("maybe sometime next year")
+- Just want to "explore" without urgency
+- Cannot answer "Why NOW?" with any specificity
 
-**DISQUALIFY If**:
-- Fundamentally unclear on what they want
-- Can't decide between multiple conflicting goals
-- Show no prior action pattern
-- Timeline too vague or too far out
-- Not the decision-maker and refuse to involve decision-maker
+**When you sense they are not ready:** Remove pressure. "This probably isn't something that makes sense for you right now." Paradoxically, removing pressure increases follow-up engagement. They will come back when truly ready.
 
-**RED FLAG**: If they can't answer "Why NOW?" with specificity, they're not ready today. Disqualify and nurture.
+**Cross-reference:** If disqualified, route to `pipeline-followup` for nurture sequencing.
 
 ---
 
-## Key Metrics & Benchmarks
+## Decision Logic
 
-- **Discovery call duration**: 30-45 min (B2B), 45-60 min (high-ticket)
-- **Minimum pain depth**: 2-3 specific emotional pain points before pre-pitch
-- **Qualification rate**: ~70% of prospects should be qualified (30% disqualified early)
-- **Close rate on qualified prospects**: 60%+ with proper pre-pitch transition
-- **Nurture follow-up**: 40-60% of "not ready now" prospects convert with patience
+**CLOSE if:** All 4 qualification criteria met, verbal commitment signals present (the 4 checkpoint statements), emotional and logical readiness confirmed.
 
----
+**NURTURE if:** Interest shown but low urgency, timeline 6+ months, "want to think about it" with genuine exploration energy, financial constraint but high commitment. Route to `pipeline-followup`.
 
-## For Deep-Dive Content
-
-See reference files for:
-- **question-frameworks.md** - Specific questions organized by situation and offer type
-- **qualification-criteria.md** - Detailed qualification rubrics and checklists
-- **scripts-library.md** - Word-for-word scripts and talk tracks from all four masters
+**DISQUALIFY if:** Fundamentally unclear on goals, zero prior action pattern, timeline impossibly vague, not decision-maker and refuses to involve them. Be direct and redirect to nurture.
 
 ---
 
-## Final Principle
+## Instructor Disagreement
 
-The best discovery calls feel like a conversation between friends where you genuinely want to understand their world. You're not hunting for a sale. You're diagnosing a problem. And from that diagnosis, the solution becomes obvious.
+**Discovery vs. offer importance (Gordon):** Gordon says discovery is 80% of call TIME but also that the offer is 75% of SUCCESS. These are not contradictory -- discovery is the time allocation priority; offer quality is the outcome determinant. Both matter enormously. All four instructors agree discovery should dominate call time.
 
-When discovery is done right, your prospect will ask YOU for the offer. You won't have to pitch it.
+---
+
+## Common Anti-Patterns
+
+- Asking what they want instead of why they want it
+- Giving coaching during discovery (diagnose fully before prescribing -- Gordon)
+- Skipping cost/why-now questions because they are uncomfortable
+- Softening their pain ("That must be so frustrating" -- this releases pressure you need)
+- Moving to pitch before you have emotional pain AND logical consequence
+- Not asking about previous attempts (critical for trust belief)
+- Creating doubt when doubt is already there (if they say they want coaching, move on)
+- Qualifying on finances before establishing desire (they self-DQ prematurely)
+
+---
+
+## Key Metrics
+
+- **Discovery call duration:** 30-45 min (B2B), 45-60 min (high-ticket coaching)
+- **Minimum pain depth:** 2-3 specific emotional pain points before transitioning
+- **Qualification rate:** ~70% of prospects should qualify (30% disqualified early)
+- **Close rate on qualified prospects:** 60%+ with proper discovery and transition
+- **Rapport time:** 2-3 minutes MAX (Gordon)
+
+---
+
+## When to Read Reference Files
+
+**Read `references/question-frameworks.md` when:**
+- User needs the complete question bank by discovery syntax (Problems First vs Goals First)
+- Building calibrated question sequences or funnel technique scripts
+- Needs probing questions organized by level, offer type, or stage
+
+**Read `references/qualification-criteria.md` when:**
+- User needs the full Belief Ladder checklist or financial qualification rubric
+- Applying the Buying Pocket model to diagnose where a prospect sits
+- Building support/partner qualification scripts or DQ criteria
+
+**Read `references/gap-building.md` when:**
+- User needs pain amplification techniques (three-layer technique, Hell/Heaven Island)
+- Building the Mental Block technique or future pacing scripts
+- Working through identity frame construction or urgency/consequence questions

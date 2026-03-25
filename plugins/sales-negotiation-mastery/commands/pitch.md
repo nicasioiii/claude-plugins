@@ -1,7 +1,10 @@
 ---
 name: pitch
-description: Structure and deliver pitches, demos, and presentations that convert
+description: Build, refine, or review a pitch or offer presentation using Pitch Codex, analogy pitching, and permission-based transitions
 skill: pitch-presentation
+secondary_skills:
+  - sales-psychology
+  - discovery-qualification
 ---
 
-Help me build or improve a pitch, demo, or presentation. Structure the offer, articulate value, handle multi-stakeholder presentations, and transition from discovery to pitch using frameworks from Cole Gordon (Pitch Codex, Permission-Based Selling), Luke Alexander (Prescription Close, Authority Positioning), and Ryan Serhant (CODO Presentation Method).
+Help me build, refine, or review a pitch or offer presentation. Structure the offer using the Pitch Codex system with pillar construction (Gordon), transition from discovery using the Super Basic Transition or Pre-Pitch Method (Gordon), use analogy-driven pitching (Alexander), handle the Sophisticated Market Frame, apply the Two Sales principle (method + product), and run alignment checks before investment drop. Cross-references discovery language, psychological framing from sales-psychology, and engagement patterns from all four instructors (Voss, Gordon, Alexander, Serhant).

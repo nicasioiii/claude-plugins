@@ -1,328 +1,203 @@
 # Pitch Frameworks Reference
 
-## The Cole Gordon Pitch Codex (OPPIT)
+## The Pitch Codex System (Gordon)
 
-### 5-Layer Framework for Complete Offer Presentation
+### Part 1: High-Level Promise
 
-#### Layer 1: Outcome
-**Definition:** The specific result they'll achieve
+**Formula:** "[Number] steps to get you from [current situation] to [desired situation] in [timeframe]"
 
-**How to articulate:**
-- Tie directly to their stated goal from discovery
-- Use their exact numbers/timelines
-- Make it tangible and measurable
+**Construction rules:**
+- Use specific outcome (their stated goal from discovery)
+- Use specific timeframe (creates tangibility and certainty)
+- Customize to each prospect -- never generic
+- One to two sentences maximum
 
-**Example (fitness):**
-"You're going to lose 30 pounds in 16 weeks while eating the foods you love"
+**Examples:**
+- Fitness: "3 phases to get you from stuck at 220 to a lean 180 in 16 weeks while eating the foods you love"
+- B2B: "4 steps to take your agency from inconsistent $15K months to predictable $50K months in about 90 days"
+- Sales training: "4 steps to get you from zero control on your calls to a consistent 30% closing ratio in 8 weeks"
 
-**Example (B2B):**
-"You'll generate $50K in new monthly revenue within 90 days"
+### Part 2: The Bridge (3-5 Pillars)
 
-**Why it matters:**
-- Anchors what success looks like
-- Creates certainty about what they're paying for
-- Differentiates from vague promises
+The majority of your pitch. Each pillar logically moves the prospect from current to desired situation.
 
----
+**Pillar presentation template:**
+"So the first thing we're going to do is [PILLAR NAME]. You know how earlier on the call you mentioned [THEIR SPECIFIC PAIN POINT]? In this stage what we do is [EXPLANATION]. [Tie to their specific situation/outcome]. [Future pace: what life looks like after this pillar]. Does that make sense? Questions? Or ready to move on?"
 
-#### Layer 2: Process
-**Definition:** The step-by-step methodology
+**Pillar construction rules (Gordon):**
 
-**How to structure:**
-- Break into 3-4 distinct phases
-- Show the logical progression
-- Make it feel achievable (not overwhelming)
+1. **Weave prospect's own language into each pillar.** "If you say it, it's shit. If they say it, it's true." Use exact phrases from your discovery notes.
 
-**Example (coaching):**
-- Phase 1: Diagnosis (week 1-2) - We assess and create custom plan
-- Phase 2: Implementation (week 3-6) - You execute with weekly guidance
-- Phase 3: Optimization (week 7-12) - We refine based on results
-- Phase 4: Independence (ongoing) - You run it yourself
+2. **Tie features to emotional outcomes.** Especially certainty and significance (the two most powerful buying needs). Instead of "You'll get weekly coaching calls" say "You'll never be stuck wondering what to do next because you'll have direct access to someone who's done this 3,000 times."
 
-**Why it matters:**
-- Reduces fear of the unknown
-- Shows you have a structured system (not winging it)
-- Creates logical stopping points for Q&A
+3. **Anchor cost subtly.** "Instead of spending that time exhausted and overwhelmed, you can..." This embeds the cost of inaction into every pillar.
 
----
+4. **Eliminate fear of success.** Solve future problems they have not had yet. "And once you're at 50K/month, the next challenge is usually hiring. That's what Phase 3 covers."
 
-#### Layer 3: Proof
-**Definition:** Evidence this actually works
+5. **Each pillar earns confirmation.** You should get a "yeah, that makes perfect sense" after each pillar. If you do not, something is off -- pause and address it.
 
-**Hierarchy of proof (strongest to weakest):**
-1. **Video testimonials** - Real client on camera describing results
-2. **Case studies** - Detailed transformation story with before/after
-3. **Third-party validation** - Industry awards, certifications, publications
-4. **Numbers/results** - "50 clients, $2M in revenue generated"
-5. **Client logos** - "We work with [recognizable brand names]"
+6. **The pitch explains why past attempts failed.** The pitch should simultaneously be the explanation of why everything they tried has not worked AND why this will be different. The explanation itself IS the unique mechanism -- you do not need fancy proprietary names.
 
-**Delivery strategy:**
-- Lead with proof BEFORE making claims (not after)
-- Say: "Before I explain, here's what's possible—"
-- Then show specific case most relevant to THIS prospect
-- Let proof do the convincing work
+**Pillar count:** 3-5 pillars. Three is ideal for simplicity. Five is the maximum before prospects lose track.
 
-**Example script:**
-"I want you to see what's possible first. Here's Sarah—she came to us at $15K/month, and in 6 months she hit $50K/month. Here's the exact breakdown of how she got there..."
+### Part 3: Delivery
+
+How the program is fulfilled. Keep it simple.
+
+**Template:** "Here's what the actual experience looks like: [training platform/coaching calls/1-on-1 access/timeline]. [Brief logistics]. What questions do you have about the entire process, in totality?"
+
+Do NOT get into the weeds on delivery. Prospects care about outcomes, not logistics. Let their questions guide the depth.
 
 ---
 
-#### Layer 4: Investment
-**Definition:** What they'll pay and why it's worth it
+## The Analogy Pitch (Alexander)
 
-**Presentation order:**
-1. State the price clearly (no soft-stepping)
-2. Chunk up—show what they're investing in ($5K to build a $240K/year business)
-3. Chunk down—simplify the commitment ("4 clients at $5K/month")
-4. Compare to cost of inaction—"You're leaving $100K on the table annually"
+### Core Principle
 
-**Price positioning:**
-- Never lead with price
-- Always frame relative to outcome
-- Anchor against cost of NOT changing
-- Use payment plans only after certainty
+Do not list features. Use analogies and simple language to show you have the missing piece. The pitch is a thesis statement for why they have not succeeded yet.
 
-**Example script:**
-"The investment is $5,000. To put that in perspective, you're investing $5K to generate $240K in annual revenue. Or think about it this way: you only need 4 clients paying $5K per month to hit your goals."
+### How to Build Analogy Pitches
 
----
+1. During discovery, note analogies from THEIR life (sports they play, skills they learned, relationships)
+2. Map those experiences to the learning journey you offer
+3. Present the offer through the analogy, not through features
 
-#### Layer 5: Timeline
-**Definition:** When results appear
+**Examples:**
+- "If you had to learn basketball, what works better -- going to the gym alone watching YouTube, or having LeBron coach you?"
+- "If you're throwing darts with your eyes shut, how many hit the bullseye? That's what you've been doing without a system."
+- "Remember when you first learned to drive? Terrifying. But you had an instructor next to you. That's what we are."
 
-**Why this matters:**
-- Reduces uncertainty about investment
-- Shows you can deliver (not just promise)
-- Creates urgency without pressure
+### The Missing Piece Frame
 
-**Delivery:**
-- Be specific: "Week 1-2" not "beginning of program"
-- Show quick wins: "First results in 30 days"
-- Differentiate short-term vs. long-term gains
+Summarize the offer in one sentence: "We teach you [skill], get you [placement/result], and support you to [outcome]." The offer is the bridge between where they are and where they want to be.
 
-**Example script:**
-"Here's the timeline. In the first 30 days, you'll see [quick win]. By day 60, [intermediate result]. By the 90-day mark, you'll be at [outcome promised]. After that, it's compounding."
+### The Reframe + Gap Structure (Alexander)
+
+1. **Reframe major problems:** "Like we talked about, your biggest struggles right now are [X and Y]. Would you agree?"
+2. **Gap + Missing Piece:** Your pitch names why they have not succeeded
+3. **Analogy:** Simple metaphor that makes the solution obvious
+4. **Offer as bridge:** "What we do is [simple summary] so you're not lost, you have support, and you actually get to [goal]"
+5. **Tie to their words:** "Does that sound like something that would help you reach [their specific stated goal]?"
 
 ---
 
-## The Three-Pillar Framework (Universal)
+## The Pre-Pitch Method -- Detailed Construction (Gordon)
 
-### Simple Structure That Works for Any Offer
+### Full 10-Step Pre-Pitch Flow
 
-**Pillar 1: The Problem-Solution Match**
-- What they told you their problem is
-- How your solution specifically addresses it
-- Why past attempts failed at this
-- Benefit they get from this pillar
+1. **Permission** -- "Are you open to some feedback on where you're at?"
+2. **Credibility** -- Stack proof before making claims. Case studies, numbers, results.
+3. **Root Problem** -- Reframe symptom to root cause: "Your real problem isn't [symptom], it's [root cause]"
+4. **Reason Why** -- Educate on why it is a real problem. Chain the domino effect.
+5. **Cost** -- "My fear for you is [negative future state]..." -- anchor the cost of inaction
+6. **Chunk Up/Down** -- Show achievability: "You only need 4 clients at $5K/month"
+7. **Tie Down** -- "Does that make sense? Do you agree?"
+8. **Insight/Proof** -- "Here's what I'd do..." -- give a taste of the method (the WHAT, not the HOW)
+9. **Future Pace** -- Paint the picture of working together and the results they will see
+10. **Pass Control** -- Get them to ask for your offer: "Would you want to explore what this looks like?"
 
-**Pillar 2: The Support/Implementation System**
-- Ongoing support (weekly calls, group coaching, community)
-- Why it's needed (most solutions fail due to lack of accountability)
-- How often and at what level
-- Benefit: Keeps them on track
+### Why the Pre-Pitch Works
 
-**Pillar 3: The Knowledge/Independence Layer**
-- What they'll learn and internalize
-- Why it matters (sustainability, self-sufficiency)
-- How you transfer knowledge
-- Benefit: Freedom from dependency
+It front-loads objection removal. By the time you pitch:
+- Trust is established (credibility stack)
+- Root problem is understood (not just symptoms)
+- Cost of inaction is clear (emotional anchoring)
+- Path feels achievable (chunk up/down)
+- They have asked YOU for the pitch (pass control)
 
-### Example Pitch (B2B Offer)
+This eliminates most objection handling at the end because objections were pre-handled during the pre-pitch.
 
-**Pillar 1 - The Offer Itself**
-"You said your problem is that your Facebook ads aren't getting clients. The core issue isn't the ads—it's that your offer isn't differentiated. We have a proprietary 5-step offer positioning framework that's generated $2M in new revenue for clients in your space. What it does is make your offer stand out so much that you stop competing on price and can actually scale profitably."
+### Timing
 
-**Pillar 2 - Implementation Support**
-"The second thing is you get direct access to me. You'll have weekly strategic calls where we position your offer, review your marketing, and solve problems in real-time. This is critical because most entrepreneurs try this alone and give up. The accountability and expert guidance is what separates our clients from everyone else trying this on their own."
-
-**Pillar 3 - Knowledge Transfer**
-"And third, you're learning the framework, not just getting the done-for-you service. That means by the end of 90 days, you understand how to position any future offer. You're not dependent on me forever—you have the knowledge to implement this yourself."
+5-10 minutes maximum. Keep it tight. You have already built emotional connection in discovery.
 
 ---
 
-## The Serhant Funnel Technique
+## Two Sales in Every Call (Gordon)
 
-### Question-Based Pitch Structure
+### The Method Sale
 
-**Core principle:** Don't tell them benefits—ask questions that lead them to discover benefits themselves.
+Before they buy your product, they must buy your METHOD -- your thesis for how the problem gets solved.
 
-### The Framework
+Example: "The key to scaling an agency is not more leads -- it's a systematic sales process that converts the leads you already have."
 
-**Step 1: Establish the Funnel**
-Ask a series of questions that narrow down to your solution.
+### The Product Sale
 
-Example funnel:
-1. "What's your biggest challenge right now?"
-2. "How long has that been going on?"
-3. "What have you tried to fix it?"
-4. "Why didn't that work?"
-5. "What would be different if you solved this?"
-6. "Would you be interested in something that addresses exactly that?"
+Once they buy the method, your product is the vehicle for executing it.
 
-**Step 2: Layer the Questions**
-Each question should go deeper, not broader.
+Example: "And that's exactly what our 90-day program delivers -- the systematic sales process built specifically for agencies."
 
-Bad progression:
-- "What's your goal?" (too broad)
-- "Do you want to be rich?" (vague)
-- "How much money do you want?" (disconnected)
+### The Formula
 
-Good progression:
-- "What's your goal with your business?"
-- "How would hitting that change your daily life?"
-- "What's stopping you from getting there?"
-- "What would you need to make it happen?"
-
-**Step 3: Reveal the Solution Through Their Answers**
-Don't say what you offer—let their answers naturally point to it.
-
-Example:
-Prospect says: "I need to close more deals, but I don't know how to present my offer in a way that feels natural and confident."
-
-You: "So if you had a proven presentation framework that you could use with any prospect, and you felt totally confident in how you were positioning, what would that mean for you?"
-
-Prospect realizes: "Oh, I need a presentation framework."
-
-You didn't sell it—they discovered they needed it.
+"The key to [desire] is [method] and the only way to do [method] properly is [your product]."
 
 ---
 
-## The Pre-Pitch Transition (Full Framework)
+## Engagement Patterns
 
-### Complete Walk-Through of Bridge from Discovery to Pitch
+### The 45-Second Rule
 
-This is where you maintain emotional investment while shifting from diagnostic to prescriptive.
+Never talk for more than 45 seconds without a check-in. Beyond that window, prospects disengage mentally.
 
-#### 1. Permission
-**Script:** "Are you open to some honest, genuine feedback on where you're at in your business right now?"
+### Check-In Questions (Ranked by Strength)
 
-**Response:** "Yeah, absolutely. That's why I'm on the call."
+1. "Are you sure?" (strongest -- forces genuine reflection)
+2. "What are your thoughts on that specifically?" (open-ended, invites dialogue)
+3. "Based on what you tried in the past, do you feel this might be what's been missing?" (ties to discovery)
+4. "Does that make sense?" (weakest -- often gets reflexive "yes")
 
-**Why it works:** Permission converts what could feel combative into collaborative. They've now agreed to listen to honest feedback.
+### Dialogue, Not Monologue
 
-#### 2. Build Credibility Stack
-**Script (before making claims):**
-"And I want to let you know upfront, this isn't coming from esoteric theory. This is from working with 1,000+ clients, having documented case studies of $1.5M in revenue generated just last month. I'm telling you not to impress you, but to impress upon you that this comes from actual trenches experience, not random opinion. Does that make sense?"
-
-**Why order matters:** Proof → Claims lands better than Claims → "Let me prove it"
-
-#### 3. Identify Root Problem vs. Symptom
-**Script pattern:**
-"I totally understand you feel like your problem is [surface symptom], but what I want to challenge you on is that your real problem is actually [root cause]."
-
-**Example (Agency owner):**
-- Symptom: "My Facebook ads aren't getting clients"
-- Root: "Your offer isn't differentiated enough"
-- Education: "In a high-opportunity/low-barrier market, you can't market a commodity offer. Commoditized = compete on price = kill margins = can't scale. The real fix is offer positioning first."
-
-**Why it works:** Prospects think at symptom level. They've tried symptom-level solutions. You position the root-level solution, which is fresh and different.
-
-#### 4. Reason Why (Chain of Consequences)
-**Script pattern:**
-"Here's why [root problem] is the real issue:
-- If you don't solve this, you'll keep [consequence 1]
-- Which means you'll [consequence 2]
-- Which results in [consequence 3]
-- Which ultimately leaves you [dark future]"
-
-**Example:**
-"Restrictive diet → Low compliance → Person stops doing it → Rebounds → Gains weight back → Creates psychological loop of failure → Lower self-esteem → Works longer hours to compensate → Less energy for relationships → Cycle repeats"
-
-**Why it works:** Creates urgency by chaining effects. Shows they're not just missing one thing—the consequences ripple through their life.
-
-#### 5. Cost of Inaction (Emotional Anchor)
-**Script pattern:**
-"My biggest fear for you is that [negative future tied to what they said they want]."
-
-**Example:**
-"My biggest fear for you is that you build a business to $15K per month, but in doing that, you create a glorified job—not the freedom-based business that's the opposite of what you said you wanted. In 5-10 years, you're still trading time for money. That's not success."
-
-**Why it works:** Uses consistency bias. You're invoking their stated values, creating internal pressure to act.
-
-#### 6. Alignment (Double Tie-Down)
-**Script:**
-"Does that make sense?" [Easy yes]
-"Do you agree with that analysis?" [Requires actual thinking]
-
-**Why both:** First is politeness. Second creates actual mental agreement. This is where they shift from passive listening to active agreement.
-
-#### 7. Insight and Proof
-**Script:**
-"What I would do if I was you, based on working with hundreds of successful clients, is [root solution]. Which allows you to [benefit chain]. Which ultimately gives you [desired outcome they said they want]."
-
-**Example:**
-"What I'd do is focus on positioning your offer first—that way you attract ideal clients instead of tire-kickers. Which allows you to charge premium prices. Which gives you the margins to hire a team and actually remove yourself from the business. That's the freedom you said you wanted, right?"
-
-#### 8. Future Pace With Your Solution
-**Script:**
-"As you start to think about [their desired future], what you'll realize working with us is the more we focus on [root problem], the more [desired outcome] naturally falls into place."
-
-**Example:**
-"As you think about building that business that gives you control and freedom and lets you send your kids to private school, what you'll realize is the more we dial in your offer and positioning, the more everything else naturally becomes possible."
-
-#### 9. Chunk Up / Chunk Down
-**Chunk up (show total value):**
-"To get to $240K per year with a well-put-together offer..."
-
-**Chunk down (simplify path):**
-"You really only need 4 clients at $5K per month. That's it."
-
-**Why:** Large numbers feel impossible. Small, achievable numbers feel doable. Chunk down creates psychological momentum.
-
-#### 10. Pass Control
-**Script:**
-"Would you be open to me walking you through what that process looks like?"
-
-or
-
-"Would you want to explore what this could look like for your business?"
-
-**Why it works:** They now ASK about the offer instead of you pushing it. Critical psychological shift.
+The pitch should feel like a conversation between two people solving a problem together, not a TED talk. If you are talking for 3+ minutes straight, you have lost them.
 
 ---
 
-## Chunking Patterns (Advanced)
+## Chunk Up / Chunk Down Technique
 
-### The Up/Down Method
+### Purpose
 
-Used to make big goals feel achievable.
+Make the investment feel achievable by putting it in context.
 
-**Example (Real Estate):**
-- Up: "To hit $1M in annual revenue..."
-- Down: "...you'd need to close 10 deals at $100K commission. That's one deal per month."
+### Chunk Down (Break Big Goals into Small Steps)
 
-**Example (Coaching):**
-- Up: "To go from $50K to $500K in annual revenue..."
-- Down: "...you'd need 20 clients at $25K each. Or you could do 10 clients at $50K."
+"You said you want to make $240K/year. That's $20K/month. You only need 4 clients at $5K each. Our clients typically close 1-2 per week. So you're looking at 2-3 weeks to hit your monthly target."
 
-**Example (Fitness):**
-- Up: "To transform your body in 90 days..."
-- Down: "...you really just need 3-4 workouts per week and 80% nutrition compliance."
+### Chunk Up (Put Investment in Larger Context)
+
+"The investment is $10K. You said you're losing $15K/month because of this problem. That means in month one alone, the ROI pays for itself -- and you have the system forever."
+
+### When to Use
+
+- During the Pre-Pitch Method (step 6)
+- When prospect shows sticker shock during the pitch
+- During objection handling when they say "it's a lot of money"
+- When future pacing to make the outcome feel real
 
 ---
 
-## Offer Positioning Variations by Industry
+## Note-Taking System for Pitch Customization (Gordon)
 
-### High-Ticket B2B (Coaching/Consulting)
-Pitch should emphasize:
-- ROI (always lead with ROI)
-- Implementation support (hands-on guidance)
-- Results timeline (when they see money)
+### Setup
 
-### Fitness/Transformation
-Pitch should emphasize:
-- Simplicity (how easy it is to follow)
-- Sustainability (not a diet, a lifestyle)
-- Support (accountability/community)
+Pre-printed sheet with categories matching the discovery syntax:
 
-### Software/SaaS
-Pitch should emphasize:
-- Integration (fits into their existing workflow)
-- Time saved (efficiency gains)
-- Results per feature (how it solves specific problems)
+```
+Pain / Background / Chunk Down
+Pain Point #1 / Pain Point #2
+Financials / Leadership + Partner
+How Long / Impact / Doubt / Solution
+Why Now / Cost
+Goal / Why / Non-Monetary Goals
+Transition / Partner / Timing
+```
 
-### Course/Digital Product
-Pitch should emphasize:
-- Results from others (social proof heaviest)
-- Learning framework (why this approach works)
-- Community/support (if applicable)
+### Purpose
+
+- Active listening tool (write shorthand to stay present)
+- Follow the process without getting lost
+- Capture specific phrases as "ammo" for the pitch and objections
+- Customize the pitch using their exact language
+
+### The Golden Rule
+
+"If you say it, it's shit. If they say it, it's true." Write down their exact words and use them verbatim in your pillar presentations.

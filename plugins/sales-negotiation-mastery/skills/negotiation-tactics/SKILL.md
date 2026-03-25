@@ -1,353 +1,290 @@
 ---
-name: negotiation-tactics
-description: "Master negotiation tactics for pricing defense, deal structuring, and value-based selling. Use this skill when someone needs to negotiate pricing, defend their price, structure deal terms, handle discount requests, use bargaining models, create leverage, or navigate multi-party negotiations. MANDATORY TRIGGERS: negotiation, pricing, discount, negotiate price, deal terms, concessions, bargaining, price defense, Ackerman, leverage, counter-offer, value-based selling, pricing strategy, discount request."
+name: Negotiation Tactics
+description: "Master price negotiation, bargaining, concession management, multi-party dynamics, and creative deal structuring. Covers the Ackerman Model, CODO method, HALL method, fairness framing, deadlines, negotiator types, and Black Swan leverage. FOR: Structured price negotiation using proven bargaining models, defending your price against discount requests, creative deal structuring that avoids compromise, preparing for and debriefing negotiations, analyzing counterpart types and adapting strategy, managing deadlines and leverage in negotiations, multi-party and committee negotiations, opposition research and pre-negotiation planning. MANDATORY TRIGGERS: negotiation, pricing, discount, negotiate price, deal terms, concessions, bargaining, price defense, Ackerman, leverage, counter-offer, value-based selling, pricing strategy, discount request, splitting the difference, compromise, fairness, deadlines, multi-party, deal structuring, counterpart, negotiator type, Black Swan. Do NOT use for: Handling objections that are about fear, uncertainty, or trust (use objection-handling), creating urgency or getting final commitment (use closing-techniques), discovery or qualification (use discovery-qualification), follow-up after failed negotiation (use pipeline-followup)."
 ---
 
-# Negotiation Tactics: Pricing Defense & Deal Mastery
+# Negotiation Tactics
 
-This skill synthesizes negotiation frameworks from elite closers and FBI hostage negotiators to give you complete pricing and deal defense capabilities.
+## Philosophy
 
-## CORE FRAMEWORKS
+Negotiation is not about winning or losing. It is about finding creative solutions that serve both parties while protecting your interests. The best negotiators are not aggressive -- they are empathetic, prepared, and strategic.
 
-### 1. ACKERMAN BARGAINING MODEL (Chris Voss)
-**The gold standard for structured price negotiation.**
+**Voss:** "The adversary is the situation, not the person." Even aggressive counterparts are using defense mechanisms. Embarrassment leaves a stain that NEVER goes away.
 
-**Step 1: Set Your Target Price**
-- Define what you actually need/want
+**Serhant:** "Play for the other side to win." When the other side feels they won and your client gets what they want, you walk out like a boss. 80% of your future deals come from repeat business and referrals.
 
-**Step 2: Open at 65% of Target**
-- Example: Target $100k → Open at $65k
-- Anchors low without being offensively low
+**Gordon:** State YOUR price confidently when selling. Do not be apologetic about value.
 
-**Step 3: Three Decreasing Raises**
-- First raise: +20% of target ($20k → $85k)
-- Second raise: +10% of target ($10k → $95k)
-- Third raise: +5% of target ($5k → $100k)
+## The Ackerman Bargaining Model (Voss)
 
-**Step 4: Use Tactical Empathy Between Offers**
-- Don't just raise; show understanding of their constraints
-- Ask calibrated questions to make them counter
+The gold standard for structured price negotiation. Developed by ex-CIA agent Mike Ackerman for the toughest bargainers: kidnappers.
+
+### The 6-Step Process
+
+**Step 1: Set Your Target Price (Goal)**
+Define what you actually need. This is YOUR number regardless of what the other side says.
+
+**Step 2: First Offer = 65% of Target**
+- This is your opening. Does not mean you go first -- this is your number to deploy.
+- Pre-seed with emotional anchor: "You're going to be disappointed by this..." then pause, go silent, count to 10.
+- They will imagine worse than your actual number.
+
+**Step 3: Three Raises at Decreasing Increments**
+- First raise: ~20% of target (gets to ~85%)
+- Second raise: ~10% of target (gets to ~95%)
+- Third raise: ~5% of target (gets to ~100%)
+- Example on $1,000 target: $650 -> $800 -> $950 -> $987
+
+**Step 4: Between Each Move (Black Swan Group Addition)**
+- Use relentless tactical empathy
+- Use calibrated "no" techniques ("How am I supposed to do that?")
+- Get the other side to counter before you increase
 - Work to get them bidding against themselves
+- Summarize to trigger "that's right"
 
-**Step 5: Use Precise Numbers**
-- Final offer: $37,893 (not $37,500)
-- Precise numbers signal calculated preparation
-- They add credibility and weight
+**Step 5: Final Number = Precise, Non-Rounded**
+- $37,893 not $37,500
+- Precise numbers signal calculated preparation and add credibility
+- Numbers ending in odd digits are perceived as more permanent
 
-**Step 6: Add Non-Monetary Item to Final**
-- On your final number, include something they probably don't want
-- Signals you've hit your absolute ceiling
-- Example: "Plus 6 months of free training" (knowing they won't use it)
+**Step 6: On Final Number, Throw In a Non-Monetary Item**
+- Something they probably do not want
+- Shows you are at your absolute ceiling
+- Example: "Plus a year supply of smoothies" or "Plus 6 months of free training"
 
-**Why This Works:**
+### Why Ackerman Works
 - Anchors you low but rationally
-- Creates structured escalation
-- Decreasing increments show you're running out of room
+- Decreasing increments show you are running out of room
 - Forces them to decide, not you
 - Non-monetary final item proves finality
 
----
+## Three Numbers Framework (Serhant)
 
-### 2. THREE LEVERAGE TYPES (Chris Voss)
+Before ANY negotiation, know these three numbers:
 
-**Positive Leverage**
-- What they want that you control
-- What they need that you provide
-- What would benefit them if the deal happens
-- *How to create:* Make your solution clearly tied to their success
+1. **First offer** (if seller = listing price; if buyer = opening bid)
+2. **Best target** (what you really hope to get -- NEVER share with other side)
+3. **Walkaway price** (cannot go below/above this)
 
-**Negative Leverage**
-- What they want to avoid
-- Pain of status quo
-- Cost of delay or missed opportunity
-- *How to create:* Help them see consequences of inaction
+**First offer benchmarks (representing buyer):**
+- Always find a comp that supports the offer, even if low
+- Never put in an offer that gets no response -- always need a REASON to continue the conversation
 
-**Normative Leverage**
-- What they believe is right/fair
-- Industry standards
-- Community norms
-- *How to create:* Frame your position as aligned with fairness and standards
+## Fairness as a Tool (Voss -- "The F-Bomb")
 
-**Combining Leverage:**
-Best deals use all three. Voss shows that multi-lever deals close faster and implement better than single-lever deals.
+People will give up enormous concessions if they believe they are being treated fairly.
 
----
+### Three Ways Fairness Gets Used
 
-### 3. FAIRNESS FRAMING (Chris Voss)
+**1. Defensive/Destabilizing: "We just want what's fair"**
+- Implied allegation of unfairness. Triggers defensiveness.
+- Counter-move: "I apologize. Let's go back to where I started treating you unfairly, and we'll fix it."
 
-**The Psychological Trigger:**
-People will give up enormous concessions if they believe they're being treated fairly.
+**2. Intentionally Manipulative: "We've given you a fair offer"**
+- Meant to distract and manipulate into concession.
+- Counter-move: Mirror ("Fair offer?") + label ("It seems like you're ready to provide evidence for that.")
 
-**How to Deploy:**
-1. Acknowledge their position first
-2. Show how your proposal is fair (to both sides)
-3. Use phrases like: "We want to be fair here" or "This is consistent with what's standard"
+**3. Positive/Constructive (USE THIS ONE)**
+Deploy early in negotiation:
+"I want you to feel like you're being treated fairly at all times. So please stop me at any time if you feel I'm being unfair, and we'll address it."
 
-**Three Fairness Anchors:**
-- **Market fairness:** "Here's what this typically costs in your market"
-- **Reciprocal fairness:** "You get X, we get Y - balanced exchange"
-- **Principle fairness:** "This honors the value both sides bring"
+This establishes honest dealing from the start.
 
-**Warning:** If prospect says "I just want fairness," they're often about to make an unreasonable demand. Clarify what "fair" means to them before agreeing.
+## Deadline Psychology (Voss)
 
----
+### Key Insights
+- Most deadlines are arbitrary, nearly always flexible, and rarely trigger the consequences expected
+- Deadlines affect BOTH parties -- when negotiation is over for one side, it is over for the other
+- Revealing your deadline can work FOR you: "If you don't solve this by [deadline], I have to move on"
 
-### 4. DEADLINE PSYCHOLOGY (Chris Voss)
+### Detecting Their Deadlines
+- Pay attention to specificity in: who, what, when, how
+- Increasing specificity = increasing pressure on them
 
-**The Reality:**
-- Most deadlines are arbitrary and flexible
-- Rarely trigger the consequences we expect
-- Create pressure through loss aversion, not actual time limits
-- Nearly always worth pushing back on
+### Labels for Deadlines Put on You
+1. "It seems like you're worried about how much progress we've made"
+2. "It sounds like if this isn't done by X, there's no way it works"
+3. "What happens if we pass the deadline?"
 
-**Strategic Use:**
-1. Don't accept deadlines passively
-2. Use calibrated questions: "How does that deadline affect the flexibility of the deal?"
-3. Recognize when they're using deadline as pressure tactic
-4. Push back: "What happens if we miss it by 2 weeks?"
+## Five Steps of CODO (Serhant)
 
-**Creating Deadline Pressure (as Seller):**
-- Frame losses, not just gains
-- Show what they'll miss if they don't decide
-- Use milestone language: "Q2 pricing expires March 31"
-- Make it feel natural, not artificial
+### Step 1: Know the Star Players
+Map every person involved. Not just buyer and seller -- include influencers, gatekeepers, family members, anyone who could support or hinder the close.
 
----
+### Step 2: Know the Opposing Team (Opposition Research)
+Research three areas:
+1. The subject matter (sales history, market conditions, data)
+2. The other agent's background (experience level, track record)
+3. All supporting data (comps, regulations, trends)
 
-### 5. CALIBRATED QUESTIONS (Chris Voss)
+**Critical insight:** Comp through the OTHER side's eyes. What comps will THEY use? What story will THEY tell?
 
-**The Power Move:**
-Ask questions that seem like you're giving them control while you actually shape the negotiation.
+### Step 3: Create Urgency (Push, Pull, Persist)
+See closing-techniques for full urgency system.
 
-**Calibrated Question Patterns:**
-- "How do we make this work for both sides?"
-- "What would make this deal possible for your team?"
-- "How does this affect the rest of your organization?"
-- "What would it take for this to work within your budget?"
+### Step 4: Study the Market
+Be an information machine. Daily reading routine. Clients come with feelings; you overcome with facts.
 
-**Why These Work:**
-- They keep counterpart engaged
-- They thwart attacks or bad behavior
-- They gently reject offers without saying "no"
-- They push counterparts to search for solutions
-- They often get them bidding against themselves
+### Step 5: Work the Setting
+Use the grade-school framework: WHO am I talking to? WHY? WHAT do I need to say? WHEN is best? WHERE is best?
 
-**Key Insight:**
-Never ask yes/no questions in negotiation. Always ask "how" or "what" questions that require them to think and engage.
+Setting manipulation: Meet at YOUR office for power. Put yourself in THEIR office to make them feel dominant (playing for other side to win).
 
----
+## Interests vs. Positions Framework (Serhant)
 
-### 6. MIRRORING & LABELING (Chris Voss)
+**Splitting the difference is NOT the best outcome.** Both Voss and Serhant agree.
 
-**Mirroring Technique:**
-Repeat the last 1-3 words of what they said back to them as a question.
+**Voss:** "Compromise = formula for failure. Paint bedroom blue or yellow? Compromise = green. Nobody wanted green."
 
-Example:
-- Them: "We need a 25% discount"
-- You: "You need a 25% discount?"
-- This triggers them to justify/explain their position
+**Serhant:** Splitting the difference is a "second-choice compromise." Instead:
+1. List each side's INTERESTS (why they want what they want), not positions (what they want)
+2. Find common interests
+3. Create options for mutual gain based on interests
 
-**Labeling Technique:**
-Name the emotion or dynamic you're observing without judgment.
+**Example:** Buyer cannot come up (loan limits) + seller cannot come down (needs money for new home). Neither interest is about the price itself. Creative solutions: include furniture, adjust closing timeline, cover certain costs.
 
-Examples:
-- "It seems like price is the main concern here"
-- "It sounds like you're worried about implementation"
-- "I get the sense you need more information before committing"
+## Game Theory / Nash Equilibrium (Serhant)
 
-**Why These Work:**
-- Mirroring disarms - they often talk themselves into your position
-- Labeling defuses emotions and builds trust
-- Both techniques show you're listening and understanding
+No single person gets exactly what they thought they wanted, but everyone ends up in the best possible position.
 
----
+**Questions to find creative solutions:**
+- Other than a deeper discount, what might satisfy the buyer's need?
+- How might you help the seller save money so they ultimately net more?
+- Where can both parties save on out-of-pocket costs?
+- Think about the FULL duration of the deal (closing costs, moving costs, implementation costs)
 
-### 7. SERHANT CODO METHOD - SALES-SPECIFIC NEGOTIATION
+## Three Negotiator Types (Voss)
 
-**C = Care About Them First**
-- Before negotiating, build rapport and show genuine interest
-- Understand their constraints and pressures
-- Reference their situation back to them
+Understanding your counterpart's type is critical for adapting your approach.
 
-**O = Observe Their Objections**
-- Listen for what they're NOT saying
-- Notice hesitation, tone shifts, body language changes
-- Dig into the real objection, not the stated one
+### The Analyst
+- **Most important thing:** Obtaining all information
+- Not reaching agreement is acceptable if they got all the info
+- Methodical, skeptical, takes their time
+- **Hypersensitive to reciprocity -- sees it as a trap**
+- **Best tools: LABELS** (not questions -- questions raise their guard)
+- Don't be concerned by silence -- they're thinking
+- Build in time for each significant response
 
-**D = Design the Right Solution**
-- Create options that address their actual constraints
-- Multiple price points or terms
-- Show flexibility on non-critical items
+### The Accommodator
+- **Most important thing:** The RELATIONSHIP
+- Will yield concessions hoping for reciprocation
+- Sociable, peace-seeking, optimistic
+- **Objections extremely hard to uncover** (afraid to hurt relationship)
+- **Best tools: Implementation-focused "how" questions**
+- Horrified of silence -- if you go quiet, tell them why
+- Apology is essential if they have been offended
 
-**O = Operate from Certainty**
-- Know your walk-away price before you negotiate
-- Be crystal clear on what you can/can't move on
-- Never renegotiate what's been settled
+### The Assertive
+- **Most important thing:** Being HEARD
+- Time = money. Hate wasting it.
+- Direct, candid, loves winning
+- **Cannot listen to you until they know you've heard them**
+- **Best tools: MIRRORS and summaries** (get "that's right")
+- Silence = opportunity to speak more (for them)
+- Business relationships based on respect only
 
-**Creating Urgency (Serhant):**
-Use "Push, Pull, Persist" psychology:
-- **Push:** Prepare them for the timeline
-- **Pull:** Show them what they'll gain by moving fast
-- **Persist:** Follow up multiple times; one "no" is not final
+### The Black Swan Rule
+"Don't treat others the way you want to be treated. Treat them the way THEY need to be treated."
 
----
+2 out of 3 people you deal with will NOT be your type. Impasses are most often type mismatches.
 
-### 8. THREE-PRICE OFFERING (Cole Gordon)
+## Bargaining Deflection Methods (Voss)
 
-**The Structure:**
-Instead of one price, offer three options:
+When hit with an extreme anchor or unreasonable demand:
 
-1. **Budget Tier:** Stripped-down offer at lower price
-2. **Standard Tier:** Your actual offering at target price (make this the most attractive)
-3. **Premium Tier:** All bells and whistles at higher price
+1. **Calibrated "how":** "How am I supposed to do that?"
+2. **Redirect:** "What are we trying to accomplish here?"
+3. **Pivot to non-monetary:** "Let's put price aside and talk about what makes this a good deal"
+4. **Ask for more:** "What else could you offer to make that work?"
+5. **Reference external:** "Other firms usually charge [much higher amount]" + silence
+6. **Label fishing:** "It sounds like you're not prepared to make a deal"
+7. **Probe for range:** "It seems like you have a range in mind" + silence
+8. **Offer a range** where YOUR desired number is the end they will jump to
 
-**Psychological Effect:**
-- Removes "too expensive" objection (there's a cheaper option)
-- Makes your standard tier look perfectly positioned
-- Generates revenue from multiple buyer segments
-- Customers self-select into what works for them
+## Stealth Negotiation (Serhant)
 
-**Positioning:**
-Frame it as: "Depending on your timeline and needs, here are three options..."
+### Reading the Other Agent
+- **Experienced agent:** Soften approach. Let them think they have something to teach you.
+- **New agent:** Take on mentor role. "If it were my client, I would do A, B, C."
 
----
+### Transparent Communication + Selective Silence
+- Almost never answer quickly when emotions are high
+- Silence puts you in a place where they tell you THEIR story
+- Following up too much REVEALS you want the deal more (in negotiation context)
 
-### 9. PRICE ANCHOR STRATEGY (Luke Alexander)
+### Concession Timing
+"If you put everything on the table from the get-go, you lose control and have no cards left."
 
-**Temperature Check BEFORE Price Reveal**
+Successful negotiation is more about PROCESS than substance. Timing and process are the biggest factors.
 
-Always establish commitment level BEFORE introducing the investment:
+## Black Swans and Leverage (Voss)
 
-1. Ask: "On a scale of 1-10, does this solution address exactly what you need?"
-2. Get them to say: "10" (or high number)
-3. Reference this anchor when price reaction dips: "You said 30 seconds ago this was exactly what you need..."
+### Black Swans
+Hidden pieces of information that, if uncovered, change everything. The unknown unknowns.
 
-**Why This Works:**
-If you pitch BEFORE temperature check, price becomes their first anchor. If you establish emotional fit first, price becomes secondary.
+### Three Types of Leverage
+- **Positive:** What they want that you control
+- **Negative:** What they want to avoid (pain of status quo, cost of delay)
+- **Normative:** What they believe is right/fair (standards, norms, their worldview)
 
-**Key Quote from Luke:**
-"That's why you need that anchor first. Almost always, if it's a 10 at the temperature check, it's probably going to go down a couple of points once you hear that price. But you've already anchored it."
+Best deals use all three leverage types.
 
----
+### "Know Their Religion" (Voss)
+Understand your counterpart's worldview, identity, and what they value most. When you speak to their deepest held beliefs, resistance dissolves.
 
-### 10. FINANCIAL OBJECTION REFRAME (Cole Gordon)
+## Instructor Disagreement: Scripts vs. Playbooks
 
-**When Prospect Says: "I don't have the budget"**
+**Serhant:** "Scripts are dead." What happens when the other side goes off script? You freeze. Use playbooks -- adaptable frameworks for any situation.
 
-**Reframe Sequence:**
-1. Acknowledge: "I hear that budget is tight"
-2. Reframe to ROI: "What if this generates ROI that covers the cost?"
-3. Ask about consequence: "What's the cost of NOT solving this problem?"
-4. Build value first, discuss price second
+**Voss:** Use precise scripted tools (Ackerman, calibrated questions, five-phase no). The precision is the power.
 
-**The Insight:**
-Budget objections are rarely about actual budget. They're about:
-- Not believing in ROI
-- Not seeing value clearly enough
-- Fear the solution won't work
+**Gordon:** Drill scripts until they become natural. "If you're in your head, you're dead."
 
-**Process:**
-- Build belief in solution first
-- Show ROI case studies
-- Then discuss pricing as investment (not cost)
+**Resolution:** Scripts are training wheels that become internalized playbooks that become natural improv. Drill scripts (Voss/Gordon) until they flow naturally (Serhant). The progression is: scripted precision -> practiced fluency -> improvisational mastery.
 
----
+## Instructor Disagreement: Going First on Price
 
-## TACTICAL TALK TRACKS
+**Voss:** Usually don't go first. Let them anchor. Only name price if they are begging for it.
 
-### Handling "Your Price Is Too High"
+**Serhant:** Let buyer name their offer first. Gives them control and validates them.
 
-**Response:**
-"I understand it might seem high at first glance. But let me ask you this - when you look at what you're getting [explain value], how does that compare to what you'd spend trying to solve this with [alternative approach]?"
+**Gordon:** State YOUR price confidently. No hesitation.
 
-Then use **Ackerman** to show structured movement.
+**Resolution:** Context-dependent. In negotiation (terms being discussed, both parties have alternatives), let them go first. In sales calls with set pricing (one price, take it or leave it), state your price confidently.
 
-### Defending Your Price When Pressured
+## Instructor Disagreement: Compromise
 
-**Response:**
-"I appreciate the feedback. And here's what I can tell you - we price based on the value delivered, not the time invested. What we've found is that [specific outcome/result] is worth [your price] because [ROI or consequence avoided]."
+**Voss:** Compromise is a FORMULA FOR FAILURE. Never do it. "No deal is better than a bad deal."
 
-Then ask: "What would it take for this to work within your budget?"
+**Serhant:** Splitting the difference is a "second-choice compromise." Not ideal but acknowledges it as a fallback.
 
-### When They Say "Let Me Think About It"
+**Resolution:** They agree in principle. Creative alternatives always beat splitting the difference. Pursue creative value exchanges first. Splitting is the absolute last resort, and often a sign you did not prepare well enough.
 
-**Response (Luke Alexander method):**
-"I completely understand. What would make you 110% certain about moving forward?"
+## Cross-References
 
-Get specific criteria, then provide them immediately if possible.
-
-### Handling Multi-Party Negotiations
-
-**Chris Voss approach:**
-Use calibrated questions to surface hidden objections:
-- "How does this sit with your team?"
-- "What do your colleagues see as the main challenge?"
-- "How will this change impact the rest of the organization?"
-
-Ask these MULTIPLE TIMES because repetition shows you care about their perspective.
-
-### When They Want to "Go With Another Vendor"
-
-**Response:**
-1. Ask calibrated question: "Help me understand what they're offering that we're not?"
-2. Often reveals it's not price - it's a different solution type
-3. Mirror back: "So you're concerned about [specific feature]?"
-4. Address the real objection, not the stated one
+- **tactical-empathy** -- Mirroring, labeling, accusation audits, and "that's right" are used throughout negotiation
+- **closing-techniques** -- After negotiation reaches agreement, use closing techniques to formalize
+- **objection-handling** -- If the "negotiation" is really an objection in disguise, route there
+- **presence-power** -- Setting control, body language, and power dynamics are critical in face-to-face negotiation
+- **sales-psychology** -- Prospect Theory, loss aversion, and framing effect underpin every negotiation tactic
+- **tonality-delivery** -- Late Night FM DJ voice, silence, and inflection are weapons in negotiation
 
 ---
 
-## ANTI-PATTERNS TO AVOID
+## When to Read Reference Files
 
-1. **Don't compromise early.** Use Ackerman structure; small increments signal finality.
-2. **Don't negotiate without leverage.** Identify your leverage types first.
-3. **Don't skip fairness framing.** People will give enormous concessions if they feel treated fairly.
-4. **Don't accept deadlines passively.** Push back; they're usually flexible.
-5. **Don't ask yes/no questions.** Use calibrated "how" and "what" questions.
-6. **Don't pitch before temperature check.** Your offer becomes the anchor without emotional buy-in first.
-7. **Don't renegotiate settled items.** Once decided, it's settled. Stay certain.
-8. **Don't ignore non-monetary leverage.** Often more valuable than price concessions.
+**Read `references/bargaining-models.md` when:**
+- User needs the full Ackerman model walkthrough (6-step process with examples)
+- Working through three numbers framework or emotional anchoring tactics
+- Building deflection methods for extreme anchors or unreasonable demands
 
----
+**Read `references/deal-structuring.md` when:**
+- User needs Interests vs Positions framework or Game Theory application
+- Designing non-monetary pivots or creative concessions
+- Working through the five CODO steps or finding the sweet spot
 
-## WHEN TO USE EACH FRAMEWORK
-
-| Situation | Framework | Why |
-|-----------|-----------|-----|
-| Price negotiation, structured deal | Ackerman | Creates predictable escalation pattern |
-| Multiple stakeholders involved | Hidden Decision-Makers (calibrated questions) | Surfaces real objections from all sides |
-| Prospect reluctant on price | Three-Price Offering | Removes "too expensive" objection |
-| Emotional resistance to price | Temperature Check + Fairness | Establishes commitment before price shock |
-| Prospect says "no" repeatedly | Leverage Types | Identifies what will actually move them |
-| Building urgency | Serhant CODO | Creates natural timeline without pressure feeling |
-| Need to defend your position | Tactical Empathy + Assertion | Shows you understand them AND have boundaries |
-
----
-
-## COMPLETE ACKERMAN EXAMPLE
-
-**Target: $100,000 contract**
-
-1. Open offer: $65,000 (65% of target)
-2. Their pushback expected: "That's too low"
-3. Your response: "I understand. Let me show you how we got here..." [tactical empathy]
-4. First raise: $85,000 (+$20,000 = 20% of target)
-5. Their counter likely
-6. Second raise: $95,000 (+$10,000 = 10% of target)
-7. Another pause
-8. Third raise: $100,000 (+$5,000 = 5% of target)
-9. Final offer with non-monetary: "This is our best number. Plus we'll include 6 months of implementation support at no charge."
-
-**The Psychology Working:**
-- Each raise gets smaller → signals you're running out of room
-- You make the moves → they don't feel extracted
-- Precise final number ($100,000 not $100k) → signals calculation
-- Non-monetary final add → proves you're truly at ceiling
-
----
-
-## KEY REFERENCE FILES
-
-See detailed strategies in:
-- `/references/bargaining-models.md` - Complete Ackerman breakdown with examples
-- `/references/pricing-defense.md` - Financial objections and ROI strategies
-- `/references/advanced-tactics.md` - Multi-party negotiations and hidden leverage
+**Read `references/counterpart-analysis.md` when:**
+- User needs to identify and adapt to the three negotiator types (Analyst, Accommodator, Assertive)
+- Building opposition research or stealth negotiation strategy
+- Understanding Black Swans, three types of leverage, or "Know Their Religion"

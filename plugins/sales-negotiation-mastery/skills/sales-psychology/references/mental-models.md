@@ -1,584 +1,188 @@
-# Mental Models Reference Guide
+---
+name: Mental Models
+when_to_read: "When the user needs the Buying Pocket model, Socratic Dialogue mechanics, System 1/2 thinking applied to sales, the Mirror principle, improv principles for negotiation, selling to affluent prospects, or the 'know their religion' framework."
+---
 
-Proven frameworks for understanding why people buy, what drives their decisions, and how to position offers accordingly.
+# Mental Models: Buyer Behavior and Decision Frameworks
+
+## The Buying Pocket Model (Gordon)
+
+### The Spectrum
+
+```
+FAR LEFT                    BUYING POCKET                    FAR RIGHT
+"It's impossible"     "Possible, but only with help"     "I can do it alone"
+```
+
+### Moving Prospects into the Pocket
+
+**From Far Left (does not believe transformation is possible):**
+- Use stories and case studies of similar people who succeeded
+- Social proof: "We've had 47 clients in your exact situation who..."
+- Third-party validation: testimonials, screenshots, numbers
+- Move them RIGHT toward belief
+
+**From Far Right (believes they can do it alone):**
+- Skilled questioning to reveal gaps in their knowledge or capacity
+- "What's been the biggest obstacle to doing this yourself so far?"
+- Chunking down: "Walk me through exactly how you'd implement step 3"
+- Move them LEFT toward acknowledging they need help
+
+### Common Mistake
+
+Prospect already says they want coaching and cannot do it alone. Salesperson spends 20 minutes hammering doubt questions. Doubt is ALREADY established.
+
+**Diagnosis:** Check which beliefs on the Belief Ladder are already in place. Only invest time on the beliefs that are missing.
 
 ---
 
-## The Belief Ladder: How Prospects Move to Decision
+## System 1 / System 2 in Sales (Voss via Kahneman)
 
-**The Problem:** Salespeople often try to jump from "prospect doesn't know us" directly to "prospect buys." It doesn't work that way.
+### How to Influence System 1 (Emotional Brain)
 
-**The Reality:** Prospects climb a ladder, rung by rung. Each rung requires different evidence.
+- Tonality (warm, calm, certain) reaches System 1 directly
+- Labels ("It seems like...") engage System 1 by naming emotions
+- Stories and analogies bypass System 2 entirely
+- Body language and presence affect System 1 unconsciously
+- Loss framing triggers System 1's threat detection
 
-### RUNG 1: CURIOSITY
-**What's Happening:** "What is this?"
+### How to Engage System 2 (Rational Brain)
 
-**What They Need:** One interesting fact or hook that makes them wonder
+- Calibrated questions force deliberate thinking
+- Specific numbers and data activate analytical processing
+- Comparison frameworks (ROI, cost of inaction) engage calculation
+- Written proposals and follow-up materials allow System 2 review
 
-**Your Job:** Get attention, create curiosity
+### The Integration
 
-**How to Trigger:**
-- Reference something specific about them
-- Present an unusual idea
-- Share a surprising statistic
-- Open with pattern interruption
-
-**Example:**
-"I noticed you've been building your business organically for 5 years. Most people in your position are stressed about scaling. How are you staying sane?"
-
-### RUNG 2: INTEREST
-**What's Happening:** "Could this help me?"
-
-**What They Need:** Basic proof it works for people like them
-
-**Your Job:** Show that others have benefited
-
-**How to Trigger:**
-- Share a high-level case study
-- Reference client logos
-- Share a result ("helped 100+ clients")
-- Paint possibility picture
-
-**Example:**
-"We work with consultants like you who want to scale without hiring a team. Our typical client goes from $100k to $500k revenue in 12 months."
-
-### RUNG 3: BELIEF
-**What's Happening:** "This could work"
-
-**What They Need:** Detailed proof from similar people
-
-**Your Job:** Provide case studies and specifics
-
-**How to Trigger:**
-- Detailed case study (not just numbers)
-- Client testimonial about transformation
-- Breakdown of how it works
-- Addressing their specific situation
-
-**Example:**
-"Here's a case study of Sarah, a consultant like you. She was stuck at $120k because she was trading time for money. We taught her how to create a leverage system. In 9 months she hit $450k on 20 hours/week."
-
-### RUNG 4: CONVICTION
-**What's Happening:** "This WILL work for ME"
-
-**What They Need:** Specific proof they can win with this
-
-**Your Job:** Show how YOUR process solves THEIR specific problem
-
-**How to Trigger:**
-- Customize your case study to their situation
-- Show exactly what you'd do differently for them
-- Address their specific obstacles
-- Map their journey with your solution
-
-**Example:**
-"Based on what you told me about your business model, here's specifically what we'd do differently for you in month 1, 2, and 3. The challenge you mentioned about client retention? That's what Sarah had too. Here's the exact framework we used to fix it..."
-
-### RUNG 5: DECISION
-**What's Happening:** "I'm doing this"
-
-**What They Need:** Easy next step and removal of final friction
-
-**Your Job:** Make moving forward frictionless
-
-**How to Trigger:**
-- Simple call to action ("Here's the payment link")
-- Clear timeline ("You can start next Monday")
-- Removal of obstacles ("We handle all setup")
-- Assumed close ("Let's get you started")
-
-**Example:**
-"Perfect. Here's the investment: $X. I'll send you the payment link. Once you're in, we jump on a setup call tomorrow and you'll be live by next Monday."
+**Discovery and rapport:** Primarily System 1 engagement (empathy, labels, emotions)
+**Pitch:** Transition from System 1 (their pain, their words) to System 2 (your solution, numbers)
+**Close:** Return to System 1 (urgency, loss framing, identity)
+**Objection handling:** System 1 first (empathy, labeling) then System 2 (logic, reframes)
 
 ---
 
-## The Six Human Needs: Mastery Guide
+## The Mirror Principle (Gordon)
 
-Everyone operates to fulfill six core human needs. Identify which need dominates your prospect and position your offer accordingly.
+### Your Objections = Their Objections
 
-### 1. CERTAINTY: Need for Stability, Safety, Predictability
+Whatever internal beliefs or doubts YOU carry about the product, price, or process will be projected into the conversation and reflected in prospect behavior.
 
-**Signs They Have This Need:**
-- Ask lots of questions
-- Need details and timelines
-- Worry about implementation
-- Want guarantees
-- Ask "what if" questions
+**Common projections:**
+- "This is too expensive" (your belief) --> Prospects consistently say it is too expensive
+- "The onboarding is confusing" (your concern) --> Prospects express confusion about how it works
+- "There are cheaper alternatives" (your fear) --> Prospects bring up competitors
 
-**How to Trigger Certainty:**
-- Detailed process explanation
-- Specific timeline ("Week 1 you'll do X, Week 2 you'll do Y")
-- Money-back guarantee
-- Case studies with specific numbers
-- Detailed roadmap
+### The Fix
 
-**Script:**
-"Here's exactly what happens. Week 1 is onboarding—takes 3 hours. Week 2-3 we implement the system—this is hands-on with our team. Week 4 you go live. By day 45 you'll see first results."
+1. **Identify your own objections.** What would stop YOU from buying at this price?
+2. **Resolve them internally.** Review testimonials, results, ROI data until you genuinely believe.
+3. **If you cannot resolve them:** The offer might actually have a problem. Talk to management.
 
-### 2. VARIETY/UNCERTAINTY: Need for Novelty, Excitement, Change
+### The Test
 
-**Signs They Have This Need:**
-- Bored easily
-- Talk about wanting something different
-- Jump between ideas
-- Hate routine
-- Want excitement/challenge
-
-**How to Trigger Variety:**
-- Show how solution is different/unique
-- Present cutting-edge approach
-- Highlight novelty ("nobody else is doing this")
-- Create excitement about possibility
-- Show multiple paths/options
-
-**Script:**
-"Most people in your industry try A and B. They work, but they're saturated. What we're doing is completely different—it's what the top 1% are using right now. It's fresh, untested by most people, and it's where the real gains are."
-
-### 3. SIGNIFICANCE: Need to Matter, Stand Out, Be Important
-
-**Signs They Have This Need:**
-- Care about status/position
-- Want to be recognized
-- Talk about being the best
-- Want exclusivity
-- Mention awards/achievements
-
-**How to Trigger Significance:**
-- Create exclusivity ("Only 5 spots available")
-- Position them as elite/pioneer
-- Highlight how rare this is
-- Use their achievements in conversation
-- Make them feel special/selected
-
-**Script:**
-"Honestly, we only work with 3 new clients per year. Not because of capacity—because of fit. You're the type of person I want to work with because [specific quality]. That's rare. That's why I think you'd be a great fit."
-
-### 4. CONNECTION/LOVE: Need to Belong, Be Part of Community
-
-**Signs They Have This Need:**
-- Talk about team/family/relationships
-- Want community aspect
-- Care about culture/values
-- Mention loneliness/isolation
-- Ask about other clients/community
-
-**How to Trigger Connection:**
-- Emphasize community/group
-- Show shared values
-- Highlight connections they'll make
-- Create sense of belonging
-- Show how others relate
-
-**Script:**
-"Part of what makes this work is the community. You'll be surrounded by other consultants at your level, solving the same problems. We have monthly mastermind calls, a private Slack group—you're not doing this alone."
-
-### 5. GROWTH: Need to Develop, Improve, Become More
-
-**Signs They Have This Need:**
-- Talk about learning/improving
-- Read books, take courses
-- Care about skill development
-- Want to level up
-- Talk about their evolution
-
-**How to Trigger Growth:**
-- Emphasize personal development
-- Show skill progression
-- Highlight how they'll transform
-- Reference learning outcomes
-- Show evidence of getting better
-
-**Script:**
-"You'll go from 'I'm trading time for money' to 'I've built a business that works without me.' That transformation takes 90 days. By day 90, you'll have a completely different skill set. You'll be unrecognizable from where you are now."
-
-### 6. CONTRIBUTION: Need to Give, Serve, Impact Others
-
-**Signs They Have This Need:**
-- Talk about helping/serving
-- Mention family or legacy
-- Care about impact
-- Want to make difference
-- Mention leaving mark/legacy
-
-**How to Trigger Contribution:**
-- Show impact they can have
-- Connect to serving others
-- Highlight legacy-building
-- Show how they help more people
-- Frame as greater purpose
-
-**Script:**
-"Once you implement this, instead of serving 10 clients personally, you can serve 100+. Your methodology doesn't change—you just leverage it. Imagine the impact of reaching 10x the people with your help."
-
-### The Mastery Question
-
-**Listen to which need dominates their language during discovery.**
-
-If they say:
-- "Will it work?" → Certainty need dominates
-- "Is it different?" → Variety need dominates
-- "Is it exclusive?" → Significance need dominates
-- "Will I meet others like me?" → Connection need dominates
-- "Will I learn and improve?" → Growth need dominates
-- "How can I help more people?" → Contribution need dominates
-
-Once you identify their dominant need, position your entire offer around fulfilling THAT need.
+Can you honestly say: "If I were in their exact situation, I would buy this product at this price, without hesitation"? If not, fix your belief BEFORE your next call.
 
 ---
 
-## Identity vs. Beliefs vs. Values: The Hierarchy
+## Improv Principles for Sales (Serhant)
 
-**The Truth:** Different things drive behavior at different levels. Identity is most powerful.
+### "Yes, And..."
 
-### HIERARCHY OF INFLUENCE (Top to Bottom)
+Accept what is thrown at you and build on it:
+- Client suddenly demands a pool? "Pools are awesome. What kind? Olympic? Small? Let's talk."
+- Prospect raises unexpected objection? Accept it, explore it, build on it.
+- Never shut down new information. Treat everything as data.
 
-1. **Identity** (Highest) - "I am a top performer"
-2. **Purpose** - "My purpose is to impact families"
-3. **Beliefs** - "I believe change is possible"
-4. **Values** - "I value integrity"
-5. **Environment** - "My environment supports growth"
+### Specificity
 
-### WHY THIS MATTERS
+Do not talk vaguely. Get specific so clients think specifically:
+- Instead of "we'll improve your business" --> "we'll get your close rate from 15% to 30% in 8 weeks"
+- Specificity forces real thinking about real outcomes
 
-**Identity-level change is permanent.** When someone changes how they see themselves, that change lasts.
+### Listen to Respond, Not Reply
 
-**Value-level change is temporary.** When you appeal to values alone, the change fades when circumstances change.
+Truly hear what is being said before responding. The difference:
+- **Reply:** Waiting for them to finish so you can say your next line
+- **Respond:** Processing what they said, integrating it, and offering something genuinely relevant
 
-**Example:**
+### Scripts vs. Improv -- The Instructor Resolution
 
-**Value-Level Appeal (Weak):**
-"This will save you $10k per year in expenses."
-[They believe you, implement it, but once circumstances change, they stop]
+| Instructor | Position |
+|---|---|
+| Serhant | Scripts are dead. Use improv and adaptable playbooks. |
+| Voss | Use precise scripted tools (Ackerman, calibrated questions) |
+| Gordon | Drill scripts until they become natural |
 
-**Identity-Level Appeal (Strong):**
-"You're the type of person who builds efficient systems. Here's how people like you structure this..."
-[They implement because it aligns with who they are. It sticks.]
-
-### HOW TO APPEAL TO IDENTITY
-
-**DON'T:**
-- "If you do these steps, you'll make $50k/month"
-- "Following this process gets results"
-- "Our clients usually achieve X"
-
-**DO:**
-- "You're the type of person who scales businesses. Here's what people like you do..."
-- "You're someone who figures things out. Here's how..."
-- "You're clearly a person who doesn't settle. Most people in your position..."
-
-**Script Pattern:**
-"You're the type of person who [positive identity trait]. Here's what people like you do [solution]. That's why I think this fits you perfectly."
+**Synthesis:** Scripts are training wheels. Drill them (Voss/Gordon) until they flow naturally as improv (Serhant). The goal is internalized competence, not memorized recitation.
 
 ---
 
-## Loss Aversion: The Motivation Multiplier
+## Selling to Affluent Prospects -- Full Framework (Alexander)
 
-**The Science (Kahneman):** People feel the pain of loss approximately 2x stronger than the pleasure of equivalent gain.
+### Corporate 200-400K Earners
 
-**Implication:** Prospects are MORE motivated by avoiding loss than by achieving gain.
+**Their pain (NOT money):**
+- Low leverage -- trading massive time for income
+- No freedom -- cannot do what they want, when they want
+- Ceiling on income -- limited by salary/position
+- Told what to do -- lack of autonomy despite financial success
 
-### APPLYING LOSS AVERSION
+**Key questions:**
+- "What's the extent you have to go to in order to make that money?"
+- "If you had the skills to generate income independently, what would change?"
+- They have a TASTE of financial freedom but missing ACTUAL freedom
 
-**Away-Motivation vs. Toward-Motivation:**
+### High-Net-Worth Individuals (7+ figures liquid)
 
-**Toward-Motivation (Weak):**
-"If you implement this, you'll make $100k/year."
-[Nice, but not as motivating as it should be]
+- Extra $3-5K/month is meaningless to them
+- Frame as pure ROI: "Is investing $15K to generate $36K/year a good investment?"
+- It is an analytical conversation, not an emotional one
+- Easier to sell to because price does not threaten lifestyle
 
-**Away-Motivation (Strong):**
-"If you don't implement this, you'll lose $100k/year in missed opportunities."
-[2-3x more motivating]
+### The Empathy Gap
 
-### THE CONSEQUENCE QUESTION FRAMEWORK
+We project OUR relationship with money onto prospects at higher income levels. A $5K investment that would devastate your bank account is their rounding error.
 
-**Questions that trigger loss aversion:**
-
-1. "What happens if nothing changes?"
-2. "How much money are you leaving on the table?"
-3. "If this stays broken, what's the impact in 12 months?"
-4. "What's the cost of staying where you are?"
-5. "What do you lose by waiting?"
-6. "What opportunity are you missing?"
-
-**Why Consequence Questions Close Deals:**
-- They make the cost of inaction CONSCIOUS
-- Loss aversion is strongest when loss is visible
-- Once they calculate the cost, investment seems small
-
-**Script:**
-"So let me ask you this—if we don't solve this problem, what does your business look like in 12 months? Be honest. What's the real cost of this not changing?"
-[They calculate it]
-"Yeah, that's what we're preventing here. The investment is $X. Compare that to what you'll lose if nothing changes."
+**Fix:** Ask about THEIR relationship with money. Do not assume their financial reality matches yours.
 
 ---
 
-## Prospect Theory & Framing Effects
+## "Know Their Religion" -- Full Framework (Voss)
 
-**The Science (Kahneman & Tversky):** Identical choices produce different decisions based on how they're presented.
+### Definition
 
-### THE FRAMING EFFECT IN SALES
+Everyone has beliefs larger than what is at stake in a given moment. Their worldview, reason for being, what gives them identity and transcendence.
 
-**Example 1: Same Offer, Two Frames**
+### How to Discover It
 
-**Gain Frame:**
-"Our solution helps you make an extra $50k/year in revenue."
+- **Listen for adjectives.** Words selected to give meaning reveal clues.
+- **Surface adjectives + scattered descriptors** indicating themes or philosophy
+- **Words conveying PASSION** = most sincere and revealing
+- Mirror these words back to them
 
-**Loss Frame:**
-"Without our solution, you're leaving $50k/year on the table."
+### How to Use It
 
-Same outcome, different motivation level. Loss frame = 2-3x more motivating.
+Position your objectives within their worldview. If actions can be framed as aligned with their "religion," massive shifts in decision-making are possible.
 
-**Example 2: Anchoring with Framing**
+**Case study:** Businessman whose "religion" was stewardship (born-again Christian + hunter). Consultant said "This sounds like a stewardship for you." Response: "You understand me. You're hired."
 
-**Anchor High (Loss):**
-"Most companies your size are losing $100k annually from this problem."
+### Black Swans (Related Concept)
 
-**Present Solution (Gain):**
-"With us, you fix it with a $15k investment."
+Hidden pieces of information whose unearthing has game-changing effects. Each side in a negotiation possesses 3-5 Black Swans. The counterpart might not even realize how important a piece of information is.
 
-**Contrast Effect:**
-$15k investment seems reasonable compared to $100k loss.
-
-### PRACTICAL IMPLEMENTATION
-
-1. Establish anchor (preferably showing loss)
-2. Frame as "avoiding loss" not "achieving gain"
-3. Present your solution as the prevention
-4. Use loss aversion language
-
-**Script:**
-"Based on [X metrics], you're likely leaving $100k/year on the table. Our solution costs $15k. So the question isn't really 'can I afford this?'—it's 'can I afford NOT to do this?'"
+**How to find them:**
+- Be open to discovery (beginner's mind)
+- Things that do not add up = clues, not meaningless anomalies
+- Read nonverbal clues with labels: "You seem hesitant" / "Something seems off"
+- Use backup listeners whose only job is to listen between the lines
 
 ---
 
-## The Consistency Principle: Self-Image Drives Action
-
-**The Principle:** Once someone makes a public commitment or states something, they feel compelled to act consistent with that statement.
-
-**Why It Works:** Humans have a deep need to see themselves as consistent. When their actions contradict their statements, they experience discomfort (cognitive dissonance) and must resolve it.
-
-### HOW TO LEVERAGE CONSISTENCY
-
-**Step 1: Get Them to State What They Want**
-"So your goal is to hit $50k/month and be able to work 20 hours/week. Is that right?"
-[They confirm verbally - public commitment]
-
-**Step 2: Get Them to Commit to Wanting Help**
-"If we could help you achieve that, would that interest you?"
-[They commit to wanting the outcome]
-
-**Step 3: Reference the Commitment Later**
-"Earlier you said this goal is important to you and you'd be interested if we could help. What's changed?"
-[Creates cognitive dissonance if they're wavering]
-
-**Script in Action:**
-"You: Earlier you said your goal is $50k/month and you want to be present for your family. You also said if we could help, you'd be interested.
-
-What I'm hearing now is hesitation. But your goal hasn't changed, right? Your desire to be present for your family hasn't changed. So what's actually the concern?"
-
-[This is powerful because they stated both things. Now they must either:
-A) Commit to the solution (consistent with their statements)
-B) Admit they don't want it (inconsistent with what they said)]
-
----
-
-## Tactical Empathy: The Black Swan Framework
-
-**Definition:** Identifying the things your prospect values most—often unconscious to them—and using them as leverage.
-
-**Key Concept:** Everyone has a "religion"—deeply held beliefs larger than the current negotiation.
-
-### THE BELIEF ARCHETYPES
-
-**Common "Religions":**
-- Family comes first (above all)
-- Hard work equals worth
-- Independence is freedom
-- Results matter more than effort
-- Loyalty is sacred
-- Honesty is non-negotiable
-- Success is measured by X (money, status, impact, etc.)
-- Everyone deserves a chance
-
-### HOW TO DISCOVER THEIR "RELIGION"
-
-**Listen for repeated themes:**
-- What do they mention multiple times?
-- What lights them up?
-- What makes them defensive?
-- What are they NOT compromising on?
-
-**Examples:**
-- If they keep mentioning family → Family is their religion
-- If they emphasize self-reliance → Independence is their religion
-- If they highlight integrity → Honesty is their religion
-
-### HOW TO USE THIS
-
-**Step 1: Identify Their Religion**
-(Listen during discovery)
-
-**Step 2: Frame Your Solution in Alignment with It**
-Instead of: "This will make you more money"
-Try: "This will let you be the present parent you want to be for your kids" [if family is their religion]
-
-**Step 3: Show How Accepting Your Deal Serves Their Religion**
-"You said family is everything to you. Here's how this works:
-You hit $100k/year, you work 20 hours/week, you're home for dinner every night. You're the role model your kids need. That's the real win."
-
-**Why It Works:** When someone sees that your proposal aligns with what they deeply believe in, they overcome obstacles and self-imposed restrictions that would normally block the deal.
-
----
-
-## Tension & Pressure Dynamics: The 70-30 Rule
-
-**Key Finding (Cole Gordon):** 70-80% of buying pressure is INTERNAL (prospect's own fear, urgency, desire)
-Only 20-30% is EXTERNAL (your persuasion, urgency you create)
-
-**Implication:** Your job is NOT to create external pressure through pushy sales tactics.
-
-### YOUR ACTUAL JOB
-
-1. **Identify their internal pressure** - fears, deadlines, desires, pain
-2. **Make it conscious** - bring their internal pressure to the surface
-3. **Position your solution as release** - show how you solve the internal problem
-
-### HOW THIS LOOKS
-
-**Finding Internal Pressure:**
-"So it sounds like you're worried about running out of time here. Is that fair?"
-[They acknowledge the worry—now it's conscious]
-
-**Making It Explicit:**
-"Help me understand—what's driving the urgency on this? What happens if you wait another 6 months?"
-[They articulate their own pressure]
-
-**Positioning Solution as Release:**
-"What I'm hearing is that waiting isn't really an option for you. This program is what solves that urgency. You get the structure and support you need to move fast without burning out."
-[Now your solution is the release valve for their internal pressure]
-
-### WHY THIS WORKS BETTER
-
-**External Pressure (Pushy Sales Tactics):**
-- Creates resistance
-- Triggers defensive behavior
-- Feels manipulative
-- Rarely closes
-
-**Internal Pressure (Surfacing Their Urgency):**
-- Creates pull (they want the solution)
-- Feels collaborative
-- Creates sustainable motivation
-- Closes naturally
-
----
-
-## Anchoring: The First Number Wins
-
-**The Principle:** The first number mentioned becomes the reference point for all subsequent numbers.
-
-**The Research:** Even when people know about anchoring, they're still influenced by it. Even when they actively disbelieve the anchor, it still shifts their thinking.
-
-### HOW TO APPLY ANCHORING
-
-**Before Mentioning Your Price:**
-
-1. **Establish a high anchor related to value or cost**
-   - "Most companies in your space spend $50k annually on this"
-   - "Companies your size are losing $100k/year from this problem"
-
-2. **Then present your price**
-   - "We're at $5k" [seems like a bargain]
-   - Or: "Our solution costs $10k" [seems small vs. $100k loss]
-
-3. **The contrast effect kicks in**
-   - Your price now seems reasonable by comparison
-
-### ANCHORING EXAMPLES
-
-**Anchor Through Market Rate:**
-"Solutions like this typically cost $20-30k. We're positioned at $7,500."
-[Prospect's brain: "Wow, that's less than half"]
-
-**Anchor Through Loss:**
-"Based on your numbers, you're losing about $150k/year from inefficiency."
-[Establish loss as anchor]
-"Our investment is $25k."
-[Contrast: $25k vs. $150k loss = obvious choice]
-
-**Anchor Through Opportunity Cost:**
-"When people wait 6 months, they lose about $50k in potential revenue."
-[Anchor the delay cost]
-"If we start now, you capture that $50k and then some."
-[Your program becomes the gain]
-
-### WHY ANCHORING WORKS
-
-- First number is reference
-- All adjustments from anchor are insufficient
-- Brain uses anchor as starting point
-- Even if questioned, anchor still influences
-
----
-
-## The Contrast Principle: Relative Value
-
-**Definition:** Things appear different when compared to other things. All value is relative.
-
-### HOW CONTRAST SHIFTS PERCEPTION
-
-**Without Contrast:**
-"Our program costs $5,000."
-[Prospect thinks: "That's expensive"]
-
-**With Contrast:**
-"Competitors charge $20-50k. We're at $5,000."
-[Prospect thinks: "That's a steal"]
-
-Same price, different perception based on contrast.
-
-### SALES APPLICATIONS
-
-**Price Contrast:**
-- Higher anchor → Lower price looks better
-- Present expensive option first → Cheaper option seems reasonable
-
-**Pain/Solution Contrast:**
-- Show pain first → Solution seems more valuable
-- Show current state → Desired state looks attractive
-
-**Time Contrast:**
-- "Takes 3 hours to set up vs. 40 hours for manual process"
-- Contrast makes your solution look efficient
-
-**Result Contrast:**
-- "Current method: $100/customer acquisition"
-- "Our method: $15/customer acquisition"
-- Contrast shows the advantage
-
----
-
-## Summary: The Mental Models Stack
-
-**Most Powerful (Use These First):**
-
-1. **Identity** - Help them see themselves as the person who achieves
-2. **Tactical Empathy** - Align with their core beliefs and "religion"
-3. **Loss Aversion** - Show cost of inaction, not cost of action
-4. **Commitment & Consistency** - Get them to state what they want, then remind them
-
-**Supportive (Use to Strengthen):**
-
-5. **The Belief Ladder** - Move them rung by rung, not jumping steps
-6. **The Six Human Needs** - Identify and appeal to dominant need
-7. **Consequence Questions** - Make internal pressure conscious
-8. **Anchoring & Contrast** - Set frames strategically
-
-**Outcome:**
-- Prospects feel like they're choosing the solution (not being sold)
-- Motivation is internal and sustainable
-- Objections are natural and easy to handle
-- Closing happens naturally from strong foundation
-
-**The Meta-Truth:**
-Master the mental models, and you don't need complex closing techniques. The sale closes itself because you've built the right psychological foundation.
+## Cross-References
+
+- Persuasion principles (loss aversion, framing) --> `references/persuasion-principles.md`
+- Tactical empathy tools for discovering models --> `tactical-empathy`
+- Discovery questions to probe beliefs --> `discovery-qualification`
+- Negotiator types in price negotiation --> `negotiation-tactics`
+- Mindset and conviction building --> `sales-mindset-prep`

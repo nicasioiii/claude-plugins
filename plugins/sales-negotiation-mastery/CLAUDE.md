@@ -1,59 +1,113 @@
-# Sales & Negotiation Mastery Plugin
+# Sales & Negotiation Mastery Plugin v2
 
-The definitive system for everything that happens AFTER a meeting is booked — from opening the conversation through closing the deal. Synthesized from 629,000+ lines of practitioner-taught course material across Chris Voss (Never Split The Difference), Cole Gordon (30 Day Closer), Luke Alexander (Closer Cartel Remote Protocol), and Ryan Serhant (Mastering CODO).
+The definitive system for everything that happens AFTER a meeting is booked -- from opening the conversation through closing the deal and managing pipeline. Synthesized from 629,000+ lines of practitioner-taught course material across Chris Voss (Never Split The Difference), Cole Gordon (30 Day Closer), Luke Alexander (Closer Cartel Remote Protocol), and Ryan Serhant (Mastering CODO).
 
 ## Scope
 
 **Starts at:** The booked meeting (prospect has agreed to a call/demo)
-**Ends at:** Deal closed + immediate post-close follow-up
+**Ends at:** Deal closed + post-close follow-up + pipeline reactivation
 
 This plugin does NOT cover:
-- Cold outreach, prospecting, or appointment setting → use `cold-outbound-mastery`
-- Marketing, content, SEO, or paid ads → use `marketing-skills`
+- Cold outreach, prospecting, or list building --> use `cold-outbound-mastery`
+- Marketing, content, SEO, or paid ads --> use marketing plugins
 - Customer success or post-sale account management
-- Sales team hiring/management (unless frameworks from courses apply directly)
+- Career advice for closers (LLC, taxes, offer hunting)
 
-## Skill Routing
+## Skill Routing (12 Skills)
 
-Match the user's request to the most specific skill:
+Match the user's request to the most specific skill. When multiple skills apply, load the primary skill first, then cross-reference supporting skills.
 
-- **Discovery calls, needs analysis, qualification, asking better questions, understanding the prospect** → `discovery-qualification`
-- **Presenting the offer, running demos, structuring pitches, articulating value** → `pitch-presentation`
-- **Handling objections, rebuttals, "I need to think about it", "too expensive", spouse/partner objections** → `objection-handling`
-- **Pricing negotiation, defending price, deal terms, concessions, bargaining, Ackerman model** → `negotiation-tactics`
-- **Closing the deal, getting commitment, deposit handling, assumptive closes, trial closes** → `closing-techniques`
-- **Sales psychology, persuasion principles, tonality, mental models, framing, loss aversion** → `sales-psychology`
-- **Follow-up strategy, pipeline management, re-offer techniques, CRM, nurture sequences** → `pipeline-followup`
+### Pre-Call Layer
+- **Pre-call mindset, identity, conviction, frames, fear management, energy, flow state, ramp-up** --> `sales-mindset-prep`
+- **Voice types, inflection, pacing, silence, rapport levels, subcommunication, body language on video** --> `tonality-delivery`
 
-## Cross-Skill References
+### Core Call Flow
+- **Discovery calls, qualification, building the gap, probing questions, Belief Ladder** --> `discovery-qualification`
+- **Mirroring, labeling, accusation audits, "That's Right," power of "no," calibrated questions** --> `tactical-empathy`
+- **Structuring and delivering the pitch, Pitch Codex, transitions, two sales in every call** --> `pitch-presentation`
+- **Diagnosing objections, isolation, INTAI handling, money/spouse/uncertainty objections** --> `objection-handling`
+- **Getting commitment, investment drop, trial closes, urgency, Rule of Three** --> `closing-techniques`
 
-These skills work together. Common combinations:
+### Negotiation and Deal Structuring
+- **Price negotiation, Ackerman model, bargaining, concessions, negotiator types, Black Swans** --> `negotiation-tactics`
 
-- **"Prospect says it's too expensive"** → Start with `objection-handling` (diagnose the real objection), then `negotiation-tactics` (if it's genuinely a pricing negotiation), reference `sales-psychology` (loss aversion framing)
-- **"How do I run a better discovery call?"** → Primary: `discovery-qualification`, support: `sales-psychology` (question psychology), `pitch-presentation` (transition to pitch)
-- **"Prospect went dark after demo"** → Start with `pipeline-followup` (re-engagement strategy), reference `objection-handling` (what objection did you miss?)
-- **"I need to present to a committee"** → Primary: `pitch-presentation`, support: `negotiation-tactics` (multi-stakeholder dynamics), `closing-techniques` (champion building)
-- **"How do I handle a prospect who keeps stalling?"** → Primary: `closing-techniques` (urgency creation), support: `objection-handling` (diagnosing the real blocker), `sales-psychology` (commitment psychology)
+### Post-Call and Support
+- **Follow-up sequences, pipeline management, re-offers, CRM, reactivation, anti-ghosting** --> `pipeline-followup`
+- **Appointment setting, DM/phone setting, triage calls, booking, show rates** --> `appointment-setting`
+
+### Foundational / Cross-Cutting
+- **Psychological principles, loss aversion, framing, Six Human Needs, consistency bias, buyer types** --> `sales-psychology`
+- **In-person presence, first impressions, body language, setting manipulation, power dynamics** --> `presence-power`
+
+## Decision Tree
+
+```
+User Request
+    |
+    +--> About mindset, prep, fear, conviction, energy? --> sales-mindset-prep
+    +--> About how to SOUND (voice, tone, silence)? --> tonality-delivery
+    +--> About asking questions, qualifying, discovery? --> discovery-qualification
+    +--> About empathy, mirroring, labeling, "that's right"? --> tactical-empathy
+    +--> About presenting the offer, pitch structure? --> pitch-presentation
+    +--> About handling objections or rebuttals? --> objection-handling
+    +--> About getting the commitment, closing? --> closing-techniques
+    +--> About price negotiation, bargaining, deal terms? --> negotiation-tactics
+    +--> About follow-up, pipeline, ghosted prospects? --> pipeline-followup
+    +--> About setting appointments, booking calls? --> appointment-setting
+    +--> About WHY people buy (theory, psychology)? --> sales-psychology
+    +--> About in-person presence, body language, meetings? --> presence-power
+    +--> About reviewing a sales call? --> /callreview command
+    +--> About a psychological principle? --> /psychology command
+```
+
+## Commands (8 Total)
+
+| Command | Maps To | Purpose |
+|---------|---------|---------|
+| `/discovery` | discovery-qualification, tactical-empathy | Prepare or review a discovery call |
+| `/pitch` | pitch-presentation, sales-psychology | Build or refine a pitch/offer presentation |
+| `/objection` | objection-handling, tactical-empathy | Diagnose and resolve a specific objection |
+| `/close` | closing-techniques, negotiation-tactics | Plan or execute a closing strategy |
+| `/negotiate` | negotiation-tactics, tactical-empathy, presence-power | Prepare for or debrief a negotiation |
+| `/followup` | pipeline-followup, appointment-setting | Create follow-up sequence or re-engagement plan |
+| `/callreview` | ALL (route by diagnosis) | Review a call and diagnose issues |
+| `/psychology` | sales-psychology, sales-mindset-prep | Explain or apply a psychological principle |
+
+## Cross-Reference Map
+
+### Common Multi-Skill Scenarios
+
+| User Request | Primary Skill | Supporting Skills |
+|---|---|---|
+| "Prospect says too expensive" | objection-handling | negotiation-tactics, sales-psychology (loss aversion), tactical-empathy (labeling) |
+| "How do I run better discovery?" | discovery-qualification | tactical-empathy (mirroring/labeling), tonality-delivery |
+| "Prospect went dark" | pipeline-followup | tactical-empathy ("have you given up?"), objection-handling |
+| "Preparing for a big negotiation" | negotiation-tactics | presence-power, tactical-empathy, sales-mindset-prep |
+| "I keep losing deals at the close" | closing-techniques | objection-handling, discovery-qualification, tonality-delivery |
+| "Review my sales call" | /callreview | ALL (diagnose which phase broke down) |
+| "Help me train a setter" | appointment-setting | tonality-delivery, discovery-qualification |
+| "Spouse objection" | objection-handling | tactical-empathy, closing-techniques (deposit close) |
+| "I freeze under pressure" | sales-mindset-prep | tonality-delivery, tactical-empathy |
+| "Presenting to a committee" | pitch-presentation | negotiation-tactics, closing-techniques, presence-power |
 
 ## Product Marketing Context
 
-**ALWAYS** check for `.claude/product-marketing-context.md` before asking the user questions about their product/service. If it exists, use that context (ICP, value props, positioning, competitive landscape) to tailor advice. Only ask for information not already covered.
+**ALWAYS** check for `.claude/product-marketing-context.md` before asking the user about their product/service. If it exists, use that context to tailor advice. Only ask for information not already covered.
 
 ## How This Plugin Relates to Others
 
-- **cold-outbound-mastery**: Handles everything PRE-meeting (cold email, LinkedIn, DMs, cold calling for appointment setting, list building). This plugin picks up where cold-outbound-mastery stops.
-- **sales (knowledge-work plugin)**: Provides CRM-integrated sales enablement (account research, competitive intelligence, call summaries). Complementary — use both together.
-- **marketing-skills**: Marketing systems (content, SEO, ads, copywriting). Separate domain, but `marketing-psychology` shares foundational principles with `sales-psychology`.
+- **cold-outbound-mastery**: Everything PRE-meeting. This plugin picks up where cold-outbound-mastery stops.
+- **marketing plugins**: Marketing systems (content, SEO, ads). Separate domain.
 - **cro-copywriting-system**: Written copy optimization. Separate from live sales conversations.
 
 ## Reference Files
 
-Each skill has a `references/` subfolder with deep-dive material (scripts, templates, frameworks, benchmarks). The SKILL.md files contain core frameworks and decision logic. Load reference files on demand when you need specific scripts or detailed examples.
+Each skill has a `references/` subfolder with deep-dive material. SKILL.md files contain core frameworks and decision logic. Load reference files on demand when you need specific scripts, templates, or detailed examples.
 
 ## Source Material
 
-Knowledge synthesized from 4 expert courses:
-- **Chris Voss (Black Swan)** — Never Split The Difference: FBI-trained negotiation (tactical empathy, mirroring, labeling, Ackerman model, calibrated questions)
-- **Cole Gordon** — 30 Day Closer: High-ticket closing system (Belief Ladder, Pitch Codex, discovery syntax, objection diagnosis)
-- **Luke Alexander** — Closer Cartel Remote Protocol: Remote closing mastery (Doctor Frame, 7-step objection process, setter/closer frameworks, live call coaching)
-- **Ryan Serhant** — Mastering CODO: Closing & negotiation (CODO Method, Funnel Technique, Stealth Negotiator, urgency creation, negotiation styles)
+Synthesized from 4 expert courses:
+- **Chris Voss (Black Swan Group)** -- Tactical empathy, mirroring, labeling, Ackerman model, calibrated questions, negotiator types
+- **Cole Gordon (30 Day Closer)** -- Belief Ladder, Pitch Codex, Three Frames, discovery syntax, objection diagnosis, follow-up systems
+- **Luke Alexander (Closer Cartel)** -- Belgian Malinois identity, 5-step objection process, appointment setting, pipeline management, selling to affluent
+- **Ryan Serhant (Mastering CODO)** -- CODO method, Six Power Plays, Game Theory, Interests vs. Positions, improv, stealth negotiation

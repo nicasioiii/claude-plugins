@@ -1,509 +1,357 @@
 ---
-name: pipeline-followup
-description: "Manage your sales pipeline, master follow-up sequences, and re-engage stalled prospects. Use this skill when someone needs follow-up strategies, pipeline management, CRM setup for sales, re-offer techniques, nurture sequences for active deals, or help with prospects who went dark. MANDATORY TRIGGERS: follow up, follow-up, pipeline, CRM, prospect went dark, re-engage, nurture, stalled deal, no response, pipeline management, deal tracking, sales pipeline, follow up sequence, re-offer."
+name: Pipeline & Follow-Up
+description: "Post-call follow-up, pipeline management, re-engagement, database reactivation, and the long game. FOR: follow-up sequences, re-offer strategies, prospect went dark, pipeline management, CRM hygiene, show-rate optimization, database reactivation, nurture sequences, and half-your-commission pipeline work. MANDATORY TRIGGERS: follow up, follow-up, pipeline, CRM, prospect went dark, re-engage, nurture, stalled deal, no response, ghosted, ghost, reactivation, dead leads, re-offer, show rate, no-show. Do NOT use for: initial sales calls (use discovery-qualification), cold outreach/prospecting (use cold-outbound-mastery), or appointment booking mechanics (use appointment-setting)."
 ---
 
-# Pipeline & Follow-Up Mastery
+# Pipeline & Follow-Up
 
-## Core Philosophy: The Art of The Delay vs. Persistence
-
-Two competing schools of thought drive follow-up success:
-
-**Cole Gordon's "Art of The Delay"** - Strategic patience where you deliberately wait after certain touchpoints to avoid appearing desperate and maintain prospect perception of your value.
-
-**Luke Alexander's "Relentless Persistence"** - Consistent, multi-touch follow-up across multiple mediums (calls, texts, emails) where frequency beats perfection. Most deals close on follow-up, not initial contact (70%+ of sales happen after "let me think about it").
-
-**SYNTHESIS**: Use delay strategically between major pitch points, but be relentlessly consistent in your overall contact cadence.
+The complete system for everything that happens AFTER the sales call when the prospect does not close on the spot. Half your income lives in your pipeline -- this skill turns "I need to think about it" into closed deals.
 
 ---
 
-## The Follow-Up Reality Check
+## Core Philosophy: The Half-Your-Commission Rule
 
-- **72% of sales conversations end without a yes or no** - They say "I need to think about it"
-- **Most deals close on follow-up, not the initial call** - Consistency separates pros from amateurs
-- **Healthy persistence ≠ being annoying** - Add value with each touchpoint (case study, testimonial, specific answer to their objection)
-- **Each follow-up should be different** - Never send the same message twice; evolve your positioning
+> **Alexander:** Half of your monthly commission should come from follow-up and pipeline management, not inbound booked calls. If your entire income comes from booked calendar calls, you are leaving half your money on the table.
 
----
+Most closers only touch the 2-3 people who show up on their calendar. The end-to-end closer touches ALL leads -- the 50 who watched the VSL, the no-shows, the stalled deals, the dead list. That is where the other half of your income lives.
 
-## Section 1: The 6-Step Follow-Up Sequence (Luke Alexander Framework)
-
-### Timeline & Execution
-
-**Day 0 (Same Day as Call)**
-- Send detailed email with offer details, pricing, terms
-- Include case study or social proof relevant to their stated problem
-- Set clear expectation: "I'll check in with you in 24 hours"
-
-**Day 1 (24-Hour Follow-Up)**
-- First follow-up call or SMS
-- Reference specific pain they mentioned: "I was thinking about [specific problem they mentioned] and wanted to add this..."
-- Don't ask "did you decide?" - add VALUE
-- Example: "When we talked yesterday, you mentioned [objection]. Here's how we handle that..."
-
-**Day 2 (48-Hour Follow-Up)**
-- Different medium than Day 1 (if you called, now text or email)
-- Include testimonial from similar prospect
-- Keep it short: 2-3 sentences max
-
-**Day 3 (3-Day Follow-Up)**
-- Phone call, not message
-- Warmer tone, acknowledge they're thinking about it
-- "I know big decisions take time. I wanted to share one more thing..."
-
-**Day 7 (1-Week Follow-Up)**
-- Email with case study or deeper proof
-- Show prospect similar to them who solved the problem
-- "This client had your exact concern..."
-
-**Day 14 (2-Week Final Push)**
-- Last "hard close" attempt call
-- Be direct but not aggressive: "I want to make sure I'm not leaving any stone unturned here. What's the one thing that would move you forward?"
-
-### The Rule: Add Value, Every Time
-
-Never say "Did you decide?" or "Following up on my email."
-
-Instead:
-- "I was thinking about your concern about [X], and I found a resource that addresses it"
-- "One of my clients had the exact same hesitation, here's how they approached it..."
-- "I realized I didn't fully explain [benefit]. Here's the real impact..."
+**The VSL Funnel Math (Why Pipeline Matters):**
+- 1,000 visitors -> 5% opt-in (50 people) -> 10% book (5 calls) -> 50% show = 2.5 calls
+- Lazy closer touches only those 2.5 people = maybe $5K revenue
+- End-to-end closer works all 50 VSL viewers = $25K revenue on the same ad spend
 
 ---
 
-## Section 2: The Art of The Delay - Strategic Timing in Follow-Up
+## Section 1: The 8-Touch Follow-Up System
 
-Cole Gordon's philosophy recognizes that **timing between major touchpoints affects perceived value**.
+**Source:** Alexander. The backbone of systematic follow-up.
 
-### When to Use Delay
+Follow up 8 times using VARIED methods before moving a lead to the dead list. Never send the same type of message twice in a row.
 
-**After an initial call where they didn't close:**
-- DON'T follow up the same day if they said "I need to think about it"
-- Wait 18-24 hours before first contact
-- Your immediate follow-up signals desperation; delay signals confidence in the offer
+### The 8 Touches (Template)
 
-**Between large information dumps:**
-- If you sent detailed proposal materials, wait 48 hours before asking for feedback
-- This gives them time to actually review without feeling rushed
-- Shows respect for their process
+| Touch | Timing | Method | Purpose |
+|-------|--------|--------|---------|
+| 1 | Same day | Text + email | Recap, value, set expectations |
+| 2 | Day 1 | Phone call | Add value, address specific concern |
+| 3 | Day 2 | Voice note or video | Personal touch, social proof |
+| 4 | Day 3 | Text with meme or social proof | Pattern interrupt, stay human |
+| 5 | Day 5 | Phone call | Check for obstacles |
+| 6 | Day 7 | Email with case study | New information, deeper proof |
+| 7 | Day 10 | Text or voice note | Direct but not aggressive |
+| 8 | Day 14 | Final push call | Direct ask, nurture close if no |
 
-**Post-objection handling:**
-- After addressing their main objection in a call, let it settle
-- Don't immediately re-pitch; follow up next day with supporting proof instead
+### Method Rules
+- **Text messages:** Personalized, NOT copy-paste. Reference specific details from their call.
+- **Phone calls:** Lead with value, not "did you decide?"
+- **Voice notes:** More personal than text; keep SHORT (under 60 seconds).
+- **Video messages:** Most personal; 90% of closers are scared to do this = competitive advantage.
+- **Memes:** Surprisingly effective for getting ghosted prospects to respond. Humor breaks ice.
+- **Social proof drops:** Send relevant testimonial matching their specific objection.
 
-### When to Be Relentless (No Delay)
+### What NEVER to Say in Follow-Up
+- "Just following up"
+- "Did you decide?"
+- "Bumping this to the top of your inbox"
+- "Checking in on my proposal"
 
-- Multiple prospects in the pipeline competing for attention
-- Prospect shows HIGH urgency signals (timeline-driven, already shopping around)
-- Deal is large enough that daily contact is justified
-- They explicitly said "call me tomorrow"
+### What to Say Instead
+- "I was thinking about what you said about [specific concern], and I found..."
+- "One of our clients had your exact situation -- here is what happened..."
+- "I realized I did not fully explain [specific benefit]..."
 
----
-
-## Section 3: Pipeline Stages & Definitions
-
-**CRITICAL**: Your CRM must track prospects through stages. Know where every deal lives.
-
-### Stage 1: Lead (Initial Contact)
-- Prospect identified and contacted
-- Not yet qualified
-- Action: Qualify on urgency, commitment, resources (if applicable)
-
-### Stage 2: Qualified Lead
-- Confirmed pain/problem exists
-- They've shown interest
-- Resources/budget exists (if applicable)
-- Action: Set call with closer or move to Stage 3
-
-### Stage 3: Active Prospect (Conversation Scheduled)
-- Call scheduled
-- Pre-call materials sent
-- Action: Prepare deeper discovery, send 24-hour reminder
-
-### Stage 4: Discovery Complete (Post-Call, Deciding)
-- Call happened
-- No decision made yet
-- They said "I need to think about it" or similar
-- Action: Execute 6-step follow-up sequence
-
-### Stage 5: Negotiation/Objection Phase
-- Prospect has concerns but is still engaged
-- Actively addressing obstacles
-- Action: Provide proof, reframe value, reduce perceived risk
-
-### Stage 6: Ready to Close / Paperwork
-- All objections handled
-- They've agreed in principle
-- Closing paperwork/payment setup next
-- Action: Complete transaction, ensure smooth onboarding
-
-### Stage 7: Closed/Won
-- Deal complete
-- Payment received
-- Client onboarded
-- Action: Ensure success, ask for testimonial/referral
-
-### Stage 8: Dead/Stalled (No Response 7+ Days)
-- Haven't heard from them, haven't heard from you in 7+ days
-- Time to re-offer or genuinely move on
-- Action: One final "we're not a fit right now" message or trigger re-offer sequence
+> **Cross-reference:** For the "Have You Given Up?" reactivation email, see `tactical-empathy` -- Voss's no-oriented question technique applied to follow-up.
 
 ---
 
-## Section 4: Daily & Weekly Pipeline Rituals
+## Section 2: The Re-Offer Technique
 
-### Daily EOD Report (Non-Negotiable)
-Every day, end-of-day update your CRM with:
-- Calls made
-- Conversations had
-- Stage changes (who moved, who stalled)
-- Follow-ups scheduled tomorrow
-- Next action for each deal
+**Source:** Gordon. The most powerful follow-up weapon -- a new offer designed to overcome their original objection.
 
-**Why**: Numbers don't lie. This shows if you're actually working or just making noise.
+### What a Re-Offer Is
+An offer made 1-4 weeks after the initial consult that acts as a "hook" to re-engage. NOT the same offer pitched differently -- it is a new or modified offer that solves the specific reason they did not buy.
 
-### Weekly Pipeline Review (Friday Close)
-- Review every deal in pipeline
-- Identify stage blockers: Why are deals stalled?
-- Prioritize: Which deals are closest to close?
-- Plan: What actions move deals forward next week?
-- Clean: Mark dead deals as dead; don't carry false hope into next week
+### Key Rules
+1. Pricing-based re-offers work best (unless prospect is experienced and money is not the issue)
+2. This is why you do NOT give payment plans on the initial call -- payment plans ARE your re-offer ammunition
+3. The more prolific you are with re-offers, the better your follow-up game
+4. All evergreen launch offers are re-offers by default
 
-### Monthly Pipeline Hygiene
-- Remove prospects with no contact in 30+ days (unless nurturing)
-- Consolidate duplicates (same person different email)
-- Archive closed deals
-- Document lessons (why deals closed/stalled)
+### Re-Offer Design by Original Objection
 
----
+| Original Objection | Re-Offer Design |
+|-------------------|-----------------|
+| Not enough cash flow | Payment plan (2-pay, 3-pay) that was NOT offered initially |
+| Not enough time | Add 30 days to your offer timeline |
+| Trouble with lead gen | Private workshop on lead gen |
+| Trouble with sales | "Sales Intensive" call review package |
+| Trouble getting started | Reveal exact strategy [top client] used for first 3 wins |
+| Too expensive | Lower-ticket entry product or challenge |
 
-## Section 5: CRM Setup for Sales
+### Re-Offer Script (Messenger)
+```
+"Hey [NAME] -- we're testing something new this week that'll help you
+[overcome their specific objection]." SEND
 
-### Minimum Fields Required
+"I know you were saying ___ was keeping you from being able to move
+forward, so when [influencer/owner] brought this up I thought of you.
+Want me to send you some info?" SEND
 
-**Basic Info**
-- Name, company, contact info
-- Industry/vertical
-- Company size (if B2B)
+"No worries either way" SEND
+```
 
-**Pipeline Fields**
-- Current stage (use the 8-stage model above)
-- Date entered each stage
-- Last contact date
-- Next action date
-- Follow-up status
-
-**Deal Value**
-- Deal amount (if known)
-- Expected close date
-- Probability to close (%)
-- Commission/value to you
-
-**Communication Log**
-- Every call, email, text logged with date and notes
-- What was discussed
-- Objections raised
-- Next step agreed
-
-**Engagement Signals**
-- Which emails opened
-- Which links clicked
-- Call duration
-- Responsiveness (hot, warm, cold)
-
-### HubSpot Recommendation (Cole Gordon's System)
-Cole uses HubSpot's HotList feature to track:
-- **Hot prospects**: In active conversation, likely to close this week/month
-- **Warm prospects**: Engaged but deciding
-- **Cold prospects**: Stalled, waiting for re-engage trigger
-
-Mark each deal as Hot/Warm/Cold in HubSpot. Review Hot list daily, Warm list weekly, Cold list monthly.
+> **For detailed re-offer scripts and templates by objection type, see:** `references/reoffer-techniques.md`
 
 ---
 
-## Section 6: Show-Rate Optimization (Getting Them to the Table)
+## Section 3: Leadership-Based Follow-Up Strategies
 
-### Pre-Call Preparation (Increases Show Rate 25-40%)
+**Source:** Gordon. Advanced follow-up methods that position you as a leader, not a chaser.
 
-**Three days before call:**
-- Send calendar invite with clear time/link
-- Include brief agenda: "We'll dive deep into your situation and see if we're a fit"
+### Strategy 1: Content Tagging
+Tag the prospect in new content from the brand, then follow up on whether they consumed it.
+```
+"Hey -- have you seen the new [training] [influencer] just put out?" SEND
+"I just tagged you in it" SEND
+"Did you get the notification?" SEND
+"Awesome -- by the way, did you ever get clear on [their pain point]?"
+```
 
-**One day before call:**
-- Send 2-3 short videos (max 2 min each) about what to expect
-- Include social proof: testimonials from similar prospects
-- Example: "Here's how a client like you approached this..."
+### Strategy 2: Content Consumption Follow-Up
+After they consume content, the simplest and most effective long-term conversion message:
+```
+"What'd you think of the [training name]?"
+```
+The content does the pre-selling. You just open the door back to conversation.
 
-**30 minutes before call:**
-- Send confirmation text: "Hey [Name], just confirming we're still on for [Time] with [Coach Name]. You're all set!"
-- Luke Alexander notes this single step increased show rate from 50% to 75-80%
+### Strategy 3: Dean Jackson 9-Word Email
+The most famous reactivation message in direct response:
+```
+Subject: [First name]?
+Body: "Are you still trying/looking to [their stated goal]?"
+```
+Works because it is short, personal, and triggers a yes/no response that reopens dialogue.
 
-### Handling No-Shows & Cancellations
-
-**If they cancel:**
-- Respond same day: "Hey, I see you canceled. Can I ask what happened? If this is still important, let's find another time."
-- Key: Find out WHY. Was it:
-  1. Genuine emergency? (Reschedule freely)
-  2. Loss of interest? (Use nurture close)
-  3. Fear/cold feet? (Address it, reschedule)
-  4. Logistics? (Find better time)
-
-**One-reschedule rule:**
-- "We can move this one time. After that, let's find a time that 100% works for you and we'll lock it in."
-- Prevents chronic reschedulers
-
-**If they no-show:**
-- Still try to reschedule once, but be firmer
-- "I had you on my calendar and you didn't show. Let's find a time that actually works for you."
-- Second no-show = likely not a fit; move to nurture or disqualify
-
----
-
-## Section 7: Re-Offer Techniques - Bringing Dead Deals Back
-
-### When to Re-Offer
-
-A deal is a candidate for re-offer if:
-- They were interested at one point
-- They said "I need to think about it" or "maybe later"
-- It's been 14+ days with no contact
-- No explicit "not interested" message
-- They haven't said yes to a competitor
-
-### The Graceful Re-Offer (Cole Gordon)
-
-**The Frame:**
-You're not desperately chasing them; you're offering an opportunity they were considering.
-
-**The Script:**
-"Hey [Name], I realize it's been a couple weeks since we talked. I wanted to reach out because I think there's still a strong fit here. I know you were weighing options - just wanted to see if timing has shifted at all on your end. If not now, no worries - I'm happy to keep us on your radar for when it does make sense."
-
-**Why it works:**
-- Doesn't seem needy
-- Gives them an out ("no worries if not now")
-- Implies you have other options ("keep you on radar")
-- Soft re-engagement
-
-### The Value-Add Re-Offer (Luke Alexander)
-
-**The Frame:**
-Don't ask for decision; offer something new they didn't see before.
-
-**The Script:**
-"I was going through some recent case studies and realized we have a client in [their industry] who had the exact same concern you raised about [specific objection]. The way we solved it for them was [specific solution]. Thought you'd find it valuable. Worth another conversation?"
-
-**Why it works:**
-- New information changes the calculus
-- Shows you listened to their objection
-- Proof that others like them succeeded
-- Lower pressure ("worth another conversation" not "ready to decide?")
-
-### The Paid Offer Re-Offer (Luke Alexander's Paid Challenge Model)
-
-**Scenario:**
-They rejected your $3K offer but seemed genuinely interested.
-
-**The Strategy:**
-Offer them a $40 paid challenge first. They complete it, see value, then they're ready for main offer.
-
-**The Script:**
-"I realize $3K upfront might feel big. What if we started smaller - $40 challenge where you get immediate [result]? Complete it in [timeframe], see the value yourself, and THEN we can talk about the bigger program. Sound fair?"
-
-**Why it works:**
-- Lowers entry friction dramatically
-- They prove they're serious (paid)
-- They experience the method firsthand
-- Second offer feels much easier after seeing it works
-
-### The Timeline for Re-Offers
-
-**Week 2-3 after no-decision:** First re-offer (value-add or graceful)
-**Week 4-5:** Second re-offer (different angle, new information)
-**Week 6-8:** Consider paid challenge entry point
-**Week 8-12:** Quarterly nurture (send value, update on new features/results)
-**Week 12+:** Move to "evergreen nurture" (monthly check-ins, no aggressive close)
-
-**CRITICAL**: At 12 weeks of no engagement, they're officially a "cold prospect." Stop expecting them to say yes; maintain relationship but don't spend energy on forcing it.
+### Strategy 4: Old Lead Re-Engagement (2-Step Post Comment)
+When an old lead comments on brand content:
+```
+"Hey -- saw you commented on the post about [topic]. Still interested?" SEND
+[They respond]
+"Awesome, let me dig that up for you." SEND
+"By the way, are you still working on getting [their goal]?" SEND
+[Depending on response]: "Can I be honest with you?" SEND
+"That's the same problem you were struggling with when we spoke
+[X months] ago." SEND
+"Honestly -- when are you gonna step up and make the change?" SEND
+"No worries either way. Just know we can help and want to see you win." SEND
+```
 
 ---
 
-## Section 8: Healthy Persistence vs. Being Annoying
+## Section 4: The Anti-Ghosting Sequence
 
-### The Line Between Them
+**Source:** Gordon. When a prospect stops responding entirely.
 
-**HEALTHY PERSISTENCE:**
-- Each touchpoint has a new reason to connect (new information, specific value)
-- Respects their timeline while pushing forward
-- Changes medium frequently (call, text, email, video)
-- Acknowledges their hesitation while reframing
+### The Escalation (in order, 48 hours to 2 weeks apart)
+1. `"?"`
+2. `"Just bumping this to the top of your inbox :)"` OR `"Know it's easy for these to get lost. Still want to ____?"`
+3. `"You alive? Lol"`
+4. Ghosted GIF or "Hello from the other side" GIF
 
-Example: "I know you said you need time, which is smart. I thought of one thing I didn't mention..."
+### The Voss Nuclear Option
+When nothing else works, deploy the no-oriented reactivation:
+```
+"Have you given up on [their stated goal]?"
+```
+This triggers loss aversion. Nobody wants to admit they gave up. Gets responses where everything else fails.
 
-**BEING ANNOYING:**
-- Repeating the same "did you decide yet?" message
-- Contacting more than 1x/day without reason
-- Same message on 3 different platforms
-- Ignoring "I'm not interested" and continuing
-- Pressuring on their timeline, not yours
-
-Example: "Just following up on my email from yesterday. Did you get a chance to think about it?"
-
-### The Disqualification Decision
-
-There's a point where you should stop trying. **Stop when:**
-- They explicitly say "not interested right now" → Move to nurture
-- They say "I'm working with someone else" → Respect it, stay in contact
-- They don't respond for 30+ days → Move to cold/evergreen nurture
-- They ask you to stop contacting → Respect and remove
-
-**The key:** Persistence ≠ ignoring their signals. Healthy follow-up reads the room and adjusts.
+> **Cross-reference:** See `tactical-empathy` for the full theory behind why no-oriented questions outperform yes-oriented ones.
 
 ---
 
-## Section 9: Nurture Sequences for Active Deals
+## Section 5: Database Reactivation (DR)
 
-Use when a deal is stalled but viable.
+**Source:** Alexander. Systematic revival of your entire dead lead database.
 
-### 4-Week Nurture Sequence (Active Deal, Not Closing)
+### When to Run DR
+- Every 2 weeks, review your dead list
+- Quarterly, run a full database reactivation campaign
+- When you launch a new offer or re-offer
+- When you have new social proof (big win, testimonial, case study)
 
-**Week 1: The Acknowledge & Educate**
-- Email acknowledging they're thinking it over (don't pressure)
-- Send educational content about the solution (not sales-y)
-- Example: "Here's why clients typically take 7-10 days to decide" (normalizes timeline)
+### DR Process
+1. Pull all leads with no contact in 30+ days
+2. Segment by original objection (money, time, uncertainty, partner)
+3. Match each segment to appropriate re-offer or content
+4. Send personalized outreach referencing their specific situation
+5. Work responses through normal follow-up process
 
-**Week 2: The Social Proof**
-- Email with testimonial from similar prospect
-- Video of client describing similar situation + how it worked out
-- No hard ask, just "thought you'd find this useful"
-
-**Week 3: The FAQ**
-- Email addressing their stated objections with FAQ format
-- "Other prospects often ask X, here's the answer..."
-- Indirect addressing of their concerns
-
-**Week 4: The Final Gentle Touch**
-- Soft reconnect call: "Just checking in, haven't heard from you in a bit"
-- "What's one thing that would help move this forward?"
-- Either close OR move to evergreen nurture (monthly touchpoints)
-
-### Evergreen Monthly Nurture (For 3+ Month Stalled Deals)
-
-- One email per month (not overkill)
-- New feature announcement, new client success, industry insight
-- NO SALES PITCH - purely educational
-- "Keeping us top of mind for when timing shifts"
+### Personalized Follow-Up for Reactivation
+Match testimonials to their specific background:
+- Prospect was scammed before -> Find student interview where someone overcame the same experience
+- Prospect had money concerns -> Send a student who invested despite tight finances and ROI'd quickly
+- Send with: "This reminded me a lot of our conversation. Watch it and let me know what you think."
 
 ---
 
-## Section 10: Handling "I Need to Think About It"
+## Section 6: Pipeline Management System
 
-This is the #1 objection. Don't accept it as final.
+### The End-to-End Closer Model
 
-### Framework
+**Source:** Alexander. The $30K/month rep vs the $10K/month rep.
 
-**Step 1 - Don't Accept Immediately**
-"I appreciate that. That's smart. But let me ask - what specifically do you need to think about?"
+| $10K/mo Rep | $30K/mo Rep |
+|-------------|-------------|
+| Takes calls, does EOD report | ALL of that PLUS: |
+| Follows the framework | Deeply understands WHY everything works |
+| Waits for inbound calls | Hits no-shows between calls |
+| NPC behavior | Ascends existing customers to higher products |
+| | Creates their own opportunities (CTAs, referrals) |
+| | Never "offerless" -- always has pipeline |
 
-**Step 2 - Listen for the Real Objection**
-They'll say one of:
-- Price / budget concern
-- Uncertainty if it works
-- Not sure they can do it
-- Partner/team approval needed
-- Fear of wasting money
-- Fear of being wrong
+### Daily Pipeline Ritual (Non-Negotiable)
 
-**Step 3 - Address THE REAL ISSUE**
-Not the "thinking about it" but the underlying fear/objection.
+**Morning (first 15 minutes):**
+1. Open CRM, filter to today's actions
+2. Identify 3 hottest deals (closest to close)
+3. Plan specific actions for each
+4. Execute first touch immediately -- momentum matters
 
-Example:
-- Stated: "I need to think about it"
-- Real issue (after you ask): "I'm not 100% sure this will work for my situation"
-- Your response: "That's fair. Here's exactly how this works for someone like you..." [provide specific proof]
+**Between calls:**
+- Hit no-shows with calls/texts
+- Work pipeline prospects
+- Update CRM in real-time (NOT end of day)
 
-**Step 4 - Close Again**
-"So now that I've shown you how it works, does this make sense to move forward?"
+**End of Day (last 15 minutes):**
+1. Update CRM on ALL activity (calls, texts, emails, stage changes)
+2. Write next action + date for every active deal
+3. Schedule tomorrow's follow-ups
+4. Submit EOD report
 
-### If They STILL Want Time
+### EOD Report Fields
+- Calls taken / Calls connected
+- Follow-up touches made
+- Deposits taken / Deals closed
+- Pipeline stage movements
+- No-shows contacted
+- Revenue generated
 
-Ask on 1-10 scale: "On a scale of 1-10, how close are you to moving forward?"
+### Weekly Pipeline Review (Friday)
+- Review every deal by stage
+- Identify bottlenecks: Where are deals stuck?
+- Prioritize: Which deals close next week?
+- Clean: Mark dead deals as dead (no false hope)
+- Plan: What actions move deals forward?
 
-- **7-10:** "Okay, what would move you from a 7 to a 10?" (Usually small thing)
-- **Below 7:** Might not be fit; move to nurture close, not hard close
+### Dead List Management
+- Review every 2 weeks (Alexander)
+- Leads with no contact in 30+ days move to dead list
+- Dead list gets DR campaign every 2 weeks
+- Never fully abandon a lead -- quarterly touchpoints minimum
 
----
-
-## Section 11: The "Nurture Close" for Genuinely Unready Prospects
-
-Use when someone is interested but clearly not ready to commit now.
-
-**The Script:**
-"You know what, this probably isn't something that makes sense for you right now. And that's completely fine. Let me send you some value - testimonials, case studies, whatever would be useful. Keep us top of mind, and whenever you're ready to pull the trigger, we can get you set up. Sound fair?"
-
-**Why This Works:**
-- Removes all pressure (paradoxically increases conversions later)
-- Shows confidence in offer
-- Keeps relationship warm
-- They often follow up in 3-6 weeks saying "actually, run my card"
-
-**Timeline:** This can convert in 4-12 weeks. Don't count it as lost; count it as delayed.
-
----
-
-## Section 12: Technical Setup - HotList System
-
-**For Cole Gordon's approach**, use HubSpot or similar with this structure:
-
-### HotList (Review Daily)
-- Deals closing THIS WEEK
-- Last contact within 48 hours
-- Clear next action for today/tomorrow
-- Action: Push hard, address final objections, close
-
-### WarmList (Review Weekly)
-- Deals closing THIS MONTH
-- Last contact within 7 days
-- In active conversation
-- Action: Follow 6-step sequence, send case studies
-
-### ColdList (Review Monthly)
-- Deals stalled 7+ days
-- Last contact 14+ days ago
-- Not in active conversation
-- Action: Trigger re-offer or nurture sequence
-
-### Manual CRM Tracking (If Not Using HubSpot)
-- Spreadsheet with columns: Name, Company, Stage, Last Contact, Next Action, Follow-up Date
-- Sort by Next Action Date
-- Review every morning for today's actions
-- Update daily
+> **For CRM field setup, HotList system, and pipeline math, see:** `references/pipeline-management.md`
 
 ---
 
-## Key Takeaways
+## Section 7: Show Rate Improvement
 
-1. **70%+ of sales happen after "let me think about it"** - Follow-up is the game
-2. **Use the 6-step sequence** - Day 0, 1, 2, 3, 7, 14 with VALUE at each step
-3. **Add value, every time** - Never just ask "did you decide?"
-4. **Healthy persistence > annoying spam** - Read the room, adjust frequency
-5. **Know your pipeline stages** - Can't manage what you don't track
-6. **Show-rate matters** - Send resources, confirm calls, reduce no-shows
-7. **Re-offer when appropriate** - Dead deals can come alive with right positioning
-8. **Nurture genuinely unready** - Sometimes "not now" converts to "later"
-9. **Use delay strategically** - Between major pitch points only; be relentless in overall contact
-10. **Review pipeline weekly** - Pipeline discipline separates pros from amateurs
+**Source:** Alexander. Six methods to get prospects to actually show up.
+
+### The 6 Methods
+1. **Speed to lead:** Call and confirm within 3-5 minutes of booking. Do a mini triage call.
+2. **Address the 4 no-show reasons:** Did not know what call is about; did not know how it would help; forgot they had a call; scared about the call.
+3. **Send personalized assets:** Match testimonial videos to their specific concerns.
+4. **Post-booking breakout page:** Videos addressing common objections before the call.
+5. **Pre-call email sequences:** Up to 6 emails breaking down business model, strategy, offer, story.
+6. **iMessage automation (SendBlue):** Confirmation from "executive assistant" via blue bubble iMessage.
+
+### The 30-Minute Confirmation
+Send confirmation text 30 minutes before the call. This single step increased show rates from 50% to 75-80%.
+
+```
+"Hey [Name], just confirming we're still on for [Time] with
+[Coach Name]. You're all set!"
+```
+
+> **Cross-reference:** For booking and confirmation mechanics, see `appointment-setting`. For handling no-shows on the call itself, see `discovery-qualification`.
 
 ---
 
-## When to Use This Skill
+## Section 8: Follow-Up Timing Paradox
 
-Use this skill when you or a team member encounters:
-- A prospect who said "I need to think about it"
-- A deal stalling in the pipeline
-- Uncertainty about follow-up frequency/timing
-- Pipeline management or CRM questions
-- Prospect went dark and you want to re-engage
-- Need to optimize show rates on booked calls
-- Building out nurture sequences for a specific offer
-- Re-offer strategy for dead deals
-- Daily/weekly pipeline rituals and processes
+**Instructor Disagreement (Resolved):**
+
+> **Serhant:** Following up too much REVEALS you want the deal more than the other side. In negotiation, this destroys your leverage.
+
+> **Alexander:** Follow up 8 times minimum. Half your income comes from pipeline.
+
+**Resolution:** These are different contexts. Serhant is right for negotiation with opposing agents -- excessive follow-up signals desperation. Alexander is right for sales follow-up with prospects -- consistent follow-up is expected and professional. Do not confuse the two.
+
+| Context | Approach |
+|---------|----------|
+| Negotiation (opposing party, agent) | Strategic restraint. Let silence work. |
+| Sales follow-up (prospect who expressed interest) | Systematic 8-touch persistence. |
+| Dead lead reactivation | Quarterly DR campaigns with new value. |
+
+---
+
+## Decision Tree: What to Do After a No-Close Call
+
+```
+Prospect did not close on the call
+    |
+    +--> Did they give a specific objection?
+    |       |
+    |       +--> YES: Design re-offer targeting that objection
+    |       |         Execute 8-touch system
+    |       |
+    |       +--> NO ("I need to think about it"):
+    |               Execute 8-touch system
+    |               Deploy content tagging (Strategy 1)
+    |               At Touch 8, use Dean Jackson 9-word email
+    |
+    +--> After 8 touches with no response:
+    |       Move to dead list
+    |       Run DR campaign every 2 weeks
+    |       Deploy "Have you given up?" at 30 days
+    |
+    +--> After DR with no response:
+            Quarterly touchpoints only
+            New offer/re-offer announcements
+            Never fully abandon
+```
+
+---
+
+## When to Read Reference Files
+
+**Read `references/reoffer-techniques.md` when:**
+- User needs to design a re-offer targeting a specific original objection
+- Building re-offer scripts for messenger, email, or phone
+- Understanding re-offer timing and pricing strategy
+- Working through evergreen launch offer design
+
+**Read `references/pipeline-management.md` when:**
+- User needs CRM field setup, HotList system, or pipeline math
+- Building a daily pipeline ritual or weekly review process
+- Setting up EOD report fields or dead list management
+- Designing the end-to-end closer model or setter-to-closer pipeline handoff
+
+**Read `references/followup-sequences.md` when:**
+- User needs the full 8-touch follow-up system with message templates
+- Building anti-ghosting sequences or database reactivation campaigns
+- Designing show-rate improvement protocols
+- Working through the Dean Jackson 9-word email or content tagging strategy
+
+---
+
+## Key Metrics to Track
+
+| Metric | Target | Source |
+|--------|--------|--------|
+| Follow-up close rate | 15-30% of pipeline | Alexander |
+| % of income from pipeline | 50% | Alexander |
+| Show rate | 70%+ | Alexander |
+| Dead list reactivation rate | 3-5% per DR campaign | Gordon |
+| Response rate on 9-word email | 20-30% | Gordon (Dean Jackson) |
+| Touches before giving up | 8 minimum | Alexander |

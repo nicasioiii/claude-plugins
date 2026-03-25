@@ -1,287 +1,239 @@
 ---
-name: Discovery & Direction
-description: "Project discovery, scoping, understanding client needs, information architecture, complexity assessment. MANDATORY TRIGGERS: new project, client needs, discovery questions, scoping, information architecture, sitemaps, user flows, wireframing, complexity assessment, stakeholder interviews, brand questionnaire. Do NOT use for — use visual-foundations for design rules, figma-workflows for file organization."
+name: Project Discovery & Direction
+description: "MANDATORY TRIGGERS: new project, scope work, client proposal, discovery call, project complexity, information architecture, design process, client onboarding, project brief, pricing, freelance, client acquisition, niche definition. FOR: Project scoping, client discovery calls, proposal writing, complexity assessment, design process selection, information architecture, UX vs UI framing, brief extraction, onboarding flows, scope creep prevention, freelance pricing, client acquisition, and niche definition. Do NOT use for visual design rules (use typography-systems, color-systems, layout-spacing), mood boards or brand direction (use mood-board-brand-vibe), design critique (use design-critique), logo process (use logo-brand-identity)."
 ---
 
-# Discovery & Direction
+# Project Discovery & Direction
 
-Before designing anything, you must understand what you're solving. This is where 80% of project problems are prevented—by asking the right questions upfront.
+Scope projects, run discovery calls, write proposals, and manage client relationships. This skill covers everything from first contact through project kickoff.
 
-## The 8-Step Design Process
+## CORE PRINCIPLE: UNDERSTAND BEFORE YOU DESIGN
 
-Every project follows this sequence. The first three steps are discovery; skipping them guarantees rework.
+Every instructor agrees: the design process starts with understanding, not with pixels. Research before software. Brief before wireframes. Clarity before creativity.
 
-### Step 1: Understanding the Problem (Priority #1)
-
-**What you're doing:** Interviewing stakeholders, reading briefs, asking "why" repeatedly
-
-**Key principle:** More complex problems require deeper understanding before visual design. Non-visual problems exist that require situational awareness.
-
-**Output:** Problem statement (one sentence that summarizes what you're solving)
-
-**Questions to ask:**
-- What problem are we solving?
-- Who is experiencing this problem?
-- What does success look like?
-- What constraints exist (budget, timeline, technical)?
-
-### Step 2: Determining Project Complexity
-
-Complexity determines your workflow. Do this assessment immediately—it drives all downstream decisions.
-
-**High Complexity Project:**
-- Multiple user types with conflicting needs
-- Complex workflows or data relationships
-- Regulatory/accessibility requirements
-- Unclear requirements from stakeholders
-- **Workflow:** 30min-1hr+ of sketching/discovery required
-- **Wireframe:** ESSENTIAL before visual design
-- **Example:** Banking app, medical SaaS, government portal
-
-**Medium Complexity Project:**
-- Clear use case but multiple features
-- Some user flow uncertainty
-- Multiple pages/sections
-- **Workflow:** Create wireframes/low-fidelity designs to confirm functionality
-- **Purpose:** Separates functional conversations (does this flow make sense?) from visual conversations (colors, typography)
-- **Example:** E-commerce site, SaaS dashboard, content site
-
-**Low Complexity Project:**
-- Simple, agreed-upon functionality
-- Few features or pages
-- Clear stakeholder alignment
-- **Workflow:** Jump straight to visual design if everyone agrees on requirements
-- **Wireframe:** Optional; use "low-fidelity explorations" if sketching helps
-- **Example:** Marketing website, landing page, portfolio
-
-### Step 3: Create Flows & Maps
-
-Document information architecture before designing screens.
-
-**Content Maps:** Show hierarchical relationship of information
-- Example: E-commerce has categories > subcategories > products > product details
-- Helps identify missing functionality or unclear organization
-
-**User Flows:** Show how users achieve goals step-by-step
-- Include decision points (if user is logged in, show X; if not, show Y)
-- Identify error states and edge cases
-- Clarify before designing
-
-**Feature Spreadsheet:** Document every feature with acceptance criteria
-- Owner: Who's responsible?
-- Status: Not started, in progress, complete
-- Requirements: What does this feature do?
-
-### Step 4: Wireframe Decision
-
-- **High/Medium complexity:** Wireframe required. Invest 4-8 hours now vs. 40 hours reworking visual design later.
-- **Low complexity:** Skip formal wireframes if everyone agrees. Use sketches if helpful for exploration.
-- **Key rule:** If you don't fully understand functionality, wireframe before visual design.
-
-### Step 5: Set Design Direction
-
-Define creative style before creating components.
-- Visual aesthetic: Modern, playful, sophisticated, minimal?
-- Brand personality: What emotion do we want?
-- Reference inspiration: 3-5 websites with the right direction
-
-### Step 6: Present Early & Often
-
-Get stakeholder feedback before investing heavily in polish.
-
-### Step 7: Iterate & Refine
-
-Explore multiple directions in color, style, interactions.
-
-### Step 8: Create & Expand the System
-
-Build reusable components once direction is locked.
+**The Universal Process Order:**
+1. Understand the problem
+2. Determine complexity
+3. Gather requirements and content
+4. Establish visual direction
+5. Design, present, iterate
+6. Build and launch
 
 ---
 
-## Determining Complexity: Decision Tree
+## DESIGN PROCESS FRAMEWORK (Synthesized)
 
-```
-Is there stakeholder disagreement about requirements?
-├─ YES → High Complexity
-└─ NO → Continue
+Three instructors provide process frameworks that converge on the same core steps:
 
-Are there multiple user types with different goals?
-├─ YES → High Complexity
-└─ NO → Continue
+| Step | MDS (8-Step) | Designership (10-Step) | Flux (Starter Process) |
+|------|-------------|----------------------|----------------------|
+| 1 | Understand the problem | Empathize | Read the brief, extract keywords |
+| 2 | Determine complexity | Define | Make notes, identify mood |
+| 3 | Lists, content maps, flows | Ideate (sitemaps, user flows) | Sketch rough concepts on paper |
+| 4 | Decide to wireframe or not | Wireframe (3 fidelity levels) | Evaluate against 7 principles |
+| 5 | Set design direction | Prototype | Build 2-3 options in software |
+| 6 | Present early and often | Test | Check in preview/full scroll |
+| 7 | Explore, iterate, nail down | Iterate | -- |
+| 8 | Create the system, expand | Implement | -- |
 
-Is the feature set larger than 5-8 distinct features?
-├─ YES → Medium Complexity
-└─ NO → Continue
-
-Is the workflow straightforward and linear?
-├─ YES → Low Complexity
-└─ NO → Medium Complexity
-```
+**Synthesis:** Brief > Research > Sketch > Design > Present > Iterate > Build.
 
 ---
 
-## Discovery Questions Framework
+## COMPLEXITY-BASED PROCESS SELECTION
 
-Ask these during initial client calls. Document answers—they become your project foundation.
+Not every project needs every step. Complexity determines process depth. [MDS]
 
-### Company Identity & Brand
+| Complexity | Wireframes? | Discovery Depth | Example |
+|-----------|------------|----------------|---------|
+| **High** | Yes -- whiteboarding, spreadsheets, content maps, then wireframes | Full discovery, IA, user flows | Industrial dashboard, multi-feature SaaS |
+| **Medium** | Recommended -- low-fidelity, separate functionality from visual | Standard discovery, brief extraction | Cryptocurrency wallet, marketing site with CMS |
+| **Low** | Skip -- jump straight into visual design | Light brief review | Simple utility app, single landing page |
 
-- What's the company name and origin story?
-- What's your vision? (Where do you want to be in 5 years?)
-- What's your mission? (Why do you exist?)
-- One-sentence company description?
-- Brand values (5 words): What do you stand for?
+**Key Rule:** Mobile wireframes help prioritize features in a linear format -- even for desktop projects, start with mobile wireframes when complexity is medium+. [MDS]
 
-### Brand Personality
-
-- How would you describe your brand? (5 descriptive words)
-- What emotions should customers feel when using your product?
-- What's your brand voice? (How do you speak to customers?)
-- What are you NOT? (Define the opposite to clarify boundaries)
-- Celebrity equivalent: If your brand were a famous person, who?
-
-### Target Audience
-
-- **Demographics:** Age range, income, occupation, location
-- **Psychographics:** Values, interests, lifestyle, shopping habits
-- **Pain points:** What problems do they have?
-- **Where do they spend time:** Online (communities, social media), offline (stores, events)
-
-### Competitor Analysis
-
-- Who are your direct competitors?
-- Who are indirect competitors (alternative solutions)?
-- What do you do better than them?
-- What do they do better than you?
-
-### Technical & Business Requirements
-
-- What's the primary goal of this project?
-- Secondary goals?
-- Success metrics: How do you measure success?
-- Timeline and budget?
-- Technical constraints or requirements?
-
-### Visual Direction
-
-- Do you have an existing color palette? Open to changes?
-- Brand archetype (12 universal archetypes—explorer, sage, innocent, etc.)?
-- Reference websites you admire?
-- Reference imagery style (photography, illustration, 3D)?
-- Imagery preferences: Real people, lifestyle, abstract?
+**DISAGREEMENT on wireframes:**
+- MDS: Depends on complexity -- skip for simple projects
+- Designership: Always wireframe (low, medium, or high fidelity)
+- [CONTRARIAN] Shopify course: Skip wireframes for standard e-commerce -- go straight to design since patterns are established
+- **Resolution:** Wireframe when the information architecture is novel. Skip when using well-established patterns (standard e-commerce, simple brochure sites).
 
 ---
 
-## Information Architecture Basics
+## BRIEF EXTRACTION FRAMEWORK
 
-IA is the blueprint before you design.
+When starting any project, extract these from the brief or discovery conversation: [Flux]
 
-### Sitemap
-
-A hierarchical diagram showing:
-- All pages in the project
-- Parent-child relationships
-- Number of levels (typically 2-3 levels max)
-
-**Example: Restaurant website**
-```
-Home
-├── About (team, story, values)
-├── Menu (categories → items → details)
-├── Reservations
-├── Blog
-│   └── Individual posts
-├── Contact
-└── Account (login → profile, order history)
-```
-
-**Rule:** If your sitemap has 5+ levels, it's too deep. Flatten it.
-
-### User Flow
-
-Step-by-step journey showing decisions and actions.
-
-**Example: Booking a reservation**
-```
-Home → Click "Reserve" → Sign in?
-├─ New user → Sign up → Enter preferences → Select date/time → Confirm
-└─ Existing user → Select date/time → Confirm
-→ Confirmation page
-```
-
-Identify:
-- Decision points (if/then branches)
-- Error states (invalid email, date unavailable)
-- Success states (confirmation, next steps)
+1. **Technical limitations** -- platform constraints, existing tech stack
+2. **Format/dimensions** -- responsive breakpoints, device targets
+3. **Brand guidelines** -- existing assets, colors, fonts, voice
+4. **Content** -- what copy/media exists, what needs creation
+5. **Production budget** -- affects scope of deliverables
+6. **Target audience** -- who are we designing for
+7. **Deadlines** -- hard dates, launch windows
+8. **Review process** -- who approves, how many rounds
+9. **Goal** -- what success looks like (business outcome, not deliverable)
 
 ---
 
-## Project Scoping Checklist
+## UX VS UI FRAMING
 
-Before moving to visual design, confirm:
+Use this to set expectations with clients about what design actually involves. [MDS]
 
-- [ ] Problem statement defined (one sentence)
-- [ ] Complexity assessed (high/medium/low)
-- [ ] Stakeholder alignment confirmed (no major disagreements)
-- [ ] Information architecture mapped (sitemap + key flows)
-- [ ] Content inventory complete (copy deck provided)
-- [ ] Success metrics defined (how do we measure success?)
-- [ ] Timeline agreed (when is this needed?)
-- [ ] Budget approved (can we afford this quality?)
-- [ ] Brand direction identified (if new brand) or provided (if existing)
-- [ ] Deliverables listed (what are you getting? Figma? Prototype? Webflow site?)
+- **UX = Point A to Point B.** The user has a problem (Point A) and a desired outcome (Point B). The interface is the stepping stone bridging the gap.
+- UI decisions ARE UX solutions -- a cleverly designed feature solves a UX problem with thoughtful interface design.
+- Not all problems encountered as an interface designer are visual problems -- business goals heavily impact user experience.
+- [CONTRARIAN] The separation of UX and UI is misleading -- one cannot exist without the other. [MDS]
 
 ---
 
-## When to Use References
+## INFORMATION ARCHITECTURE
 
-Load these reference files when:
+When a project requires IA work (medium+ complexity):
 
-- **01-discovery-questionnaire.md** — Preparing for discovery call with client; writing detailed questionnaire
-- **02-information-architecture.md** — Creating sitemaps and user flows for medium/high complexity projects
-- **03-complexity-assessment.md** — Determining whether this project needs wireframes or can skip to design
-- **04-competitive-analysis.md** — Auditing competitors; identifying positioning opportunities
+**Sitemaps:** Visual representation of all pages and their hierarchy. Create before wireframes.
 
----
+**User Flows:** Map the journey from entry point to goal completion. Identify decision points, error states, and alternative paths.
 
-## Common Discovery Mistakes
-
-1. **Skipping the questions:** Jumping straight to design. Result: Complete rework when stakeholders disagree.
-2. **Too much scope:** Trying to solve everything. Result: Project paralysis, feature creep.
-3. **Unclear success metrics:** "Make it better" has no definition. Result: Infinite revisions.
-4. **No stakeholder alignment:** Each person has different vision. Result: Design disapproval surprises.
-5. **Insufficient user research:** Designing for yourself, not the user. Result: Low adoption/engagement.
+**Content Maps:** For content-heavy sites, map all content types and their relationships before designing any pages.
 
 ---
 
-## After Discovery: Next Steps
+## DISCOVERY CALL SYSTEM
 
-Once discovery is complete:
+### Pre-Call Setup [Flux/Career]
 
-1. **If High/Medium Complexity:** Move to `figma-workflows` to set up your Figma file, then create wireframes
-2. **If Low Complexity:** Move to `visual-foundations` to understand design rules, then `figma-workflows` to set up
-3. **All paths:** Eventually hand off to `ui-components` and `web-layout` for detailed design
+**Two inquiry paths:**
+1. Client fills form > you review > send booking link if good fit
+2. Client books directly on website (better for beginners -- more practice, fewer barriers)
+
+**Tools:** Calendly or TidyCal for scheduling. Call duration: 15-30 minutes max.
+
+### Pre-Call Research Checklist
+
+Before every call:
+- Analyze client's current website/brand -- note specific areas for improvement
+- Prepare 2-3 quick-fix ideas to share as free value ON the call
+- If no existing site, research 3-5 competitors
+- Jot down ideas for how you could solve their stated problems
+- Send reminders: 24 hours and 1 hour before call
+
+### Discovery Call Mindset [Flux]
+
+1. It is a discovery call, not a sales call -- you are both evaluating fit
+2. Selling is serving -- you are helping clients achieve their goals
+3. [CONTRARIAN] Detach from the outcome -- do not set a goal of converting every lead
+4. Celebrate rejection equally -- every no gets you closer to the next yes
+
+### The Call Script
+
+See `references/02-discovery-calls.md` for the full script and flow.
+
+**Key phases:** Opening (2 min) > Business discovery (5-8 min) > Project scoping (5-8 min) > Your process overview (3-5 min) > Budget conversation > Wrap-up with next steps.
+
+**Budget question:** "What budget did you have in mind for this project?" If they deflect, give a range and ask if it aligns.
 
 ---
 
-## Key Metrics from Discovery
+## PROPOSAL SYSTEM
 
-**Timeline expectations:**
-- Discovery call: 1 hour
-- Research & competitive analysis: 2-4 hours
-- Sitemap & flows: 2-3 hours
-- Wireframes (if medium/high complexity): 4-8 hours
+Send within 24 hours of discovery call. First proposal in inbox has advantage. [Flux]
 
-**Total discovery investment:** 9-16 hours before first visual design
+### Proposal Structure
 
-**ROI:** Saves 20-40 hours on rework during design/development phases. Worth every minute.
+1. **Personal introduction** -- reference specific things from the call
+2. **Project goals** -- use the CLIENT'S vocabulary from the call
+3. **Deliverables** -- precise and detailed. Not "website development" but "5-page website including Home, About, Services, Blog, Contact"
+4. **Process/phases** (3-6 phases) -- what happens at each, client responsibilities, timeline
+5. **Relevant case studies** -- similar industry or problem
+6. **Fees** -- total project estimate broken into payment milestones
+
+**Do NOT price individual deliverables.** Price the entire project, then break into deposit + installments.
+
+See `references/02-discovery-calls.md` for full proposal structure details.
 
 ---
 
-## Cross-References
+## CLIENT ONBOARDING
 
-- **visual-foundations** — Design principles you'll apply once discovery is done
-- **figma-workflows** — How to organize your design file for this project
-- **ui-components** — Specific component patterns for your use case
-- **web-layout** — Layout structures for web-based projects
+**Flow:** Proposal approved > Contract signed > Deposit invoice paid > Welcome email
+
+**Contract:** [CONTRARIAN] Send separately from proposal -- legal language can scare starting business owners. Use digital signature tools (Adobe Sign, Pandadoc, DocuSign).
+
+**Welcome email must:**
+1. Thank them and express excitement
+2. Outline next steps with deadlines
+3. Set boundaries (communication method, office hours, response times)
+4. Reassure them they made the right decision
+
+See `references/03-client-workflow.md` for detailed onboarding flow and templates.
+
+---
+
+## SCOPE CREEP PREVENTION
+
+- Proposal serves as anchor document: "Remember, this is what we're working toward"
+- Include proposal validity clause (e.g., "valid for 14 days")
+- Precise deliverables prevent disputes
+- Clear process phases with defined client responsibilities at each stage
+- Communicate scope changes immediately with associated cost/timeline impact
+
+---
+
+## PRICING FRAMEWORK
+
+### When Starting Out
+
+[CONTRARIAN] Do not show prices on your website when starting out. Low prices displayed signal low quality. Better to discuss pricing after discovery when you understand scope. [Flux]
+
+**Research method:**
+1. Search Upwork for similar project types -- note what clients pay
+2. Search Fiverr for similar services -- note what top-rated freelancers charge
+3. Use these as benchmarks, not ceilings
+4. Start competitive, then increase gradually with each project
+
+### Pricing Model
+
+**Clients do not buy deliverables -- they buy results.** They know Point A (where they are) and Point B (where they want to be). You build the bridge. [Flux]
+
+**DISAGREEMENT on showing prices:**
+- Shopify course: Show guide prices for self-qualifying
+- Flux/Career: Do not show prices early, discuss after discovery
+- **Resolution:** Show prices for productized services (standard Shopify store package). Hide for custom work where scope varies.
+
+---
+
+## NICHE DEFINITION [Flux]
+
+Specialist > Generalist. "Webflow designer for hospitality businesses" has a tiny competitive pool compared to "freelance designer."
+
+**Definition process:**
+1. What businesses would I love to work with?
+2. What problems do these businesses face?
+3. What results would they want? Map each problem to a deliverable.
+4. Where do they hang out? (platforms, communities, events)
+
+[CONTRARIAN] Your niche will and should change over time. Early-stage experimentation is valuable. Portfolio attracts more of the same.
+
+---
+
+## ANTI-PATTERNS
+
+- Jumping into design software before understanding the problem
+- Skipping wireframes on complex projects to save time
+- Pricing individual deliverables instead of the whole project
+- Combining contract and proposal into one document
+- Closing the relationship when the project launches
+- Taking every project regardless of fit
+- Using the same process depth for every project regardless of complexity
+
+---
+
+## RELATED SKILLS
+
+- **mood-board-brand-vibe:** After scoping, establish visual direction with a brand vibe report and mood board
+- **typography-systems:** Project scoped; define the type system
+- **color-systems:** Once brand direction is set, formalize the palette
+- **layout-spacing:** When ready to establish grid and spacing tokens
+- **design-critique:** When reviewing project deliverables before handoff
+- **logo-brand-identity:** When the project includes brand identity work

@@ -1,294 +1,275 @@
 ---
 name: Web Layout
-description: "Design website structures with hero sections, responsive layouts, containers, breakpoints, and section spacing. MANDATORY TRIGGERS: website layout, responsive design, hero section, footer, container patterns, breakpoints, mobile-first, section spacing, layout grid. Do NOT use for individual components — use ui-components instead. Do NOT use for app dashboards — use dashboard-systems instead."
+description: "Website page structures, hero sections, homepage anatomy, responsive web design, section spacing, containers, navigation mega-menus, footer patterns, page architecture, responsive breakpoints. FOR: designing full web pages, structuring homepages, responsive layout decisions, section-by-section design, navigation design, footer design. MANDATORY TRIGGERS: website layout, homepage, hero section, web page structure, responsive design, responsive breakpoints, mobile design, section design, footer, navigation bar, mega menu, landing page, page sections, web structure, container width, website architecture, above the fold, social proof section, features section, testimonials, pricing section, CTA section, FAQ section. Do NOT use for — use ui-components for individual component patterns, use dashboard-app-design for SaaS app interfaces, use webflow-build for Webflow implementation, use shopify-ecommerce for Shopify store design."
 ---
 
 # Web Layout
 
-## When You Need This Skill
+This skill covers page-level design: how to structure websites, design sections, and handle responsive behavior. Components from ui-components are assembled here into full page layouts.
 
-Use this skill when:
-- Designing the overall structure of a website page
-- Planning responsive behavior across desktop, tablet, mobile
-- Determining section spacing and rhythm
-- Creating container and max-width patterns
-- Building hero sections, feature sections, CTAs, footers
-- Deciding breakpoint strategy
+## THE DESIGN-FIRST PROCESS
 
-**Do NOT use for:**
-- Individual component design → see **ui-components**
-- Full SaaS dashboard layouts → see **dashboard-systems**
-- Animation and interactions → see **animation-interactions**
+### Web Design Workflow [Flux, Segall]
+1. **Brief review**: Extract audience, brand personality, competitors, mandatory elements
+2. **Wireframes**: High-fidelity (buildable) or quick hand sketches. High-fi saves time because you design on top of them [Flux]
+3. **Inspiration gathering**: Separate web layout inspiration from aesthetic/brand inspiration
+4. **Fonts and colors**: Choose from scratch when no brand guidelines exist
+5. **Image direction**: Establish 2-3 visual directions from references
+6. **Concepting**: Create 2-3 unique concepts with different fonts, colors, image styles
+7. **Refinement**: Consolidate colors, align to guides, standardize typography, polish spacing
+8. **Navigation design**: Landing state, scroll state, open/dropdown state
+9. **Inner pages**: Design at least one inner page template
+10. **Responsive breakdown**: Desktop, tablet, mobile for homepage and navigation minimum
 
----
-
-## Website Layout Foundation
-
-### The Three-Breakpoint System
-
-**Standard Web Design operates on 3 primary breakpoints:**
-
-| Breakpoint | Width | Columns | Margins | Gutters | Device |
-|-----------|-------|---------|---------|---------|--------|
-| **Desktop** | 1440px | 12 | 64px | 24-40px | 21.5"+ monitors, desktops |
-| **Tablet** | 800px | 6 | 40px | 20-32px | 10-13" tablets, large phones |
-| **Mobile** | 390px | 2-4 | 16-24px | 12-16px | 5-6" smartphones |
-
-**Why These Numbers:**
-- **1440px:** Natural breakpoint after 1280px (old standard), accommodates modern 27-34" monitors
-- **800px:** iPad breakpoint, separates true tablet from mobile
-- **390px:** iPhone 12 Pro Max width, covers modern small-to-large phones
-
-**Important:** These are TRIGGERS, not hard stops. Design must work fluidly between breakpoints.
-
-### Container & Max-Width Pattern
-
-**The Foundation:**
-```
-┌──────────────────────────────────────────────┐
-│  Full viewport width (1440px+)               │
-├──────────────────────────────────────────────┤
-│  64px margin                                  │
-│  ┌────────────────────────────────────┐     │
-│  │ Content max-width: 1312px          │     │
-│  │ (1440 - 64×2 margins)              │     │
-│  │                                     │     │
-│  │ Centered with auto margins          │     │
-│  └────────────────────────────────────┘     │
-│  64px margin                                  │
-└──────────────────────────────────────────────┘
-```
-
-**Math:**
-- Available width = 1440px - (64px × 2) = 1312px
-- Never squeeze content below this
-- Always use `max-width` + `margin: 0 auto`
-
-**Responsive Adjustments:**
-```
-Desktop (1440px): max-width 1312px, margin 64px
-Tablet (800px):   max-width 720px, margin 40px
-Mobile (390px):   max-width 100%, margin 16px
-```
-
-### Grid System (12-Column)
-
-**Desktop Grid Structure:**
-```
-12 equal columns, 24px gutters
-
-Col1  Col2  Col3  Col4  Col5  Col6  Col7  Col8  Col9  Col10 Col11 Col12
-[24] [24] [24] [24] [24] [24] [24] [24] [24] [24]  [24] [24]
-     ↑gutter: 24px between each
-```
-
-**Column Width Calculation:**
-```
-(1312px - (11 gutters × 24px)) / 12 columns
-= (1312 - 264) / 12
-= 1048 / 12
-= ~87.3px per column
-```
-
-**Common Grid Usage:**
-- **Full width:** 12 columns
-- **Half width:** 6 columns (50%)
-- **Third:** 4 columns (33%)
-- **Quarter:** 3 columns (25%)
-
-**Image Grid Example:**
-```
-Desktop: 3 images side-by-side (4 columns each)
-Tablet:  2 images side-by-side (6 columns each)
-Mobile:  1 image full-width (2 columns or full)
-```
+### Three Project Scenarios [Flux]
+- **Blank canvas**: No branding or assets. Build everything from scratch
+- **Brief + brand**: Brand questionnaire + copy deck. Pull inspiration, quick wireframes
+- **Redesign**: Existing brand. Audit current site, identify what works, create accessible palette
 
 ---
 
-## Website Section Anatomy
+## HOMEPAGE ANATOMY (Section by Section)
 
-## Website Sections
+### Standard Homepage Flow [Arash, Segall, Flux]
+```
+1. Navigation Bar
+2. Hero Section (above the fold)
+3. Social Proof / Logo Bar
+4. Features / Services
+5. How It Works / Process
+6. Detailed Feature Showcase
+7. Testimonials / Case Studies
+8. CTA Section
+9. FAQ (optional)
+10. Footer
+```
 
-### Hero Section
+This pattern follows Jakob's Law: users expect sites to work like other sites they've used. The similarity is not coincidence -- it follows established user expectations [Arash].
 
-**Purpose:** First impression, establish brand, communicate main value proposition
-
-For complete hero section details, sizing, background options, and responsive behavior, read `references/section-anatomy.md`.
-
-### Feature, CTA, Testimonial & Footer Sections
-
-For complete section anatomy including feature sections, CTAs, testimonials, and footers with sizing, spacing, and responsive layouts, read `references/section-anatomy.md`.
+### Section Design Rules
+- Each section has a clear single purpose
+- Visual distinction between sections (alternating backgrounds, dividers, or spacing)
+- Sections can have different vertical padding from each other -- "consistent, not identical" [Segall]
+- Vertical section padding: 64-120px typical range (reduce on mobile)
 
 ---
 
-## Section Spacing & Rhythm
+## HERO SECTION DESIGN
 
-Vertical spacing system, why consistent spacing matters, and half-padding technique to avoid gaps doubling up.
+### Hero Layout Patterns
+| Pattern | Structure | Best For |
+|---------|-----------|----------|
+| **Split hero** | Content left, image/visual right | SaaS, tech products |
+| **Centered hero** | Centered headline + CTA, background image/gradient | Brand-first, simple message |
+| **Full-bleed image** | Full-width image with overlay text | Photography, lifestyle, editorial |
+| **Video hero** | Background video with overlay content | High-impact landing pages |
+| **Minimal hero** | Large text only, no image | Typography-driven brands |
 
-For complete spacing guidelines including spacing levels, application patterns, and responsive adjustments, read `references/spacing-responsive.md`.
+### Hero Content Hierarchy
+1. **Headline** (largest text on page): What is this? What value does it provide?
+2. **Subheadline/description**: Supporting detail, expand on the promise
+3. **CTA button(s)**: Primary action (filled) + optional secondary (outlined or text)
+4. **Social proof** (optional): "Trusted by 10,000+" or logo bar inline
 
----
-
-## Responsive Image Handling
-
-Image aspect ratios, object-fit strategies, and responsive sizing.
-
-For complete image guidance including aspect ratios, object-fit options, and responsive sizing by device, read `references/spacing-responsive.md`.
-Full-width hero: 100% viewport width (same)
-Featured image: 100% width (full-width container)
-Grid images: 100% width (1-column, full-width)
-```
-
----
-
-## Breakpoint-Specific Behaviors
-
-### Desktop (1440px) Specifications
-
-**Container:** max-width 1312px (1440 - 64×2 margins)
-**Grid:** 12 columns, 24px gutters
-**Margins:** 64px horizontal
-**Font sizes:** Full 48/32/24/18/16/14/12px scale
-**Spacing:** 100-128px between sections
-**Images:** Full resolution, all visible
-
-### Tablet (800px) Specifications
-
-**Container:** max-width 720px (800 - 40×2 margins)
-**Grid:** 6 columns, 20px gutters
-**Margins:** 40px horizontal
-**Font sizes:** Slightly reduced (44/28/20/16/14/12/11px)
-**Spacing:** 60-80px between sections
-**Images:** Medium resolution, may hide some
-**Navigation:** Hamburger menu
-
-### Mobile (390px) Specifications
-
-**Container:** 100% width
-**Grid:** 2-4 columns, 12px gutters
-**Margins:** 16-24px horizontal (often 16px)
-**Font sizes:** Compact (36/24/18/14/13/12/11px)
-**Spacing:** 40-60px between sections
-**Images:** Single column, 100% width
-**Navigation:** Hamburger menu with slide-panel
-**Buttons:** Full-width (easier to tap)
+### Hero Sizing
+- Desktop: 80-100vh (full viewport) or content-determined height
+- Content max-width: 600-800px for centered text blocks
+- Image/illustration: at least 40% of hero width in split layouts
+- CTA buttons: Large size (48px+ height)
 
 ---
 
-## Common Layout Mistakes
+## NAVIGATION DESIGN
 
-### ❌ Inconsistent Spacing
+### Landing State vs Scroll State [Segall]
+| Property | Landing (Top of Page) | Scrolled |
+|----------|----------------------|----------|
+| Background | Transparent | White or dark solid |
+| Shadow | None | Subtle (0 2px 8px rgba) |
+| Logo | White or full color | Dark or brand color |
+| Vertical padding | 24px | 12-16px |
+| Transition | -- | 0.3s ease on all properties |
 
+### Scroll Behavior Pattern
+- On scroll down: nav hides (slides up on Y axis)
+- On scroll up (intent to return): nav slides back down
+- Creates more content space while maintaining accessibility
+
+### Desktop Nav Structure [Arash, Segall]
 ```
-❌ WRONG: 50px gap here, 120px gap there
-           (Rhythm feels broken)
+[Logo]          [Nav Item] [Nav Item] [Nav Item] [Nav Item]          [CTA Button]
 ```
+- Auto layout: horizontal, Space Between
+- Height: 56-72px
+- Logo: max 32-40px height
+- CTA: distinct from nav items (filled button)
 
-**Fix:** Define spacing scale (40, 60, 100, 128px) and use consistently.
+### Mega Menu [Segall]
+- Navigation links in columns + featured content card on one side
+- Divider line between link groups and featured content
+- Chevron icon on trigger rotates to indicate open/closed
+- Full container width, centered
 
-### ❌ Text Too Wide
-
-```
-❌ WRONG: Body text stretches full viewport (1440px+)
-           (Hard to read, eye fatigue)
-```
-
-**Fix:** Use max-width: 1312px container or max ~80 characters per line.
-
-### ❌ No Mobile Redesign
-
-```
-❌ WRONG: Same layout on mobile as desktop
-           (Everything tiny, unreadable)
-```
-
-**Fix:** Redesign layout at each breakpoint (don't just shrink).
-
-### ❌ Hero Section Too Short
-
-```
-❌ WRONG: Hero height 300px
-           (Weak, no impact)
-```
-
-**Fix:** Use 600-800px or full viewport height (100vh).
-
-### ❌ Images Without Aspect Ratio Lock
-
-```
-❌ WRONG: Images stretch or distort
-           (Broken layout, poor UX)
-```
-
-**Fix:** Define aspect ratio containers using CSS `aspect-ratio` property.
+### Mobile Navigation [Segall]
+- Custom hamburger menu (not default Webflow navbar)
+- Full-screen overlay with animated open/close
+- Staggered reveal for menu items
+- Build and test mobile nav separately from desktop
 
 ---
 
-## Web Layout Checklist
+## SECTION SPACING SYSTEM
 
-Before finalizing any page layout:
+### Vertical Padding Between Sections
+- Hero: 80-120px bottom (or full-viewport)
+- Standard sections: 64-96px top and bottom
+- CTA/highlight sections: 48-80px top and bottom
+- Footer: 48-64px top, 24-32px bottom
 
-- [ ] Responsive layouts for all 3 breakpoints (1440px, 800px, 390px)
-- [ ] Container max-width defined (1312px desktop, 720px tablet, 100% mobile)
-- [ ] Grid system consistent (12 columns desktop, 6 columns tablet, 2-4 mobile)
-- [ ] Section spacing follows scale (40/60/100/128px values)
-- [ ] Hero section 600-800px height minimum
-- [ ] All images have aspect ratio constraints
-- [ ] Footer includes: logo, navigation, social, copyright
-- [ ] CTA buttons prominent and accessible (48px+ height)
-- [ ] Typography hierarchy clear (H1→H2→H3→body)
-- [ ] Color contrast: Text 4.5:1 on backgrounds
-- [ ] Mobile-first workflow applied
-- [ ] Margin/padding values on 8px grid (divisible by 4 or 8)
-- [ ] Layouts tested between breakpoints (not just AT breakpoints)
+### Internal Section Spacing
+- Section heading to first content: 32-48px
+- Between content blocks within section: 24-32px
+- Between cards in a grid: 16-24px gap
 
----
-
-## When to Read Reference Files
-
-| Need | Reference |
-|------|-----------|
-| Desktop/tablet/mobile breakpoints and column systems | **responsive-web-design.md** |
-| Hero section, feature section, CTA, testimonial layouts | **web-sections.md** |
-| Common page layout combinations and patterns | **web-layout-patterns.md** |
-| Image aspect ratios, object-fit, responsive images | **image-handling.md** |
-| Multi-column footer, link structure, copyright | **footer-patterns.md** |
+### The Hierarchy of Negative Space [MDS]
+- More negative space = more importance/gravitas
+- Hero sections get the most generous padding
+- Secondary sections get less
+- The DIFFERENCE in space between sections IS the hierarchy
+- Dense information (dashboards) needs less; marketing pages need more
 
 ---
 
-## Cross-Skill References
+## RESPONSIVE DESIGN
 
-- **visual-foundations** → For typography, color, spacing scales
-- **ui-components** → To see how components fit into page layouts
-- **dashboard-systems** → For app-specific layouts (NOT for websites)
-- **animation-interactions** → For scroll animations within sections
-- **webflow-implementation** → For technical build of responsive layouts
+### Breakpoint Standards [Segall]
+| Breakpoint | Width | Columns | Use |
+|-----------|-------|---------|-----|
+| Desktop | 1440px (design at) | 12 | Primary design canvas |
+| Tablet | 810px | 6 | iPad-ish |
+| Mobile | 390px | 4 or 2 | Phone |
+
+Three breakpoints is the standard minimum. Add 1-2 above desktop for complex designs.
+
+### Key Responsive Adjustments [Segall]
+- **Layout direction**: Horizontal to vertical when content no longer fits side-by-side
+- **Font sizes**: Reduce heading sizes per breakpoint (H1 from 90px desktop to 64px tablet to 40px mobile)
+- **Body text**: Consider 18px to 16px on tablet/mobile
+- **Spacing**: Desktop padding too generous on smaller screens -- reduce proportionally
+- **Images**: object-fit cover with adjusted position (top-align portraits when cropped)
+- **Hero height**: 100vh to auto, or split (50vh image + 50vh content)
+- **Grid to stack**: Multi-column grids become single-column on mobile
+
+### Container Width
+- If no max-width set, designs stretch edge-to-edge on large monitors [Segall]
+- Common max-width: 1200-1440px, centered
+- Side margins: 24-64px desktop, 16-24px mobile
+- Column gaps: 24-40px desktop, 16-24px mobile
+
+### Mobile-Specific Rules
+- Full-width buttons (fill container)
+- Stack all multi-column layouts to single column
+- Hamburger menu replaces horizontal nav
+- Bottom tab bar for app-like experiences (3-5 items)
+- Increase touch targets to 44px minimum
+- Hide non-essential desktop elements (display none)
 
 ---
 
-## Quick Layout Decision Tree
+## GRID SYSTEM
 
-**Choosing a layout for your page:**
+### 12-Column Grid [MDS, Segall, Flux]
+- Most popular for websites: allows 1, 2, 3, 4, 6, or 12 column layouts
+- Responsive behavior: 12 cols desktop > 6 cols tablet > 2-4 cols mobile
 
-```
-Do you need a hero section?
-├─ YES → Hero Section (600-800px) + Feature Section + CTA + Footer
-└─ NO →
+### Content-Out vs Grid-First [MDS]
+[CONTRARIAN] "The goal isn't to use a grid. The goal is to achieve balance and harmony." -- Content-out approach often works better than grid-first. Let content dictate structure, then apply grid as things solidify.
 
-Are you featuring products/services?
-├─ YES → 3-column Feature Section + Testimonials
-└─ NO →
+### Breaking the Grid [MDS]
+- Intentionally breaking adds visual interest (oversized images, offset elements)
+- Images, decorative elements, and pull quotes can extend past grid boundaries
+- Strict grid = corporate/organized feel; grid-breaking = editorial/dynamic feel
 
-Do you have multiple CTAs?
-├─ YES → Include CTA Section + Footer
-└─ Single CTA in Hero footer
+### Implicit Grid [MDS]
+- No formal column grid -- instead, consistent spacing values (8, 12, 16, 20, 24, 32, 40, 48) create an emergent grid
+- Especially powerful for mobile where formal column grids are less useful
 
-Structure:
-[Navigation]
-[Hero Section] (if yes)
-[Feature Section] (if yes)
-[Testimonials] (optional)
-[CTA Section] (if applicable)
-[Footer]
-```
+---
 
+## FOOTER DESIGN
+
+### Footer Content
+- Logo (smaller version or icon)
+- Navigation links (organized in columns by category)
+- Social media icons
+- Contact information
+- Legal links (Privacy Policy, Terms of Service)
+- Copyright with auto-updating year
+- "Website by [Agency]" credit link
+- Newsletter signup (optional)
+
+### Footer Layout
+- Desktop: 3-4 columns with links, logo top-left or centered
+- Mobile: single column, stacked sections
+- Background: typically darker than page (dark gray, dark brand color, or inverted)
+- Padding: 48-64px top, 24-32px bottom
+- Bottom bar: thin line with copyright + legal links
+
+---
+
+## IMAGE & MEDIA GUIDELINES
+
+### Stock Photography Rules [Segall]
+- Avoid assets that are obviously stock photography
+- Avoid overused free stock (Unsplash/Pexels -- same faces on thousands of sites)
+- All graphics on a site must feel stylistically cohesive
+- [CONTRARIAN on AI images]: If AI-generated assets are obviously AI-made, they are worse than bad stock because no human crafted them. Use AI only when indistinguishable from custom work [Segall]
+
+### Image Strategy [Flux]
+- Establish 2-3 visual directions from references
+- Real photography > illustrations > stock > AI (quality hierarchy)
+- Consistent color treatment across all images (filters, overlays)
+- Image selection criteria from mood board direction
+
+### Graphics Principle [Segall]
+Graphics should enhance communication and make the site feel complete, but the site should still perform its primary job if all graphics were removed.
+
+---
+
+## PAGE DESIGN CHECKLIST (Refinement) [Flux]
+
+1. Audit and consolidate color palette (remove duplicates, name systematically)
+2. Turn on guides and verify alignment
+3. Verify vertical padding is intentional per section
+4. Standardize font sizes (H1, H2, body, button, eyebrow)
+5. Standardize letter spacing per text style (-1% to -3% typical)
+6. Verify line heights (100% for titles, 120-144% for body)
+7. Check max-widths on text blocks for readability (45-75 characters)
+8. Step back and evaluate cohesion across the full page
+
+---
+
+## ANTI-PATTERNS
+
+- All sections with identical padding (no hierarchy)
+- Text blocks wider than 75 characters per line
+- Hero without clear CTA
+- Navigation with 10+ visible items (use mega menu or grouping)
+- Mobile design that is just a squeezed desktop (not redesigned)
+- No max-width on content container (stretches on ultra-wide)
+- Mixed image aspect ratios in card grids
+- Footer with no navigation links
+
+---
+
+## RELATED SKILLS
+
+- **ui-components**: For the components assembled into page layouts
+- **layout-spacing**: For the spacing system and grid foundations
+- **typography-systems**: For heading and body text sizing in page context
+- **color-systems**: For section background colors and contrast decisions
+- **design-systems**: For converting page patterns into reusable templates
+- **webflow-build**: For implementing these layouts in Webflow
+- **shopify-ecommerce**: For e-commerce-specific page structures
+- **design-critique**: For reviewing page layouts before build
+- **dashboard-app-design**: For app/SaaS layouts (different from marketing pages)

@@ -1,389 +1,178 @@
 ---
-name: Income Statement Analysis & Margin Deep-Dive
-description: Vertical and horizontal analysis frameworks to diagnose profit leaks, margin compression, and cost structure problems in your P&L.
+name: "Income Statement Analysis"
+description: "P&L structure, three margin metrics, profit leak detection via vertical/horizontal/variance analysis, e-commerce KPIs, diagnostic process, COGS vs SG&A classification rules."
+when_to_read: "When the user needs detailed P&L analysis guidance, margin calculation help, expense classification rules, or the full diagnostic process with examples."
 ---
 
-# Income Statement Analysis & Margin Deep-Dive
+# Income Statement Analysis -- Deep Reference
 
-## The Income Statement at a Glance
+## P&L Structure Variants
 
-**Standard structure:**
+### Leikauf Structure (Lending/Ratio Context)
 ```
 Net Sales (Revenue)
-- Cost of Goods Sold (COGS)
-= Gross Profit
-- Operating Expenses (SG&A)
+  - COGS
+= Gross Profit (Gross Margin %)
+  - SG&A / Operating Expenses
 = Operating Income (EBIT)
-+/- Other Income/Expense (interest, gains/losses)
-= Net Income (bottom line)
+  - Depreciation & Amortization
+= EBITDA (add back D&A)
+  - Interest Expense
+  - Income Taxes
+= Net Income
 ```
 
-**Critical distinction:** The P&L measures *profitability* over a time period. It is NOT your cash flow. A company with $1M in revenue and $100K net income can still run out of cash if customers haven't paid.
+### Aharonoff Structure (Three-Statement Model Context)
+```
+Revenue
+  - Cost of Goods Sold
+= Gross Profit
+  - Operating Expenses (SG&A)
+= Net Operating Income
+  +/- Other Income / Other Expenses
+= Net Other Income
+= Net Income (before or after tax)
+```
+
+**Mapping:** Operating Income = EBIT = Net Operating Income. Use Leikauf's terms in banking/lending contexts, Aharonoff's terms in modeling contexts.
+
+### COGS Classification by Business Type
+| Business Type | COGS Includes | Often Misclassified |
+|--------------|---------------|---------------------|
+| **E-commerce** | Product cost, shipping, fulfillment, transaction fees, merchant fees | Warehouse rent (should be COGS if dedicated) |
+| **Service** | Direct labor, subcontractors, project materials | Sales team salaries (SG&A, not COGS) |
+| **Manufacturing** | Raw materials, direct labor, factory overhead | R&D labor (usually SG&A) |
+| **SaaS** | Hosting, customer support, payment processing | Engineering salaries (SG&A) |
+| **Restaurant** | Food cost, kitchen labor, disposables | Front-of-house labor (can be either -- be consistent) |
+
+### Revenue Recognition Impact
+- **Cash basis:** Revenue appears when payment lands. Can create lumpy P&Ls that do not reflect actual business activity.
+- **Accrual basis:** Revenue appears when earned. Creates smoother P&Ls but requires monitoring AR to ensure collection.
+- **Mixed signals:** A business on cash basis may show great revenue in Month 1 (prepayments collected) and terrible revenue in Month 2 (services delivered, no new collections). Always ask which basis.
 
 ---
 
-## Vertical Analysis: The % of Revenue Framework
+## Margin Analysis Framework
 
-Convert every line item to a percentage of revenue. This instantly reveals cost structure and flags inefficiencies.
-
-### How to Build Vertical Analysis
-
-**Take your actual P&L:**
+### Gross Margin Deep Dive
 ```
-Revenue:             $2,000,000
-COGS:                $  800,000
-Gross Profit:        $1,200,000
----
-Payroll:             $  400,000
-Ad Spend:            $  200,000
-Software:            $   60,000
-Rent:                $   40,000
-Other OpEx:          $   80,000
-Total OpEx:          $  780,000
----
-Operating Income:    $  420,000
-Net Income:          $  350,000
+Gross Margin % = Gross Profit / Revenue
 ```
 
-**Convert to %:**
+**What drives gross margin:**
+- Pricing power (can you charge more?)
+- Input costs (materials, labor, freight)
+- Product mix (high-margin vs low-margin products)
+- Volume discounts (buying power on COGS)
+- Fulfillment efficiency
+
+**Gross margin benchmarks (rough guides):**
+| Industry | Typical Gross Margin |
+|----------|---------------------|
+| SaaS | 70-85% |
+| Professional services | 50-70% |
+| E-commerce (own products) | 40-65% |
+| E-commerce (reseller) | 25-40% |
+| Manufacturing | 25-45% |
+| Restaurant | 60-70% (food cost 28-35%) |
+| Construction | 20-35% |
+
+**[CONTRARIAN] Aharonoff: Gross profit sets your earnings ceiling.** Your gross profit is the maximum possible amount available to cover all other expenses. If gross profit is $600 on a $1,000 sale, that $600 must cover ALL operating expenses, other expenses, and still leave net income. Always evaluate gross margin first.
+
+### Operating Margin Deep Dive
 ```
-Revenue:             100.0%
-COGS:                 40.0%
-Gross Profit:         60.0%
----
-Payroll:              20.0%
-Ad Spend:             10.0%
-Software:              3.0%
-Rent:                  2.0%
-Other OpEx:            4.0%
-Total OpEx:           39.0%
----
-Operating Income:     21.0%
-Net Income:           17.5%
+Operating Margin % = Operating Income / Revenue
 ```
 
-### What Vertical Analysis Reveals
+Gap between gross margin and operating margin reveals SG&A burden. If gross margin is 60% but operating margin is 5%, overhead is consuming nearly all production profit.
 
-**Revenue efficiency:**
-- Gross Margin 60% = Every $1 of sales, 60¢ remains after COGS. This is your "engine."
-- If gross margin declined from 62% to 60%, you lost 2 percentage points = $40K in profit on $2M revenue.
+**Key SG&A categories to examine:**
+- Personnel costs (largest for most businesses)
+- Marketing/advertising spend
+- Rent and occupancy
+- Technology and software
+- Professional services (legal, accounting)
+- Insurance
 
-**Cost structure problems:**
-- Payroll 20% is healthy for product company (15-25% range is normal)
-- Payroll 30% in product biz signals overstaffing (or pricing problem)
-- Ad spend 10% of revenue is reasonable if CAC < lifetime value
-- Ad spend 20%+ without proof of ROI = efficiency problem
+### Net Margin
+```
+Net Margin % = Net Income / Revenue
+```
 
-**Operating leverage:**
-- If revenue grows 20% but OpEx grows only 10%, operating income grows 30%
-- If revenue grows 20% and OpEx grows 30%, operating income shrinks
-- Watch the leverage—it compounds over time
-
-### Vertical Analysis Interpretation Rules
-
-**Rule 1: Compare line-to-line (not to benchmarks)**
-Don't ask "Is 40% COGS good?" Ask "Did COGS rise from 38% to 40%?" That 2-point move = profit leak. Find it.
-
-**Rule 2: COGS and Payroll are your biggest levers**
-Together they typically represent 55-70% of revenue. Small % improvements = large dollars.
-
-**Rule 3: Expense creep is insidious**
-Monthly 1% increases feel tiny. Annualized, they compound to 12%+. Watch month-to-month, not just year-to-year.
-
-**Rule 4: Software and subscriptions are often invisible**
-Add up every subscription: Slack, HubSpot, Zapier, accounting tools, etc. Most companies underestimate SaaS spend by 50%.
+Below-the-line items (interest, taxes, D&A) create the final margin. For heavily leveraged businesses, the gap between operating and net margin reveals debt burden.
 
 ---
 
-## Horizontal Analysis: Trends & Seasonality
+## Vertical Analysis Execution
 
-Compare same periods across years and consecutive months to spot patterns, growth, and seasonal swings.
+For each line item: `Amount / Revenue x 100 = % of Revenue`
 
-### How to Build Horizontal Analysis
+**Example layout:**
+| Line Item | Amount | % of Revenue | Benchmark | Variance |
+|-----------|--------|-------------|-----------|----------|
+| Revenue | $1,000,000 | 100% | -- | -- |
+| COGS | $400,000 | 40% | 35% | +5% (investigate) |
+| Gross Profit | $600,000 | 60% | 65% | -5% |
+| SG&A | $450,000 | 45% | 40% | +5% (investigate) |
+| Operating Income | $150,000 | 15% | 25% | -10% |
 
-**Lay out 12-24 months of data:**
-```
-                Jan     Feb     Mar     Apr     May     Jun
-Revenue:        100K    105K    110K    115K    120K    125K
-Growth %:        —      5.0%    4.8%    4.5%    4.3%    4.2%
-COGS:            40K     42K     44K     46K     48K     50K
-COGS %:         40.0%   40.0%   40.0%   40.0%   40.0%   40.0%
-```
-
-**Calculate month-over-month (MoM) and year-over-year (YoY) changes:**
-
-MoM Example:
-```
-February Revenue vs January = (105K - 100K) / 100K = 5.0% growth
-```
-
-YoY Example:
-```
-February 2024 vs February 2023 = (This year - Last year) / Last year
-```
-
-### Horizontal Analysis Interpretation Rules
-
-**Rule 1: Identify your seasonality pattern**
-Plot 36 months (3 years) of monthly revenue. Circle December. Is it always the biggest? Up 50%? That's seasonality, not anomaly.
-
-**Seasonal pattern recognition:**
-- **Retail/e-commerce:** November-December spike, January-February dip
-- **B2B services:** Q4 spending rush (budget flush), Q1 slowdown
-- **HVAC/Heating:** Winter peak, summer trough
-- **Education:** Summer valley, September peak
-
-**Rule 2: Strip out seasonality to see true growth**
-If December is 30% higher than November (normal seasonality), comparing December to November looks like contraction. Compare December to December instead.
-
-Calculation:
-```
-Adjusted Revenue = Actual Revenue / (1 + Seasonal Factor)
-```
-
-Example: December seasonal spike is 30%, so seasonal factor = 0.30
-```
-January actual revenue: $100K (post-holiday slump)
-January adjusted (removing seasonality): $100K / (1 - 0.30) = $143K equivalent
-(This tells you: January is performing like a $143K month if it weren't for holiday hangover)
-```
-
-**Rule 3: Growth rate deceleration signals problems**
-```
-Jan growth: 10%
-Feb growth: 8%
-Mar growth: 5%
-Apr growth: 2%
-```
-Decelerating growth signals either market saturation, increased competition, or demand weakness. Requires investigation.
-
-**Rule 4: Expense growth outpacing revenue growth = margin compression**
-```
-Revenue growth:  5%
-Payroll growth: 10%
-Ad spend growth: 8%
-```
-Your expenses are growing faster than revenue. Unsustainable. Either cut OpEx or increase prices/improve efficiency.
-
-### Red Flags in Horizontal Analysis
-
-**Revenue volatility with no explanation:**
-```
-Jan: $100K, Feb: $150K, Mar: $80K, Apr: $140K
-```
-Inconsistent revenue suggests either feast/famine customer acquisition, seasonal business without proper seasonality labeling, or data quality problem.
-
-**COGS growing faster than revenue:**
-```
-Revenue growth: 5%, COGS growth: 8%
-```
-Supplier costs increasing, product mix shifting to lower-margin items, or theft/waste. Immediate audit required.
-
-**Payroll growing with flat headcount:**
-```
-Headcount: 5 people (months 1-12), Payroll: $30K → $33K → $36K
-```
-Wage inflation or hidden contractors. Confirm headcount is accurate.
-
-**"Other Expenses" spike:**
-```
-Jan: $5K, Feb: $5K, ... Oct: $5K, Nov: $75K
-```
-One-time or annual expense? If one-time, separate it when analyzing monthly trend. If annual, pro-rata across all months.
+**Red flag thresholds:** Flag any line item where actual % deviates more than 3-5 percentage points from benchmark or prior period.
 
 ---
 
-## Key P&L Metrics
+## Horizontal Analysis Execution
 
-### Gross Margin: Your Engine
-
-**Formula:** (Revenue - COGS) / Revenue
-
-**What it means:**
-- 65% gross margin = Every $1 of sales, 65¢ remains to cover operating expenses and profit
-- 35% gross margin = Every $1 of sales, only 35¢ remains (unsustainable if OpEx is high)
-
-**Industry norms (rough):**
-- SaaS: 70-85% (highly scalable)
-- E-commerce: 40-50% (product costs are high)
-- Professional Services: 60-75% (person-time is cost)
-- Retail: 35-50% (wholesale acquisition + overhead)
-
-**Gross margin is not negotiable.** If your margin is too low relative to OpEx, you can't be profitable at scale. You must either reduce COGS or increase prices.
-
-### Operating Margin: The Efficiency Metric
-
-**Formula:** Operating Income / Revenue
-
-**What it means:**
-- 20% operating margin = Every $1 of sales, 20¢ remains after all operating costs
-- 5% operating margin = Tight; little room for error
-- Negative operating margin = You're losing money on every sale (unsustainable)
-
-**Healthy targets by type:**
-- Scaling startup: -5% to +5% (investing in growth, ok to burn)
-- Established business: 10%+ (expected to cover overhead + provide returns)
-- Mature business: 15-20%+ (less growth, more profit extraction)
-
-### Net Margin: The Bottom Line
-
-**Formula:** Net Income / Revenue
-
-**What it means:**
-- 15% net margin = Every $1 of sales, you keep 15¢
-- After COGS, OpEx, interest, taxes, and all other charges
-
-**Red flag:** If operating margin looks good (20%) but net margin is low (5%), something is consuming profit downstream (high interest expense, one-time losses, or tax burden).
-
-### EBITDA vs. EBIT
-
-**EBITDA** = Earnings Before Interest, Taxes, Depreciation, Amortization
-- Shows "cash operating earnings"
-- Useful for comparing businesses with different capital structures
-- Formula: Operating Income + Depreciation + Amortization
-
-**EBIT** = Operating Income
-- Includes depreciation/amortization
-- Reflects true economic cost of assets used
-
-**Why the distinction matters:**
-- A capital-heavy business (manufacturing) has high depreciation. EBITDA looks healthy, but EBIT may be weak.
-- A capital-light business (services) has low depreciation. EBITDA ≈ EBIT.
-
-**Example:**
+**Month-over-month:**
 ```
-Revenue:              $1,000,000
-COGS:                 $  400,000
-Gross Profit:         $  600,000
-OpEx:                 $  400,000
-EBIT:                 $  200,000
-Depreciation:         $   50,000
-EBITDA:               $  250,000
+Change $ = Current Month - Prior Month
+Change % = (Current - Prior) / ABS(Prior)
 ```
-EBITDA ($250K) looks better than EBIT ($200K) because it ignores depreciation. But depreciation is real economic cost. EBIT is the "true" profit.
+
+**Year-over-year (preferred for seasonal businesses):**
+```
+Change $ = Current Month - Same Month Prior Year
+Change % = (Current - Prior Year Same Month) / ABS(Prior Year Same Month)
+```
+
+**Always use ABS() in the denominator** for percentage change to handle negative base numbers correctly (Aharonoff).
 
 ---
 
-## Common P&L Distortions and How to Spot Them
+## Variance Analysis Execution
 
-### Revenue Recognition Issues
-
-**Issue: Revenue recorded in wrong period**
-- Customer service delivered in January, invoice sent in February, cash received in March
-- Which month gets the credit?
-- Accrual basis says January (when service was delivered)
-- Cash basis says March (when cash arrived)
-
-**Fix:** Reconcile revenue to actual service delivery dates, not invoice or payment dates.
-
-**Issue: Discounts and allowances buried**
-- Gross revenue $100K, but customer discounts $10K and returns $5K
-- Net revenue $85K (the "true" number)
-- Some companies report gross; some report net
-- Creates apples-to-oranges comparison
-
-**Fix:** Always look at *net* revenue after returns and discounts.
-
-### COGS Confusion
-
-**Issue: COGS recorded monthly vs. quarterly vs. annually**
-- Monthly COGS: More accurate for profit tracking
-- Quarterly COGS: Common in manufacturing (inventory counts are expensive)
-- Annual COGS: Only at tax time (distorts monthly profitability)
-
-**Fix:** Push for monthly COGS or use estimated COGS based on inventory assumptions.
-
-**Issue: Significant accruals or estimates in COGS**
-- Warranty obligations (future cost for past sales)
-- Inventory obsolescence (stock you can't sell)
-- These are real costs but often estimated
-
-**Fix:** Separate actual COGS from accrued/estimated costs. Track both.
-
-### Operating Expense Timing
-
-**Issue: Annual expenses (software licenses, insurance, rent) recorded inconsistently**
-- Some months show full annual cost in one payment
-- Creates artificial swings in monthly OpEx
-
-**Fix:** Pro-rata annual expenses across 12 months even if paid in lump sum.
-
-Example:
-- Annual insurance premium: $12,000 (paid January)
-- Record as: $1,000/month across all 12 months
-- Not: $12,000 in January, $0 in other months
-
-### One-Time Expenses
-
-**Issue: Non-recurring charges (legal settlement, equipment sale, severance) distort profitability**
-
-**Fix:** Separate one-time from recurring. Calculate "adjusted net income" excluding one-time items.
-
-Example:
 ```
-Reported Net Income:    $50,000
-Less: Legal settlement  $40,000 (one-time)
-Adjusted Net Income:    $90,000
+Variance $ = Actual - Budget
+Variance % = (Actual - Budget) / ABS(Budget)
 ```
+
+**Direction convention (Aharonoff):**
+- Favorable variances always positive (revenue above budget, expenses below budget)
+- Unfavorable variances always negative (revenue below budget, expenses above budget)
+- For expense lines, reverse the sign: `Budget - Actual` (so underspend shows positive)
+- Do NOT use a consistent formula direction for all lines -- match direction to favorability
+
+**Materiality thresholds:**
+- Revenue lines: investigate any variance > 5%
+- Large expense lines (>10% of revenue): investigate > 10% variance
+- Small expense lines (<2% of revenue): investigate > 25% variance or unusual patterns
 
 ---
 
-## P&L Diagnostic Checklist
+## E-Commerce P&L KPIs
 
-Before drawing conclusions from your P&L, verify:
-
-- [ ] **Basis is clearly stated:** Cash or accrual? (Should be accrual for standard business)
-- [ ] **Periods are consistent:** Comparing same periods (Jan vs Jan, not Jan vs Feb)
-- [ ] **COGS is accurate:** Includes all direct costs (not allocated overhead)
-- [ ] **OpEx is complete:** All expenses captured, not just major categories
-- [ ] **One-time items are separated:** Not distorting recurring profitability
-- [ ] **Depreciation is monthly:** Not annual-only (which distorts monthly P&L)
-- [ ] **Revenue is net:** After returns and discounts, not gross
-- [ ] **Three-statement reconciliation:** Net income should increase retained earnings on balance sheet
-- [ ] **Cash flow alignment:** P&L profit should roughly match operating cash flow (+/- 20%)
-- [ ] **Year-over-year comparison available:** Can't assess trends with single period
+| KPI | Formula | Benchmark Range |
+|-----|---------|----------------|
+| **ROAS** | Revenue / Ad Spend | 3x-5x+ (varies by margin) |
+| **Chargeback Rate** | Chargebacks / Revenue | < 1% |
+| **Transaction Fee %** | Merchant Fees / Revenue | 2.5-3.5% |
+| **Refund Rate** | Refunds / Gross Revenue | < 5% |
+| **Shipping % of Revenue** | Shipping Cost / Revenue | 8-15% |
+| **Customer Acquisition Cost** | Marketing / New Customers | Varies by CLV |
 
 ---
 
-## Practice: Analyze a Real P&L
+## Cross-References
 
-Example P&L for a $2M e-commerce company:
-
-```
-                    Current Month    Last Year    YoY %
-Revenue             $150,000         $140,000     7.1%
-COGS               $ 90,000         $ 56,000     60.7%
-Gross Profit        $ 60,000         $ 84,000    -28.6%
-Gross Margin        40.0%            60.0%
-
-Operating Expenses:
-  Payroll           $ 20,000         $ 18,000     11.1%
-  Ad Spend          $ 25,000         $ 28,000    -10.7%
-  Software          $  5,000         $  3,000     66.7%
-  Other             $  8,000         $  9,000     -11.1%
-Total OpEx          $ 58,000         $ 58,000      0.0%
-
-Operating Income    $  2,000         $ 26,000    -92.3%
-Net Income          $  1,000         $ 20,000    -95.0%
-```
-
-**Vertical analysis:**
-- Current month: Revenue 100%, COGS 60%, OpEx 38.7%, Net 0.7%
-- Last year: Revenue 100%, COGS 40%, OpEx 41.4%, Net 14.3%
-
-**What changed:**
-- COGS jumped from 40% to 60% of revenue (20-point swing)
-- OpEx stayed flat in dollars but shrunk as % of revenue
-- Operating margin collapsed from 4.6% to 1.3%
-
-**Diagnosis:**
-1. **COGS explosion is the killer.** Supplier costs doubled YoY or product mix shifted to lower-margin items.
-2. **Revenue only grew 7%, so proportional cost increases destroy profit.**
-3. **Software costs jumped 67%** (new tool? subscription overages?).
-
-**Actions:**
-1. Urgent: Audit supplier contracts. Did costs increase or did product mix change?
-2. Investigate software jump. Cancel if unnecessary.
-3. Consider price increase (if revenue growth is demand-constrained).
-4. Model payoff: If you cut COGS from 60% back to 45%, operating income becomes $12K (recovery).
-
+- **Ratio calculations from P&L data** -> `financial-ratios/ratio-reference.md`
+- **Building a forecast from diagnostic findings** -> `forecasting-strategy/projection-methods.md`
+- **Presenting P&L analysis to stakeholders** -> `advisory-communication/communication-frameworks.md`

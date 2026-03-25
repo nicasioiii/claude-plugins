@@ -1,77 +1,78 @@
 ---
 name: Build Dashboard
-description: "Turn your financial data into a live dashboard that updates automatically. Learn Power Query and dashboard design for monthly monitoring."
+description: "Design and build an Excel financial dashboard with Power Query data transformation, KPI cards, budget vs actuals, and automated refresh. Guides you through data architecture, formula setup, and visual design."
 ---
 
 # /build-dashboard
 
-Let's build an automated financial dashboard. I'll ask about your data and what you want to track, then guide you through the technical setup.
+Let's build an automated financial dashboard. I'll guide you through data architecture, Power Query transformation, formula setup, and visual design -- all in Excel.
 
-**1. Where does your financial data live?**
-- QuickBooks Online?
-- Xero?
-- Excel (manual)?
-- Other accounting software?
-- Multiple systems (accounting + sales tool + HR)?
+**1. What type of dashboard do you need?**
+- KPI card dashboard (key metrics at a glance)?
+- Budget vs actuals (variance analysis with gauge charts)?
+- Cash-out dashboard (when does cash go negative)?
+- Break-even dashboard (when does the business turn profitable)?
+- Spotlight dashboard (deep dive on one metric)?
+- Management report (actual vs budget vs prior year vs prior period)?
+- Pivot table dashboard (flexible, slicer-driven)?
+- Full suite (summarized financials + KPIs + BvA)?
 
-**2. What are you trying to monitor?**
-- P&L (revenue, costs, profit by month)?
-- Cash flow (inflows, outflows, balance)?
-- Budget vs actual performance?
-- Key business metrics (unit economics, CAC/LTV, etc.)?
-- All of the above?
+**2. Where does your financial data live?**
+- QuickBooks / Xero / other accounting software?
+- Existing Excel financial model?
+- Raw trial balance exports?
+- Multiple systems needing consolidation?
 
-**3. How often do you want updates?**
-- Monthly only?
-- Weekly?
-- Real-time / daily?
+**3. What time periods should the dashboard cover?**
+- Monthly (rolling 12 months)?
+- Quarterly (trailing 4 quarters)?
+- Annual (multi-year comparison)?
+- All of the above (with collapsible grouping)?
 
-**4. Who's viewing the dashboard?**
-- Just you (owner/CFO)?
-- Leadership team?
-- Board of directors?
-- External stakeholders?
+**4. Who is the audience?**
+- Just you (owner/CFO) -- detail-heavy is fine?
+- Leadership team -- summary with drill-down?
+- Board of directors -- high-level KPIs with trend charts?
+- External stakeholders (investors, lenders)?
 
-**5. What's your technical comfort level?**
-- Comfortable with Excel, new to Power Query?
-- Need step-by-step walkthrough?
-- Prefer I build a template you can adapt?
+**5. Do you have a budget or forecast to compare against?**
+- Yes, in a separate model/file
+- Yes, in the same file as actuals
+- No -- I need to build that first (start with `/build-forecast` then come back)
 
-**6. Are you starting from:**
-- A financial model I built? (I have the structure)
-- Raw accounting exports? (I need to transform)
-- Nothing—starting from scratch?
+**6. Technical starting point:**
+- I have data in tables already -- ready for Power Query
+- I have raw exports that need transformation
+- I'm starting from scratch -- need the full pipeline
 
 ---
 
-## Once You Answer, Here's What I'll Deliver:
+## What I'll Deliver Based on Your Answers:
 
-**Dashboard Architecture Design**
-- Which metrics to track and how
-- Data source setup (where data comes from, how it flows)
-- Refresh frequency and automation level
+**Data Architecture**
+- Summary Grouping column mapping for your chart of accounts
+- Aggregation Mapping table (Sum vs Index per account)
+- Power Query ETL pipeline (unpivot, date parse, merge, append)
+- One-click refresh workflow
 
-**Power Query Walkthrough**
-- Step-by-step instructions to transform your data
-- Unpivoting dates from columns to rows (making data "tall")
-- Creating categorization columns (P&L account mappings)
-- Appending multiple data sources (combining QBO + CRM data)
+**Dashboard Formulas**
+- Universal SUMPRODUCT formula (works for P&L and BS in one formula)
+- Date architecture (annual/quarterly/monthly tiers)
+- Period-over-period change calculations
+- Variance formulas with correct favorable/unfavorable direction
 
-**Dashboard Build**
-- Layout and visual design (hierarchy, color coding, readability)
-- Key formulas (SUMPRODUCT for multi-dimensional reporting)
-- Interactive elements (date filters, period selectors)
-- Budget vs actual comparison
+**Visual Design**
+- Grid setup for professional layout
+- KPI card design with branded borders and directional indicators
+- Chart selection (combo, gauge/donut, sparklines, waterfall)
+- Brand guideline setup (colors, fonts, icons)
 
-**Template for Monthly Updates**
-- How to refresh your data source monthly
-- One-click to update all charts and reports
-- Simple maintenance (no technical knowledge needed after setup)
+**Interactive Elements**
+- Date selector dropdowns via Data Validation
+- Dynamic metric selection (Account or Summary Grouping switching)
+- Spill arrays with named range bridging for charts
+- Pivot table slicers and timelines
 
-**Dashboard Examples**
-- P&L dashboard (monthly actual vs budget)
-- Cash flow dashboard (projected vs actual)
-- KPI dashboard (CAC, LTV, inventory turns, etc.)
-- Budget vs actual variance analysis
+> Cross-reference: If you need a financial model first, use `/build-model`. For Excel formula help during the build, use `/excel-help`. For presenting dashboard insights to stakeholders, use `/explain-to-stakeholder`.
 
-**Share your answers above** and I'll build your dashboard from your data.
+**Share your answers above** and I'll build your dashboard step by step.

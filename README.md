@@ -6,7 +6,7 @@ Private plugin marketplace — 10 plugins synthesized from expert courses.
 
 | Plugin | Version | Skills | Commands |
 |--------|---------|--------|----------|
-| cfo-finance-mastery | 1.2.0 | 7 | 8 |
+| cfo-finance-mastery | 2.0.0 | 10 | 11 |
 | cold-outbound-mastery | 2.0.0 | 11 | 14 |
 | course-to-plugin | 2.1.0 | 1 | 2 |
 | cro-copywriting-mastery | 2.0.0 | 14 | 12 |

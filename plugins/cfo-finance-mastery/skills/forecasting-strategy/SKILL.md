@@ -1,302 +1,214 @@
 ---
-name: Forecasting, Scenarios & Strategic Planning
-description: "Build accurate 12-month+ forecasts by analyzing historical trends, applying strategic modifiers (STEP/Porter's), stress-testing assumptions, and creating base/optimistic/pessimistic scenarios. MANDATORY TRIGGERS: forecasting, scenario planning, strategic planning, growth projection, budget planning, what-if analysis, reforecasting. Do NOT use for [financial statement analysis] — use financial-diagnostics instead; do NOT use for [model building] — use financial-modeling-excel instead."
+name: Forecasting Strategy
+description: "MANDATORY TRIGGERS: forecast, 12-month forecast, rolling forecast, scenario planning, scenario modeling, best case, worst case, base case, STEP framework, Porter's Five Forces, headwind, tailwind, projection method, revenue projection, EPN framework, ARSR framework, headcount projection, seasonal adjustment, P&L projection, revenue formula, subscription revenue, unit-based revenue, o shoot fund, reforecasting, three-scenario model. FOR: Anyone who needs to build a 12-month rolling forecast, analyze external factors affecting projections, choose projection methods for P&L accounts, model scenarios, project revenue using EPN/ARSR frameworks, or plan headcount. Do NOT use for: [diagnosing existing financial statements] use financial-diagnostics; [building the actual 3-statement model in Excel] use financial-modeling; [Excel formula help] use excel-for-finance; [dashboard design for forecast output] use dashboards-and-reporting; [ratio analysis] use financial-ratios."
 ---
 
-# Forecasting, Scenarios & Strategic Planning
+# Forecasting Strategy
 
-## Quick Answer: Is Forecasting Guessing?
+You are a financial forecasting strategist. Your job is to help users build forward-looking projections grounded in both external analysis and formula-driven methods. Every forecast must be defensible: assumptions documented, scenarios explored, and methods matched to account behavior.
 
-No. Forecasting is **systematic projection** that improves over time. The goal is directionally correct, not perfectly precise. You forecast by:
-
-1. **Analyzing historical trends** (vertical/horizontal analysis from actual P&L and balance sheet)
-2. **Identifying seasonality** (month-over-month patterns, holiday impacts, budget cycles)
-3. **Applying growth modifiers** (strategic assumptions based on STEP and Porter's Five Forces)
-4. **Stress-testing assumptions** (questioning unrealistic projections, modeling ripple effects)
-5. **Building scenarios** (base case, optimistic, pessimistic with probabilities)
-
-Once built, the forecast becomes your **annual plan with monthly reforecasts**. Update quarterly (or when major business change occurs) to stay agile.
+**Instructor synthesis:** Leikauf (CFO Mastery) focuses on external-environment-driven forecasting -- STEP framework, Porter's Five Forces, headwind/tailwind classification. Aharonoff (Financial Modeling) focuses on formula-driven projection mechanics -- nine P&L methods, EPN/ARSR revenue frameworks, headcount projection. These are complementary, not conflicting. The workflow is: (1) use Leikauf's frameworks to set assumptions, (2) use Aharonoff's methods to implement them in the model.
 
 ---
 
-## The Five-Step Forecasting Methodology
+## Forecasting Principles
 
-### Step 1: Establish Historical Baseline
-Pull 12–24 months of actual P&L, balance sheet, and cash flow data:
-- Use **vertical analysis** to establish current cost structure as % of revenue
-- Use **horizontal analysis** to spot seasonality vs. true growth trends
-- Calculate month-over-month growth rates (especially useful if you lack extensive history)
-- Identify one-time events or anomalies to exclude from baseline
-
-**Rule:** Don't forecast without understanding what already happened.
-
-### Step 2: Identify Seasonal Patterns
-Create seasonal adjustment multipliers by business type:
-- **Retail:** Q4 spike (50–100% above average), Q1 dip (70–80% of average)
-- **Services:** Budget-cycle driven (annual contract renewals, fiscal year timing)
-- **Construction:** Weather-dependent (spring surge, winter slowdown)
-- **E-commerce:** Black Friday/Cyber Monday (2–5X normal), January post-holiday slump
-- **SaaS:** Annual/quarterly billing cycles create cash flow timing patterns
-
-**Method:** For each historical month, calculate: Actual Month / Average Month = Seasonal Multiplier.
-
-Example: If average monthly revenue is $100K and March historically does $150K, the March seasonal multiplier is 1.5X.
-
-Apply this multiplier forward in projection months.
-
-**Seasonal Multiplier Calculation (Detailed)**
-
-Seasonal Multiplier = Actual Month Revenue / Average Monthly Revenue
-
-Example: If average monthly revenue is $100K and December historically does $180K:
-December multiplier = 1.8x
-
-Apply to forecast: Base December forecast ($110K with growth) × 1.8 = $198K
-
-Don't double-count: use multiplier OR one-time event, never both.
-
-### Step 3: Apply Strategic Growth Modifiers
-Layer in external and internal drivers using **STEP framework** and **Porter's Five Forces**:
-
-**STEP (Strategic, Technological, Economic, Political):**
-- Societal: Customer behavior shifts, demographic trends, cultural preferences
-- Technological: AI adoption (yours or competitors'), automation, new sales channels
-- Economic: Interest rate environment, consumer spending power, cost inflation
-- Political: Regulation changes (labor laws, tax code), tariffs, insurance costs
-
-**Porter's Five Forces:**
-- Threat of new entrants: Are barriers to entry rising or falling?
-- Threat of substitutes: New products/services replacing yours?
-- Bargaining power of suppliers: Can you negotiate better terms or will costs rise?
-- Bargaining power of buyers: Are customers consolidating purchases or demanding discounts?
-- Competitive rivalry: Are competitors gaining share, or is the market expanding?
-
-**Example:** A solar installation company forecasts growth modifiers:
-- Technological: Solar panel efficiency improving (positive for conversion rates, +5%)
-- Economic: Rising interest rates reduce customer financing appetite (negative, -10%)
-- Political: State tax credits expiring in 18 months (cliff risk, adjust Q3 projections downward)
-
-### Step 4: Build Base, Optimistic & Pessimistic Scenarios
-Create three distinct forecasts:
-
-**Base Case (Probability: 60%)**
-- Historical growth + seasonal adjustments + conservative STEP/Porter's assumptions
-- Assumes execution stays consistent, market conditions stable
-- Used for budgeting and staffing plans
-
-**Optimistic Case (Probability: 20%)**
-- Base case + upside assumptions (new market opportunity, competitor exit, viral product)
-- Example: Law firm landing three new high-value retainers (realistic upside, not fantasy)
-- Models stretch goals and growth acceleration
-
-**Pessimistic Case (Probability: 20%)**
-- Base case – downside assumptions (lost major customer, economic recession, pricing pressure)
-- Example: Construction company loses largest customer (real risk, not catastrophe)
-- Models contingency planning and cash runway
-
-**Probability-weighted forecast** = (Base × 0.6) + (Optimistic × 0.2) + (Pessimistic × 0.2)
-
-### Step 5: Stress-Test Assumptions & Model Second/Third-Order Effects
-
-Challenge every assumption in the forecast by asking:
-
-- **Revenue assumptions:** "If we raise prices 10%, what happens to unit volume? Are there chargeback risks?"
-- **Cost assumptions:** "If COGS drops 5%, do we see more refunds/returns? Does quality suffer?"
-- **Hiring assumptions:** "If we hire 3 people in Q2, can we train them fast enough? What's the ramp time?"
-- **Seasonality:** "Are we overstating Q4 based on one exceptional year? Is that repeatable?"
-
-**Second/Third-Order Effect Examples:**
-
-**Scenario 1: Pricing Increase**
-- Raise price 15% → unit volume drops 8% → net revenue up 6%
-- BUT: Higher prices trigger more chargebacks → chargeback fee/processing cost increases
-- AND: Customer retention drops (some defect to competitors) → churn rate up 3%
-
-**Scenario 2: Inventory Reduction**
-- Cut inventory 20% → frees up $50K cash (great!)
-- BUT: Stockouts increase, backorder time extends → customer dissatisfaction up 10%
-- AND: Shipping costs per unit increase (smaller shipments) → COGS up 2%
-
-### Second/Third-Order Effect Template
-
-For every major assumption, trace 4 levels deep:
-1. Direct impact (e.g., "cut inventory 20% → free $50K cash")
-2. Operational ripple (e.g., "stockout frequency increases")
-3. Customer impact (e.g., "backorders → negative reviews → lower conversion rate")
-4. Revenue consequence (e.g., "reduced reviews hurt future sales, net effect may be negative")
-
-Most forecasts only model level 1. CFO-level thinking requires levels 2-4.
-
-**Stress-Testing Template:**
-For major decisions, document:
-1. Initial assumption (e.g., "hiring 3 engineers in Q2")
-2. Primary impact (e.g., "product velocity +20%")
-3. Secondary effect (e.g., "customer churn may drop due to faster feature releases")
-4. Tertiary effect (e.g., "but onboarding quality risk if training rushed")
-5. Probability-weighted outcome (e.g., "net positive, 65% confidence")
+- **12-month rolling forecasts** are the standard. Update monthly with actuals.
+- Use **current context over past trends alone** (Leikauf). History informs but does not dictate.
+- Build **three scenarios:** Best, Base, and Worst case.
+- A forecast is a living document. "One and done" is a myth (Aharonoff).
+- The more **collaborative** the forecasting process, the more defensible the projections (Aharonoff).
 
 ---
 
-## STEP Framework Applied to Forecasting
+## Phase 1: External Analysis (Leikauf)
 
-Use this mental checklist to identify external factors affecting your forecast:
+Before building any numbers, analyze the environment. This sets the assumptions that drive the forecast.
 
-| Factor | Questions | Forecast Impact |
-|--------|-----------|-----------------|
-| **Societal** | Changing customer preferences? New demographics entering market? Labor availability shifting? | Revenue trends, hiring costs, product mix |
-| **Technological** | Are we or competitors adopting new tech? AI disruption? Digital transformation? | Efficiency gains, margin pressure, competitive positioning |
-| **Economic** | Interest rate environment? Inflation? Consumer discretionary spending? | Working capital costs, COGS inflation, customer spending |
-| **Political** | Regulation changes (labor, tax, industry-specific)? Tariffs? Insurance costs? | Margin headroom, hiring timelines, cost structure |
+### STEP Framework
 
-**Rule:** Don't just list factors—quantify impact if possible. "Tariffs may increase COGS 8%" beats "tariffs are a concern."
+| Factor | What to Analyze |
+|--------|----------------|
+| **S**ocial | Demographics, attitudes, lifestyle shifts, seasonal demand patterns |
+| **T**echnological | R&D, innovation, AI disruption, platform algorithm changes |
+| **E**conomic | Interest rates, spending trends, market cycles, inflation |
+| **P**olitical | Legislation, taxes, regulations, election impact, trade policy |
 
----
+For each factor, classify as a **headwind** (barrier to growth) or **tailwind** (growth driver).
 
-## Porter's Five Forces Applied to Forecasting
+### Porter's Five Forces
 
-Use this framework to assess competitive/market risk:
+1. **Rivalry among existing firms** -- More competition = harder to grow and maintain margins
+2. **Threat of new entrants** -- Low barriers = risk of new competitors
+3. **Supplier power** -- Powerful suppliers can raise costs, pressure margins
+4. **Buyer power** -- Easy switching for customers = pricing pressure
+5. **Threat of substitutes** -- Alternatives limit pricing power
 
-1. **Threat of New Entrants:** Are barriers falling? (low-cost technology, decreasing capital requirements)
-   - **Forecast implication:** If yes, model pricing pressure or need to invest in differentiation
-
-2. **Threat of Substitutes:** Are alternatives emerging that solve the same problem differently?
-   - **Forecast implication:** If yes, model share loss or shift to higher-margin service offerings
-
-3. **Bargaining Power of Suppliers:** Can vendors raise prices or reduce availability?
-   - **Forecast implication:** Model COGS inflation, inventory risk, need for supply chain diversification
-
-4. **Bargaining Power of Buyers:** Are customers consolidating purchases or demanding discounts?
-   - **Forecast implication:** Model CAC increases, margin compression, or need to increase frequency/volume
-
-5. **Competitive Rivalry:** Is market share concentrating or fragmenting?
-   - **Forecast implication:** If concentrating, model acquisition or merger risk; if fragmenting, niche opportunity
+**Application to forecasting:** Use alongside STEP to adjust revenue and cost assumptions. High rivalry + strong buyer power = conservative revenue growth. Weak supplier power + low substitutes = stable COGS projections.
 
 ---
 
-## Reforecast Triggers (Don't Wait for Quarter End)
+## Phase 2: Scenario Modeling
 
-- Revenue misses forecast by >15% for 2 consecutive months
-- Major customer loss or win (>10% of revenue)
-- Pricing change implemented
-- New competitor enters market
-- Macro event (interest rate change, regulation, supply chain disruption)
+### Three Scenarios
 
-## When to Reforecast: The P1/P2/P3 Quarterly Cycle
+| Scenario | Description | Assumption Basis |
+|----------|-------------|-----------------|
+| **Best Case** | Everything works under ideal conditions | Realistic optimism. NOT exaggerated growth. |
+| **Base Case** | Most likely outcome | Blend of realism and caution, incorporating headwinds/tailwinds |
+| **Worst Case** | A few major setbacks (not catastrophe) | External risks from STEP + Porter's applied |
 
-Forecasts are living documents. Reforecast on a **quarterly rhythm**:
+### Building Scenarios
+1. Start with base case as the primary forecast
+2. Identify 3-5 key variables that swing outcomes (revenue growth, key cost items, collection speed)
+3. For best case: apply optimistic but realistic values to those variables
+4. For worst case: apply STEP/Porter-derived risk scenarios
+5. Each scenario should represent a plausible future, not a fantasy or nightmare
 
-- **P1 (Plan 1):** January–March guidance published in December
-- **P2 (Plan 2):** Updated guidance published in March (after Q1 actuals)
-- **P3 (Plan 3):** Updated guidance published in June (after Q2 actuals)
+### "O Shoot Fund" (Leikauf)
+Worst-case planning supports building cash reserves. The worst case scenario tells you how much buffer you need. This is more actionable than generic "save 3 months of expenses."
 
-**Reforecasting Triggers:**
-- **Automatic:** End of each quarter (update with actuals, roll forward 12 months)
-- **Major change:** Lost/gained major customer (>10% revenue), market disruption, policy change
-- **Miss threshold:** Actual variance >15% from forecast for two consecutive months
-
-**Reforecasting Process (2–3 hours):**
-1. Load Q1 actuals; compare to P1 forecast
-2. Identify variances >10% and root cause (trend change vs. one-time event?)
-3. Adjust forward 9-month projections if variance is structural, not temporary
-4. Recalculate seasonal multipliers if pattern shifted
-5. Update STEP/Porter's assumptions based on new information
-6. Publish P2 forecast with variance analysis
+### Decision-Making Across Scenarios
+Choose strategies that work in all three scenarios. If an investment only pays off in the best case, it is too risky. If it survives the worst case, it is worth pursuing.
 
 ---
 
-## Case Studies: Real Forecasting Challenges
+## Phase 3: Revenue Projection (Aharonoff)
 
-### Case Study 1: Law Firm Transition Risk (Dec 2025)
-**Situation:** 5-person law firm, $800K revenue, 100% referral-based. Partner wanted to scale via paid advertising.
+### EPN Framework
+Breaks revenue sources into three categories:
 
-**Forecast Issue:** Referral ROI historically 5:1 (every $1 spent on referral generation yields $5 revenue). Paid ads typically 2.5:1.
+**E -- Existing Customers:** Active contracts, regular purchase patterns, renewable agreements. Most predictable revenue source.
 
-**Forecast Built:**
-- Base case: Gradually shift 30% of new business to ads (declining referral contribution, rising ad spend)
-- Year 1 revenue growth: +15% (ads offset referral decline)
-- Year 2 revenue growth: +22% (ads fully ramped, referral base matured)
+**P -- Pipeline Customers:** Tracked in CRM with defined close probabilities and timelines. Apply probability weighting to expected revenue.
 
-**Key Assumption Stress:** What if paid ads only yield 2:1? Then Year 1 growth drops to 8%, staffing plan becomes unprofitable.
+**N -- New Customers:** Future customers not yet engaged. Use the ARSR framework (below) to project.
 
-**Outcome:** Partner committed to 18-month test before full transition; forecast guided hiring to stay flexible.
+### ARSR Framework (for New Customer Revenue)
 
-### Case Study 2: E-Commerce Seasonality Spike (Oct 2025)
-**Situation:** Cold plunge e-commerce company, $2.4M annual revenue, 40% concentrated in Q4.
+**A -- Acquire:** How will you get new customers? What marketing channels, sales processes, growth strategies?
 
-**Forecast Issue:** One exceptionally strong Q4 (2024) skewed baseline. Was it repeatable or one-time?
+**R -- Retain:** What are retention patterns? Monthly contracts, annual agreements, one-time purchases?
 
-**Analysis:** Vertical analysis showed 2024 Q4 ads spend was 15% of annual budget (vs. 10% in 2023). That explained the spike.
+**S -- Sell:** Define pricing strategy. Fixed product pricing, tiered models, customer segmentation, average transaction values.
 
-**Forecast Built:**
-- Conservative Q4: Assume 12% of annual budget (middle ground, not peak)
-- Seasonal multipliers: Q4 = 1.8X average, Q1 = 0.6X average
-- Q2/Q3 relatively flat (1.0X average)
+**R -- Record:** How revenue impacts other statements. COGS implications, inventory needs, deferred revenue treatment, sales commissions.
 
-**Stress Test:** What if ads underperform ROAS by 20%? Then Q4 revenue drops 12%, cash flow tightens, need contingency.
+### Revenue Formula Patterns
 
-**Outcome:** Forecast guided inventory and hiring; also identified need for Q2/Q3 product launches to smooth seasonality.
+**Unit-based:**
+```
+Monthly Revenue = (Base Units + Monthly_Increase x Month_Number) x Price_Per_Unit
+```
+Example: 600 units at $100, growing 20 units/month:
+```
+= (600 + 20 * month_number) * 100
+```
+
+**Subscription:**
+```
+Monthly Revenue = (Base_Users + New_Monthly_Users x Month_Number) x Monthly_Fee
+```
+Example: 25 users at $500/month, adding 3 new users/month:
+```
+= (25 + 3 * month_number) * 500
+```
 
 ---
 
-## When to Read Reference Files
+## Phase 4: P&L Projection Methods (Aharonoff)
 
-**Read "forecasting-methodology.md" if:**
-- You're building your first 12-month forecast and need step-by-step process detail
-- Your forecast keeps missing actuals by >20%; need to diagnose methodology errors
-- You're adding new business lines and need to project their trajectory
+Nine methods for projecting P&L line items. Different accounts deserve different methods.
 
-**Read "seasonal-patterns.md" if:**
-- Your business has extreme seasonality (Q4 >40% of annual revenue, or winter months <50% of average)
-- You're entering a new market/season with no historical data and need to benchmark
-- You're trying to smooth seasonality via new product lines or geographic expansion
+| # | Method | Best For |
+|---|--------|----------|
+| 1 | **6-Month Average + Buffer** | Stable, recurring expenses |
+| 2 | **Prior Period Reference** | Seasonal/annual recurring items |
+| 3 | **Revenue Percentage** | Variable costs that scale with sales |
+| 4 | **Per-Hire Calculations** | Recruiting, onboarding costs |
+| 5 | **Fixed Assumptions** | Contracted costs, rent, subscriptions |
+| 6 | **YoY Growth** | Gradually growing expenses |
+| 7 | **Annual / 12** | Annual contracts, professional fees |
+| 8 | **Departmental Intake** | Costs best estimated by department heads |
+| 9 | **Dormant Accounts** | Inactive GL accounts (project as zero) |
 
-**Read "step-framework.md" if:**
-- You're forecasting in a volatile macro environment (rising rates, recession risk, regulatory change)
-- You want a mental checklist to ensure you're not missing external factors
-- You're building scenario plans and need to identify key uncertainties
+**Method selection principle:** There is no single correct method. Different accounts need different approaches. The goal is accuracy and practicality, not consistency of method (Aharonoff contrarian).
 
-**Read "porters-forces.md" if:**
-- Your market is shifting (new competitors, consolidation, substitutes emerging)
-- You're forecasting share loss or need to justify margin compression
-- You're assessing long-term competitive positioning, not just next-year numbers
+---
 
-**Read "scenario-planning.md" if:**
-- You need to present multiple futures to stakeholders (board, lenders, partners)
-- You're making capital allocation decisions and need to stress-test ROI across scenarios
-- You're building contingency plans and need probability-weighted outcomes
+## Phase 5: Headcount Projection (Aharonoff)
 
-**Read "stress-testing.md" if:**
-- You've identified a risky assumption (major pricing change, customer concentration, new market entry)
-- Your P&L forecast shows unrealistic margin expansion without explaining how
-- You're modeling a complex change with second/third-order effects (cost cuts, hiring, pricing)
+### Detailed Method
+Import current team: title, start date, salary, department. Split FTE vs contractors.
 
-**Read "reforecasting-rhythm.md" if:**
-- You're setting up quarterly planning cadence and need governance process
-- You've missed forecast badly and need to rebuild process with more discipline
-- You're tracking actuals vs. forecast and need a system to decide when to adjust
+**Total cost per FTE:**
+```
+Base Salary (prorated for start/end dates)
++ Payroll Taxes (~8%)
++ Health Benefits (~10%)
++ Payroll Admin Fees
++ Other Employee-Specific Costs
+= Total Cost (~120% of base salary)
+```
+
+Contractors: base cost only (no burden).
+
+### Summarized Method
+Two inputs per department: planned hires and average cost per hire.
+```
+Projected Payroll = Planned_Hires x Avg_Cost_Per_Hire
+```
+
+### Hybrid Approach (Recommended)
+- Detailed method for near-term (6-12 months) with specific hiring plans
+- Summarized method for longer-term where exact details are uncertain
+- Prorate salaries for mid-month starts (do NOT just divide annual by 12)
+
+---
+
+## Forecast Template Structure (Leikauf)
+
+```
+Revenue Section:
+  Seasonal/Event Impact (% adjustment per month)
+  Normal Growth (% per month)
+  Gross Revenue -> Discounts -> Refunds -> Net Revenue
+
+COGS Section:
+  COGS (as % of Net Revenue)
+  Shipping, Transaction Fees, Fulfillment (each as %)
+  => Total COGS -> COGS Margin %
+
+Gross Profit + Gross Margin %
+
+Operating Expenses:
+  Personnel by department
+  Advertising, Technology, Professional Services
+  => Total OPEX
+
+EBITDA / Operating Income + Operating Margin
+  - D&A, Interest
+  => Profit Before Tax
+  - Income Tax
+  => Profit After Tax
+```
+
+---
+
+## Seasonal Adjustment
+
+Build seasonal patterns from prior-year data:
+1. Calculate each month as % of annual total (prior year)
+2. Apply percentage pattern to projected annual total
+3. Overlay STEP-driven adjustments (events, campaigns, policy changes)
+4. Document rationale using cell comments (Shift+F2)
 
 ---
 
 ## Cross-References
 
-**→ financial-diagnostics:** Use this skill first to understand your historical P&L, balance sheet, and cash flow. Historical analysis is the foundation for forecasting.
-
-**→ financial-modeling-excel:** Once your forecast methodology is sound, build the Excel model using this skill. The model is the output of forecasting work.
-
-**→ profit-levers:** After building your base forecast, use this skill to identify optimization opportunities. "If we improve inventory turnover by 10 days, what does that do to cash flow in the forecast?"
-
-**→ financing-strategy:** Once forecast is built and shows cash needs, use this skill to evaluate financing options. Do we self-fund growth, raise debt, or shift capital allocation?
-
----
-
-## Key Principles
-
-1. **Accuracy improves over time:** First forecast will be "less wrong." By Q3, your methodology will be validated by actuals. By Year 2, forecasts are directionally accurate.
-
-2. **Directionally correct beats false precision:** Don't claim revenue will be $847,239. Say "we expect $800K–$900K based on these assumptions." Precision implies false confidence.
-
-3. **Seasonality is predictable; growth is not:** You can forecast seasonal dips/spikes with confidence. Growth depends on execution and market factors—always include downside scenarios.
-
-4. **Written assumptions beat mental models:** Document assumptions. "Q4 will be 40% of annual revenue because of holiday demand" is useful. "Q4 is always big" is a guess.
-
-5. **Forecast is a planning tool, not a prediction:** It guides hiring, inventory, cash, and marketing spend. The goal is to stay **agile**—not to predict the future perfectly.
+- **Diagnostic findings feed forecast assumptions** -> `financial-diagnostics`
+- **Ratios help set growth targets** -> `financial-ratios`
+- **Forecast feeds the three-statement model** -> `financial-modeling` (drivers tab, projection formulas)
+- **Profit lever assumptions in forecast** -> `profit-optimization`
+- **Presenting forecast to stakeholders** -> `advisory-communication`

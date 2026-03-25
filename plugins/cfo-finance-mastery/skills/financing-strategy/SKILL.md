@@ -1,498 +1,241 @@
 ---
-name: Financing, Capital Structure & Cost of Capital
-description: "Understand the true cost of capital, evaluate financing options, avoid predatory lending, and make sound debt vs equity decisions aligned with business economics. MANDATORY TRIGGERS: 'Should I take a loan?', 'What financing option is best?', 'How much will this debt cost?', 'Debt vs equity decision', 'Can I afford this loan?'. Do NOT use for working capital optimization without borrowing (use profit-levers instead), bookkeeping (use accounting team), or tax planning (use CPA)."
+name: Financing Strategy
+description: "Evaluate debt vs equity, understand lender perspectives, build credit, avoid predatory lending, and match financing to business needs. Covers the Five Cs of Credit, DSCR and leverage targets, MCA warnings, credit card strategies, SBA programs, personal guarantees, and lender relationship building. FOR: any question about loans, financing, credit, borrowing, debt structure, lender requirements, SBA programs, capital raising, or credit improvement. MANDATORY TRIGGERS: financing, loan, credit, borrowing, debt, equity, lender, bank, SBA, merchant cash advance, MCA, line of credit, Five Cs, DSCR, leverage ratio, personal guarantee, collateral, credit score, Dun and Bradstreet, Paydex, credit card strategy, refinancing, good debt, bad debt, capital structure, interest rate, covenant. Do NOT use for: [working capital optimization tactics] use working-capital; [ratio calculations and benchmarks] use financial-ratios; [profit improvement without financing] use profit-optimization; [forecasting capital needs] use forecasting-strategy."
 ---
 
-# Financing, Capital Structure & Cost of Capital
+# Financing Strategy
 
-## Core Principle: The 30% Hurdle Rate
+## Core Principle
 
-Small business cost of capital is approximately **30% per year**. This is the baseline return required to justify any financing decision.
+Money is a commodity; **trust and access are not**. The best financing strategy starts with optimizing operations (profit-optimization + working-capital) before seeking external capital. Only borrow when the ROI on borrowed capital clearly exceeds the cost.
 
-**Why 30%?**
-- Debt is 10–15% (bank loans, credit cards)
-- Equity holders demand 30%+ return (risk premium)
-- Blended cost of capital for small business ≈ 30%
-
-**DECISION RULE:** Any financing must generate returns **exceeding 30%/year** to create economic value for a small business. This is non-negotiable. If projected returns are below 30%, the debt destroys shareholder value. If your business generates 20% returns, borrowing at 15% destroys value by moving capital from lower-cost to higher-cost sources.
-
-**Example:** Taking a $100K merchant cash advance (disguised 58% APR) is only justified if that capital generates 60%+ returns. If you're using it for working capital in a 20% margin business, you're destroying economics.
-
-### Owner Compensation Optimization (Before Borrowing)
-
-Before taking on debt, optimize your compensation structure:
-- **W-2 salary:** Set at level that maximizes 401k contributions ($23,500 in 2025 + catch-up)
-- **Distributions:** Take remaining compensation as distributions (lower self-employment tax)
-- **HSA:** Max out if on high-deductible plan ($8,300 family in 2025, tax-free)
-
-This can free $15-30K/year in tax savings — that's capital you don't need to borrow.
+**Decision hierarchy:**
+1. Optimize working capital first (zero-cost capital)
+2. Use retained earnings (cheapest capital)
+3. Business credit lines (flexible, lower cost)
+4. Term loans / SBA (structured, favorable rates)
+5. Equity (expensive but no repayment obligation)
+6. Last resort: high-cost alternatives (avoid if possible)
 
 ---
 
-## Financial Decision Tree
+## The Five Cs of Credit (Leikauf)
 
-```
-Do I need financing?
-├─ YES: Is this for growth or working capital?
-│  ├─ Growth (capex, hiring, inventory expansion)
-│  │  └─ Will this generate >30% ROI?
-│  │     ├─ YES: Proceed to "Debt vs Equity"
-│  │     └─ NO: Avoid. This destroys shareholder value.
-│  └─ Working Capital (AR, AP, inventory optimization)
-│     └─ First, optimize working capital WITHOUT borrowing
-│        ├─ Reduce AR days
-│        ├─ Negotiate AP terms
-│        ├─ Reduce inventory
-│        └─ THEN: If still needed, evaluate debt
-└─ NO: Consider extraction (dividend) or reinvestment
-```
+Every lender evaluates borrowers on five dimensions:
+
+| C | Definition | What Lenders Evaluate | How to Strengthen |
+|---|------------|----------------------|------------------|
+| **Character** | Trustworthiness | Credit history, reputation, payment track record | Pay all obligations on time; build business credit |
+| **Capacity** | Ability to repay | Cash flow, DSCR, income stability | Improve DSCR to >1.25; demonstrate consistent cash flow |
+| **Capital** | Skin in the game | Owner's financial stake, down payment, equity | Build retained earnings; show owner investment |
+| **Collateral** | Pledged assets | Liquid, easily valued assets (cars, AR, equipment, real estate) | Maintain clean asset records; know what you can pledge |
+| **Conditions** | External environment | Economic/industry risks affecting repayment | Acknowledge risks; show mitigation plans |
+
+**Key insight:** Lenders evaluate these holistically. Strength in one C can offset weakness in another. A borrower with strong Character and Capacity but weak Collateral may still qualify.
 
 ---
 
-## Debt vs Equity: The Economics
+## Financial Documentation for Lending
 
-### Debt (Loans, Credit Cards)
+### Required Documents
 
-**Advantages:**
-- Fixed cost (known interest rate)
-- Tax-deductible interest
-- Preserves equity ownership
-- Lenders have limited recourse (collateral-based)
+| Document | Purpose | Standard Request |
+|----------|---------|-----------------|
+| 2 years of tax returns | Historical profitability | Both business and personal |
+| Year-to-date financials | Current performance | P&L, balance sheet, cash flow |
+| AR and AP aging reports | Working capital health | Current aging detail |
+| Debt schedule | Existing obligations | All loans, lines, MCAs |
+| Business plan / forecast | Forward-looking story | 12-month rolling forecast |
+| Bank statements | Cash flow verification | Last 6-12 months |
 
-**Disadvantages:**
-- Fixed obligation regardless of business performance
-- Default risk and collateral requirements
-- Covenant restrictions
-- Personal guarantees (for small business)
+### Documentation Best Practices (Leikauf)
 
-**When to use debt:**
-- Business generates stable cash flow
-- Financing is for proven revenue-generating asset
-- You can afford fixed payments in downturn
-- Interest is <30% (beating cost of capital threshold)
-
-### Equity (Partner Capital, Investor Money)
-
-**Advantages:**
-- No fixed payment obligation
-- Brings strategic expertise or network
-- Signals confidence to lenders
-- Shares downside risk
-
-**Disadvantages:**
-- Dilutes ownership
-- Investor expects 30%+ annual return or exit
-- Control and decision-making shared
-- More complex to unwind
-
-**When to use equity:**
-- Uncertain cash flow (startup or pivot)
-- Need capital + strategic guidance
-- Want to share risk
-- Founders cannot personally guarantee debt
+- Keep business and personal finances **strictly separate**
+- Provide clean, accurate, recent documentation
+- Most small business loans require a **personal guarantee**
+- Lenders look at full credit files, not just credit scores
+- Be able to **clearly explain** your financials -- lenders will ask questions
+- Present a compelling, financially grounded **story** to secure approval
+- Make the underwriter's job easy: organized, polished, well-prepared documentation
 
 ---
 
-## SBA Loans: Mechanics & Process
+## Strategies to Improve Lending Position
 
-### What is an SBA Loan?
-
-SBA (Small Business Administration) loans are **government-guaranteed** debt. The SBA guarantees 75–90% of the loan, reducing lender risk. This allows:
-- Longer terms (10 years vs 5)
-- Lower rates (prime + 2–3% vs 8–15% for unsecured)
-- Larger amounts ($250K–$5M+)
-
-### Requirements & Underwriting
-
-SBA loans assess **three repayment sources** in order:
-1. **Cash flow** (primary; your ability to service debt from operations)
-2. **Collateral** (secondary; assets backing the loan if cash flow fails)
-3. **Personal guarantee** (tertiary; your personal assets as backstop)
-
-### Documentation Checklist
-
-**Personal & Business:**
-- Personal financial statement (PFS)
-- Personal tax returns (3 years)
-- Resume or business bio
-- Credit report (expect 620+ score)
-- Personal credit report authorization
-
-**Business Financials:**
-- Business tax returns (3 years, personal + corporate)
-- Profit & loss (monthly for last 12 months)
-- Balance sheet (current, within 90 days)
-- Bank statements (business + personal, last 6 months)
-- Explanation of any delinquencies or negative items
-
-**Business Plan (if startup or significant change):**
-- Executive summary
-- Use of proceeds (where is the $X going?)
-- Collateral list and valuation
-- Contingency plan if primary repayment source fails
-
-**Collateral Documentation:**
-- Equipment appraisals
-- Real estate appraisals or deed of trust
-- Equipment loan statements
-- Existing liens and UCC searches
-
-### Key Underwriting Factors
-
-**Character Assessment (First)**
-- Credit history and payment discipline
-- Industry experience
-- Personal credit score (670+ preferred)
-- Business credit profile
-
-**Capacity (Second)**
-- Debt-service coverage ratio (DSCR): Operating income / Total debt payments
-  - Target: >1.25 (generating 25% more than needed to service debt)
-- Cash flow trends (growing vs declining)
-- Industry and market conditions
-- Management team strength
-
-**Capital (Third)**
-- Owner equity injection (typically 10–20% of loan amount)
-- Shows owner "skin in the game"
-- Demonstrates commitment and prevents over-leverage
-
-**Collateral (Fourth)**
-- First lien on business assets
-- Personal guarantee on owner assets
-- Lender takes collateral in order: equipment → real estate → personal assets
-
-### Deal-Breakers
-
-**Never waste an SBA lender's time if you have:**
-- Outstanding tax liens or legal judgments
-- Undisclosed bankruptcies or fraud convictions
-- Business or personal bankruptcy within 2 years
-- Current business in default on other debt
-- Illegal business operations
-
-Tell the lender upfront. If it's a deal-breaker, they'll tell you immediately and save you 60 days of application time.
+| Strategy | How | Impact |
+|----------|-----|--------|
+| **Improve DSCR** | Cut costs, boost profit, or refinance existing debt | Target >1.25 (see financial-ratios) |
+| **Reduce leverage** | Pay down debt, build equity through retained earnings | Lower D/E ratio |
+| **Improve working capital** | Collect AR faster, manage inventory tighter | Better current ratio |
+| **Clean financials** | Organize books, accurate categorization, clear justifications | Builds confidence |
+| **Build business credit** | Pay vendors that report to Dun & Bradstreet Paydex | Establishes business creditworthiness |
+| **Personal credit** | For small businesses, personal credit is often more important | Maintain 700+ score |
 
 ---
 
-## How Lenders Evaluate (Priority Order)
+## Matching Financing to Business Needs
 
-1. **Character** — creditworthiness, history, trustworthiness (deal-breaker if bad)
-2. **Capacity** — cash flow to service debt (DSCR ≥1.25)
-3. **Capital** — owner's equity at risk (skin in the game)
-4. **Collateral** — assets to secure the loan
-5. **Conditions** — market/industry context
+| Need | Best Financing Option | Term | Notes |
+|------|----------------------|------|-------|
+| **Working capital** | Line of credit, overdraft, factoring | Short-term, revolving | Lines are flexible and cheaper than credit cards |
+| **Equipment** | Equipment loan | Match loan term to asset lifespan | Asset serves as collateral |
+| **Real estate** | Commercial mortgage | 10-25 years | Long-term asset = long-term debt |
+| **Seasonal cash gaps** | Short-term credit line | Seasonal, revolving | Match to cash cycle peaks/troughs |
+| **Growth capital** | SBA 7(a), development funding | 7-10 years | Explore local + national grants |
+| **Debt refinancing** | Term loan, SBA, 0% credit card | Varies | Reduce interest burden |
 
-Address character issues upfront. Undisclosed liens or fraud waste everyone's time.
-
----
-
-## Preferred Lenders & Relationships
-
-### The Insider Advantage
-
-Strong bank relationships give you:
-- Faster underwriting (days vs weeks)
-- Negotiating flexibility on terms
-- Access to lender inside knowledge (what approves)
-- Alternative products (lines of credit, term loans, SBA options)
-- Personal relationship for future borrowing
-
-### Preferred Lenders by Region & Product
-
-**National SBA Leaders:**
-- **City National Bank** — Ryan Winker (ryan.winker@citynational.com) — Flexible SBA and non-SBA terms, responsive to smaller deals
-- **Live Oak Bank** — Specializes in small business, online application, 2-week turnaround
-- **Ready Capital** — Equipment-focused SBA loans, scalable lending
-- **US Bank** — Full-service bank, multiple SBA products
-
-**Selection Criteria:**
-1. Local decision-making authority (vs call center)
-2. Relationship manager who understands your industry
-3. Flexible on collateral requirements
-4. 2-week or faster underwriting turnaround
-5. Experience with your business type (e-commerce, construction, services, etc.)
+**Matching rule:** Always match the financing term to the asset or need lifespan. Long-term assets should be funded with long-term debt, never short-term.
 
 ---
 
-## Merchant Cash Advances (MCAs): The Predatory Trap
+## Good Debt vs. Bad Debt (Leikauf)
 
-### How MCAs Hide True Cost
+| Good Debt | Bad Debt |
+|-----------|----------|
+| Funds ROI-positive activities | Harms cash flow with no productive return |
+| Inventory that turns quickly | High-interest consumer debt |
+| Equipment that increases production | Luxury spending on credit |
+| Growth investment with clear payback | MCA with daily repayment |
+| Real estate that appreciates | Debt to cover operating losses |
 
-MCAs **are not loans**—they are "future receivables purchases." This structure bypasses usury laws and disguises the true APR.
-
-**Structure:**
-1. Lender advances $X cash today
-2. You agree to repay $Y (e.g., $X + 25% factor)
-3. Daily or weekly payments are deducted directly from sales
-4. Payments continue until $Y is repaid
-
-**The Trap: Daily Repayments Shorten the Term**
-
-**Example: Shopify Capital**
-- Advance: $855,000
-- Repayment amount: $966,000
-- Stated rate: 15.6%
-- **True APR: ~58%**
-
-**Why?** Daily payments compress a 3-year loan into ~155 days.
-
-Formula to calculate true APR:
-```
-Factor = Repayment Amount / Advance Amount
-Duration (days) = (Amount / Daily payment amount)
-True APR = (Factor - 1) / (Duration / 365) × 100
-```
-
-### Real Cost Examples
-
-| Advance | Repayment | Stated Rate | True APR | Duration |
-|---------|-----------|-------------|----------|----------|
-| $100K | $125K | 25% | 61% | 150 days |
-| $250K | $300K | 20% | 71% | 120 days |
-| $500K | $575K | 15% | 64% | 140 days |
-
-**These are predatory lending rates.** They destroy business economics and should be avoided.
-
-### The Confession of Judgment Trap
-
-MCAs include a "confession of judgment" clause. If you miss payments, the lender can:
-- Freeze your merchant account without court action
-- Garnish future sales immediately
-- Accelerate the entire remaining balance due
-- Pursue personal guarantees without court process
-
-This removes your legal protections.
-
-### When MCAs Are Justified (Rare Cases)
-
-MCAs are only acceptable if:
-- You have **no other financing options** (credit too poor, business too new)
-- You're generating **>65% margins** (the extra cost is absorbed)
-- The capital generates **>75% monthly ROI** (extreme growth opportunity)
-- You have **exit plan** (pay off or refinance within 6 months)
-
-**Otherwise: Avoid at all costs.**
+**Test:** Before borrowing, calculate the ROI on the borrowed capital. If ROI > cost of debt, it is good debt. If ROI < cost of debt or ROI is uncertain, do not borrow.
 
 ---
 
-## Credit Card Strategy for Working Capital
+## MCA (Merchant Cash Advance) Warning (Leikauf)
 
-### Chase Ink Unlimited: The Best Unsecured Option
+**Generally discouraged** due to:
+- Extremely high effective APRs (often 50-200%+)
+- Daily repayment burden that destroys cash flow
+- Can create a debt spiral (borrow MCA to pay MCA)
+- No regulatory protections (not classified as a loan)
+- Aggressive collections practices
 
-**Features:**
-- 0% APR for 12 months (then 18–23%)
-- No annual fee
-- No rotating categories (flat 1.5% cash back)
-- $25K–$100K+ credit limits for established businesses
-- Simple application (no collateral, no personal guarantee)
+**Only consider as absolute last resort** when:
+- No other financing is available
+- The business will fail without immediate cash
+- There is a clear, short-term path to repayment
+- The effective APR is calculated and understood
 
-**Use case:** Quick working capital for inventory, vendor deposits, payroll bridging
-
-**Mechanics:**
-- Get approved for $50K limit
-- Use for payable purchases (inventory, software, contractors)
-- Pay down before APR goes live (month 12)
-- Or: Refinance to another 0% card (careful of application frequency)
-
-### Authorized User Trick: Boost Credit Score
-
-If your personal credit is weak:
-1. Find someone with excellent credit (partner, family member)
-2. Ask them to add you as authorized user on their old, low-balance credit card
-3. You don't use the card; your credit report adds their history
-4. Score can jump 40–100 points in 30 days
-5. Then apply for business credit cards
-
-This signals creditworthiness to lenders.
-
-### AMEX Points Optimization
-
-**For high business spend ($100K+/year):**
-- American Express Gold: 4% on flights, restaurants, office supplies
-- American Express Platinum: Concierge, business travel credits
-- **Schwab conversion:** Convert AMEX points to cash via Schwab at 1.1¢ per point (non-taxable withdrawal)
-
-Example: $100K spend on AMEX Gold = 4% average = $4,000 in points = $4,400 cash via Schwab
-
-### When to Take Early Payment Discounts
-
-**Rule:** Only take an early payment discount if the **annualized rate exceeds your cost of capital (30%)**.
-
-**Example:**
-- Vendor: 2% discount for payment in 10 days vs standard 30 days
-- You hold payment 20 fewer days
-- Effective annual rate: (0.02 / 0.98) × (365 / 20) = **37.2% APR**
-- **Decision:** Pay early (37.2% > 30% hurdle)
-
-**Another example:**
-- Vendor: 1% discount for 10 days vs 60 days
-- Effective annual rate: (0.01 / 0.99) × (365 / 50) = **7.3% APR**
-- **Decision:** Don't pay early (7.3% < 30% hurdle)
+> See `references/financing-options.md` for MCA true cost calculator and alternatives.
 
 ---
 
-## Vendor Terms Negotiation
+## Credit Card Strategy (Leikauf)
 
-### The Annual Spend Conversation
+### Recommended Business Credit Cards
 
-Most small businesses negotiate per-order. Smart CFOs negotiate **annually**.
+| Card | Benefit | Best For |
+|------|---------|----------|
+| **Amex Business Gold** | 4x points on key categories | High ad spend businesses |
+| **Chase Ink Business Preferred** | 3x points with strong redemption | General business spending |
+| **Capital One Spark** | 2% cash back (simple) | Businesses wanting simplicity |
+| **Amex Platinum** | Travel perks, niche benefits | Travel-heavy businesses |
 
-**Approach:**
-1. Calculate your annual spend with each major vendor
-2. Request a meeting: "We spent $1.2M with you last year. What volume discount can you offer?"
-3. Negotiate:
-   - 2% discount on all orders
-   - Or: Net 60 days payment terms (vs Net 30)
-   - Or: Both (discount + extended terms)
+### Credit Card vs. Charge Card
 
-**Real case:** Renegotiating based on annual volume ($1.2M) yielded **40% savings** vs per-order pricing. This freed $150K–$200K in working capital.
+- **Credit cards** allow balance carryover (interest applies)
+- **Charge cards** require full payment monthly (no interest, enforces discipline)
+- For business owners: charge cards force cash flow discipline
 
-### Negotiation Timing
+### Credit Card Debt Refinancing Strategy (Leikauf -- Contrarian)
 
-**Best time to negotiate:**
-- Annual budget cycle (Q4 planning)
-- When launching new product line (need volume commitment)
-- When consolidating vendors (reducing supplier count)
-- When contract renewal approaches
+1. Open a 0% APR business card
+2. Shift all **new spending** to the 0% card
+3. Stop using the old high-interest card entirely
+4. Free up cash flow to aggressively pay down old high-interest debt
+5. Net effect: lower interest burden, faster payoff, improved cash flow
 
-**Leverage points:**
-- Annual spend (emphasize volume)
-- Payment history (on-time, no disputes)
-- Growth trajectory ("We're expanding 30% next year—partner with us")
-- Consolidation ("We can consolidate to you vs 3 vendors")
+**Why this works:** You are not balance-transferring (which has fees). You are routing new spend to 0% and redirecting freed cash to pay down expensive debt.
 
 ---
 
-## Capital Allocation Decision Framework
+## Banker's Perspective (Leikauf)
 
-### Reinvestment vs Extraction
+Understanding how banks think helps you present a stronger case:
 
-**The Reinvestment Dilemma:**
-Founders often over-concentrate capital in their business because they believe it's their "safest" investment. This is a blind spot.
+### What Banks Assess
+- Borrower financials (historical and projected)
+- Management strength and track record
+- Institutional risk appetite (varies by bank and economic cycle)
 
-**Reality:**
-- Single business = extreme concentration risk
-- If business fails, you lose 100% of net worth
-- Even diversified portfolio beats 100% concentration (risk-adjusted returns)
+### Bank Risk Mitigation Tools
 
-### Decision Tree: Where Should Excess Cash Go?
+| Tool | How It Works |
+|------|-------------|
+| **Personal guarantees** | Owner is personally liable if business cannot repay |
+| **Cross-entity guarantees** | Related entities guarantee each other's debt |
+| **Covenants** | DSCR thresholds, limits on new debt, reporting requirements |
+| **Collateral** | Specific assets pledged as security |
+| **Ring-fencing** | Restricting how borrowed funds can be used |
+| **Conservative LTVs** | Lending less than asset value (70-80% typical) |
 
-```
-Do I have excess cash flow (>operating needs)?
-├─ YES, and I have proven >30% growth opportunity
-│  └─ Reinvest (payback period <3 years)
-├─ YES, and business is mature (stable margins, slow growth)
-│  └─ Extract (dividend) and diversify
-│     ├─ 401(k) contributions ($69K/year family, $23K/year individual)
-│     ├─ Brokerage account (ETFs, diversified portfolio)
-│     ├─ Real estate (separate from business)
-│     └─ Avoid over-concentration (no >70% in any asset)
-└─ NO, need cash for operations
-   └─ Don't extract; build 3-month operating reserve first
-```
-
-### Owner Compensation Strategy
-
-**W-2 Salary Optimization:**
-- Take enough W-2 salary to maximize 401(k) contribution ($23K individual, $69K family)
-- Remaining profit distributed as dividends (taxed at lower capital gains rates)
-
-**Example:** $200K business profit
-- W-2 salary: $150K (allows $23K retirement contribution)
-- Remaining: $50K profit → dividend distribution
-- Tax impact: $150K at ~35% = $52.5K, $50K dividend at ~20% = $10K
-- Net to owner: $187.5K (vs $130K if all salary)
+### What Banks Want to See
+- **Frequent financial reporting** -- Monthly or quarterly, not just annual
+- **Specific, confident answers** during lender interviews
+- **A compelling financial story** -- Not just numbers, but narrative
+- **Proactive communication** -- Alert them to issues before they discover them
 
 ---
 
-## Cost of Capital by Financing Source (Ranked by Cost)
+## Building Lender Relationships (Leikauf)
 
-| Source | Cost | Term | Collateral | Best Use |
-|--------|------|------|-----------|----------|
-| Operating cash flow | 0% | Immediate | None | Always first |
-| Business credit card (0% promo) | 0% (then 18%) | 12 months | None | Short-term inventory |
-| Vendor terms (Net 60) | 0% | 60 days | None | Payables optimization |
-| SBA loan | 8–12% | 7–10 years | Assets + PG | Growth, equipment |
-| Bank line of credit | 6–10% | 1–5 years | Assets + PG | Working capital |
-| Traditional bank loan | 10–15% | 3–7 years | Assets + PG | Startup capital |
-| Merchant cash advance | 40–70% | 6–12 months | Daily AR | **AVOID** |
-| Payday loan | 400%+ | 2 weeks | None | **NEVER** |
+### Lender Hierarchy for Small Business
 
----
+| Source | Pros | Cons | Best For |
+|--------|------|------|----------|
+| **Regional banks** | Flexibility, personal relationships, faster decisions | Limited product range | Businesses wanting relationship banking |
+| **Large national banks** | Broad products, technology | Rigid criteria, impersonal | Larger businesses, commodity lending |
+| **Credit unions** | Lower rates, member-focused | Poor tech, limited lending sophistication | Simple needs, good credit |
+| **SBA 7(a) lenders** | Favorable terms, government guarantee | Slower process, documentation heavy | Growth capital, longer-term needs |
+| **Online lenders** | Speed, convenience | Higher rates, less flexibility | Urgent needs, less established businesses |
 
-## Real Case Study: The $966K MCA Disaster
+### Relationship Building Tactics
 
-**Situation:**
-E-commerce business doing $400K/month revenue, 35% margins. Hit inventory shortage, needed cash quickly.
+1. **Visit unfamiliar banks** to learn products and build relationships
+2. **Maintain a lender list** with contacts at 3-5 institutions
+3. **Stay top-of-mind** with consistent outreach (not just when you need money)
+4. **Provide clean, organized financials** proactively (builds trust)
+5. **Leverage SBA 7(a)** and local/national grants
+6. **Stay updated** on lending program changes (programs come and go)
 
-**Decision:** Took Shopify Capital MCA of $855K
+### Personal Guarantee Requirements
 
-**Terms offered:**
-- Repayment amount: $966K
-- Stated: 15.6%
-- Actual: ~58% APR (due to daily repayments over 155 days)
-
-**Impact:**
-- $966K repaid in 155 days = $6,240/day deducted from merchant account
-- At $400K/month revenue = $13K/day inflow, so 50% of cash went to MCA
-- Business couldn't fund operations, had to cut marketing
-- Revenue dropped to $200K/month
-- Still obligated to pay $6,240/day → cash crisis
-- Ended with $300K debt and business shuttered
-
-**Lesson:** At $400K/month revenue (35% margin), MCA is a death sentence. The business needed SBA loan ($8% cost) or retained earnings.
+Most small business loans require personal guarantees:
+- Understand what you are pledging (often everything: home, savings, assets)
+- Negotiate guarantee limits where possible (cap at loan amount)
+- Build business credit (Dun & Bradstreet Paydex) to eventually reduce personal guarantee requirements
+- For SBA loans: personal guarantee is standard for 20%+ owners
 
 ---
 
-## Decision Framework: Should I Take This Financing?
+## Dun & Bradstreet Paydex (Business Credit)
 
-### Checklist Before Signing
+### Building Business Credit
 
-1. **Does this beat 30% hurdle rate?**
-   - If no: Don't borrow
+1. **Get a DUNS number** (free from Dun & Bradstreet)
+2. **Open accounts with vendors that report** to D&B
+3. **Pay all vendor accounts on time or early**
+4. **Monitor your Paydex score** (0-100 scale; 80+ is strong)
+5. **Dispute errors** promptly
 
-2. **Is this debt or disguised debt (MCA)?**
-   - If MCA or daily-repayment: Avoid
+### Paydex Score Interpretation
 
-3. **Can I afford fixed payments in a 20% downturn?**
-   - If no: Don't borrow
+| Score | Rating | Meaning |
+|-------|--------|---------|
+| 80-100 | Low risk | Pays on time or early |
+| 50-79 | Moderate risk | Pays slightly late |
+| 0-49 | High risk | Frequently late payments |
 
-4. **Do I understand all terms and true cost?**
-   - If no: Get a CFO or accountant to review
-
-5. **Is collateral reasonable (first lien on assets, not personal guarantee)?**
-   - Personal guarantee OK for SBA
-   - Confession of judgment: Run
-
-6. **Do I have other financing options (better terms, lower cost)?**
-   - If yes: Shop and compare
-
-7. **Is this for capex/growth or working capital?**
-   - Capex: Finance it (asset-based repayment)
-   - Working capital: Fix first, then finance if needed
-
----
-
-## Summary: The Financing Decision Path
-
-1. **Understand your cost of capital** (30% for small business)
-2. **Optimize working capital first** (AR, AP, inventory)
-3. **Evaluate debt vs equity** based on cash flow stability and growth stage
-4. **Choose SBA or traditional bank loans** (avoid MCAs)
-5. **Use credit cards and vendor terms** for short-term working capital
-6. **Make capital allocation decisions** based on >30% ROI threshold
-7. **Monitor DSCR** (debt-service coverage ratio) to ensure financial health
-8. **Extract excess capital** via dividends once business matures
+**Key insight (Leikauf):** For small businesses, personal credit is often more important than business credit. But building Paydex creates a path to eventually qualify for business-only credit without personal guarantees.
 
 ---
 
 ## Cross-References
 
-**→ profit-levers:** Before borrowing, optimize working capital and profitability. Don't use financing to cover operational inefficiencies.
-
-**→ financial-diagnostics:** Understand your cash flow and margins before evaluating financing options. Lenders will ask for this analysis.
-
-**→ forecasting-strategy:** Stress-test financing decisions against different scenarios (downturn, growth pause). Model cash flow to ensure you can service debt.
-
-**→ advisory-communication:** Present financing decisions to board/investors. Explain the capital structure and ROI assumptions clearly.
+- **Lending ratios (DSCR, leverage ratio, current ratio):** Use financial-ratios skill
+- **Working capital optimization before borrowing:** Use working-capital skill
+- **Profit optimization to improve lending position:** Use profit-optimization skill
+- **Forecasting capital needs:** Use forecasting-strategy skill
+- **Presenting financing proposals to stakeholders:** Use advisory-communication skill
+- **Debt schedules in financial models:** Use financial-modeling skill

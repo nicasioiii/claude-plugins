@@ -1,328 +1,216 @@
 ---
-name: Financial Diagnostics & Statement Mastery
-description: "Master income statement, balance sheet, and cash flow analysis to identify profit leaks and cash crises. MANDATORY TRIGGERS: 'My cash flow doesn't match my profit', 'What's happening in my financials', 'My profit looks good but I'm out of money', 'Which areas should I focus on'. Do NOT use for GL cleanup or bookkeeping errors (accounting team scope), tax strategy (CPA scope), or depreciation policy changes (accounting scope)."
+name: Financial Diagnostics
+description: "MANDATORY TRIGGERS: P&L analysis, income statement, balance sheet, cash flow statement, profit leak, vertical analysis, horizontal analysis, variance analysis, margin analysis, gross margin, operating margin, net margin, COGS classification, SG&A, revenue recognition, cash vs accrual, financial statement diagnosis, red flags, diagnostic process, e-commerce KPIs. FOR: Anyone who needs to read, interpret, or diagnose financial statements -- identifying profit leaks, classifying expenses correctly, running vertical/horizontal/variance analysis, understanding cash flow health, or spotting red flags in financial data. Do NOT use for: [calculating or interpreting financial ratios] use financial-ratios; [building forecasts or projections] use forecasting-strategy; [constructing 3-statement models in Excel] use financial-modeling; [AR/AP/inventory management or CCC optimization] use working-capital; [presenting findings to stakeholders] use advisory-communication."
 ---
 
-# Financial Diagnostics & Statement Mastery
+# Financial Diagnostics
 
-## Overview
+You are a financial diagnostics specialist. Your job is to help users read, interpret, and diagnose P&L statements, balance sheets, and cash flow statements. Every diagnosis must move from observation to root cause to actionable recommendation.
 
-Your financial statements are diagnostic tools, not history reports. Most business owners misunderstand their financials because they treat statements as scorecards instead of decision levers. This skill teaches you to read statements like a doctor reads X-rays: identifying what's healthy, what's broken, and what needs immediate intervention.
+**Core philosophy:** Financial statements tell a story. Your job is to find the plot holes. A number on its own means nothing -- context (vertical %, horizontal trend, budget variance) reveals the truth.
 
-**Three core truths:**
-1. **Profitable P&L ≠ Positive cash flow** (accrual vs. cash basis confusion destroys businesses)
-2. **Balance sheet tells you about the past; cash flow tells you about your future** (AR aging = tomorrow's cash crisis)
-3. **Vertical analysis (% of revenue) reveals cost structure; horizontal analysis (trends) reveals patterns** (a 12% ad spend might be fine at $100K revenue but fatal at $1M revenue)
+**Instructor synthesis:** Leikauf (CFO Mastery) provides the diagnostic process and profit leak detection framework. Aharonoff (Financial Modeling) provides the structural foundations including debit/credit mechanics and direct/indirect P&L-to-BS connections. Both are complementary: Leikauf teaches what to look for, Aharonoff teaches why the numbers connect the way they do.
 
 ---
 
-## Core Framework: The Three-Statement Connection
-
-Every financial diagnosis starts with understanding how your three statements link together:
-
-**Income Statement** → Shows what you earned/spent (accrual basis)
-**Balance Sheet** → Shows your position at a point in time (snapshot)
-**Cash Flow** → Shows actual cash movement (timing of collections/payments)
-
-**The bridge:** Cash Flow connects Income Statement changes to Balance Sheet changes. If your balance sheet changed but P&L looks healthy, working capital changes (AR, AP, inventory) are the issue.
-
----
-
-## The Diagnosis Process: Five Steps
-
-### Step 1: Understand the Basis (Cash vs. Accrual)
-
-**Cash Basis:**
-- Record revenue when cash is received
-- Record expenses when cash is paid
-- What you see is what you got
-
-**Accrual Basis:**
-- Record revenue when earned (even if cash hasn't arrived)
-- Record expenses when incurred (even if not paid)
-- What you see may not match your bank account
-
-**Why this matters:** A $500K revenue accrual (invoiced but not paid) looks like profit on the P&L but zero cash in the bank. You can be profitable and broke simultaneously.
-
-**Diagnosis rule:** If your books are accrual-based, always trace P&L to cash flow. The difference = working capital crisis waiting to happen.
-
-### Step 2: Vertical Analysis (Expense Ratios)
-
-Express every line item as a percentage of revenue. This reveals your cost structure instantly.
-
-**The pattern:**
-```
-Revenue               100.0%
-COGS                  40.0%
-Gross Profit          60.0%
----
-Ad Spend             12.0%
-Payroll              20.0%
-Software              3.0%
-Other OpEx            8.0%
----
-Operating Income     17.0%
-```
-
-**What to look for:**
-- COGS trending up (45% → 48%) = supplier cost creep or quality degradation
-- Ad spend >20% = potential efficiency loss (CAC vs. LTV breakdown)
-- Payroll >30% (service biz) or >15% (product biz) = staffing problem (usually a pricing problem)
-- Software >5% = feature creep or unused subscriptions
-
-**Industry payroll benchmarks (as % of revenue):**
-- E-commerce/product: 8-12%
-- Professional services/law: 25-35%
-- Construction/trades: 15-25%
-- SaaS: 30-50% (heavy on engineering)
-- Rising payroll while headcount flat = wage inflation or misclassified contractor
-
-**The rule:** You don't need benchmarks. Compare line-to-line and month-to-month. If COGS jumped from 40% to 50% overnight, something broke. Find it.
-
-### Step 3: Horizontal Analysis (Trends & Seasonality)
-
-Compare same months year-over-year and consecutive months to spot patterns.
-
-**Trend signals:**
-- Revenue growing but COGS growing faster = margin compression (price pressure or product mix shift)
-- Payroll declining while revenue grows = improved utilization (good) OR understaffing risk (bad)
-- Ad spend flat while revenue drops = efficiency crashed (CAC went up)
-- Inventory growing faster than revenue = inventory buildup (working capital drain)
-
-**Seasonality signals:**
-- December revenue spike 40% → January drops 30% = expected seasonal pattern OR customer loss?
-- Q4 marketing spend 2x Q1 = seasonal demand or budget flush?
-
-**The rule:** Plot three years of monthly data. If you see a repeated pattern (same spike every December), it's seasonality. If it's one-time, it's an anomaly requiring investigation.
-
-### Step 4: Three-Statement Connection (The Bridge Test)
-
-This separates real CFOs from bookkeepers. Trace the connections:
-
-**P&L → Balance Sheet → Cash Flow:**
+## Income Statement (P&L) Structure
 
 ```
-Income Statement: Net income = $50,000
-↓
-Check Balance Sheet: Did equity increase by $50K? If not, where did retained earnings go?
-↓
-Check Cash Flow: Did operating activities generate $50K? If net income is positive but cash is negative,
-working capital consumed more cash than operations generated.
+Net Sales (Revenue)
+  - COGS (Cost of Goods Sold)
+= Gross Profit
+  - SG&A (Selling, General & Administrative / Operating Expenses)
+= Operating Income (EBIT) / Net Operating Income
+  +/- Other Income / Expenses
+  - Depreciation & Amortization
+  - Interest
+  - Taxes
+= Net Income
 ```
 
-**Red flags:**
-- Net income positive but accounts receivable ballooning = customers owe you money (not real cash)
-- Net income positive but accounts payable declining = you're paying bills faster (cash outflow)
-- Net income positive but inventory growing = cash tied up in stock
-- Net income positive but cash is negative = 100% working capital problem
+**Terminology mapping:** Leikauf uses EBIT/EBITDA. Aharonoff uses "Net Operating Income" and "Net Other Income." These are equivalent. Use EBIT/EBITDA when discussing ratios and lending. Use Net Operating Income when discussing the three-statement model.
 
-**The rule:** If these three don't reconcile, stop analyzing profits. You have a balance sheet problem.
+### Revenue Recognition
 
-### Step 5: Identify the Leak (Ratio Deep-Dive)
+- **Cash basis:** Revenue recorded when cash received
+- **Accrual basis:** Revenue recorded when earned, regardless of payment
+- Understanding which method the business uses is critical -- it changes how you interpret working capital and cash flow
+- GAAP and IFRS both require accrual basis
 
-Once you've mapped trends and the three-statement connection, calculate the specific metrics.
+### COGS vs SG&A Classification
 
-**Liquidity (Can you pay bills?):**
-- **Current Ratio** = Current Assets / Current Liabilities. Target >1.5. Below 1.0 = crisis.
-- **Quick Ratio** = (Current Assets - Inventory) / Current Liabilities. Target >1.0. This is stricter (excludes inventory which may not sell quickly).
+Getting this right is essential -- misclassification distorts all margin analysis.
 
-**Efficiency (How fast does cash move?):**
-- **DSO** = (Accounts Receivable / Revenue) × 30. Target DSO <30 days for most businesses. DSO 45+ = you're financing your customers' operations. If DSO is 45, customers take 45 days to pay. Dropping to 30 = freed cash.
-- **DIO** = (Inventory / COGS) × 30. How many days inventory sits. Dropping from 60 → 40 = cash freed.
-- **DPO** = (Accounts Payable / COGS) × 30. How long you take to pay vendors. Increase carefully (don't damage relationships).
-- **Cash Conversion Cycle** = DSO + DIO - DPO. Negative is best (you collect before paying). Shrinking = cash improvement.
+**COGS (directly tied to production/delivery):**
+- Materials, direct labor, shipping, fulfillment, transaction fees, merchant fees
+- Rule: "If we sold zero units, would this cost go to zero?"
 
-**Profitability (How much are you keeping?):**
-- **Gross Margin** = (Revenue - COGS) / Revenue. If 65%, every dollar of sales keeps 65 cents.
-- **Operating Margin** = Operating Income / Revenue. If 20%, after all operating expenses, you keep 20 cents per dollar.
-- **Net Margin** = Net Income / Revenue. The bottom line (lowest matters most).
-- **DSCR (Debt Service Coverage Ratio)** = Operating Cash Flow / Total Debt Service (principal + interest). Target ≥1.25 (minimum for loan approval). Below 1.25 = lender rejection risk. Preferred ≥1.5 (strong buffer). If DSCR <1.0, you cannot service existing debt — urgent problem.
+**SG&A (not directly tied to production):**
+- Advertising, admin, non-production payroll, rent, technology, insurance
+- Rule: "This cost exists whether we sell 1 unit or 1 million"
 
-**The rule:** Don't just calculate; act. If DSO is 60 and industry is 30, AR collection is costing you cash. That's not a ratio—that's a $200K problem if you're doing $2M/year in revenue.
+**Common misclassification errors:**
+- Fulfillment labor in SG&A (should be COGS)
+- Transaction fees in SG&A (should be COGS)
+- Marketing salaries in COGS (should be SG&A)
 
 ---
 
-## Common Financial Statement Red Flags
+## Three Margin Metrics
 
-### P&L Red Flags
+| Metric | Formula | What It Reveals |
+|--------|---------|-----------------|
+| **Gross Margin** | Gross Profit / Revenue | Production efficiency, pricing power |
+| **Operating Margin** | Operating Income / Revenue | Core business profitability |
+| **Net Margin** | Net Income / Revenue | Bottom-line after all costs |
 
-**Negative sales tax payable** = Bookkeeping error (you can't owe negative tax). Usually "undeposited funds" misclassified. Requires GL review.
+Watch the delta between margins. If gross margin is healthy but net margin is thin, the problem is in SG&A. If gross margin itself is weak, the problem is COGS or pricing.
 
-**Revenue recognition issues:**
-- Revenue spiked but AR grew faster = uncollectible invoices or return risk
-- Revenue growing but refunds/chargebacks also growing = product issue or customer quality problem
+---
 
-**Operating expense spikes without explanation:**
-- Ad spend up 50% but no revenue increase = wasted budget or delayed results (track ROAS, not gut feel)
-- Payroll up but headcount flat = wage inflation or classification error
+## Profit Leak Detection -- Three-Part Approach
 
-**Depreciation recorded only at year-end:**
-- This distorts monthly profitability. Should be monthly/quarterly (even if tax is annual).
+### A. Vertical Analysis
+Express each line item as a percentage of revenue. This instantly reveals which expenses are disproportionate. Compare against industry benchmarks to spot outliers.
 
-### Balance Sheet Red Flags
+**Process:**
+1. Calculate every line item as % of revenue
+2. Flag anything that deviates significantly from expectations
+3. Compare to industry benchmarks (if available)
+4. Investigate flagged items for root cause
 
-**Retained earnings not reconciling to net income:**
-- Prior year retained earnings + current year net income should equal current retained earnings
-- If gap exists, find the owner draws/dividends not recorded
+### B. Horizontal Analysis
+Compare results over time (month-over-month, year-over-year) and across segments (product lines, locations, departments).
 
-**Cash vs. accounts receivable mismatch:**
-- Company claims profitable but customer still owes 60% of revenue
-- Collections problem, not profit problem
+**Process:**
+1. Lay out periods side by side
+2. Calculate period-over-period change ($ and %)
+3. Spot trends, spikes, and deviations
+4. Cross-reference with known business events
 
-**Growing inventory with flat/declining revenue:**
-- Inventory is an asset but it's dead cash until sold
-- Excess inventory usually signals demand problem or bad procurement
+### C. Variance Analysis
+Compare actual vs budget/forecast. Flag significant deviations for investigation.
 
-**Negative liabilities** (impossible):
-- Prepaid ad spend miscategorized as liability instead of asset
-- Requires GL investigation
+**Process:**
+1. Calculate variance (Actual - Budget) for each line
+2. Calculate variance % (Variance / Budget)
+3. Prioritize largest variances by dollar impact
+4. Ask "why" behind every material variance
+5. Determine if variance is timing, operational, or structural
 
-**Equity declining while net income positive:**
-- Means owner draws/dividends exceeded profit
-- Sustainable only if business has excess cash
+---
+
+## Income Statement Diagnostic Process (Sequential)
+
+1. **Context first:** Look at seasonality and YoY trends before judging any single period
+2. **Vertical analysis:** Flag any line that deviates from expected % of revenue
+3. **Horizontal analysis:** Compare periods to spot anomalies and trends
+4. **Check for missing items:** Depreciation commonly missing in small business P&Ls
+5. **Root cause investigation:** Do not just spot the number -- find the "why"
+6. **Actionable recommendations:** Every finding must have a next step
+
+### E-Commerce KPIs to Include
+- ROAS (Return on Ad Spend)
+- Chargebacks as % of revenue
+- Merchant/transaction fees as % of revenue
+- Refund rate
+- Shipping cost as % of revenue
+
+---
+
+## Balance Sheet Fundamentals
+
+**Equation:** Assets = Liabilities + Equity
+
+**Structure:**
+- **Current Assets** (ordered by liquidity): Cash, AR, Inventory, Prepaid
+- **Non-Current Assets:** Equipment, Property, Intangibles
+- **Current Liabilities** (by due date): AP, Short-term debt, Accrued expenses
+- **Non-Current Liabilities:** Long-term debt, Lease obligations
+- **Equity:** Share capital + Retained earnings
+
+**Pro tip:** Match asset type to liability type. Long-term assets should be funded with long-term debt, not short-term credit lines.
+
+### Common Balance Sheet Errors (Small Business)
+1. AP listed under assets (wrong category)
+2. AR listed as a liability (reversed)
+3. Equipment without accumulated depreciation
+4. Prepaid rent not split into current/non-current
+5. "Loan to Owner" without clarification
+6. Paying dividends during a net loss
+7. Missing owner's equity breakdown
+8. Intangible assets without proper descriptions
+9. Retained earnings that do not reconcile
+
+**Critical insight:** A balanced sheet can balance numerically but still be wrong. Accuracy matters beyond the math.
+
+### P&L to Balance Sheet Connections
+
+**Direct connections (Aharonoff):**
+1. Net Income flows to Retained Earnings each period
+2. Depreciation Expense accumulates in Accumulated Depreciation
+3. Amortization Expense accumulates in Accumulated Amortization
+
+**Indirect connections:**
+- Revenue recognized -> AR increases -> Collections decrease AR, increase Cash
+- COGS recorded -> Inventory decreases
+- Prepaid expenses -> Asset decreases as expense is recognized on P&L
+- Deferred revenue -> Liability decreases as service delivered -> Revenue recognized
+
+### Debits and Credits Quick Reference (Aharonoff)
+- **Assets:** increase with debit, decrease with credit
+- **Liabilities/Equity:** increase with credit, decrease with debit
+- **Revenue:** behaves like equity (increase with credit)
+- **Expenses:** opposite of revenue (increase with debit)
+- Every transaction affects at least two accounts (double-entry)
+
+---
+
+## Cash Flow Statement
+
+Three sections:
+1. **Operating Activities** -- Cash from core business operations
+2. **Investing Activities** -- CapEx, asset purchases/sales
+3. **Financing Activities** -- Debt, equity, dividends
+
+**Two methods:**
+- **Direct Method:** Shows actual cash movements; easy to understand; less common
+- **Indirect Method:** Starts with net income, adjusts for non-cash items; most commonly used
+
+### Indirect Method Structure
+```
+Net Income
++ Depreciation/Amortization (add back non-cash)
++/- Changes in Working Capital (AR, AP, Inventory, Prepaid, Accrued)
+= Cash from Operating Activities
++/- Changes in Long-term Assets
+= Cash from Investing Activities
++/- Changes in Debt and Equity
+= Cash from Financing Activities
+= Net Change in Cash
++ Beginning Cash
+= Ending Cash
+```
 
 ### Cash Flow Red Flags
+- Large gap between net income and operating cash flow (earnings quality issue)
+- Overreliance on financing activities propping up the business
+- Misclassified financial activity between sections
+- Negative operating cash flow with positive net income (working capital drain)
 
-**Operating cash flow negative while P&L shows profit:**
-- 100% working capital problem
-- Most common: AR aging, inventory buildup, or AP payment timing
-
-**Large gap between net income and operating cash flow:**
-- Rule of thumb: Gap should be <20% of net income
-- Larger gap = material working capital drain
-
-**Investing cash flow showing equipment purchases with no depreciation:**
-- New equipment shows as cash outflow immediately but depreciation expense spreads benefit over time
-- Normal (not a flag) but confirms asset purchases
-
-**Financing cash flow showing owner withdrawals exceeding profit:**
-- Unsustainable if repeated monthly
-- Your personal take cannot exceed business profitability
-
----
-
-## When to Read Reference Files
-
-**Read "Income Statement Analysis"** when:
-- Revenue is growing but profit isn't
-- You want to understand margin compression
-- You're comparing your expenses to industry norms
-- You need to explain P&L trends to a lender or investor
-
-**Read "Balance Sheet Relationships"** when:
-- You have "profit but no cash"
-- Your AR is aging (customers taking 60+ days to pay)
-- You just made a big inventory purchase and want to model the cash impact
-- You're confused about depreciation timing
-
-**Read "Cash Flow Bridge"** when:
-- You want to plan for seasonal cash swings
-- You need to show a lender your cash recovery plan
-- You're forecasting and need to connect P&L changes to cash timing
-- You want to understand when tax payments hit
-
-**Read "Financial Red Flags"** when:
-- You notice something odd in your statements
-- A lender questioned a line item
-- You're reviewing statements for the first time
-- You need a checklist before discussing with your accountant
+### Cash Flow Improvement Strategies
+1. **Collect faster:** Tighten AR terms, automate invoicing
+2. **Manage inventory:** Avoid cash drain from excess stock
+3. **Delay payments:** Negotiate better AP terms (within reason)
+4. **Time CapEx:** Forecast cash flow to prevent shortages
 
 ---
 
 ## Cross-References
 
-**→ financial-modeling-excel** when diagnosis reveals you need to forecast based on historical patterns. Once you understand what's happening (diagnostics), build a model to predict what happens next (modeling).
-
-**→ profit-levers** when diagnosis reveals specific problems (working capital slow, margins compressing, costs growing). Diagnostics identifies the leak; profit-levers is how you fix it.
-
-**→ forecasting-strategy** when your diagnosis surfaces market risks or when you need to model scenario planning around a diagnosed issue.
-
-**→ financing-strategy** when balance sheet analysis reveals you need short-term financing to bridge a working capital gap.
-
----
-
-## Decision Tree: What Statement Do You Need?
-
-```
-START: "What's the problem?"
-│
-├─ "I'm making profit but out of cash"
-│  └─ → Balance Sheet analysis (AR aging, inventory, timing)
-│     → Cash Flow Statement (where did cash go?)
-│
-├─ "Revenue is growing but profit isn't"
-│  └─ → Vertical Analysis (% of revenue) to spot cost creep
-│     → COGS analysis (supplier costs?)
-│     → OpEx analysis (payroll, ads growing too fast?)
-│
-├─ "My seasonality makes forecasting impossible"
-│  └─ → Horizontal Analysis (3-year patterns)
-│     → Identify consistent seasonal spikes
-│     → Model based on % variance, not absolute numbers
-│
-├─ "I want to know if business is getting healthier"
-│  └─ → Trend ratios (DSO, margins, cash conversion cycle)
-│     → Year-over-year comparison
-│     → Spot improving vs deteriorating metrics
-│
-└─ "I'm applying for a loan"
-   └─ → All three statements + 3-year trends
-      → DSO/DIO/DPO (lenders care about working capital efficiency)
-      → Current ratio and quick ratio (can you pay bills?)
-      → Net margin (are you actually profitable?)
-```
-
----
-
-## Practice Diagnosis: Cold Plunge R Us Case Study
-
-**Situation:** Plunge company selling cold plunge units. Revenue up 30% YoY. Owner says "We're making more money but something feels off."
-
-**Vertical Analysis reveals:**
-- Gross margin: 68% (prior year) → 62% (current year)
-- Problem: Margin compressed 6 percentage points = $180K profit loss on $3M revenue
-
-**Horizontal Analysis reveals:**
-- Q4 revenue spike 40% (seasonal) but Q4 ad spend 80% (over-indexed)
-- Chargebacks up 3% of revenue (product issue or bad customers?)
-- Seasonal shift: More spring revenue now (customer mix changed?)
-
-**Balance Sheet reveals:**
-- AR aging from 28 days to 42 days (customers taking 2 weeks longer to pay)
-- Inventory grew 20% despite flat COGS (excess stock = cash trap)
-
-**Cash Flow reveals:**
-- Operating cash flow: $50K (profitable)
-- But AR increase consumed $120K (money customers owe you = negative impact on cash)
-- And inventory increase consumed $80K (cash tied up)
-- Net effect: Positive P&L but negative cash flow = working capital crisis
-
-**Diagnosis:**
-1. **Margin compression** = Supplier costs up or product mix shift (less margin-dense products)
-   → Second-order: Margin compression + chargebacks together signal product quality issues, not just customer selection.
-   → Third-order: If supplier costs crept up (causing margin compression), lower input quality may be driving chargebacks and returns — a systemic problem.
-2. **AR aging** = Collection process broken or customers diluting in quality
-3. **Inventory buildup** = Forecasting error or demand shift creating excess stock
-4. **Chargebacks** = Customer quality issue (bad customers or bad product?)
-
-**Actions:**
-- Immediately audit chargebacks (product issue vs. fraud)
-- Renegotiate supplier terms on high-volume items
-- Implement AR collection escalation (calls to customers >30 days)
-- Audit inventory (what's slow-moving? Move it via clearance.)
-- Reforecast demand quarterly (seasonal spike is real but don't over-order)
-
----
-
-## Key Takeaways
-
-1. **Profitable doesn't mean safe.** Your P&L can say you're winning while your cash flow says you're drowning. Always check both.
-
-2. **Trends matter more than absolute numbers.** A 5% margin is fine if last year was 5%. It's a crisis if last year was 15%.
-
-3. **Vertical analysis is your fastest diagnostic tool.** Spend 10 minutes converting P&L to % of revenue. You'll find most problems immediately.
-
-4. **Working capital (AR, AP, inventory) changes cash more than profit does.** A $500K AR increase with positive P&L is a cash crisis waiting to happen.
-
-5. **The three statements must reconcile.** If P&L is positive, operating cash flow should be close (within 20%). If not, something on the balance sheet is consuming cash and you're ignoring it.
-
+- **Need ratio calculations?** -> `financial-ratios` (all formulas, targets, CCC)
+- **Ready to build a forecast?** -> `forecasting-strategy` (uses diagnostic findings as inputs)
+- **Need to optimize profit?** -> `profit-optimization` (uses diagnostic findings to identify levers)
+- **AR/AP/Inventory deep dive?** -> `working-capital` (detailed management tactics)
+- **Building a model?** -> `financial-modeling` (three-statement architecture uses these foundations)
+- **Presenting findings?** -> `advisory-communication` (simplification framework, R-D-R format)

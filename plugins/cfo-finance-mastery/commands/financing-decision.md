@@ -1,85 +1,78 @@
 ---
 name: Financing Decision
-description: "Evaluate financing options for growth, working capital, or expansion. Understand true cost, compare debt vs equity, and avoid predatory lending traps."
+description: "Evaluate financing options using the Five Cs of Credit framework. Compare debt vs equity, calculate true costs, avoid predatory lending, and match financing to your specific business need."
 ---
 
 # /financing-decision
 
-Let's evaluate your financing options. I'll ask about your situation, then assess whether you should borrow, how much, and the best source.
+I will evaluate your financing options using the **Five Cs of Credit** framework and match the right capital source to your need. Answer these questions to get a clear recommendation.
 
-**1. What do you need financing for?**
-- Growth / expansion (hiring, marketing, capex)?
-- Working capital (inventory, AR bridge)?
-- Debt refinancing (paying off existing loans)?
-- Something else?
-- How much capital do you need?
+## Step 1: Capital Need
 
-**2. How stable is your cash flow?**
-- Growing (increasing revenue and profit)?
-- Stable (consistent month-to-month)?
-- Volatile (seasonal or cyclical)?
-- Declining?
+1. **What do you need financing for?**
+   - Working capital (bridge cash gaps, fund operations)
+   - Equipment purchase
+   - Real estate acquisition
+   - Growth / expansion (hiring, marketing, inventory)
+   - Debt refinancing (paying off existing high-cost debt)
+   - Seasonal cash gap
+   - Something else?
+2. **How much capital do you need?**
+3. **How quickly do you need it?**
+   - Within 2 weeks / Within 1 month / Within 3 months / Flexible
 
-**3. What's your current debt situation?**
-- Debt-free / no loans?
-- Have existing loans (how many, what rates, balances)?
-- Have credit card debt?
-- Have merchant cash advances or other "non-traditional" debt?
+## Step 2: Current Financial Position
 
-**4. What's your credit score (personal, if you know)?**
-- 750+: Excellent, many options
-- 700–749: Good, most traditional options available
-- 650–699: Fair, limited options, may need collateral
-- <650: Poor, limited to non-traditional sources (avoid MCAs)
+4. **What is your annual revenue?**
+5. **What is your EBITDA (or approximate annual profit before taxes)?**
+6. **What existing debt do you have?** (loans, lines of credit, MCAs, credit cards)
+   - Include approximate balances and interest rates if known
 
-**5. Do you have collateral to pledge?**
-- Business equipment / property?
-- Real estate (personal or business)?
-- Vehicle?
-- Not sure what qualifies?
+## Step 3: Credit Profile (Five Cs Assessment)
 
-**6. How quickly do you need the capital?**
-- Within 1 month?
-- Within 3 months?
-- Within 6 months?
-- Flexible timeline?
+7. **Character:** What is your personal credit score range?
+   - 750+ / 700-749 / 650-699 / Below 650 / Unsure
+8. **Capital:** How much are you willing to invest as a down payment or collateral?
+9. **Collateral:** What business assets could be pledged? (equipment, real estate, AR, inventory)
+10. **Conditions:** Is your industry growing, stable, or contracting?
+
+## Step 4: Cash Flow Health
+
+11. **How stable is your monthly cash flow?**
+    - Growing / Stable / Volatile (seasonal) / Declining
+12. **What is your current ratio?** (Current Assets / Current Liabilities)
+    - If unknown: Do you have more cash + AR than you owe in the next 12 months?
 
 ---
 
-## Once You Answer, I'll Provide:
+## What I Will Produce
 
-**Financing Options Ranked by Cost**
-1. Optimize working capital first (zero-cost capital)
-2. Business credit cards (0% APR promos, short-term)
-3. SBA loans (8–12% APR, 7–10 years)
-4. Bank lines of credit (6–10% APR)
-5. Traditional bank loans (10–15% APR)
-6. What to AVOID: Merchant cash advances, payday loans
+**Five Cs Assessment**
+- Scorecard of your lending position across all five dimensions
+- Specific weaknesses to address before applying
 
-**True Cost Analysis**
-- For each option you're considering, I'll calculate:
-  - Stated rate vs true APR (many lenders hide the real cost)
-  - Monthly payment obligation
-  - Total cost over loan term
-  - Impact on cash flow and DSCR (debt-service coverage ratio)
+**Financing Options Ranked**
+- Best option for your specific need, timeline, and credit profile
+- True cost analysis (stated rate vs effective APR vs total cost)
+- Monthly payment impact on cash flow
+- DSCR impact (can you service the new debt safely?)
 
 **Debt vs Equity Decision**
 - Should you borrow or bring in an investor?
-- Pros/cons of each for your situation
+- Pros/cons for your specific situation
+
+**Red Flags and Traps**
+- Predatory structures to avoid (MCA warning if applicable)
+- Deal-breakers that will disqualify you and how to fix them
 
 **Lender Recommendations**
-- Specific banks or lenders suited to your profile
-- What documentation you'll need
-- Timeline for approval
-
-**Red Flags & Traps to Avoid**
-- Predatory lending structures
-- Deal-breakers that will disqualify you (and how to fix them)
-- Common mistakes in financing decisions
+- Types of lenders best suited to your profile
+- Documentation you will need to prepare
+- How to present your case to maximize approval odds
 
 **Action Plan**
-- Which option to pursue
-- Next steps and timeline
-- Questions to ask lenders
+- Which option to pursue and in what order
+- Pre-application improvements (if needed)
+- Timeline from application to funding
 
-**Share your answers above** and I'll give you a clear financing recommendation.
+**Share your answers above** and I will give you a clear financing recommendation with true cost analysis.

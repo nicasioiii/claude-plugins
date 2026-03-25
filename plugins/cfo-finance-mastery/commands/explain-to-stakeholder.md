@@ -1,109 +1,91 @@
 ---
 name: Explain to Stakeholder
-description: "Translate financial data for a specific audience. Learn how to explain complex topics to investors, board members, employees, or partners without jargon."
+description: "Translate financial data for a specific audience using the simplification framework, R-D-R format, and learning styles adaptation. Works for investors, board members, lenders, employees, partners, or any non-finance audience."
 ---
 
 # /explain-to-stakeholder
 
-Let's build your explanation for a specific stakeholder. I'll ask about your audience, then coach you on framing, language, and what to emphasize.
+I will coach you on how to communicate financial information to your specific audience using the **simplification framework** (one insight + visual + story) and **R-D-R format** (Recommendation-Data-Recommendation).
 
-**1. Who's your audience?**
-- Investor / board member?
-- Lending bank?
-- Business partner / co-founder?
-- Employee / team member?
-- Customer / vendor?
-- Family member or mentor?
+## Step 1: Know Your Audience
 
-**2. What do you need to explain?**
-- Overall financial health and position?
-- Specific business challenge (declining margins, cash flow concern)?
-- Proposal or decision (asking for capital, recommending a pivot)?
-- Progress update / performance review?
-- Something else?
+1. **Who are you presenting to?**
+   - Investor / board member
+   - Lending bank
+   - Business partner / co-founder
+   - Employee / team member
+   - Customer / vendor
+   - Family member or mentor
 
-**3. What's their financial literacy?**
-- Expert (understands financials deeply)?
-- Intermediate (reads financials, understands basics)?
-- Non-financial (prefers plain language, no jargon)?
-- Unsure?
+2. **What is their financial literacy?**
+   - Expert (understands financial statements deeply)
+   - Intermediate (reads financials, understands basics)
+   - Non-financial (prefers plain language, no jargon)
 
-**4. What's their primary concern?**
-- Profitability (are we making money)?
-- Cash flow (do we have enough cash)?
-- Growth (are we scaling)?
-- Risk (are we safe financially)?
-- ROI / returns (will my investment or loan be repaid)?
+3. **Are they a concrete or conceptual thinker?**
+   - Concrete: wants specific numbers, checklists, step-by-step
+   - Conceptual: wants big picture, frameworks, strategy
+   - Unsure
 
-**5. What outcome do you want?**
-- Build confidence (show we're healthy)?
-- Get buy-in (convince them to support a decision)?
-- Secure capital (raise money or get a loan)?
-- Align expectations (set realistic goals)?
-- Educate (help them understand the business)?
+## Step 2: Define the Message
 
-**6. Share the key data:**
-- Paste your P&L (revenue, profit, margins)
-- Key balance sheet items (cash, debt, equity)
-- The specific number or story you're explaining
-- Any assumptions or forward-looking statements
+4. **What do you need to explain?**
+   - Overall financial health
+   - A specific challenge (declining margins, cash flow concern, cost overrun)
+   - A proposal or decision (requesting capital, recommending a change)
+   - A progress update or performance review
+   - Something else?
+
+5. **What outcome do you want?**
+   - Build confidence (show the business is healthy)
+   - Get buy-in (convince them to support a decision)
+   - Secure capital (raise funding or get a loan)
+   - Align expectations (set realistic goals)
+   - Educate (help them understand the numbers)
+
+## Step 3: Share the Data
+
+6. **Paste or describe the key financial data:**
+   - Revenue, profit, margins (P&L highlights)
+   - Cash position or balance sheet highlights
+   - The specific number, trend, or story you need to explain
+   - Any forward-looking projections or assumptions
 
 ---
 
-## Once You Answer, I'll Provide:
+## What I Will Produce
 
 **Audience Profile**
-- Their financial literacy level and how to adjust language
-- What they care about most (profitability vs cash vs growth)
-- Their emotional triggers and concerns
-- What they'll likely ask or pushback on
+- How to adjust language for their literacy level
+- What they care about most (profitability vs cash vs growth vs risk)
+- What they will likely ask or push back on
+- Concrete vs conceptual adaptation guide
 
-**Framing Strategy**
-- How to position your story (we're healthy / we're challenged / we're transitioning)
-- What to lead with (the headline before the details)
-- What to emphasize for THIS audience (not all data is equally important)
-- What to downplay or address proactively
+**The Key Insight** (one sentence)
+- The single most important thing they need to understand
 
-**Key Message (The "Recommendation Sandwich")**
-- Lead statement (the big idea)
-- 3 supporting data points (why it matters)
-- Call to action or restatement (what happens next)
+**R-D-R Script**
+- Opening recommendation (what to do or believe)
+- 2-3 supporting data points (the evidence)
+- Closing restatement (reinforce the action or conclusion)
 
 **Translation Guide**
-- How to explain complex financial terms in simple language
-- Analogies and examples they'll relate to
-- What to avoid (jargon, overwhelming detail)
-- What to emphasize (business outcomes, not accounting mechanics)
+- Jargon-free explanations for every technical term
+- Anchoring analogy they will relate to
+- What to emphasize for THIS audience
+- What to skip or address only if asked
 
-**Slide Outline or Talk Track**
-- Structure for presenting (if you're presenting vs writing)
-- Talking points and transitions
-- Answers to likely questions
-- How to handle objections or pushback
-
-**Visual Suggestions**
-- What to show (chart? table? simple number?)
+**Visual Recommendation**
+- What type of chart or visual to show
 - What NOT to show (too much detail drowns the message)
-- How to present data for maximum clarity
 
-**Example Explanations**
-- "Here's how you might explain this concept to your investor"
-- "Here's how you'd say it to your lender"
-- "Here's how you'd phrase it to your team"
+**Likely Questions and Prepared Answers**
+- Anticipated pushback with pre-built responses
+- Objection handling using EQ techniques
 
----
+**Talk Track or Slide Outline**
+- Structured flow for presenting (if presenting live)
+- Talking points and transitions
+- How to handle the conversation if it goes off-script
 
-## Specific Translation Examples I'll Provide:
-
-Instead of: "Our DSO has increased 12 days quarter-over-quarter"
-I'll help you say: "Our customers are taking longer to pay. This ties up more cash and means we need to borrow or reduce spending."
-
-Instead of: "Our gross margin compressed 350 basis points"
-I'll help you say: "Our product costs have gone up relative to revenue. Either our costs rose or we discounted more to stay competitive."
-
-Instead of: "We need to right-size our inventory"
-I'll help you say: "We're holding too much stock, which ties up cash we could use for growth. We'll reduce inventory levels."
-
----
-
-**Share your stakeholder info and the data/topic above** and I'll coach you on how to explain it clearly and persuasively.
+**Share your audience info and data above** and I will build your communication playbook.

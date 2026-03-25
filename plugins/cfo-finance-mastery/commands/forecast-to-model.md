@@ -1,89 +1,119 @@
 ---
 name: Forecast to Model
-description: "Convert your strategic forecast into a detailed financial model in Excel. Link revenue assumptions to P&L, balance sheet, and cash flow automatically."
+description: Convert forecast assumptions into a three-statement financial model. Guides through DADA framework, tab architecture, drivers tab construction, BS projection, CF connection, error checks, and model audit. Activates financial-modeling skill with cross-references to forecasting-strategy for assumptions.
 ---
 
-# /forecast-to-model
+# /forecast-to-model -- Three-Statement Model Builder
 
-Let's convert your forecast into a working financial model. I'll ask about your forecast assumptions, then build a model you can use for scenario planning and monthly updates.
+## Step 1: Assess Readiness
 
-**1. Do you have a forecast already?**
-- Yes, I have a forecast (paste or share key assumptions)
-- No, I need to build it first (we'll do /build-forecast first)
-- Partial (some pieces, need to fill gaps)
+Ask the user:
 
-**2. What's your forecast time horizon?**
-- 12 months (monthly detail)?
-- 3 years (annual + monthly detail for year 1)?
-- 5 years (annual detail)?
+1. **Forecast complete?** Have they built P&L projections? (If not, suggest `/build-forecast` first)
+2. **Historical data:** Do they have historical financials to include as actuals?
+3. **Chart of accounts:** Do they have a COA or GL export?
+4. **Balance sheet data:** Do they have opening BS balances?
+5. **Model purpose:** M&A, board reporting, or business insights?
+6. **Audience:** Who will use this model? (Determines detail level and DADA priorities)
 
-**3. What revenue assumptions do you want to model?**
-- Single revenue stream (product sales, services, subscriptions)?
-- Multiple streams with different growth rates?
-- Share assumptions (units, price, growth rate)?
+## Step 2: Model Architecture (DADA Framework)
 
-**4. What cost structure applies?**
-- Percent of revenue (COGS 40%, OpEx 35%)?
-- Mixed (some fixed, some variable)?
-- Detailed line-item breakdowns?
+Guide the user through the tab architecture:
 
-**5. Are you planning headcount changes?**
-- Hiring additional team (when, how many, cost)?
-- Contractor additions?
-- Salary increases?
-- Share your planned headcount timeline?
+### Visible Tabs (in order)
+1. **Instructions** -- Color legend, tab descriptions, navigation links, flow diagram
+2. **Summary Financials** -- Dashboard view of all three statements
+3. **Drivers** -- Central assumption control panel
+4. **Income Statement** -- Detailed P&L
+5. **Balance Sheet** -- Detailed BS
+6. **Cash Flow Statement** -- Derived from BS changes
+7. **Error Checks** -- Comprehensive validation
 
-**6. Do you have other drivers to model?**
-- Capex / equipment purchases?
-- Loan payments or debt schedules?
-- Inventory changes?
-- Seasonal multipliers?
+### Hidden Tabs
+- **Source tabs** -- Accounting exports (P&L data, BS data)
+- **Template tab** -- Blueprint for new sections
 
-**7. What scenarios do you want to test?**
-- Just base case (most likely)?
-- Base + optimistic + pessimistic?
-- Multiple sensitivities (what if revenue grows 10% slower)?
+### Named Ranges to Create
+- `Company_Name` -- single cell referenced everywhere
+- `Latest_Month_of_Actuals` -- date cell controlling actuals/projection boundary
+- `error_check` -- comprehensive error result displayed on every tab
 
----
+## Step 3: Drivers Tab Construction
 
-## Once You Answer, Here's What I'll Build:
+Guide through building the drivers tab:
 
-**Model Architecture**
-- Drivers tab (single control panel for all assumptions)
-- P&L section (revenue, COGS, OpEx, net income)
-- Balance sheet section (assets, liabilities, equity)
-- Cash flow calculation (from P&L changes and balance sheet timing)
-- Error checking (balance sheet validation)
+1. **P&L Section:** Copy account names from COA, remove subtotals, add SUMIFS for historicals
+2. **BS Section:** Same approach, using INDEX for point-in-time balances
+3. **Mapping Column:** Bridge detailed accounts to summary categories
+4. **Driver Description Column:** Document the projection method for each account
+5. **Three time views:** Monthly (primary), quarterly, annual
 
-**Drivers Tab Setup**
-- Revenue drivers (units × price, growth multipliers)
-- Cost drivers (% of revenue, fixed amounts)
-- Headcount timeline (hiring dates, salary, benefits)
-- Seasonal adjustments and one-time items
+**Key distinction:** Drivers tab is the ONLY place where historical and projection formulas differ.
 
-**Three Linked Statements**
-- Income Statement (what's the profit?)
-- Balance Sheet (what are assets/liabilities?)
-- Cash Flow (when does cash actually arrive/leave?)
+## Step 4: Build Income Statement
 
-**Rolling Forecast Mechanism**
-- Historicals pull from source data automatically (SUMIFS formulas)
-- Projections overwrite with assumptions
-- Named range for "last month of actuals" (easy monthly rollover)
+- Reference drivers tab for all line items
+- Build calculated rows (gross profit, operating income, net income)
+- Add margin calculations with IF(ISERROR()) wrappers
+- Apply consistent formatting and color coding
 
-**Scenario Tabs**
-- Base case (standard forecast)
-- Optimistic case (best reasonable outcome)
-- Pessimistic case (worst case to stress-test)
-- Sensitivity analysis (what happens if X changes?)
+## Step 5: Build Balance Sheet
 
-**Dashboard / Summary View**
-- Annual and quarterly summaries
-- Budget vs forecast comparison
-- KPI tracking (margins, cash position, etc.)
+- Reference drivers tab for all accounts
+- Default all projections to prior period values first (never zero)
+- Apply key account formulas:
+  - AR: Beginning + Revenue - Collections
+  - AP: Beginning + Purchases - Payments
+  - Accumulated Dep: Prior + Current Dep Expense
+  - Retained Earnings: Prior RE + Current Net Income
+- Verify: Assets = Liabilities + Equity (every period)
 
-**Monthly Update Workflow**
-- Step-by-step process to add actuals and roll forecast forward
-- Takes 10 minutes per month once setup
+## Step 6: Build Cash Flow Statement
 
-**Share your answers and forecast assumptions above** and I'll build your model.
+- Copy BS structure
+- Replace values with change formulas (Prior - Current for assets, Current - Prior for liabilities)
+- Organize into Operating, Investing, Financing
+- Remove cash row (derived, not input)
+- Calculate ending cash: Beginning + Operating + Investing + Financing
+
+## Step 7: Close the Loop
+
+- Link BS cash account to CF ending cash
+- Verify BS balances in every period
+- Test: change one input, verify flow-through to all three statements
+
+## Step 8: Error Checks
+
+Build error check tab monitoring:
+- Balance sheet equation (every period)
+- Revenue match (drivers vs P&L vs summary)
+- Cash alignment (drivers vs CF ending cash)
+- Net income consistency (P&L vs BS)
+- Source-to-destination matches
+
+## Step 9: Color Coding and Polish
+
+- Blue: all editable inputs
+- Black: all formulas and historicals
+- Purple: cross-tab references
+- Red: error check rows
+- Apply using Go To Special > Constants method
+
+## Step 10: Model Audit
+
+Run through the complete audit checklist from actualization-and-rollforward.md:
+- Pre-delivery checks (25+ items)
+- Deliberately introduce and catch an error
+- Verify instructions tab is complete
+- Confirm tab order and hidden tabs
+
+## Step 11: Actualization Setup (if including actuals)
+
+- Set up source tabs for accounting exports
+- Create `Latest_Month_of_Actuals` named range
+- Build COUNTIF account detection formulas for future roll-forwards
+- Document the monthly roll-forward procedure for the user
+
+Suggest follow-up:
+- `/build-dashboard` to create a BvA dashboard from the model
+- `/explain-to-stakeholder` to present the model to the board

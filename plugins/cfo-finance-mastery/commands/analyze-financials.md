@@ -1,33 +1,73 @@
 ---
 name: Analyze Financials
-description: "Diagnose your financial health by analyzing your income statement, balance sheet, and cash flow. Identify what's working and what needs attention."
+description: Guided diagnosis of P&L, balance sheet, and cash flow statements. Runs vertical, horizontal, and variance analysis. Identifies profit leaks, red flags, and misclassifications. Activates financial-diagnostics skill with cross-references to financial-ratios.
 ---
 
-# /analyze-financials
+# /analyze-financials -- Financial Statement Diagnosis
 
-I'll guide you through a structured financial diagnostic. Answer these questions so I can analyze the right data.
+## Step 1: Gather Financial Data
 
-**1. What period are you analyzing?**
-- Last month? Last quarter? Last full year? Or multiple periods for comparison?
+Ask the user:
 
-**2. What's your biggest financial concern right now?**
-- Is it cash flow? Profitability? Understanding where money is going? Something else?
+1. **Which statements do you have?** P&L / Balance Sheet / Cash Flow / All three?
+2. **Time period:** How many months or years of data? (Minimum 6 months recommended for trend analysis)
+3. **Business type:** What industry? (Needed for benchmark comparison)
+4. **Accounting basis:** Cash or accrual?
+5. **Specific concerns:** Any known issues or areas of focus?
 
-**3. Are your books on cash basis or accrual basis?**
-- Cash basis: You record when money moves
-- Accrual basis: You record when revenue is earned / expenses are incurred
-- Not sure? That's OK—I can work with what you have
+## Step 2: P&L Diagnosis (if provided)
 
-**4. Do you have prior-year data or a budget to compare against?**
-- Yes (prior year or budget)
-- No (just current year)
+Run these analyses in order:
 
-**5. Is this your first time diving deep into the financials, or a routine monthly review?**
+### A. Structure Check
+- Verify COGS vs SG&A classification is correct
+- Check for missing items (depreciation, amortization commonly missing)
+- Confirm revenue recognition method
 
-Once you provide these details, I'll:
+### B. Vertical Analysis
+- Calculate every line item as % of revenue
+- Flag items that deviate > 5% from industry benchmarks
+- Identify the largest expense categories
 
-✓ **Run a Health Check** — Identify 3–5 positive findings + 3–5 concern areas
-✓ **Deep-Dive 2–3 Line Items** — Focus on the most important anomalies
-✓ **Route You to Next Steps** — If cash flow is the issue, we'll move to working capital. If profitability is weak, we'll look at profit levers. If forecasting is unclear, we'll build that next.
+### C. Horizontal Analysis
+- Compare periods (MoM or YoY depending on data available)
+- Calculate $ change and % change for each line
+- Flag items with unusual spikes or declines
 
-**Share the data and your answers above** — paste your P&L, balance sheet, or just the totals. I'll take it from there.
+### D. Margin Analysis
+- Calculate gross margin, operating margin, net margin
+- Assess the margin cascade (where is profit being lost?)
+- Compare to industry benchmarks from financial-ratios/ratio-reference.md
+
+### E. Profit Leak Identification
+- Identify top 3-5 areas where margin is being eroded
+- Prioritize by dollar impact
+- Provide actionable recommendation for each
+
+## Step 3: Balance Sheet Diagnosis (if provided)
+
+- Check the BS equation (Assets = L + E)
+- Scan for common small business errors (9-item checklist from financial-diagnostics)
+- Assess liquidity (current assets vs current liabilities)
+- Check asset-liability matching
+- Identify unusual balances or trends
+
+## Step 4: Cash Flow Diagnosis (if provided)
+
+- Assess operating cash flow vs net income gap
+- Check for red flags (financing propping up operations, negative OCF with positive NI)
+- Identify cash flow improvement opportunities
+- Assess whether the business generates cash from operations (healthy pattern)
+
+## Step 5: Summary and Recommendations
+
+Deliver findings using the Recommendation-Data-Recommendation format:
+
+1. **Lead with the top finding** (most impactful issue)
+2. **Support with specific numbers** (the data)
+3. **Close with prioritized action items** (1-3 next steps)
+
+Suggest follow-up commands:
+- `/ratio-analysis` if ratios would deepen the diagnosis
+- `/build-forecast` if the user wants to project improvements
+- `/optimize-profit` if profit leaks were identified

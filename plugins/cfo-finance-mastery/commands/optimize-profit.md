@@ -1,64 +1,72 @@
 ---
 name: Optimize Profit
-description: "Identify the fastest profit levers for your business. Diagnose which levers (pricing, costs, working capital, productivity) will have the biggest impact."
+description: "Identify the highest-impact profit levers for your business using the profit tree framework, pricing analysis, cost structure review, productivity metrics, and RFM customer segmentation."
 ---
 
 # /optimize-profit
 
-Let's find your biggest profit opportunities. I'll ask questions to understand which levers matter most for your business model.
+I will walk through the **profit tree framework** to find your biggest opportunities. Answer these questions so I can pinpoint the highest-leverage moves.
 
-**1. What's your gross margin? (Revenue - COGS) / Revenue**
-- Example: If revenue is $1M and COGS is $400K, gross margin is 60%
+## Step 1: Revenue and Margin Snapshot
 
-**2. What's your operating margin? (Profit before taxes) / Revenue**
-- Example: If revenue is $1M and operating income is $150K, operating margin is 15%
+1. **What is your annual revenue?** (approximate is fine)
+2. **What is your gross margin?** (Gross Profit / Revenue)
+   - If unknown: What are your total COGS as a percentage of revenue?
+3. **What is your operating margin?** (Operating Income / Revenue)
+   - If unknown: What is your net profit as a percentage of revenue?
 
-**3. Where does your cash get stuck?**
-- Accounts receivable (customers take too long to pay)?
-- Inventory (holding too much stock)?
-- Both?
-- Neither—cash flows smoothly?
+## Step 2: Pricing Position
 
-**4. What's your biggest expense category after COGS?**
-- Headcount / payroll?
-- Marketing & sales?
-- Facilities & overhead?
-- Something else?
+4. **When did you last raise prices?**
+   - This year / Last year / 2+ years ago / Never
+5. **How price-sensitive is your customer base?**
+   - Very (discount-driven) / Moderate / Low (value-driven)
+6. **Do you have tiered pricing or a single price point?**
 
-**5. How price-sensitive is your customer base?**
-- Very price-sensitive (discount-driven)?
-- Moderate (price matters but not the only factor)?
-- Insensitive (customers value other things more)?
+## Step 3: Cost Structure
 
-**6. Where are you currently spending money that you question?**
-- Are there costs that feel high but you're not sure how to cut?
-- Are there costs that don't seem to generate ROI?
+7. **What is your largest expense category after COGS?**
+   - Payroll / Marketing / Facilities / Technology / Other
+8. **Are there costs you question but have not acted on?**
+9. **When did you last renegotiate vendor contracts?**
+
+## Step 4: Customer Economics
+
+10. **Do you know your Customer Lifetime Value (CLV)?**
+11. **What percentage of revenue comes from your top 10 customers?**
+12. **What is your customer retention rate?**
+
+## Step 5: Productivity
+
+13. **How many full-time employees do you have?**
+14. **Do you track revenue per employee or profit per employee?**
 
 ---
 
-## Once You Answer, Here's What I'll Produce:
+## What I Will Produce
 
-**Profit Lever Scorecard**
-- Ranking of available levers by impact and effort
-- Quick wins (easy, high impact): Do these first
-- Medium-term improvements (medium effort, high impact)
-- Long-term strategic moves
+**Profit Tree Analysis**
+- Walk each branch (Revenue > Price/Volume/Mix, COGS, SG&A) and identify the branch with the biggest dollar opportunity
+
+**Lever Scorecard** (ranked by impact and effort)
+- Quick wins (high impact, low effort): do these first
+- Medium-term improvements (requires process changes)
+- Strategic moves (longer timeline, bigger payoff)
 
 **Specific Recommendations**
-- Working capital optimization (AR, AP, inventory)
-- Pricing strategy (test, positioning, psychology)
-- Cost control opportunities (fixed vs variable, discretionary spend)
-- Productivity/utilization improvements (if services business)
+- Pricing strategy (value-based positioning, test approach, increase plan)
+- Cost reduction targets (vendor renegotiation, subscription audit, procurement)
+- Productivity improvements (revenue per employee benchmarks)
+- Customer strategy (RFM segmentation, CLV improvement levers)
 
 **Impact Quantification**
-- Current profit: $X
-- Lever 1 impact: +$Y (% improvement)
-- Lever 2 impact: +$Z
-- Combined scenario: New profit level
+- Current profit baseline
+- Projected impact of each lever ($, %)
+- Combined scenario showing new profit level
 
 **Implementation Roadmap**
-- What to do first (by effort and impact)
-- Timeline (1 month / quarter / year)
-- Success metrics and monitoring
+- What to do first, second, third
+- Owner assignments and timelines
+- Success metrics to track monthly
 
-**Share your answers above** and I'll pinpoint your highest-impact profit opportunities.
+**Share your answers above** and I will map your profit tree and identify the fastest path to improved margins.

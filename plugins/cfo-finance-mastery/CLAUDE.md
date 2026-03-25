@@ -1,246 +1,155 @@
-# CLAUDE.md: cfo-finance-mastery Plugin
+# CFO Finance Mastery v2.0 -- Routing & Operations
 
 ## Plugin Overview
 
-This plugin provides **comprehensive CFO-level financial analysis, modeling, forecasting, dashboards, profit optimization, and advisory frameworks** for business owners and operators managing $100M+ in decisions.
-
-Built from:
-- Charles Leikauf's **CFO Mastery** program (strategic frameworks, profit levers, client engagement, sales psychology)
-- Josh Aharonoff's **Financial Modeling & Excel Dashboards** courses (DADA framework, Power Query, three-statement integration)
-- Real-world case studies and client scenarios
-
-**Design principle:** Organized by **workflow stage**, not financial topic. Business owners work through: Diagnose → Understand Drivers → Forecast → Optimize → Monitor → Communicate. This plugin follows that sequence.
-
----
-
-## Skill Routing Table
-
-| User Intent | Primary Skill | Secondary Skill | Trigger Command |
-|------------|--------------|-----------------|-----------------|
-| "My financials are confusing" | financial-diagnostics | financial-modeling-excel | /analyze-financials |
-| "I don't understand cash vs profit" | financial-diagnostics | advisory-communication | /analyze-financials |
-| "I need a financial model" | financial-modeling-excel | forecasting-strategy | /forecast-to-model |
-| "How do I build a model?" | financial-modeling-excel | power-query-dashboards | /forecast-to-model |
-| "What will next year look like?" | forecasting-strategy | profit-levers | /build-forecast |
-| "I need a forecast" | forecasting-strategy | financial-modeling-excel | /build-forecast |
-| "How do I make more profit?" | profit-levers | financial-diagnostics | /optimize-profit |
-| "My margins are shrinking" | profit-levers | financial-diagnostics | /optimize-profit |
-| "I need to improve cash flow" | profit-levers | financing-strategy | /optimize-profit |
-| "Should I take a loan?" | financing-strategy | profit-levers | /financing-decision |
-| "What's the best financing?" | financing-strategy | forecasting-strategy | /financing-decision |
-| "I need a dashboard" | power-query-dashboards | financial-modeling-excel | /build-dashboard |
-| "How do I monitor monthly?" | power-query-dashboards | financial-diagnostics | /build-dashboard |
-| "How do I explain this to my investor?" | advisory-communication | financial-diagnostics | /explain-to-stakeholder |
-| "My team doesn't understand the numbers" | advisory-communication | financial-diagnostics | /explain-to-stakeholder |
-| "How do I coach my CFO?" | advisory-communication | depends on peer's focus (diagnostics/modeling/forecasting/profit/financing) | /mentor-peer |
-| "What's my burn rate?" / "Am I running out of cash?" | financial-diagnostics | — | /analyze-financials |
-| "Help me prepare for a board meeting" | advisory-communication | financial-diagnostics | /explain-to-stakeholder |
-| "What KPIs should I track?" | power-query-dashboards | financial-diagnostics | /build-dashboard |
-| "Compare this quarter to last quarter" | financial-diagnostics | — | /analyze-financials |
-| "Should I hire more people?" / "Can I afford to expand?" | forecasting-strategy | profit-levers | /build-forecast |
-| "What's my cash runway?" / "How fast are we burning?" | financial-diagnostics | forecasting-strategy | /analyze-financials |
-| "When will we break even?" | forecasting-strategy | profit-levers | /build-forecast |
-| "I need to prepare for the board meeting" | advisory-communication | financial-diagnostics | /explain-to-stakeholder |
-| "How do I run the monthly close?" | financial-diagnostics | financial-modeling-excel | /analyze-financials |
+Complete CFO-level financial knowledge engine for business owners. Built from 4 extraction files covering Leikauf's CFO Mastery curriculum and Aharonoff's Financial Modeling, Excel Dashboard, and Excel Everything courses. Provides end-to-end guidance from financial statement diagnosis through three-statement modeling, covering diagnostics, ratio analysis, forecasting, modeling, profit optimization, working capital, financing, dashboards, Excel techniques, and stakeholder communication.
 
 ---
 
 ## Ambiguous Request Decision Tree
 
+When a user's request could match multiple skills, use this decision tree:
+
 ```
-User asks something financial but it's unclear which skill to use
-│
-├─ "I need help with my financials"
-│  └─ Ask: "Are you trying to understand what happened (analysis)
-│            or predict what comes next (forecast)?"
-│
-├─ "I'm growing but losing money"
-│  └─ Root cause: financial-diagnostics first (identify the problem)
-│      Then: profit-levers (fix it)
-│
-├─ "I need an Excel model"
-│  └─ Ask: "Do you have a forecast to put in the model, or do we
-│            need to build that first?"
-│      If no forecast: /build-forecast first, then /forecast-to-model
-│      If yes: /forecast-to-model directly
-│
-├─ "Should I invest in X / expand / hire?"
-│  └─ Root cause: forecasting-strategy (model the impact)
-│      Then: financing-strategy (if capital needed)
-│
-├─ "I don't know if we're on track"
-│  └─ Build diagnostics first: /analyze-financials
-│      Then: power-query-dashboards (create monitoring system)
-│
-├─ "My investor is asking questions"
-│  └─ Root cause: advisory-communication (/explain-to-stakeholder)
-│      May need financial-diagnostics first if investor is asking
-│      for specific analysis
-│
-├─ IF request is about hiring/scaling/expansion
-│  └─ Route to forecasting-strategy first (model the impact before deciding)
-│
-├─ IF request is about presenting to board/investors
-│  └─ Route to advisory-communication with financial-diagnostics as secondary
-│
-└─ If still unclear: "Tell me what decision you're trying to make,
-                       and what information you need to make it well."
+Is the user asking about READING or DIAGNOSING financial statements?
+  YES -> Is it about specific ratios or benchmarks? -> financial-ratios
+       -> Is it about AR/AP/inventory management? -> working-capital
+       -> Otherwise -> financial-diagnostics
+  NO -> Continue
+
+Is the user asking about RATIOS, BENCHMARKS, or LENDING METRICS?
+  YES -> financial-ratios
+  NO -> Continue
+
+Is the user asking about FORECASTING or PROJECTIONS?
+  YES -> Is it about building assumptions, scenarios, or projection methods? -> forecasting-strategy
+       -> Is it about building the actual model in Excel? -> financial-modeling
+  NO -> Continue
+
+Is the user asking about a FINANCIAL MODEL or THREE-STATEMENT MODEL?
+  YES -> Is it about the architecture, drivers tab, or error checks? -> financial-modeling
+       -> Is it about choosing projection methods? -> forecasting-strategy
+       -> Is it about Excel formulas/shortcuts? -> excel-for-finance
+  NO -> Continue
+
+Is the user asking about PROFIT IMPROVEMENT?
+  YES -> Is it about pricing, cost reduction, or revenue growth? -> profit-optimization
+       -> Is it about AR/AP/inventory/CCC specifically? -> working-capital
+  NO -> Continue
+
+Is the user asking about FINANCING or LENDING?
+  YES -> financing-strategy
+  NO -> Continue
+
+Is the user asking about DASHBOARDS or REPORTING?
+  YES -> Is it about Excel dashboard design? -> dashboards-and-reporting
+       -> Is it about presenting to stakeholders? -> advisory-communication
+  NO -> Continue
+
+Is the user asking about EXCEL techniques?
+  YES -> excel-for-finance
+  NO -> Continue
+
+Is the user asking about COMMUNICATION or CLIENT CALLS?
+  YES -> advisory-communication
+  NO -> Ask clarifying questions
 ```
 
 ---
 
-## Execution Priority Order
+## Skill Routing Table (All 10 Skills)
 
-When a user asks for something that could involve multiple skills, address in this order:
+### Layer 1: FOUNDATION
+| Skill | Display Name | Use When |
+|---|---|---|
+| `financial-diagnostics` | Financial Diagnostics | P&L, balance sheet, cash flow diagnosis, vertical/horizontal/variance analysis, profit leak detection, revenue recognition, COGS vs SG&A classification |
+| `financial-ratios` | Financial Ratios | Liquidity, profitability, efficiency, leverage, return, working capital, lending ratios with targets and benchmarks, CCC deep dive, DSCR |
 
-### 1. **Diagnose Reality First**
-- Use financial-diagnostics before recommending changes
-- Can't optimize what you don't understand
-- Exception: If they already have a diagnosis, skip to #2
+### Layer 2: FORWARD PLANNING
+| Skill | Display Name | Use When |
+|---|---|---|
+| `forecasting-strategy` | Forecasting Strategy | 12-month rolling forecasts, STEP framework, Porter's Five Forces, 3-scenario modeling, 9 P&L projection methods, EPN/ARSR revenue frameworks, headcount projection, seasonal adjustment |
+| `financial-modeling` | Financial Modeling | DADA framework, 3-statement model architecture, drivers tab, template tab, color coding, error checks, BS projection, actualization, roll-forward, model audit |
 
-### 2. **Understand Drivers**
-- Use financial-modeling-excel to link assumptions to outcomes
-- Prevents "false solutions" to misdiagnosed problems
-- Exception: If they just want quick recommendations, can skip to #3
+### Layer 3: OPTIMIZATION
+| Skill | Display Name | Use When |
+|---|---|---|
+| `profit-optimization` | Profit Optimization | Pricing strategy, cost reduction, productivity metrics, profit tree, revenue diversification, CLV/RFM analysis, negotiation tactics, best owner theory |
+| `working-capital` | Working Capital | AR management (28-day billing, factoring), AP management (vendor negotiation), inventory (ABC analysis, JIT), CCC optimization, payroll timing |
 
-### 3. **Model the Future**
-- Use forecasting-strategy to stress-test ideas
-- Prevents decisions that look good short-term but fail long-term
-- Exception: If they're in crisis (need immediate optimization), can parallelize with #4
+### Layer 4: CAPITAL
+| Skill | Display Name | Use When |
+|---|---|---|
+| `financing-strategy` | Financing Strategy | Five Cs of credit, DSCR targets, debt matching, MCA warning, credit card strategy, SBA programs, lender relationships, personal guarantees |
 
-### 4. **Optimize Within Reality**
-- Use profit-levers once you know the business model
-- Focus on highest-impact levers first
-- Exception: Some levers (pricing) require forecasting first
+### Layer 5: MONITORING
+| Skill | Display Name | Use When |
+|---|---|---|
+| `dashboards-and-reporting` | Dashboards & Reporting | Excel dashboards, Power Query ETL, KPI cards, budget vs actuals, gauge/donut charts, management reports, cash-out/break-even/spotlight dashboards, pivot tables |
+| `advisory-communication` | Advisory Communication | CFO Value Pyramid, simplification framework, R-D-R format, learning styles, EQ for CFOs, 3x3 monthly call structure, five-day close advocacy |
 
-### 5. **Get Financing Right**
-- Use financing-strategy only AFTER profit optimization (don't borrow to cover bad margins)
-- Structure capital stacks on sound business model
-- Exception: If they're in working capital crisis, address immediately
-
-### 6. **Monitor & Communicate**
-- Use power-query-dashboards for ongoing tracking
-- Use advisory-communication for stakeholder updates
-- These run in parallel; both important for execution
-
----
-
-## Slash Command Summary
-
-| Command | Purpose | Skill |
-|---------|---------|-------|
-| `/analyze-financials` | Diagnose P&L, balance sheet, cash flow | financial-diagnostics |
-| `/build-forecast` | Create 12-month forecast | forecasting-strategy |
-| `/optimize-profit` | Identify profit levers and quick wins | profit-levers |
-| `/financing-decision` | Evaluate financing options, true cost | financing-strategy |
-| `/build-dashboard` | Create Excel dashboard with Power Query | power-query-dashboards |
-| `/forecast-to-model` | Convert forecast into 3-statement model | financial-modeling-excel |
-| `/explain-to-stakeholder` | Translate financials for audience | advisory-communication |
-| `/mentor-peer` | Coach peer through financial challenge | advisory-communication |
+### Layer 6: ENABLEMENT
+| Skill | Display Name | Use When |
+|---|---|---|
+| `excel-for-finance` | Excel for Finance | Date functions, lookups (INDEX MATCH, XLOOKUP), SUMIFS/SUMPRODUCT, What-If analysis, tables, named ranges, formula auditing, conditional formatting, macros, Camera tool, shortcuts |
 
 ---
 
-## Skill Cross-References
+## Cross-Skill Workflow Chains
 
-### financial-diagnostics
-- References: financial-modeling-excel (for modeling corrected financials), profit-levers (once diagnosis reveals problems), advisory-communication (explaining findings to stakeholders)
-- Trigger: "What's happening in my financials?"
+### Full Diagnostic-to-Action Workflow
+```
+financial-diagnostics -> financial-ratios -> forecasting-strategy -> financial-modeling -> dashboards-and-reporting -> advisory-communication
+```
 
-### financial-modeling-excel
-- References: financial-diagnostics (analyze historicals first), forecasting-strategy (extend model into future), power-query-dashboards (display model outputs), profit-levers (use model to test scenarios)
-- Trigger: "I need a financial model"
+### Profit Improvement Workflow
+```
+financial-diagnostics -> financial-ratios -> profit-optimization -> working-capital -> forecasting-strategy (model impact)
+```
 
-### forecasting-strategy
-- References: financial-diagnostics (understand historical trends), financial-modeling-excel (convert forecast to model), profit-levers (optimize within forecast), financing-strategy (ensure cash flow supports debt)
-- Trigger: "What should my business look like next year?"
+### Lending Preparation Workflow
+```
+financial-diagnostics -> financial-ratios (lending ratios) -> financing-strategy
+```
 
-### profit-levers
-- References: financial-diagnostics (identify which levers are broken), forecasting-strategy (model impact of changes), financing-strategy (understand cost of capital before investing), advisory-communication (influence stakeholder adoption)
-- Trigger: "How do I make more profit?"
-
-### financing-strategy
-- References: forecasting-strategy (understand cash flow before committing to debt), profit-levers (optimize before borrowing), advisory-communication (explain capital decisions to board)
-- Trigger: "Do I need a loan? What's the best option?"
-
-### power-query-dashboards
-- References: financial-modeling-excel (data source), financial-diagnostics (interpret dashboard outputs), advisory-communication (present to stakeholders)
-- Trigger: "I need a dashboard I can update monthly"
-
-### advisory-communication
-- References: All skills (communication is delivery mechanism), most commonly paired with financial-diagnostics (explaining findings) and forecasting-strategy (presenting scenarios)
-- Trigger: "How do I explain this to my investor/team?"
+### Model Building Workflow
+```
+forecasting-strategy (assumptions) -> financial-modeling (construction) -> dashboards-and-reporting (BvA output)
+```
 
 ---
 
-## Product Marketing Context
+## Slash Commands
 
-This plugin is built for:
-- **Business owners** with $100M+ in financial decisions (not aspiring CFOs)
-- **Operators** who want to understand and improve their own financials (not outsource)
-- **Strategic thinkers** who want frameworks and models, not just analysis
-- **Action-oriented** folks who need to implement, not just learn
-
-**Not designed for:**
-- Bookkeeping or accounting accuracy issues (those belong to accounting team)
-- Tax optimization (that's a CPA/tax advisor role)
-- Business strategy beyond financial implications
-- External consulting sales process
-
----
-
-## In Scope vs Out of Scope
-
-### IN SCOPE (CFO Work)
-- Financial analysis and interpretation (P&L, balance sheet, cash flow)
-- Forecasting and scenario planning
-- Driver-based financial modeling
-- Profit lever identification and optimization
-- Working capital management (AR, AP, inventory)
-- Financing options and capital structure
-- KPI dashboarding and monitoring
-- Communication frameworks and advisor positioning
-- Real-world case studies and niche-specific insights
-
-### OUT OF SCOPE
-- Bookkeeping corrections or GL reconciliation (accounting team)
-- Tax planning or tax filing (CPA/tax advisor)
-- General business consulting unrelated to finance
-- Operational execution (owner/operations team)
-- Moving client funds or running payroll (liability risk)
-- Personal financial planning (outside business)
-- Hourly billing advice (only value-based pricing)
-- Sales methodology (only financial advisory framework)
+| Command | Primary Skill | Description |
+|---------|--------------|-------------|
+| `/analyze-financials` | financial-diagnostics | Guided P&L, balance sheet, and cash flow diagnosis |
+| `/ratio-analysis` | financial-ratios | Calculate and interpret key financial ratios |
+| `/build-forecast` | forecasting-strategy | Build a 12-month rolling forecast with scenarios |
+| `/forecast-to-model` | financial-modeling | Convert forecast assumptions into a 3-statement model |
+| `/optimize-profit` | profit-optimization | Identify and prioritize profit levers |
+| `/working-capital` | working-capital | Optimize AR/AP/inventory and CCC |
+| `/financing-decision` | financing-strategy | Evaluate financing options and prepare for lending |
+| `/build-dashboard` | dashboards-and-reporting | Design an Excel dashboard with Power Query |
+| `/excel-help` | excel-for-finance | Excel formula or technique guidance |
+| `/explain-to-stakeholder` | advisory-communication | Translate financial data for a non-finance audience |
+| `/structure-cfo-call` | advisory-communication | Plan a monthly CFO review call |
 
 ---
 
-## Key Assumptions About Users
+## Instructor Disagreements -- Resolution Guide
 
-1. **They have financial data available** (QuickBooks, Xero, exports, or manual records)
-2. **They want to use Excel** (not other BI tools; Excel is standard for their environment)
-3. **They're making decisions, not reporting to regulators** (financial statements vs SEC compliance)
-4. **They value action over perfection** (directionally correct forecast beats perfect one never completed)
-5. **They're willing to learn frameworks** (not just hire someone else)
-6. **They want opinionated advice** (not just "here are the options")
+### SUMPRODUCT vs SUMIFS
+- **SUMIFS:** Use for structured data pulls (drivers tab, source-to-destination)
+- **SUMPRODUCT:** Use for dashboard formulas with multi-criteria logic and sum/index switching
+- Both are correct tools -- use case determines the choice
 
----
+### P&L Terminology
+- **Leikauf:** Uses EBIT/EBITDA (standard in banking/lending contexts)
+- **Aharonoff:** Uses "Net Operating Income" / "Net Other Income" (maps to three-statement model)
+- **Mapping:** Operating Income = EBIT = Net Operating Income
 
-## Quality Standards
-
-- **SKILL.md files:** Under 500 lines, concept-focused, decision trees with examples
-- **Reference files:** 200–600 lines, detailed, step-by-step, real case studies
-- **Slash commands:** Interactive, ask questions first, produce structured output
-- **Tone:** Practical, specific, synthesized, opinionated (not generic "best practices")
-- **Real numbers:** Always use exact thresholds (e.g., 30% cost of capital hurdle, 45-day DSO, safety stock formula)
-- **Jargon:** Financial terms explained once, then used confidently
-
----
-
-## How to Use This Plugin
-
-1. **Start with your question or decision:** "I need to improve profit" → /optimize-profit
-2. **Plugin asks clarifying questions** → You provide data and context
-3. **Plugin suggests skill(s)** → Reads relevant SKILL.md + reference files
-4. **Plugin produces structured output** → Analysis, recommendation, roadmap
-5. **Plugin suggests next step** → "Now try /forecast-to-model to test impact" or "See profit-levers skill for deep dive"
-
-Each interaction leaves you more financially literate and self-sufficient.
+### Forecasting Approach
+- **Leikauf:** External-environment-driven (STEP, Porter's) -- sets assumptions
+- **Aharonoff:** Formula-driven projection mechanics (nine methods) -- implements assumptions
+- **Resolution:** Complementary. Phase 1: Leikauf's frameworks. Phase 2: Aharonoff's methods.

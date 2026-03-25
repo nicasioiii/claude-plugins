@@ -52,6 +52,21 @@
       "name": "course-to-plugin",
       "source": "./plugins/course-to-plugin",
       "description": "Transform course transcripts into production-ready plugins. Supports new builds and updating existing plugins with recursive deep audits."
+    },
+    {
+      "name": "email-marketing-mastery",
+      "source": "./plugins/email-marketing-mastery",
+      "description": "Email marketing across ecommerce and creator businesses: flows, campaigns, launches, welcome sequences, subject lines, copywriting, deliverability, segmentation, newsletters, and monetization."
+    },
+    {
+      "name": "social-content-mastery",
+      "source": "./plugins/social-content-mastery",
+      "description": "Organic content creation and personal branding: hooks, scripts, video production, editing, platform strategy, growth tactics, monetization, brand partnerships, community building, and AI workflows."
+    },
+    {
+      "name": "funnel-mastery",
+      "source": "./plugins/funnel-mastery",
+      "description": "Sales funnel strategy and execution: funnel economics, offer design, funnel architecture, sales pages, VSLs, advertorials, upsells/downsells, backend sequences, checkout optimization, and CRO."
     }
   ]
 }

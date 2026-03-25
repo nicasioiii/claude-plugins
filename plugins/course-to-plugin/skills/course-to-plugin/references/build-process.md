@@ -484,8 +484,11 @@ CONTENT COMPLETENESS CHECKS (read extraction files side-by-side with built plugi
 29. TEMPLATE/CHECKLIST COMPLETENESS: All step-by-step templates, checklists, decision trees, and fill-in-the-blank frameworks from extractions must be in reference files with full structure intact — not condensed into a single sentence in the SKILL.md.
 30. CROSS-INSTRUCTOR SYNTHESIS: Where multiple instructors covered the same topic, verify the plugin synthesizes their perspectives (not just picks one). Where instructors disagree, verify the disagreement is documented with both positions and when each applies.
 
+MARKETPLACE INTEGRATION CHECK:
+31. MARKETPLACE.JSON REGISTRATION: Verify the plugin is listed in `/Users/Nic/Documents/GitHub/claude-plugins/.claude-plugin/marketplace.json` with correct name, source path, and description. If the plugin is NOT in marketplace.json, this is a CRITICAL FAIL — the plugin will be invisible in Claude Code/Cowork even if all files are correct. Also verify the root README.md (`/Users/Nic/Documents/GitHub/claude-plugins/README.md`) has a row for this plugin with correct version, skill count, and command count.
+
 OUTPUT: Structured report with:
-- PASS/FAIL for each numbered check (1-30)
+- PASS/FAIL for each numbered check (1-31)
 - For each FAIL: file path, specific issue, recommended fix
 - Content completeness score: X/7 completeness checks passed
 - List of specific extraction content that didn't make it into the plugin
@@ -516,7 +519,11 @@ After each cycle, fix in this priority order:
 12. For incomplete templates (check 29): add the full template structure to the reference file
 13. For missing synthesis (check 30): add the second instructor's perspective with a "When experts disagree" section
 
-**Then:** Re-run the FULL audit (all 30 checks, not just the failed ones)
+**Priority 0 — Marketplace integration (check 31):**
+0. If plugin is missing from marketplace.json, add it IMMEDIATELY — this is why plugins become invisible in Claude Code/Cowork
+0b. If root README.md is missing the plugin row, add it with actual filesystem counts
+
+**Then:** Re-run the FULL audit (all 31 checks, not just the failed ones)
 
 ### Phase 6 (Update Mode)
 - Full recursive audit of the ENTIRE updated plugin (not just new files)
@@ -623,6 +630,8 @@ Use `present_files` tool to present `.plugin` files — this gives the user a cl
 
 ## Phase 7.5: Marketplace Integration
 
+**CRITICAL: This phase is NOT optional. A plugin that passes all 30 audit checks but is not in marketplace.json will be INVISIBLE to users. This is the #1 cause of "my plugin doesn't show up" issues.**
+
 The marketplace repo is always at `/Users/Nic/Documents/GitHub/claude-plugins/`.
 
 ### Steps:
@@ -670,7 +679,21 @@ The marketplace repo is always at `/Users/Nic/Documents/GitHub/claude-plugins/`.
    - Also update the total plugin count in the description line if a new plugin was added
    - **Do NOT skip this** — stale root README data is visible on GitHub and misleads users
 
-6. Ask the user: "Want me to commit and push to the marketplace repo?"
+6. **PRE-COMMIT VERIFICATION GATE** — Before committing, run these 3 checks. Do NOT commit until all 3 pass:
+   ```bash
+   # Check 1: Plugin exists in marketplace.json
+   grep -q '"[plugin-name]"' /Users/Nic/Documents/GitHub/claude-plugins/.claude-plugin/marketplace.json && echo "PASS: In marketplace.json" || echo "FAIL: NOT in marketplace.json — add it now!"
+
+   # Check 2: Plugin has a row in root README.md
+   grep -q '[plugin-name]' /Users/Nic/Documents/GitHub/claude-plugins/README.md && echo "PASS: In root README" || echo "FAIL: NOT in root README — add row now!"
+
+   # Check 3: Plugin count in README matches actual plugin count
+   actual=$(ls -d /Users/Nic/Documents/GitHub/claude-plugins/plugins/*/ | wc -l | tr -d ' ')
+   echo "Actual plugin count: $actual — verify README header matches"
+   ```
+   If any check fails, fix it before proceeding.
+
+7. Ask the user: "Want me to commit and push to the marketplace repo?"
    - If yes: `git add . && git commit -m 'Add/update [plugin-name] v[version]' && git push`
    - If no: leave changes staged for manual review
 

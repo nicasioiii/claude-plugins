@@ -1,5 +1,5 @@
 {
   "name": "course-to-plugin",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Transform folders of course transcripts into production-ready plugins with skills, commands, and reference files. Supports building new plugins from scratch and updating existing plugins with new course material. Includes recursive deep audits, dual Cowork/Claude Code compatibility, and automatic marketplace integration."
 }

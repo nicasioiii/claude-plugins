@@ -1,6 +1,6 @@
 # Nic's Claude Plugins
 
-Private plugin marketplace — 9 plugins synthesized from expert courses.
+Private plugin marketplace — 10 plugins synthesized from expert courses.
 
 ## Plugins
 
@@ -11,6 +11,7 @@ Private plugin marketplace — 9 plugins synthesized from expert courses.
 | course-to-plugin | 2.1.0 | 1 | 2 |
 | cro-copywriting-mastery | 2.0.0 | 14 | 12 |
 | design-mastery | 2.0.0 | 14 | 15 |
+| email-marketing-mastery | 1.0.0 | 12 | 8 |
 | marketing-skills | 1.4.0 | 18 | 0 |
 | paid-ads-mastery | 2.0.0 | 16 | 8 |
 | sales-negotiation-mastery | 2.0.0 | 12 | 8 |

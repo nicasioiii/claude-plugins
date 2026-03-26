@@ -1,97 +1,45 @@
 ---
-name: Generate Spec Sheet
-description: Generate a product specification sheet from user inputs using Kian Golzari's 21-field template. Activates product-development skill and ref-spec-sheet-template reference.
+name: Spec Sheet
+description: Complete product specification sheet from a product concept, including materials, dimensions, packaging requirements, and sampling plan. Activates product-development.
 ---
 
 # Spec Sheet Generator
 
 ## Step 1: Gather Product Details
 
-### Required Inputs
-1. **Brand name:** Your brand name
-2. **Product name:** Specific product name
-3. **Product category:** (e.g., bags, kitchen, beauty, electronics)
-4. **Primary material:** Main material with grade/weight if known
-5. **Secondary materials:** Lining, padding, hardware (if applicable)
-6. **Desired colors:** (Will convert to Pantone)
-7. **Dimensions:** Length x Width x Height (approximate is OK)
-8. **Target weight:** Acceptable range
-9. **Key features:** List all features the product must have
-10. **Packaging preference:** Poly bag, color box, hang tag, etc.
-11. **Certifications needed:** Any regulatory requirements?
-12. **Target market:** US, EU, both, other?
-13. **Launch target date:** When do you need stock?
+Ask the user:
+1. **Product:** What is the product?
+2. **Materials:** What materials should it be made of? (If unsure, provide options)
+3. **Dimensions:** Approximate size and weight?
+4. **Features:** What are the key functional and aesthetic features?
+5. **Target price:** What retail price are you targeting?
+6. **Target market:** US, EU, both? (affects compliance requirements)
+7. **Packaging:** Any packaging preferences? (standard box, premium, eco-friendly?)
+8. **Competitor references:** Any existing products to reference?
 
-### Optional Inputs
-- Competitor product links (for reference images)
-- Sketches or mockups
-- Specific material grades or standards
-- Size variations needed
+## Step 2: Generate Specification Sheet
 
----
+Load `skills/product-development/SKILL.md` and `skills/product-development/references/ref-product-development-processes.md`.
 
-## Step 2: Generate Spec Sheet
+Output complete spec sheet with all Golzari template fields:
+- Header (brand, product, code, season)
+- Materials breakdown per component
+- Color specifications (Pantone guidance)
+- Dimensions and tolerances
+- Feature requirements
+- Labeling and hangtag specs
+- Packaging specifications
+- Competitor reference images to include
+- Quote request section
 
-Using Kian Golzari's 21-field template, generate a formatted spec sheet document.
+## Step 3: Sampling Plan
 
-### Output Format
+Output 3-stage sampling timeline with specific milestones and sign-off criteria.
 
-```
-PRODUCT SPECIFICATION SHEET
-============================
-Brand: [name]
-Product: [name]
-Product Code: [suggest SKU format]
-Launch Season: [target]
-Date: [today]
-Version: 1.0
+## Step 4: Compliance Check
 
-MATERIALS & CONSTRUCTION
-Primary Material: [material with grade]
-Secondary Materials: [list each with specification]
-Hardware: [zippers, buckles, etc. with type]
-Thread: [color specification]
+Flag regulatory requirements. Recommend compliance consultant if in regulated category.
 
-COLORS
-Pantone Primary: [suggest Pantone based on described color]
-Pantone Secondary: [if applicable]
+## Step 5: Next Steps
 
-DIMENSIONS
-Length: [X] cm / [X] inches
-Width: [X] cm / [X] inches
-Height: [X] cm / [X] inches
-Weight: [X] g / [X] oz (target range)
-
-FEATURES
-1. [Feature with specification]
-2. [Feature with specification]
-[... all features]
-
-PACKAGING
-Type: [box/bag/etc.]
-Dimensions: [sized to product]
-Labels: [required labels]
-Barcode: [UPC/EAN requirement]
-Insert: [if applicable]
-
-COMPLIANCE
-Certifications Required: [list]
-Testing Required: [list]
-Labeling Requirements: [region-specific]
-
-PRODUCTION NOTES
-Master Carton: [units per carton]
-Special Instructions: [any]
-
-REFERENCE IMAGES
-[Note: attach competitor product images, mockups, or sketches]
-```
-
----
-
-## Step 3: Provide Sending Instructions
-
-- Send this IDENTICAL spec sheet to all 10 target manufacturers
-- This enables apples-to-apples price comparison
-- Do NOT drip-feed information over time -- all info upfront at once
-- Follow up within 48 hours if no response
+Direct to /find-supplier for the 10-3-1 method.

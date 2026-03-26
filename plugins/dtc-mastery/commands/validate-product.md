@@ -1,93 +1,56 @@
 ---
-name: Validate Product Idea
-description: Run a product idea through all validation frameworks (PSSP, Four Criteria, PRIME, TikTokability) with platform-specific scoring. Activates product-ideation skill.
+name: Validate Product
+description: Guided product scoring against all frameworks (PSSP, PRIME, 4-criteria, TikTokability). Outputs viability scorecard with go/no-go recommendation. Activates product-ideation.
 ---
 
 # Product Validation Wizard
 
-## Step 1: Gather Product Information
+## Step 1: Gather Product Details
 
 Ask the user these questions before proceeding. Do not skip any.
 
 ### Required Inputs
-1. **Product description:** What is the product? (One sentence)
-2. **Problem it solves:** What pain point does this address?
-3. **Target platform(s):** Shopify/DTC, Amazon, TikTok Shop, or all three?
-4. **Price range:** What do you plan to sell it for?
-5. **Estimated COGS:** What will it cost to manufacture? (If unknown, estimate from Alibaba)
-6. **Target audience:** Who is the buyer? (Age, gender, interests)
-7. **Competition:** Are similar products already selling? Where?
+1. **Product description:** What is the product? What does it do?
+2. **Problem it solves:** What pain point does it address?
+3. **Target customer:** Who is the ideal buyer? Age, interests, behaviors?
+4. **Approximate price point:** What would you sell it for?
+5. **Target platforms:** Shopify DTC, Amazon, TikTok Shop, or multi-platform?
+6. **Estimated landed cost:** What do you expect it to cost per unit delivered?
+7. **Current demand signals:** Have you seen this selling well anywhere? Google Trends? Amazon BSR?
 
----
+## Step 2: Score Against All Frameworks
 
-## Step 2: Run Platform-Specific Frameworks
+Load `skills/product-ideation/SKILL.md` and `skills/product-ideation/references/ref-product-ideation-frameworks.md`.
 
-### For ALL Platforms: Gretta's PSSP Check
-- [ ] **Problem:** Is there a clear, tangible pain point?
-- [ ] **Stat:** Can you find supporting data for the problem's scale?
-- [ ] **Solution:** Does a category-level solution exist?
-- [ ] **Product:** Does your specific product deliver that solution?
-- Score: ___/4
+### PSSP Clarity (0-10)
+Score the Problem -> Stat -> Solution -> Product chain. Is it clear, compelling, and marketable?
 
-### For DTC/Shopify: Matt Clark's Four Criteria
-- [ ] **Big Market:** Appeals to 1M+ people? Google Trends volume steady/growing?
-- [ ] **Healthy Margins:** Can sell for 4x landed cost? Dollar margin covers CAC?
-- [ ] **Messaging Potential:** Benefits communicable in <10 seconds?
-- [ ] **Media Buying Potential:** Photographs/films well? Can hook in 3 seconds?
-- Score: ___/4 (all 4 must pass)
+### Clark 4-Criteria (0-4)
+- Big market potential (0 or 1)
+- Good demand -- BSR < 10,000 for 2+ products (0 or 1)
+- Ability to differentiate (0 or 1)
+- High profit potential -- 4x landed cost (0 or 1)
 
-### For Amazon: Melisa Vong's PRIME + 10-Step Checklist
-- [ ] **Positioning:** <1,000 review competitors on page 1?
-- [ ] **Reviews:** Competitor pain points identified for improvement?
-- [ ] **In-Demand:** Main keyword >2,000 searches/month?
-- [ ] **Margins:** >30% profit after ALL Amazon fees?
-- [ ] **Easy:** <5 lbs, <18 inches?
-- Score: ___/5
+### PRIME Check (0-5)
+- Positioning potential (0 or 1)
+- Reviews mined for improvement opportunities (0 or 1)
+- In-demand verified by data (0 or 1)
+- Margins at 30%+ (0 or 1)
+- Easy to make and ship (0 or 1)
 
-### For TikTok Shop: Michelle's TikTokability
-- [ ] **Demonstrability:** Can show product appeal in seconds on video?
-- [ ] **Unique Attributes:** Distinct features that stand out?
-- [ ] **Serves a Niche:** Passionate target audience?
-- [ ] **Solves a Problem:** Problem + solution visible in video?
-- [ ] **Impulse Buy:** Priced below $50?
-- Score: ___/5 (need 3+ to proceed)
+### TikTokability (0-5)
+- Demonstrable in short video (0 or 1)
+- Unique visual attributes (0 or 1)
+- Serves a passionate niche (0 or 1)
+- Problem-solution in <10 seconds (0 or 1)
+- Impulse-buy optimized under $50 (0 or 1)
 
----
+## Step 3: Output Viability Scorecard
 
-## Step 3: E-Commerce Viability Check
-- [ ] Not too heavy for shipping
-- [ ] Not too fragile
-- [ ] Not heavily regulated (unless experienced)
-- [ ] Can ship worldwide
-- [ ] Not in a declining market (check Google Trends 5-year)
+Present a table with all scores, weighted total, and recommendation:
 
----
+- **GO** (70%+): Strong across frameworks, no critical fails. Proceed to brand-strategy.
+- **CONDITIONAL GO** (50-69%): One framework fails but others pass. List specific fixes needed.
+- **NO-GO** (<50%): Multiple critical fails. Recommend pivoting with specific guidance.
 
-## Step 4: Generate Validation Report
-
-### Output Format
-```
-PRODUCT VALIDATION REPORT
-========================
-Product: [name]
-Date: [date]
-
-PSSP SCORE: [X/4]
-FOUR CRITERIA (DTC): [X/4] - [PASS/FAIL]
-PRIME (Amazon): [X/5]
-TIKTOKABILITY: [X/5] - [PASS (3+) / FAIL]
-VIABILITY: [X/5 checks passed]
-
-OVERALL RECOMMENDATION: [PROCEED / PROCEED WITH CAUTION / PIVOT]
-
-STRENGTHS:
-- [list]
-
-RISKS:
-- [list]
-
-NEXT STEPS:
-1. [specific action]
-2. [specific action]
-3. [specific action]
-```
+Include: specific strengths, specific weaknesses, anti-pattern warnings, and next steps.

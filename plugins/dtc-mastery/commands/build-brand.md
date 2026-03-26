@@ -1,87 +1,43 @@
 ---
-name: Build Brand Identity
-description: Generate brand pyramid, name options, persona drafts, and designer brief. Activates brand-strategy skill and ref-naming-identity reference.
+name: Build Brand
+description: Brand pyramid workshop generating naming brainstorm, tone-of-voice definition, positioning statement, and content territory plan. Activates brand-strategy.
 ---
 
-# Brand Building Wizard
+# Brand Building Workshop
 
-## Step 1: Gather Brand Inputs
+## Step 1: Foundation
 
-### Required Inputs
-1. **Product/category:** What are you selling?
-2. **Target audience:** Who is your ideal customer? (Demographics + interests)
-3. **Problem you solve:** What pain point does your product address?
-4. **Values:** What 3-5 values matter most to your brand? (If unsure, list 5 brands you admire)
-5. **Competitor landscape:** Who are your top 3 competitors?
-6. **Tone preference:** Playful, professional, premium, rebellious, friendly, educational?
-7. **Budget stage:** Bootstrap (logo only) or funded (full brand kit)?
+Ask the user:
+1. **Product/category:** What do you sell or plan to sell?
+2. **Target customer:** Who is your ideal buyer? (demographics + psychographics)
+3. **Problem solved:** What pain point does your product address?
+4. **Brand SPO:** List 3-5 aspirational brands you admire. What do you like about each?
+5. **Existing assets:** Do you have a name, logo, or any brand elements already?
 
----
+## Step 2: Brand Pyramid
 
-## Step 2: Build Customer Personas (2-3)
+Load `skills/brand-strategy/SKILL.md` and `skills/brand-strategy/references/ref-brand-strategy-frameworks.md`.
 
-For each persona, generate:
-- Name and photo description
-- Age, gender, occupation, income
-- Psychographics (interests, habits, values)
-- Where they spend time online
-- What motivates their purchasing
-- Their biggest pain point related to your product
-- How they discover new products
+Walk through all 6 MVB elements:
+1. Target Audience (from customer personas)
+2. Benefits (rational brand benefits)
+3. Values (emotional RTBs)
+4. Aphorism (one-sentence value proposition)
+5. Vision (aspirational purpose)
+6. Brand Personality (1 core + 2 sub-archetypes)
 
-Include at least one contrarian persona (different values, same product -- like Todd vs. Susie).
+## Step 3: Naming
 
----
+Run name storming process:
+1. Word dump exercise (15+ words)
+2. Thesaurus exploration
+3. Generate 5-7 options across associative and coined categories
+4. Provide availability check guidance (domain, trademark, social)
 
-## Step 3: Build Minimum Viable Brand Pyramid
+## Step 4: Tone of Voice
 
-Generate all 6 elements:
-1. **Target Audience** -- summary from personas
-2. **Benefits** -- 3 rational/tangible benefits
-3. **Values** -- 3-4 emotional/intangible values
-4. **Aphorism** -- 2-3 options for brand value proposition
-5. **Brand Vision** -- one aspirational statement
-6. **Brand Personality** -- 1 core archetype + 2 sub-archetypes (from: Joker, Mother, King, Friend, Caregiver, Lover, Creator, Sage, Innocent, Explorer, Wise, Dreamer, Magician, Ruler, Shadow)
+Rate on 4 scales. Generate "We are ___ but not ___" pairs. Write 3 sample social posts in defined voice.
 
----
+## Step 5: Positioning & Content
 
-## Step 4: Generate Brand Name Options
-
-Using Gretta's 4-category framework, generate:
-- 2 Descriptive name options
-- 3 Associative/Suggestive name options (preferred)
-- 1 Coined/Abstract option
-- Check each against good name criteria (easy to remember, distinct, peaks interest, makes sense, open to development)
-- Flag any potential issues (like SkinnyMeTea's controversy risk)
-
----
-
-## Step 5: Designer Brief Draft
-
-Generate 9-section brief outline:
-1. Brand overview and goals
-2. Brand pyramid summary
-3. Product direction
-4. Brand kit guidance (color associations, typography preferences)
-5. Merch ideas
-6. Competition analysis
-7. Brand SPO (3-5 aspirational brands)
-8. Logo inspiration direction
-9. 2 mood board direction descriptions
-
----
-
-## Output Format
-
-```
-BRAND IDENTITY PACKAGE
-======================
-Brand: [working name]
-Date: [date]
-
-PERSONAS: [2-3 detailed personas]
-MVB PYRAMID: [complete 6 elements]
-NAME OPTIONS: [6 options across categories with pros/cons]
-DESIGNER BRIEF: [9-section outline]
-NEXT STEPS: [prioritized action items]
-```
+Output complete brand strategy document: pyramid, name recommendations, tone guide, positioning statement, 4-5 content territories, and next steps (-> product-development).

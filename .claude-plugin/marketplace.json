@@ -69,8 +69,8 @@
       "description": "Sales funnel strategy and execution: funnel economics, offer design, funnel architecture, sales pages, VSLs, advertorials, upsells/downsells, backend sequences, checkout optimization, and CRO."
     },
     {
-      "name": "dtc-brand-mastery",
-      "source": "./plugins/dtc-brand-mastery",
+      "name": "dtc-mastery",
+      "source": "./plugins/dtc-mastery",
       "description": "End-to-end DTC brand building across Shopify, Amazon, and TikTok Shop. Covers product ideation, sourcing, manufacturing, platform setup, launch, pricing, influencer marketing, operations, scaling, and exit strategy."
     }
   ]

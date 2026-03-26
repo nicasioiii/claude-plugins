@@ -1,4 +1,4 @@
-# DTC Brand Mastery v1.0.0 -- Routing & Operations
+# DTC Mastery v1.0.0 -- Routing & Operations
 
 ## Plugin Overview
 

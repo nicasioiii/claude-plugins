@@ -1,4 +1,4 @@
-# DTC Brand Mastery v1.0.0
+# DTC Mastery v1.0.0
 
 Complete DTC e-commerce knowledge engine for building, launching, and scaling product brands across Shopify/DTC, Amazon FBA, and TikTok Shop.
 
@@ -60,7 +60,7 @@ Built from 9 extraction files covering expert-level training:
 ## Structure
 
 ```
-dtc-brand-mastery/
+dtc-mastery/
   .claude-plugin/plugin.json
   CLAUDE.md                    # Full routing for all 15 skills
   README.md

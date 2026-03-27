@@ -1,245 +1,279 @@
 ---
 name: Write Scripts
-description: >
-  MANDATORY TRIGGERS: write a script, video script, script structure, storytelling,
-  LinkedIn post, write a post, caption writing, how to structure a video, script
-  outline, write-to-speak, story revision, post structure, LinkedIn writing, carousel
-  text, video outline, CTA writing, script formatting.
-  FOR: Writing complete scripts for video content and text-based social posts -- script
-  structure (hook/body/CTA), storytelling science, 4 storytelling revision rules, LinkedIn
-  post writing framework, video scripting techniques, caption writing, write-to-speak
-  principle, and platform-specific formatting. Synthesized from Gusten Sun (E03a),
-  Nicklas Christl (E05b), Mino Lee (E01), Dickie Bush & Cole (E02), and Bob Krist (E05c).
-  Do NOT use for: hooks specifically (use write-hooks), filming techniques (use film-video),
-  editing styles (use edit-video), content planning or idea generation (use content-strategy),
-  visual content like carousels (use produce-visual-content).
+description: "Script structure (Promise + Value), storytelling (4 rules, 6-stage arc, younger-self method), video scripting (8 viral formats, H.O.T. formula), copywriting rules, AIDA formula, 1/3/1 writing rhythm, rate of revelation, golden intersection, caption writing, CTA mastery, post endings framework. MANDATORY TRIGGERS: script, write a post, outline, structure, video script, LinkedIn post, Twitter thread, caption, CTA, call to action, storytelling, story, post body, post ending, conclusion, AIDA, writing rhythm, rate of revelation, write for me, draft, copywriting, post format, paragraph, listicle, how to write, script template, write content, caption writing. Do NOT use for hooks specifically -- use write-hooks instead. Do NOT use for content ideas or calendars -- use content-strategy instead. Do NOT use for platform-specific formats or algorithms -- use the relevant platform skill instead. Do NOT use for visual/carousel design -- use produce-visual-content instead. FOR: Anyone writing video scripts, social posts, captions, threads, or any content body beyond just the hook."
 ---
 
 # Write Scripts
 
-## Quick Navigation
-- **Storytelling frameworks & revision rules** -> ref-storytelling-frameworks.md
-- **LinkedIn writing & post structure** -> ref-linkedin-writing.md
-- **Video script structure** -> See video script section below
-- **4 levels of scripting** -> See scripting levels below
+## THE PROMISE + VALUE FRAMEWORK (Mino Lee, E01)
+
+Every piece of content that goes viral has two fundamental parts:
+
+### 1. PROMISE (The Hook)
+
+A declaration of assurance that something interesting/valuable will happen. Must be felt in the first 5-7 seconds. Can be explicit or subtle. **The hook IS the promise.** (For hook writing, see `write-hooks`.)
+
+### 2. VALUE (The Delivery)
+
+Actually paying off the promise. Must be delivered in a way that is entertaining, emotionally impactful, or educational. Done through: speech, music, visuals, edits, energy, performance, creativity.
+
+**The key insight (Mino Lee, E01):** In short-form, you only need to convince the viewer to THINK DIFFERENTLY about one small belief. That IS enough value. Don't try to deliver a PhD dissertation.
 
 ---
 
-## When to Read Reference Files
+## THE 8 VIRAL VIDEO FORMATS (Mino Lee, E01)
 
-| User Question Pattern | Load This Reference |
-|---|---|
-| How do I tell stories? Hero's Journey? Story vs retention? Emotional journey? | ref-storytelling-frameworks.md |
-| Story revision rules? Show don't tell? Story arc? 4 story elements? | ref-storytelling-frameworks.md |
-| LinkedIn post? Post structure? Formatting? Voice archetype? Content styles? | ref-linkedin-writing.md |
-| Carousel text? LinkedIn writing rules? Character counts? | ref-linkedin-writing.md |
+### 1. Educational Video
 
----
+**Structure:** Hook > Thing 1 (+ why crucial + example/story) > Thing 2 > Thing 3 > Conclusion/CTA
 
-## Cross-References
+- Hook must persuade viewer this covers THEIR problem
+- For each "thing": state it > explain WHY crucial > give quick example
+- Save the best thing for LAST (improves satisfaction and rewatchability)
+- Every sentence must justify its existence
+- After stating a "thing," always include WHY it matters
+- Embellish with opinion -- you're not a textbook
+- Inject personality through small stories/tangents
 
-| When This Happens | Route To |
-|---|---|
-| Script complete for video content | **film-video** for filming |
-| Script complete for text/visual content | **produce-visual-content** for design |
-| User needs a hook first | **write-hooks** then return here |
-| User has not planned content yet | **content-strategy** first |
-| User wants AI help writing | **ai-content-workflow** |
+### 2. Challenge Video
 
----
+**Three-Act Structure:** Goal setup (hook) > Setback/challenge > Satisfying payoff
+- Video without any challenge/obstacle is boring
+- Need stakes -- what happens if you fail?
 
-## Video Script Structure (E03a Gusten Sun)
+### 3. Vlog Video -- Lifestyle, day-in-the-life content
 
-### The 5-Part Framework
-1. **Hook**: The opening that stops the scroll (see write-hooks for deep-dive)
-2. **Main Big Idea**: The core concept or framework being taught
-3. **Bullet Points**: Supporting points, common mistakes, shifts, examples
-4. **Stories**: Personal experience of doing it wrong, then right
-5. **Call to Action**: Download something free, sign up, link in description
+### 4. Reaction Video -- Unique perspective on existing content
 
-### Write-to-Speak Principle (E03a)
-Scripts should be written the way you speak, not the way you write. Read scripts out loud before filming. If a sentence sounds unnatural spoken aloud, rewrite it. Conversational language always outperforms formal writing in video.
+### 5. Life Lesson Video -- Personal wisdom, cinematic TikTok/IG style
 
-### One Main Point Per Video (E01)
-Know what your ONE main point is before filming. Every sentence must relate back to that main point. Do not go on tangents about credentials or business unless directly relevant to the viewer's problem.
+### 6. News Story Video -- Covering specific news events
+
+### 7. Comparison Video -- Tier lists, versus formats
+
+### 8. Skit Video -- POV skits, comedy sketches
 
 ---
 
-## 4 Levels of Scripting (E05b Nicklas Christl)
+## H.O.T. SCRIPT FORMULA (Sunny, E08)
 
-### Level 1: Tightly Written Voiceover
-Every word scripted, read or memorized. Use for: educational/technical content where accuracy matters, introduction/hook sections where precision is critical.
+For high-retention YouTube videos:
 
-### Level 2: Guided Talking Points
-Key beats scripted, delivery improvised. Use for: interview-style content, semi-structured tutorials.
-
-### Level 3: Loose Outline
-General direction noted, most content improvised. Use for: behind-the-scenes content, experiential moments.
-
-### Level 4: Fully Improvised
-No script, purely in-the-moment. Use for: emotional/vulnerable moments where authenticity matters most, raw BTS content.
-
-### When to Use Which Level
-- Introduction/hook = tighter scripting (precision matters most)
-- Emotional/vulnerable moments = looser scripting (authenticity matters most)
-- Educational/technical sections = tighter scripting (accuracy matters)
-- BTS/experiential = fully improvised (rawness matters)
-
-### When to Script
-- Voiceover-heavy projects: script BEFORE shooting
-- Documentary/vlog: script DURING or AFTER shooting (once you know what footage you have)
+- **H -- Hook:** Opening that grabs attention and keeps viewers watching
+- **O -- Outcome:** What viewers will get/learn by watching
+- **T -- Testimonial/Trust:** Proof that the content delivers (social proof, credentials, results)
 
 ---
 
-## Storytelling Science (E01 Mino Lee)
+## STORYTELLING SYSTEM
 
-### Neurochemical Journey
-Stories trigger: dopamine, cortisol, oxytocin, serotonin, endorphins. Do not just maximize for dopamine. Take viewers through a JOURNEY of emotions. Making viewers feel sad/pain FIRST enables a GREATER height of dopamine later. If it is just excitement-excitement-excitement, there is no journey.
+> **When to Read Reference Files:** For the complete 6-stage story arc, show-don't-tell levels, physical vs. emotional journey, and 4 elements of great story detail, read `ref-storytelling.md`.
 
-### Emotion-to-Editing Map (E01)
-- **Upbeat/Exciting**: Drum-heavy songs, fast visuals, high saturation, close-ups
-- **Cool/Confident**: Pop/lyrical songs, rap
-- **Scary/Anxious**: Sudden staccato violin, risers
-- **Soft/Empathetic/Sad**: Softer strings, classical, minimal visuals, warm tones
-- Musical shifts imply mood shifts -- use intentionally to recapture attention
-- Cutting music entirely makes viewer pay MORE attention to what you say next
+### The 4 Elements of a Great Story (Nicklas, E03)
 
----
+1. **Mission** -- Character pursues a clear goal
+2. **Conflict** -- Obstacles block the mission
+3. **Character Transformation** -- Character changes through the journey
+4. **Vulnerability** -- Authentic emotional exposure creates connection
 
-## 4 Storytelling Revision Rules (E01)
+### The Younger-Self Scripting Process (Mino Lee, E01)
 
-### Rule 1: Is the Hook Clearly Understandable Outside Your Niche?
-Test by imagining you read it to a friend who knows NOTHING about your niche. Replace jargon with universal language: "retention" -> "keeping people watching." Making content understandable outside your niche is what makes videos go VIRAL (algorithm pushes to non-niche viewers).
+1. Think of yourself exactly 1 year ago -- close eyes for 20 seconds, remember that person
+2. List 5 specific things that happened your younger self would be excited about
+3. For each: What is ONE specific change it took to get there? (Be specific, not "work hard")
+4. What doubt would your younger self have said back? (KEY engagement hack)
+5. What do you say back to convince them? (3-4 sentences, use specific numbers)
+6. Final short message of encouragement or call to action
 
-### Rule 2: Does the Video End with a Practical Action Step?
-Viewer must take away ONE thing from watching. Options: action step ("start doing X today"), message of encouragement, joke/punchline, moral of the story. Great endings drive: rewatching, commenting, sharing.
+### The Golden Intersection (Dickie Bush, E07)
 
-### Rule 3: Use Examples with Specific Numbers, Dates, and Names
-Numbers paint pictures: "$1,000" triggers a mental image; "a lot of money" triggers nothing. Names create specificity. Ages/dates ground the story. Look at every sentence and ask: "Can I add a number, name, or date here?"
+Tell a personal story AND give actionable advice simultaneously.
+- "Sandwich" structure: advice opener > story in middle > actionable takeaway at end
+- If you only tell a story: "That's great but what does it have to do with me?"
+- If you only give advice: "Why should I trust you over everyone else?"
+- The Golden Intersection solves both problems
 
-### Rule 4: Use Past Continuous Tense for Storytelling
-- Boring: "Last year I went to a mall" (closed loop)
-- Better: "A year ago, I was driving to the mall..." (open loop, something happens during the action)
-- "I started seeing" vs. "I saw" -- continuous tense creates curiosity gaps
-- "As I was working out..." implies something happened WHILE working out
+### 3 Strategies to Find Stories (Nicklas, E03)
 
----
-
-## "You/Your" Language Rule (E01, E02)
-
-Use the word "you" or "we" or "us" within the first two sentences. When you say "I," it should really be about "us" and "you." Do not just talk about yourself -- think about what the VIEWER cares about. Best scripts describe the viewer's situation, not yours.
+1. **Your Life as a Story** -- Draw from personal experiences
+2. **Look for the Heroes** -- Find inspiring characters worth documenting
+3. **Explore a Global Topic** -- Pursue curiosity about world issues
 
 ---
 
-## LinkedIn Post Structure (E02)
+## COPYWRITING RULES (Frabrand, E01)
 
-### The Framework
-- **Hook** (first 200 chars): Must be both hook and cliffhanger. See write-hooks for LinkedIn-specific formats
-- **Introduction** (~300-400 chars): Opening hook -> Promise (niche-specific problem/outcome) -> Solution (1-2 sentences) -> Transition ("Let's walk through each one")
-- **Each Main Section** (~300-450 chars): Declarative opening (the "what") -> 3-5 tactical pieces (the "how") -> One-sentence insight (the "why")
-- **Conclusion** (~100-200 chars): Summary or engagement question
-- **CRITICAL**: Alternate format between bulleted lists and paragraph style across sections
-- Stay under 2,800 characters (of 3,000 max). Non-negotiable
+### 8 Rules of Copywriting
 
-### 5 Content Styles (E02)
-1. **Steps**: Process-driven, actionable
-2. **Stats**: Data-driven authority
-3. **Mistakes**: Pain-point driven
-4. **Lessons**: Story-driven wisdom
-5. **Examples**: Proof-driven credibility
+1. **Brevity always wins** -- if you can say it in 2 words, don't use 20
+2. **Never publish first draft** -- 6-24 hour gap between writing and editing
+3. **Use open loops** -- "but," "and," "let me explain" keep people reading
+4. **Balance machines and humans** -- SEO keywords for discovery, readability for engagement
+5. **Write for sixth graders** -- use Hemingway Editor to check readability
+6. **Provide context** -- why does this post exist? What pain does it solve?
+7. **Be specific** -- combine your wider niche with your unique superpowers
+8. People's tolerance for BORING content has shortened, not their attention span
 
-### Formatting Rules (E02)
-- Create "headers" with numbering (Item #1:, 1/, 1.)
-- Headers = section dividers for skimming AND value delivery (reader should get 80% of value from headers alone)
-- Use sentence-style headers: full sentences, first word capitalized
-- Short paragraphs (1-2 sentences), white space, clear section dividers
-- Avoid walls of text
+### AIDA Formula
 
----
+- **A**ttention (Slide 1 / first sentence)
+- **I**nterest (Slides 2-3 / next few sentences)
+- **D**esire or **D**etail (body of content)
+- **A**ction (call to action)
 
-## Video Script Writing Tips (synthesized)
-
-### From E03a (Gusten Sun)
-- Use a teleprompter for compression of value (respect viewer's time)
-- Outline approach works for authenticity-focused creators
-- Full script approach works for information-dense content
-- Read scripts aloud before filming
-
-### From E01 (Mino Lee)
-- Film 2-3 minutes of footage, cut down to 40-second video (only keep golden sentences)
-- Record only 3-4 sentences at a time so you do not lose breath
-- Take a deep breath before recording each segment
-- If viewer needs to remember the last 3 sentences for current sentence to make sense, it is too much elaboration
-
-### From E05b (Christl)
-- Scripting brings clarity, structure, and intentionality
-- Prevents rambling and ensures every second serves the story
-- 4-step writing process: Research -> Outline structure -> Write script -> Edit for clarity (cut ruthlessly)
+**Variations:**
+- Middle CTA: Education > CTA in middle > More education > Final CTA
+- Heavy education: Hook > All education > CTA at end
+- Storytelling: Interest > Open loops > Curiosity gaps > CTA
 
 ---
 
-## Caption Writing (E04a, E04b)
+## 1/3/1 WRITING RHYTHM (Dickie Bush, E07)
 
-### Instagram Caption Structure
-- Hook -> Value -> Call to Action
-- Write simple, short sentences. No long paragraphs. Lists work best
-- Time spent reading description counts as reel watch time (algorithm hack)
-- CTA with a question before it converts better: "Want to lose 10kg in one month? DM me 'guide'"
+The foundational rhythm for all online writing:
 
-### Caption Rules
-- Simple English, avoid jargon
-- Gaps between sentences for readability
-- CTA both in middle and end of description
-- Keep total text concise
+- Open with **1** strong sentence
+- Describe for **3** sentences (the paragraph)
+- End with **1** strong sentence
+- Repeat the cycle
 
----
+### Where to Use 1/3/1
 
-## CTA Writing
+- **Introductions:** Single-sentence openers; avoid blocky first paragraphs
+- **Subheads:** Bold statement > 3-sentence paragraph > single concluding sentence
+- **Conclusions:** Has a "chord resolve" sound that rounds out the piece
 
-### Video CTAs (E01, E03a)
-- Lead magnet comment trigger: "Comment [keyword] for my full [resource]"
-- Tease incompleteness: "These are only 3 but I use 7..."
-- Simple follow: "Follow for more [topic]"
-- DM trigger: "DM me [keyword] and I'll send it over"
+### Variations
 
-### LinkedIn CTAs (E02)
-- Direct: "Full breakdown is in my free guide -- grab it here"
-- Benefits: "If [problem] is stuck, this 5-step PDF will unstick it"
-- Social proof: "This process added +18% in 21 days -- details in the guide"
-- Conversation: "Comment 'guide' and I'll DM it"
-- Engagement question: End every post with a question that invites comments
-
-### CTA Placement
-- Mid-video or end (never frontload)
-- One CTA per post/video -- keep it soft, specific, and relevant to the topic
-- For LinkedIn: put external links in first comment or profile, not in the post body
+1/4/1, 1/5/1, 1/7/1 -- maximum 7 sentences in a single paragraph for online readers. The longer the middle paragraph, the shorter the surrounding single sentences must be.
 
 ---
 
-## But-So Foreshadow Video Script Framework (E02, Jenny Hoyos)
+## RATE OF REVELATION (Dickie Bush, E07)
 
-For short-form video (40-60 seconds):
-1. **HOOK** (first 3 seconds): Visual hook + opening line + text overlay
-2. **FORESHADOW** (5-7 seconds): Context/setup + promise + stakes
-3. **TRANSITION** (2-3 seconds): Bridge line -- no generic phrases like "let's get started"
-4. **BODY** (15-30 seconds): BUT-SO framework: Situation -> BUT complication -> SO action -> BUT twist -> SO resolution
-5. **CLOSING** (3-5 seconds): Payoff + memorable closer + abrupt ending for retention
+How quickly you reveal NEW information to the reader. Online writing needs FAST rate of revelation.
 
-Target: 200 words for 40-60 seconds. 3 points maximum. Always add captions.
+**If you repeat something already said, DELETE IT.**
+
+### Words to Cut
+
+- That, As, Because, Therefore, However, Practically, Honestly
+- All adverbs (words ending in -ly)
+- Any sentence that repeats a "thing" already stated
+
+### Trimming Rule
+
+"If you can say it in 3 sentences, try to say it in one. If you can say it in twelve words, try to say it in six."
 
 ---
 
-## Script Output Checklist
+## 5 PROVEN SHORT-FORM CONTENT FORMATS (Cole, E05)
 
-A complete script delivery includes:
+1. **Paragraph style** -- Concise insight/opinion
+2. **Listicle** -- "X things you don't need to [achieve Y]"
+3. **Old vs. New** -- Contrast outdated approach with modern approach
+4. **Framework/Steps** -- Tactical how-to
+5. **One-liner/Punchline** -- Compressed wisdom
 
-- [ ] Hook (written and revised per write-hooks process)
-- [ ] Body structure matching chosen format (educational, challenge, story, etc.)
-- [ ] "You/your" language within first two sentences
-- [ ] One main point clearly identified
-- [ ] Specific numbers, names, dates where possible
-- [ ] CTA that matches content goal
-- [ ] Written in conversational tone (read-aloud test passed)
-- [ ] Platform formatting rules applied
+---
 
-When complete -> proceed to **film-video** for video content or **produce-visual-content** for text/visual content.
+## LINKEDIN POST WRITING RULES (Dickie Bush, E02)
+
+### Rule 1: First 200 Characters Are Everything
+
+First 200 chars visible before "See more." Must be both HOOK and CLIFFHANGER.
+
+### Rule 2: Headers Must Be Tangible, Specific, Actionable, Skimmable
+
+Reader should extract 80% of value just by reading headers alone. Use numbering to signal headers.
+
+### Rule 3: Sell-The-Reader Introductions (200-400 characters)
+
+- Block 1: Opening hook (first 200 chars)
+- Block 2: The "promise" -- niche-specific problem or outcome
+- Block 3: The "solution" -- one sentence telling reader you'll help them
+- Block 4: Transition sentence
+
+### Rule 4: Compress Tactical Value Into Each Section
+
+Each section: Declarative opening (the "what") > 3-5 tactical pieces (the "how") > One-sentence insight (the "why"). Alternate between bulleted lists and paragraph style.
+
+---
+
+## POST ENDINGS FRAMEWORK -- 6 CATEGORIES (Authority Marketing, E05)
+
+> **When to Read Reference Files:** For complete post ending templates and the 5 writing principles, read `ref-script-structures.md`.
+
+### Category 1: Connect With Successful Outcome
+"Master [SKILL], and [POSITIVE OUTCOME]."
+
+### Category 2: Connect With Bad Outcome
+"Look, you can [DO AMAZING THING]. But if you [BAD THING] -- you [FACE BAD OUTCOME]."
+
+### Category 3: Challenge
+"An average [X] [ACHIEVES A]. A great [X] [ACHIEVES B]."
+
+### Category 4: Motivate
+"[STATE FACT]. There has never been a better time to [START X]."
+
+### Category 5: Summarize
+"Step 1. [DO X]. Step 2. [DO Y]. Step 3. [ACHIEVE SUCCESS]."
+
+### Category 6: Ask For A Sale
+"P.S. If you like this, you will love [X]. It brings you [BENEFIT]."
+
+---
+
+## CTA MASTERY (Multiple sources: E01, E04, E06)
+
+### CTA Placement Rules
+
+- Maximum 2 seconds at end of video
+- Or in caption (not both unless very brief)
+- Never make CTA the last visual memory (end on value, CTA in caption)
+
+### CTA Types
+
+- Follow CTA: "Follow for more [topic]"
+- Comment CTA: "Comment [word] for my free guide" (triggers DM automation)
+- Save CTA: "Save this for later"
+- Share CTA: "Send this to someone who needs it"
+- Link CTA: "Link in bio" (use sparingly -- platforms suppress external links)
+- Engagement CTA: "Which one is your favorite? Drop a number"
+
+### Caption Writing (E04)
+
+If no text overlay, the "above the fold" first line of caption serves as secondary hook. Keep captions focused on ONE message. Use line breaks for readability. End with a question or CTA to drive comments.
+
+---
+
+## UNSCRIPTED VIDEO SYSTEM (Mino Lee, E01)
+
+For busy days when you can't script:
+
+**Two questions:**
+1. What events happened today? (List 3 things)
+2. What did I learn today from those experiences?
+
+**Process:** Partner events with lessons learned. Lead with the realization/lesson, then weave in the event as context. Still pre-write the hook even for unscripted videos.
+
+---
+
+## WRITING MINDSET PRINCIPLES (Dickie Bush, E07)
+
+- "The more you write, the more you write" (inverse is also true)
+- "You can't steer a stationary ship" -- strategy without execution is mental masturbation
+- Permission to create junk -- publish ideas-in-progress, gather data, adjust
+- Write for your past self -- everything between who you were and who you are = valuable content
+- For the first year, editing is largely a waste of time -- 5-10 minutes for grammar only
+
+---
+
+## CROSS-REFERENCES
+
+- Script complete for video content -> Move to `film-video`
+- Script complete for visual/carousel content -> Move to `produce-visual-content`
+- Need a hook first -> Route to `write-hooks`
+- Need content ideas -> Route to `content-strategy`
+- Platform-specific post formats -> Route to relevant platform skill
+- Want AI assistance for writing -> Use `ai-content-workflow`

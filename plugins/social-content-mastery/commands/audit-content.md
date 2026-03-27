@@ -77,7 +77,7 @@ description: Review existing content performance and diagnose why posts are unde
 5. Identify content gaps (missing pillars, underused formats)
 
 ### Step 3: Platform-Specific Diagnosis
-1. Load `platform-strategy` SKILL.md
+1. Load the relevant platform-specific growth skill (e.g., `instagram-growth`, `youtube-growth`)
 2. Load the relevant platform reference file
 3. Check platform-specific factors:
    - **Instagram:** Reel length, hashtag strategy, posting time, audio usage, caption quality
@@ -87,8 +87,8 @@ description: Review existing content performance and diagnose why posts are unde
 4. Apply the "Why Your Reels Ain't Poppin" checklist for Instagram (from ref-content-optimization.md)
 
 ### Step 4: Growth Pattern Analysis
-1. Load `publish-grow` SKILL.md
-2. Load `ref-growth-tactics.md`
+1. Load the relevant platform-specific growth skill
+2. Load the platform's reference file for benchmarks and tactics
 3. Evaluate growth fundamentals:
    - Posting consistency (frequency and schedule adherence)
    - Engagement behavior (commenting on others, community participation)

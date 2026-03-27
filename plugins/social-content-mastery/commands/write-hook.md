@@ -1,100 +1,78 @@
 ---
-name: Write Hook
-description: Write and optimize a hook for any social platform. Asks about topic, platform, format, and target audience, then produces 3-5 hook variations with alignment analysis using write-hooks skill.
+name: /write-hook
+description: "Write and optimize a hook for any platform -- 3-5 variations with alignment analysis and CGOVE scoring."
 ---
 
-# /write-hook -- Hook Generator & Optimizer
+# /write-hook
 
-## INTAKE QUESTIONS (Ask All Before Writing)
+## Skills Activated
+- `write-hooks`
 
-### Question 1: Topic & Main Point
-**What is the video or post about?**
-- What is the ONE main point or takeaway?
-- What transformation or value does the viewer get?
+## Workflow
 
-### Question 2: Platform
-**Which platform is this hook for?**
+### Step 1: Gather Context
 
-| Choice | Hook Approach |
-|--------|--------------|
-| A) Instagram / TikTok (short-form video) | 4-component hook: text + visual + spoken + audio |
-| B) LinkedIn (text post) | Text-only hook, first 200 characters |
-| C) YouTube (long-form) | Hook works WITH thumbnail, first 10 seconds |
-| D) YouTube Shorts | Same as Instagram/TikTok approach |
+Ask the user:
+1. What is the topic/content of this piece?
+2. What platform is this for? (Instagram, TikTok, LinkedIn, Twitter/X, YouTube, or general)
+3. What format? (Video reel, carousel, text post, thread, long-form video)
+4. Who is the target audience?
+5. What is the ONE thing you want the viewer to think/feel/do after the hook?
 
-### Question 3: Content Format
-**What type of content is this?**
-- A) Educational / How-to
-- B) Story / Personal experience
-- C) Challenge / Experiment
-- D) Reaction / Commentary
-- E) List / Comparison
-- F) Skit / Entertainment
+### Step 2: Apply Hook Psychology
 
-### Question 4: Target Viewer
-**Who is this for?**
-- Describe your ideal viewer in one sentence
-- What is their current pain point or desire related to this topic?
-- What do they currently believe about this topic (that you might challenge)?
+Using the user's answers, determine:
+- **On-Target clarity:** What context must be communicated instantly?
+- **Curiosity loop:** What contrast (stated or implied) creates interest?
+- **Emotion target:** What should they FEEL? (curiosity, shock, recognition, aspiration)
 
-### Question 5: Visual Context (Video Only)
-**What visual assets do you have or plan to create?**
-- A) Creator on camera (A-roll)
-- B) B-roll footage available
-- C) Screenshots or graphics
-- D) Not sure yet -- help me decide
+### Step 3: Generate 3-5 Hook Variations
 
----
+Create hook variations using different archetypes:
+1. One using the **Contrarian/Negative** archetype
+2. One using the **Educational/Tutorial** archetype
+3. One using the **Question** archetype
+4. One using a **platform-specific format** (if platform specified)
+5. One using the **Two-Hook System** (stop-the-scroll + reason-to-watch)
 
-## GENERATION PROCESS
+For each variation, provide:
+- Text hook (on-screen text)
+- Spoken hook (what to say)
+- Visual suggestion (what to show)
+- Audio suggestion (music/SFX direction)
 
-### Step 1: Analyze Contrast Opportunity
-1. Load `write-hooks` SKILL.md
-2. Identify the common belief (what most viewers think about this topic)
-3. Identify the contrarian reality (what you know that differs)
-4. Determine contrast type: Stated (name both) or Implied (only state contrarian)
+### Step 4: CGOVE Score Each Variation
 
-### Step 2: Generate Spoken Hooks
-1. Load `ref-hook-templates.md`
-2. Select 3-5 archetypes that fit the topic:
-   - Educational content -> Tutorial, Educational, Secret Reveal
-   - Story content -> Experimentation, Contrarian
-   - Trending content -> Fortuneteller, Question
-3. Write each hook using the archetype structure
-4. Apply "you/your" framing in first sentence
-5. Ensure rapid context (topic clear in first sentence)
+Rate each hook 1-5 on:
+- **C** -- Clarity (simple, one question in mind)
+- **G** -- Gap (curiosity created, answer withheld)
+- **O** -- Originality (feels new, not recycled)
+- **V** -- Value/Trust (perceived value, speed signals competence)
+- **E** -- Emotion (makes them feel something, not indifference)
 
-### Step 3: Generate Text Hooks (for video)
-1. Write corresponding text overlays for each spoken hook
-2. Fewest words possible, largest font mentally possible
-3. Must elicit curiosity or emotional reaction
-
-### Step 4: Suggest Visual Hooks (for video)
-1. Based on visual context (A-roll, B-roll, graphics)
-2. Recommend visual movement and layout
-3. Ensure visual aligns with spoken + text message
+Present scores in a table. Recommend the top 1-2 hooks.
 
 ### Step 5: Alignment Check
-1. Apply 3-part alignment test to each variation
-2. Apply CGOVE revision check
-3. Flag any comprehension risks
 
----
+For the recommended hook(s), verify alignment:
+- Do text, visual, spoken, and audio all reinforce the same message?
+- Would the silent test pass? (understandable on mute)
+- Would the audio-only test pass? (clear with eyes closed)
 
-## OUTPUT FORMAT
+### Step 6: Platform Optimization
 
-For each of 3-5 hook variations, deliver:
+If a specific platform was chosen, adjust for platform norms:
+- **Instagram:** Text overlay at frame zero, caption first-line hook, 4:5 ratio considerations
+- **TikTok:** Two-hook system (Hook 1 + Hook 2), context caption, fast pacing
+- **LinkedIn:** First 200 characters before "See more," must be both hook and cliffhanger
+- **Twitter/X:** Must work as standalone opening sentence, leverage cognitive biases
+- **YouTube:** H.O.T. formula context (Hook > Outcome > Trust), thumbnail-title coordination
 
-1. **Archetype Used**: Which spoken hook archetype
-2. **Spoken Hook**: The exact words to say (1-2 sentences)
-3. **Text Hook**: The on-screen text overlay (for video) or first 200 chars (for LinkedIn)
-4. **Visual Suggestion**: Recommended visual approach (for video)
-5. **Audio Suggestion**: Music/SFX recommendation (for video)
-6. **Contrast Analysis**: Common belief vs. contrarian reality identified
-7. **CGOVE Score**: Brief assessment of Clarity, Gap, Originality, Value, Emotion
+### Output
 
-### Summary Section
-- **Recommended Top Pick**: Which variation is strongest and why
-- **A/B Test Suggestion**: Which 2 variations to test against each other
-- **Platform Note**: Any platform-specific adaptation needed
-- **Next Step**: "Use /write-script to build the full script around this hook"
+Deliver:
+- 3-5 hook variations with all 4 components (text, visual, spoken, audio)
+- CGOVE score table
+- Top recommendation with alignment analysis
+- Platform-specific optimization notes
+- Recommended next step: run `/write-script` to complete the full piece

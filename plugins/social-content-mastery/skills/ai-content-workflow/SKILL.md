@@ -1,275 +1,297 @@
 ---
-name: AI Content Workflow & Prompt Library
+name: AI Content Workflow
 description: >
-  MANDATORY TRIGGERS: User asks about using AI for content creation, ChatGPT for LinkedIn, AI tools for writing posts, prompt templates for social media, AI writing workflow, what AI tools to use for content, or how to accelerate content creation with AI.
-  FOR: AI leverage vs dependency distinction, recommended AI stack (Claude/ChatGPT/Gemini), 7-step AI content workflow (Position/Profile/Plan/Write/Create/Engage/Convert), AI for positioning and Information Advantage discovery, AI for content planning and calendar generation, AI for writing (hooks/posts/scripts), AI for visual creation (Gamma/HeyGen/Descript), AI for engagement and DM assistance, voice archetype system and AI Voice Profile, and digital product creation with AI.
-  Do NOT use for: Monetization strategy and offer design (use monetize-content), brand partnerships and pitch decks (use brand-partnerships), community building and group management (use community-building), manual content creation without AI (use write-hooks, write-scripts, or content-strategy).
+  MANDATORY TRIGGERS: AI, ChatGPT, Claude, prompt, automate content, AI tools, AI writing, AI workflow,
+  prompt engineering, prompt library, AI-assisted, Ghostwriter GPT, AI content, content automation,
+  AI leverage, AI dependency, Sacred Hours, productivity, AI stack, repurpose with AI, AI hooks,
+  AI scripts, AI newsletter, AI commenting, workflow acceleration
+  FOR: AI leverage vs dependency framework, Information Advantage surfacing, AI niche interview
+  generator, AI positioning consultant prompt, AI content generators (LinkedIn posts, newsletter
+  ghostwriting, comment engagement), prompt engineering meta-framework (unbundling language, 5-step
+  structure), Sacred Hours productivity system, recommended AI tool stack, 5 proven short-form
+  content formats for AI generation, practice-on-yourself principle, AI services outreach prompt.
+  Do NOT use for: Manual hook writing techniques (use write-hooks), manual script structures (use
+  write-scripts), brand strategy (use brand-foundation), audience growth tactics (use publish-optimize),
+  ghostwriting as a freelance business (use ghostwriting-freelance), monetization strategy
+  (use monetize-content).
 ---
 
-# AI Content Workflow & Prompt Library
+# AI Content Workflow
 
-Help creators use AI tools strategically to accelerate content creation across every stage of the workflow. This is a cross-cutting skill that applies to all other skills in the plugin.
-
-## THE CRITICAL DISTINCTION: LEVERAGE VS. DEPENDENCY (E02)
-
-### AI as Leverage (Correct)
-- Amplifying expertise you already have
-- Speeding up processes you understand
-- Expanding output while maintaining your voice
-- Using AI as a mirror to discover insights in your own knowledge
-
-### AI as Dependency (Dangerous)
-- Replacing thinking you should be doing
-- Creating expertise you do not actually have
-- Publishing content you cannot defend or explain
-- Outsourcing your unique perspective to a generic model
-
-**The person with deep expertise + AI tools will always outperform AI alone.** AI is like a calculator: it makes the expert faster, but it cannot make a non-mathematician into a mathematician.
-
-**Instructor disagreement:** Common belief says AI content is cheating or inauthentic. Dickie Bush & Cole say AI is leverage, not replacement. Reconciliation: Use AI to amplify expertise; never use AI to create expertise you do not have. It is like calling a calculator "cheating" at math.
+Help creators use AI tools to accelerate content creation without losing authenticity or unique voice. This skill covers the full AI-assisted workflow from idea generation through content production, with emphasis on the critical distinction between AI leverage and AI dependency.
 
 ---
 
-## RECOMMENDED AI STACK (E02)
+## AI LEVERAGE VS. AI DEPENDENCY (Dickie Bush & Nicolas Cole)
 
-| Tool | Best For | Strengths |
-|------|----------|-----------|
-| **Claude** | Nuanced writing, understanding context, natural-sounding content | Maintains voice consistency, handles complex instructions, long-form quality |
-| **ChatGPT** | Brainstorming, image generation (DALL-E), structured outputs | Broad knowledge, creative ideation, visual content generation |
-| **Gemini** | Research, real-time information, fact-checking | Access to current data, search integration |
-| **Gamma.app** | Carousels, infographics, presentations | One-click social format conversion |
-| **HeyGen** | AI avatars for photos and video | Professional visuals without photo shoots |
-| **Descript** | Video editing, AI voiceovers | Transcript-based editing, easy iteration |
-| **CapCut** | Short-form video editing | Auto-captions, effects, mobile-friendly |
-| **Clio / AuthoredUp** | LinkedIn post preview | See how hooks look before publishing |
+### The Critical Distinction
 
----
+| AI Leverage | AI Dependency |
+|------------|---------------|
+| Using AI to amplify YOUR existing expertise | Outsourcing your thinking entirely to AI |
+| AI reflects and clarifies what you already know | Output has no soul, no unique insight |
+| You bring the knowledge; AI brings the speed | AI brings everything; you bring nothing |
+| Output sounds like you (with your examples, opinions) | Output sounds generic ("AI slop") |
 
-## 7-STEP AI CONTENT WORKFLOW (E02)
+### The Goal
+Use AI as a "mirror" to reflect and clarify what you already know. You provide the expertise, experiences, and unique perspective. AI provides structure, speed, and consistency.
 
-### Step 1: Position (AI for Brand Discovery)
-**Goal:** Discover your Information Advantage and define positioning.
-
-**Process:**
-- Use AI to interview yourself about last 2-5 years: jobs worked, hobbies started, goals reached, skills built, unique experiences
-- AI acts as an "Information Advantage Mirror" -- helps you see expertise you cannot see because you are too close to it
-- Generate positioning options: audience + problem + result combinations
-- Generate headline variations (7 formats from E02)
-
-**Key prompt use:** Information Advantage Interview, Positioning Consultant
-
-**Cross-reference:** This step maps to brand-foundation skill. Use AI to accelerate the brand definition process.
-
-### Step 2: Profile (AI for Profile Optimization)
-**Goal:** Optimize all profile elements with AI assistance.
-
-**Process:**
-- Generate bio variations matching your positioning
-- Create banner text options (8 templates, 10-15 words max)
-- Write About section drafts (7 psychological frameworks)
-- Optimize skills section (4 buckets, 20-25 skills)
-
-**Key prompt use:** Banner Text Generator, About Section Writer, Skills Optimizer
-
-**Cross-reference:** This step maps to platform-strategy skill.
-
-### Step 3: Plan (AI for Content Strategy)
-**Goal:** Generate content pillars, ideas, and calendars.
-
-**Process:**
-- Define 3-5 content pillars with AI assistance
-- Generate audience archetypes (3-5 segments)
-- Create sub-topic lists for each pillar
-- Build a 30-day content calendar with rotation logic:
-  - Day 1: Pillar 1 > Day 2: Pillar 2 > Day 3: Pillar 3 > repeat
-  - Rotate through Magical Multipliers without repetition
-  - Rotate through audience archetypes evenly
-- Each calendar entry includes: pillar, content bucket, angle, audience archetype, sub-topic, post title/hook, suggested format
-
-**Key prompt use:** Content Ideas Mega-Prompt, 30-Day Calendar Generator, Brand Identity Builder
-
-**Cross-reference:** This step maps to content-strategy skill.
-
-### Step 4: Write (AI for Content Creation)
-**Goal:** Draft posts, scripts, and hooks with AI, then refine with your voice.
-
-**Process:**
-- Generate "Outlines As Content" -- short-form posts as test outlines (E02)
-- Track which outlines resonate with audience
-- Expand proven outlines into long-form posts
-- Optimize hooks using proven format templates
-- Generate 20 hook rewrites from a single concept
-
-**Critical rule:** Write the first line and hook manually. AI can fill the framework, but the hook must be human-crafted or human-refined.
-
-**Key prompt use:** Proven Hook Generator (16 formats), Hook Optimizer (20 rewrites), Outline to Long-Form Expander
-
-**Cross-reference:** This step maps to write-hooks and write-scripts skills.
-
-### Step 5: Create (AI for Visual Content)
-**Goal:** Convert text content into visual and video formats.
-
-**Process:**
-- Convert LinkedIn posts to carousels: write post > optimize for Gamma > paste into Gamma.app (Social format) > select theme > download as PDF > upload
-- Create infographics: write post > optimize for Gamma infographic (single-slide) > make it more visual > export as PDF
-- Generate AI avatars: upload 3 camera shots to HeyGen > create 15-20 looks for variety
-- For each post, generate 3 complementary image ideas: selfie-style, Studio Ghibli-style, AI conceptual
-- Repurpose text posts into video transcripts using Descript
-
-**Key prompt use:** Carousel Optimizer for Gamma, Infographic Optimizer for Gamma, Video Script Generator
-
-**Cross-reference:** This step maps to produce-visual-content and edit-video skills.
-
-### Step 6: Engage (AI for Community Interaction)
-**Goal:** Scale engagement without losing authenticity.
-
-**Process:**
-- Generate comment drafts for posts in your niche (3 variations per post)
-- Create DM templates for new connections and lead responses
-- Generate engagement questions (5 types: experience, opinion, tip-sharing, prediction, quick poll)
-- Draft welcome messages for new connections
-
-**Rules for AI engagement:**
-- Always personalize AI drafts before sending
-- Comments should be conversational, first-person, and add a unique twist
-- Never use generic AI outputs ("Great post!") -- add specific value
-- DMs must reference something specific about the person
-
-**Key prompt use:** Engagement Question Generator, Comment Assistant, DM Assistant
-
-**Cross-reference:** This step maps to publish-grow skill.
-
-### Step 7: Convert (AI for Monetization Content)
-**Goal:** Create lead magnets, CTAs, and sales content with AI assistance.
-
-**Process:**
-- Draft lead magnets using the 13-component structure
-- Generate CTA variations (direct, benefits, social proof, conversation types)
-- Create "Pitch In Public" offer posts
-- Draft email sequences for lead nurture
-
-**Key prompt use:** CTA Plug Generator, Pitch In Public Template
-
-**Cross-reference:** This step maps to monetize-content skill.
+### Why "AI Slop" Exists
+- "AI slop" is a PROMPT QUALITY problem, not an AI limitation
+- Cole's AI-generated posts outperformed his average -- nobody could tell AI wrote them
+- The difference: 20 hours spent compressing 10 years of writing expertise into a single prompt
+- Prompt quality = reflection of your input quality
 
 ---
 
-## VOICE ARCHETYPE SYSTEM (E02)
+## THE INFORMATION ADVANTAGE FRAMEWORK (Dickie Bush & Nicolas Cole)
 
-### Finding vs. Creating Your Voice
-- Your voice is CREATED, not found -- it emerges through consistent practice and deliberate choices
-- AI can help codify your natural writing patterns into a replicable voice profile
+### Concept
+Everyone has an "Information Advantage" -- specialized knowledge from their unique combination of jobs, hobbies, goals, and experiences.
 
-### Building an AI Voice Profile
+### Surfacing Your Advantage (AI Interview)
+Use AI as an interview tool to surface this advantage. Prompt asks about:
+- Jobs worked in last 2-5 years
+- Hobbies started or mastered
+- Goals reached
+- Skills built
+- Unique experiences had
+
+### From Advantage to Niche
+From Information Advantage output, identify:
+1. 5 specific businesses/industries you could serve
+2. For each: specific job role who benefits
+3. For each: specific problem you solve
+4. For each: your unique competitive advantage
+
+---
+
+> **When to Read Reference Files:** For complete prompt templates (niche interview, positioning consultant, LinkedIn generator, newsletter system, comment engagement, meta-prompt framework), read `ref-ai-prompts.md`.
+
+## AI NICHE INTERVIEW GENERATOR
+
+### Purpose
+Help creators discover content or service opportunities sitting in front of them by auditing existing knowledge and experience.
+
+### How It Works (2 Steps)
+- **Step 1:** AI asks 6 interview questions about your experience, knowledge, interests
+- **Step 2:** AI generates list of 5 businesses/industries you could serve, including specific job role of person who would benefit
+
+### Key Principle
+"We all take our knowledge and expertise for granted." Even $100M exit founders do not realize their knowledge is valuable until prompted to articulate it.
+
+---
+
+## AI POSITIONING CONSULTANT
+
+### What It Generates (3 Components)
+1. List of 30 more specific niches within your chosen industry
+2. Constellation of 20 tangentially related industries (reveals hidden opportunity)
+3. Short-form bio that positions you as specialist
+
+### Bio Versions Generated
+- Basic: "I ghostwrite weekly newsletters for real estate professionals"
+- Specific: "I ghostwrite weekly market insight newsletters for luxury real estate agents serving high net worth clients"
+- Problem/outcome focused: "I ghostwrite weekly newsletters for real estate agents helping them stay top of mind with past clients and generate more referrals"
+
+---
+
+## AI CONTENT GENERATORS
+
+### LinkedIn Content Generator
+1. Give AI your industry/niche
+2. AI generates 3 potential content ideas as headlines based on 5 styles (Steps, Stats, Mistakes, Lessons, Examples)
+3. AI chooses the one likely to perform best on LinkedIn
+4. AI writes idea into a thought leadership LinkedIn post
+
+### 5 LinkedIn Content Styles That Perform Best
+1. **Steps** -- Explaining something in sequential steps
+2. **Stats** -- Interesting stats, studies, industry trends (VERIFY AI-generated stats)
+3. **Mistakes** -- What mistakes to avoid
+4. **Lessons** -- What you learned from experience/project
+5. **Examples** -- Curated examples of companies, creators, success stories
+
+### Newsletter Ghostwriting System
+**Value Newsletter Strategy:**
+- Join email list --> Send free value weekly --> Stay top of mind --> Build trust --> Convert
+
+**4 Fundamental Newsletter Variables:**
+1. Subject line (4-7 words, clear not clever)
+2. Introduction (hook + context)
+3. Headers (skimmable, tangible)
+4. Section content (actionable, specific)
+
+**Subject Line Rules:**
+- Keep short: 4-7 words before inbox cutoff
+- Be CLEAR, not clever
+- Compression process: Write long title --> Remove filler --> Compress 2-3 words into one
+- Bad: "You'll never believe it" / "The secret to success"
+- Good: "How I made this YouTube short in 39 minutes using only AI"
+
+### Comment Engagement Generator
+- Comments follow same rules as short-form content
+- Similar word count constraints
+- Think of comments as short-form content pieces
+- Can be added as upsell service or bundled into existing packages
+
+---
+
+## 5 PROVEN SHORT-FORM CONTENT FORMATS (For AI Generation)
+
+### The 5 Formats (extracted from thousands of posts)
+
+1. **Paragraph style** -- Concise insight or opinion (3-5 sentences)
+2. **Listicle** -- "X things you don't need to [achieve Y]"
+3. **Old vs. New** -- Contrast outdated approach with modern approach
+4. **Framework/Steps** -- Tactical how-to in numbered steps
+5. **One-liner/Punchline** -- Compressed wisdom in one powerful sentence
+
+### How to Build Prompts for Each Format
+1. Define the rules of the format
+2. List positive attributes (what good output looks like)
+3. Provide specific examples that reinforce rules and attributes
+4. Give AI input variables (topic, industry, audience)
+5. Define output format
+
+---
+
+## PROMPT ENGINEERING META-FRAMEWORK (Nicolas Cole)
+
+### "Unbundling Language" Concept
+The skill of breaking down expertise into discrete, teachable rules. Same process you use to teach a human = same process to teach AI.
+
 **Process:**
-1. Collect 10-20 of your best-performing posts or pieces of writing
-2. Feed to AI and ask it to analyze patterns: sentence length, vocabulary, tone, structure, recurring phrases
-3. Ask AI to codify these patterns into a "voice profile" document
-4. Use this profile as context whenever generating new content
-5. Update the profile quarterly as your voice evolves
+1. Pattern recognition -- What do you do every time you write well?
+2. Extract what reliably works -- What are the rules, not just intuitions?
+3. Compress into rules -- Each rule must be specific and testable
+4. Feed to AI -- Rules + examples + format = high-quality output
 
-### Voice Profile Elements to Codify
-- Average sentence length and variation pattern
-- Vocabulary level (simple/intermediate/advanced)
-- Tone descriptors (3-5 adjectives)
-- Structural preferences (do you use lists, stories, frameworks?)
-- Signature phrases or openings
-- What you never say (anti-patterns)
-- Punctuation and formatting habits
+### Prompt Engineering Structure (5 Steps)
 
----
+1. **Define rules/principles** -- What makes this content type work? (e.g., "Each section must start with a bold declarative statement")
+2. **List positive attributes** -- What does good output look like? (e.g., "Conversational tone, specific numbers, no jargon")
+3. **Reinforce with examples** -- 3-5 examples of excellent output that follow the rules
+4. **Give input variables** -- Topic, industry, audience, tone, platform
+5. **Define output format** -- Structure, length, sections, style
 
-## AI FOR DIGITAL PRODUCT CREATION (E04a)
-
-### The Golden Rule
-Never create a 100% AI product. Add personal voice, rewrite, and customize.
-
-### AI-Assisted Creation Process
-1. **Draft with AI:** Use AI to generate the initial framework, outline, and first draft
-2. **Rewrite with personal voice:** Go through every section and inject your unique perspective, stories, and examples
-3. **Add proprietary content:** Include original frameworks, case studies, and insights that AI cannot generate
-4. **Design with AI tools:** Use Canva AI, Gamma, or similar for professional layout
-5. **Quality check:** Read aloud -- if it sounds generic, rewrite those sections
-
-### What AI Can Do Well
-- Generate outlines and frameworks
-- Research and summarize background information
-- Draft initial copy that you then refine
-- Create variations of headlines and titles
-- Format content into different delivery mechanisms
-
-### What AI Cannot Replace
-- Your unique stories and experiences
-- Original frameworks from your expertise
-- Specific client results and case studies
-- Your voice and personality
-- Genuine opinions and contrarian takes
+### Key Insight on AI Quality
+- Prompt = compressed version of years of manual pattern recognition
+- Cole spent 20 hours compressing 10 years of writing expertise into a single prompt
+- The investment pays off: AI output consistently matched or exceeded manual writing quality
+- Quality floor: AI with good prompt > average human writer; AI with bad prompt < mediocre human writer
 
 ---
 
-## CONTENT MULTIPLICATION WITH AI (E02)
+## SACRED HOURS FRAMEWORK (Nicolas Cole -- Productivity System)
 
-### The Lean Writing Method + AI
-Use AI to multiply content from a single idea:
+### Concept
+Sacred Hours = blocked chunks of uninterrupted time (minimum 2 hours) for deep work. Not stumbled upon -- planned in advance, blocked on calendar, defended ruthlessly.
 
-1. **One pillar** + **one audience** + **one sub-topic** = starting combination
-2. AI generates 10 Magical Multiplier variations:
-   - Tips version
-   - Stats version
-   - Steps version
-   - Lessons version
-   - Benefits version
-   - Reasons version
-   - Mistakes version
-   - Examples version
-   - Questions version
-   - Personal story version
-3. Test short-form versions ("Outlines As Content")
-4. Expand winners into long-form
+### Finding Your Sacred Hours -- 2 Key Questions
+1. What time of day am I most productive?
+2. What time of day can I be least responsive?
+- Your Sacred Hours live at the intersection of these two
 
-**Math:** 3 pillars x 3 buckets x 10 multipliers x 5 archetypes x 10 sub-topics = 4,500+ unique content ideas from ONE niche (E02)
+### Example Schedule (Cole's)
+- Weekdays: 5-7 AM
+- Weekends: 6-11 AM
+- Fridays: Noon-5 PM
 
----
+### Maximizing Sacred Hours
+- Clean and organize workspace before starting
+- Use website blocker or turn off Wi-Fi
+- Phone on airplane mode in different room
+- Sound-cancelling headphones with flow playlist
+- Design workplace like airplane cabin (no distractions, no internet)
 
-## AI WORKFLOW GUARDRAILS
-
-### When to Use AI
-- Brainstorming and ideation (always helpful)
-- First drafts and outlines (save time, refine personally)
-- Formatting and repurposing (converting formats)
-- Research and information gathering (faster than manual)
-- Engagement scaling (draft responses, then personalize)
-
-### When NOT to Use AI
-- Final hook writing (must have human judgment for emotional resonance)
-- Personal stories and vulnerability content (must be genuinely yours)
-- Client-specific responses (must be personalized and contextual)
-- Contrarian takes and opinions (must reflect your actual beliefs)
-- Community interaction that requires empathy (must be genuine)
-
-### Quality Control Checklist
-Before publishing any AI-assisted content:
-1. Does this sound like ME, not like a generic AI?
-2. Would I say this to someone face-to-face?
-3. Can I defend every claim in this content?
-4. Does the hook create genuine curiosity (not just AI-polished language)?
-5. Have I removed AI-sounding words: "transform," "revolutionize," "unlock," "elevate," "game-changer"?
+### Key Insight
+"You and Jeff Bezos have the same number of hours. It's not 24. It's 2 or 3." Two to three hours of focused work is about as much as anyone can handle.
 
 ---
 
-## When to Read Reference Files
+## AI-ASSISTED CONTENT WORKFLOW
 
-| Reference File | Load When |
-|---|---|
-| `ref-ai-prompt-library.md` | User needs specific AI prompts for any step of the 7-step workflow, wants prompt templates for positioning/writing/engagement/conversion, or asks for the recommended prompt for a particular task |
+### The Full Workflow (Leverage Model)
+
+**Step 1: Ideation (AI-Assisted)**
+- Use AI to brainstorm 10-20 content ideas from your pillars
+- Human filter: Which ideas align with your brand and audience?
+- AI generates hook variations for selected ideas
+
+**Step 2: Drafting (AI-Assisted)**
+- Provide AI with: topic, format, target audience, your voice rules, examples
+- AI generates first draft
+- Quality check: Does it sound like you? Does it contain your unique insights?
+
+**Step 3: Editing (Human-Led)**
+- Rewrite anything that sounds generic
+- Add personal stories, examples, opinions
+- Inject specific numbers and proof points
+- Remove AI tells (overly formal language, generic advice, predictable structure)
+
+**Step 4: Optimization (AI-Assisted)**
+- AI suggests hook alternatives
+- AI generates caption variations
+- AI creates platform-specific adaptations
+
+**Step 5: Distribution (AI-Assisted)**
+- AI repurposes content across platforms
+- AI adjusts tone/format for each platform
+- Human review before publishing
+
+### AI Tells to Remove
+- "In today's fast-paced world..."
+- "Let's dive in..."
+- "It's no secret that..."
+- "As [famous person] once said..."
+- Excessive bullet points with no personality
+- Perfect grammar with no conversational breaks
+- Generic advice anyone could give
+
+---
+
+## RECOMMENDED AI TOOL STACK
+
+### Writing & Content
+- **ChatGPT / Claude** -- Long-form writing, brainstorming, prompt-based content
+- **Copy.ai / Jasper** -- Short-form marketing copy
+- **Hemingway Editor** -- Readability checking (target 6th grade level)
+
+### Visual & Design
+- **Canva AI** -- Social graphics, carousels, thumbnails
+- **Gamma** -- Presentations and pitch decks
+- **Midjourney / DALL-E** -- Custom imagery
+
+### Video & Audio
+- **CapCut** -- Video editing with AI features
+- **Descript** -- Transcript-based video editing
+- **ElevenLabs** -- Voice cloning for voiceovers
+
+### Productivity
+- **Notion AI** -- Content planning and organization
+- **Buffer / Later** -- Scheduling and analytics
+- **ManyChat** -- DM automation
+
+---
+
+## PRACTICE ON YOURSELF PRINCIPLE
+
+Whatever service or content you create for others, practice on yourself first.
+
+**Benefits:**
+1. Internalize lessons differently (lived experience vs. theory)
+2. Point to yourself as your own case study
+3. Build portfolio without needing clients
+
+**Key insight:** Testimonials are not as important as you think. "I built my entire ghostwriting agency without a single testimonial." The only thing the client cares about: can you articulate their problem and educate them on how to solve it?
 
 ---
 
 ## CROSS-REFERENCES
 
-- **AI applies across ALL other skills** -- reference this skill when user wants to accelerate any stage with AI tools
-- **For hook writing with AI assistance** -> write-hooks + this skill
-- **For script writing with AI** -> write-scripts + this skill
-- **For content planning with AI** -> content-strategy + this skill
-- **For lead magnet creation with AI** -> monetize-content + this skill
-- **For profile optimization with AI** -> platform-strategy + this skill
+- Need hook writing fundamentals --> `write-hooks`
+- Need script structures --> `write-scripts`
+- AI-generated content needs refinement --> `write-scripts` for manual editing frameworks
+- Want to build ghostwriting business with AI --> `ghostwriting-freelance`
+- Want to monetize AI-created content --> `monetize-content`
+- Need brand foundation before AI content --> `brand-foundation`

@@ -1,1 +1,3 @@
-{"agent": "social-content-advisor"}
+{
+  "agent": "agents/social-content-advisor.md"
+}

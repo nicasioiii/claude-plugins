@@ -1,227 +1,235 @@
 ---
 name: Brand Foundation
-description: >
-  MANDATORY TRIGGERS: personal brand, niche selection, content pillars, target avatar,
-  ideal viewer persona, brand DNA, visual identity, brand positioning, mission statement,
-  congruency framework, brand values, who am I as a creator, what should my brand be about,
-  creator vs CEO, brand guidelines, brand philosophy.
-  FOR: Building a personal brand from scratch -- niche selection, content pillars, ideal
-  viewer avatar, mission statement, brand DNA (macro and micro), visual identity guidelines,
-  congruency framework, creator-CEO spectrum self-assessment, and competitive positioning.
-  Synthesized from Gusten Sun, Dickie Bush & Nicholas Cole, Colin & Samir, Sky Stack,
-  Anton Mehto, Marketing Harry, and Mino Lee.
-  Do NOT use for: content planning or calendars (use content-strategy), writing hooks
-  (use write-hooks), writing scripts or posts (use write-scripts), platform-specific
-  profile optimization (use platform-strategy), growth tactics (use publish-grow).
+description: "Niche selection, content pillars, ideal viewer avatar, brand DNA/archetypes, visual identity, positioning formula, mission statement, Big Promise framework, brand mothership document, congruency framework, professional constellation model. MANDATORY TRIGGERS: brand, niche, positioning, who am I, pillars, content pillars, avatar, ideal viewer, target audience, brand identity, visual identity, brand DNA, archetype, mission statement, unique value, IVP, brand voice, brand personality, brand guide, brand style, congruency, constellation, niche down, differentiation, personal brand, brand building, what makes me unique, who do I serve, what should I post about. Do NOT use for content calendar or idea generation -- use content-strategy instead. Do NOT use for platform-specific profile optimization -- use the relevant platform skill instead. Do NOT use for visual design execution (carousels, thumbnails) -- use produce-visual-content instead. FOR: Creators at any stage who need to define or refine their brand identity, positioning, niche, audience avatar, or visual identity system before creating content."
 ---
 
 # Brand Foundation
 
-## Quick Navigation
-- **Positioning formulas & niche-down methods** -> ref-brand-positioning.md
-- **Avatar exercises & audience segmentation** -> ref-avatar-exercises.md
-- **Content pillars & mission statements** -> See frameworks below
-- **Visual identity & brand DNA** -> See brand DNA section below
+## WHY BRAND FOUNDATION COMES FIRST
+
+Every piece of content you create is an expression of your brand. Without a clear foundation, content becomes random -- inconsistent topics, confused messaging, no recognizable identity. Brand foundation is not optional; it is the prerequisite for everything that follows.
+
+**The workflow:** Brand Foundation > Content Strategy > Create > Publish & Grow > Monetize. You cannot skip step one.
+
+**Key principle (Frabrand, E01):** Social media follows a simple funnel: See you > Trust you > Buy from you. Brand foundation determines what people SEE and whether it earns enough TRUST to progress.
 
 ---
 
-## When to Read Reference Files
+> **When to Read Reference Files:** For detailed niche selection examples, professional constellation case studies, Big Promise formula variations, brand pyramid/spectrums/archetypes detail, Clarity Checklist, and FFGA customer research templates, read `ref-brand-positioning.md`.
 
-| User Question Pattern | Load This Reference |
-|---|---|
-| How do I position myself? What's my niche? 6 ways to niche down? | ref-brand-positioning.md |
-| Information Advantage? Professional Constellation? Brand pyramid? | ref-brand-positioning.md |
-| Who is my ideal viewer? IVP exercise? Target avatar? Audience segments? | ref-avatar-exercises.md |
-| Competitive advantage? Creator Overview? What makes me different? | ref-avatar-exercises.md |
+## NICHE SELECTION -- 6 WAYS TO NICHE DOWN
 
----
+Specificity is the single most important positioning decision you will make. The more specific your niche, the faster you grow and the more you earn.
 
-## Cross-References
+**Why specialists win (Cole, E05):**
+1. Specialists always make more than generalists
+2. Specializing gives you a positioning advantage (you become the go-to)
+3. Specializing gives you pricing power (you speak their language)
+4. Specializing allows you to build efficiency (same service + same type of client = scale)
 
-| When This Happens | Route To |
-|---|---|
-| Brand pillars defined, avatar documented | **content-strategy** for content planning |
-| User asks about platform-specific profile optimization | **platform-strategy** |
-| User asks about LinkedIn positioning specifically | **platform-strategy** (ref-linkedin-profile.md) |
-| User wants to accelerate brand-building with AI | **ai-content-workflow** |
-| User asks about community as part of brand | **community-building** |
+### The 6 Methods (Cole, E05 + Dickie Bush, E02)
 
----
+1. **By Sub-Industry** -- Technology > Cybersecurity > Cloud security for healthcare
+2. **By Demographic** -- Consulting > Consulting for female entrepreneurs over 40
+3. **By Experience Level** -- Financial planning > Financial planning for recent graduates
+4. **By Company Size/Revenue** -- HR consulting > HR for startups under 50 employees
+5. **By Problem/Outcome** -- Business coaching > Coaching for companies stuck at $1M revenue
+6. **By Location/Market** -- Real estate > Luxury residential in Miami
 
-## Core Philosophy: Congruency Over Authenticity
+### The 3 Faulty Beliefs About Niching (Cole, E05)
 
-**Authenticity is NOT the goal of a brand** (E03c Sky Stack). Authenticity is emotion without purpose or direction -- people who pride themselves on "keeping it real" often use it to justify poor behavior. If authenticity is your brand value, your brand changes based on how you feel each day.
+1. "If I niche down, I can only work with people in that niche" -- FALSE. Getting specific doesn't prevent you from working with others.
+2. "If I niche down, I will limit opportunities" -- FALSE. Broad = limited because no one knows what you do. Specific = widened because people assume you can help.
+3. "If I niche down, I'm stuck forever" -- FALSE. You're picking your NEXT niche, not a forever niche.
 
-**Congruency IS the goal.** Congruency means separate elements (macro and micro) share similarities and have connection. The strength of your brand = congruency + consistency between macro (positioning, content, network) and micro (fonts, colors, copy language).
+### The 3-Phase Natural Niche Progression (Cole, E05)
 
-> **Instructor Disagreement -- Authenticity vs. Congruency:**
-> - E03c (Sky Stack) says congruency over authenticity at the brand level
-> - E01 (Mino Lee) encourages authentic vulnerability at the content level
-> - **Reconciliation:** Be congruent at the brand level (consistent positioning). Be authentic at the content level (genuine stories and vulnerability). These work together, not against each other.
+1. **Phase 1:** Your niche is your network -- whoever says yes first
+2. **Phase 2:** Iterate through doing -- do more of what you enjoy
+3. **Phase 3:** Niche down -- always asking "how do I get more specific?"
 
----
+### Instructor Disagreement: Niche Breadth
 
-## Step 1: Niche Selection
+| Position | Instructor | Platform Context |
+|---|---|---|
+| Niche down aggressively; specific = seen | Sunny Lenarduzzi (E08), Dickie Bush & Cole (E02/E05) | YouTube/LinkedIn |
+| Don't narrow your niche -- expand it | 100K IG Course (E03), Konstantinos (E06) | Instagram/TikTok |
+| "Generally Specific" -- start general, get specific in content | Ryan Magin (E06) | TikTok |
 
-### The Core Decision Framework
+**Resolution:** Platform-dependent. YouTube and LinkedIn reward specificity (algorithm needs categorization). TikTok and Instagram reward broader reach in hooks with specific value delivery. The reconciliation: broad appeal in hooks and topics, deep specificity in the actual advice delivered. Niche down for your positioning/bio, broaden for individual content pieces.
 
-Three competing approaches exist. Choose based on your primary platform:
+### The Niche Formula for YouTube (Sunny, E08)
 
-> **Instructor Disagreement -- Niche Width:**
-> - E03a (Gusten Sun): "Niche down to the outcome, not the topic." A weight loss coach niches on "lose 10lbs in 90 days," not "fitness"
-> - E04a (Justas): "Expand your niche -- broader = more views = more of your target via math." 1M broad views with 50% match > 100K narrow views
-> - E02 (Dickie Bush & Cole): "Optimize for relevance, not reach." 200 CFOs with budget > 10,000 generic marketers
-> - **Reconciliation -- Platform matters:**
->   - LinkedIn rewards relevance (go narrow)
->   - Instagram/TikTok reward reach (can go broader)
->   - YouTube rewards search specificity (narrow on topic, broad on audience)
+**Skills + Profit - Passion = Your Niche**
+- Must have provable skills
+- Must have profit potential (validate on Udemy, Skillshare, Amazon)
+- Passion alone is insufficient
 
-### Niche-Down Exercise
+### Niche Discovery Process (Sunny, E08)
 
-1. Draw 3 circles (E04a Venn diagram):
-   - Circle 1: 5 niches aligned with your expertise
-   - Circle 2: 5 you are passionate about
-   - Circle 3: 5 you consume the most content about
-   - Overlap = your niche
-2. Then apply the outcome filter (E03a): What transformation do you deliver? Health, wealth, relationships, or productivity -- go one level deeper
-3. Validate with the E02 Positioning Formula: "I help [specific audience] solve [specific problem] so they can [specific result]"
-
-### The Attract AND Repel Principle (E03a)
-
-Strong brands attract their audience AND repel everyone else. Write down principles and values your brand stands behind -- genuine, not manufactured. A home-workout coach whose core principle is "you don't need a gym" deeply attracts home-workout people and turns off gym-goers. That is the goal.
+1. Answer 14 self-discovery questions (transformation, flow state, mastery, pain, uniqueness)
+2. Send feedback template to 5-10 close relationships asking what you're known for
+3. Identify category using Skills + Profit - Passion formula
+4. Validate on Udemy/Skillshare -- if people are paying for related courses, it's valid
+5. Fill in transformation statement
 
 ---
 
-## Step 2: Content Pillars (3-5 Pillars)
+## PROFESSIONAL CONSTELLATION MODEL
 
-Content pillars are the essential knowledge areas your audience must master. All content ideas flow from pillars.
+When you lead with something very specific, you create an invisible constellation of tangentially related opportunities around that specificity (Cole, E05).
 
-### Pillar Design Rules (synthesized from E02, E03a, E03b, E04b)
+**How it works:**
+- Lead with specific positioning ("tip of the spear")
+- Tangentially related people assume you can help them too
+- Creates one-deviation-of-connection opportunities
 
-1. **3-5 pillars total** -- fewer than 3 limits content variety; more than 5 dilutes brand perception
-2. Each pillar must be broad enough for months of content but focused enough to be instantly understood
-3. Removing any single pillar should weaken the brand perception (E03a)
-4. Pillars must align with your expertise and your audience's needs
-5. Avoid pillars too generic ("business") or too specific ("Instagram carousel design for dentists")
+**Example:** "I ghostwrite for fitness coaches with high-ticket group coaching programs" attracts: executive coaches, fitness product sellers, nutritionists, marketing agencies in fitness, personal trainers.
 
-### Pillar Examples
-- Real Estate brand: Property Acquisition, Financing Strategies, Property Management (E02)
-- Fitness coach: Training Programs, Nutrition, Mindset & Habits
-- Creator brand: Content Strategy, Filming & Editing, Monetization
+**Real-world proof (Cole, E05):** His agency specialized in founders of venture-backed startups (Series A/B). Attracted: publicly traded companies, pre-seed companies, NYT bestselling authors, Olympians, Grammy-winning musicians.
 
 ---
 
-## Step 3: Ideal Viewer / Target Avatar
+## CONTENT PILLARS
 
-Unify three systems into one process:
+Content pillars are the 3-5 core topics that make up your brand. Every piece of content should map to at least one pillar.
 
-### Phase 1: IVP Deep-Dive (E01 Mino Lee)
-Your ideal viewer persona = a specific version of your younger self at a specific time period. Answer 5 questions with 5 answers each:
-1. Five situations they are terrified of (go deep -- the more uncomfortable, the more golden)
-2. Five specific dream outcomes you have NOW that they wish they had
-3. Five limiting beliefs they hold (each = at least one content piece)
-4. Five hacks/tools/solutions they do not know about yet (these become how-to videos)
-5. Five truths that would change their life
+**Pillar Design Rules (Multiple sources: E01, E02, E08):**
+- 3-5 pillars maximum (fewer is better for recognition)
+- Must be broad enough to explore for months but focused enough for instant relevance
+- Must represent core competencies, not surface-level topics
+- Together, they should paint a complete picture of your brand value
 
-### Phase 2: Identity-Emotion-Action (E03b Colin & Samir)
-For each audience segment:
-- Identity: who they are (aspiring creator, career creator, industry professional)
-- Emotion: what you want them to feel after consuming your content
-- Action: what you want them to do after consuming your content
+**Example (Gusten Sun, E02):** Online business brand with pillars: Freelancing, Sales Funnels, Personal Branding. From each: derive topics like getting clients, pricing, productivity tools, reviews.
 
-### Phase 3: Audience Segmentation (E03b)
-Break audience into 3 specific segments with names and descriptions. For each segment, identify which platforms they inhabit beyond your main one. A hyper-specific, hyper-engaged audience = a high-quality audience. Specific audience = rates determined by quality (defensible). General audience = rates determined by size (replaceable).
+**Deriving Topics from Pillars (Dickie Bush, E02):**
+- Use 3 universal content buckets: Futurism (where your industry is headed), Your Story (lessons from experience), Actionable Advice (practical guidance)
+- Cross each pillar with each bucket for 9-15 content categories minimum
 
 ---
 
-## Step 4: Mission Statement
+## IDEAL VIEWER AVATAR (IVA)
 
-### Formula (E03b)
-"My mission is to [VALUE as verb] [AUDIENCE IDENTITY]"
+Your avatar is not a demographic profile -- it is a deep understanding of one specific person you are creating for.
 
-Examples:
-- Colin & Samir: "To educate and empower the next generation of creators"
-- Crunch Labs: "To show kids and kids at heart how to think like an engineer"
+### Avatar Construction (Sunny, E08)
 
-### The Fluff Test (E03b)
-1. Is it unique to you?
-2. Is there a singular focus?
-3. Does it apply to all of your audience segments?
-4. Have you shared it with someone and gauged their reaction?
+Document: Gender, age, income, education, geographic location, time zone, profession, interests/hobbies, dislikes/villains, gurus/experts they follow, books/blogs/podcasts they consume, goals and challenges, values (map to Maslow's hierarchy).
 
-Say it out loud. If people have further questions about what you do, it is too vague. Use the mission statement as a decision filter for every video, product, and partnership.
+**Transformation statement:** "I want to go from X to Y so that I can Z"
 
----
+**Name the avatar** (e.g., "Sally the Single Entrepreneur") -- this makes them real in your mind.
 
-## Step 5: Brand DNA (Macro + Micro)
+### Deep Customer Research -- FFGA Framework (Dickie Bush, E02)
 
-### Macro Branding (E03c Sky Stack)
-- Positioning and message
-- Content type and style
-- Network and associations (who you are seen with publicly)
-- Podcast guests, collaborators, brand partners
+- 10 frustrations paired with 10 wants (opposites)
+- 10 dreams paired with 10 fears (opposites)
+- 25 audience questions about achieving their goal
+- 25 tactical problems they face
+- 25 emotional problems they experience
+- 25 common mistakes
+- 10 misconceptions about your product/niche
+- 10 objections to buying
+- Audience map: demographics, psychographics, behaviors, buying triggers
 
-### Micro Branding (E03c)
-- Fonts, colors, visual themes
-- Stock photo/video style and color grading
-- Logos and copy language (specific words you use and do not use)
+### The Younger Self Method (Mino Lee, E01)
 
-### Brand DNA Implementation Steps
-1. Establish strong rules: your colors, fonts, color filters, styles
-2. Document in brand guidelines
-3. Give guidelines to everyone you work with (editors, freelancers, funnel builders)
-4. Apply consistently across all platforms
-5. When everything looks a little better, a little different, and consistent -- people think you are far more advanced than you may be
-
-### Visual Identity Rules (synthesized E02, E03c, E04b)
-- Left-align text; high contrast
-- F-pattern reading (most important info top-left)
-- Mobile-first design (most social consumption is mobile)
-- Consistent brand colors (max 3) and font pair across all platforms
-- Photography/video style should match brand DNA (polished vs. raw)
+The simplest avatar exercise: your ideal viewer IS your younger self. Think of yourself 1-2 years ago. What did that person need to hear? What did they struggle with? What would have helped?
 
 ---
 
-## Step 6: Creator-CEO Spectrum Self-Assessment
+## BRAND DNA AND POSITIONING
 
-### Two Types of Brand Builders (E03a Gusten Sun)
-- **CEO Type**: Outsources research, scripting, filming, editing, distribution. Just shows up on camera. Systems-driven
-- **Creator Type**: Deeply involved in creative process. Enjoys ideation, editing, storytelling. Does most things themselves. Passion-driven
+### Brand Positioning Formula (Frabrand, E01)
 
-Most people fall somewhere between. Design your channel around your strengths. "I would rather make $50K/month instead of $500K/month if I actually enjoy the business" -- freedom by design (E03a).
+**Audience needs + What makes you unique - What competitors already do = Your brand positioning**
 
-### The 5 Stages (E03b Colin & Samir)
-1. **Exploration**: Trying different content types; no money yet
-2. **Development**: Finding your voice and format; sporadic brand deals
-3. **Growth**: Consistent process for making AND monetizing; predictable revenue
-4. **Expansion**: More opportunities than inventory; hiring and scaling
-5. **Diversification**: New revenue streams beyond core content
+### Big Promise Framework (Frabrand, E01)
 
-Know which stage you are in. Each stage has different priorities.
+"I help [WHO] go from [PAIN STATE] to [DESIRED OUTCOME] through [UNIQUE METHOD] without [COMMON OBJECTION]"
+
+**Example:** "I help businesses go from confused and frustrated to growing a following and scaling on social media without paid ads or outdated tactics through data-driven organic marketing."
+
+### Brand Pyramid (Frabrand, E01)
+
+Three layers, bottom to top:
+1. **Brand Core** -- Values and attributes that make you YOU
+2. **Brand Personality** -- How you speak, tone of voice, communication style
+3. **Brand Visuals** -- Fonts, colors, imagery, textures
+
+### Brand Spectrums (Frabrand, E01)
+
+You are never fully one extreme. Position yourself on spectrums between attributes: conventional <> rebellious, formal <> playful, functional <> decorative, serious <> humorous. These positions guide all content decisions.
+
+### 12 Brand Archetypes (Frabrand, E01)
+
+Take a quiz for direction (not an exact science). Common archetypes: The Creator, The Explorer, The Sage, The Hero, The Rebel, The Magician, The Caregiver, The Ruler, The Jester, The Lover, The Innocent, The Everyman.
+
+### 3A Strategy (Frabrand, E01)
+
+1. **Ask** friends, family, clients what words describe you
+2. **Analyze** the patterns
+3. **Amplify** it -- don't be 100% yourself, be 110% yourself
+
+### LinkedIn Positioning System (Dickie Bush, E02)
+
+**The Clarity Checklist (4 Elements Every Post Needs):**
+1. Clear about the CATEGORY -- become known for writing about a specific topic
+2. Clear about the PROBLEM -- make the reader's time investment worthwhile
+3. Clear about the SOLUTION -- give something tangible and actionable
+4. Clear about the TRANSFORMATION -- the reader is the main character, not you
 
 ---
 
-## Step 7: The Fear Reframe (E03a, E03c)
+## MISSION STATEMENT
 
-When you hold back your message, you are robbing yourself AND others. Prioritizing your own fear over fixing problems others cannot fix themselves = selfish. If you make it about the people you serve (not yourself), nothing can truly stop you.
+### Mission Statement Formula (Colin & Samir, E02)
 
-Your brand is the real estate you own in someone else's mind (E03c). Once built, it can never be unbuilt, only changed. When someone sees your name, face, or profile photo -- what do they actually think?
+Your mission statement must pass the "fluff test" -- if you can add "and make the world a better place" and it still sounds coherent, your statement is too vague.
+
+**Good mission statements are specific and measurable.** They define WHO you serve, WHAT you provide, and WHY it matters -- without generic language.
 
 ---
 
-## Brand Foundation Output Checklist
+## VISUAL IDENTITY SYSTEM
 
-After completing all steps, the user should have documented:
+> **When to Read Reference Files:** For detailed visual identity frameworks (Rule of Twos/Threes, color systems, font selection, design principles, brand style guide process), read `ref-visual-identity.md`.
 
-- [ ] Niche statement with transformation outcome
-- [ ] Positioning formula: "I help [audience] solve [problem] so they can [result]"
-- [ ] 3-5 content pillars with descriptions
-- [ ] Ideal Viewer Persona (IVP 5-question exercise completed)
-- [ ] 3 audience segments with Identity-Emotion-Action
-- [ ] Mission statement (passed fluff test)
-- [ ] Brand DNA macro + micro documented
-- [ ] Visual identity rules (colors, fonts, photography style)
-- [ ] Creator-CEO spectrum position identified
-- [ ] Competitive advantage (3-5 bullets on what makes you different)
+### Rule of Twos -- For Beginners (Frabrand, E01)
 
-When complete -> proceed to **content-strategy** for content planning.
+- 2 fonts maximum
+- 2 main colors
+- 2 main imagery styles
+
+### Rule of Threes -- For Design (Frabrand, E01)
+
+- Maximum 3 colors (1 main + 2 accent)
+- Maximum 3 font types
+- Maximum 3 visual styles
+
+### Brand Mothership Document (Frabrand, E01)
+
+Single reference document combining brand core + brand persona + brand visuals. Share with contractors, employees, or reference when content creation feels off-brand.
+
+### Visual Brand Identity Process (Dickie Bush, E02)
+
+1. Create brand style guide (audience, personality adjectives, visual direction)
+2. Visualize with Gamma (10-slide brand identity deck)
+3. Apply with Canva templates (posts, carousels, banners)
+
+---
+
+## BRAND CONGRUENCY FRAMEWORK
+
+Every touchpoint must align: profile picture, bio, content topics, visual style, tone of voice, CTA strategy. When any element feels "off-brand," trust breaks.
+
+**The congruency test:** Would a stranger who sees your profile for the first time understand in 5 seconds: (1) who you are, (2) what you do, (3) who you help?
+
+---
+
+## CROSS-REFERENCES
+
+- Brand pillars defined and avatar documented -> Move to `content-strategy` for content planning
+- Need platform-specific profile optimization -> Use the relevant platform skill (`instagram-growth`, `linkedin-growth`, `tiktok-growth`, `twitter-growth`, `youtube-growth`)
+- Ready to create visual brand assets -> Use `produce-visual-content`
+- Want AI assistance for niche discovery -> Use `ai-content-workflow` (AI niche interview generator, AI positioning consultant)

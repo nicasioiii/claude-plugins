@@ -1,168 +1,223 @@
 ---
-name: Brand Positioning Deep-Dive
-description: >
-  When to Read: User asks about positioning formulas, niching down methods, Information
-  Advantage framework, Professional Constellation, brand positioning formula, 3A strategy,
-  brand pyramid, or how to differentiate from competitors.
-  Cross-references: brand-foundation SKILL.md (parent), ref-avatar-exercises.md (audience
-  definition feeds positioning), content-strategy (positioning informs content pillars).
+name: Brand Positioning Reference
+description: "Niche selection frameworks (6 methods), professional constellation, Big Promise formula, brand pyramid, brand spectrums, 12 archetypes, 3A strategy, Clarity Checklist, FFGA customer research, headline templates for LinkedIn positioning."
 ---
 
-# Brand Positioning Deep-Dive
+# Brand Positioning Reference
 
-## The Information Advantage Framework (E02 Dickie Bush & Cole)
+## THE 6 NICHE-DOWN METHODS -- DETAILED EXAMPLES
 
-Everyone has an "Information Advantage" -- specialized knowledge from a unique combination of jobs, hobbies, goals, and experiences. You cannot see yours clearly because you are too close to it.
+### Method 1: Sub-Industry
+- Health & fitness > Physical therapy > PT specializing in soccer injury rehab
+- Technology > Cybersecurity > Cloud security audits for healthcare providers
+- Finance > Accounting > Tax optimization for e-commerce businesses
 
-### Discovery Exercise
-Use AI as an "Information Advantage Mirror." Interview yourself about the last 2-5 years:
-- 5 jobs/roles you have held
-- 5 significant wins or achievements
-- 5 problems you have been paid to solve
-- 5 skills you have developed
-- 5 "odd" or unusual experiences
+### Method 2: Demographic
+- Healthcare > Healthcare for veterans
+- Consulting > Consulting for female entrepreneurs over 40
+- Career coaching > Career coaching for mid-career tech professionals transitioning to leadership
 
-Circle the overlaps. The intersections reveal your unique positioning territory.
+### Method 3: Experience Level
+- Financial planning > Financial planning for recent graduates
+- Watch collecting > Watch collecting for high-net-worth individuals
+- Programming > Python for complete beginners with no technical background
 
-### From Information Advantage to Category Name
-Pick a category name you can OWN -- short, specific, memorable. "Onboarding Email Surgeon" beats "Email Marketer." The narrower the category name, the easier it is to become the obvious choice.
+### Method 4: Company Size/Revenue
+- HR consulting > HR for startups under 50 employees
+- Business coaching > Coaching for companies stuck at $1M revenue
+- SaaS consulting > Customer onboarding for Series A startups
 
----
+### Method 5: Problem/Outcome
+- Luxury Airbnb rentals not getting booked
+- Real estate agents losing leads because of slow follow-up
+- Business coaching > Coaching specifically for revenue plateaus at $1M
 
-## 6 Ways to Niche Down (E02)
-
-1. **By Sub-Industry**: Technology -> cybersecurity
-2. **By Demographic**: Consulting -> consulting for female entrepreneurs
-3. **By Experience Level**: Financial planning -> for recent graduates
-4. **By Company Size/Revenue**: HR consulting -> HR for startups under 50 employees
-5. **By Problem/Outcome**: Business coaching -> for companies stuck at $1M revenue
-6. **By Location/Market**: Real estate -> luxury residential in major metros
-
-Each method narrows differently. Most effective when combined (e.g., by sub-industry + by experience level).
+### Method 6: Location/Market
+- Real estate > Luxury residential in Miami
+- Marketing > Digital marketing for restaurants in Austin
+- Also digital locations: Facebook groups, Discord servers, Reddit communities, platform-specific
 
 ---
 
-## The Professional Constellation (E02)
+## PROFESSIONAL CONSTELLATION -- EXPANDED
 
-When you niche down, you actually make it EASIER to attract from related fields.
+### How to Map Your Constellation
 
-**Example**: Position as "I help SaaS companies with customer onboarding" and you also attract:
-- Mobile app companies
-- Software consultancies
-- Digital agencies with SaaS clients
-- Customer success platforms
-- UX consultants
-- Product management teams
+1. Write your specific positioning statement ("tip of the spear")
+2. List 5-10 directly adjacent roles/industries who share similar needs
+3. List 5-10 tangentially related industries one degree removed
+4. Total constellation = 10-20 potential client/audience categories from ONE specific position
 
-One niche position opens doors to 20+ tangentially related industries. The Constellation effect means niching down expands your addressable market, not shrinks it.
+### AI Positioning Consultant Prompt Output (Cole, E05)
 
----
+The prompt generates:
+1. List of 30 more specific niches within your chosen industry
+2. Constellation of 20 tangentially related industries (reveals hidden opportunity)
+3. Short-form bio that positions you as specialist
 
-## The Positioning Formula (E02)
+### Bio Versions (Cole, E05)
 
-Core position: "I help [specific audience] solve [specific problem] so they can [specific result]"
-
-### Building the Formula
-1. List last 2-5 years of experience: 5 jobs/roles, 5 wins, 5 paid problems solved, 5 skills, 5 unusual experiences
-2. Circle overlaps between lists
-3. Draft positioning statement using the formula
-4. Test: Can a stranger immediately understand what you do and for whom?
+- Basic: "I ghostwrite weekly newsletters for real estate professionals"
+- Specific: "I ghostwrite weekly market insight newsletters for luxury real estate agents serving high net worth clients"
+- Problem/outcome focused: "I ghostwrite weekly newsletters for real estate agents helping them stay top of mind with past clients and generate more referrals"
 
 ---
 
-## Niche to Outcome, Not Topic (E03a Gusten Sun)
+## BIG PROMISE FRAMEWORK -- COMPLETE
 
-The common approach: "I'm in the fitness niche"
-The better approach: "I help busy fathers lose 20 pounds in 90 days without a gym membership"
+### Formula (Frabrand, E01)
 
-### Dream Outcome Selection (E03a)
-Pick an industry first: health, wealth, relationships, or productivity. Then go one level deeper to define the specific transformation you deliver. The outcome IS the niche.
+"I help [WHO] go from [PAIN STATE] to [DESIRED OUTCOME] through [UNIQUE METHOD] without [COMMON OBJECTION]"
 
-### Revenue Model Implications
-- $1 product = need 1,000 buyers/day for $30K/month
-- $500 product = need 2 buyers/day
-- $1,000 product = need 1 buyer/day
-- $3,000 service = need 10 clients/month
+### Component Breakdown
 
-Work backwards from your freedom number. The narrower your positioning, the higher you can price because specificity signals expertise.
+| Component | Purpose | Example |
+|---|---|---|
+| WHO | Specific audience | "busy professionals over 35" |
+| PAIN STATE | Where they are now | "confused and frustrated with social media" |
+| DESIRED OUTCOME | Where they want to be | "growing a following and scaling" |
+| UNIQUE METHOD | Your differentiator | "data-driven organic marketing" |
+| COMMON OBJECTION | Pre-empt resistance | "without paid ads or outdated tactics" |
 
----
+### Fluff Test (Colin & Samir, E02)
 
-## Brand Positioning Formula (E04b Content Creation Dojo)
-
-### The 3A Strategy
-1. **Attract**: Content that brings new eyeballs (growth content -- 80% of output)
-2. **Appreciate**: Content that nurtures and builds relationship (nurture content -- 20% for growth phase)
-3. **Ask**: Content that converts (conversion content -- 0% of feed content in pure growth mode; save for DMs/email)
-
-### Brand Pyramid
-- **Base**: What you do (functional value)
-- **Middle**: How you do it differently (your methodology)
-- **Top**: Why it matters (emotional value and transformation)
-
-Content should span all three levels. Top-of-pyramid content builds the deepest connection.
+Add "and make the world a better place" to the end. If it still sounds coherent, statement is too vague. Good statements are specific enough that adding generic filler sounds absurd.
 
 ---
 
-## Expand Niche for Reach (E04a Justas -- Contrarian)
+## BRAND PYRAMID -- LAYER DETAIL
 
-The math argument: If selling weight loss programs for men, posting fitness content for both genders means more total views. 1M broad views with 50% men = 500,000 male viewers. 100K narrow views all men = 100,000 male viewers. Broader content = more reach = more of your target via simple math.
+### Layer 1: Brand Core (Values & Attributes)
 
-### When Broader Works
-- Instagram and TikTok (algorithm rewards reach)
-- Theme pages (depersonalized content appeals to broader audiences)
-- Early growth phase when building account authority
-- High-volume, low-ticket business models
+Discovery questions:
+- What 5 values do you refuse to compromise on?
+- What principles guide your work?
+- What beliefs separate you from others in your space?
+- What would you do even if nobody paid you?
 
-### When Narrower Works
-- LinkedIn (algorithm rewards relevance)
-- YouTube (search specificity drives long-term discovery)
-- High-ticket coaching/services (200 right people > 10,000 wrong people)
-- B2B businesses where specificity signals expertise
+### Layer 2: Brand Personality (Communication Style)
 
----
+Spectrum positioning exercise:
+- Professional <> Casual
+- Serious <> Humorous
+- Formal <> Conversational
+- Data-driven <> Story-driven
+- Authoritative <> Collaborative
+- Polished <> Raw/authentic
 
-## Competitive Positioning (E03b Colin & Samir)
+### Layer 3: Brand Visuals
 
-### Creator Overview Exercise
-Write 3-5 bullets explaining what makes you different from other creators with similar missions:
-1. Study other creators in your niche
-2. Write down their unique value propositions
-3. Identify the gap you fill that nobody else does
-4. Document this -- it controls your narrative when agents or reps pitch on your behalf
-
-### The Supply & Demand Reality (E04b)
-Social media is a zero-sum game -- limited attention, your gain = someone else's loss. Supply of content is only increasing (especially with AI). The 3-phase cycle: engagement drops -> creators quit -> engagement rises for survivors. Long-term players (3,000+ days) always win through these cycles.
+See ref-visual-identity.md for full visual identity system.
 
 ---
 
-## The Clarity Checklist (E02 -- Your Entire Strategy)
+## 12 BRAND ARCHETYPES -- OVERVIEW
 
-Before moving to content strategy, verify:
+| Archetype | Core Drive | Brand Voice | Example Brands |
+|---|---|---|---|
+| Creator | Innovation, self-expression | Imaginative, inventive | Adobe, Lego |
+| Explorer | Freedom, discovery | Adventurous, independent | REI, Jeep |
+| Sage | Knowledge, truth | Informed, analytical | Google, TED |
+| Hero | Mastery, courage | Bold, confident | Nike, FedEx |
+| Rebel | Revolution, disruption | Provocative, disruptive | Harley-Davidson, Diesel |
+| Magician | Transformation | Visionary, charismatic | Disney, Apple |
+| Caregiver | Service, protection | Nurturing, generous | Johnson & Johnson |
+| Ruler | Control, order | Commanding, refined | Mercedes-Benz, Rolex |
+| Jester | Enjoyment, humor | Fun, playful | Old Spice, M&Ms |
+| Lover | Connection, intimacy | Passionate, sensual | Victoria's Secret, Godiva |
+| Innocent | Simplicity, optimism | Wholesome, honest | Dove, Coca-Cola |
+| Everyman | Belonging, connection | Friendly, relatable | IKEA, Target |
 
-1. **Clear about the category/topic**: What specific thing do you create content about?
-2. **Clear about the problem**: What specific problem are you helping readers solve?
-3. **Clear about the solution**: What tangible thing are you giving them? (Not ideas -- exercises, templates, scripts, playbooks)
-4. **Clear about the transformation**: How is their life different after consuming this?
-
-If you cannot answer all four clearly, your positioning needs more work.
+Use as a starting direction, not a rigid box. Most personal brands combine 2-3 archetypes.
 
 ---
 
-## Theme Page vs. Personal Brand (E04a)
+## 3A STRATEGY -- PROCESS
 
-> **Instructor Disagreement:**
-> - General advice: Personal brand always better long-term
-> - E04a (Justas): Theme pages grow faster (tested across multiple accounts)
-> - **Reconciliation:** Personal brand for monetization and trust-building. Theme page if you need volume and do not want to be on camera. Both can coexist.
+### Step 1: Ask (Data Collection)
 
-### Personal Brand Pros
-- Higher trust, better longevity (people remember faces)
-- Better monetization (trust = sales)
-- Can sell high-ticket products
+Send this to 10-15 people who know you well:
+- "What 3 words would you use to describe my personality?"
+- "What do people come to me for advice about?"
+- "What's unique about how I communicate or explain things?"
+- "What topic could I talk about for hours without getting bored?"
 
-### Theme Page Pros
-- No face required
-- Easier community building, faster follower growth
-- Wider content variety possible
-- Content appeals to broader audiences
+### Step 2: Analyze (Pattern Recognition)
+
+- Group responses by theme
+- Identify words that appear 3+ times across respondents
+- Note surprises -- things others see that you don't see in yourself
+- Cross-reference with your own self-assessment
+
+### Step 3: Amplify (Implementation)
+
+- Don't be 100% yourself -- be 110% yourself
+- Turn up the volume on natural traits rather than inventing new ones
+- If people say you're "direct," become even more direct in your content
+- If people say you're "warm," lean further into empathy and support
+
+---
+
+## LINKEDIN POSITIONING -- 7 HEADLINE TEMPLATES (Dickie Bush, E02)
+
+Max 220 characters. Must communicate: who you help + what transformation + credibility signal.
+
+1. **The Outcome**: "I help [target audience] use [mechanism] to [achieve target outcome number]"
+2. **The Aspirational Brand**: "[Your brand]. Building to [$X goal] and sharing everything I learn"
+3. **The Credible Talker Bio**: "I talk about [topic]. [Result for X people]. [Credible Experience]"
+4. **The Credible Category Bio**: "[Qualitative statement]. [Numbers]. [Category POV]"
+5. **The Specialist Bio**: "[What you do] for [audience]. Founder @ [company]. [Social proof]"
+6. "I help {specific audience} {achieve specific transformation} | {methodology}"
+7. "{Role} | I help {niche audience} {solve problem} so they can {achieve outcome}"
+
+---
+
+## FFGA DEEP CUSTOMER RESEARCH -- EXERCISE TEMPLATES
+
+### Frustrations & Wants (10 Pairs)
+
+| # | Frustration | Want (Opposite) |
+|---|---|---|
+| 1 | "I post content but nobody engages" | "I want my content to spark conversations" |
+| 2 | (Fill with audience-specific) | (Fill with audience-specific) |
+
+### Dreams & Fears (10 Pairs)
+
+| # | Dream | Fear (Opposite) |
+|---|---|---|
+| 1 | "Quit my job and create full-time" | "Investing years and never making money" |
+| 2 | (Fill with audience-specific) | (Fill with audience-specific) |
+
+### Additional Research Lists
+
+- 25 questions your audience asks about achieving their goal
+- 25 tactical problems they face daily
+- 25 emotional problems they experience
+- 25 common mistakes they make
+- 10 misconceptions about your topic/product
+- 10 objections to buying/investing in your solution
+
+### Audience Map
+
+| Category | Document |
+|---|---|
+| Demographics | Age, gender, income, education, location |
+| Psychographics | Values, beliefs, attitudes, interests |
+| Behaviors | Online habits, content consumption, purchase patterns |
+| Buying Triggers | What events or emotions prompt them to act |
+
+---
+
+## INFORMATION ADVANTAGE FRAMEWORK (Cole, E02)
+
+Everyone has an "Information Advantage" -- specialized knowledge from their unique combination of jobs, hobbies, goals, experiences.
+
+### AI Surfacing Process
+
+1. List all jobs you've worked in the last 2-5 years
+2. List hobbies you've started or pursued seriously
+3. List goals you've reached (personal and professional)
+4. List skills you've built through practice
+5. List experiences that gave you unique perspective
+
+From this, identify 5 specific businesses/industries you could serve. For each: specific job role who benefits, specific problem you solve, your unique competitive advantage.

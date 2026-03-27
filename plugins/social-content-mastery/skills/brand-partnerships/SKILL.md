@@ -1,306 +1,274 @@
 ---
-name: Brand Partnerships & Sponsorship Deals
+name: Brand Partnerships & Sponsorships
 description: >
-  MANDATORY TRIGGERS: User asks about getting brand deals, creating a pitch deck, pricing sponsorships, pitching brands, working with talent agents, negotiating brand contracts, managing sponsorship inventory, creating a media kit, or doing UGC work for brands.
-  FOR: The Menu Concept (what to sell/how much/how much available), 7-page pitch deck system, dedicated video vs integration products, pricing philosophy and floor price calculator, packaging in 3-episode minimums, inventory management (ATS tracking), inbound/outbound communication strategy, North Star Brands list, Creator Operator vs Represented Creator decision, working with agents (UTA/WME/CAA), legal essentials, integration execution, and UGC as entry point.
-  Do NOT use for: General monetization strategy and digital products (use monetize-content), community monetization and group leadership (use community-building), content creation and scripting (use write-scripts or write-hooks), audience growth strategies (use publish-grow).
+  MANDATORY TRIGGERS: brand deal, sponsorship, sponsor, pitch deck, brand partnership, integration,
+  UGC, user generated content, brand collab, influencer rate, how much to charge brands, media kit,
+  rate card, inbound, outbound, agent, manager, talent agency, packaging, menu, brand pricing,
+  floor price, available to sell, ATS, pitch template, cold outreach to brands, engagement rate pricing
+  FOR: Creator Startup pitch deck (7 pages), mission statement formula and fluff test, three audience
+  segments method, social proof collection, menu structure (dedicated vs integration), package pricing
+  in 3s, brand deal pricing (floor price formula with 5 steps), UGC value proposition, cold outreach
+  template for brands, inbound/outbound deal flow, affiliate marketing strategy for creators, agent
+  relationship management, leverage points in negotiation, Available to Sell tracker, North Star brand
+  list, packaging for renewals, fair market pricing, brand partnership execution.
+  Do NOT use for: Revenue from own products or coaching (use monetize-content), community-led revenue
+  (use community-building), content creation and scripting (use write-scripts), audience growth
+  (use publish-optimize), ghostwriting services for clients (use ghostwriting-freelance).
 ---
 
-# Brand Partnerships & Sponsorship Deals
+# Brand Partnerships & Sponsorships
 
-Help creators build, price, pitch, and execute brand partnerships. This skill covers the complete brand deal lifecycle from pitch deck creation through contract negotiation and integration delivery.
+Help creators build a profitable brand partnership business through pitch decks, strategic pricing, deal packaging, and professional brand relationship management. Based primarily on Colin & Samir's Creator Startup system plus influencer marketing from Nathan Chan.
 
 ## PREREQUISITE CHECK
 
-Before pitching brands, the creator needs:
-- A defined brand with clear pillars and audience (brand-foundation skill)
-- Consistent content track record with engaged following (publish-grow skill)
-- At minimum 3-6 months of regular content with measurable engagement
-
-For creators with smaller followings (<10K), start with UGC opportunities (see UGC section below) while building audience.
-
----
-
-## THE MENU CONCEPT (E03b Colin & Samir)
-
-The biggest unlock in brand partnership revenue: having a prepared "menu" before brands reach out.
-
-### Three Questions Your Menu Must Answer
-1. **What do we sell?** -- specific products (dedicated video, integration, package deals)
-2. **How much does it cost?** -- transparent pricing with floor and market rates
-3. **How much do we have available?** -- inventory management so you never oversell
-
-Without a menu, every brand inquiry starts from scratch. With a menu, you appear professional, reduce negotiation friction, and close deals faster.
+Before pursuing brand deals, the creator should be in Growth stage or later:
+- Consistent content output (weekly minimum)
+- Defined audience with engagement metrics
+- Basic brand identity (brand-foundation)
+- Content that consistently performs (publish-optimize)
 
 ---
 
-## PITCH DECK STRUCTURE: 7 PAGES (E03b)
+> **When to Read Reference Files:** For pitch deck page-by-page templates, floor price calculator, ATS tracker, outreach templates, negotiation leverage details, and influencer pricing benchmarks, read `ref-partnerships-pricing.md`.
 
-### Page 1: Cover
-- Channel name and branding
-- Professional, clean design matching your brand identity
-- No clutter -- visual impact only
+## THE 5 STAGES OF A CREATOR STARTUP (Colin & Samir)
 
-### Page 2: Mission Statement + Creator Overview
-- Mission statement (from brand-foundation): "My mission is to [value as verb] [audience identity]"
-- 3-5 bullets explaining your competitive advantage
-- What makes you different from other creators with similar missions
-- This page controls your narrative when agents or reps pitch on your behalf
+| Stage | Description | Brand Deal Status |
+|-------|------------|-------------------|
+| 1. Exploration | Testing formats, not making money | No brand deals |
+| 2. Development | Finding voice, choosing audience | Sporadic deals, low rates |
+| 3. Growth | Defining audience, consistent process | Predictable revenue begins |
+| 4. Expansion | More brand opportunities than slots | Hiring, scaling |
+| 5. Diversification | Non-advertising revenue (merch, products) | Each new launch restarts cycle |
 
-### Page 3: Audience Segments
-- 3 hyper-specific audience segments with names and short descriptions
-- Example: (1) Aspiring Creators, (2) Career Creators, (3) Creator Industry Professionals
-- For each segment: who they are, what they care about, which platforms they use
-- Specificity of audience = higher rates. General audience = rates determined by size (replaceable). Specific audience = rates determined by quality (defensible).
+**Brand deals become strategic in Stage 3.** Before that, focus on content quality and audience building.
+
+---
+
+## THE CREATOR STARTUP PITCH DECK (7 Pages)
+
+### Page 1: Mission Statement
+
+**Formula:** "My mission is to [value verb] [audience identity]"
+
+Example: "To educate and empower the next generation of creators" (Colin & Samir)
+
+**Fluff Test (4 Questions):**
+1. Is it unique to you?
+2. Is there a singular focus?
+3. Does it apply to all audience segments?
+4. Have you shared it out loud with someone?
+
+Use mission statement as a daily decision filter: "Does this opportunity educate and empower the next generation of creators? If no, pass."
+
+### Page 2: Creator Overview
+- 3-5 bullets of what makes you different from other creators in your space
+- Purpose: control your narrative -- YOU decide how you are portrayed
+- Find competitive advantage by studying other creators in your niche
+
+### Page 3: Three Audience Segments
+- Break audience into 3 hyper-specific segments
+- For each: name, description, platforms where they hang out
+- Example (Colin & Samir): aspiring creators, career creators, creator industry professionals
+- "Hyper-specific and hyper-engaged audience > large general audience" because specific = irreplaceable
 
 ### Page 4: Social Proof
-- DMs, quotes, tweets proving your value to viewers
-- Map one proof element per audience segment
-- Show that your audience is TRANSFORMING, not just consuming
-- Constantly update with fresh social proof
+- Screenshots of DMs, comments, tweets that prove your value to audience
+- Match social proof to each audience segment
+- Include: notable mentions, press features, endorsements from respected names
+- Organize by segment for easy brand reference
 
-### Page 5: Show/Format Description
-- Subscriber/follower count
-- Analytics: growth chart, average views
-- Format description: what a typical video/post looks like
-- Frequency: how often you publish
-- Distribution: which platforms you publish on
-- 3 sample video/content links (your best work)
+### Page 5-6: The Menu (What You Sell)
 
-### Page 6: Integration Details
-- 60-90 second integration description (or your standard format)
-- Sample integrations: links to previous brand partnerships
-- List of previous brand partners (social proof for the brand's marketing team)
-- This page answers: "What will the brand get and who else has trusted you?"
+**Two core products:**
+| Product | Description | Pricing |
+|---------|------------|---------|
+| Dedicated video | Full video about/for brand. Higher rates, longer timelines | Premium |
+| Integration | 60-90 sec sponsor segment within creator's video. Repeatable. | Standard |
+
+Integration is preferred: fits repeatable production process.
+
+**Menu includes:** subscriber count, analytics box (show growth/momentum), show description, frequency, distribution platforms, example videos, sample integrations, past sponsors.
+
+"If a brand wanted something custom and off-menu, we were really strict about saying no." Focus on repeatable process.
 
 ### Page 7: Pricing & Packaging
-- Price per integration
-- Package deal (3 episodes recommended minimum)
-- Note tying price to date received (gives flexibility to increase)
-- See pricing section below for how to calculate
+- Sell integrations in packages of 3 (spread across months)
+- Why packages: (1) brand becomes recurring character, (2) portfolio smooths performance variance, (3) goal is renewal to annual deal
+- Include note: "This price is connected to the date you received this pitch deck"
 
 ---
 
-## TWO PRODUCTS TO SELL (E03b)
+## BRAND DEAL PRICING -- THE FLOOR PRICE FORMULA (5 Steps)
 
-### 1. Dedicated Video
-- Entire video tailored around the brand
-- Higher rates but longer timelines
-- Brand has more creative control
-- Best for: product reviews, tutorials featuring the product, challenge-format brand content
+### Step 1: Calculate Monthly Expenses
+List ALL monthly costs (rent, software, freelancers, utilities, food, car, insurance). If solo creator, include life expenses.
 
-### 2. Integration
-- 60-90 second brand segment within your regular content
-- More common, easier to produce
-- Fits your regular production process
-- Best for: most creator partnerships, repeatable format, scalable deals
+### Step 2: Add Margin (40% recommended)
+$10,000 expenses + 40% margin = $14,000 minimum monthly revenue needed.
 
-**Recommendation:** Start with integrations. They are easier to produce, fit your existing workflow, and brands can buy packages that compound results over time.
+### Step 3: Determine Inventory
+How many brand deals per month? Floor price = monthly revenue / deals per month.
+- Example: $14,000 / 4 deals = $3,500 floor price
+- Go to market ABOVE floor (e.g., $5,000-$6,500 for a $3,500 floor)
 
----
+### Step 4: Apply Fill Rate (50% realistic)
+Not every slot sells. 48 annual slots x 50% fill = 24 actually sold.
 
-## PRICING PHILOSOPHY (E03b)
+### Step 5: Factor Commission
+- Agent: typically 10%
+- Lawyer: typically 5%
+- Total commission: ~15%
 
-### During Growth Stage: Show Pricing
-- Show pricing openly to reduce friction and back-and-forth negotiation
-- Lower barrier for brands to say yes
-- Saves time for both parties
-
-### Floor Price Calculator
-1. **List all monthly expenses** (rent, software, freelancers, utilities, food, etc.)
-2. **Add margin** (40% recommended starting point)
-3. **Divide by number of brand deals per month** you are willing to do
-4. **Result = absolute minimum price** to accept
-5. **Go to market at a higher number** (round up to a clean number)
-
-**Example:**
-- Monthly expenses: $10K
-- Plus 40% margin: $14K needed/month
-- Divided by 4 integrations/month: $3,500 floor price
-- Go to market at: $5K-$6.5K per integration
-
-### Fill Rate Assumption
-- Plan for 50% of inventory actually selling -- this is realistic
-- Factor in commission: agent (10%) + lawyer (5%) = 15% typical
-
-### Fair Market Price (Once Established)
-- When inbound interest exceeds available inventory, stop showing prices
-- Let the market tell you what you are worth
-- Highest price any brand will pay becomes your new floor
-- Add "price connected to date received" clause for flexibility to increase over time
-
-### Brand Deal Pricing for Smaller Creators (E04a)
-- Never state your price first -- brand may offer more than you would ask
-- Pitch monthly content creation retainers, not one-off deals, for steady income
-- UGC pricing: $200-$1,000+ per piece depending on usage rights and production quality
+### Fair Market Price (Advanced)
+Once inbound demand > available inventory:
+- STOP showing pricing in pitch deck
+- Ask brands their budget first
+- Highest price a brand will pay becomes your new floor
 
 ---
 
-## PACKAGING STRATEGY (E03b)
+## AVAILABLE TO SELL (ATS) TRACKER
 
-### Sell in 3-Episode Minimums
-**Reason 1:** Brand becomes a recurring character in your content -- better audience experience, more authentic
-**Reason 2:** Portfolio effect -- one video may underperform, one may overperform; campaign success is judged across the portfolio, not any single piece
+Spreadsheet tracking every upload slot for the year:
 
-### Goal
-Get brands to renew to annual deals or another 3-month agreement. Recurring brand partnerships are the foundation of predictable creator revenue.
+| Date | Channel/Format | Status | Partner | Price | Payment Received |
+|------|---------------|--------|---------|-------|-----------------|
+| Jan 15 | YouTube Main | Sold | Brand A | $5,000 | Yes |
+| Jan 22 | YouTube Main | Open | -- | -- | -- |
+| Jan 29 | YouTube Main | Break | -- | -- | -- |
 
-### Package Pricing Example
-- Single integration: $5,000
-- 3-episode package: $13,500 (10% discount incentive)
-- 6-episode annual: $24,000 (20% discount, guaranteed inventory)
-
----
-
-## INVENTORY MANAGEMENT -- ATS TRACKING (E03b)
-
-### Map Your Available-to-Sell Inventory
-1. Map out every upload slot for the year
-2. Subtract breaks, vacations, non-brandable content slots
-3. Track status for each slot: open, sold, or break
-4. Track which brand, price, and payment received per slot
-5. Share with agent/manager so they know what is available to sell
-
-### Why This Matters
-- Prevents overselling (promising more than you can deliver)
-- Enables package deals (you can see consecutive available slots)
-- Creates urgency for brands ("I only have 3 open slots this quarter")
-- Professional signal to brands and agents
+- Include planned breaks (reduces available slots)
+- Hand to agents/managers: "I want to sell 24 integrations at this price"
 
 ---
 
-## INBOUND COMMUNICATION (E03b)
+## PITCHING AND DEAL FLOW
 
-### Prep Response Template
-- Write in Google Doc, ready to copy-paste
-- Attach pitch deck as PDF
-- Consistent, professional, fast response time
+### Inbound Deals
+- Pre-prepare email response template with pitch deck attached
+- Filter spam: generic "Hey influencer" = archive; specific person name = follow up
+- Inbound + Outbound synergy: "If Pepsi emails, I'm emailing Coca-Cola"
 
-### Filter Incoming Emails
-- **Generic "hey influencer" emails:** Archive immediately -- these are mass sends
-- **Specific/personal emails referencing your content:** Respond promptly
+### Outbound Deals
+- Cold outreach rarely works for creators
+- Warm outreach (mutual connections, fellow creators) much more effective
+- 80-90% of time on content creation, 10-20% on outreach
 
-### Two Response Options
-1. **Show menu WITH price:** Reduces negotiation time; works best when you have many inbound leads
-2. **Show menu WITHOUT price, request a call:** Works best for high-value brands where relationship matters
+### North Star Brand List (3 Methods)
+1. **Dream brands** you have always wanted to work with
+2. **Tools you organically use daily** (most authentic integrations)
+3. **Brands sponsoring other creators** in your niche (already spending on creator content)
 
----
-
-## OUTBOUND COMMUNICATION (E03b)
-
-### Warm Outreach > Cold Outreach
-- Pure cold outreach rarely works for creators
-- Ask fellow creators to introduce you to partnerships coordinator at target brand
-- Be an active member of your industry: attend events, join digital communities
-
-### North Star Brands List Exercise
-Develop a list of ideal brands based on:
-1. **Aspiration brands:** Brands you have always wanted to work with
-2. **Organic-use brands:** Tools/products you use daily (most authentic partnerships)
-3. **Proven-budget brands:** Brands already sponsoring other creators in your niche
-
-For each: brand name + why it is a good fit + mutual connection path
-
-### Five Takeaways on Cold Outreach (E03b)
-1. **Borrowed credibility:** Social proof is essential; be aware of what people find when they Google you
-2. **Find an inside person:** Warm outreach always beats cold; be active member of industry
-3. **Have a clear ask:** Pitch deck IS your clear ask; get to easy yes/no
-4. **Be cautious of over-persistence:** Reputation is your most valuable asset in a small industry
-5. **Focus on creating value:** 80-90% of time on making better content; 10-20% on outreach; as you grow, inbound increases naturally
+### Cold Outreach -- 5 Takeaways (Alex Benayan via Colin & Samir)
+1. **Borrowed credibility** -- Social proof from reputable brands, press, comments
+2. **Find an inside person** -- Warm outreach through mutual connections is most effective
+3. **Clear ask** -- Pitch deck IS your clear ask. Goal of cold email = get to a Zoom call
+4. **Avoid over-persistence** -- Reputation is your most valuable asset
+5. **Focus on creating value** -- Better content creates more inbound over time
 
 ---
 
-## CREATOR OPERATOR VS. REPRESENTED CREATOR (E03b)
+## AGENT RELATIONSHIP MANAGEMENT (Ali Berman, UTA)
 
-### Creator Operator (Handle It Yourself)
-- Save on commission (15% agent + lawyer)
-- Full control over brand relationships
-- **Challenge:** Balancing content creation with negotiation; momentum killers when you disappear into editing for days
+### When to Get an Agent
+- Once you have transactional business (brands reaching out)
+- Once activity is "worthy of someone's time" (agent takes 10%)
+- No fixed rule -- some agents sign early for potential
 
-### Represented Creator (Agent/Manager)
-- Agent handles pitching, closing, negotiating
-- Your job: ensure pitch deck represents your brand accurately + review all deal terms + have your own lawyer
-- **When to get an agent:** When inbound deal flow exceeds your capacity to respond
+### Deal Structure
+- Industry standard at top agencies: handshake agreement
+- No contract, no term, walk away anytime
+- Commission: agent 10%, lawyer 5%
 
-### Working with Agents (E03b)
-- Top agencies: UTA, WME, CAA
-- Agent commission: typically 10%
-- Lawyer commission: typically 5%
-- Agent role: go to market, pitch your content to brands, negotiate deals, maintain deal momentum
-- Pitch your pitch deck to your agent so they can represent you accurately
-- Have regular communication about who they are talking to and market feedback
+### What Makes a Good Client
+- Have a unique point of view and vision
+- Frequent and consistent communication (share wins, performance data voluntarily)
+- Come with ideas: "We're best when you give us the ammo and we can load up"
 
----
+### On Pricing
+- "Art meets science" -- no standard rate charts for creators
+- Having representation at scale = massive pricing intelligence advantage
+- Early career: can do revenue-sharing/CPA deals for learning
+- Later career: revenue-sharing only ON TOP of guaranteed fair market fee
+- Early career: grant MORE usage rights than textbook says -- free visibility for you
 
-## LEGAL ESSENTIALS (E03b)
-
-### Non-Negotiable Rules
-- Always have a lawyer review contracts (even if agent has business affairs department)
-- Understand exclusivity clauses -- know exactly what you cannot promote and for how long
-- Understand usage rights -- can the brand use your content in their ads? For how long? On which platforms?
-- Understand deliverables, timelines, and payment terms explicitly
-- LLC taxed as S-corp recommended; hire accounting firm early
-
-### Key Contract Terms to Watch
-- **Exclusivity:** How broad? Category-wide or brand-specific? Duration?
-- **Usage rights:** Organic only or paid media? Duration? Geography?
-- **Deliverables:** Number of posts/videos, revision rounds, approval process
-- **Timeline:** Delivery dates, review periods, posting windows
-- **Payment terms:** Net 30, net 60, or milestone-based? Kill fees?
-- **FTC compliance:** Proper disclosure requirements (#ad, #sponsored)
+### Leverage Points in Negotiation
+1. Deliverables (volume of content)
+2. Usage rights (organic only vs. paid media boost)
+3. Exclusivity (competing brands)
+4. Name, image, likeness rights
+5. Term/duration
 
 ---
 
-## INTEGRATION EXECUTION BEST PRACTICES (E03b)
+## UGC FOR SMALLER CREATORS
 
-### Delivery Standards
-- 60-90 second brand integration delivered in your natural tone and voice
-- Include call to action and link in video description
-- Translate brand talking points into your natural language (never read brand copy verbatim)
-- Distribution across all your platforms (YouTube + podcast feed if applicable)
-
-### Making Integrations Feel Natural
-- Lead into the integration with a personal story or use case
-- Show genuine product use, not just product display
-- Match energy of integration to energy of surrounding content
-- End integration cleanly -- do not let it bleed awkwardly into next segment
+When audience is too small for traditional brand deals:
+- Offer User Generated Content (UGC) creation as a service
+- Brands pay for authentic-looking content they use in their own ads
+- Does not require large following -- quality of content matters
+- Pricing: $150-$500 per video for beginners, $500-$2,000+ with portfolio
+- Build portfolio by creating sample UGC for brands you already use
 
 ---
 
-## UGC AS ENTRY POINT (E04a)
+## AFFILIATE MARKETING FOR CREATORS
 
-### For Smaller Creators (<10K Followers)
-- UGC (User Generated Content) = creating content for brands to use on THEIR channels and ads
-- You do not need a large following; brands pay for content quality, not audience size
-- Entry-level pricing: $200-$500 per piece
-- Advanced pricing: $500-$2,000+ with usage rights for paid ads
+### Rules
+- Wait until at least 2,000 followers to start
+- Only sell products you have personally used
+- Aim for 50% commission (Gumroad standard) or 30-40% on recurring SaaS
+- Never associate with weak products -- protect your brand
+- Best affiliate sellers have strong off-platform presence (website, email list)
 
-### Finding UGC Opportunities
-1. Look at products you already use/love
-2. Search TikTok/Facebook ads libraries for brands running UGC-style ads
-3. Use sites like ThinkTesting.com for companies seeking UGC creators
-4. Find marketing team emails via company website or Snov.io
-5. Create sample content showcasing products (even unsponsored) as proof of quality
+### Two Ways to Create Affiliate Content
+1. **Highlight one unique feature** -- Deep dive on specific capability
+2. **Tell a personal story** -- How this tool/product changed your workflow
 
-### Building a UGC Portfolio
-- Create 3-5 sample videos featuring products you already own
-- Demonstrate range: product review, unboxing, tutorial, lifestyle integration
-- Create media kit on Beacons (free, auto-generates from Instagram data)
+### Key Insight
+- Never just post "here's my affiliate link"
+- Put genuine effort into the sell
+- Put links in images (people naturally click images)
+- Cookie duration typically 30 days
 
 ---
 
-## When to Read Reference Files
+## BRAND PARTNERSHIP EXECUTION
 
-| Reference File | Load When |
-|---|---|
-| `ref-pitch-deck.md` | User needs the complete 7-page pitch deck walkthrough, design principles, integration format templates, pricing worksheets, packaging details, or inbound/outbound response templates |
+### What Makes a Good Integration
+- 60-90 second integration in creator's tone and voice
+- Includes clear call to action + link in description
+- Distribution across primary platform + podcast/secondary platforms
+- Sample integrations linked in pitch deck for reference
+
+### Packaging for Renewals
+- Sell 3-episode packages minimum
+- Goal: convert to annual deals
+- Brand becomes recurring character = better audience experience
+- Portfolio approach: one video under, one over, measure across all three
+
+---
+
+## BENCHMARKS AND NUMBERS
+
+- Colin & Samir: locked in $1M in brand deals first year after pitch deck
+- Samsung: their first annual brand partnership
+- Agent commission: 10% industry standard
+- Lawyer: 5%
+- Fill rate assumption: 50% of available inventory
+- Margin target: 40% above expenses
+- Floor price example: $3,500 minimum, market at $5,000-$6,500
+- Nike deal took 6 years from North Star list placement
+- Early career: accept lower rates for portfolio building and visibility
 
 ---
 
 ## CROSS-REFERENCES
 
-- **For general monetization strategy and digital products** -> monetize-content
-- **For brand foundation and positioning needed before pitching** -> brand-foundation
-- **For audience growth to brand-deal-ready size** -> publish-grow
-- **For scripting brand integration segments** -> write-scripts
-- **For community-based revenue as alternative to brand deals** -> community-building
+- Need brand identity first --> `brand-foundation`
+- Revenue from own products/coaching --> `monetize-content`
+- Community-based revenue --> `community-building`
+- Content creation for integrations --> `write-scripts`
+- Ghostwriting services for brands --> `ghostwriting-freelance`

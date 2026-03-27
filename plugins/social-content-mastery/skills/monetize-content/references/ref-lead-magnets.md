@@ -1,243 +1,177 @@
 ---
-name: Lead Magnet Deep-Dive
-description: >
-  Lead magnet naming formula, 13-component structure, micro-problem strategy, delivery mechanisms,
-  authority hooks, landing page templates, and distribution checklists.
+name: Lead Magnet Reference
+description: Lead magnet types, naming formulas, distribution systems, comment magnet setup, and funnel templates
 ---
 
-# Lead Magnet Deep-Dive Reference
+# Lead Magnet Quick Reference
 
-## LEAD MAGNET NAMING FORMULA (E02)
+## Lead Magnet Types Ranked by Conversion
 
-### Primary Formula
-"The [Target Audience] [Desired Outcome] [Without Pain] [Even If Obstacle]"
+| Rank | Type | Conversion Rate | Creation Time | Best For |
+|------|------|----------------|--------------|----------|
+| 1 | Checklist / cheat sheet | Highest | 1-2 hours | Actionable niches (fitness, business, cooking) |
+| 2 | Template pack | Very high | 2-4 hours | Business/productivity/design |
+| 3 | Swipe file | Very high | 2-4 hours | Marketing, copywriting, content creation |
+| 4 | Short video training | High | 1-2 days | Personal brands, coaches |
+| 5 | Ebook / guide | Medium-high | 3-7 days | Expertise demonstration |
+| 6 | Quiz / assessment | Medium | 1-2 days + tool cost | Segmentation, personalization |
+| 7 | Free mini-course | Medium | 1-2 weeks | Course funnel entry |
+| 8 | Webinar / masterclass | Medium | 1 week prep | High-ticket funnel entry |
+| 9 | Free community access | Lower | Ongoing | Community-based business models |
 
-### Alternative Title Structure
-[NUMBER] [WHAT] [HOW] for [WHO] to [OUTCOME] [TIME FRAME]
+---
 
-### Naming Examples by Niche
+## Lead Magnet Naming Formulas
 
-**Fitness:**
-- "The Busy Professional's 15-Minute Workout: 5 Exercises to Build Muscle Without a Gym Membership"
-- "The New Mom's Recovery Guide: 3 Gentle Routines to Rebuild Core Strength in 30 Days"
+### Formula 1: Number + Specific Thing + Ease/Time + Outcome
+- "7 Hook Templates That Got Me 1M Views in 30 Days"
+- "The 5-Minute Content Calendar That 10x'd My Engagement"
+- "21 Caption Formulas for Coaches Who Hate Writing"
 
-**Business/Marketing:**
-- "The Creator Revenue Blueprint: 5 Ways to Make Your First $1,000 From Content"
-- "The LinkedIn Growth Kit: 10 Viral Post Templates That Generated $100K In Sales"
-- "The Cold Email Playbook: 7 Subject Lines That Get 40%+ Open Rates"
+### Formula 2: The [Adjective] [Noun] to [Outcome]
+- "The Ultimate Guide to Landing Your First 1,000 Followers"
+- "The Lazy Creator's Toolkit for Consistent Content"
+- "The No-BS Framework for Pricing Your Coaching Offer"
 
-**Finance:**
-- "The First-Time Investor's Checklist: 5 Steps to Start Investing With Under $500"
+### Formula 3: How I [Result] [Timeframe] (And How You Can Too)
+- "How I Grew to 100K Followers in 6 Months (My Exact System)"
+- "How I Made $10K from a Free Instagram Account in 90 Days"
+
+### Formula 4: [Number] [Mistakes/Secrets/Rules] [Audience] [Action]
+- "5 Mistakes Killing Your Instagram Growth (And How to Fix Them)"
+- "The 3 Secrets Top Creators Use to Go Viral Every Week"
 
 ### Naming Rules
-- Numbers 3-7 work best in titles
-- Use specific outcomes: "Never waste time hiring B-players again," "2x conversions in 30 days"
-- Include timeframe when possible for urgency
-- "Without" and "Even If" clauses remove objections in the title itself
+- Include a specific number (odd numbers perform better)
+- Include a specific timeframe or ease qualifier
+- Address a specific pain point or desired outcome
+- Name should make the reader think "I NEED this"
+- Avoid vague names ("My Free Guide" / "Download This")
 
 ---
 
-## 13-COMPONENT LEAD MAGNET STRUCTURE (E02)
+## Comment Magnet System (Full Setup)
 
-### Component 1: Title and Subtitle
-- Title: use naming formula above
-- Subtitle: expand on the specific transformation promised
-- Design: large, bold, clean typography on cover
+### Step 1: Create Trigger Content
+- Educational reel/post that demonstrates expertise
+- Content should naturally lead to wanting more detail
+- Example: "Here are 3 of my 7 hook formulas..." (creates desire for remaining 4)
 
-### Component 2: Authority-Building Hook
-Open with one of 5 hook types:
-1. **Transformation Story:** "I went from [before] to [after] and here is exactly how"
-2. **Counterintuitive Truth:** "Everything you have been told about [topic] is wrong. Here is what actually works"
-3. **Insider Secret:** "After working with 100+ [clients], I discovered a pattern nobody talks about"
-4. **Specific Moment:** "The day I [specific event] changed everything about how I approach [topic]"
-5. **Bold Prediction:** "In 12 months, [prediction] will be the new normal. Here is how to get ahead"
+### Step 2: Add Comment CTA
+- End with: "Comment [KEYWORD] and I'll send you all 7"
+- Keyword should be simple: "HOOKS," "FREE," "SEND," your brand name
+- Place CTA as: on-screen text (last 2 seconds) + spoken + in caption
 
-### Component 3: Clear Value Promise
-- "By the end of this guide, you will know exactly how to:"
-- List 3-4 specific outcomes (not vague benefits)
-- Each outcome should be measurable or observable
+### Step 3: Set Up DM Automation (ManyChat)
+- Trigger: When someone comments the keyword
+- Action 1: Auto-reply comment ("Just sent it to your DMs!")
+- Action 2: Send DM with link to landing page or direct download
+- Action 3: Follow-up DM 24 hours later (optional nurture)
 
-### Component 4: Quick Implementation Guide
-- **Time investment:** "This takes 30 minutes to implement"
-- **Best approach:** "Start with Step 3 if you already have X"
-- **What you will need:** List any tools, accounts, or prerequisites
-- **Success metric:** "You will know it is working when [measurable outcome]"
+### Step 4: Landing Page Captures Email
+- Lead magnet delivery page requires email input
+- Simple page: Headline + 3 bullet benefits + email field + download button
+- After email capture: deliver lead magnet + add to email sequence
 
-### Component 5: Core Framework/System
-- Give it a memorable name (acronym, numbered system, or branded method)
-- Explain why this framework works (the logic behind it)
-- List 3-7 components with one-sentence descriptions
-- Visual diagram or flowchart if possible
-
-### Component 6: Step-by-Step Action Plan
-For each step include:
-- **What to do:** Specific, concrete action
-- **Why it works:** Brief explanation of the mechanism
-- **Expected result:** What they should see after completing
-- **Pro tip:** Insider advice that makes the step easier
-- **Common mistake:** What most people get wrong at this step
-
-### Component 7: Strategic Connection to Main Offer
-- Acknowledge the limitation of the free resource: "This guide covers [X], but the full system also includes [Y] and [Z]"
-- Hint at the next level: "When you are ready to go deeper..."
-- Soft position: "My [product/service] covers the complete [framework name]"
-
-### Component 8: Non-Pushy Next Steps
-- "When you are ready for [next level outcome], here is what I recommend..."
-- Frame as their decision, not your pitch
-- Provide multiple paths (free content, low-ticket, high-ticket)
-
-### Component 9: Credibility Bio Section
-- 2-3 sentences establishing authority
-- Specific numbers: clients helped, revenue generated, years of experience
-- Relatable element: where you started, struggles you overcame
-
-### Component 10: Social Proof Elements
-- 1-2 short testimonials from clients/students
-- Screenshot of results if applicable
-- Specific metrics: "helped 200+ creators grow to 10K followers"
-
-### Component 11: Strategic CTAs Throughout
-- Sprinkle 2-3 natural CTAs within the content (not just at the end)
-- Each CTA should feel like a natural extension of the value just delivered
-- Vary CTA types: "Want the full version?", "Join 500+ creators who...", "Book a free strategy call"
-
-### Component 12: Resource Links and Contact Info
-- Link to your website, social profiles, booking page
-- Any tool recommendations with affiliate links (if applicable)
-- Support email or DM instructions
-
-### Component 13: Natural Progression Guide
-- Map the reader's journey from free resource to paid offer
-- Show the logical next step after implementing the guide
-- Create urgency without manipulation: "The sooner you start, the sooner you see results"
+### Step 5: Email Nurture Sequence
+- Email 1 (immediate): Deliver lead magnet + introduce yourself
+- Email 2 (day 2): Share a quick win related to lead magnet topic
+- Email 3 (day 4): Share a case study or personal story
+- Email 4 (day 7): Introduce your paid offer with soft CTA
+- Email 5 (day 10): Direct pitch with testimonials and urgency
 
 ---
 
-## MICRO-PROBLEM STRATEGY (E02)
+## Lead Magnet Distribution Channels
 
-### Core Concept
-Do not try to solve the big problem for free. Break it into 15 micro-problems. Find the "early narrow" problem -- the one that, when solved, unlocks the rest of the journey.
+### Primary Channels
+| Channel | Method | Conversion Notes |
+|---------|--------|-----------------|
+| Instagram bio link | Link tree or direct landing page | Highest-intent traffic |
+| Instagram stories | Link sticker to landing page | Works best with 1K+ followers |
+| Comment magnet | ManyChat automation from reel comments | Highest volume |
+| Instagram DMs | Manual or automated delivery | Highest personal touch |
+| YouTube description | First link in description box | Passive, compounding |
+| LinkedIn post | CTA in post + comment delivery | B2B audience |
+| Twitter/X bio | Link to landing page | Text-based audience |
+| TikTok bio | Link tree with lead magnet | High volume, lower intent |
 
-### The Pizza Dough Analogy
-Like pizza dough: mess up the dough and everything else is impossible. Your lead magnet should solve the "dough" problem -- the foundational issue that prevents everything else from working.
-
-### Identifying Your Micro-Problem
-1. List the 15 steps someone takes from zero to desired outcome in your niche
-2. Identify the first 3 steps -- these are micro-problems
-3. Which one, if unsolved, makes everything else impossible?
-4. That is your lead magnet topic
-
-### Examples by Niche
-- **Content creation:** The micro-problem is not "grow to 100K followers" -- it is "write a hook that stops the scroll"
-- **Fitness:** Not "lose 30 pounds" -- it is "build a workout habit that sticks for 7 days"
-- **Business:** Not "build a 6-figure business" -- it is "identify your first paying customer"
-
----
-
-## 3 WAYS TO SOLVE (E02)
-
-### 1. Reveal
-Make them aware of a problem they did not know existed.
-- **Best for:** Diagnosis, problems that get worse while you wait
-- **Examples:** "5 Signs Your Content Strategy Is Actually Hurting Your Growth" / "The Hidden Tax Deduction 90% of Creators Miss"
-- **Why it works:** New information creates urgency to solve
-
-### 2. Sample
-Free trial or taste with limited time or access.
-- **Best for:** Software, communities, courses
-- **Examples:** Free 7-day community trial, first module of course free, 30-minute strategy session
-- **Why it works:** Removes risk; once they experience value, they want more
-
-### 3. Step
-Free step 1 of X -- give away the first step, charge for the rest.
-- **Best for:** Multi-step frameworks, courses, coaching programs
-- **Examples:** "Here is Step 1 of my 7-Step Content System (the remaining 6 steps are in my course)"
-- **Why it works:** Proves the method works; creates desire for completion
+### Best Practices
+- Rotate lead magnets every 2-3 months (freshness)
+- Create platform-specific lead magnets (different audiences want different things)
+- Test lead magnet titles like you test hooks (naming is the hook)
+- Track conversion rate: landing page visits / email captures
+- Healthy benchmark: 30-50% opt-in rate on warm traffic landing pages
 
 ---
 
-## 4 DELIVERY MECHANISMS (E02)
+## Lead Magnet Validation Process
 
-### 1. Software
-- Spreadsheet, dashboard, calculator, or tool that does a job for the user
-- Examples: content calendar template, pricing calculator, analytics tracker
-- Highest perceived value because it does work for them
+### Before Building (1-2 days)
+1. Post 3-5 content pieces on the lead magnet topic
+2. Track saves and comments (high saves = people want reference material)
+3. Ask in stories: "Would you want a free [thing]?" with poll sticker
+4. If validation is positive, proceed to creation
 
-### 2. Information
-- PDF guides, mini-courses, video lessons, interview compilations
-- Examples: "10 Viral Hook Templates," "30-Day Content Calendar," "7 Email Sequences That Convert"
-- Most common; differentiate with specificity and design quality
+### During Creation (1 day - 1 week)
+1. Solve ONE specific problem (not everything)
+2. Make it visually appealing (use Canva, not plain Google Doc)
+3. Include your branding (logo, colors, website)
+4. Add a "What's Next?" section pointing to your paid offer
+5. Keep it consumable in under 15 minutes
 
-### 3. Service
-- Free audit, free first session, done-for-you sample
-- Examples: free website review, free content audit, 15-minute strategy call
-- Highest conversion to paid because you demonstrate expertise directly
-
-### 4. Product
-- Something tangible or interactive
-- Examples: assessment quiz, printed workbook, supplement sample
-- Memorable and shareable; creates physical touchpoint
-
----
-
-## LEAD MAGNET FUNNEL SETUP (E04a)
-
-### Platform Stack
-- **Beacons** (free, drag-and-drop) for landing page
-- **Gumroad** for hosting free products and email collection
-- Do not sell on Beacons even though it has store features -- Gumroad has free integrated email software (E04a)
-
-### Gumroad Setup
-- Set price to $0 but suggested price at $10 -- still free but some people pay
-- Need $100 net profit on Gumroad to send emails to 100+ people
-- Gumroad hack: buy your own product to cross $100 threshold (lose ~10% to fees, one-time cost)
-
-### Landing Page Structure
-- Description similar to Instagram bio: 1-2 sentences + social proof
-- Must include email signup form even if no products yet
-- CTA: "weekly tips on [topic]" to start building list
-
-### ManyChat Integration (E04a)
-- Set up keyword trigger in Instagram DMs
-- User comments keyword on reel > ManyChat auto-sends DM with product link
-- Triple benefit: (1) massively increased engagement, (2) email list building, (3) viewer gets value
-- Message template: greeting + product name + link + instructions + request for review
-
-### Distribution Strategy (E02)
-- Add opt-in link to: bio, Featured (first card), pinned post
-- Include in 1-2 relevant content posts per month
-- Post native content; put external links in first comment or use profile/Featured section
-- End posts with engagement trigger: "Want the checklist? Comment 'checklist'"
+### After Launch (Ongoing)
+1. Track opt-in rate weekly
+2. Ask new subscribers: "What made you download this?"
+3. If opt-in rate drops below 20%, refresh or replace
+4. Create v2 based on subscriber feedback
 
 ---
 
-## LEAD MAGNET DESIGN SPECS (E02)
+## CTA Rotation System (InstaCoach Mike)
 
-### Format
-- 2-5 page PDF
-- Clean, legible design
-- Large headings
-- Short bullets (not paragraphs)
-- One font pair (heading + body)
-- 3 brand colors maximum
+Same CTA every time becomes invisible. Rotate across content:
 
-### Landing Page Requirements
-- Clear headline matching lead magnet title
-- Targeted subhead expanding on the promise
-- Key outcomes in 3-5 bullets
-- Simple form: name + email only
-- Thank-you page with clear next step
+| CTA Goal | Template | Frequency |
+|----------|----------|-----------|
+| Followers | "Follow for daily [topic] tips that'll help you [outcome]" | 2x/week |
+| Saves | "Save this for when you need it" | 2x/week |
+| Comments | "Comment [keyword] if you agree" | 1-2x/week |
+| Shares | "Tag someone who needs to hear this" | 1x/week |
+| DM leads | "DM me [keyword] for my free [resource]" | 2-3x/week |
+| Email signups | "Link in bio -- grab my free [lead magnet]" | 1x/week |
+| Sales | "Link in bio for [offer] -- [specific benefit]" | 1x/week max |
+
+### CTA Rules
+- Always include a BENEFIT for the viewer (not just an action for you)
+- Bad: "Follow me" / Good: "Follow me for daily tips that'll help you grow faster"
+- Place CTA as: on-screen text (2 seconds max) + spoken + in caption + pinned comment
+- Never put CTA in first 3 seconds (earn attention first)
 
 ---
 
-## LEAD MAGNET QUALITY TEST
+## Promotional Content Rules by Stage
 
-Before publishing, answer:
-1. Would your target audience pay $5-$10 for this? (E04a)
-2. Does it solve ONE specific micro-problem completely?
-3. Can someone implement it within 30 minutes?
-4. Does it naturally lead to your paid offer?
-5. Is it specific enough that only your target audience would want it?
+### Stage 1: Building (0-1K followers)
+- 90% value content (educational, entertaining)
+- 10% soft mentions of expertise/services
+- Goal: build audience, not sell yet
+- Exception: if you have existing expertise, offer free consultations to build testimonials
 
-If any answer is no, revise before publishing.
+### Stage 2: First Leads (1K-10K followers)
+- 60% educational content
+- 20% personality/behind-the-scenes
+- 20% promotional (lead magnets, offer mentions)
+- Start introducing your offer casually in content
+
+### Stage 3: Established (10K+ followers)
+- 30% educational
+- 30% personality/expertise demonstration
+- 30% promotional
+- 10% community engagement (responses, duets, collaborations)
+- Promotional reels most effective during launch sequences
+
+### Key Insight: Content Mix Determines Revenue
+- Too much promotion = algorithm suppresses + audience unfollows
+- Too little promotion = audience never knows you sell anything
+- The 30/30/30 split is the sustainable monetization sweet spot

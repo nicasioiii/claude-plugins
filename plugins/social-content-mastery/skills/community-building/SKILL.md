@@ -1,286 +1,244 @@
 ---
 name: Community Building & Group Monetization
 description: >
-  MANDATORY TRIGGERS: User asks about building a community, starting a Facebook group, monetizing through community, running live streams for revenue, creating a membership model, growing a group, leading a community, DM sales through community, or building a free Discord/Facebook community.
-  FOR: Community revenue formula (time = money), community leadership principles, The Promise + The Provider framework, Facebook Group growth tactics (invite/remind/delete system), Community Laws of Power, 5-Day Community Lead Gen Sequence, 30-Day Community Content Calendar, Steve Aoki principle, DM sales system from Instagram, Discord community setup, membership models, and live stream revenue strategy.
-  Do NOT use for: Brand partnerships and sponsorships (use brand-partnerships), digital products and courses (use monetize-content), content strategy and ideation (use content-strategy), AI-assisted workflows (use ai-content-workflow), audience growth on social platforms (use publish-grow).
+  MANDATORY TRIGGERS: community, group, membership, Facebook group, School, Circle, DM sales,
+  membership model, group coaching, 1000 true fans, tribe, engagement group, community monetization,
+  community strategy, audience vs community, build community, community leadership, group growth,
+  member retention, building in public
+  FOR: Community strategy (community > audience mindset), Identities-Emotions-Actions framework
+  (BuzzFeed/Colin & Samir), Facebook group growth (3-part daily system), School/Circle community
+  setup, DM automation for lead gen, building in public strategy, 1000 true fans concept,
+  community-led monetization, group coaching transition, membership tier design, community
+  engagement systems, DM networking (10 Club framework from Twitter).
+  Do NOT use for: Brand partnerships and sponsorships (use brand-partnerships), individual product
+  sales and funnels (use monetize-content), content creation and scripting (use write-scripts),
+  audience growth tactics (use publish-optimize), AI-assisted workflows (use ai-content-workflow).
 ---
 
 # Community Building & Group Monetization
 
-Help creators build, grow, and monetize communities as both a revenue vehicle and product delivery mechanism. This skill covers community strategy from founding principles through growth tactics and sales integration.
+Help creators build and monetize engaged communities through group models, membership tiers, DM strategies, and the community-over-audience philosophy. A community creates deeper loyalty, higher lifetime value, and more sustainable revenue than a transactional audience.
 
-## PREREQUISITE CHECK
+> **When to Read Reference Files:** For community platform feature comparisons, membership tier templates, DM sales scripts, building in public checklists, and engagement system details, read `ref-community-models.md`.
 
-Before building a community, the creator should have:
-- A defined brand and audience (brand-foundation skill)
-- Some form of content presence (does not need to be large)
-- A clear understanding of what transformation they provide
+## THE COMMUNITY MINDSET SHIFT
 
-Communities can start small. Sky Stack generated $33K from a Facebook group with less than 200 members. Size is not the prerequisite -- clarity of purpose is.
+### Audience vs. Community
 
----
+| Dimension | Audience | Community |
+|-----------|---------|-----------|
+| Relationship | One-to-many broadcast | Many-to-many interaction |
+| Value flow | Creator delivers, audience consumes | Members help each other |
+| Loyalty | Follows trends, easily distracted | Invested in identity and belonging |
+| Revenue | Transactional (one-time purchases) | Recurring (memberships, retention) |
+| Defensibility | Replaceable by larger creator | Irreplaceable relationships |
 
-## COMMUNITY REVENUE FORMULA (E03c Sky Stack)
-
-### The Core Equation
-**For every $1,000 your offer costs, do 1 hour of live streams in your community.**
-
-| Offer Price | Live Stream Hours Needed | Conversion Logic |
-|-------------|-------------------------|------------------|
-| $1,000 | 1 hour | After 1 hour with you, low-ticket funnel converts immediately |
-| $3,000 | 3 hours | Multiple touchpoints build sufficient trust |
-| $5,000 | 5 hours | After 5 hours, high-ticket becomes easy to sell |
-| $10,000+ | 10+ hours | Deep relationship required; community is the vehicle |
-
-### The Direct Relationship
-**Time spent with you = money they will spend with you.**
-
-This is the fundamental law of community monetization. Every minute a member spends consuming your content, watching your live streams, or engaging with your posts increases their willingness to invest in your paid offers.
-
-### Proof: $33K from <200 Members (E03c)
-Sky Stack generated $33K in sales from a Facebook group with fewer than 200 members in his first month. The group was small but deeply engaged because he invested significant time providing genuine value before ever making an offer.
+**Key shift:** An audience watches you. A community identifies WITH you and each other.
 
 ---
 
-## COMMUNITY LEADERSHIP PRINCIPLES (E03c)
+## IDENTITIES-EMOTIONS-ACTIONS FRAMEWORK (Colin & Samir, from BuzzFeed CEO Jonah Peretti)
 
-### Groups Fail When Treated Like Sales Funnels
-- "Pitching hostages" -- creating a group just to sell to captive audience -- kills communities
-- People can tell when content is made to sell vs. made to lead
-- Communities die when members feel extracted from rather than invested in
+For each audience/community segment, define three layers:
 
-### Good Sales = Leadership
-- Leading someone to an ideal future they cannot get to on their own
-- The difference between selling and leading is the intent behind the action
-- If your primary intent is to serve, the sales follow naturally
+### Layer 1: Identity (Who They Are)
+- Define 3 distinct community member personas
+- Example: aspiring creators, career creators, creator industry professionals
 
-### The Go-Giver First Principle
-- Be a go-giver: invest in others before expecting return
-- The Power Paradox (book reference): people rise in power through giving, lose power through extraction
-- Every act of generosity in a community compounds into trust, which compounds into revenue
+### Layer 2: Emotion (What You Want Them to Feel)
+- After consuming your content or participating in community
+- Example: empowered, educated, less alone, inspired
 
-### Steve Aoki Principle
-Give 110% playing for 7 people in a living room, same as for 70,000 in a stadium.
-- Treat a small group like it is the biggest group in the world
-- That energy appreciates the VALUE of the group
-- Small groups with high energy become big groups because members evangelize
+### Layer 3: Action (What You Want Them to Do)
+- Concrete behavior change after engagement
+- Example: go create a video, connect with other creators, bring opportunities
 
----
-
-## THE TWO COMPONENTS (E03c)
-
-Every successful community has two elements:
-
-### 1. The Promise
-- What people will get by being in the group
-- The group name should communicate this promise
-- Examples: "The Content Creator Accelerator," "Revenue-First Fitness," "Zero to Funded"
-- Test: Can someone read the group name and know exactly what they will gain?
-
-### 2. The Provider
-- You as the leader
-- Your cultivated perspective, skills, and language are what people actually hire you for
-- Your unique viewpoint IS the product -- not just the information
-- People join communities for the LEADER, not the topic (there are hundreds of groups about any topic)
+### Cross-Pollination
+Lines can cross between identities and emotions:
+- Career creators also want to feel empathy from industry professionals
+- Aspiring creators can also feel educated by career creator content
+- Bottom of worksheet: brainstorm content ideas that create these emotional-action connections
 
 ---
 
-## FACEBOOK GROUP GROWTH TACTICS (E03c)
+## COMMUNITY PLATFORM SELECTION
 
-### Daily Growth System (SOP)
-Execute these three actions daily:
-1. **Invite 40 friends** relevant to your niche
-2. **Remind 40 existing invites** who have not accepted
-3. **Delete 40 non-responsive invites** to make room for new ones
+### Platform Comparison
 
-This creates a continuous pipeline of new members joining daily.
+| Platform | Best For | Cost | Features |
+|----------|---------|------|----------|
+| School (by Skool) | Course + community hybrid | $99/mo | Gamification, courses, leaderboard |
+| Circle | Premium communities | $39+/mo | Spaces, events, rich content |
+| Facebook Group | Free communities, older demo | Free | Massive reach, familiar UX |
+| Discord | Tech/gaming communities | Free | Voice, channels, bots |
+| Slack | Professional communities | Free-$12.50/mo | Integrations, channels |
+| Telegram | Direct, mobile-first | Free | Quick updates, announcements |
 
-### Growth Timeline
-- Following this system consistently: ~1,000 members organically within ~6 months
-- Quality over speed: 200 deeply engaged members > 5,000 passive members
-
-### Additional Growth Tactics
-- Share group in relevant content (mention in posts, stories, video CTAs)
-- Cross-promote with other group leaders (guest appearances, shared content)
-- Create shareable content WITHIN the group that members screenshot and share outside
-
----
-
-## COMMUNITY LAWS OF POWER (E03c)
-
-### The Four Laws
-1. **Never spam** -- never extract more value than you deposit
-2. **Invest your own resources** -- put in your own time and money to improve group welfare
-3. **Make sacrifices** that prioritize group welfare over personal welfare
-4. **Build knowing it comes back** -- generosity in community is the highest-ROI investment
-
-### Practical Application
-- Post valuable content daily before asking for anything
-- Answer questions personally (not just from team members)
-- Celebrate member wins publicly
-- Address problems and complaints transparently
-- Create genuine connections between members (not just member-to-leader)
+### Decision Framework
+- **Starting out + budget-conscious:** Facebook Group (free, built-in audience)
+- **Course creator:** School (courses + community in one)
+- **Premium brand:** Circle (customizable, professional)
+- **Tech audience:** Discord (already lives there)
+- **B2B professionals:** Slack or LinkedIn Group
 
 ---
 
-## 5-DAY COMMUNITY LEAD GEN SEQUENCE (E03c)
+## FACEBOOK GROUP GROWTH SYSTEM
 
-A structured 5-day content sequence designed to generate leads from community members:
+### 3-Part Daily System
 
-### Day 1: Value Bomb
-- Deliver your single best piece of tactical advice
-- No selling, no CTA beyond "save this post"
-- Establish authority and generosity
+**Part 1: Content (Morning)**
+- Post one value piece daily (tip, framework, question, resource)
+- Alternate between: educational, discussion-starter, member spotlight, challenge
+- Use polls and questions for engagement
 
-### Day 2: Story + Lesson
-- Share a personal story related to the community topic
-- Extract a universal lesson members can apply
-- Create emotional connection
+**Part 2: Engagement (Midday)**
+- Reply to every comment and post within 4 hours
+- Tag active members in relevant discussions
+- Welcome new members personally (not auto-generated)
+- Pin the best discussion of the week
 
-### Day 3: Engagement Post
-- Ask a question that gets members sharing their experience
-- Respond to every comment personally
-- Build relationship through dialogue
+**Part 3: Promotion (Evening)**
+- Share one piece of your public content
+- Offer exclusive value (available only in group)
+- Monthly: promote paid offer to engaged members only
 
-### Day 4: Case Study / Proof
-- Share a specific result (yours or a client's)
-- Include specific numbers, timeline, and method
-- Plant seeds that your method works
-
-### Day 5: Soft Offer
-- Share what you offer (coaching, course, product)
-- Frame as a natural next step for people who want to go deeper
-- Include clear CTA but no pressure
-- "If you want help implementing what I shared this week, here is how I can help..."
-
-Repeat this 5-day cycle. Each cycle builds more trust and generates more leads.
+### Growth Tactics
+- Mention group in all content CTAs periodically
+- Set group as lead magnet delivery location
+- Require email for entry (builds your list)
+- Ask 3 qualifying questions on entry (filters quality members)
+- Gusten Sun benchmark: 7,000 Facebook group members from 34K YouTube subscribers
 
 ---
 
-## 30-DAY COMMUNITY CONTENT CALENDAR (E03c)
+## COMMUNITY MONETIZATION MODELS
 
-### Weekly Rhythm
-Structure each week with consistent content types:
+### Model 1: Free Community + Premium Upsell
+- Free group builds trust and demonstrates value
+- Top engaged members get invited to paid tier
+- Example: Free Facebook group --> Paid School community ($29-$99/mo)
+- Conversion rate: 2-5% of free members typically upgrade
 
-| Day | Content Type | Purpose |
-|-----|-------------|---------|
-| Monday | Educational post / how-to | Deliver tactical value |
-| Tuesday | Live stream / Q&A | Build relationship through time spent |
-| Wednesday | Member spotlight / win celebration | Build social proof and community culture |
-| Thursday | Discussion prompt / engagement post | Increase group activity signals |
-| Friday | Resource share / tool recommendation | Ongoing value delivery |
-| Saturday | Weekend challenge / action item | Drive implementation |
-| Sunday | Rest / curated content share | Maintain presence without burnout |
+### Model 2: Paid Community from Day 1
+- Requires existing audience and proven value
+- Price: $29-$99/month for content + community
+- Include: weekly calls, exclusive content, member directory, accountability
+- Retention: 6-12 month average if value delivered consistently
 
-### Monthly Cadence
-- **Week 1:** Foundation value (establish authority for the month's theme)
-- **Week 2:** Deep dive (go deeper on one aspect of the theme)
-- **Week 3:** Implementation (help members take action)
-- **Week 4:** Results + soft offer (celebrate wins, introduce paid offer)
+### Model 3: Group Coaching Program
+- Highest revenue per member
+- Price: $500-$5,000/month
+- Includes: curriculum + live coaching calls + community + DM support
+- Capacity: 10-50 members for quality interaction
+- Transition from 1:1 coaching: package your 1:1 method for group delivery
 
----
+### Model 4: Tiered Membership
+| Tier | Price | Includes |
+|------|-------|----------|
+| Free | $0 | Basic community access, limited content |
+| Member | $29/mo | Full community, weekly content drops, events |
+| Pro | $99/mo | Above + group coaching calls + templates |
+| VIP | $299+/mo | Above + 1:1 access + priority support |
 
-## DM SALES SYSTEM FROM INSTAGRAM (E03a, E04a)
-
-### The Automation Flow
-1. **Post content** with CTA: "Comment [keyword] and I will send it over"
-2. **Comments become leads** flowing to your inbox
-3. **ManyChat automation** sends link to funnel or free resource
-4. **Appointment setter or DM closer** processes qualified leads
-5. **Close via DM or booked call** depending on offer price
-
-### For High-Ticket Community Offers ($1K+)
-- DM closer processes leads using qualification questions
-- Scripts focus on understanding the prospect's specific situation
-- Close directly in DMs or transition to a short call
-- Never pitch in the first message -- qualify and serve first
-
-### For Low-Ticket Community Offers (<$100/month)
-- ManyChat automation can handle the entire flow
-- Comment keyword > auto-DM with link > landing page > checkout
-- No human intervention needed at scale
-- Focus on volume of content CTAs to drive comments
+### Revenue Math Examples
+- 100 members x $49/mo = $4,900 MRR ($58,800 ARR)
+- 50 members x $99/mo = $4,950 MRR ($59,400 ARR)
+- 20 members x $299/mo = $5,980 MRR ($71,760 ARR)
+- 10 group coaching clients x $1,000/mo = $10,000 MRR ($120,000 ARR)
 
 ---
 
-## DISCORD COMMUNITY SETUP (E04a)
+## DM SALES AND NETWORKING
 
-### For Free Communities
-- Use Discord as a free community platform for accountability and peer support
-- Channels: general chat, content reviews, wins/celebrations, resources, Q&A
-- Share viral ideas, viral videos, tips as ongoing value
-- Can become selling channel for products/courses once trust is built
+### The Warm DM Approach
+1. **Never cold pitch** -- Only DM people who have engaged with your content
+2. **Lead with value** -- Comment on something specific they posted
+3. **Ask questions** -- Understand their situation before offering solutions
+4. **Transition naturally** -- "Based on what you described, I have something that could help..."
+5. **Close or redirect** -- Link to call (high-ticket) or checkout page (low-ticket)
 
-### Community as Support System (E01)
-- Finding a creator community is one of the most impactful things a new creator can do
-- When content creation becomes a "negative social feedback loop" from your social circle, a supportive community prevents quitting
-- One conversation with one creator can change the trajectory of your life
-- Communities serve the CREATOR's need for belonging, not just the audience's need for learning
+### DM Automation for Lead Gen (Instagram)
+1. Content CTA: "Comment [keyword] for my free [resource]"
+2. ManyChat triggers on keyword comment
+3. Auto-DM delivers lead magnet link
+4. Follow-up DM 24 hours later with additional value
+5. Human takeover when prospect shows buying signals
+6. Gusten Sun: "Comment DM and I'll send it over" = hundreds of leads to inbox
 
----
-
-## MEMBERSHIP MODELS
-
-### Free Community (Audience Building)
-- Platform: Facebook Group, Discord, or free Skool/Circle tier
-- Purpose: build relationship, demonstrate value, create pipeline for paid offers
-- Revenue model: indirect -- community members become buyers of courses, coaching, products
-
-### Low-Ticket Membership ($29-$69/month)
-- Platform: Skool, Circle, paid Discord, Patreon
-- Includes: weekly live streams, content library, community access, templates/resources
-- Revenue model: recurring, scalable, lower churn with regular engagement
-- Target: 100-500 members for $3K-$35K/month recurring
-
-### High-Ticket Group Coaching ($500-$2,000/month)
-- Platform: Any + Zoom for group calls
-- Includes: weekly group coaching calls, 1:1 access via DM, intensive curriculum
-- Revenue model: recurring, higher churn but higher revenue per member
-- Target: 10-30 members for $5K-$60K/month recurring
-
-### Hybrid Model
-- Free community as top of funnel
-- Low-ticket membership as middle tier
-- High-ticket coaching as premium tier
-- Members naturally ascend as they get value at each level
+### The 10 Club Framework (Twitter/X DM Networking)
+- Each day, engage deeply with 10 accounts in your niche
+- Leave thoughtful comments (not "great post!")
+- DM 2-3 of them with genuine connection (no pitch)
+- Over 30 days: 60-90 new relationships in your niche
+- These relationships become: collaboration partners, referral sources, future customers
 
 ---
 
-## LIVE STREAM REVENUE FORMULA
+## BUILDING IN PUBLIC
 
-### Core Principle (E03c)
-Live streams are the highest-trust content format because:
-- Real-time interaction creates deeper connection than edited content
-- Members feel personally acknowledged when you respond to their questions
-- Hours of live content = hours of relationship building = higher offer acceptance
+### What to Share
+- Revenue milestones (when appropriate for your brand)
+- Behind-the-scenes of creation process
+- Failures and lessons learned
+- Tools and systems you use
+- Monthly/quarterly reviews
 
-### Implementation
-- Schedule 1-2 live streams per week at consistent times
-- Mix educational content with Q&A and community interaction
-- Record and repurpose live stream clips for social content
-- Use live streams as the primary trust-building vehicle in your community
+### Pre-Selling Through Building in Public
+1. Agitate the problem with content (use numbers)
+2. Show proof your method works (use numbers)
+3. Promise something bold about upcoming product
+4. Show the unique mechanism behind your promise
+5. Show what qualifies you (unique selling point)
+6. Show irresistible offer (don't discount -- add value)
 
-### Revenue Calculation
-- 1 hour live stream/week x 4 weeks = 4 hours of relationship building/month
-- At $1K/hour ratio: supports $4K offer conversion monthly
-- 10 community members converting at $4K = $40K/month potential
+### The 1,000 True Fans Concept
+- You don't need millions of followers to build a business
+- 1,000 people who will buy everything you create = sustainable income
+- 1,000 x $100/year = $100K/year
+- Focus on depth of relationship, not breadth of reach
+- Community building IS the path to finding your 1,000 true fans
 
 ---
 
-## When to Read Reference Files
+## COMMUNITY LEADERSHIP PRINCIPLES
 
-| Reference File | Load When |
-|---|---|
-| `ref-community-playbook.md` | User needs Facebook Group growth SOPs, daily invite/remind/delete system details, community content calendar templates, 5-day lead gen sequence scripts, DM sales scripts, or Discord setup guides |
+### Daily Leadership Actions
+1. Be the most active member of your own community
+2. Celebrate member wins (amplify, not just acknowledge)
+3. Facilitate connections between members
+4. Share exclusive insights not available on public channels
+5. Ask for feedback and act on it visibly
+
+### Retention Drivers
+| Driver | Implementation |
+|--------|---------------|
+| Accountability | Weekly check-ins, goal setting, progress sharing |
+| Connection | Member introductions, buddy systems, small groups |
+| Exclusive value | Content/calls not available anywhere else |
+| Progress tracking | Milestones, badges, leaderboards (School has built-in) |
+| Identity | Community name, shared language, inside references |
+
+### Warning Signs of Community Decline
+- Posting frequency drops among members
+- Same 5 people doing all the engaging
+- New member introductions get no responses
+- Questions go unanswered for 24+ hours
+- Member cancellations increase
+
+### Recovery Actions
+- Host a live event or challenge (re-energizes)
+- Spotlight quiet members (ask for their input specifically)
+- Refresh content offerings (new series, new format)
+- Survey members: "What would make this community a must-keep?"
+- Remove or sunset stale channels/topics
 
 ---
 
 ## CROSS-REFERENCES
 
-- **Community is a monetization vehicle AND product delivery mechanism** -- works alongside monetize-content
-- **For digital products sold through community** -> monetize-content
-- **For brand deals that fund community operations** -> brand-partnerships
-- **For content that drives community growth** -> publish-grow
-- **For AI tools to accelerate community content creation** -> ai-content-workflow
-- **For defining the brand that the community rallies around** -> brand-foundation
+- Revenue from products/courses (not community) --> `monetize-content`
+- Brand partnerships --> `brand-partnerships`
+- Content to drive community growth --> `content-strategy`, `publish-optimize`
+- AI tools for community management --> `ai-content-workflow`
+- Writing content for community --> `write-scripts`

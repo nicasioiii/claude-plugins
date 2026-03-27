@@ -1,118 +1,84 @@
-# Social Content Mastery v1.0.0
+# Social Content Mastery v2.0.0
 
-Complete social content creation knowledge engine for personal brands and creators. Provides end-to-end guidance from brand foundation through content strategy, hook writing, scripting, filming, editing, visual production, platform strategy, growth, monetization, brand partnerships, community building, and AI-assisted workflows.
+Complete organic social media content creation system for personal brands and creators.
 
-## Source Material
+## Stats
 
-Built from 5 extraction files covering 9 courses across ~75 hours of instruction:
-
-| ID | Instructor(s) | Course | Focus |
-|---|---|---|---|
-| E01 | Mino Lee | Content Academy 3.0 | Short-form video, scripting, storytelling, editing, coaching monetization |
-| E02 | Dickie Bush & Nicholas Cole | LinkedIn AI | LinkedIn content, positioning, profile optimization, AI writing |
-| E03a | Gusten Sun | Personal Brand X | 7-figure personal brand, YouTube, content funnels, monetization |
-| E03b | Colin & Samir | Creator Startup | Creator business models, brand partnerships, pitch decks |
-| E03c | Sky Stack | (within E03) | Brand DNA, community building, congruency framework |
-| E03d | Anton Mehto | (within E03) | Short-form platform selection, competitor analysis |
-| E03e | Parker Walbeck | (within E03) | YouTube monetization hierarchy |
-| E04a | Justas / Instapreneur | 100K+ Instagram Followers | Instagram growth, algorithm, monetization |
-| E04b | Marketing Harry / Frabrand | Content Creation Dojo | Content strategy matrix, brand building, psychology |
-| E05a | Kallaway | Short-Form Hooks Workshop | Hook psychology, 4-component system, hook writing |
-| E05b | Nicklas Christl | Story Hero Academy | Story vs retention editing, video storytelling |
-| E05c | Bob Krist | Art of Video Storytelling | Documentary storytelling, visual grammar, audio |
-| E05d | Creators Club | E-Learning VFX | After Effects social VFX, transitions, 3D tracking |
-
-## Plugin Structure
-
-### Skills (13)
-
-| Skill | Display Name | Stage |
-|---|---|---|
-| `brand-foundation` | Brand Foundation | 1. Brand Foundation |
-| `content-strategy` | Content Strategy | 2. Content Strategy |
-| `write-hooks` | Write Hooks | 3. Create -- Writing |
-| `write-scripts` | Write Scripts | 3. Create -- Writing |
-| `film-video` | Film Video | 4. Create -- Production |
-| `edit-video` | Edit Video | 4. Create -- Production |
-| `produce-visual-content` | Produce Visual Content | 4. Create -- Production |
-| `platform-strategy` | Platform Strategy | 5. Publish & Grow |
-| `publish-grow` | Publish & Grow | 5. Publish & Grow |
-| `monetize-content` | Monetize Content | 6. Monetize |
-| `brand-partnerships` | Brand Partnerships | 6. Monetize |
-| `community-building` | Community Building | 6. Monetize |
-| `ai-content-workflow` | AI Content Workflow | Cross-cutting |
-
-### Reference Files (23)
-
-| Skill | Reference Files |
-|---|---|
-| brand-foundation | ref-brand-positioning.md, ref-avatar-exercises.md |
-| content-strategy | ref-idea-generation.md, ref-content-formats.md |
-| write-hooks | ref-hook-templates.md, ref-hook-writing-process.md |
-| write-scripts | ref-storytelling-frameworks.md, ref-linkedin-writing.md |
-| film-video | ref-filming-techniques.md, ref-equipment-guide.md |
-| edit-video | ref-editing-styles.md, ref-social-vfx.md |
-| produce-visual-content | ref-visual-templates.md |
-| platform-strategy | ref-instagram-algorithm.md, ref-linkedin-profile.md, ref-youtube-strategy.md |
-| publish-grow | ref-growth-tactics.md, ref-content-optimization.md |
-| monetize-content | ref-lead-magnets.md, ref-offer-design.md |
-| brand-partnerships | ref-pitch-deck.md |
-| community-building | ref-community-playbook.md |
-| ai-content-workflow | ref-ai-prompt-library.md |
-
-### Commands (8)
-
-| Command | Description |
-|---|---|
-| `/build-brand` | Interactive brand foundation builder -- niche, pillars, avatar, mission, visual identity |
-| `/content-plan` | Generate 30-day content calendar from brand foundation |
-| `/write-hook` | Write and optimize hooks for any platform (3-5 variations with alignment analysis) |
-| `/write-script` | Build complete video script or social post with hook, body, CTA |
-| `/audit-content` | Diagnose why content is underperforming -- diagnostic report with fixes |
-| `/build-pitch-deck` | Create brand partnership pitch deck -- 7-page outline with pricing |
-| `/create-lead-magnet` | Design and outline a lead magnet -- naming, structure, distribution plan |
-| `/write-post` | Write a LinkedIn or text-based social post -- complete post with hook, body, CTA |
-
-### Infrastructure
-
-| File | Purpose |
-|---|---|
-| CLAUDE.md | Routing for all 13 skills, decision tree, cross-references, slash commands |
-| agents/social-content-advisor.md | Agent persona with routing rules |
-| settings.json | Agent configuration |
-| .claude-plugin/plugin.json | Plugin metadata (name, version, description) |
-
-## File Counts
-
-| Component | Count |
-|---|---|
-| Skills (SKILL.md) | 13 |
-| Reference files | 23 |
-| Commands | 8 |
-| Infrastructure files | 4 |
-| Total .md files | 47 |
-| Total lines (all .md) | ~9,700 |
+- **18 skills** organized by workflow stage
+- **23 reference files** with deep tactical content
+- **14 slash commands** for guided workflows
+- **Built from:** 20+ courses, 250+ hours of instruction, 25+ instructors
 
 ## Workflow
 
 ```
-brand-foundation --> content-strategy --> write-hooks --> write-scripts --> film-video --> edit-video --> publish-grow
-                                     \--> produce-visual-content -----------------------------------/       |
-                                                                                                           v
-platform-strategy (enter at any point)                                                     monetize-content
-                                                                                          /       |        \
-ai-content-workflow (cross-cutting)                                            brand-partnerships  community-building
+Brand Foundation > Content Strategy > Create (Write/Film/Edit) > Publish & Grow > Monetize
 ```
 
-## Key Instructor Disagreements
+## Skills
 
-| Topic | Positions | Reconciliation |
-|---|---|---|
-| Niche width | Narrow (E03a, E02) vs. Broad (E04a) | Platform-dependent: LinkedIn = narrow, IG/TikTok = broader |
-| Authenticity | Congruency over authenticity (E03c) vs. Authentic vulnerability (E01) | Congruent at brand level, authentic at content level |
-| Hook priority | Text hook #1 (E05a) vs. Visual/emotional first (E01) | Text when NOT on camera, visual when on camera |
-| Story vs retention editing | Story (E05b) vs. Retention (common) | Adaptive hybrid: retention for hooks, story for strong sections |
-| Posting frequency | Daily (E01) vs. 3-5x/week (E02, E04b) | Daily during learning phase, 3-5x once established |
-| Reel length | 7-15 seconds (E04a) vs. Up to 60 seconds (E01, E05b) | Shorter for algorithm, longer for trust-building |
-| Revenue priority | AdSense (common) vs. Own products (E03e) | Own products first, AdSense is bonus |
-| AI content | Cheating (common) vs. Leverage (E02) | AI amplifies expertise, never replaces it |
+### Stage 1: Brand Foundation
+- `brand-foundation` -- Niche selection (6 methods), content pillars, avatar/IVP, brand DNA, archetypes, visual identity, Big Promise, professional constellation
+
+### Stage 2: Content Strategy
+- `content-strategy` -- Endless Idea Generator, content multiplication (5 variables), calendars, format selection, repurposing (3 tiers), batch creation
+
+### Stage 3: Create -- Writing
+- `write-hooks` -- Hook psychology (4 components), max alignment, CGOVE framework, 7 spoken archetypes, two-hook system, hook diagnosis, 10-minute framework
+- `write-scripts` -- 8 viral video formats, H.O.T. formula, storytelling (4 rules, 6-stage arc), AIDA, 1/3/1 rhythm, rate of revelation, golden intersection, CTA mastery, post endings (6 categories)
+
+### Stage 4: Create -- Production
+- `film-video` -- Equipment by budget tier, camera setup, lighting, audio, B-roll rules, batch recording, filming checklist
+- `edit-video` -- Story vs. retention editing spectrum, editing decisions (context/emotion/rhythm), 6 editing styles, 7-step process, transitions, captions
+- `produce-visual-content` -- Carousels, thumbnails (5 rules), design principles, F-pattern, safe zones, brand consistency
+
+### Stage 5: Publish & Grow -- Platform-Specific
+- `instagram-growth` -- Reels algorithm (tiered distribution), ACAB formula, 15 engagement hacks, faceless reels, influencer marketing, ManyChat
+- `linkedin-growth` -- LinkedIn algorithm (3 keys), Clarity Checklist, 67 hook templates, 20 authority content ideas, profile optimization
+- `tiktok-growth` -- TikTok algorithm (AGT model), "Generally Specific," Anti-CUB, 4 content boxes, two-hook system, 31 text hook templates
+- `twitter-growth` -- Tweet psychology (5 biases, 14 bow types), 27 wordplay templates, Atomic Essay, thread mechanics, proof-based selling
+- `youtube-growth` -- C.O.D.E. framework, growth flywheel, niche formula, H.O.T. formula, 50+ ideas system, keyword ownership, 60-day launch plan
+
+### Stage 6: Monetize
+- `monetize-content` -- Revenue models, digital product creation, coaching offer (5-part framework), lead magnets, pricing psychology, 1K/day freedom number
+- `brand-partnerships` -- Creator Startup pitch deck (7 pages), menu pricing, UGC, affiliate strategy, engagement rate pricing formula
+- `community-building` -- Community strategy, Identities-Emotions-Actions framework, 1,000 true fans, building in public
+
+### Cross-Cutting
+- `ai-content-workflow` -- AI leverage vs. dependency, Information Advantage framework, AI prompts (niche interview, positioning, content generation), Sacred Hours
+- `publish-optimize` -- Cross-platform publishing workflows, analytics frameworks, retention diagnosis, A/B testing, engagement optimization, posting frequency
+- `ghostwriting-freelance` -- 8 ghostwriting services ranked, premium ghostwriter mindset, offer stack, client constellation, cold outreach funnel, sales script, pricing, scaling
+
+## Commands
+
+| Command | Description |
+|---|---|
+| `/build-brand` | Interactive brand foundation builder |
+| `/content-plan` | Generate 30-day content calendar |
+| `/write-hook` | Write and optimize a hook for any platform |
+| `/write-script` | Build a complete video script or social post |
+| `/write-post` | Write a platform-native post |
+| `/audit-content` | Diagnose underperforming content |
+| `/optimize-profile` | Platform-specific profile audit |
+| `/grow-audience` | Platform-specific growth plan |
+| `/build-pitch-deck` | Create brand partnership pitch deck |
+| `/create-lead-magnet` | Design and outline a lead magnet |
+| `/film-checklist` | Pre-production planning and filming checklist |
+| `/edit-video` | Guided video editing workflow |
+| `/monetize-plan` | Create a personalized monetization plan |
+| `/ai-content` | AI-assisted content creation |
+
+## Source Instructors
+
+Mino Lee, Dickie Bush & Nicolas Cole, Gusten Sun, Colin & Samir, Kallaway, Nicklas Christl, Sunny Lenarduzzi, Parker Walbeck, Jimmy Farley, Ryan Magin, JT Barnett, JK Molina, David Perell, Nathan Chan, Vanessa Lau, InstaCoach Mike, Frabrand/MarketingHarry, Dina Calakovic, Jackson Zaccaria, Rachel Pedersen, Chase Reiner, Konstantinos Synodinos, Bob Krist, Creators Club, Sky Stack, Dylan Reynolds, Anton Mehto, and others.
+
+## Out of Scope
+
+| Topic | Delegate To |
+|---|---|
+| Paid advertising | `paid-ads-mastery` |
+| Cold outreach | `cold-outbound-mastery` |
+| Email marketing sequences | `email-marketing-mastery` |
+| Landing page CRO | `cro-copywriting-mastery` |
+| Web/UI design | `design-mastery` |
+| SEO strategy | `seo-mastery` |

@@ -1,30 +1,29 @@
 ---
-name: Video Filming & Production
+name: Film Video
 description: >
-  MANDATORY TRIGGERS: film video, filming setup, camera setup, lighting setup,
-  audio setup, microphone, B-roll, shot types, framing, equipment, tripod,
-  ring light, my videos look amateur, how to film, production workflow,
-  pre-filming routine, camera delivery, energy on camera, filming checklist,
-  recording, talking head, visual quality, shot list.
-  FOR: Camera and lighting setup, audio configuration, framing and composition,
-  B-roll filming systems, pre-filming routines, on-camera delivery, equipment
-  progression, shot type selection, and complete production workflows for
-  social media video content.
-  Do NOT use for: video editing or post-production (use edit-video), writing
-  scripts or hooks (use write-scripts or write-hooks), carousel or infographic
-  design (use produce-visual-content), platform-specific posting strategy
-  (use publish-grow or platform-strategy).
+  MANDATORY TRIGGERS: film, filming, camera, lighting, audio, microphone, mic,
+  equipment, gear, setup, B-roll, A-roll, shot list, tripod, ring light, framing,
+  composition, recording, batch filming, warmup routine, pre-production,
+  studio setup, camera settings, camera angle, talking head, footage,
+  shoot day, production quality, video quality.
+  FOR: Pre-production planning, camera and equipment setup (budget to pro tiers),
+  lighting priority hierarchy, audio essentials, framing and composition rules,
+  B-roll capture and usage, A-roll talking-head technique, pre-filming warmup
+  routine, batch recording systems, filming checklists, and shoot organization.
+  Synthesized from Mino Lee, Frabrand/MarketingHarry, Sunny Lenarduzzi, Gusten Sun,
+  Anton Mehto, Parker Walbeck, InstaCoach Mike, Ryan Magin, Kallaway, Bob Krist,
+  and Nicklas Christl.
+  Do NOT use for: video editing or post-production (use edit-video), writing scripts
+  or hooks (use write-scripts or write-hooks), thumbnail or carousel design
+  (use produce-visual-content), platform-specific posting strategy
+  (use platform-specific skill), content planning (use content-strategy).
 ---
 
-# Video Filming & Production
+# Film Video
 
 ## Quick Navigation
-- **Equipment decisions** -> ref-equipment-guide.md
-- **Shot types & visual grammar** -> ref-filming-techniques.md
-- **Lighting setup** -> Lighting Fundamentals below
-- **Audio setup** -> Audio Golden Rules below
-- **B-roll system** -> B-Roll Filming System below
-- **Pre-filming routine** -> Pre-Filming Routine below
+- **Equipment by budget tier, camera settings** -> ref-filming-setup.md
+- **Filming process, B-roll rules, warmup, checklist** -> See frameworks below + ref-filming-setup.md
 
 ---
 
@@ -32,204 +31,252 @@ description: >
 
 | User Question Pattern | Load This Reference |
 |---|---|
-| What equipment/camera/mic should I buy? Budget? | ref-equipment-guide.md |
-| What shots do I need? How do I frame? Visual grammar? | ref-filming-techniques.md |
-
----
-
-## Production Priority Stack
-
-Invest time and money in this order. Getting #1 wrong ruins everything downstream regardless of the rest.
-
-**Audio > Lighting > Camera**
-
-Sources: E03a Gusten Sun, E04a Justas, E05c Bob Krist all agree on this hierarchy.
-
-- Audiences tolerate less-than-ideal visuals but subpar audio drives them away immediately (E05c)
-- Bad lighting makes any camera look bad; good lighting makes a phone look professional (E04a)
-- Camera quality is the LEAST important variable -- phone cameras are sufficient for all social content (E04a)
-
----
-
-## Audio Golden Rules
-
-### The 2-Foot Rule (E05c Bob Krist)
-- Get the microphone as close to the sound source as possible -- ideally within 2 feet
-- Built-in camera microphones are almost never adequate for quality content
-- Signal-to-noise ratio is the key metric: close mic = strong signal, distant mic = background noise dominates
-
-### The Four Pillars of Audio (E05c)
-
-| Pillar | Purpose | Social Application |
-|---|---|---|
-| **Ambient sounds** | Conveys atmosphere and immersion | Record 10-30 seconds of room tone for editing flexibility |
-| **Music** | Emotional cues and pacing | Select before filming if music will drive the edit |
-| **Sound effects** | Texture and emphasis | Record close-up sounds of objects/actions after main shoot |
-| **Narration** | Voice content delivery | Voiceover in quiet environment OR direct-to-camera with quality mic |
-
-### Recording Environment
-- Record voiceover in a quiet environment if you cannot control ambient noise (E04a)
-- Echo and monotone delivery impede performance and audience retention (E05a Kallaway)
-- Record 3 minutes of any background music present on location for layering in post (E05c)
-
----
-
-## Lighting Fundamentals
-
-### Core Principle (E01 Mino Lee)
-Face your brightest light source. Spin in a circle and note which direction makes your face brightest -- that is your key light position.
-
-### 3-Point Lighting Simplified (E01)
-
-| Light | Role | Setup |
-|---|---|---|
-| **Key light** | Main illumination, brightest, placed in front | Window light (free) or ring light ($25-30) |
-| **Fill light** | Reduces shadows, opposite side of key | Softer/dimmer secondary light or reflector |
-| **Back light** | Creates depth and subject separation | LED color bulb ($15-20) placed behind subject |
-
-### The Minimum Viable Progression
-- Front lighting on face + colored backlight = instantly professional-looking shot (E01)
-- Natural light (sun) is sufficient for beginners -- only upgrade when fundamentals are solid (E04a)
-- Lighting matters more than camera quality: bad lighting on a cinema camera looks worse than good lighting on a phone (E04a)
-
----
-
-## Camera & Framing Essentials
-
-### Rule of Thirds (E01, E04a)
-- Place eyeline at upper-third intersection points
-- Never center your face in the exact middle of the frame
-- Consistent framing across videos builds recognizable brand
-
-### Framing for Hooks (E01)
-- Start close for hooks -- creates intimacy and urgency
-- Close-up framing in the first 3-5 seconds signals importance
-- Switch to medium or medium-close for the body of the video
-
-### Camera Delivery (E01)
-
-1. **Visualize ONE person** -- imagine you are speaking to a single human being, not an audience
-2. **Speak from diaphragm** -- fuller sound, more authority, less vocal fatigue
-3. **Record the hook 5-20 times** with different tonalities until it feels right
-4. **Face the camera lens**, not the screen -- creates natural eye contact
-5. **Use iPhone 0.5x lens** for fish-eye/wide-angle visual variety when appropriate
-
-### 4 Key Camera Settings (E04a)
-
-| Setting | Recommendation |
-|---|---|
-| **Frame rate** | 30fps standard; 60fps only for slow motion |
-| **Exposure** | Tap screen to adjust; avoid over/underexposed clips |
-| **White balance** | Hold white paper in front of camera to verify; adjust temperature if needed |
-| **Resolution** | 1080p sufficient for Instagram (IG only supports 1080p); 4K optional for zoom flexibility but MUST export at 1080p |
-
----
-
-## 8 Shot Types for B-Roll (E01)
-
-| # | Shot Type | Distance | Purpose |
-|---|---|---|---|
-| 1 | Extreme long shot | 20+ feet | Establishes location |
-| 2 | Long shot | ~15 feet | Full body in environment |
-| 3 | Medium long shot | ~5 feet | Waist-down visible |
-| 4 | Medium shot | Waist-up | Standard talking head |
-| 5 | Medium close-up | Chest-up | Conversational feel |
-| 6 | Close-up | Face fills frame | Emotion and emphasis |
-| 7 | Extreme close-up | Eyes/hands/details | Impact and texture |
-| 8 | Cut-in/insert | Object detail | Illustrates narration |
-
----
-
-## 10-Shot Checklist for Any Sequence (E05c Bob Krist)
-
-**First 6 are critical (must have):**
-1. Medium shot of person conducting the action
-2. Close-up of the action (hands/feet)
-3. Close-up of the person's face (emotion)
-4. POV shot (subject's perspective, often over-the-shoulder)
-5. Wide/establishing shot showing where action takes place
-6. Detail shots / inserts / cutaways
-
-**Additional 4 (elevate quality):**
-7. Video portrait (soft light, non-distracting background, subtle motion)
-8. Walking shot (character moving A to B -- highly usable B-roll)
-9. Beginning shot (start of subject's day/process -- creates mini story arc)
-10. Drone/elevated shot (even 10-20ft elevation adds useful perspective)
-
----
-
-## B-Roll Filming System
-
-### The Daily Stacking Habit (E01)
-- Film 4-5 B-roll clips stacked with daily routines: morning coffee, skincare, journaling, commute, working
-- Do this every morning so you have fresh clips by noon
-- Remove friction: set up dedicated tripod spots with preset angles at home/office
-
-### Building a Reusable Library (E01, E03a)
-- Build an "S-tier" library of reusable B-roll organized by emotion/theme
-- Categories: working, thinking, walking, celebrating, struggling, specific niche actions
-- Organize in folders by category (E03a) -- saves massive editing time
-- Match B-roll to narration: "conventional wisdom says the house always wins" -> show "game over" screen (E01)
-
-### B-Roll per Short-Form Video
-- Target 30-50 clips per minute of finished video (E01)
-- Each B-roll clip: 1-2 seconds max on screen (E01)
-- Front-load visual changes in first 5 seconds: some creators use 5 different clips in 5 seconds (E01)
-
----
-
-## Pre-Filming Routine (E01)
-
-Execute this sequence before every filming session:
-
-1. **Deep breath:** Inhale, hold 6 seconds, exhale 8 seconds
-2. **Energy exercises:** Jumping jacks, forced laughter (30 seconds), yell affirmations
-3. **Mouth warm-up:** Tongue twisters, vocal range exercises
-4. **Read script aloud** 2-3 times before recording
-5. **Final deep breath** right before hitting record (fills lungs for smooth first sentence)
-
-### Overcoming Camera Fear (E01)
-- Anxiety about speaking to a "metal box" is universal and normal
-- Visualize the camera as one specific person you are helping
-- Do NOT over-analyze yourself while recording -- that kills flow state
-- Confidence on camera comes from feeling good internally, not performing confidence externally
-- Read scripts out loud before filming -- write like you speak, not like you write (E03a)
-
----
-
-## Filming Process (E01)
-
-1. **Set up** -- lighting, camera angle, audio check
-2. **Open teleprompter** -- CapCut built-in (speed 14, font size 16-17) or Notion app on phone (E04a)
-3. **Set timer to 3 minutes** even for 30-second videos (gives room to breathe)
-4. **Record in segments** of 3-4 sentences to maintain breath control
-5. **Record hook 5-20 times** with different tonalities
-6. **If you mess up mid-sentence** -- just press record again from that sentence; you will cut it in editing
-7. **First recording in CapCut is often buggy** -- delete first clip, re-record
-
----
-
-## INSTRUCTOR DISAGREEMENT NOTICE
-
-### Equipment Investment Timing
-
-| Position | Advocate | Core Argument |
-|---|---|---|
-| **Invest early in good equipment** | E03a Gusten Sun | CEO-type creators should invest $10K/month in production team; professional look builds authority faster |
-| **Phone is sufficient; upgrade only when basics are solid** | E04a Justas | Professional camera only if using for other purposes too; phone is sufficient for all social content; upgrade path is phone > ring light > wireless mic > camera |
-| **Story clarity matters more than gear** | E05c Bob Krist | Started filmmaking at age 58 with minimal equipment; story drives every technical decision, not the reverse |
-
-**Resolution:** Start with phone + natural light. Master framing, lighting, audio, and delivery FIRST. Upgrade equipment only when your content quality is limited by gear, not by skill. The minimum viable setup (phone + window light + $25 ring light + $15 LED color bulb) produces professional-looking content.
+| What equipment/gear do I need? Camera recommendations? Budget setup? | ref-filming-setup.md |
+| Camera settings? Resolution? Frame rate? White balance? | ref-filming-setup.md |
+| Lighting setup? Three-point lighting? Ring light vs softbox? | ref-filming-setup.md |
+| Audio setup? Microphone? How to get clean audio? | ref-filming-setup.md |
+| How do I film a talking-head video? Framing? Composition? | ref-filming-setup.md |
+| Batch filming? How to film multiple videos in one session? | ref-filming-setup.md |
+| How do I warm up before filming? Nervous on camera? | See warmup section below |
+| B-roll tips? How to shoot B-roll? A-roll vs B-roll? | See B-roll section below |
 
 ---
 
 ## Cross-References
 
-| When This Happens | Go To |
+| When This Happens | Route To |
 |---|---|
-| Script needs writing before filming | **write-scripts** |
-| Hook needs writing/optimizing | **write-hooks** |
+| Script is needed before filming | **write-scripts** |
+| Hook is needed for the video | **write-hooks** |
 | Footage captured, ready for post-production | **edit-video** |
-| Need to produce carousels/graphics instead of video | **produce-visual-content** |
-| Want to accelerate production workflow with AI tools | **ai-content-workflow** |
-| Videos look good but views are low | **publish-grow** (for optimization diagnosis) |
+| User wants platform-specific filming tips (IG Reels, TikTok, YouTube) | Platform-specific skill |
+| User asks about thumbnail or visual design | **produce-visual-content** |
+| User wants to plan content before filming | **content-strategy** |
+
+---
+
+## Core Philosophy: Audio Quality > Lighting > Camera
+
+The single most impactful production element is audio quality. Viewers will tolerate mediocre video with clear audio, but will immediately leave crisp video with bad audio.
+
+**Equipment Priority Hierarchy** (E01 Frabrand, E08 Sunny, E02 Gusten):
+1. **Audio** -- clean, clear voice with no echo or background noise
+2. **Lighting** -- well-lit face, no harsh shadows
+3. **Framing** -- proper composition, clean background
+4. **Camera** -- phone is fine; upgrade last
+
+> **Instructor Consensus -- Production Quality Sweet Spot:**
+> - E08 Sunny: High production can HURT performance
+> - E01 Frabrand: Authentic/minimal editing predicted to grow
+> - E02 Gusten: Energy/authenticity > production quality
+> - E06 Jimmy Farley: B-to-A quality is non-negotiable
+> - **Reconciliation:** Professional enough to not distract, authentic enough to connect. Clean audio + good lighting + valuable content = the sweet spot. Overproduction creates distance. Lazy/low-effort also fails.
+
+---
+
+## A-Roll vs. B-Roll
+
+**A-roll** -- Main action shot. You speaking to camera, the primary footage that carries the narrative or information.
+
+**B-roll** -- Supplementary footage. Notebook, whiteboard, lifestyle shots, working, walking, product demos, screen recordings. Supports and enhances the A-roll.
+
+**Minimum viable video:** Phone + natural light + you talking. Everything else is a bonus (E01 Frabrand).
+
+---
+
+## B-Roll Rules (E01 Mino Lee)
+
+1. **Body of video:** Change B-roll every 3-5 seconds
+2. **Hook (first 3-4 seconds):** Hyper-cut B-roll with clips under 1 second each (0.5-0.8 sec)
+3. **B-roll does NOT need to relate to what you are saying** -- randomness gives authentic feel. Pouring juice while narrating about business is fine.
+4. **Use DYNAMIC portions** -- movement, action. Never let B-roll be static.
+5. **Mute all B-roll audio** -- strip native audio from every B-roll clip
+6. **Build a B-roll library** -- organize by category: travel, home, family, work, lifestyle, food (E02 Gusten)
+
+### B-Roll Capture System
+- Collect B-roll throughout your day (E01 Mino)
+- Dedicate time to shooting B-roll in batches separate from A-roll
+- Create organized folders by category for rapid access during editing
+- Dynamic shots > static shots (panning, tracking, movement)
+
+---
+
+## Pre-Filming Warmup Routine
+
+Two sources confirm the same warmup system (E01 Mino Lee, E01 Frabrand):
+
+### Physical Warmup
+1. **Deep breathing** -- Inhale, hold 6 seconds, exhale 8 seconds. Calms nervous system.
+2. **Tongue twisters** -- Warm up mouth muscles ("Peter Piper picked a peck...")
+3. **Hand movements** -- Incorporate hand gestures. Sitting completely still constricts energy and delivery.
+
+### Mental Warmup
+4. **Visualize your audience** -- See the camera as your younger self or a close friend, not a judgement device
+5. **Final deep breath** -- One deep inhale right before pressing record. Fills lungs for the full script delivery.
+6. **Energy calibration** -- Amplify your natural personality one notch. Things appear duller on camera (E01 Frabrand).
+
+---
+
+## Recording Checklist (Composite from E01, E03, E08)
+
+### Before You Record
+- [ ] Script or outline ready (hook pre-written even for unscripted videos)
+- [ ] Lighting set up first (most impactful on perceived quality)
+- [ ] Audio check -- test mic, check for echo, ensure voice is crystal clear
+- [ ] Backdrop/set design consistent with brand colors
+- [ ] Dress code planned (not random -- consistent with brand)
+- [ ] Phone/camera charged, storage cleared
+- [ ] Vertical (9:16) for short-form; horizontal (16:9) for YouTube long-form
+
+### During Recording
+- [ ] Look at the camera LENS, not the screen (E04 InstaCoach Mike)
+- [ ] Energy one notch above natural
+- [ ] Hands visible and moving (not rigid)
+- [ ] Multiple camera angles from same position via crop/zoom in post (E04)
+- [ ] Complete warmup routine before first take
+
+### After Recording
+- [ ] Label/organize footage immediately before opening editing software
+- [ ] Back up footage (triple backup for YouTube: local + cloud + external -- E08 Sunny)
+- [ ] Log which scripts were filmed for batch tracking
+
+---
+
+## Batch Recording System
+
+### Why Batch Film (E08 Sunny, E02 Gusten)
+- Eliminates daily setup/teardown overhead
+- Maintains consistent energy, lighting, and wardrobe across videos
+- Enables filming 5-10 short-form videos or 2-4 long-form in one session
+- Critical for sustainable content creation without burnout
+
+### Batch Process
+1. **Pre-batch:** All scripts/outlines written and printed or on teleprompter
+2. **Setup once:** Lighting, camera, audio, wardrobe, background
+3. **Warm up:** Full warmup routine
+4. **Film sequentially:** Move through scripts. Change small elements (shirt color, angle) for visual variety between videos.
+5. **B-roll session:** After A-roll is done, shoot dedicated B-roll clips
+6. **Organize immediately:** Label files, create folders, back up
+
+### Batch Frequency Recommendations
+- Short-form creators: 1-2 dedicated filming days per week (E04 InstaCoach)
+- YouTube creators: 1 batch day for 4 weeks of content (E08 Sunny)
+- TikTok at scale: Can film up to 200 videos in a single day with proper planning (E06 Ryan Magin)
+
+---
+
+## Framing and Composition
+
+### Camera Angles (E03 100K IG Course, E03 Bob Krist)
+- **Eye level** -- Neutral, conversational. Default for talking-head content.
+- **Slightly above eye level** -- Most flattering for most faces. Phone at eye level or slightly above (E04).
+- **Low angle** -- Empowers the subject. Power shots, authority moments.
+- **High angle** -- Diminishes the subject. Vulnerability, reflection.
+
+### Composition Rules
+- **Rule of thirds** -- Place subject at intersection points, not dead center
+- **Leading lines** -- Use natural lines to draw eye to subject
+- **Symmetry** -- Powerful for establishing shots and brand imagery
+- **Framing within frame** -- Doorways, windows, objects that frame the subject
+- **Clean background** -- Or intentionally interesting background (E04 InstaCoach)
+
+### Five Framings for Video Sequences (E03 Bob Krist)
+1. **Establishing/Long Shot** -- Scene-setting. Skyline, panoramic landscape.
+2. **Medium Shot** -- Street scene or closer view. People recognizable but not detailed.
+3. **Portrait/Two Shot** -- One or two persons at conversational distance.
+4. **Close-up / Extreme Close-up** -- Faces or action details. Powerful for transitions.
+5. **Point of View (POV)** -- Shot from character's perspective.
+
+Simplified for run-and-gun: Wide, Medium, Tight. Use at minimum these three in every sequence.
+
+---
+
+## Camera Settings Quick Reference (E03 100K IG Course)
+
+| Setting | Short-Form | YouTube Long-Form |
+|---|---|---|
+| Resolution | 4K (downscale to 1080p in post) | 4K |
+| Frame rate | 30fps (NOT 60fps for IG/TikTok) | 24fps (cinematic) or 30fps |
+| Format | 9:16 vertical | 16:9 horizontal |
+| Exposure | Auto or manual (avoid overexposure) | Manual preferred |
+| White balance | Match lighting conditions | Manual for consistency |
+
+**Critical:** Do NOT use 60fps for Instagram or TikTok. Apps cannot display it properly; output appears choppy (E01 Mino).
+
+---
+
+## Shoot Organization (E03 Nicklas Christl)
+
+Five-step process for planned video shoots:
+
+1. **Explore the mood** -- Create moodboard/references for the visual style
+2. **Scout the location** -- Visit beforehand; identify angles, backgrounds, power outlets
+3. **Check the light** -- Time of day, direction of natural light, need for artificial
+4. **Define the shot list** -- Specific shots needed, mapped to script sections
+5. **Plan the film schedule** -- Time blocks for each scene/section
+
+---
+
+## Platform-Specific Filming Notes
+
+| Platform | Key Filming Consideration |
+|---|---|
+| Instagram Reels | 9:16, 30fps, 4K. Trending audio awareness. Captions mandatory (90% watch without sound). |
+| TikTok | 9:16. Shoot IN the TikTok app when possible for algorithm favor (E06 Konstantinos). Jump cuts every 2-3 seconds. |
+| YouTube | 16:9, 4K, 24-30fps. Batch recording system. Triple backup storage. |
+| LinkedIn | Can use phone-quality video. Authenticity valued over production. |
+
+---
+
+## Video Type Filming Guides
+
+### How-To / Tutorial (E01 Mino Lee -- 10-step process)
+1. Pick niche/format
+2. Brainstorm in bulk
+3. Structure the video
+4. Script
+5. Lighting setup
+6. Film the piece
+7. Edit: cut clips + sync audio
+8. Color grade
+9. Add subtitles
+10. Add background music
+
+### Lifestyle / Vlog (E01 Mino Lee)
+1. Collect B-roll throughout your day
+2. Film base A-roll (talking head explaining/narrating)
+3. Edit together -- partner events with lessons learned
+
+### List Video (E01 Mino Lee -- 9-step process)
+1. Brainstorming
+2. Create hook
+3. Script Part 1
+4. Script Part 2 (revision)
+5. Understand lighting
+6. Film with intention
+7. Edit
+8. Add B-roll (15-minute B-roll session)
+9. Post
+
+---
+
+## Hiring Editors and Outsourcing Production (E02 Gusten, E08)
+
+When to outsource:
+- Revenue from content exceeds cost of editor
+- Content creation is taking so much time it blocks other business activities
+- You have a proven content system that someone else can execute
+
+Finding editors:
+- Freelance platforms, social media communities, referrals
+- Use Loom to create editing instructions (saves hours of communication -- E02 Gusten)
+- Set clear expectations on brand style, pacing, caption format
+- Budget: Gusten spent $10K/month on content team -- "scary but so worth it"
+
+System roles for scaled production (E02 Gusten):
+- Video ideation person
+- Scriptwriter
+- Filmmaker (shoot days)
+- Editor
+- Thumbnail designer
+- Distributor

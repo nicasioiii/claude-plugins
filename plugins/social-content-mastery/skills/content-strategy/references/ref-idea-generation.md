@@ -1,194 +1,245 @@
 ---
-name: Idea Generation Systems
-description: >
-  When to Read: User asks about generating content ideas, content multiplication math,
-  Lean Writing Method, brainstorming exercises, anomaly method, competitor analysis
-  templates, 30-day content calendar generation, or idea multiplication techniques.
-  Cross-references: content-strategy SKILL.md (parent), brand-foundation ref-avatar-exercises.md
-  (IVP feeds idea generation), write-hooks (ideas need hooks), write-scripts (ideas become scripts).
+name: Idea Generation Reference
+description: "Endless Idea Generator (4A + 10 approaches + credibility), anomaly method, competitive benchmarking process, idea bank systems, brainstorming methods, content boxes (4 categories), viral video analysis exercise, 50+ ideas system."
 ---
 
-# Idea Generation Systems
+# Idea Generation Reference
 
-## The Lean Writing Method (E02, 7 Steps)
+## ENDLESS IDEA GENERATOR -- COMPLETE MATRIX
 
-### Step 1: Define Content Pillars (3-5)
-Tests for each pillar:
-- Broad enough for months of content
-- Focused enough to be instantly understood
-- Aligned with your expertise
-- Example (Real Estate): Property Acquisition, Financing Strategies, Property Management
+### The 4A x 10 Approaches Matrix
 
-### Step 2: Identify Audience Archetypes (3-5 Segments)
-Same core message, tailored for different segments:
-- By experience level (beginner, intermediate, advanced)
-- By role (individual contributor, manager, executive)
-- By industry (SaaS, e-commerce, consulting)
-- By life stage (student, early career, established)
-- By business size (startup, SMB, enterprise)
+| Approach | Actionable | Analytical | Aspirational | Anthropological |
+|---|---|---|---|---|
+| How To | Step-by-step tutorial | Data-driven method | "How I achieved X" | "Why X works (psychology)" |
+| Lessons | Tactical lessons | Metrics-based lessons | Inspirational lessons | Cultural observations |
+| Mistakes | Common errors + fixes | Data on failure rates | "What I wish I knew" | "Why people keep making X" |
+| Quotes | Actionable quote breakdowns | Statistics with context | Motivational quotes | Behavioral insights |
+| Ways/Methods | Alternative approaches | Comparative analysis | Possibility-expanding | Human nature patterns |
+| Tools | Tool recommendations | Tool comparisons (data) | Transformative tools | "Why we use X tools" |
+| Trends | How to leverage trends | Trend data analysis | Future possibilities | Cultural shift analysis |
+| Stats | Data-driven tips | Pure data breakdown | Inspiring numbers | Behavioral statistics |
+| Reasons | Logical arguments | Evidence-based reasons | Emotional reasons | Psychological reasons |
+| Examples | Case study breakdowns | Quantified examples | Success stories | Pattern examples |
 
-### Step 3: Generate Sub-Topics
-Take each pillar and expand: tools/platforms, time frames, budget levels, experience levels, industry applications, scale variations.
+### Credibility Layer -- 3 Types
 
-Example for "Property Acquisition":
-Short-term rentals, long-term holds, beach properties, city apartments, no money down, hard money loans, partnerships, maximum cash flow, emerging markets, seller financing
+**Type 1: Expert Authority**
+- "After 10 years of doing X, here's what I've learned..."
+- "I've helped 500+ clients with X. The pattern is clear..."
+- "From my experience building X to $Y..."
 
-### Step 4-7: Select and Generate
-Pick ONE pillar + ONE audience + ONE sub-topic + ONE bucket. Generate 10 Magical Multiplier ideas for that combination. Test with short-form posts. Expand winners into long-form.
+**Type 2: Curated Authority**
+- "I interviewed 20 experts on X. Here's what they all agree on..."
+- "The top 5 researchers in X all say the same thing..."
+- "I analyzed 100 case studies. The data is clear..."
 
----
-
-## The 10 Magical Multipliers (E02)
-
-For any topic, run through all 10 angles to create 10 different content pieces:
-
-| # | Multiplier | Template | Example (Hiring) |
-|---|---|---|---|
-| 1 | Tips | X tips for [topic] | 5 tips for hiring remote engineers |
-| 2 | Stats | X stats about [topic] | 7 stats that prove remote hiring outperforms local |
-| 3 | Steps | X steps to [outcome] | 4 steps to hire your first remote engineer |
-| 4 | Lessons | X lessons from [experience] | 3 lessons from hiring 50 remote engineers |
-| 5 | Benefits | X benefits of [approach] | 6 benefits of hiring remote over in-office |
-| 6 | Reasons | X reasons why [claim] | 3 reasons your next hire should be remote |
-| 7 | Mistakes | X mistakes when [activity] | 5 mistakes that ruin remote hiring |
-| 8 | Examples | X examples of [topic] | 4 examples of companies that scaled with remote |
-| 9 | Questions | X questions about [topic] | 7 questions to ask before hiring remote |
-| 10 | Personal Stories | My experience with [topic] | How I hired my first remote engineer (and what went wrong) |
+**Type 3: Perspective Authority**
+- "Here's an observation nobody is talking about..."
+- "I noticed something interesting about X..."
+- "Everyone says X, but here's what I actually see happening..."
 
 ---
 
-## Content Buckets (E02, 3 Types)
+## COMPETITIVE BENCHMARKING -- DETAILED PROCESS (Frabrand, E01)
 
-Each serves a different psychological need:
+### Step 1: Build Your Research List
 
-1. **Futurism**: Where your industry/niche is headed (trends, predictions, changes). Signals expertise and forward-thinking
-2. **Your Story**: Lessons from personal experience. Builds trust through vulnerability
-3. **Actionable Advice**: Specific, practical guidance people can apply immediately. Delivers instant value
+- 10-20 profiles that serve YOUR target audience
+- Mix of sizes: 3-5 large accounts, 5-10 medium, 2-5 small/growing
+- Same niche or adjacent niches
 
-Rotate through all three across the week/month.
+### Step 2: Establish Baselines
 
----
+- Calculate average engagement for each account (last 20 posts)
+- Note: average likes, comments, shares, saves (where visible)
+- This is their baseline
 
-## IVP-Based Generation (E01 Mino Lee)
+### Step 3: Identify Anomalies
 
-### Direct Content Mining from IVP Exercise
-Each IVP response = at least one content piece:
-- **Fears** -> "3 reasons why you are never going to [fear]" or "The truth about [fear]"
-- **Dreams** -> "Here's exactly how to [dream outcome]" or "I achieved [dream] -- here is what nobody tells you"
-- **Limiting beliefs** -> "Why [belief] is wrong" or "3 ways to [outcome] without [belief barrier]"
-- **Hacks/tools** -> "The [tool] that changed everything for me" or "How to [outcome] using [hack]"
-- **Truths** -> "[Truth] -- and here is the proof" or "I wish I knew [truth] when I was [age]"
+- **Winners:** Posts at 2x+ ABOVE baseline
+- **Losers:** Posts at 2x+ BELOW baseline
+- Document 10-15 winners and 5-10 losers
 
-### Formula
-50% how-to videos + 50% list videos. How-to: "Here's exactly how to [dream outcome]. [Social proof]. Step 1..." List: "3 reasons why..." or "Top 3 solutions for..."
+### Step 4: Analyze Winners
 
----
+For each winner, document:
+- What was the hook? (exact words)
+- What format was used?
+- What topic was covered?
+- What emotion did it trigger?
+- What was the CTA?
+- Read 20+ comments -- what did people respond to?
 
-## Five-Step Framework (E03b Colin & Samir)
+### Step 5: Analyze Losers
 
-### Step 1: Set Consistent Brainstorm Time
-Jerry Seinfeld method: 30 minutes daily of dedicated writing/brainstorming. Treat it like going to the gym. Reward yourself for reaching the end of the time.
+For each loser, document:
+- Was the hook weak? How?
+- Was the topic too niche or too broad?
+- Was the format wrong for the content?
+- Did it feel like effort was low?
 
-### Step 2: Brainstorm Within Formats
-A format = storytelling formula with consistent packaging, hook, and structure. Having a format gives you the beginning of the sentence (e.g., "I tried ___"). Constraint makes ideation easier.
+### Step 6: Synthesize
 
-### Step 3: Determine Your Ideation Style
-- **Reactive ideation**: Ideas from news, pop culture, product launches (MKBHD model: "my channel will be interesting as long as the tech is interesting")
-- **Active ideation**: Ideas from doing activities, conversations, community (a writer is only as interesting as their life)
-- **Iterative ideation**: Building on pre-existing ideas, transforming them (Mr. Beast's Last to Leave = iteration of Survivor)
-
-### Step 4: The Idea Test (5 Questions)
-1. Does it provide value to the target audience?
-2. Is it unique to our brand?
-3. Does it reinforce the mission statement?
-4. Does it inspire the community to create?
-5. Does it evoke emotion and spark conversation?
-
-### Step 5: Evaluate Production Requirements
-Who owns the idea? What are the production steps? Full timeline? Can it happen in one day or require months?
+Combine winner patterns with YOUR unique angle, voice, and expertise. Never copy -- translate patterns into your brand.
 
 ---
 
-## Anomaly Method (E04a Justas)
+## ANOMALY METHOD -- 7 STEPS (Frabrand, E01)
 
-### Process
-1. Find 10-20 creators in your niche
-2. Analyze last 30 pieces of content
-3. Find anomalies: content with significantly higher views/engagement than average
-4. Example: Average 10-20K views, find one with 500K+ = anomaly
-5. Save all anomalies
-6. Analyze hooks, audio, hashtags, value delivery
-7. Recreate with your own touch -- aim to make it at least 10% better
-
-### Case Study
-Instructor recreated a 700K-view reel with small changes (hook rewrite, better visuals) and got 8 million views.
+1. Pick a competitor in your niche
+2. Find their average engagement baseline
+3. Find post that is 3-5x above average
+4. Analyze the hook, topic, format, emotion, CTA
+5. Read 50+ comments on that post
+6. Create your version with your unique angle
+7. Repeat weekly
 
 ---
 
-## Idea Multiplication (E04b Content Creation Dojo)
-
-### Process
-Take one initial idea -> break into categories -> multiply by formats (carousel, reel, single image) -> multiply by sub-formats (storytelling carousel, dos/don'ts carousel, case study carousel, step-by-step tutorial). One idea = dozens of content pieces.
-
-### What Makes Ideas Viral (E04b)
-- Simplicity: simple ideas outperform complex jargon-filled ones
-- User-focused: identify pain points and desired transformations
-- Curiosity gap: "can I actually learn something new here?"
-- Pain or benefit focus: pain cures > vitamins
-- Low effort, high reward: minimize perceived effort to consume
-- Trending topics: combine mainstream events with your niche
-- People do not want innovation -- they want the familiar presented differently
-- Odd numbers work better than even in headlines (5 tips > 4 tips)
-
----
-
-## Competitor Analysis Template (E03d Anton Mehto)
+## VIRAL VIDEO ANALYSIS EXERCISE (Mino Lee, E01)
 
 ### Setup
-1. Build list of 15-50+ creators in your niche
-2. Rate each 1-3 stars for relevance (3 = identical niche/audience)
-3. Store URLs for quick access
-4. Use sortfeed.com to sort content by views
 
-### Analysis Framework
-For each top-performing piece, document:
-- Hook approach (what caught your eye?)
-- Format used
-- Topic/sub-topic
-- Visual style
-- Audio choice
-- Engagement metrics
-- What could be improved?
+1. List 3 favorite creators in your space
+2. Go to each creator's profile
+3. Sort by most popular (not most recent)
+4. Select their 2 highest-performing videos
 
-### The Winning Videos Testing Recipe (E03a Gusten Sun)
-Test video ideas before heavy production investment. Track which titles/thumbnails get clicked. Double down on what works; iterate on underperformers. Model proven viral formats from your niche.
+### Analysis Protocol
+
+For each of 6 videos, rewatch 5-6 times. Each rewatch focuses on ONE variable:
+
+| Rewatch # | Focus Variable | Document |
+|---|---|---|
+| 1 | Text/captions | What text appeared? When? Size? Font? |
+| 2 | Editing style | Cut frequency? Transitions? Pacing? |
+| 3 | Lighting and color | Warm/cool? Bright/moody? Color grading? |
+| 4 | Camera angles | Close-up? Wide? Movement? B-roll? |
+| 5 | Tonality/energy | Excited? Calm? Fast/slow speech? Pauses? |
+| 6 | Overall structure | Hook duration? Body structure? CTA style? |
+
+### Output
+
+18 specific "tricks" documented (3 per video x 6 videos). These become your initial creative toolkit.
 
 ---
 
-## 30-Day Content Calendar Generator (E02)
+## 50+ IDEAS SYSTEM (Sunny, E08)
 
-### Inputs Required
-1. Content Pillars (3-5)
-2. Audience Archetypes (3-5)
-3. Sub-topics per pillar (5-10)
-4. Preferred formats per platform
+### Source 1: "Master That" List
+Write 10 things you know you are good at -- expertise, trends, tips. Each becomes a video/post topic.
 
-### Rotation Logic
-- Day 1: Pillar 1 -> Day 2: Pillar 2 -> Day 3: Pillar 3 -> repeat
-- Rotate through Magical Multipliers without repetition until all 10 used, then restart
-- Rotate through Audience Archetypes evenly
-- Rotate through Sub-topics evenly
-- Each day includes: pillar, content bucket, multiplier, audience archetype, sub-topic, post title/hook, suggested format
+### Source 2: FAQs
+List the 10 most frequently asked questions from clients, DMs, comments, or friends. Each FAQ = content.
 
-### Calendar Template (Week 1 Example)
+### Source 3: AnswerThePublic.com
+Enter your keyword. Get all questions, prepositions, comparisons, and related queries. Limited to 2 free searches/day.
 
-| Day | Pillar | Bucket | Multiplier | Archetype | Format |
-|---|---|---|---|---|---|
-| Mon | Pillar 1 | Actionable | Tips | Beginner | Short post |
-| Tue | Pillar 2 | Your Story | Lessons | Manager | Video |
-| Wed | Pillar 3 | Futurism | Stats | Advanced | Carousel |
-| Thu | Pillar 1 | Actionable | Steps | Beginner | Video |
-| Fri | Pillar 2 | Your Story | Personal Stories | Manager | Short post |
+### Source 4: YouTube/Google Search Autocomplete
+Type keyword + go through A-Z for auto-complete suggestions. Each suggestion = validated demand.
 
-### Weekly Review Process (E02)
-30 minutes every Saturday. Look at posts for the week. Track per-post: saves, comments, profile visits, follows, link clicks. Clone your winner 3 ways: new hook, new audience segment, new format.
+### Source 5: Relevant Channels/Accounts
+Filter YouTube search by "Channel" or Instagram by accounts. Find 5-10 competitors.
+
+### Source 6: Top 10 Most Popular
+On each competitor, sort by Most Popular. These are proven winners in your space.
+
+### Source 7: Gateway Videos
+Recent videos (past year) with abnormally high views relative to channel size. These represent trending topics and breakout formats.
+
+### Source 8: Six Degrees of Separation
+Identify recurring themes/sub-topics that appear across multiple competitor channels. These are core demand signals.
+
+### Source 9: Amazon Book Reviews
+Search books in your niche. Read table of contents (for topic ideas) + negative reviews (for what is MISSING and what audiences crave).
+
+### Source 10: Blogs, Podcasts, Courses
+Google "top blogs/podcasts for [topic]." Browse Udemy/Skillshare curricula. Each module title = potential content topic.
+
+---
+
+## 4 CONTENT BOXES (Ryan Magin, E06)
+
+### Box 1: Profession/Expertise
+Things you have been PAID for. Proof exists. Credibility is built-in.
+
+### Box 2: Competent Skill Sets
+Things you are good at but don't monetize. Friends ask you for advice on these topics.
+
+### Box 3: Relationships & Family
+The most relatable category. Everyone has relationships. Humanizes your brand.
+
+### Box 4: Hobbies & Interests
+Things you do for fun. Shows personality beyond your niche.
+
+### Planning with Boxes
+- Post ~30 videos/month
+- Pull 5-7 per week from one box
+- Week 1: Profession box
+- Week 2: Skills box
+- Week 3: Relationships box
+- Week 4: Hobbies box
+- Rotate continuously
+
+---
+
+## 20 AUTHORITY-BUILDING CONTENT FORMULAS (Authority Marketing, E05)
+
+1. **Define Topics** -- List all topics your target role needs to master
+2. **Use Frameworks** -- Topic + Framework (Bad vs. Good, Steps, Listicle) = Post
+3. **Use Hooks** -- Hook + Topic = Post
+4. **Show, Don't Tell** -- Show work + explain process
+5. **Use Principles** -- A philosophy you preach + framework = Post
+6. **Use Values** -- Core value + topic = Post
+7. **Save + Add POV** -- Great post from another creator + your perspective
+8. **Document Work** -- What you did today + framework = Post
+9. **Repurpose** -- One idea from long-form content = Post
+10. **Answer Questions** -- Ideal client's question + your answer = Post
+11. **Humble Flexing** -- Subtle proof of expertise (low engagement, high lead gen)
+12. **Testimonials** -- Screenshot + underline key part + 1-2 sentences
+13. **Address Frustrations** -- Client frustrations + framework = Post
+14. **Address Fears** -- Client fears + framework = Post
+15. **Address Wants** -- Client wants + framework = Post
+16. **Address Roadblocks** -- Client roadblocks + show solution
+17. **Address Mistakes** -- Common mistakes + alternatives = Post
+18. **Build In Public** -- Share progress, ask feedback, report results
+19. **Crush Objections** -- Handle objections upfront in content
+20. **Explain Process** -- What working with you looks like
+
+---
+
+## 7 BRAINSTORMING METHODS (Dickie Bush, E07)
+
+1. Write about what you are reading right now
+2. Respond or expand on someone else's writing
+3. Make a list of things you are curious about but don't know
+4. Make lists of anything (tools, tips, resources, lessons)
+5. Curate "the best of" any industry/topic
+6. Explain How To do something (include nuance/obstacle)
+7. Share a personal story + the life lesson learned
+
+---
+
+## WHY POSTS FAIL -- HIERARCHY (Frabrand, E01)
+
+In order of impact:
+1. **Hook and concept** -- NUMBER ONE reason (not algorithm, not packaging, not CTAs)
+2. **Packaging/visuals** -- How it looks
+3. **Call to action** -- What you ask them to do
+4. **Information quality** -- The actual content
+
+Fix in this order. Most creators obsess over #4 while ignoring #1.
+
+---
+
+## CHARACTERISTICS OF VIRAL IDEAS (Frabrand, E01)
+
+- **Simple** -- easy to understand, no jargon
+- **User-focused** -- addresses specific pain or transformation
+- **Curiosity gap** -- makes viewers think "can I learn something?"
+- **Pain or benefit focused** -- painkiller content > vitamin content
+- **Effort-vs-reward favors user** -- easy to extract value
+- **Beginner's mindset** -- never forget where you started
+- **Trending integration** -- combine mainstream events with your niche
+- People don't want something truly NEW -- they want the familiar presented differently

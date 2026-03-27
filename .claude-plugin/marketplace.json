@@ -72,6 +72,11 @@
       "name": "dtc-mastery",
       "source": "./plugins/dtc-mastery",
       "description": "End-to-end DTC brand building across Shopify, Amazon, and TikTok Shop. Covers product ideation, sourcing, manufacturing, platform setup, launch, pricing, influencer marketing, operations, scaling, and exit strategy."
+    },
+    {
+      "name": "agency-mastery",
+      "source": "./plugins/agency-mastery",
+      "description": "Expert agency advisor covering foundation, positioning, client acquisition, sales, onboarding, delivery, client management, finance, and scaling. Synthesizes Shan Hanif, Dee Deng, and Donvesh."
     }
   ]
 }
